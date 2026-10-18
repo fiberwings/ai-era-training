@@ -1,0 +1,222 @@
+AI Security Bridge Course | CISSP, SSCP, CGRC, CCSP & CSSLP (https://www.udemy.com/course/ai-security-bridge/)
+citeturn79view0 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-security-bridge/","lineno":null}); Total lines: 232
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Security Bridge Course | CISSP, SSCP, CGRC, CCSP & CSSLP
+L30: Rating: 4.6 out of 5 4.6cite8†(7 ratings) L31: 
+L32: 192 students
+L33: 
+L34: cite0†Image†img-c.udemycdn.com Preview this course
+L35: # AI Security Bridge Course | CISSP, SSCP, CGRC, CCSP & CSSLP
+L36: 
+L37: Understand the shared AI security core and the certification-specific differences across governance, cloud, Risk [2026]
+L38: 
+L39: Created bycite9†Cyvitrix Learning | PMP, Security+, CISSP, CISA, CISM, GRC, CGRC, SSCP Trainings L40: 
+L41: Last updated 8/2026
+L42: 
+L43: English
+L44: 
+L45: English [Auto],
+L46: 
+L47: cite0†Image†img-c.udemycdn.com Preview this course
+L48: ## What you'll learn
+L49: 
+L50:   * Map ISC2 AI guidance to CISSP, SSCP, CGRC, CCSP, and CSSLP domains and understand what changes for each path.
+L51: 
+L52:   * Identify AI assets, data flows, risks, and control gaps across models, prompts, agents, APIs, cloud services, and software pipelines.
+L53: 
+L54:   * Apply security principles to AI systems, including access control, encryption, monitoring, incident response, and assurance activities.
+L55:   * Evaluate AI governance, compliance, third-party risk, and data sovereignty issues using a structured security and risk-based mindset.
+L56: 
+L57:   * Distinguish shared AI security concepts from certification-specific topics in governance, cloud security, operations, and secure development.
+L58: 
+L59:   * Strengthen exam readiness by connecting AI security concepts to practical scenarios aligned with ISC2 certification thinking.
+L60: ## Course content
+L61: 
+L62: 7 sections • 44 lectures • 10h 4m total length
+L63: 
+L64: Expand all sections
+L65: ### AI Security Foundations That Apply Across All ISC2 Certifications 17 lectures • 3hr 59min
+L66: 
+L67:   * Course Introduction and Purpose Preview 4:17
+L68: 
+L69: Bridge AI security across CISSP, SSCP, CGRC, CCSP, and CSSLP exams by establishing a shared foundation in AI governance, data lifecycle, architecture, monitoring, controls, privacy, and incident response.
+L70: 
+L71:   * What this Course is About?0:33
+L72: 
+L73: Welcome to the course, and thank you for joining.
+L74: Use this course in two ways: first, to understand how AI changes security practice, and second, to recognize how each certification frames those changes
+L75: 
+L76:   * AI Governance, Accountability, and Transparency Preview 18:11
+L77: This lecture explains why AI governance has become a foundational cybersecurity and trust issue across modern organizations. It explores accountability, decision ownership, transparency expectations, and the practical need to align AI use with security, ethics, business goals, and defensible oversight.
+L78: 
+L79:   * AI Asset Identification and Classification 15:28
+L80: This lecture focuses on identifying what actually counts as an AI asset, including models, datasets, prompts, agents, vector stores, and supporting services. It shows how classification supports security ownership, risk analysis, protection priorities, and exam-style thinking across multiple ISC2 pathways.
+L81: 
+L82:   * AI Data Governance and Life Cycle Management 18:19
+L83: This lecture examines how AI depends on data throughout collection, preparation, training, inference, retention, and disposal. It highlights why poor governance weakens trust, privacy, compliance, and model security, and how lifecycle discipline supports control design and operational resilience.
+L84: 
+L85:   * AI Security Architecture Fundamentals 17:15
+L86: This lecture introduces the foundational architectural concepts needed to secure AI systems. It explains trust boundaries, component relationships, dependency flows, and the difference between securing a traditional application and securing an AI-enabled environment with models, pipelines, and dynamic behavior.
+L87: 
+L88:   * Designing Secure AI Systems 15:42
+L89: This lecture explores how to embed security into AI system design rather than adding controls later. It covers secure design choices, abuse resistance, dependency awareness, and ways to reduce exposure across training, deployment, interaction, and model-driven decision processes.
+L90: 
+L91:   * Access Controls for Model, Data, Agents, and APIs 14:05
+L92: This lecture explains how access control principles apply to the unique components of AI systems. It examines permissions, role design, identity boundaries, API exposure, agent behavior, and how improper access can lead to misuse, data leakage, or unsafe model actions.
+L93: 
+L94:   * Encryption In Transit, At Rest, and In Use for AI Data 12:45
+L95: This lecture examines how encryption protects sensitive AI-related data during storage, transfer, and processing. It connects cryptographic protection to model inputs, inference outputs, training datasets, secrets, and regulated information that must remain secure throughout the AI lifecycle.
+L96: 
+L97:   * AI Gateway Controls Prompt Firewalls, RateToken Limits 11:22
+L98: This lecture explains how AI gateway controls help reduce misuse and abuse at the interaction layer. It covers prompt firewalls, usage restrictions, filtering logic, and rate or token controls that help manage exposure, reduce prompt-based attacks, and improve operational discipline.
+L99: 
+L100:   * Adversarial Attacks and AI Vulnerabilities 17:23
+L101: This lecture introduces the threat landscape surrounding AI-specific weaknesses, including evasion, poisoning, manipulation, and exploitation of system behavior. It helps learners understand how attackers target AI differently from traditional systems and why new defensive thinking is required.
+L102: 
+L103:   * AI Assurance, Audits, and Impact Assessments Preview 17:54
+L104: This lecture explains how organizations evaluate whether AI systems are trustworthy, controlled, and aligned with policy or regulatory expectations. It covers assurance activities, audits, impact assessments, evidence gathering, and the importance of documenting how AI risks are understood and managed.
+L105: 
+L106:   * Privacy in AI Systems 15:33
+L107: This lecture explores how privacy issues arise in AI design, deployment, and operation. It addresses sensitive data use, inference risks, personal information handling, and the importance of embedding privacy considerations into governance, architecture, controls, and monitoring activities.
+L108: 
+L109:   * Incident Response for AI Systems 15:35
+L110: This lecture explains how security incidents involving AI may differ from those involving conventional systems. It examines detection, triage, containment, recovery, and lessons learned when the issue involves model misuse, unsafe outputs, data exposure, or compromised AI components.
+L111: 
+L112:   * Continuous Monitoring for AI Systems 15:50
+L113: This lecture focuses on the need to monitor AI systems over time rather than assuming they remain safe after deployment. It covers changes in behavior, emerging threats, misuse patterns, control drift, and the operational importance of sustained visibility and review.
+L114: 
+L115:   * Data Lineage, Traceability, and Auditability 16:15
+L116: This lecture explains why organizations must be able to trace where AI data came from, how it was transformed, and how decisions were influenced. It connects lineage and traceability to accountability, investigations, assurance activities, and confidence in AI-enabled processes.
+L117: 
+L118:   * Certified in Cybersecurity AI Mindset 12:20
+L119: ### CISSP Delta, Strategic AI Security, Oversight, and Domain Interpretation 3 lectures • 46min
+L120: 
+L121:   * CISSP Mindset in AI 10:58
+L122: 
+L123:   * Explainability, Interpretability, and Human Oversight 17:25
+L124: 
+L125: This lecture examines how explainability and interpretability affect trust, governance, and secure decision-making in AI systems. It also highlights the importance of meaningful human oversight when AI influences business, security, or risk-sensitive actions at scale.
+L126: 
+L127:   * Global Regulatory Landscape for AI 18:02
+L128: This lecture provides a strategic view of the evolving regulatory environment surrounding AI. It helps learners understand how legal and compliance expectations influence governance decisions, control design, oversight structures, and enterprise risk management across jurisdictions.
+L129: ### SSCP Delta, Operational AI Security, Administration, and Monitoring 4 lectures • 50min
+L130: 
+L131:   * SSCP Mindset 11:11
+L132: 
+L133:   * Monitoring and Auditing Details Prompt Monitoring 12:18
+L134: 
+L135: This lecture focuses on practical monitoring and logging considerations for AI interactions. It explains what operational teams should observe, how prompt activity can reveal misuse or policy violations, and why audit trails matter for security operations and troubleshooting.
+L136: 
+L137:   * Automating Security Tasks with AI 13:01
+L138: This lecture explores how AI can support practical security operations, including triage, alert handling, analysis support, and repetitive workflow execution. It also discusses the need to validate outputs and maintain human judgment when automation affects security decisions.
+L139: 
+L140:   * Vulnerability Management for AI Systems 13:35
+L141: This lecture explains how vulnerability management changes when models, pipelines, agents, and external AI services become part of the environment. It covers discovery, prioritization, remediation thinking, and the challenge of handling weaknesses that are not purely software defects.
+L142: ### CGRC Delta, AI Governance, Risk, Compliance, and Control Assurance 8 lectures • 1hr 58min
+L143: 
+L144:   * CGRC Mindset 11:35
+L145: 
+L146: Adopt a CGRC mindset to govern AI with clear boundaries, controls, and ongoing assurance. Learn how governance, risk management, and compliance maintain trust as AI systems evolve.
+L147: 
+L148:   * Industry AI Frameworks and Standards 15:37
+L149: This lecture introduces the major frameworks and standards shaping AI governance and risk management. It explains how these references help organizations structure policies, controls, assurance methods, and compliance decisions in a disciplined and repeatable way.
+L150: 
+L151:   * Foundations of AI Risk Management 14:55
+L152: This lecture explains the core principles behind managing AI risk in an enterprise setting. It helps learners distinguish technical issues from governance concerns and shows how risk thinking connects security, compliance, ethics, resilience, and operational decision-making.
+L153: 
+L154:   * Conducting AI Risk Assessments 13:46
+L155: This lecture focuses on how to assess AI-related risk in a structured and defensible way. It explores threat scenarios, control gaps, impact reasoning, stakeholder input, and the practical steps needed to move from concern to documented risk treatment.
+L156: 
+L157:   * Designing AI Security Controls 15:37
+L158: This lecture examines how to translate AI risks into concrete control decisions. It discusses preventive, detective, and corrective measures, along with the challenge of tailoring controls to systems that are probabilistic, data-dependent, and often influenced by third-party components.
+L159: 
+L160:   * Third-party Compliance Evaluations and Data Sovereignty ~12:35
+L161: This lecture explains how external providers, cloud platforms, and AI vendors affect compliance obligations and control confidence. It also addresses data sovereignty, jurisdictional concerns, and the importance of evaluating whether third-party arrangements support secure and lawful AI use.
+L162: 
+L163:   * Monitoring AI Bias and Robustness 16:47
+L164: This lecture explores how bias and robustness issues can become governance, risk, and compliance concerns. It highlights why organizations must monitor fairness, stability, and resilience over time, especially when AI outputs affect people, decisions, or regulated processes.
+L165: 
+L166:   * Measuring AI Security Effectiveness 16:57
+L167: This lecture explains how organizations can determine whether AI security controls are actually working. It examines metrics, indicators, evidence sources, and the importance of measuring security performance in a way that supports leadership reporting and continuous improvement.
+L168: ### CCSP Delta, Cloud AI Security, Provider Risk, and Data Protection 5 lectures • 1hr 15min
+L169: 
+L170:   * CCSP Mindset 10:57
+L171: 
+L172:   * AI Supply Chain Security 22:04
+L173: 
+L174: This lecture examines how AI systems depend on models, libraries, datasets, platforms, and services that may come from multiple sources. It explains why supply chain exposure matters and how cloud-connected AI increases dependency risk, validation needs, and trust concerns.
+L175: 
+L176:   * Vendor Risks in AI Solutions 15:28
+L177: This lecture focuses on the security and governance risks introduced by external AI vendors and service providers. It explores due diligence, contract awareness, dependency mapping, service limitations, and how provider weaknesses can directly affect cloud security posture.
+L178: 
+L179:   * RAG, Embeddings, and Vector Storage ~11:48
+L180: This lecture explains the core concepts behind retrieval-augmented generation, embeddings, and vector storage in modern AI systems. It helps learners understand why these components matter for data exposure, access control, architecture, and secure use of knowledge-driven AI in cloud environments.
+L181: 
+L182:   * Guardrail Testing and Validation Proving Guardrails Work~15:08
+L183: This lecture focuses on verifying whether AI guardrails actually perform as intended under realistic conditions. It examines testing logic, failure scenarios, bypass attempts, and the operational need to validate claims about safety, policy enforcement, and abuse resistance.
+L184: ### CSSLP Delta, Secure AI Software Development, Testing, and Supply Chain Risk 5 lectures • 1hr 12min
+L185: 
+L186:   * CSSLP Mindset 12:06
+L187: 
+L188:   * Prompt Engineering for Security Use and Abuse ~12:42
+L189: 
+L190: This lecture examines prompt engineering from both a defensive and offensive perspective. It shows how prompts can support secure use cases while also becoming an attack surface, making this topic highly relevant to secure design, misuse cases, and application behavior.
+L191:   * AI-enabled Tools and Platforms IDEBrowserCLI Plugins 12:52
+L192: 
+L193: This lecture explores the security implications of AI-enabled developer tools, browser assistants, command-line integrations, and plugins. It helps learners understand how convenience features can affect code quality, data exposure, dependency trust, and secure software practices.
+L194: 
+L195:   * MITRE ATLAS, MIT AI Risk Repository, CVE AI Working Group ~17:22
+L196: This lecture introduces practical knowledge sources that help security professionals understand AI threat patterns and emerging weaknesses. It explains how structured repositories and industry initiatives can support testing, design reviews, secure development, and more informed risk discussions.
+L197: 
+L198:   * Data Quality, Provenance, and Lifecycle Risks 16:42
+L199: This lecture focuses on how poor-quality, untrusted, or poorly governed data can undermine AI-enabled software. It connects provenance, integrity, and lifecycle discipline to application assurance, trustworthy output, and the long-term maintainability of secure AI-supported systems.
+L200: ### Course Conclusion 2 lectures • 4min
+L201: 
+L202:   * Course Conclusion 2:50
+L203: 
+L204:   * Bonus Lecture 1:06
+L205: 
+L206: ## Requirements
+L207: 
+L208:   * This course is suitable for learners preparing for CISSP, SSCP, CGRC, CCSP, or CSSLP, or professionals bridging into AI security.
+L209: 
+L210:   * All key AI security concepts are explained in a practical and certification-relevant way.
+L211: 
+L212:   * This course is ideal for security, risk, compliance, cloud, and software professionals who want to understand AI guidance across ISC2 paths.
+L213: ## Description
+L214: 
+L215: This course contains the use of artificial intelligence.
+L216: 
+L217: This course contains the use of AI, and is designed for cybersecurity, cloud, governance, risk, compliance, and application security professionals who want to understand how AI security guidance maps across CISSP, SSCP, CGRC, CCSP, and CSSLP. It is especially valuable for learners who already have security experience and want one clear bridge course that explains both the shared foundation and the certification-specific differences.
+L218: A practical bridge course covering AI governance, controls, cloud risk, secure development, and operational security across five ISC2 paths
+L219: Rather than repeating overlapping material across multiple certification paths, this course gives you a shared core foundation in AI security that applies across all five roles, then shows you the specific differences that matter for each certification track. You will explore AI governance, asset identification, data lifecycle management, secure design, access control, encryption, privacy, assurance, incident response, continuous monitoring, and traceability.
+L220: You will also examine the unique AI concerns that matter most in governance and compliance, cloud security, secure software development, and day-to-day security operations.
+L221: Whether you are preparing for an exam, updating your professional knowledge, or trying to understand how AI affects your current security responsibilities, this course will help you bridge the gap with structured, certification-relevant guidance. It is a practical, focused learning experience built for modern cybersecurity professionals who want clarity without unnecessary repetition.
+L222: ## Who this course is for:
+L223:   * Security professionals preparing for CISSP, SSCP, CGRC, CCSP, or CSSLP who want a focused bridge into AI security topics.
+L224:   * Cybersecurity practitioners who already understand core security concepts and want to see how AI changes risk, controls, architecture, operations, and assurance.
+L225:   * Governance, risk, and compliance professionals who need to understand AI oversight, third-party risk, regulatory pressure, and control effectiveness.
+L226:   * Cloud and security architects who want to understand how AI affects cloud services, data flows, vendor dependency, and shared responsibility.
+L227:   * Secure software and application security professionals who want to understand AI-related design, development, testing, and supply chain concerns.
+L228:   * Anyone who wants one practical course that explains the shared AI security foundation across multiple ISC2 certification paths without repeating content five different times.
+L229: Show more Show less
+L230: 
+L231: cite10†Report abuse 

@@ -1,0 +1,220 @@
+Organizational Redesign in the AI Era (https://www.udemy.com/course/organizational-redesign-in-the-ai-era/)
+citeturn161view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/organizational-redesign-in-the-ai-era/","lineno":null}); Total lines: 230
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Organizational Redesign in the AI Era
+L30: 
+L31: Role Play
+L32: 
+L33: Highest Rated
+L34: Rating: 4.9 out of 5 4.9cite8†(11 ratings) L35: 
+L36: 370 students
+L37: 
+L38: cite0†Image†img-c.udemycdn.com Preview this course
+L39: # Organizational Redesign in the AI Era
+L40: 
+L41: Rethink structures, roles, and workflows to build an AI-ready organization
+L42: 
+L43: Created bycite9†Anton Voroniuk• 1.250.000+ Students , cite10†Anton Voroniuk Support L44: 
+L45: Last updated 7/2026
+L46: 
+L47: English
+L48: 
+L49: English [Auto],
+L50: 
+L51: cite0†Image†img-c.udemycdn.com Preview this course
+L52: ## What you'll learn
+L53: 
+L54:   * Assess how AI is reshaping roles, teams, and workflows in your organization
+L55: 
+L56:   * Apply proven frameworks to redesign structures around AI-augmented work
+L57: 
+L58:   * Identify which processes to automate, augment, or keep human-led
+L59: 
+L60:   * Redefine roles and skills so teams stay valuable alongside AI
+L61: 
+L62:   * Lead organizational change and manage resistance to AI adoption
+L63: 
+L64:   * Build a practical, phased redesign roadmap for your own team or company
+L65: ## Course content
+L66: 
+L67: 5 sections • 35 lectures • 1h 27m total length
+L68: 
+L69: Expand all sections
+L70: ### Introduction to Organizational Redesign in the AI Era 7 lectures • 18min
+L71: 
+L72:   * Introduction Preview 1:28
+L73: 
+L74: Meet your instructor and get a roadmap for turning AI disruption into a clear organizational redesign plan.
+L75: 
+L76:   * Why AI Is Reshaping How Organizations Work Preview 3:23
+L77: 
+L78: Explore the forces pushing companies to redesign roles, teams, and processes around AI.
+L79: 
+L80:   * Signals That Your Organization Needs Redesign Preview 3:04
+L81: Learn to recognize the warning signs that current structures no longer fit an AI-driven world.
+L82: 
+L83:   * Stepping into the Role of a Redesign Leader
+L84: 
+L85:   * Mapping Where AI Creates Value in Your Organization Preview 2:33
+L86: 
+L87: Practice identifying the functions and workflows where AI delivers the most impact.
+L88: 
+L89:   * Setting Redesign Goals and Success Metrics 2:32
+L90: 
+L91: Define what a successful redesign looks like and how you will measure progress.
+L92: 
+L93:   * Glossary and Organizational Redesign Checklist 4:44
+L94: Download a glossary of key terms and a checklist to assess your organization's readiness.
+L95: ### Frameworks & Diagnostic Toolkit 7 lectures • 18min
+L96: 
+L97:   * Core Frameworks for AI-Era Organizational Design 3:05
+L98: 
+L99: Survey the leading models for structuring teams and roles around AI-augmented work.
+L100: 
+L101:   * How AI Changes the Nature of Work Itself Preview 3:04
+L102: 
+L103: Understand how AI shifts the balance of tasks, skills, and decisions that define a job.
+L104: 
+L105:   * Running an Organizational Readiness Assessment 2:13
+L106: 
+L107: Use a structured tool to evaluate how ready your organization is for AI-driven redesign.
+L108:   * Mapping Roles, Tasks, and Workflows 1:45
+L109: 
+L110: Build a clear map of current roles and workflows as the baseline for redesign.
+L111: 
+L112:   * Spotting Automation and Augmentation Opportunities 1:57
+L113: 
+L114: Analyze your workflow map to flag tasks to automate, augment, or keep human-led.
+L115: 
+L116:   * Framework Reference Guide and Diagnostic Templates 3:48
+L117: 
+L118: Download the framework reference guide and ready-to-use diagnostic templates.
+L119: 
+L120:   * A Quick Note from Udemy 1:53
+L121: Make the most of Udemy's platform features to support your learning.
+L122: ### Redesigning Roles, Teams & Workflows 6 lectures • 14min
+L123: 
+L124:   * Principles of Structuring AI-Augmented Teams 4:36
+L125: 
+L126: Learn the design principles that keep teams effective when AI handles part of the work.
+L127: 
+L128:   * Redefining Roles and Skills for the AI Era 1:55
+L129: 
+L130: Redesign job roles so people focus on the work AI cannot do well.
+L131: 
+L132:   * Redesigning Workflows Around Human-AI Collaboration 1:49
+L133: 
+L134: Rebuild a core workflow to blend human judgment with AI capabilities.
+L135:   * Choosing the Right Team Structure and Reporting Lines 1:40
+L136: 
+L137: Select and sketch a team structure that fits your redesigned workflows.
+L138: 
+L139:   * Role and Workflow Redesign Templates 2:31
+L140: 
+L141: Download templates for redefining roles and mapping redesigned workflows.
+L142: 
+L143:   * Getting Your Own Practical Companion 1:40
+L144: 
+L145: Receive and learn to use the "AI for Business" book as an ongoing reference.
+L146: ### Real Cases & Leading the Change 10 lectures • 24min
+L147: 
+L148:   * Anatomy of a Successful Organizational Redesign 3:31
+L149: 
+L150: Break down what makes an AI-era redesign stick versus one that quietly fails.
+L151: 
+L152:   * Case: Redesigning a Customer Support Team Around AI 2:02
+L153: 
+L154: Work through restructuring a support team as AI takes over routine inquiries.
+L155: 
+L156:   * Case: Restructuring an Operations Function 1:56
+L157: 
+L158: Redesign an operations function to automate repetitive work and elevate human roles.
+L159:   * Case: Reshaping a Knowledge-Work Department 1:57
+L160: 
+L161: Rethink a knowledge-heavy department where AI augments analysis and decision-making.
+L162: 
+L163:   * Case: Redesigning a Sales Function Around AI 2:00
+L164: 
+L165: Restructure a sales team so AI handles prospecting and admin while people focus on relationships.
+L166: 
+L167:   * Leading Change and Managing Resistance to AI 1:49
+L168: 
+L169: Build a communication and change plan that brings people along through the redesign.
+L170: 
+L171:   * Reskilling and Redeploying Your Workforce 1:45
+L172: Plan how to reskill and redeploy people whose roles change under the new design.
+L173: 
+L174:   * Course Feedback & Suggestions 0:14
+L175: 
+L176: Thanks for taking this course! Your feedback helps us improve content and make the learning experience even better.
+L177: 
+L178:   * Capstone: Design a Full Redesign Plan for Your Organization 2:58
+L179: 
+L180: Independently produce a complete, phased redesign plan for your own team or company from diagnosis to rollout.
+L181: 
+L182:   * Case Study Pack and Change Management Templates 5:44
+L183: Download worked case studies and templates for planning and communicating your redesign.
+L184: ### Conclusions & Course Wrap-up 6 lectures • 14min
+L185: 
+L186:   * Bringing It All Together: Your Redesign Playbook 3:30
+L187: 
+L188: Review the full journey from diagnosis to rollout and see how each step fits one repeatable method.
+L189: 
+L190:   * Building Your Personal Organizational Redesign Playbook 2:38
+L191: 
+L192: Create a personalized playbook capturing your go-to frameworks, tools, and change tactics.
+L193: 
+L194:   * Conclusion 1:22
+L195: 
+L196: Celebrate the redesign plan you have built and get clear next steps for leading change in your organization.
+L197:   * Continued Learning Resources and Templates 2:37
+L198: 
+L199: Download a resource pack to keep advancing your organizational design skills after the course.
+L200: 
+L201:   * How to leave a review 1:55
+L202: 
+L203: Learn how to leave a review for the course.
+L204: 
+L205:   * How to get a certificate 2:08
+L206: 
+L207: Learn how to obtain your course completion certificate.
+L208: ## Requirements
+L209: 
+L210:   * No technical or AI background is required
+L211: ## Description
+L212: 
+L213: This course contains the use of artificial intelligence.
+L214: Most companies don't have an AI problem. They have a structure problem that AI just made impossible to ignore. Give a team powerful new tools and leave the org chart, the workflows, and the role definitions untouched, and those tools quietly lose. That's the pattern this course exists to break.
+L215: Here, you'll learn to lead the redesign AI actually demands - not just rolling out new tools, but rethinking how roles, workflows, and teams fit together in the first place.
+L216: You'll begin by understanding the forces pushing organizations to change, and learn to spot the specific signals that your own structure no longer matches the work it's supposed to support. From there, you'll build a complete diagnostic toolkit - readiness assessments, task classification frameworks, workflow maps - so you're working from evidence instead of instinct.
+L217: Then the real work starts. You'll redesign roles around judgment instead of routine output, build workflows where humans and AI hand off deliberately rather than by accident, and choose team structures built for how work actually flows today. You'll apply the same method across four real-world cases - support, operations, knowledge work, and sales - diagnosing, redesigning, and measuring impact each time.
+L218: Structural change is never just a technical problem, so you'll also learn to lead its human side: staying honest under uncertainty, taking resistance seriously instead of dismissing it, and building real reskilling paths for anyone whose role shifts. An interactive role play drops you straight into that seat - leading a nervous team and a demanding executive through the exact conversations redesign leaders actually face.
+L219: By the end, you won't just understand what AI is doing to organizations. You'll have your own personal redesign playbook - a method you can return to again and again, for any team, any department, any company, as AI keeps reshaping how work gets done.
+L220: This course contains a promotion.
+L221: ## Who this course is for:
+L222: 
+L223:   * Business professionals
+L224:   * Managers and team leads
+L225:   * Executives and founders
+L226: 
+L227: Show more Show less
+L228: 
+L229: cite11†Report abuse 

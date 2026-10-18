@@ -1,0 +1,230 @@
+GenAI Cybersecurity Solutions: OWASP Top 10 for LLM Apps (https://www.udemy.com/course/genai-cybersecurity-solutions-i/)
+citeturn119view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/genai-cybersecurity-solutions-i/","lineno":null}); Total lines: 240
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: GenAI Cybersecurity Solutions: OWASP Top 10 for LLM Apps
+L30: 
+L31: Role Play
+L32: Rating: 4.3 out of 5 4.3cite8†(260 ratings) L33: 
+L34: 8,254 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # GenAI Cybersecurity Solutions: OWASP Top 10 for LLM Apps
+L38: 
+L39: Secure Generative AI Apps: Learn concepts and explore practical such as prompt injection, insecure output handling etc.
+L40: 
+L41: Created bycite9†Start-Tech Academy , cite10†Abhishek Bansal , cite11†Pukhraj Parikh L42: 
+L43: Last updated 4/2026
+L44: 
+L45: English
+L46: 
+L47: German [Auto],English [Auto], 5 more
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Understand the key threats and vulnerabilities in Generative AI systems.
+L53: 
+L54:   * Learn strategies to prevent and mitigate prompt injection and model theft attacks.
+L55: 
+L56:   * Master techniques to secure AI models against denial of service and data poisoning.
+L57: 
+L58:   * Gain hands-on experience with demos of security threats and countermeasures in AI.
+L59: 
+L60:   * Protect sensitive data by learning secure output handling and plugin security best practices.
+L61:   * Explore risk management strategies to address AI-specific supply chain vulnerabilities.
+L62: 
+L63:   * Shield AI models from unauthorized access and theft
+L64: ## Course content
+L65: 
+L66: 13 sections • 36 lectures • 2h 8m total length
+L67: 
+L68: Expand all sections
+L69: 
+L70: ### Introduction 1 lecture • 2min
+L71: 
+L72:   * Introduction Preview 2:18
+L73: 
+L74: Learn how generative AI transforms industries and security risks, then apply hands-on techniques to secure llm apps against prompt injection, data poisoning, and model theft.
+L75: ### Introduction to Generative AI and Security 3 lectures • 9min
+L76: 
+L77:   * What is Generative AI Preview 2:03
+L78: 
+L79: Explore generative AI, driven by machine learning, to create texts, images, and audio, with GANs and ethical concerns around copyright, misinformation, and biases in apps like ChatGPT and Copilot.
+L80: 
+L81:   * This is a milestone 3:31
+L82: Celebrate reaching a milestone in the GenAI cybersecurity course, joining top 20% of students. Navigate playback rate, subtitles, and Q&A to progress in the OWASP top 10 for LLM apps.
+L83: 
+L84:   * Why Securing Generative AI is Important 3:24
+L85: 
+L86: Secure generative AI from cyber threats by protecting sensitive data, preventing leaks and tampering, upholding privacy and GDPR laws, and building trust and public safety in healthcare and finance.
+L87: 
+L88:   * Quiz
+L89: ### Threat Landscape of Generative AI 2 lectures • 8min
+L90: 
+L91:   * Potential Threats in GenAI Applications Preview 4:56
+L92: 
+L93: Identify potential threats in genai applications by examining ai data, usage, application, and platform, including command injection, data exposure, data tampering, supply chain risks, insecure integrations, and breakout attacks.
+L94: 
+L95:   * Manipulative Uses of GenAI 3:20
+L96: Explore how GenAI can be misused through deepfakes, data poisoning, and model theft, and learn how attackers hijack AI systems and craft convincing phishing to exploit defenses.
+L97: 
+L98:   * Quiz
+L99: ### Understanding AI Models and Tools 3 lectures • 8min
+L100: 
+L101:   * What is LLM Preview 2:56
+L102: 
+L103: Explore large language models (LLMs) as AI systems that understand and generate text, powered by neural networks. Learn their capabilities, limitations, and why careful, context-aware use matters.
+L104: 
+L105:   * What is an AI Model 3:02
+L106: 
+L107: An AI model acts as a digital brain trained with data and algorithms to make predictions and decisions. It learns patterns during training, can show biases, and powers everyday apps.
+L108:   * Creating a PortSwigger Account for Lab Access 2:01
+L109: 
+L110: Create a Portswigger account to access the labs, complete registration via email, log in, and prepare for four practical exercises focused on the OWASP top ten LLM apps.
+L111: 
+L112:   * Quiz
+L113: ### Prompt Injection Attacks 6 lectures • 23min
+L114: 
+L115:   * Prompt Injection 2:46
+L116: 
+L117: Examine prompt injection in GenAI apps, where crafted prompts bypass safeguards to leak data or modify outputs. Understand risks for chatbots, code tools, and AI assistants.
+L118: 
+L119:   * Direct vs. Indirect Prompt Injection 3:25
+L120: Explore direct and indirect prompt injection in llm apps, contrasting bold direct attacks with stealthy indirect tricks like poisoned webpage, and learn why indirect injections pose subtler, harder-to-detect risks.
+L121: 
+L122:   * Indirect Prompt Injection - Demo 12:52
+L123: 
+L124: Demonstrates indirect prompt injection in a lab setting by manipulating a live chat to delete a user account, illustrating how large language models interact with back-end apis and prompts.
+L125: 
+L126:   * Stop Prompt Injection 3:24
+L127: Defend llm apps against prompt injection by implementing input filtering, output validation, and sandboxing. Use prompt frameworks and limited context windows to prevent leakage and manipulation.
+L128: 
+L129:   * About the upcoming role play.0:38
+L130: 
+L131:   * Interview Simulation: Addressing Security Risks in Generative AI
+L132: ### Output Handling and Vulnerabilities 3 lectures • 18min
+L133: 
+L134:   * Insecure Output Handling (Theory)3:06
+L135: 
+L136: Learn how insecure output handling after AI generation can unleash hidden code or malicious links when you fail to sanitize outputs before delivery, leading to data breaches and phishing.
+L137: 
+L138:   * Insecure Output Handling - Demo 11:03
+L139: This lecture presents a practical lab on insecure output handling in an AI-driven chat system, focusing on cross-site scripting attacks and indirect prompt injection within an LMS.
+L140: 
+L141:   * Fixing Insecure Output Handling 3:33
+L142: 
+L143: Implement guardrails against insecure output handling by sanitizing inputs and outputs, validating formats, using apis, sandboxing ai outputs, and monitoring with detailed logging.
+L144: ### Supply Chain Vulnerabilities 1 lecture • 3min
+L145: 
+L146:   * Supply Chain Vulnerabilities 3:28
+L147: 
+L148: Identify supply chain vulnerabilities in open source libraries, third-party APIs, and cloud services; vet vendors, monitor updates with SBOMs and code signing, and maintain a rapid fallback plan.
+L149: ### Model Security Threats 4 lectures • 15min
+L150: 
+L151:   * Model Denial of Service (DoS)5:18
+L152: 
+L153: Model denial of service attacks target AI systems and large language models by overloading processing resources, causing resource drain and degraded quality of service for users.
+L154: 
+L155:   * Stop Model DoS Attack 2:08
+L156: 
+L157: Learn to stop model denial of service attacks with rate limiting and input validation. Enable auto scaling, prune and quantize, and deploy multi-region backups.
+L158: 
+L159:   * Training Data Poisoning 3:18
+L160: Explore how training data poisoning injects vulnerabilities, backdoors, and biases into AI systems, threatening performance and ethics. See stop-sign tampering in autonomous driving and real-world examples to illustrate security risks.
+L161: 
+L162:   * Training Data Poisoning Countermeasures 4:00
+L163: 
+L164: Clean and filter data to prevent training data poisoning, apply anomaly detection, and validate data provenance with tools like TensorFlow data validation to build resilient llm apps.
+L165: ### Data Protection and Disclosure Risks 3 lectures • 11min
+L166: 
+L167:   * Sensitive Information Disclosure 3:30
+L168: 
+L169: Prevent sensitive information disclosure in llm apps by securing data with encryption and strict access controls, and educating users to think before sharing personal or company details with ai.
+L170: 
+L171:   * When AI Spills Your Secrets – Examples 2:52
+L172: 
+L173: Explore real-world sensitive data disclosures in ai systems, including chatbots leaking passwords and credit card details and resumes exposing private metadata.
+L174:   * Countermeasures for Sensitive Data Disclosure 4:24
+L175: 
+L176: Implement data sanitization and masking, use regex and NER to redact sensitive details, enforce role based access control, validate inputs and outputs, and apply anonymization or synthetic data.
+L177: ### Plugin and Advanced Model Security 2 lectures • 6min
+L178: 
+L179:   * Plugin Security in LLM 2:18
+L180: 
+L181: Learn how plugins enhance llm capabilities, why they pose security risks, and how input validation, type checking, access controls, and monitoring reduce unauthorized data access and remote code execution.
+L182: 
+L183:   * Plugin Security Countermeasures 4:05
+L184: Learn how to secure LLM plugins with input validation, sandboxing, permission controls, and monitoring. Keep plugins updated and use moderation tools to block malicious requests.
+L185: 
+L186: 3 more sections
+L187: ## Requirements
+L188: 
+L189:   * No prior experience required—just an interest in Generative AI and cybersecurity.
+L190: ## Description
+L191: 
+L192: Are you a cybersecurity professional, AI enthusiast, or organization leader striving to protect AI-driven systems in an ever-evolving threat landscape? Do you want to learn how to safeguard Generative AI models from sophisticated attacks and vulnerabilities? This course is your ultimate guide to mastering the cybersecurity principles and practices needed to secure Generative AI applications.
+L193: This course takes you deep into the world of AI security, focusing on the threats, vulnerabilities, and countermeasures specific to Generative AI systems. Whether you are an IT security expert, AI practitioner, or a forward-thinking technology leader, this course provides you with the essential tools and knowledge to defend AI models and ensure data security.
+L194: This comprehensive journey begins with an introduction to generative AI and the importance of its security. It then delves into potential threats and manipulative uses, explores the inner workings of LLMs and AI models, and takes you through practical labs—including setting up lab access with Portswigger—to experience real-world demonstrations and remediation techniques.
+L195: 
+L196: Key Benefits for You:
+L197: Generative AI Fundamentals: Understand what generative AI is, including the roles of LLMs and AI models, and why securing these technologies is vital in today’s digital landscape.
+L198: 
+L199: Security Imperatives: Learn why protecting generative AI applications is crucial, with insights into potential threats and manipulative uses that could compromise system integrity.
+L200: Practical Lab Experience: Gain hands-on skills by setting up lab environments (including creating Portswigger accounts) and experiencing live demos of security vulnerabilities and countermeasures.
+L201: 
+L202: Prompt Injection Mitigation: Explore both direct and indirect prompt injection attacks, learn how to identify them, and discover effective strategies to stop malicious inputs.
+L203: Secure Output Handling:Understand how improper output handling can lead to vulnerabilities, and watch demonstrations on how to fix insecure output processing.
+L204: 
+L205: Supply Chain & DOS Defense: Examine supply chain vulnerabilities and model denial of service attacks, with real-world demos and actionable steps to secure your systems.
+L206: Data Integrity & Confidentiality: Dive into training data poisoning, sensitive information disclosure, and learn the countermeasures needed to protect your data and maintain system integrity.
+L207: 
+L208: Advanced AI Security: Tackle complex issues such as plugin security, excessive agency, overreliance, and model theft, and learn industry-recognized strategies to secure every aspect of your AI applications.
+L209: 
+L210: In this course, you will:
+L211:   * Explore the foundational concepts of Generative AI and why securing it is essential.
+L212: 
+L213:   * Identify key threats and vulnerabilities in Generative AI systems, including prompt injection, model theft, and training data poisoning.
+L214: 
+L215:   * Learn about secure AI practices like output handling, plugin security, and mitigating excessive agency risks.
+L216: 
+L217:   * Gain hands-on experience through real-world demos of security vulnerabilities and their countermeasures.
+L218:   * Understand how to prevent sensitive information leaks and mitigate supply chain vulnerabilities.
+L219: 
+L220:   * Build robust strategies to counter AI-specific attacks like model denial of service (DoS) and data poisoning.
+L221: 
+L222: Why learn about GenAI cybersecurity?
+L223: Generative AI is revolutionizing industries, but its rapid advancement introduces new and unique security challenges. From manipulation of outputs to unauthorized model access, the risks are significant. This course empowers you with the knowledge and practical techniques to address these challenges head-on. Whether you are responsible for securing data, protecting AI models, or mitigating cyber threats, this course offers actionable solutions to strengthen your AI defenses.
+L224: What makes this course unique?
+L225: 
+L226: This course combines cutting-edge insights, real-world security demonstrations, and best practices for securing Generative AI systems. Each lecture is designed for practical application, guiding you step-by-step through the complexities of AI cybersecurity. By the end, you will be equipped with the expertise to prevent attacks, mitigate risks, and protect sensitive information in AI environments.
+L227: This course provides a deep dive into the security risks and vulnerabilities associated with generative AI. By exploring real-world attack techniques and their corresponding countermeasures, you will be well-prepared to secure AI applications and build a cutting-edge career in cybersecurity.
+L228: 
+L229: Join me on this exciting journey into the world of GenAI cybersecurity solutions. Enroll now and become a leader in protecting AI technologies!
+L230: ## Who this course is for:
+L231: 
+L232:   * Cybersecurity professionals aiming to secure AI systems and mitigate AI-specific threats.
+L233:   * AI practitioners and data scientists interested in understanding AI security frameworks.
+L234:   * Tech enthusiasts eager to explore practical strategies for protecting Generative AI models.
+L235:   * IT managers and business leaders responsible for safeguarding AI infrastructure and data.
+L236:   * Students and beginners looking to gain foundational knowledge of AI security and risk management.
+L237: Show more Show less
+L238: 
+L239: cite12†Report abuse 

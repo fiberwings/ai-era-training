@@ -1,0 +1,461 @@
+Generative AI for Leaders Boot Camp - Enroll today! (https://www.infosecinstitute.com/courses/generative-ai-for-leaders-boot-camp/)
+citeturn186view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.infosecinstitute.com/courses/generative-ai-for-leaders-boot-camp/","lineno":null}); Total lines: 528
+L0: [Input]
+L1: 
+L2:   * (708) 689-0131
+L3:   * cite0†Contact Us L4:   * cite1†Partners L5:   * cite2†Log In L6: 
+L7:     * Access Your Applications
+L8:     * cite3†Image: Infosec IQ cite4†Log In†account.infosecinstitute.com | cite5†Log In (EU)†account-eu.infosecinstitute.com L9: 
+L10:     * cite6†Image: Infosec Skills cite7†Log In†app.infosecinstitute.com L11: 
+L12:     * Boot Camp Account Management
+L13:     * cite8†Image: Infosec Boot Camps cite2†Log In L14:   *   * Individuals [ ]
+L15:   * Government [ ]
+L16:   * Organizations [ ]
+L17:   * Certifications [ ]
+L18:   * Resources [ ]
+L19:   * About [ ]
+L20:   * [Input: Search]
+L21:   * cite9†Talk to an Advisor [ ] L22: 
+L23: cite10†Enrolling now: 2-day boot camp starts November 23 // View All Dates L24:   * cite11†Overview L25:   * cite12†Features L26:   * cite13†Syllabus L27:   * cite14†Self-Paced Training L28:   * cite15†Guarantees L29:   * cite16†Who Should Attend L30:   * cite17†Why Infosec L31:   * cite18†Prerequisites L32:   * cite19†What's Next L33:   * cite20†Exam Prep L34:   * cite21†Exam Process L35:   * cite22†Certification L36:   * cite15†Guarantees L37:   * cite23†Renewal Requirements L38:   * cite24†Career Opportunities L39:   * cite25†Testimonials L40:   * cite26†Job Titles L41:   * cite27†FAQs L42:   * cite28†Average Salary L43:   * cite29†Schedules L44: 
+L45: cite10†View Schedules [ ] L46: 
+L47: cite30†Image L48: # Generative AI for Organizational Leaders Training Boot Camp
+L49: This intensive 2-day live boot camp will provide you with a functional understanding of the cutting-edge fields of Artificial Intelligence and Generative AI. Infosec's Generative AI for Organizational Leaders Training Boot Camp is led by industry experts who will lead interactive discussions and hands-on activities and labs, enabling you to explore the applications, ethical considerations and strategic implementations of AI.
+L50: After this course you will be able to implement, leverage and integrate AI technologies effectively and securely for your unique organizational environments.
+L51: cite31†Image: 100% Satisfaction Guarantee L52: 
+L53: Duration
+L54: 
+L55: 2 days
+L56: 
+L57: Method
+L58: 
+L59: Live online or team onsite
+L60: 
+L61: Price
+L62: 
+L63: $1,999.00
+L64: 
+L65: or as low as $180/montly with
+L66: 
+L67: cite10†View Schedules [ ] L68: 
+L69: * * *
+L70: 
+L71: Discounts available cite32†Request Government Pricing [ ] cite33†Request Team Pricing [ ] L72: 
+L73: What's Included
+L74: ## Everything you need to know
+L75: 
+L76:   * 90-day extended access to Boot Camp components, including class recordings
+L77:   * 100% Satisfaction Guarantee
+L78:   * Free 90-day Infosec Skills subscription (access to 1,800+ additional courses and labs)
+L79:   * Hands-on cyber ranges and labs
+L80:   * Knowledge Transfer Guarantee
+L81:   * Pre-study learning path
+L82: 
+L83: cite10†View Schedules [ ] L84: 
+L85: Syllabus
+L86: ## Training schedule
+L87: 
+L88: Day 1
+L89: 
+L90: Morning session
+L91: 
+L92: Course Introductions
+L93: 
+L94: Session 1: Introduction to AI
+L95: 
+L96:   * Definition of AI and its subfields
+L97:   * Brief history of AI development
+L98:   * Overview of AI technologies: Machine Learning, Deep Learning, Natural Language Processing, etc.
+L99:   * Current state of AI and future trends
+L100: 
+L101: Session 2: Understanding Generative AI
+L102:   * Introduction to Generative AI: Concepts and Technologies
+L103:   * Differences between Generative AI and other AI technologies
+L104:   * Applications of Generative AI in various sectors
+L105:   * Demonstrations of Generative AI tools (e.g., text-to-image, text generation)
+L106: 
+L107: Afternoon session
+L108: 
+L109: Session 3: AI in Business & Government: Opportunities and Challenges
+L110:   * Case studies of AI applications
+L111:   * Discussing potential impacts on efficiency, transparency and public engagement
+L112:   * Addressing challenges: data privacy, security and scalability
+L113:   * Interactive discussion: Sharing ideas on potential AI projects
+L114: 
+L115: Lab 1: Working with LLMs
+L116: 
+L117: Day 2
+L118: 
+L119: Morning session
+L120: 
+L121: Session 4: Ethical Considerations and Policy Frameworks
+L122:   * Ethical AI: Principles and practices
+L123:   * Navigating biases and ensuring fairness in AI applications
+L124:   * Developing AI policies: Governance, compliance and oversight mechanisms
+L125:   * Workshop: Drafting a policy outline for AI use in participants’ organizations
+L126: 
+L127: Session 5: Implementing AI Projects
+L128:   * Strategic planning for AI integration: From concept to execution
+L129:   * Building AI capabilities: Team, tools, and training
+L130:   * Measuring the impact and success of AI projects
+L131:   * Group activity: Creating an AI project roadmap for a hypothetical business or government initiative
+L132: 
+L133: Afternoon session
+L134: 
+L135: Lab 2: Exploring Foundation Models
+L136: 
+L137: Lab 3: Applying LLM to real-world organizational objectives
+L138: 
+L139: Session 6: Q&A and Course Wrap-Up
+L140: 
+L141: cite34†Download Full Syllabus [ ] L142: 
+L143: * * *
+L144: ## What makes the Infosec Generative AI for Organizational Leaders course different?
+L145: 
+L146: As an industry leader in cybersecurity training, you can rest assured that the Generative AI for Organizational Leaders training materials are fully updated. In addition, you’ll gain access to a Generative AI for Organizational Leaders prep course the moment you enroll so you can prepare for and get the most out of your boot camp.
+L147: With over 20 years of training experience, we stand by our Generative AI for Organizational Leaders training with a 100% Satisfaction Guarantee. This means that if you're not 100% satisfied with the training (at the end of the first day), you may withdraw and enroll in a different online or in-person course.
+L148: 
+L149: cite10†View Schedules [ ] L150: ## Infosec success stories
+L151: 
+L152: cite35†Image L153: 
+L154: "The team at Infosec was great from the start, and they were as excited about my journey as I was. They explained the value behind each training I was considering and how it could further my goals. Their enthusiasm was a great motivation throughout the boot camp."
+L155: 
+L156: Elle Autumn
+L157: 
+L158: cite36†EC-Council Certified Ethical Hacker (CEH) Ethical Hacking Boot Camp cite37†Read Elle's Story L159: 
+L160: cite38†Image L161: "Infosec has uniquely prepared me for any CMMC retraining that will take place inevitably in the future. With them, it’s not just about completing the certification; it's about being a true contributor to the ecosystem."
+L162: 
+L163: James Ahern
+L164: 
+L165: cite39†CMMC Certified Assessor (CCA) Boot Camp cite40†Read James's Story L166: 
+L167: cite41†Image L168: "The hands-on training was the best part. You have an instructor you can actually reach out to and ask questions — not only on the material, but also about things out in the wild with cybersecurity."
+L169: 
+L170: Eddie Quinones
+L171: 
+L172: cite42†CompTIA Security+ Certification Training Boot Camp cite43†Read Eddie's Story L173: 
+L174: cite44†Image L175: 
+L176: "The Infosec CISM Boot Camp gave me the ability to intelligently explain why I'm making a decision. Ultimately, the C-suite is happy and they know, 'Hey, here's a person that we can rely on."
+L177: Mohammad Mirza
+L178: 
+L179: cite45†ISACA Certified Information Security Manager (CISM) Training Boot Camp cite46†Read Mohammad's Story L180: 
+L181: cite47†Read More Success Stories [ ] L182: 
+L183: Guaranteed results
+L184: ## Our boot camp cite48†guarantees L185: 
+L186: cite49†Image: 100% Satisfaction Guarantee L187: 
+L188: 100% Satisfaction Guarantee
+L189: 
+L190: If you’re not 100% satisfied with your training at the end of the first day, you may withdraw and enroll in a different online or in-person course.
+L191: 
+L192: cite50†Image: Knowledge Transfer Guarantee L193: 
+L194: Knowledge Transfer Guarantee
+L195: 
+L196: If an employee leaves within three months of obtaining certification, Infosec will train a different employee at the same organization tuition-free for up to one year.
+L197: ## Who should attend
+L198: 
+L199: cite51†Image L200: 
+L201: This Generative AI for Organizational Leaders Training Boot Camp is designed for leadership audiences who want to understand how to best incorporate and implement AI into their team or organizational efforts.
+L202: 
+L203: This includes:
+L204:   * Organizational, Team and Project Leaders
+L205:   * Technology Management Professionals
+L206:   * Business, Systems and Process Analysts
+L207:   * Executive teams and policymakers
+L208:   * Anyone interested in emerging technologies, AI or AI implementation strategies and considerations
+L209: 
+L210: Before your boot camp
+L211: ## Prerequisites
+L212: 
+L213: cite52†Image L214: 
+L215: This course has no specific prerequisites, but we recommend students have:
+L216: 
+L217:   * A general familiarity with basic computing technologies and concepts
+L218:   * An understanding of navigating common desktop or web interfaces.
+L219: 
+L220: 
+L221: 
+L222: What's next?
+L223: ## After you finish the Generative AI for Organizational Leaders Training Boot Camp
+L224: 
+L225: cite53†Image L226: 
+L227: After completing the Generative AI for Organizational Leaders Training Boot Camp, you'll learn key strategies for adopting and using these powerful new tools.
+L228: 
+L229: You'll gain hands-on experience working with and configuring AI tools, leveraging generative AI and Large Language Models (LLMs) to meet your organization and team's specific objectives.
+L230: ## Award-winning training you can trust
+L231: 
+L232: cite54†Image: 2025 G2 Summer - Leader Enterprise - eLearning Content L233: 
+L234: cite55†Image: Infosec Institute Top 20 Online Learning Library - Training Industry Award L235: 
+L236: cite56†Image: 2024 TrustRadius Top Rated - Skills L237: 
+L238: cite57†Image: 2024 G2 Winter - Users Love Us - SAT L239: ## Available scheduled dates
+L240: 
+L241: cite58†All cite59†Online L242: 
+L243: November 23, 2026 - November 24, 2026
+L244: 
+L245: Price: $1,999.00
+L246: 
+L247: Online
+L248: 
+L249: Start Time: 7:30 AM (Central)
+L250: 
+L251: Book Now [ ]
+L252: 
+L253: January 21, 2027 - January 22, 2027
+L254: 
+L255: Price: $1,999.00
+L256: 
+L257: Online
+L258: 
+L259: Start Time: 7:30 AM (Central)
+L260: 
+L261: Book Now [ ]
+L262: 
+L263: March 30, 2027 - March 31, 2027
+L264: 
+L265: Price: $1,999.00
+L266: 
+L267: Online
+L268: 
+L269: Start Time: 8:30 AM (Central)
+L270: 
+L271: Book Now [ ]
+L272: 
+L273: June 24, 2027 - June 25, 2027
+L274: 
+L275: Price: $1,999.00
+L276: 
+L277: Online
+L278: 
+L279: Start Time: 9:30 AM (Central)
+L280: 
+L281: Book Now [ ]
+L282: 
+L283: August 5, 2027 - August 6, 2027
+L284: Price: $1,999.00
+L285: 
+L286: Online
+L287: 
+L288: Start Time: 9:30 AM (Central)
+L289: 
+L290: Book Now [ ]
+L291: 
+L292: September 9, 2027 - September 10, 2027
+L293: 
+L294: Price: $1,999.00
+L295: 
+L296: Online
+L297: 
+L298: Start Time: 8:30 AM (Central)
+L299: 
+L300: Book Now [ ]
+L301: ## Why choose Infosec?
+L302: 
+L303: Category
+L304: 
+L305: Infosec logo
+L306: 
+L307: SANS Institute
+L308: 
+L309: Training Camp
+L310: 
+L311: Global Knowledge (Skillsoft)
+L312: 
+L313: Triple Guarantee
+L314: 
+L315: Included
+L316: 
+L317: Not Included
+L318: 
+L319: Not Included
+L320: 
+L321: Not Included
+L322: 
+L323: Exam Pass Guarantee
+L324: 
+L325: Included
+L326: 
+L327: Not Included
+L328: 
+L329: Limited
+L330: 
+L331: Limited
+L332: 
+L333: 100% Satisfaction Guarantee
+L334: 
+L335: Included
+L336: 
+L337: Not Included
+L338: 
+L339: Limited
+L340: 
+L341: Not Included
+L342: 
+L343: Knowledge Transfer Guarantee*
+L344: 
+L345: Included
+L346: 
+L347: Not Included
+L348: 
+L349: Limited
+L350: 
+L351: Not Included
+L352: 
+L353: Infosec Skills platform
+L354: 
+L355: Included
+L356: 
+L357: 90-day self-paced subscription included
+L358: 
+L359: Not Included
+L360: 
+L361: Not Included
+L362: Not Included
+L363: 
+L364: Continuous skill tracking over time
+L365: 
+L366: Included
+L367: 
+L368: Not Included
+L369: 
+L370: Not Included
+L371: 
+L372: Limited
+L373: 
+L374: Hands-on labs & cyber ranges
+L375: 
+L376: Included
+L377: 
+L378: Included
+L379: 
+L380: Included
+L381: 
+L382: Included
+L383: 
+L384: Role-Based Learning Paths
+L385: 
+L386: Included
+L387: 
+L388: 12 Roles
+L389: 
+L390: Limited
+L391: 
+L392: Not Included
+L393: 
+L394: Included
+L395: 
+L396: Role-Based Training
+L397: 
+L398: Included
+L399: 
+L400: Integrated for all roles
+L401: 
+L402: Separate
+L403: 
+L404: Limited
+L405: 
+L406: Separate
+L407: 
+L408: Post-Training Access & Additional Upskilling
+L409: 
+L410: Included
+L411: 
+L412: 90 days
+L413: 
+L414: Limited
+L415: 
+L416: Not Included
+L417: 
+L418: Annual subscription
+L419: 
+L420: Instructor Quality
+L421: 
+L422: 10+ years, active practitioners
+L423: 10+ years, active practitioners
+L424: 
+L425: Varies
+L426: 
+L427: Varies
+L428: 
+L429: Delivery Options
+L430: 
+L431: Live-online, in-person, self-paced, accelerated, immersive, custom on-site
+L432: 
+L433: Live-online, in-person, self-paced, accelerated, immersive, custom on-site
+L434: 
+L435: Live, in-person, self-paced, accelerated, custom on-site
+L436: 
+L437: Live, in-person, self-paced, custom on-site
+L438: 
+L439: Partnerships / Programming
+L440: 
+L441: Not Included
+L442: 
+L443: Not Included
+L444: 
+L445: Not Included
+L446: 
+L447: Not Included
+L448: 
+L449: Compliance Coverage
+L450: 
+L451: DoD, NICE, MITRE, NIST, ISO, ISA/IEC
+L452: 
+L453: DoD, NICE, MITRE, NIST, ISO, ISA/IEC
+L454: 
+L455: Limited
+L456: Limited
+L457: 
+L458: CompTIA, ISACA, ISC2, EC-Council, Cisco Certifications
+L459: 
+L460: Included
+L461: 
+L462: Not Included
+L463: 
+L464: Included
+L465: 
+L466: Included
+L467: 
+L468: AWS / Azure / Cloud Certifications
+L469: 
+L470: Included
+L471: 
+L472: Limited
+L473: 
+L474: Included
+L475: 
+L476: Included
+L477: 
+L478: PMP & IT management Certifications
+L479: 
+L480: Included
+L481: 
+L482: Limited
+L483: 
+L484: Limited
+L485: 
+L486: Included
+L487: 
+L488: *Protects your investment if trained employees leave within three months of obtaining certification (Infosec will train a different employee at the same organization tuition-free for up to one year).
+L489: 
+L490: ↑
+L491: 
+L492: Products
+L493:   * cite60†Infosec Boot Camps Live & self-paced certification training L494:   * cite61†Infosec HRM Human risk management L495:   * cite62†Infosec IQ Security awareness training L496:   * cite63†Infosec Skills On-demand technical training library L497: 
+L498: Resources
+L499: 
+L500:   * cite64†Articles L501:   * cite65†Cyber Work Podcast L502:   * cite66†Events & webcasts L503: 
+L504: Company
+L505: 
+L506:   * cite0†Contact us L507:   * cite67†About Infosec L508:   * cite68†Careers L509:   * cite69†Newsroom L510:   * cite1†Partners L511: 
+L512: Newsletter
+L513: 
+L514: Get the latest news, updates and offers straight to your inbox.
+L515: [Input] Enter your email [Input: Email address] Subscribe [ ]
+L516: 
+L517: For information about how Cengage uses personal information, see our cite70†privacy policy†www.cengagegroup.com .
+L518: 
+L519: Thanks! You're signed up.
+L520: 
+L521: Sorry, we're unable to load the form at the moment. Please check your browser's settings to confirm the form is not blocked. You can contact us and report the issue here: infosec.info@cengage.com.
+L522: 
+L523: ©2026 Infosec, a division of Cengage Learning
+L524: 
+L525: 10650 Toebben Drive, Suite A, Independence, KY 41051
+L526:   * cite70†Privacy†www.cengagegroup.com L527:   * cite71†Terms of Use†www.cengagegroup.com 

@@ -1,0 +1,316 @@
+Agentic Security | Learning Tree (https://www.learningtree.com/courses/agentic-security-ai-training/)
+citeturn187view0 [wordlim: 200] Crawled: 3 days ago; Content type: text/html; Source: open({"ref_id":"https://www.learningtree.com/courses/agentic-security-ai-training/","lineno":null}); Total lines: 659
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Image: US flag US
+L3: 
+L4:   * cite2†CA†www.learningtree.ca L5:   * cite3†UK†www.learningtree.co.uk L6:   * cite4†SE†www.learningtree.se L7:   * cite5†JP†www.learningtree.co.jp L8: 
+L9:   * cite6†Training L10:     * cite6†Courses L11: 
+L12: cite7†Agile & Scrum L13: 
+L14: cite8†Agile Foundations cite9†Agile Leadership cite10†Agile Project Management cite11†Development & Testing cite12†Product Management cite13†SAFe cite14†Scrum L15: 
+L16: cite15†Business Applications L17: cite16†Business Software cite17†Dynamics 365 cite18†Microsoft 365 cite19†Microsoft Copilot cite20†Power Platform cite21†SharePoint L18: 
+L19: cite22†Cloud Computing L20: 
+L21: cite23†AWS cite24†Azure cite25†Google Cloud cite26†Cloud L22: 
+L23: cite27†Cyber Security L24: 
+L25: cite28†Cloud Security cite29†Cyber Offense & Defense cite30†Data Privacy cite31†Governance, Risk, & Compliance cite32†Software Application Security cite33†Systems & Network Security L26: 
+L27: cite34†AI and Data Analytics L28: cite35†Artificial Intelligence cite36†Business Intelligence cite37†Databases cite38†Analysis & Visualization cite39†Data Science & Big Data cite40†Decision Science cite41†Power BI cite42†SQL L29: 
+L30: cite43†IT Infrastructure L31: 
+L32: cite44†DevOps cite45†GitHub cite46†Infrastructure cite47†Linux & Unix cite48†Networking cite49†Windows L33: 
+L34: cite50†IT Service Mgmt (ITSM) L35: 
+L36: cite51†ITIL® cite52†ITSM cite53†TOGAF® EA 10th Edition cite54†COBIT cite55†ServiceNow™ L37: 
+L38: cite56†Leadership L39: 
+L40: cite57†Business Skills cite58†Leadership cite59†Professional Development cite60†Duke CE L41: cite61†Project Management L42: 
+L43: cite62†Business Analysis cite63†FAC-P/PM cite64†Project Management cite65†Lean Six Sigma L44: 
+L45: cite66†Software L46: 
+L47: cite67†Java cite68†Mobile App Development cite69†.NET/Visual Studio cite70†Programming cite71†Python cite72†Software Engineering cite73†Web Development L48: 
+L49:     * cite6†Certifications L50: 
+L51: cite6†Popular Certification Courses L52: cite74†ITIL® 4 Foundation Training cite75†CompTIA Security+® Training cite76†Project Management Professional® (PMP) Certification Training cite77†Certified ScrumMaster® (CSM) Training cite78†CISSP® Training and Certification Prep Course cite79†CISM Certified Information Security Manager cite80†Certified Cloud Security Professional (CCSP) Training and Certification L53: 
+L54: cite6†Certifications L55: cite81†Alliance for Qualification - A4Q cite82†APMG-International cite83†AWS cite84†CertNexus cite85†Cisco cite86†Cloud Security Alliance cite87†CMMC cite88†CompTIA cite89†DevOps Institute cite90†EC-Council L56: 
+L57: cite91†Excel cite92†FAC-P/PM Certification Training cite93†ICAgile cite94†IIBA cite95†ISACA cite96†ISC2™ cite97†ISTQB cite98†ITIL® cite99†Kanban cite100†Lean Six Sigma L58: 
+L59: cite101†Microsoft cite102†PMI cite103†Power Platform cite104†PRINCE2® cite105†Python cite106†Red Hat cite107†Scaled Agile cite108†Scrum Alliance cite109†ServiceNow cite110†Web Development L60:     * cite6†Certificate Programs L61: 
+L62: cite6†Technical Skills L63: 
+L64: cite111†Data Insights & Visualization Certificate Program cite112†Python-Powered Data Science and AI Productivity Pathway cite113†Copilot AI Productivity Pathway cite114†ChatGPT AI Productivity Pathway cite115†Gemini AI Productivity Pathway L65: 
+L66: cite6†Process & Methodology L67: 
+L68: cite116†Modern Project Manager Certificate Program cite117†AI for Project Managers Productivity Pathway L69: 
+L70: cite6†Cybersecurity L71: 
+L72: cite118†Cybersecurity Foundations Certificate Program L73: 
+L74: cite6†Leadership L75: cite119†Future Leaders Certificate Program cite120†Accelerating Leadership Professional Certificate Program cite121†AI in Leadership Program (AILP) cite122†Duke CE Advanced Leadership Program cite123†Duke CE Advanced Leadership for Government L76: 
+L77:     * cite6†On-Demand L78: 
+L79: cite6†On-Demand Programs L80: 
+L81: cite124†CyberShield Workforce Enterprise Solution L82: 
+L83: cite6†On-Demand Courses L84: cite125†Agile Fundamentals On-Demand cite126†Project Management Fundamentals Training On-Demand cite127†ITIL® 4 Foundation Exam Prep Toolkit cite128†Fundamentals of Graph Databases: On-Demand cite129†Introduction to Python On-Demand Training cite130†Introduction to Artificial Intelligence: On-Demand cite131†ChatGPT for Business Users: On-Demand cite132†Artificial Intelligence Strategies for Project Managers On-Demand cite133†Topics in Project Management: On-Demand L85: 
+L86:     * cite6†Vendors L87: 
+L88: cite6†Vendors & Certification Bodies L89: cite134†Alliance for Qualification cite135†Adobe cite136†APMG International™ cite137†AWS cite138†CertNexus cite139†Cisco cite140†Citrix cite141†Cloud Security Alliance L90: 
+L91: cite142†CMMC cite143†COBIT cite144†CompTIA cite145†DevOps Institute cite146†EC-Council cite147†Google cite148†IAPP cite149†IBM L92: 
+L93: cite150†ICAgile cite151†IIBA cite152†ILM cite153†ISACA cite154†ISC2 cite155†ISTQB cite156†ITIL® cite157†Kanban University L94: 
+L95: cite158†Lean Six Sigma cite159†Learning Tree cite160†Microsoft cite161†Nutanix cite162†Oracle cite163†PeopleCert® cite164†PMI cite165†PRINCE2® L96: cite166†Red Hat cite167†Scaled Agile cite168†Scrum Alliance cite169†ServiceNow™ cite170†VMWare L97: 
+L98:     * cite6†Schedules L99: 
+L100: cite6†Upcoming L101: 
+L102: cite171†Course Schedule cite172†Guaranteed-To-Run Course Schedule L103: 
+L104: cite6†What's New L105: 
+L106: cite173†New Courses L107: 
+L108:   * cite6†Solutions L109: cite174†AI Adoption Framework cite175†Certificate Programs cite176†Coaching cite177†Continuing Education - CEUs cite178†Custom Content Solutions cite179†Government Solutions cite180†Learning Paths cite181†Learning Tree Enterprise +Advantage Plan cite182†Learning Tree +Advantage Plan cite183†Learning Tree Purchase Solutions cite184†Managed Training Services cite185†Microsoft Training Solutions cite186†Skills Analytics / Cybersecurity cite187†Team Training L110: 
+L111:   * cite6†Our Approach L112: cite188†About Us cite189†Awards cite190†Benefits cite191†Delivery cite192†Partners L113: 
+L114:   * cite6†Resources L115: 
+L116: cite193†Blog cite194†Press Releases cite195†Resource Library cite196†Topics cite197†Webinars L117: 
+L118: 888-843-8733
+L119: 
+L120: [Input] [Button: ]
+L121: 
+L122: Login
+L123: 
+L124: Login to My Learning Tree
+L125: 
+L126: [Input: Search]
+L127:   * cite6†Training L128:     * cite6†Training L129:     * cite6†Agile & Scrum L130:       * cite6†Agile & Scrum L131:       * cite8†Agile Foundations L132:       * cite9†Agile Leadership L133:       * cite10†Agile Project Management L134:       * cite11†Development & Testing L135:       * cite12†Product Management L136:       * cite13†SAFe L137:       * cite14†Scrum L138:     * cite6†Business Applications L139:       * cite6†Business Applications L140:       * cite16†Business Software L141:       * cite17†Dynamics 365 L142:       * cite18†Microsoft 365 L143:       * cite19†Microsoft Copilot L144:       * cite20†Power Platform L145:       * cite21†SharePoint L146:     * cite6†Cloud Computing L147:       * cite6†Cloud Computing L148:       * cite23†AWS L149:       * cite24†Azure L150:       * cite25†Google Cloud L151:       * cite26†Cloud L152:     * cite6†Cyber Security L153:       * cite6†Cyber Security L154:       * cite28†Cloud Security L155:       * cite29†Cyber Offense & Defense L156:       * cite30†Data Privacy L157:       * cite31†Governance, Risk, & Compliance L158:       * cite32†Software Application Security L159:       * cite33†Systems & Network Security L160:     * cite6†AI and Data Analytics L161:       * cite6†AI and Data Analytics L162:       * cite35†Artificial Intelligence L163:       * cite36†Business Intelligence L164:       * cite37†Databases L165:       * cite38†Analysis & Visualization L166:       * cite39†Data Science & Big Data L167:       * cite40†Decision Science L168:       * cite41†Power BI L169:       * cite42†SQL L170:     * cite6†IT Infrastructure L171:       * cite6†IT Infrastructure L172:       * cite44†DevOps L173:       * cite45†GitHub L174:       * cite46†Infrastructure L175:       * cite47†Linux & Unix L176:       * cite48†Networking L177:       * cite49†Windows L178:     * cite6†IT Service Mgmt (ITSM) L179:       * cite6†IT Service Mgmt (ITSM) L180:       * cite51†ITIL® L181:       * cite52†ITSM L182:       * cite53†TOGAF® EA 10th Edition L183:       * cite54†COBIT L184:       * cite55†ServiceNow™ L185:     * cite6†Leadership L186:       * cite6†Leadership L187:       * cite57†Business Skills L188:       * cite58†Leadership L189:       * cite59†Professional Development L190:       * cite60†Duke CE L191:     * cite6†Project Management L192:       * cite6†Project Management L193:       * cite62†Business Analysis L194:       * cite63†FAC-P/PM L195:       * cite64†Project Management L196:       * cite65†Lean Six Sigma L197:     * cite6†Software L198:       * cite6†Software L199:       * cite67†Java L200:       * cite68†Mobile App Development L201:       * cite69†.NET/Visual Studio L202:       * cite70†Programming L203:       * cite71†Python L204:       * cite72†Software Engineering L205:       * cite73†Web Development L206:   * cite6†Certifications L207:     * cite6†Certifications L208:     * cite6†Popular Certification Courses L209:       * cite6†Popular Certification Courses L210:       * cite74†ITIL® 4 Foundation Training L211:       * cite75†CompTIA Security+® Training L212:       * cite76†Project Management Professional® (PMP) Certification Training L213:       * cite77†Certified ScrumMaster® (CSM) Training L214:       * cite78†CISSP® Training and Certification Prep Course L215:       * cite79†CISM Certified Information Security Manager L216:       * cite80†Certified Cloud Security Professional (CCSP) Training and Certification L217:     * cite6†Certifications L218:       * cite6†Certifications L219:       * cite81†Alliance for Qualification - A4Q L220:       * cite82†APMG-International L221:       * cite83†AWS L222:       * cite84†CertNexus L223:       * cite85†Cisco L224:       * cite86†Cloud Security Alliance L225:       * cite87†CMMC L226:       * cite88†CompTIA L227:       * cite89†DevOps Institute L228:       * cite90†EC-Council L229:       * cite91†Excel L230:       * cite92†FAC-P/PM Certification Training L231:       * cite93†ICAgile L232:       * cite94†IIBA L233:       * cite95†ISACA L234:       * cite96†ISC2™ L235:       * cite97†ISTQB L236:       * cite98†ITIL® L237:       * cite99†Kanban L238:       * cite100†Lean Six Sigma L239:       * cite101†Microsoft L240:       * cite102†PMI L241:       * cite103†Power Platform L242:       * cite104†PRINCE2® L243:       * cite105†Python L244:       * cite106†Red Hat L245:       * cite107†Scaled Agile L246:       * cite108†Scrum Alliance L247:       * cite109†ServiceNow L248:       * cite110†Web Development L249:   * cite6†Certificate Programs L250:     * cite6†Certificate Programs L251:     * cite6†Technical Skills L252:       * cite6†Technical Skills L253:       * cite111†Data Insights & Visualization Certificate Program L254:       * cite112†Python-Powered Data Science and AI Productivity Pathway L255:       * cite113†Copilot AI Productivity Pathway L256:       * cite114†ChatGPT AI Productivity Pathway L257:       * cite115†Gemini AI Productivity Pathway L258:     * cite6†Process & Methodology L259:       * cite6†Process & Methodology L260:       * cite116†Modern Project Manager Certificate Program L261:       * cite117†AI for Project Managers Productivity Pathway L262:     * cite6†Cybersecurity L263:       * cite6†Cybersecurity L264:       * cite118†Cybersecurity Foundations Certificate Program L265:     * cite6†Leadership L266:       * cite6†Leadership L267:       * cite119†Future Leaders Certificate Program L268:       * cite120†Accelerating Leadership Professional Certificate Program L269:       * cite121†AI in Leadership Program (AILP) L270:       * cite122†Duke CE Advanced Leadership Program L271:       * cite123†Duke CE Advanced Leadership for Government L272:   * cite6†On-Demand L273:     * cite6†On-Demand L274:     * cite6†On-Demand Programs L275:       * cite6†On-Demand Programs L276:       * cite124†CyberShield Workforce Enterprise Solution L277:     * cite6†On-Demand Courses L278:       * cite6†On-Demand Courses L279:       * cite125†Agile Fundamentals On-Demand L280:       * cite126†Project Management Fundamentals Training On-Demand L281:       * cite127†ITIL® 4 Foundation Exam Prep Toolkit L282:       * cite128†Fundamentals of Graph Databases: On-Demand L283:       * cite129†Introduction to Python On-Demand Training L284:       * cite130†Introduction to Artificial Intelligence: On-Demand L285:       * cite131†ChatGPT for Business Users: On-Demand L286:       * cite132†Artificial Intelligence Strategies for Project Managers On-Demand L287:       * cite133†Topics in Project Management: On-Demand L288:   * cite6†Vendors L289:     * cite6†Vendors L290:     * cite6†Vendors & Certification Bodies L291:       * cite6†Vendors & Certification Bodies L292:       * cite134†Alliance for Qualification L293:       * cite135†Adobe L294:       * cite136†APMG International™ L295:       * cite137†AWS L296:       * cite138†CertNexus L297:       * cite139†Cisco L298:       * cite140†Citrix L299:       * cite141†Cloud Security Alliance L300:       * cite142†CMMC L301:       * cite143†COBIT L302:       * cite144†CompTIA L303:       * cite145†DevOps Institute L304:       * cite146†EC-Council L305:       * cite147†Google L306:       * cite148†IAPP L307:       * cite149†IBM L308:       * cite150†ICAgile L309:       * cite151†IIBA L310:       * cite152†ILM L311:       * cite153†ISACA L312:       * cite154†ISC2 L313:       * cite155†ISTQB L314:       * cite156†ITIL® L315:       * cite157†Kanban University L316:       * cite158†Lean Six Sigma L317:       * cite159†Learning Tree L318:       * cite160†Microsoft L319:       * cite161†Nutanix L320:       * cite162†Oracle L321:       * cite163†PeopleCert® L322:       * cite164†PMI L323:       * cite165†PRINCE2® L324:       * cite166†Red Hat L325:       * cite167†Scaled Agile L326:       * cite168†Scrum Alliance L327:       * cite169†ServiceNow™ L328:       * cite170†VMWare L329:   * cite6†Schedules L330:     * cite6†Schedules L331:     * cite6†Upcoming L332:       * cite6†Upcoming L333:       * cite171†Course Schedule cite172†Guaranteed-To-Run Course Schedule L334:     * cite6†What's New L335:       * cite6†What's New L336:       * cite173†New Courses L337:   * cite6†Solutions L338:     * cite6†Solutions L339:     * cite174†AI Adoption Framework L340:     * cite175†Certificate Programs L341:     * cite176†Coaching L342:     * cite177†Continuing Education - CEUs L343:     * cite178†Custom Content Solutions L344:     * cite179†Government Solutions L345:     * cite180†Learning Paths L346:     * cite181†Learning Tree Enterprise +Advantage Plan L347:     * cite182†Learning Tree +Advantage Plan L348:     * cite183†Learning Tree Purchase Solutions L349:     * cite184†Managed Training Services L350:     * cite185†Microsoft Training Solutions L351:     * cite186†Skills Analytics / Cybersecurity L352:     * cite187†Team Training L353:   * cite6†Our Approach L354:     * cite6†Our Approach L355:     * cite188†About Us L356:     * cite189†Awards L357:     * cite190†Benefits L358:     * cite191†Delivery L359:     * cite192†Partners L360:   * cite6†Resources L361:     * cite6†Resources L362:     * cite193†Blog L363:     * cite194†Press Releases L364:     * cite195†Resource Library L365:     * cite196†Topics L366:     * cite197†Webinars L367: Call us
+L368: 
+L369: 888-843-8733
+L370: 
+L371: Login
+L372: 
+L373: Login to My Learning Tree
+L374: # Agentic Security
+L375: 
+L376: Course 2016 cite181†Advantage Plan Course L377: 
+L378:   * Duration: 3 days
+L379:   * Language: English
+L380:   * Level: Foundation
+L381: 
+L382: Agentic Security: Attack and Defend AI Agents is a three-day, hands-on course for cybersecurity professionals who need to understand, attack, and defend the autonomous AI systems now operating inside enterprise environments. Every agentic system that perceives, reasons, plans, and acts is a new attack surface. This course teaches you to exploit it and protect it.
+L383: ## Agentic Security AI Training Delivery Methods
+L384: 
+L385:   * Online
+L386: 
+L387:   * Upskill your whole team by bringing Private Team Training to your facility.
+L388: ## Agentic Security AI Training Information
+L389: 
+L390:   * In this course you will:
+L391:     1. Understand
+L392:        * Trace the AI architecture stack — ML, DNNs, transformers, LLMs, GenAI models, agentic systems — and identify the attack surface at each layer
+L393:        * Master agentic AI design patterns: Cognitive Loop, Planner-Executor-Verifier, multi-agent orchestration, and tool/API integration via MCP
+L394:        * Map the threat landscape: OWASP ML Top 10, OWASP LLM Top 10, NIST Adversarial ML Taxonomy, and MITRE ATLAS
+L395:     2. Build
+L396:        * Construct anomaly detection and deep learning malware classification models on real cybersecurity datasets
+L397:        * Deploy RAG pipelines integrating AlienVault OTX threat intelligence with chunk provenance validation
+L398:        * Implement multi-agent SecOps workflows using LangChain, CrewAI, or AutoGen with Apache Kafka for agent communication
+L399:     3. Attack
+L400:        * Execute all five prompt injection variants: direct, indirect, chained, multi-language, and refusal suppression
+L401:        * Conduct training data poisoning, model extraction, token inference side-channel attacks, hallucination exploits, and payload splitting
+L402:        * Perform AI-assisted memory forensic analysis using Volatility 3 to detect process hollowing, DLL injection, and advanced persistence
+L403:     4. Defend & Govern
+L404:        * Build autonomous threat detection and response workflows with human-on-the-loop oversight checkpoints
+L405:        * Apply NIST AI RMF AI 600-1, OWASP LLM Governance Checklist, and Zero Trust principles to agentic AI deployments
+L406: Prerequisites
+L407: 
+L408: 2+ years cybersecurity experience; basic Python; Docker familiarity; comfort with Linux command line; understanding of common attack vectors and defensive frameworks.
+L409: 
+L410: Who Should Attend:
+L411: 
+L412:     * Security Operations & Defensive Roles
+L413:     * Security Architecture & Engineering
+L414:     * AI / ML & Emerging Tech Roles
+L415:     * DevOps, Platform & Automation Roles
+L416:     * Governance, Risk & Compliance (GRC)
+L417:     * Leadership & Strategy Roles
+L418:     * Red Team & Offensive Security
+L419: ## Agentic Security AI Training Outline
+L420: ### Learning Objectives
+L421: 
+L422: Module 1: AI Architecture & Agentic Foundations
+L423: 
+L424:   * Trace the development of AI from Turing's test to modern agentic systems
+L425:   * Demystify ML, deep neural networks, transformers, and LLMs
+L426:   * Master agentic AI design patterns: Cognitive Loop, Planner-Executor-Verifier, multi-agent orchestration
+L427:   * Identify the AI Security Ecosystem attack surface across compute, data, model, and agent pipeline layers
+L428: 
+L429: Module 2: Generative AI for SecOps and Risk Management
+L430:   * Deploy RAG pipelines integrating live threat intelligence with chunk provenance validation
+L431:   * Build AI-powered security operations workflows including incident reporting chatbots
+L432:   * Establish a strong foundation in AI security risk management (CIA Triad, CVE, GenAI-specific risks, DLP)
+L433:   * Apply adaptive authentication and data protection patterns to AI system deployments
+L434: 
+L435: Module 3: Hacking AI Agents – Adversarial Techniques
+L436: 
+L437:   * Identify OWASP ML Security Top Ten and OWASP LLM Top Ten risks
+L438:   * Execute the full prompt injection taxonomy: direct, indirect, chained, multi-language, refusal suppression
+L439:   * Master jailbreaking (DAN), prompt leaking, and agent hijacking via crafted inputs
+L440:   * Apply MITRE ATLAS and NIST AML taxonomy; execute AI Red Teaming methodology
+L441:   * Understand GenAI social engineering, deepfake attacks, and the AI offensive toolkit
+L442: 
+L443: Module 4: Exploiting the AI Attack Surface
+L444:   * Conduct training data poisoning, model extraction, and membership inference attacks
+L445:   * Execute token inference side-channel attacks, hallucination exploits, and payload splitting
+L446:   * Perform AI-assisted memory forensics using Volatility 3 to detect advanced threats
+L447:   * Map all attacks to the NIST AI 100-2 taxonomy and MITRE ATLAS matrix
+L448: 
+L449: Module 5: Defending with Agents-Autonomous SecOps
+L450:   * Build autonomous multi-agent threat detection and response workflows with human-on-the-loop oversight
+L451:   * Integrate AI-based IDS, SOAR playbooks, and threat intelligence into agentic SecOps pipelines
+L452:   * Deploy multi-agent systems using LangChain/CrewAI with Kafka and Redis/Celery for agent infrastructure
+L453:   * Augment SIEM and SOAR with GenAI: NLP threat queries, playbook generation, AI-assisted triage
+L454: 
+L455: Module 6: AI Governance & Zero Trust for Agents
+L456:   * Apply NIST AI RMF AI 600-1, OWASP LLM Governance Checklist, and regulatory frameworks to AI agent deployments
+L457:   * Implement Zero Trust patterns for generative AI and agentic systems
+L458:   * Deploy a role-aligned AI security agent with signed audit logging as the Zero Trust exit criterion
+L459:   * Understand quantum computing implications and advanced persistent AI threats for future readiness
+L460: 
+L461: Select Commercial or Government Pricing
+L462: 
+L463:   * Commercial
+L464:   * Government
+L465: ###
+L466: 
+L467: Live Instructor
+L468: 
+L469: $2,785
+L470: 
+L471: $2,785
+L472: 
+L473:   * 3-day instructor-led training course
+L474: 
+L475:   * Hands-on learning labs included
+L476:   * After-course coaching available
+L477: 
+L478: cite198†Would you like to take this course as a team? L479: 
+L480:   * Dec 2 - 4 9:00 AM - 4:30 PM EST
+L481: 
+L482: Ottawa or Virtual
+L483: 
+L484:   * Jan 13 - 15 9:00 AM - 4:30 PM EST
+L485: 
+L486: Herndon, VA or Virtual
+L487: 
+L488:   * Feb 24 - 26 9:00 AM - 4:30 PM EST
+L489: 
+L490: Ottawa or Virtual
+L491: 
+L492:   * Apr 14 - 16 9:00 AM - 4:30 PM EDT
+L493: 
+L494: Herndon, VA or Virtual
+L495: 
+L496:   * May 19 - 21 9:00 AM - 4:30 PM EDT
+L497: 
+L498: Ottawa or Virtual
+L499:   * Jul 7 - 9 9:00 AM - 4:30 PM EDT
+L500: 
+L501: Herndon, VA or Virtual
+L502: 
+L503:   * Sep 1 - 3 9:00 AM - 4:30 PM EDT
+L504: 
+L505: Ottawa or Virtual
+L506: 
+L507:   * Oct 6 - 8 9:00 AM - 4:30 PM EDT
+L508: 
+L509: Herndon, VA or Virtual
+L510: 
+L511: Scroll to view additional course dates
+L512: ###
+L513: 
+L514: Live Instructor
+L515: 
+L516: $2,785
+L517: 
+L518: $2,785
+L519: 
+L520:   * 3-day instructor-led training course
+L521: 
+L522:   * Hands-on learning labs included
+L523:   * After-course coaching available
+L524: 
+L525: cite198†Would you like to take this course as a team? L526: 
+L527:   * Dec 2 - 4 9:00 AM - 4:30 PM EST
+L528: 
+L529: Ottawa or Virtual
+L530: 
+L531:   * Jan 13 - 15 9:00 AM - 4:30 PM EST
+L532: 
+L533: Herndon, VA or Virtual
+L534: 
+L535:   * Feb 24 - 26 9:00 AM - 4:30 PM EST
+L536: 
+L537: Ottawa or Virtual
+L538: 
+L539:   * Apr 14 - 16 9:00 AM - 4:30 PM EDT
+L540: 
+L541: Herndon, VA or Virtual
+L542: 
+L543:   * May 19 - 21 9:00 AM - 4:30 PM EDT
+L544: 
+L545: Ottawa or Virtual
+L546:   * Jul 7 - 9 9:00 AM - 4:30 PM EDT
+L547: 
+L548: Herndon, VA or Virtual
+L549: 
+L550:   * Sep 1 - 3 9:00 AM - 4:30 PM EDT
+L551: 
+L552: Ottawa or Virtual
+L553: 
+L554:   * Oct 6 - 8 9:00 AM - 4:30 PM EDT
+L555: 
+L556: Herndon, VA or Virtual
+L557: 
+L558: Scroll to view additional course dates
+L559: 
+L560: Need Help Finding The Right Training Solution?
+L561: 
+L562: Our training advisors are here for you.
+L563: 
+L564: cite199†Contact Us L565: ## Agentic Security AI Training FAQs
+L566: 
+L567: ###
+L568: 
+L569: How does Agentic Security differ from securing AI Systems?
+L570: 
+L571: Securing AI systems protects what the model knows and outputs, while agentic security protects what the system decides and does.
+L572: 
+L573: ###
+L574: 
+L575: Will this course be eligible for CPEs to be applied to my security certification such as Security+?
+L576: 
+L577: Yes, while all governing bodies, such as CompTIA, have different guidelines, this course should align with a number of security domains.
+L578: ###
+L579: 
+L580: How is OWASP evolving with AI?
+L581: 
+L582: OWASP is evolving with AI by expanding its guidance (e.g., OWASP Top 10 for LLM Applications) to address risks like prompt injection, data leakage, and insecure tool use in AI-driven systems.
+L583: #### Related Courses
+L584: 
+L585:   * Learning Tree
+L586: 
+L587: cite200†AI and Cyber Security: Attack and Defend L588: 
+L589: Master AI in cybersecurity attack and defense. Dive into AI's role in cybersecurity. Boost your skills now!
+L590: nist ai risk management framework, security information and event management, natural language processing course, team training, cyber security, machine learning, learning tree, federated learning, risk assessment and management, security automation, security teams, artificial intelligence ai, wide range, security information and event, information and event management, open source, training data, machine learning algorithms, sensitive data, volumes of data, security solutions, driving cars, data breach, deep neural networks, cyber threats, threat hunting, log data, training models, large scale, mobile devices, AI cybersecurity, attack, defend, training, course, AI cybersäkerhet, attack, försvar, utbildning, kurs
+L591: Intermediate
+L592: 
+L593: 3 days
+L594: 
+L595: Online or In-class
+L596: 
+L597: Starts from $2,785
+L598: 
+L599:   * CompTIA
+L600: 
+L601: cite201†CompTIA SecAI+ Certification L602: 
+L603: Strengthen cybersecurity skills with CompTIA SecAI+. Master AI security, threat defense, governance, and secure AI operations.
+L604: 
+L605: Intermediate
+L606: 
+L607: 3 days
+L608: 
+L609: Online or In-class
+L610: 
+L611: Starts from $3,145
+L612: 
+L613:   * ISACA
+L614: 
+L615: cite202†ISACA Advanced in AI Audit (AAIA) Certification L616: Join our 2-day course to master AI audit governance, design, and security. Enhance your skills with real-life scenarios and expert-led sessions.
+L617: 
+L618: Intermediate
+L619: 
+L620: 2 days
+L621: 
+L622: Online or In-class
+L623: 
+L624: Starts from $2,995
+L625: 
+

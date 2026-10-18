@@ -1,0 +1,547 @@
+{
+  "schema": 1,
+  "id": "cb8ac75b-ed0c-47e0-b6db-f690114c3825",
+  "name": "Coverage-first workshop draft",
+  "status": "Draft",
+  "catalogueVersion": "3aed173a4d9b7a08",
+  "created": "2026-10-14T14:38:06.441Z",
+  "assumptions": "Equal weight per need. Full-course assessment evidence; course completion is not competency sign-off. Budgets exclude internal practice. Shared learning is inherited once. Initial selections are optimised independently by layer, conditional on inherited learning, with the agreed 4 / 8 / 24 / 4-hour budgets. Presets are proposals for functional-head review; no internal training is assumed complete.",
+  "overrides": {},
+  "cohorts": [
+    {
+      "id": "all",
+      "name": "All users",
+      "budget": 4,
+      "parent": null,
+      "needs": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5",
+        "N6"
+      ],
+      "rank": 1,
+      "selected": [
+        "TR-127",
+        "INT-334",
+        "INT-429"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Shared learning",
+      "note": "Foundation and Entry practice. N1–N6 at Base / Entry scope.",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "practitioner",
+      "name": "Practitioner additions",
+      "budget": 8,
+      "parent": "all",
+      "needs": [
+        "N7",
+        "N8",
+        "N9"
+      ],
+      "rank": 2,
+      "selected": [
+        "TR-100",
+        "TR-159",
+        "INT-2269"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Shared learning",
+      "lateNeeds": [
+        "N4"
+      ],
+      "note": "Includes third-party Skill / connector vetting introduced at Practitioner.",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "technical",
+      "name": "Technical Expert",
+      "budget": 24,
+      "parent": "practitioner",
+      "needs": [
+        "N10",
+        "N11",
+        "N12",
+        "N14"
+      ],
+      "rank": 3,
+      "selected": [
+        "TR-063",
+        "TR-094",
+        "TR-129",
+        "TR-133",
+        "INT-194",
+        "INT-1099",
+        "INT-2041",
+        "INT-2478"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Expert presets",
+      "lateNeeds": [
+        "N5"
+      ],
+      "note": "Technical preset; leadership and architecture-only requirements are optional.",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "governance",
+      "name": "Governance Expert",
+      "budget": 24,
+      "parent": "practitioner",
+      "needs": [
+        "N11",
+        "N13",
+        "N14"
+      ],
+      "rank": 3,
+      "selected": [
+        "TR-063",
+        "TR-133",
+        "INT-397",
+        "INT-2041",
+        "INT-2478"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Expert presets",
+      "lateNeeds": [
+        "N5"
+      ],
+      "note": "Proposed governance scope. Review the model requirements for your actual responsibilities.",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "leadership",
+      "name": "Leadership / tool selection",
+      "budget": 24,
+      "parent": "all",
+      "needs": [
+        "N11",
+        "N13",
+        "N14"
+      ],
+      "rank": 3,
+      "selected": [
+        "TR-063",
+        "TR-064",
+        "TR-133",
+        "INT-397",
+        "INT-2041",
+        "INT-2478"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Expert presets",
+      "leaders": true,
+      "lateNeeds": [
+        "N5"
+      ],
+      "note": "Decision-maker pathway; does not confer technical L3 or operational supervision authority.",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "cdc",
+      "name": "Incident response",
+      "budget": 4,
+      "parent": "practitioner",
+      "needs": [
+        "R1.1"
+      ],
+      "rank": 2,
+      "selected": [],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Cyber Defence Centre",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "forensics",
+      "name": "Agent forensics",
+      "budget": 4,
+      "parent": "technical",
+      "needs": [
+        "R1.1",
+        "R1.2"
+      ],
+      "rank": 3,
+      "selected": [],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Cyber Defence Centre",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "idp",
+      "name": "DLP, classification & AI risk",
+      "budget": 4,
+      "parent": "practitioner",
+      "needs": [
+        "N4",
+        "N7",
+        "N8",
+        "N9",
+        "N13"
+      ],
+      "rank": 3,
+      "selected": [
+        "TR-133",
+        "TR-167",
+        "INT-397"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Information Data Protection",
+      "note": "The source model has no dedicated IDP role extra. Apply these needs to DLP and classification cases.",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "biso",
+      "name": "Governance & assurance",
+      "budget": 4,
+      "parent": "governance",
+      "needs": [
+        "N13",
+        "R6.1"
+      ],
+      "rank": 3,
+      "selected": [],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "BISO",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "testing",
+      "name": "Agent testing",
+      "budget": 4,
+      "parent": "practitioner",
+      "needs": [
+        "R3.1",
+        "R3.2"
+      ],
+      "rank": 2,
+      "selected": [
+        "TR-114"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Application Security",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "redteam",
+      "name": "Expert agent red-teaming",
+      "budget": 4,
+      "parent": "technical",
+      "needs": [
+        "R3.1",
+        "R3.2"
+      ],
+      "rank": 3,
+      "selected": [
+        "TR-132"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Application Security",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "exposure",
+      "name": "Exposure management",
+      "budget": 4,
+      "parent": "practitioner",
+      "needs": [
+        "R4.1"
+      ],
+      "rank": 2,
+      "selected": [],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Application Security",
+      "recommendation": {
+        "message": "No eligible resource improves the current coverage.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "harness",
+      "name": "Code-analysis harnesses",
+      "budget": 4,
+      "parent": "technical",
+      "needs": [
+        "R4.1",
+        "R4.2"
+      ],
+      "rank": 3,
+      "selected": [],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Application Security",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "architecture",
+      "name": "Agent security architecture",
+      "budget": 4,
+      "parent": "technical",
+      "needs": [
+        "N12",
+        "R5.1"
+      ],
+      "rank": 3,
+      "selected": [
+        "TR-112",
+        "TR-122"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Application Security",
+      "architect": true,
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "iam",
+      "name": "Agent identity operations",
+      "budget": 4,
+      "parent": "practitioner",
+      "needs": [
+        "R9.1"
+      ],
+      "rank": 2,
+      "selected": [
+        "TR-129"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Identity & Access Management",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "iam-expert",
+      "name": "Agent identity integration",
+      "budget": 4,
+      "parent": "technical",
+      "needs": [
+        "R9.1"
+      ],
+      "rank": 3,
+      "selected": [
+        "TR-064"
+      ],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "Identity & Access Management",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    },
+    {
+      "id": "cio",
+      "name": "Strategy & tool selection",
+      "budget": 4,
+      "parent": "leadership",
+      "needs": [
+        "N11",
+        "N13",
+        "N14"
+      ],
+      "rank": 3,
+      "selected": [],
+      "pinned": [],
+      "excluded": [],
+      "internal": [],
+      "rationale": "",
+      "removedRequirements": [],
+      "addedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "group": "CIO",
+      "leaders": true,
+      "note": "Adds learning to the leadership preset. No invented role extra.",
+      "recommendation": {
+        "message": "Optimal coverage within these constraints; ties resolved by hours, then course count.",
+        "status": "Optimal"
+      }
+    }
+  ]
+}

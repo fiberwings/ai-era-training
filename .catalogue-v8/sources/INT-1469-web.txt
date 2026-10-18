@@ -1,0 +1,201 @@
+EU AI Act Compliance: High-Risk, GPAI and Governance (https://www.udemy.com/course/eu-ai-act-compliance-2026-high-risk-gpai-and-governance/)
+citeturn109view0 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/eu-ai-act-compliance-2026-high-risk-gpai-and-governance/","lineno":null}); Total lines: 211
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: EU AI Act Compliance: High-Risk, GPAI and Governance
+L30: 
+L31: New
+L32: Rating: 4.6 out of 5 4.6cite8†(58 ratings) L33: 
+L34: 188 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # EU AI Act Compliance: High-Risk, GPAI and Governance
+L38: 
+L39: Master the EU AI Act after the 2026 Omnibus: classify high-risk systems, comply with Article 50, and run a 90-day plan
+L40: 
+L41: Created bycite9†DCDG Partners L42: 
+L43: Last updated 8/2026
+L44: 
+L45: English
+L46: 
+L47: English [Auto],
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Understand why the EU AI Act exists, how its risk-based approach works, and how the four-tier pyramid organizes every obligation.
+L53: 
+L54:   * Determine whether the AI Act applies to your organization, including its extraterritorial reach beyond the European Union.
+L55: 
+L56:   * Identify the six roles under the Act, understand how your role can change, and know which obligations attach to each one.
+L57:   * Master the ten prohibited practices, including the two red lines most training programs still are not covering.
+L58: 
+L59:   * Classify AI systems like an auditor using both Annex I and Annex III routes, and apply the filter to legitimately exit high-risk.
+L60: 
+L61:   * Apply the seven provider requirements for high-risk systems plus conformity assessment, CE marking, and registration duties.
+L62:   * Understand deployer obligations, the compliance gap most of the market is ignoring, and how to close it in your organization.
+L63: 
+L64:   * Comply with the Article 50 transparency rules already in force, covering disclosure, content marking, and deepfake labelling.
+L65: 
+L66:   * Navigate GPAI model obligations, systemic risk requirements, and what to demand from providers when you build on their models.
+L67:   * Build a right-sized compliance program with inventory, triage, governance, monitoring, and a concrete 90-day action roadmap.
+L68: ## Course content
+L69: 
+L70: 9 sections • 40 lectures • 2h 58m total length
+L71: 
+L72: Expand all sections
+L73: 
+L74: ### The Big Picture: The AI Act 4 lectures • 14min
+L75: 
+L76:   * Why the AI Act exists and how it thinks Preview 4:44
+L77: 
+L78:   * The map: one regulation, three layers Preview 4:26
+L79: 
+L80:   * Where we are right now Preview 4:22
+L81: 
+L82:   * D1 · AI Act Quick Reference Card 0:21
+L83: ### Scope, Roles and the Real Timeline 5 lectures • 21min
+L84: 
+L85:   * Does the AI Act apply to you?4:59
+L86: 
+L87:   * The six roles, and why yours can change 5:59
+L88: 
+L89:   * Extraterritorial reach 4:19
+L90: 
+L91:   * The real timeline after the Omnibus 5:08
+L92: 
+L93:   * D2 · Applicability & Timeline Kit 0:21
+L94: 
+L95: ### Prohibited Practices: The Ten Red Lines 4 lectures • 21min
+L96: 
+L97:   * The original eight 5:27
+L98: 
+L99:   * The two prohibitions nobody is teaching yet 5:32
+L100: 
+L101:   * The grey zones 5:27
+L102: 
+L103:   * What breaking a red line costs 4:32
+L104: ### High-Risk Classification: Which Door Are You In?6 lectures • 28min
+L105: 
+L106:   * Two doors into high-risk 4:49
+L107: 
+L108:   * Door one: Annex I 5:27
+L109: 
+L110:   * Door two: Annex III 6:19
+L111: 
+L112:   * The filter: how to legitimately exit high-risk 5:39
+L113: 
+L114:   * Classify like an auditor 5:28
+L115: 
+L116:   * D3 · High-Risk Classification Kit 0:20
+L117: ### High-Risk Obligations: Providers, Deployers, and the Path to CE 6 lectures • 27min
+L118: 
+L119:   * The provider's seven requirements 5:58
+L120: 
+L121:   * Provider obligations beyond the system 4:52
+L122: 
+L123:   * Deployer obligations: the market gap 5:40
+L124: 
+L125:   * Conformity assessment, CE marking and registration 5:18
+L126: 
+L127:   * Using the extra time wisely 5:14
+L128: 
+L129:   * D4 · High-Risk Compliance Pack 0:19
+L130: ### Transparency: The Rules Already in Force 5 lectures • 21min
+L131: 
+L132:   * Article 50 is live: the four obligations 5:23
+L133: 
+L134:   * Getting disclosure and marking right 5:23
+L135: 
+L136:   * Deepfakes, art and journalism 5:05
+L137: 
+L138:   * Your compliance strategy: the Code of Practice question 5:06
+L139: 
+L140:   * D5 · Transparency Kit 0:19
+L141: ### General-Purpose AI: Rules for Models and What to Demand from Vendors 3 lectures • 14min
+L142: 
+L143:   * GPAI obligations since August 2025 4:43
+L144: 
+L145:   * Systemic risk models 4:38
+L146: 
+L147:   * You build on top of GPAI: now what 4:40
+L148: 
+L149: ### Enforcement and Allies: Who Can Fine You, Who Can Help You 3 lectures • 14min
+L150: 
+L151:   * The enforcement machine is on 4:47
+L152: 
+L153:   * Penalties in practice 4:33
+L154: 
+L155:   * Your allies: sandboxes, testing and SME support 4:40
+L156: ### Your Compliance Program and the Road Ahead 4 lectures • 19min
+L157: 
+L158:   * Build the inventory, then triage 2:46
+L159: 
+L160:   * Governance that fits your size 4:47
+L161: 
+L162:   * Monitoring, incidents and change 4:47
+L163: 
+L164:   * The AI Act and the world, and your next 90 days 6:22
+L165: ## Requirements
+L166: 
+L167:   * No legal or technical background required, this course explains the regulation in plain language from the ground up.
+L168: 
+L169:   * No prior knowledge of the AI Act is needed, every concept, article, and obligation is introduced clearly and in order.
+L170: 
+L171:   * All you need is a role that touches AI systems, compliance, risk, or product decisions in an organization operating in Europe
+L172: ## Description
+L173: 
+L174: Updated August 2026. Includes the Digital Omnibus changes (Regulation 2026/1744) that rewrote the AI Act's deadlines in July 2026.
+L175: 
+L176: The EU AI Act is being enforced right now. Transparency rules, the penalty regime and the enforcement authorities all switched on in August 2026, with fines reaching 35 million euros or 7% of worldwide turnover. Most companies still do not know which of their systems are affected.
+L177: This course takes you from the legal text to a working compliance program, with the templates to run it.
+L178: 
+L179: What you will be able to do
+L180: 
+L181:   * Decide whether the Act applies to you, including if your company sits outside the EU
+L182: 
+L183:   * Identify your role for each system, and spot when your role changes without you noticing
+L184: 
+L185:   * Screen any system against the ten prohibited practices, including the two added for generative AI in 2026
+L186:   * Classify high-risk systems through both Annex I and Annex III, and apply the Article 6(3) filter to legitimately exit
+L187: 
+L188:   * Meet the Article 50 transparency rules that are already enforceable today
+L189: 
+L190:   * Build an inventory, a governance structure and a 90-day plan sized to your organization
+L191: What you download
+L192: Every section ships with working files, not slides: a quick reference card with all the dates and fines, an applicability and role-finder kit, a classification engine in Excel, a self-assessment template for Article 6(4), a requirements tracker with separate provider and deployer tabs, a FRIA template with DPIA cross-references, ready-to-use disclosure texts, a vendor questionnaire, and the full inventory workbook with the 90-day tracker.
+L193: What makes this course different
+L194: Most AI Act training covers providers and stops there. For every company that builds a high-risk system, hundreds simply use one. Article 26 gets a full lesson here, and the deployer obligations run through every toolkit. The course also teaches the two prohibitions added by the Omnibus, applicable from December 2026, which most training programs have not caught up with yet.
+L195: Who this is for
+L196: Compliance, legal, risk, product and technology professionals. No legal background required.
+L197: ## Who this course is for:
+L198:   * Compliance officers and AI governance professionals responsible for meeting EU AI Act obligations across their organization.
+L199:   * Legal counsel and regulatory affairs professionals who need a practical, operational understanding of the AI Act in force.
+L200:   * Data Protection Officers extending their remit to AI systems and navigating the overlap between GDPR and the AI Act.
+L201:   * Risk managers and internal auditors building AI inventories, classification processes, and control frameworks from scratch.
+L202:   * Product managers and engineering leaders who need to know which obligations attach to the AI features they are shipping.
+L203:   * CTOs, CIOs, and technology executives making build, buy, and deployment decisions under a live regulatory framework.
+L204:   * HR and recruitment professionals using AI systems that fall squarely into the high-risk category under Annex III.
+L205:   * Consultants and advisors helping organizations classify systems, close compliance gaps, and prepare for enforcement.
+L206:   * Founders and executives at SMEs and startups who need proportionate compliance without enterprise-scale legal budgets.
+L207:   * Anyone working with AI in Europe who wants to understand their obligations before enforcement reaches their organization.
+L208: Show more Show less
+L209: 
+L210: cite10†Report abuse 

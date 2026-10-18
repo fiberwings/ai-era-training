@@ -1,0 +1,177 @@
+Google Antigravity AI IDE: Generative AI Fundamentals 2026!! (https://www.udemy.com/course/google-antigravity-ai-ide-generative-ai-fundamentals-2026/)
+citeturn129view0 [wordlim: 200] Crawled: 3 months ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/google-antigravity-ai-ide-generative-ai-fundamentals-2026/","lineno":null}); Total lines: 195
+L0: cite15†Image†www.udemy.com L1: 
+L2: Skip to content
+L3: 
+L4: cite16†Image: Udemy†www.udemy.com L5: 
+L6: Explore
+L7: 
+L8:   *     *
+L9: 
+L10:     *
+L11: 
+L12:     *
+L13: 
+L14:     *
+L15: 
+L16:     *
+L17: 
+L18:     *
+L19: 
+L20:     *
+L21: 
+L22:     *
+L23: 
+L24: cite0†Subscribe L25: 
+L26: cite1†Udemy Business L27: 
+L28:   * cite2†Compare Plans L29:   * cite3†Try Udemy Business L30: 
+L31: cite4†Teach on Udemy L32: 
+L33: Turn what you know into an opportunity and reach millions around the world.
+L34: 
+L35: cite4†Learn More L36: 
+L37: Your cart is empty.
+L38: 
+L39: cite5†Keep shopping L40: 
+L41: cite6†Log in L42: 
+L43: cite7†Sign up L44: 
+L45: Google Antigravity AI IDE: Generative AI Fundamentals 2026!!
+L46: 
+L47: Highest Rated
+L48: Rating: 4.5 out of 5 4.5(61 ratings)
+L49: 
+L50: 1,105 students
+L51: 
+L52:   1. cite8†IT & Software L53:   2. cite9†Network & Security L54:   3. cite10†Server Infrastructure L55: 
+L56: cite17†Image†www.udemy.com Preview this course
+L57: # Google Antigravity AI IDE: Generative AI Fundamentals 2026!!
+L58: 
+L59: Core concepts, use cases, and best practices—no setup, no labs:: Google Antigravity AI IDE: Generative AI Fundamentals!!
+L60: 
+L61: Highest Rated
+L62: 
+L63: Created bycite11†Mana Dowlatshahi Yeganeh L64: 
+L65: Last updated 7/2026
+L66: 
+L67: English
+L68: 
+L69: cite18†Image†www.udemy.com Preview this course
+L70: ## What you'll learn
+L71: 
+L72:   * Google Antigravity
+L73: 
+L74:   * AI IDE:
+L75: 
+L76:   * Generative AI
+L77: 
+L78:   * Fundamentals
+L79: 
+L80:   * Core concepts, use cases, and best practices—no setup, no labs:: Google Antigravity AI IDE: Generative AI Fundamentals!!
+L81: 
+L82: ## Explore related topics
+L83: 
+L84:   * cite10†Server Infrastructure L85:   * cite12†Generative AI (GenAI) L86:   * cite13†Vibe Coding L87:   * cite9†Network & Security L88:   * cite8†IT & Software L89: 
+L90: ## Course content
+L91: 
+L92: 16 sections • 56 lectures • 50h 40m total length
+L93: 
+L94: Expand all sections
+L95: ### Updated MAR 2026 4 lectures • 2hr 2min
+L96: 
+L97:   * 01 Google Antigravity IDE The Future of Software Development is Here Preview 30:55
+L98: 
+L99:   * 02 Google Antigravity The Agent First Future of Software Development 30:23
+L100: 
+L101:   * 03 Navigating the AI IDE Landscape What NOT to Do 30:20
+L102: 
+L103:   * 04 Google Antigravity IDE 30:49
+L104: ### Bonus: Additional Training Resources 6 lectures • 6hr 18min
+L105: 
+L106:   * AI Ethics and Responsible AI GenAI Foundations for Everyone PART_1 32:27
+L107: 
+L108:   * AI Ethics and Responsible AI GenAI Foundations for Everyone PART_2 1:34:50
+L109: 
+L110:   * AI & GenAI Fundamentals for Modern Business Analysts!! PART_1 32:23
+L111: 
+L112:   * AI & GenAI Fundamentals for Modern Business Analysts!! PART_2 1:33:04
+L113: 
+L114:   * AI for Creative Leaders & Managers GenAI Fundamentals 2026 PART_1 34:08
+L115:   * AI for Creative Leaders & Managers GenAI Fundamentals 2026 PART_2 1:31:24
+L116: ### Bonus: Additional Training Resources 3 lectures • 2hr 23min
+L117: 
+L118:   * Ubuntu Desktop Home Lab VMware KVM Nested Virtualization Devin AI Coding Agent!!1:35:42
+L119: 
+L120:   * Ubuntu Desktop Home Lab VMware KVM Nested Virtualization Devin AI Coding Agent!!47:37
+L121: 
+L122:   * LAB.zip
+L123: 
+L124: ### Bonus: Additional Training Resources 2 lectures • 1hr 58min
+L125: 
+L126:   * Complete Linux Home Lab Setup with CentOS Vagrant & DEVIN Windsurf AI PART_1 56:37
+L127: 
+L128:   * Complete Linux Home Lab Setup with CentOS Vagrant & DEVIN Windsurf AI PART_2 1:01:16
+L129: ### Bonus: Additional Training Resources 3 lectures • 1hr 58min
+L130: 
+L131:   * Docker Swarm HA Lab Ansible Automation IaC CentOS AI Agent! PART_1 1:06:24
+L132: 
+L133:   * Docker Swarm HA Lab Ansible Automation IaC CentOS AI Agent! PART_2 51:54
+L134: 
+L135:   * LAB.zip
+L136: 
+L137: ### Bonus: Additional Training Resources 3 lectures • 1hr 54min
+L138: 
+L139:   * Apache Web Server Setup on CentOS with AI Agent Basics LAB! PART_1 57:37
+L140: 
+L141:   * Apache Web Server Setup on CentOS with AI Agent Basics LAB! PART_2 56:36
+L142: 
+L143:   * Apache_LAB.zip
+L144: ### Bonus: Additional Training Resources 3 lectures • 2hr 3min
+L145: 
+L146:   * KCNA Kubernetes Install Lab with Windsurf AI Agent How to! PART_1 1:03:33
+L147: 
+L148:   * KCNA Kubernetes Install Lab with Windsurf AI Agent How to! PART_2 59:00
+L149: 
+L150:   * LAB.zip
+L151: 
+L152: ### Bonus: Additional Training Resources 3 lectures • 1hr 56min
+L153: 
+L154:   * Beginner Sentiment Analysis Lab with Windsurf Code AI Agent! PART_1 47:53
+L155: 
+L156:   * Beginner Sentiment Analysis Lab with Windsurf Code AI Agent! PART_2 1:08:06
+L157: 
+L158:   * mana_sentlab.zip
+L159: ### Bonus: Additional Training Resources 2 lectures • 2hr 36min
+L160: 
+L161:   * Zabbix 7.4 Server Practical Lab VMware & Cloud Monitoring!! PART_1 1:34:17
+L162: 
+L163:   * Zabbix 7.4 Server Practical Lab VMware & Cloud Monitoring!! PART_2 1:01:14
+L164: 
+L165: ### Bonus: Additional Training Resources 2 lectures • 2hr 2min
+L166: 
+L167:   * Stable Diffusion Labs with ChatGPT Gemini Google Colab FREE! PART_1 1:01:08
+L168: 
+L169:   * Stable Diffusion Labs with ChatGPT Gemini Google Colab FREE! PART_2 1:00:26
+L170: 
+L171: 6 more sections
+L172: ## Requirements
+L173: 
+L174:   * There are no strict technical prerequisites for this course. Learners should have a general understanding of software development concepts, digital tools, or technology-driven workflows. Familiarity with IDEs, basic programming logic, or AI terminology is helpful but not required. Curiosity about Generative AI, openness to new ways of working, and an interest in understanding how AI tools influence productivity, quality, and decision-making are the primary requirements.
+L175: ## Description
+L176: 
+L177: What is this course?
+L178: This course introduces the fundamental concepts of using Generative AI within the Google Antigravity IDE. It focuses on understanding how AI-assisted development works, how generative capabilities enhance productivity, and how teams can apply these tools effectively without requiring configuration, complex environments, or hands-on labs. The course emphasizes concepts, patterns, and decision-making rather than tool setup.
+L179: Why is it important?
+L180: Generative AI is rapidly becoming a standard component of modern software development and digital workflows. Understanding how AI integrates into an IDE helps professionals work faster, reduce cognitive load, and improve quality while maintaining control and responsibility. This course builds foundational literacy so learners can confidently evaluate and adopt AI-assisted development approaches.
+L181: What are the advantages?
+L182: Learners gain clarity on real-world use cases, best practices, limitations, and ethical considerations. The no-configuration, no-lab approach allows learners to focus on understanding value, risks, and strategy rather than tooling complexity. The course creates a strong conceptual base that applies across evolving AI platforms.
+L183: Who should learn and why?
+L184: This course is designed for a broad audience—from developers to technical leaders and business professionals—who want to understand how Generative AI fits into modern IDEs and workflows. It helps learners communicate effectively across teams and make informed decisions about AI adoption.
+L185: The future outlook
+L186: As Generative AI continues to evolve, IDE-embedded intelligence will become more autonomous, collaborative, and context-aware. This course prepares learners to adapt to future AI-driven development environments by grounding them in principles that remain relevant despite rapid technological change.
+L187: ## Who this course is for:
+L188:   * Software Developers & Engineers Learn how Generative AI enhances coding, debugging, documentation, and design thinking while understanding best practices and limitations.
+L189:   * Technical Leads & Architects Gain insights into how AI-assisted IDEs impact team productivity, code quality, governance, and long-term technology strategy.
+L190:   * Product Managers & Business Professionals Understand AI-driven development capabilities to better scope features, estimate impact, and align technical possibilities with business goals.
+L191:   * Students & Career Switchers Build foundational AI-IDE literacy to stay relevant in modern tech roles and confidently engage with AI-powered development environments.
+L192: Show more Show less
+L193: 
+L194: cite14†Report abuse 

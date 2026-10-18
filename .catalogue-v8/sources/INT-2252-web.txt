@@ -1,0 +1,146 @@
+Mastering the OWASP Top 10 for LLM Applications (https://www.udemy.com/course/mastering-the-owasp-top-10-for-llm-applications/)
+citeturn160view0 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/mastering-the-owasp-top-10-for-llm-applications/","lineno":null}); Total lines: 156
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Mastering the OWASP Top 10 for LLM Applications
+L30: 
+L31: Rating: 4.3 out of 5 4.3cite8†(650 ratings) L32: 2,392 students
+L33: 
+L34: cite0†Image†img-c.udemycdn.com Preview this course
+L35: # Mastering the OWASP Top 10 for LLM Applications
+L36: 
+L37: Navigate LLM Vulnerabilities: From Prompt Injection to Model Theft
+L38: 
+L39: Created bycite9†Ing.Seif | Europe Innovation L40: 
+L41: Last updated 8/2024
+L42: 
+L43: English
+L44: 
+L45: English [Auto],Spanish [Auto], 5 more
+L46: 
+L47: cite0†Image†img-c.udemycdn.com Preview this course
+L48: ## What you'll learn
+L49: 
+L50:   * Identify and understand the top 10 vulnerabilities of LLMs as classified by OWASP.
+L51: 
+L52:   * Implement practical mitigation strategies to protect LLMs from common security threats.
+L53: 
+L54:   * Perform security assessments and apply proactive defenses in LLM deployments
+L55: 
+L56:   * Conduct hands-on demonstrations to recognize and rectify security breaches in LLMs
+L57: 
+L58: ## Course content
+L59: 
+L60: 11 sections • 12 lectures • 1h 40m total length
+L61: 
+L62: Expand all sections
+L63: ### Introduction 1 lecture • 4min
+L64: 
+L65:   * OWASP Introduction Preview 4:01
+L66: 
+L67: Explore the OWASP top ten vulnerabilities for large language models, from prompt injection to model theft, and learn practical mitigations to protect data, privacy, and integrity.
+L68: ### LLM01: Prompt Injection 2 lectures • 16min
+L69: 
+L70:   * LLM01 - Kali Linux Demo 5:32
+L71: 
+L72: Explore prompt injection risks in LLM applications through a Kali Linux demo, illustrating how manipulated prompts can inflate CV analysis scores and highlighting OWASP top ten security concerns.
+L73: 
+L74:   * LLM01 - Gandalf-AI Demo Preview 10:01
+L75: 
+L76: Demonstrate prompt injection against a large language model with Gandalf, testing multiple levels—from direct prompts to indirect tricks, poems, and riddles—to reveal passwords.
+L77:   * LLM01 QUIZ
+L78: ### LLM02: Insecure Output Handling 1 lecture • 11min
+L79: 
+L80:   * LLM02 - Portswigger Lab Demo Preview 11:07
+L81: 
+L82: Learn how insecure output handling in large language models enables indirect prompt injection and xss, demonstrated via a portswigger lab on account compromise.
+L83: 
+L84:   * LLM02: QUIZ
+L85: ### LLM03: Training Data Poisoning 1 lecture • 12min
+L86: 
+L87:   * LLM03 - Demo 12:11
+L88: 
+L89: Examine training data poisoning risks in llms using the Garrick red-teaming toolkit to reveal vulnerabilities in toxicity handling, prompt injections, phishing, malware generation, and misleading information against robust defenses.
+L90: 
+L91:   * LLM03 QUIZ
+L92: ### LLM04: Model Denial of Service 1 lecture • 7min
+L93: 
+L94:   * LLM04: Model Denial of Service 7:02
+L95: 
+L96: Examine model denial of service threats to llm api, revealed by a bug bounty test, and explore mitigations using concurrency limits, timeouts, and costly-prompt detection.
+L97: 
+L98:   * LLM04 QUIZ
+L99: ### LLM05: Supply Chain Vulnerabilities 1 lecture • 8min
+L100: 
+L101:   * LLM05 - Demo 8:02
+L102: 
+L103: Demonstrates a supply chain vulnerability in llms by simulating a typosquatting attack on the Python requests library, capturing cookies and session tokens for hijacking, and outlining mitigations.
+L104: 
+L105:   * LLM05 - QUIZ
+L106: ### LLM06: Sensitive Information Disclosure 1 lecture • 13min
+L107: 
+L108:   * LLM06 - Demo 12:55
+L109: 
+L110: Demonstrates how sensitive information disclosure vulnerabilities in large language models arise and are mitigated with data sanitation, anonymization, hashing, and safeguards for personal data in a Flask chat using GPT-Neo.
+L111: 
+L112:   * LLM06 - QUIZ
+L113: ### LLM07: Insecure Plugin Design 1 lecture • 8min
+L114: 
+L115:   * LLM07 - Demo 8:16
+L116: 
+L117: Demonstrates insecure plugin design in large language models using the user fetcher plugin to access a MySQL database, then mitigates with parameterized queries and least privilege.
+L118: 
+L119:   * LLM07 - QUIZ
+L120: ### LLM08: Excessive Agency 1 lecture • 5min
+L121: 
+L122:   * LLM08 - Demo 5:20
+L123: 
+L124: Examine excessive agency in LLM systems through a demo where a chat-based LLM approves refunds; apply mitigations like reduced permissions, rate limiting, and human-in-the-loop controls.
+L125: 
+L126:   * LLM08 - QUIZ
+L127: ### LLM09: Overreliance 1 lecture • 7min
+L128: 
+L129:   * LLM09 - Demo 7:21
+L130: 
+L131: Demonstrates how overreliance on llms can cause hallucinations and misinformation, then applies fact checking, external article enrichment, risk disclosure, and monitoring to reduce errors.
+L132: 
+L133:   * LLM09 - QUIZ
+L134: 
+L135: 1 more section
+L136: 
+L137: ## Requirements
+L138: 
+L139:   * No prior experience with OWASP needed; this course will cover all foundational aspects
+L140: ## Description
+L141: 
+L142: Embark on a transformative journey into the heart of LLM security with our comprehensive course, "Mastering the OWASP Top 10 for LLMs." Designed for IT professionals, security analysts, and AI developers, this course delves deep into the most critical vulnerabilities identified by the Open Web Application Security Project (OWASP) specifically for Large Language Models (LLMs).
+L143: Throughout this course, participants will gain a thorough understanding of each category listed in the OWASP Top 10 for LLMs. Starting with Prompt Injection and moving through to Model Theft, we explore the subtleties and complexities of vulnerabilities such as Insecure Output Handling, Training Data Poisoning, and Supply Chain Risks. Each module not only describes the risks but also articulates clear and effective mitigation strategies to safeguard your applications.
+L144: What sets this course apart is its practical approach. For each vulnerability, we provide detailed demonstrations, showing firsthand how these security breaches can occur and how they can be countered. These live demos ensure that learners not only understand the theory but also how to apply this knowledge in real-world scenarios.
+L145: In addition to exploring specific LLM vulnerabilities, participants will learn how to conduct risk assessments and implement robust security measures to prevent data leaks, unauthorized access, and other potential threats. By the end of this course, you will be equipped with the knowledge and skills to confidently navigate and secure the landscape of language model technologies.
+L146: Join us to elevate your expertise in LLM security and stay ahead in the fast-evolving domain of artificial intelligence and machine learning. Secure your systems, protect your data, and lead your organization towards a safer digital future.
+L147: ## Who this course is for:
+L148: 
+L149:   * Beginner to advanced security professionals aiming to secure AI and machine learning implementations
+L150:   * AI and machine learning enthusiasts, including beginners, interested in understanding and applying security practices
+L151:   * IT professionals and managers at all levels who need to safeguard AI technologies within their organizations
+L152:   * Students and academic researchers starting in cybersecurity, focusing on the intersection of AI and security
+L153: 
+L154: Show more Show less
+L155: cite10†Report abuse 

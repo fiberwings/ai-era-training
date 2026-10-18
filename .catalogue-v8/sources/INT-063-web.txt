@@ -1,0 +1,542 @@
+4x1 Banking + Banking Risk + Compliance + GenAI Masterclass (https://www.udemy.com/course/fundamentals-banking/)
+citeturn17view0 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/fundamentals-banking/","lineno":null}); Total lines: 598
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: 4x1 Banking + Banking Risk + Compliance + GenAI Masterclass
+L30: 
+L31: Role Play
+L32: Rating: 4.4 out of 5 4.4cite8†(3,304 ratings) L33: 
+L34: 16,921 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # 4x1 Banking + Banking Risk + Compliance + GenAI Masterclass
+L38: 
+L39: The essentials of the banking business (business model, compliance, others), financial risk management and compliance.
+L40: 
+L41: Created bycite9†Vasco Patrício L42: 
+L43: Last updated 9/2026
+L44: 
+L45: English
+L46: 
+L47: English [Auto],French [Auto], 5 more
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * You'll learn about the business models of banks - how they make money at the end of the day
+L53: 
+L54:   * You'll learn about the different debt and deposit products that banks provide
+L55: 
+L56:   * You'll learn about the different risks that banks must manage, as well as regulations they must comply with
+L57: 
+L58:   * You'll learn about the main accounting, capital and risk management considerations in bank operations
+L59: ## Course content
+L60: 
+L61: 21 sections • 234 lectures • 39h 29m total length
+L62: 
+L63: Expand all sections
+L64: 
+L65: ### Introduction 2 lectures • 5min
+L66: 
+L67:   * Introduction Preview 2:45
+L68: 
+L69: Discover the fundamentals of banking, including bank products (debt and deposit), loan agreements, risk management, and compliance, organized into six modules that explain business models, revenue, expenses, and funding.
+L70: 
+L71:   * Useful Information 2:09
+L72: ### Fundamentals 2 lectures • 19min
+L73: 
+L74:   * Banking Fundamentals Preview 18:47
+L75: 
+L76: Define the core functions of banks as financial intermediaries, including deposit-taking, lending, and capital intermediation, and distinguish major banking models, institutional roles, and regulatory frameworks shaping modern banking systems.
+L77: 
+L78:   * Banking Fundamentals Quiz
+L79: 
+L80:   * Role Play Interview: Banking Fundamentals
+L81: ### Banking Business Models 10 lectures • 58min
+L82: 
+L83:   * Intro Preview 3:50
+L84: 
+L85: Explore how banks make money through deposits, lending, and capital markets, and examine revenue, costs, loan agreements, risk management, and compliance including KYC, AML, and PCI DSS.
+L86: 
+L87:   * Key Activities Preview 10:24
+L88: 
+L89: Identify the core banking activities that generate interest income, fee income, and capital markets revenue across retail, commercial, and investment banking.
+L90: 
+L91:   * Key Activities Quiz
+L92: 
+L93:   * Types of Funding 13:54
+L94: Explain how banks obtain funding, compare funding sources by cost and stability, and assess their impact on net interest income and liquidity.
+L95: 
+L96:   * Types of Funding Quiz
+L97: 
+L98:   * Income and Expenses 12:52
+L99: 
+L100: Analyze banking income streams, operating and funding costs, loss provisions, and the role of maturity transformation in profitability and liquidity management.
+L101: 
+L102:   * Income and Expenses Quiz
+L103: 
+L104:   * Accounting Considerations 9:47
+L105: Distinguish between banking and trading books, explain capital tiers, and understand how accounting treatment affects risk measurement and reporting.
+L106: 
+L107:   * Accounting Considerations Quiz
+L108: 
+L109:   * Outro 2:33
+L110: 
+L111: Recap the banking business models by reviewing key activities (lending, broking, advisory, proprietary trading), funding types, revenue and cost drivers, and the distinctions between banking and trading books.
+L112: 
+L113:   * Role Play Interview: Banking Business Models
+L114: 
+L115:   * Intro to Udemy Labs 3:00
+L116:   * (Update) Google Drive Folder with All Labs 0:17
+L117: 
+L118:   * Lab: Banking Business Model Simulator 1:22
+L119: ### Bank Products 7 lectures • 57min
+L120: 
+L121:   * Intro Preview 3:18
+L122: 
+L123:   * Bank Debt Products Preview 28:45
+L124: 
+L125: Identify the main bank lending products, compare their structures and use cases, and understand how banks distribute and syndicate credit.
+L126: 
+L127:   * Bank Debt Products Quiz
+L128: 
+L129:   * Bank Deposit Products 11:56
+L130: 
+L131: Explain the main types of bank deposit products and assess their role in funding stability and cost of capital.
+L132: 
+L133:   * Bank Deposit Products Quiz
+L134: 
+L135:   * Product Marketing 8:44
+L136: Analyze how banks position and market standardized financial products under regulatory, reputational, and competitive constraints.
+L137: 
+L138:   * Product Marketing Quiz
+L139: 
+L140:   * Outro Preview 2:31
+L141: 
+L142: Explore major bank products: loans, deposits, trade finance instruments like letters of credit, and other credit facilities, along with product marketing and consolidation questions.
+L143: 
+L144:   * Role Play Interview: Bank Products
+L145: 
+L146:   * Lab: Bank Product Mix Selector 1:59
+L147: ### Loan Agreements 9 lectures • 1hr 22min
+L148: 
+L149:   * Intro 4:51
+L150: 
+L151: Explore the essential components of loan agreements, including definitions, representations, covenants, and remedies, and their impact on borrowers and lenders, including risk, know-your-customer compliance, EBITDA and GAAP terms.
+L152: 
+L153:   * Agreement Components 7:55
+L154: 
+L155: Identify the core sections of a loan agreement and explain how each allocates rights, obligations, and risk between borrower and lender.
+L156: 
+L157:   * Agreement Components Quiz
+L158:   * Definitions 13:21
+L159: 
+L160: Evaluate how contractual definitions shape covenant strictness, financial tests, and lender protections.
+L161: 
+L162:   * Definitions Quiz
+L163: 
+L164:   * Representations 15:37
+L165: 
+L166: Assess borrower representations and warranties and their role in credit approval, default triggers, and lender liability protection.
+L167: 
+L168:   * Representations Quiz
+L169: 
+L170:   * Covenants 16:59
+L171: 
+L172: Differentiate affirmative, negative, and financial covenants and analyze how they constrain borrower behavior.
+L173: 
+L174:   * Covenants Quiz
+L175:   * Financial Covenants 18:20
+L176: 
+L177: Interpret common financial covenants and calculate how coverage, leverage, and liquidity tests protect lenders over time.
+L178: 
+L179:   * Financial Covenants Quiz
+L180: 
+L181:   * Outro 3:19
+L182: 
+L183: Review the major components of loan agreements, including definitions, commitment conditions, precedent, representations, covenants, and incurrence versus maintenance financial covenants, and note consequences for borrowers and vendors.
+L184: 
+L185:   * Role Play Interview: Loan Agreements
+L186:   * Lab: Loan Agreement/Covenant Simulator 1:47
+L187: ### Gen AI Credit Risk Assessment 8 lectures • 47min
+L188: 
+L189:   * Module Intro 2:11
+L190: 
+L191: Explore ai-powered credit risk assessment with Genii and llms, including data consolidation, score reviews, and anomaly detection, using JNI for automation.
+L192: 
+L193:   * Overview 11:13
+L194: 
+L195: Explore JNI-based credit risk assessment by consolidating borrower data, reviewing scores as a second opinion, and detecting AI-driven risk signals, with emphasis on explainability and responsible decision support.
+L196: 
+L197:   * Selected Use Cases 0:19
+L198:   * Gen AI Borrower Data Consolidation 10:30
+L199: 
+L200: Automate borrower data consolidation with GenAI by extracting and reconciling data from multiple documents into structured risk profiles for credit assessment, with human validation of sources and inconsistencies.
+L201: 
+L202:   * Gen AI Score Review/Decision Support 11:34
+L203: 
+L204: Gen AI score review provides a second opinion to traditional credit scoring models by structuring outputs, cross-checking drivers, and supporting or overriding decisions with human validation.
+L205:   * Gen AI Anomaly/Risk Detection 9:58
+L206: 
+L207: Discover how JNI detects risks and anomalies in borrower data via cross-signal monitoring, alert enrichment and prioritization, contextualized by unstructured sources, with human validation.
+L208: 
+L209:   * Module Outro 1:43
+L210: 
+L211:   * Role Play: Explaining Implementation of Gen AI for Credit Risk Assessment
+L212: ### Gen AI Loan Workflow Efficiency and Compliance 8 lectures • 49min
+L213: 
+L214:   * Module Intro 1:41
+L215: 
+L216: Explore automating banking workflows with GenAI to boost efficiency and compliance through automated review of loan and borrower documents, regulatory compliance checks, and credit reporting with LLMs.
+L217: 
+L218:   * Overview 9:40
+L219: Learn how JNI streamlines long workflows by modeling evidence, summarizing loan documents, and supporting regulatory checks and credit reporting with emphasis on data lineage and avoiding false completeness.
+L220: 
+L221:   * Selected Use Cases 0:18
+L222: 
+L223:   * Gen AI Document Review/Summarization 10:45
+L224: 
+L225: Automate document preview, review, and summarization in banking risk and compliance, extracting key terms and insights, aligning documents, and generating structured outputs with human validation.
+L226:   * Gen AI Regulatory Compliance Checking 11:42
+L227: 
+L228: Automate regulatory compliance checking for loan and credit data by mapping regulations to obligations, scoring gaps, and prioritizing remediation with human validation and regulator reports.
+L229: 
+L230:   * Gen AI Automated Credit Reporting 12:26
+L231: 
+L232: Gen AI automates credit reporting by mapping data from origination, underwriting, and risk systems into validated reports and narratives for regulators and executives.
+L233: 
+L234:   * Module Outro 2:06
+L235: Use GI to automate long workflows, enable document review and summarization, and support regulatory compliance and credit reporting with automated validation and human checks.
+L236: 
+L237:   * Role Play: Explaining Implementation of Gen AI for Loan Workflow Efficiency/Compliance
+L238: ### Financial Risk Management 26 lectures • 4hr 36min
+L239: 
+L240:   * Module Intro 4:25
+L241: 
+L242: Explore the financial risk management module, detailing major bank risks, credit risk, interest rate risk, market risk, and operational risk, and how they are measured and mitigated.
+L243: 
+L244:   * Risk Cats.: Intro 2:41
+L245: 
+L246: Explore risk categories in banks, including credit, market, operational, trading leverage, and liquidity risks, with subtypes like commodity risk and interest rate risk, and learn to measure and manage them.
+L247:   * Risk Cats.: Credit Risk: Intro Preview 2:15
+L248: 
+L249:   * Risk Cats.: Credit Risk: Overview 10:07
+L250: 
+L251: Explain the sources of credit risk, its structural drivers, and the secondary risks arising from borrower behavior and portfolio concentration.
+L252: 
+L253:   * Risk Cats.: Credit Risk: Overview Quiz
+L254: 
+L255:   * Risk Cats.: Credit Risk: Portfolio Management 14:34
+L256: 
+L257: Apply portfolio-level techniques to measure, diversify, and mitigate credit risk using quantitative and qualitative frameworks.
+L258:   * Risk Cats.: Credit Risk: Portfolio Management Quiz
+L259: 
+L260:   * Risk Cats.: Mkt. Risk: Intro 2:55
+L261: 
+L262: Explore market risk across capital markets, including broad, portfolio-specific, and idiosyncratic risk, and learn to measure it with value at risk, expected shortfall, and related metrics.
+L263: 
+L264:   * Risk Cats.: Mkt. Risk: Levels of Market Risk 14:03
+L265: 
+L266: Differentiate systematic, specific, and idiosyncratic market risks and assess their relevance across asset classes and institutions.
+L267:   * Risk Cats.: Mkt. Risk: Levels of Market Risk Quiz
+L268: 
+L269:   * Risk Cats.: Mkt. Risk: Interest Rate Risk 21:46
+L270: 
+L271: Analyze interest-rate risk drivers and evaluate hedging techniques using duration, convexity, and derivatives.
+L272: 
+L273:   * Risk Cats.: Mkt. Risk: Interest Rate Risk Quiz
+L274: 
+L275:   * Risk Cats.: Mkt. Risk: Measurement - VaR 14:44
+L276: 
+L277: Interpret Value-at-Risk and Expected Shortfall metrics and assess their limitations under stressed market conditions.
+L278: 
+L279:   * Risk Cats.: Mkt. Risk: Measurement - VaR Quiz
+L280:   * Risk Cats.: Mkt. Risk: Measurement - Others 12:50
+L281: 
+L282: Compare alternative market risk metrics and identify non-price risks affecting trading portfolios.
+L283: 
+L284:   * Risk Cats.: Mkt. Risk: Measurement - Others Quiz
+L285: 
+L286:   * Risk Cats.: Op. Risk: Intro 3:12
+L287: 
+L288: Explore operational risk in banking, covering internal processes and people, IT, infrastructure, and legal risks; learn six key topics including cyber, modeling, and conduct risk.
+L289: 
+L290:   * Risk Cats.: Op. Risk: Overview 15:12
+L291: Classify operational risk types and evaluate institutional frameworks for identifying, measuring, and capitalizing operational losses.
+L292: 
+L293:   * Risk Cats.: Op. Risk: Overview Quiz
+L294: 
+L295:   * Risk Cats.: Op. Risk: Internal Process Risk 8:23
+L296: 
+L297: Diagnose internal process failures and assess how control design affects operational loss events.
+L298: 
+L299:   * Risk Cats.: Op. Risk: Internal Process Risk Quiz
+L300: 
+L301:   * Risk Cats.: Op. Risk: Systems and Cyber Risk 7:58
+L302: Assess technology and cyber threats and their impact on financial operations, data integrity, and fraud exposure.
+L303: 
+L304:   * Risk Cats.: Op. Risk: Systems and Cyber Risk Quiz
+L305: 
+L306:   * Risk Cats.: Op. Risk: People/Conduct Risk 7:54
+L307: 
+L308: Evaluate conduct risk drivers and analyze how incentives, culture, and governance influence employee behavior.
+L309: 
+L310:   * Risk Cats.: Op. Risk: People/Conduct Risk Quiz
+L311: 
+L312:   * Risk Cats.: Op. Risk: Legal and Compliance Risk 11:36
+L313: Assess regulatory compliance risks and analyze how supervisory frameworks shape institutional risk appetite.
+L314: 
+L315:   * Risk Cats.: Op. Risk: Legal and Compliance Risk Quiz
+L316: 
+L317:   * Risk Cats.: Op. Risk: Modeling Risk 17:23
+L318: 
+L319: Identify model risk sources and evaluate governance, validation, and documentation controls for financial models.
+L320: 
+L321:   * Risk Cats.: Op. Risk: Modeling Risk Quiz
+L322: 
+L323:   * Risk Cats.: Trading Leverage/Liquidity Risk 18:09
+L324: Analyze leverage and liquidity dynamics in trading activities and assess their impact on portfolio resilience.
+L325: 
+L326:   * Risk Cats.: Trading Leverage/Liquidity Risk Quiz
+L327: 
+L328:   * Banking Risk Reg.: Intro 3:02
+L329: 
+L330:   * Banking Risk Reg.: Basel Regulation Areas 23:47
+L331: 
+L332: Map financial risk categories to Basel regulatory frameworks and compare standardized and internal capital approaches.
+L333: 
+L334:   * Banking Risk Reg.: Basel Regulation Areas Quiz
+L335: 
+L336:   * Banking Risk Reg.: Credit Risk Capital 12:22
+L337: Calculate credit risk regulatory capital using standardized and internal ratings-based methodologies.
+L338: 
+L339:   * Banking Risk Reg.: Credit Risk Capital Quiz
+L340: 
+L341:   * Banking Risk Reg.: Market Risk Capital 23:39
+L342: 
+L343: Evaluate market risk capital requirements and assess the regulatory impact of the Fundamental Review of the Trading Book.
+L344: 
+L345:   * Banking Risk Reg.: Market Risk Capital Quiz
+L346: 
+L347:   * Banking Risk Reg.: Operational Risk Capital 18:05
+L348: Compare operational risk capital methodologies and assess the trade-offs between simplicity, accuracy, and supervisory scrutiny.
+L349: 
+L350:   * Banking Risk Reg.: Operational Risk Capital Quiz
+L351: 
+L352:   * Module Outro 3:11
+L353: 
+L354: Explore the core financial risks banks face: market, operational, and credit risks, and how hedging and Basel-based regulatory capital calculations address these risks, including liquidity, leverage, and systems risk.
+L355: 
+L356:   * Role Play Interview: Financial Risk Management
+L357:   * Lab: Risk Capital Calculator 2:13
+L358: ### Banking and Financial Institution Compliance 22 lectures • 4hr 21min
+L359: 
+L360:   * Module Intro 5:17
+L361: 
+L362:   * Compliance Essentials 15:29
+L363: 
+L364: Explain the objectives, mechanisms, and risk foundations of financial institution compliance frameworks.
+L365: 
+L366:   * Compliance Essentials Quiz
+L367: 
+L368:   * Inherent Conflicts 10:12
+L369: 
+L370: Analyze structural conflicts between compliance obligations, profitability incentives, and regulatory arbitrage.
+L371: 
+L372:   * Inherent Conflicts Quiz
+L373: 
+L374:   * Regulation in the US/EU 22:02
+L375: Differentiate US and EU supervisory structures and assess their implications for financial institutions.
+L376: 
+L377:   * Regulation in the US/EU Quiz
+L378: 
+L379:   * BankRegAreas: Intro 2:55
+L380: 
+L381: Explore major banking regulation areas, including consumer protection, prudential and macroprudential regulation, and payment regulation, with emphasis on microprudential safeguards, anti-crime rules, reporting suspicious activity, and enforcement actions.
+L382: 
+L383:   * BankRegAreas: Overview 13:48
+L384: Classify prudential, consumer protection, and anti-crime regulation and map them to institutional risk types.
+L385: 
+L386:   * BankRegAreas: Overview Quiz
+L387: 
+L388:   * BankRegAreas: MicroPrud: Intro 2:48
+L389: 
+L390: Explore microprudential and macroprudential regulation, focusing on capital cushions, Basel Accords, and the pillars of regulation, supervision, and market discipline to safeguard banks.
+L391: 
+L392:   * BankRegAreas: MicroPrud: Basel Accord History 41:31
+L393: Trace the evolution of the Basel Accords and assess how regulatory capital frameworks responded to systemic crises.
+L394: 
+L395:   * BankRegAreas: MicroPrud: Basel Accord History Quiz
+L396: 
+L397:   * BankRegAreas: MicroPrud: Three Pillars of Basel 13:02
+L398: 
+L399: Explain the roles of minimum capital requirements, supervisory review, and market discipline in bank regulation.
+L400: 
+L401:   * BankRegAreas: MicroPrud: Three Pillars of Basel Quiz
+L402: 
+L403:   * BankRegAreas: MicroPrud: Capital Adequacy 18:24
+L404: Calculate regulatory capital requirements and evaluate the role of capital tiers, buffers, and leverage ratios.
+L405: 
+L406:   * BankRegAreas: MicroPrud: Capital Adequacy Quiz
+L407: 
+L408:   * BankRegAreas: MicroPrud: Additional Restrictions 8:06
+L409: 
+L410: Assess concentration limits and asset restrictions imposed to mitigate systemic and interconnectedness risks.
+L411: 
+L412:   * BankRegAreas: MicroPrud: Additional Restrictions Quiz
+L413: 
+L414:   * BankRegAreas: MicroPrud: Supervision and Enforcement 14:52
+L415: Evaluate supervisory methodologies and enforcement tools used to ensure ongoing regulatory compliance.
+L416: 
+L417:   * BankRegAreas: MicroPrud: Supervision and Enforcement Quiz
+L418: 
+L419:   * BankRegAreas: MacroPrud: Intro 2:52
+L420: 
+L421: Explore macroprudential regulation for big banks, covering systemic restrictions, CCAR and DFAST stress tests, and structural reforms to ensure orderly liquidation and reduce risk to the financial system.
+L422: 
+L423:   * BankRegAreas: MacroPrud: Systemic Restrictions 17:40
+L424: Analyze systemic risk controls applied to large institutions, including capital surcharges, leverage, and liquidity ratios.
+L425: 
+L426:   * BankRegAreas: MacroPrud: Systemic Restrictions Quiz
+L427: 
+L428:   * BankRegAreas: MacroPrud: Stress Testing 10:42
+L429: 
+L430: Interpret regulatory stress testing frameworks and assess their role in capital planning and resilience.
+L431: 
+L432:   * BankRegAreas: MacroPrud: Stress Testing Quiz
+L433: 
+L434:   * BankRegAreas: MacroPrud: Structural Reforms 11:07
+L435: Compare structural reform approaches designed to prevent or resolve failures of systemically important banks.
+L436: 
+L437:   * BankRegAreas: MacroPrud: Structural Reforms Quiz
+L438: 
+L439:   * BankRegAreas: Consumer Protection 12:37
+L440: 
+L441: Apply consumer protection principles to lending, deposit services, disclosures, and data privacy.
+L442: 
+L443:   * BankRegAreas: Consumer Protection Quiz
+L444: 
+L445:   * BankRegAreas: Anticrime Regulation 15:52
+L446: 
+L447: Implement AML, CFT, and KYC controls and evaluate their role in preventing illicit financial activity.
+L448:   * BankRegAreas: Anticrime Regulation Quiz
+L449: 
+L450:   * BankRegAreas: Banking Payment Regulation 15:49
+L451: 
+L452: Apply payment security and authentication standards to issuing, acquiring, and card-based payment systems.
+L453: 
+L454:   * BankRegAreas: Banking Payment Regulation Quiz
+L455: 
+L456:   * Module Outro 3:15
+L457: Concludes the financial institution compliance module by reviewing regulation, supervision, enforcement, and four banking regulation areas—microprudential, macroprudential, consumer protection, and anti-crime (AML/CFT) regulation—plus payment regulation.
+L458: 
+L459:   * Role Play Interview: Financial Institution Compliance
+L460: 
+L461:   * Lab: Compliance Posture Simulator 2:10
+L462: ### Conclusion 1 lecture • 3min
+L463: 
+L464:   * Outro 2:47
+L465: 
+L466: Explore how the banking industry works, covering debt and deposit products, loan agreements, key banking risks, risk management, and compliance, plus the bank's business model and funding.
+L467: 
+L468: 11 more sections
+L469: 
+L470: ## Requirements
+L471: 
+L472:   * You don't need to have any prior knowledge (naturally, finance knowledge helps, but is NOT required)
+L473: ## Description
+L474: 
+L475: BANKING ON BANKING KNOWLEDGE
+L476: 
+L477: If you're considering a banking career path, you probably know it will be profitable, regardless of the specific function within it.
+L478: 
+L479: But if you want to understand how banks work, there is a lot of knowledge to be consumed.
+L480: 
+L481: You must understand about how banks make money, what risks they manage, what regulations they comply with, and much more.
+L482: 
+L483: You have to really master banking knowledge.
+L484: You will find that most courses don't cover all dimensions of banking. They focus on credit analysis only. Or on risks only.
+L485: 
+L486: You couldn't really find a course that included all different areas of banking in one unified place.
+L487: 
+L488: ... that is, until this course came along.
+L489: 
+L490: CRACKING THE BANK OPEN
+L491: Unlike other courses, focusing on specific components of a bank's business model (just digital banks, just investment banks), you'll find this course covers the banking industry as a whole, including all of its different components.
+L492: 
+L493: And I mean ALL of them!
+L494: 
+L495: You'll find this comprehensive course divided into seven main modules:
+L496:   * You'll first know about the Fundamentals, where we cover what is banking, different types of banking (digital banking, retail banking, investment banking, central banking), as well as the essentials of lending, capital and reserves, and some key acts and regulations;
+L497: 
+L498:   * Then you'll find the Banking Business Models module, where we will cover how banks make money, their types of income and expenses, types of capital, and accounting considerations;
+L499:   * The you'll find the Bank Products module, where we will cover the most frequent bank debt and deposit products that are offered, as well as some considerations on how bank product marketing is done;
+L500: 
+L501:   * You'll then get to know about the Loan Agreements module, where we will dissect credit agreements in terms of lending. We'll clarify covenants, representations, definitions such as what is "debt" or what is "EBITDA", and more;
+L502:   * You'll later come to the Banking Risk Management module, where we will cover the most relevant types of risks for banks, both extensively (from liquidity risk to cyber risk, conduct risk, counterparty risk and many others), as well as the two key ones: credit risk and interest-rate risk;
+L503: 
+L504:   * Finally, you'll find the Banking Compliance module, where we will cover the most frequent types of regulations that banks must comply with - both regulatory and industrial;
+L505: 
+L506: LET ME TELL YOU... EVERYTHING
+L507: Some people - including me - love to know what they're getting in a package.
+L508: 
+L509: And by this, I mean, EVERYTHING that is in the package.
+L510: 
+L511: So, here is a list of everything that this course covers:
+L512: 
+L513: Fundamentals of Banking
+L514: 
+L515:   * You'll learn about the basic definitions of banks, as intermediaries between loans and deposits, making money mostly from the net interest income (NII) - the difference between interest earned and paid
+L516:   * You'll learn about the relationship of banks with other financial institutions, such as having brokerage or asset management divisions with banks, as well as their comparison with private lenders in the lending space;
+L517: 
+L518:   * You'll learn about multiple "banking" terms, including central banking, fractional banking, challenger banks, digital banks or correspondent banks, as well as what each means;
+L519:   * You'll learn about the key acts and regulations that have affected banks historically, including Glass-Steagall, Sarbanes-Oxley, Dodd-Frank, and the Basel accords;
+L520:   * You'll learn about the key activities in banking, from lending/debt extension for individuals or companies, cash management and treasury services, private banking and wealth management services, and capital markets activity (including both trading and brokerage/underwriting activities), as well as the split of these activities into two major dimensions: investment banking and retail/commercial banking;
+L521:   * You'll learn about the different types of funding from depositors, including retail depositors (the most frequent and "cheaper" source), wholesale deposits, wholesale debt, and equity, as well as the consequences of each in term of both liquidity and funding costs;
+L522: 
+L523:   * You'll learn about the three main types of bank revenue (interest income, fees and commission and capital market income) as well as their three main sources of expenses (operational costs, funding costs and loss reserves);
+L524:   * You'll learn about the maturity transformation process (transforming short-term deposits into long-term loans) and its consequences on Net Interest Income (NII);
+L525: 
+L526:   * You'll learn about the two tiers of capital that banks have, as well as the usually enforced ratios between Tier 1 and Tier 2 capital;
+L527: 
+L528:   * You'll learn about the "trading book" and the "banking book", two balance sheets with two different accounting philosophies due to the different nature of their assets;
+L529:   * You'll learn about the main types of debt instruments provided by banks, including term loans versus RCFs (Revolving Credit Facilities), and the subtypes of RCFs (including overdraft facilities, liquidity facilities), Asset-Based Lending (ABL) - usually used for inventory finance or Accounts Receivable (A/R) finance, including factoring - as well as trade finance solutions (Letters of Credit or L/Cs, PO finance and forfaiting), project finance, money market facilities and leases, as well as the inner workings of syndicated loans;
+L530:   * You'll learn about the main types of deposits provided by banks, including checking accounts (also known as MTAs or Money Transfer Accounts), savings or timed deposits, and structured deposits (with an investment component);
+L531: 
+L532:   * You'll learn about the challenges of bank product marketing, due to lack of differentiation in product performance (as well as lack of clarity in product performance), the lack of attractiveness to consumers, as well as new technological changes pushed by digital banks;
+L533:   * You'll learn about loan agreements/credit agreements in general, including specific sections such as conditions precedents, the commitment, representation and warranties, the definitions used, and, the most "famous" components - the covenants;
+L534:   * You'll learn about the definitions used in credit agreements, such as what is "debt" and what is "EBITDA", or what are "consistently applied" GAAP, and how small changes in these can radically change the attractiveness of such agreements. You'll also learn about how negotiable can be secondary definitions, such as what are "dividends", what are "investments", and what are "material" events;
+L535:   * You'll learn about what are representations (affirmations by the borrower), as well as the three main categories of representations they must make: financial, business and legal representations - as well as examples of each;
+L536:   * You'll learn about the three main types of covenants - affirmative, negative and financial, as well as specific examples of affirmative covenants (actions the borrower must take, such as disclosing documents, using the proceeds for specific purposes, being insured, and more) and negative covenants (actions the borrower cannot take, such as speculating with loan money, taking on more debt or liens, changing the business fundamentally, and more);
+L537:   * You'll learn about financial covenants in specific, including their two main types, incurrence and maintenance, and the three main subtypes of maintenance covenants (performance-based, date-based and hybrid).
+L538: We'll also cover the most frequent types of maintenance covenants - coverage ratios, including the three most common ones: the Interest Coverage ratio, the Debt Service Coverage Ratio (DSCR), and the Fixed-Charge Coverage Ratio (FCCR) - as well as other frequent covenants such as the leverage ratio or limits on leases and capital expenditures;
+L539: Financial Risk Management Course (integrated as a module):
+L540: 
+L541:   * You'll learn about the essentials of credit risk (both default risk and migration risk), as well as other risks related to credit risk itself, such as concentration risk, default correlation risk, and even contagion risk;
+L542:   * You'll learn about credit portfolio management, including the four pillars of robust credit risk management (efficient limits, robust lending processes, efficient quantitative analysis and efficient qualitative analysis), the four main techniques to mitigate credit risk (including loan sales, loan securitisation, loan syndication, and hedging with Credit Default Swaps), and the key terms in credit portfolio management (including PD or Probability of Default, LGD or Loss Given Default, EAD or Exposure at Default, and EL or Expected Loss);
+L543:   * You'll learn about the three layers of market risk (general market risk, secondary risk for specific portfolios/groups of positions, and idiosyncratic risk unique to positions), as well as the six key categories of market risk (price movements in equities, interest rates, credit, commodities, currencies, and real estate);
+L544:   * You'll learn about interest rate risk in specific, as well as the three main subtypes of it (basis risk, gap risk and option risk), what causes each, and how it's usually hedged against;
+L545:   * You'll learn about the Value at Risk (VaR) methodology to measure market risk, its limitations, variations such as Stressed VaR demanded by Basel III, and the Expected Shortfall (ES) methodology that replaces VaR under the Basel Fundamental Review of the Trading Book (FRTB), as well as the key differences between VaR and ES;
+L546:   * You'll learn about other measures of risk that complement VaR, including simple statistical measures such as standard deviation and downside deviation, and other measures related to losses, such as the Months to Earn Back a Loss, the maximum drawdown or maximum drawdown's months, and percentage of months with losses, among others;
+L547:   * You'll learn about operational risk in general, as well as the five key types of operational risk under Basel II classification (internal process risk, people risk, legal and compliance risk, external risk, and systems or cyber risk);
+L548: 
+L549:   * You'll learn about the specific types of internal process risk (wrong information, missing information, lack of controls, circumvention of controls);
+L550:   * You'll learn about the specific types of systems risk (service interruptions, missing or corrupted information, model risk, and cyber risk in specific), as well as how cyber risk is usually leveraged through hacking (and the multiple approaches to it, including convenience fraud, identity theft, social engineering and phishing, or trojans and viruses);
+

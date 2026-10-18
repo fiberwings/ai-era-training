@@ -1,0 +1,639 @@
+AI Ethics for Everyone: Use GenAI Responsibly at work (https://www.udemy.com/course/ai-ethics-for-everyone/)
+citeturn35view0 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-ethics-for-everyone/","lineno":null}); Total lines: 682
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Ethics for Everyone: Use GenAI Responsibly at work
+L30: 
+L31: Role Play
+L32: 
+L33: New
+L34: Rating: 4.7 out of 5 4.7cite8†(43 ratings) L35: 
+L36: 356 students
+L37: 
+L38: cite0†Image†img-c.udemycdn.com Preview this course
+L39: # AI Ethics for Everyone: Use GenAI Responsibly at work
+L40: 
+L41: Reduce over-reliance on AI, protect your judgment, and make responsible decisions at work and in life
+L42: 
+L43: Role Play
+L44: 
+L45: New
+L46: 
+L47: Created bycite9†Rijul Arora L48: 
+L49: Last updated 8/2026
+L50: 
+L51: English
+L52: 
+L53: English [Auto],
+L54: 
+L55: cite0†Image†img-c.udemycdn.com Preview this course
+L56: ## What you'll learn
+L57: 
+L58:   * Make better judgments about when to use AI—and when not to
+L59: 
+L60:   * Understand how AI impacts decision-making, work quality, and wellbeing
+L61: 
+L62:   * Identify real-world risks like bias, over-reliance, privacy issues, and misuse
+L63: 
+L64:   * Apply simple frameworks to evaluate AI use in work and daily life
+L65: 
+L66:   * Build critical human skills: judgment, self-regulation, and accountability in an AI-driven world
+L67: 
+L68: ## Course content
+L69: 
+L70: 6 sections • 43 lectures • 1h 59m total length
+L71: 
+L72: Expand all sections
+L73: ### Foundations of Human Judgment in the AI Era 9 lectures • 12min
+L74: 
+L75:   * Human Judgment in the Age of AI: Why This Course Matters Preview 2:08
+L76: 
+L77: AI is changing how we work, learn, connect, and make decisions—often faster than we realize.
+L78: 
+L79: In this opening video, I share the vision behind this course:
+L80: to help people build a healthy, intentional relationship with technology, especially as AI becomes woven into everyday life.
+L81: This course is not about learning tools, prompts, or hacks.
+L82: It’s about developing human judgment—the skill that will matter most in an AI-driven world.
+L83: 
+L84: In this introduction, you’ll learn:
+L85: 
+L86:     * Why AI impacts far more than productivity—from learning and relationships to wellbeing and culture
+L87: 
+L88:     * What it really means to use AI responsibly (beyond policies and compliance)
+L89: 
+L90:     * How this course will help you decide when to use AI—and when not to
+L91:     * The frameworks you’ll learn to make thoughtful, ethical AI decisions in real situations
+L92: 
+L93:     * Why strengthening human skills like judgment, self-regulation, and accountability will be a key differentiator in the age of AI
+L94: 
+L95: Throughout the course, we’ll explore how AI shapes everyday life and work—and how small, conscious choices can create ripple effects in teams, families, and organizations.
+L96: 
+L97: This course is designed to help you:
+L98: 
+L99:     * Stay human while working with powerful tools
+L100:     * Build clarity instead of reacting to hype or pressure
+L101: 
+L102:     * Model responsible AI behavior wherever you are
+L103: 
+L104:     * Create cultures of responsibility, not just rules
+L105: 
+L106: If you use AI—or are impacted by it—this course is for you.
+L107: 
+L108: Because the future of AI will be shaped less by technology itself,
+L109: and more by the humans who choose how to use it.
+L110: 
+L111:   * Instructor Introduction: Healthy Tech, Not Anti-Tech Preview 1:50
+L112: Responsible technology use isn’t about fear or rejection—it’s about intentional design and conscious behavior.
+L113: 
+L114: In this introduction, I share my journey and why Responsible AI and Digital Wellbeing are central to my work.
+L115: 
+L116: I speak about:
+L117: 
+L118:     * My mission to help people live more fulfilling, focused, and meaningful lives with technology
+L119: 
+L120:     * Why I am not anti-tech, but an advocate of healthy, human-centred tech use
+L121: 
+L122:     * My experience working with and working on technologies such as Microsoft and IBM
+L123:     * Speaking on platforms including TEDx, National Public Radio (USA), and features in Forbes
+L124: 
+L125:     * Delivering 500+ talks and workshops globally across education, corporate, and leadership spaces
+L126: 
+L127: This course is shaped by real-world experience, research, and daily conversations with people struggling to balance innovation with wellbeing.
+L128: 
+L129:   * Downloadable PDF: How to Prompt AI Responsibly (The PROMPT Framework)0:18
+L130: In this lesson, you’ll explore how prompt engineering and Responsible AI are deeply connected—not as technical skills, but as human judgment skills.
+L131: 
+L132: You’ll receive a free PDF  in the resources section introducing the PROMPT Framework, a simple, practical way to ask better questions, set clearer boundaries, and use AI tools responsibly across learning, work, and everyday decision-making.
+L133: 
+L134: The resource includes real-world examples and is available in the Resources section of this lesson.
+L135:   * AI Isn’t New: From 1943 to Agentic AI — Why Responsible Use Matters Now 3:18
+L136: 
+L137: AI didn’t arrive overnight.
+L138: 
+L139: Long before ChatGPT and Generative AI, artificial intelligence was already shaping our lives — from video editing tools and recommendation algorithms to social media feeds and automation systems. The foundations of AI go back to 1943, with each phase quietly changing how we work and create.
+L140: 
+L141: In this video, we unpack:
+L142:     * The evolution of AI: early AI,  applied AI, Generative AI and then Agentic AI
+L143: 
+L144:     * Why today’s AI feels disruptive — even though the technology isn’t new
+L145: 
+L146:     * The difference between using AI blindly vs. using it responsibly
+L147: 
+L148:     * Why embracing AI (not resisting it) is key to ethical, human-first tech use
+L149: 
+L150: The goal isn’t fear — it’s awareness, agency, and responsibility in how we engage with intelligent systems.
+L151: 
+L152:   * Responsible AI Use Checklist: When to Use AI 0:39
+L153:   * Curious, Not Fearful: How to Explore New Tech Responsibly 1:08
+L154: 
+L155: Digital wellbeing doesn’t mean avoiding technology — it means engaging with it consciously.
+L156: 
+L157: In this video, I share my own approach to exploring emerging tech — including experiences with Apple Vision Pro — while continuously asking the right questions around impact, ethics, and wellbeing.
+L158: 
+L159: We explore:
+L160: 
+L161:     * Why curiosity is essential in a fast-moving tech world
+L162: 
+L163:     * How to experiment with new tools without losing agency
+L164:     * The mindset shift from passive consumption to intentional exploration
+L165: 
+L166:     * Asking responsible questions before adopting any new technology
+L167: 
+L168: The future belongs not to those who reject tech — but to those who use it thoughtfully, critically, and human-first.
+L169: 
+L170:   * The 3-Second Responsible AI Check 0:27
+L171: 
+L172:   * Why 2026 Is the Year of Responsible AI 2:28
+L173: 
+L174: AI isn’t new—but how we choose to use it now matters more than ever.
+L175: In this module, we unpack the AI trends shaping culture and behavior today, not just technology headlines. From “AI slop” and parasocial relationships becoming Words of the Year, to Responsible AI dominating global conversations, this session shows why the focus has shifted from what AI can do to how it should be used.
+L176: 
+L177: We explore:
+L178: 
+L179:     * Why Responsible AI is the defining theme of this year
+L180:     * What media signals (Time Magazine’s Architects of AI, global discourse) reveal about where society is heading
+L181: 
+L182:     * How uncritical AI adoption can repeat past tech mistakes
+L183: 
+L184:     * Why awareness must come before acceleration
+L185: 
+L186: This session sets the foundation for conscious, ethical, and human-centred AI use—especially in work, education, and everyday life.
+L187: 
+L188:   * Applying the 3 Second PAUSE Framework Before Using AI
+L189: ### How AI Shapes Human Behavior & Decision-Making 10 lectures • 25min
+L190: 
+L191:   * The 3A Framework for Responsible AI: Awareness, Action & Accountability 1:29
+L192: 
+L193: Responsible AI is not just about rules—it’s about how humans notice, decide, and change behavior.
+L194: 
+L195: In this foundational lesson, you’ll learn the 3A Framework for Responsible AI:
+L196: 
+L197:     * Awareness: Understanding how AI already shapes education, work, health, relationships, and everyday decisions
+L198:     * Action: A practical framework to assess when and how AI should be used—and when it shouldn’t
+L199: 
+L200:     * Accountability: Moving from insight to sustained habit change, both individually and institutionally
+L201: 
+L202: This framework helps you go beyond AI hype or fear, and instead build intentional, ethical, and human-centered AI practices.
+L203: 
+L204:   * Quiz 1: Welcome & Foundations
+L205: 
+L206:   * Why AI Is Creating Fear in the Next Generation 2:40
+L207: 
+L208:   * WEF Future of Jobs 2025: Human Judgement Will Be the Real Skill of the 2030 0:14
+L209:   * AI and Job Interviews 3:05
+L210: 
+L211: Evaluate how AI affects interviews through a three-question check and contrast unethical use, like real-time AI responses, with ethical prep such as AI-assisted research and mock interviews.
+L212: 
+L213:   * OpenAI encourages firms to trial four-day weeks to adapt to AI era 0:29
+L214: 
+L215:   * Are We Getting Smarter—or Just Delegating Everything to AI?5:15
+L216: 
+L217: AI promises speed, efficiency, and smarter work—but at what cost?
+L218: In this video, we examine how AI is increasingly substituting emails, meetings, writing, thinking, and decision-making—often without us noticing the long-term consequences.
+L219: 
+L220: You’ll explore:
+L221: 
+L222:     * How over-delegation to AI can weaken thinking, judgment, and creativity
+L223: 
+L224:     * Why “feeling productive” is not the same as being effective
+L225: 
+L226:     * Where AI should assist—and where humans must stay actively engaged
+L227: 
+L228: This video challenges blind optimism and helps you build intentional, responsible AI use at work.
+L229:   * High Productivity, Low Insight: A Manager’s Feedback Conversation
+L230: 
+L231:   * AI, Love & Intimacy: When Algorithms Enter Our Relationships Preview 4:54
+L232: 
+L233: AI isn’t just transforming work and education — it’s entering our most intimate spaces.
+L234: 
+L235: From dating algorithms and virtual companions to emotionally responsive chatbots, AI is reshaping how we experience connection, validation, and intimacy.
+L236: 
+L237: In this video, we discuss:
+L238: 
+L239:     * How AI is influencing modern love, dating, and emotional needs
+L240:     * The psychological risks of emotional dependency and substitution
+L241: 
+L242:     * Where AI can support connection — and where it can quietly replace it
+L243: 
+L244:     * Why awareness and boundaries are critical for relational wellbeing
+L245: 
+L246: As technology becomes more emotionally intelligent, the question becomes:
+L247: What should AI support — and what should remain deeply human?
+L248: 
+L249:   * Responsible AI Use Checklist: When Not to Use AI 1:01
+L250: 
+L251:   * Calm Your Mind in the Age of AI (Guided Meditation)6:11
+L252: Cultivate calm in the age of AI with a guided meditation that anchors attention to breath, notices thoughts about AI change, and returns to peaceful awareness.
+L253: ### AI in Daily Decisions: Education, Health & Care 6 lectures • 16min
+L254: 
+L255:   * AI in Education: From Copy-Paste to Conscious Learning 2:39
+L256: 
+L257: AI is already in classrooms — whether adults like it or not.
+L258: 
+L259: Students are using AI for assignments, homework, and shortcuts, raising questions around learning, integrity, and skill development. But banning AI isn’t the answer.
+L260: 
+L261: In this video, we explore:
+L262: 
+L263:     * How students are actually using AI today
+L264: 
+L265:     * The risks of over-reliance, copying, and cognitive offloading
+L266:     * The importance of defining right vs. wrong use cases
+L267: 
+L268:     * Why clear policies, digital literacy, and role modelling matter more than rules
+L269: 
+L270:     * How educators and parents can guide responsible, meaningful AI use
+L271: 
+L272: AI can either weaken learning — or enhance curiosity, creativity, and critical thinking. The difference lies in how we teach its use.
+L273: 
+L274:   * AI and Learning 1:58
+L275: Learn how to use AI responsibly to enhance learning, turning lectures, notes, and papers into on-demand flashcards, podcasts, and quizzes for personalized, faster study.
+L276: 
+L277:   * Quiz 2: How AI Shapes Human Behavior
+L278: 
+L279:   * AI in Health & the Body: Innovation or Ethical Overreach?3:22
+L280: 
+L281: AI is now entering one of the most private spaces of human life—the bathroom.
+L282: In this lesson, we explore emerging technologies like AI-powered health monitoring toilets that analyze gut health and bodily data. While these innovations promise early diagnosis and better health insights, they also raise serious questions around privacy, consent, surveillance, and data ownership.
+L283: 
+L284: You’ll learn how to assess:
+L285: 
+L286:     * When health AI is genuinely helpful
+L287: 
+L288:     * When it becomes intrusive
+L289: 
+L290:     * Where ethical boundaries should be drawn
+L291:   * AI, Companionship, and Care: Rethinking Therapy in the Digital Age 1:53
+L292: 
+L293: AI is increasingly being used for therapy-like conversations, emotional support, and companionship—often by people seeking help during vulnerable moments. But unlike licensed mental health professionals, AI systems are not clinically trained, regulated, or ethically accountable in the same way.
+L294: 
+L295: In this lesson, we explore critical questions around AI in therapy and mental health, including:
+L296:     * Why people are turning to AI for emotional support and companionship
+L297: 
+L298:     * The ethical risks of using non-certified systems for mental health care
+L299: 
+L300:     * The difference between support, substitution, and dependency
+L301: 
+L302:     * Whether emotional AI helps—or quietly harms—long-term wellbeing
+L303: 
+L304: This is not a rejection of technology, but a call for clear boundaries in spaces that require human empathy, professional judgment, and ethical responsibility.
+L305:   * The Real Competitor to AI Isn’t Another App — It’s You 5:51
+L306: 
+L307: People are already using ChatGPT as a therapist, parent, mentor, and friend.
+L308: Character‑based AI apps simulate empathy, presence, and care — at scale.
+L309: 
+L310: This isn’t science fiction. It’s happening now.
+L311: 
+L312: Even tech leaders have begun comparing human energy consumption vs AI efficiency. The unspoken question behind it all:
+L313: ? Are humans becoming the expensive, inefficient alternative?
+L314: 
+L315: This course challenges the wrong question.
+L316: The real problem isn’t that AI is replacing humans.
+L317: The real problem is that we’re trying to compete with it.
+L318: 
+L319: In this short, powerful video, you’ll learn:
+L320: 
+L321:     * Why human connection is the biggest “competitor” to Character.AI
+L322: 
+L323:     * How AI wins on speed, memory, and availability — and why humans shouldn’t try to match that
+L324: 
+L325:     * The hidden cost of outsourcing emotional labor, thinking, and reflection to machines
+L326: 
+L327:     * What uniquely human skills still matter when AI feels “more available” than people
+L328:     * How to stop competing with AI and start complementing it
+L329: 
+L330: Because the future doesn’t belong to the fastest model — it belongs to the most human one.
+L331: 
+L332:   * The Late-Night Therapy Choice
+L333: ### High-Stakes AI: Power, Death & Ethical Limits 8 lectures • 23min
+L334: 
+L335:   * AI in Politics: Can Algorithms Govern Power Ethically?1:31
+L336: 
+L337: Governments around the world are beginning to experiment with AI to assess risk, detect fraud, and even flag potential corruption. In this lesson, we examine real-world examples—such as Albania’s introduction of an AI-based “anti-corruption” system—and ask a critical question:
+L338: 
+L339: Should AI be allowed to judge human ethics and governance?
+L340: 
+L341: This session explores:
+L342:     * How AI is being used to assess corruption and misconduct
+L343: 
+L344:     * Whether algorithms can truly understand intent, context, and power dynamics
+L345: 
+L346:     * The risks of shifting political accountability from humans to machines
+L347: 
+L348:     * How AI can strengthen governance without weakening democracy
+L349: 
+L350: Rather than taking a pro- or anti-AI stance, this lesson helps you develop ethical judgment in politically sensitive, high-impact AI deployments.
+L351:   * When AI Gets “Pregnant”: Are We Creating Problems Only AI Can Fix?3:55
+L352: 
+L353: AI can now simulate relationships, emotions — even life‑like milestones.
+L354: 
+L355: What started as chatbots has evolved into AI characters that feel personal, persistent, and intimate. People form attachments. They share secrets. They generate memories.
+L356: 
+L357: And now, AI can simulate experiences that were once deeply human.
+L358: 
+L359: This raises uncomfortable but essential questions:
+L360: 
+L361:     * What happens to data privacy when emotional data is involved?
+L362:     * Who owns the conversations, memories, and vulnerabilities shared with AI?
+L363: 
+L364:     * Are we solving AI‑created problems by… creating more AI?
+L365: 
+L366: In this video, we explore:
+L367: 
+L368:     * Whether adding more AI is always the right solution
+L369: 
+L370:     * Why human judgment matters more than ever in an AI‑saturated world
+L371: 
+L372: This is not about fear.
+L373: It’s about awareness, boundaries, and responsibility.
+L374: 
+L375: Because not every problem created by AI should be solved by… more AI.
+L376: 
+L377:   * AI and Death: Where Technology Must Stop 2:46
+L378: AI is now influencing some of the most fragile moments of human life—mental health crises, suicide risk, end-of-life decisions, and grief after death.
+L379: 
+L380: In this lesson, we explore uncomfortable but necessary questions:
+L381: 
+L382:     * How AI systems may unintentionally contribute to emotional distress, self-harm, or harmful decisions
+L383: 
+L384:     * The rise of grief bots and post-death digital replicas—and their psychological impact
+L385: 
+L386:     * Whether more AI is the solution to problems created by AI itself
+L387:     * Where ethical, emotional, and human boundaries must be drawn
+L388: 
+L389: This is not a lesson about fear—it’s about responsibility, restraint, and human presence in moments that technology cannot fully understand.
+L390: 
+L391:   * Let’s Not Repeat the Same Mistakes: Lessons from Social Media for the AI Era 2:39
+L392: 
+L393: We’ve been here before.
+L394: Social media was built for connection—but features like endless scrolling, autoplay, algorithmic feeds, and persuasive design led to unintended consequences:
+L395: rising mental health concerns, attention fragmentation, addiction-like behaviors, and digital burnout.
+L396: 
+L397: Only after the damage became visible did conversations around responsible social media begin.
+L398: 
+L399: In this module, we examine why the same pattern is repeating with AI.
+L400: 
+L401: You’ll explore:
+L402:     * How innovation is funded at scale, while responsibility, regulation, and literacy remain afterthoughts
+L403: 
+L404:     * Why Responsible AI often receives a fraction of the investment given to AI development
+L405: 
+L406:     * The Character AI incident and why platforms are now restricting access for minors
+L407: 
+L408:     * What history teaches us about the cost of “move fast first, fix later”
+L409: This session challenges learners to ask a critical question:
+L410: Why isn’t responsibility designed in from the beginning—and what can we do differently this time?
+L411: 
+L412:   * Boundary-Setting Exercise
+L413: 
+L414:   * AI & granny 4:00
+L415: 
+L416:   * Future of AI- Humanoid Robotics 5:49
+L417: 
+L418: Explore the future of ai with humanoid robots and their ethical implications. Assess real-world use cases from industrial safety to questions of citizenship.
+L419: 
+L420:   * Meet Gabi: The Humanoid robot ordained as Buddhist monk 0:30
+L421: 
+L422:   * AI & War 2:04
+L423: ### Practical Frameworks for Responsible AI Decisions 7 lectures • 24min
+L424: 
+L425:   * Ads Are Coming to AI (Part 2): What Social Media Taught Us—Too Late 2:55
+L426: 
+L427: Social media didn’t start out harmful.
+L428: But when ads, incentives, and attention economics took over, we saw the cost—distraction, anxiety, addiction, and declining mental health.
+L429: 
+L430: Now, the same forces are entering AI.
+L431: In this video, we explore what happens when AI systems—chatbots, copilots, companions—become ad‑funded, engagement‑optimized, and profit‑driven.
+L432: 
+L433: You’ll learn:
+L434: 
+L435:     * Why ads fundamentally change how AI behaves
+L436: 
+L437:     * How attention‑driven AI can quietly shape choices, beliefs, and habits
+L438: 
+L439:     * What lessons we ignored during the rise of social media
+L440: 
+L441:     * Where AI could take a dark turn—and how to prevent it
+L442: 
+L443:     * The role of human judgment before it’s too late
+L444: It’s a wake‑up call—for professionals, parents, educators, builders, and anyone using AI daily.
+L445: 
+L446: Because once incentives change, everything changes.
+L447: 
+L448:   * Why Competing with Human Intelligence Is the Wrong AI Goal 2:22
+L449: 
+L450: We keep asking the wrong question about AI.
+L451: 
+L452: Can AI beat human intelligence?
+L453: 
+L454: This video challenges that assumption.
+L455: 
+L456: Instead of asking whether AI can outperform humans, we explore a deeper, more responsible question: Should AI compete with humans at all—or should it complement them?
+L457: You’ll learn:
+L458: 
+L459:     * Why AI vs human intelligence is a misleading comparison
+L460: 
+L461:     * How the race to build “better‑than‑human” systems quietly distorts our priorities
+L462: 
+L463:     * Where Responsible AI thinking goes wrong when competition replaces intent
+L464: 
+L465:     * Why the future isn’t human‑like AI, but human‑first AI
+L466: 
+L467: This is not a technical lecture.
+L468: It’s a mindset reset for anyone building, using, or governing AI.
+L469: Because the real risk isn’t that AI becomes smarter than humans—
+L470: it’s that we forget why we’re building it in the first place.
+L471: 
+L472:   * Humans in the Loop: The Real Differentiator in Responsible AI 2:19
+L473: 
+L474: As AI systems become faster and more autonomous, a critical question emerges:
+L475: Where do humans fit in?
+L476: 
+L477: This video introduces the concept of “Humans in the Loop”—the idea that responsible AI depends not just on advanced technology, but on human judgment, oversight, and accountability.
+L478: We explore why AI cannot operate responsibly in isolation, and how humans remain essential in:
+L479: 
+L480:     * Interpreting context and nuance
+L481: 
+L482:     * Identifying bias and unintended consequences
+L483: 
+L484:     * Making ethical and value-based decisions
+L485: 
+L486:     * Taking responsibility when systems fail
+L487: 
+L488: You’ll learn how human–AI collaboration works in real life—and why humans are the true differentiator, not the tools themselves.
+L489: This video helps you move from blind automation to conscious, responsible AI use by asking better questions about when, where, and how AI should be involved.
+L490: 
+L491: Responsible AI is not about removing humans from decisions.
+L492: 
+L493: It’s about designing systems where humans remain meaningfully in the loop.
+L494: 
+L495:   * PAUSE Framework: How to Pause Before You Use AI 6:29
+L496: 
+L497: In a world where AI makes everything faster, easier, and more tempting, judgment begins with a pause.
+L498: In this video, you’re introduced to the PAUSE Framework — a simple, memorable way to make better decisions before using AI, not after problems arise.
+L499: 
+L500: PAUSE stands for:
+L501: 
+L502:     * P — Purpose: Why am I using AI here?
+L503: 
+L504:     * A — Accountability: Who is responsible for the outcome of this decision?
+L505: 
+L506:     * U — Use Case: Is this an appropriate task to delegate to AI?
+L507: 
+L508:     * E — External Impact: Who else could be affected by this choice?
+L509:     * S — Self-Impact: What skill, habit, or relationship might I weaken or strengthen by using AI?
+L510: 
+L511: You’ll see how a few seconds of conscious reflection can completely change the quality of your AI use.
+L512: 
+L513: In this session, we apply the PAUSE Framework to real-life scenarios, including:
+L514: 
+L515:     * Using AI at work for summaries, emails, and decision support
+L516: 
+L517:     * Copying or generating content for assignments and learning
+L518: 
+L519:     * Relying on AI for emotional support or companionship
+L520:     * Everyday AI use cases you’re already encountering
+L521: 
+L522: Rather than telling you what to do, PAUSE helps you decide for yourself, context by context.
+L523: 
+L524: By the end of this lecture, you’ll be able to:
+L525: 
+L526:     * Pause before using AI instead of acting on impulse
+L527: 
+L528:     * Identify hidden trade-offs behind “convenient” AI use
+L529: 
+L530:     * Apply PAUSE to any new AI tool or situation you encounter
+L531: 
+L532:     * Build a habit of intentional, responsible AI use in daily life
+L533: This framework isn’t about restriction or fear.
+L534: It’s about staying human, conscious, and accountable while using powerful tools.
+L535: 
+L536:   * Self-Regulation in the Age of AI: The Marshmallow Test Revisited Preview 3:54
+L537: 
+L538: Just because AI can do something doesn’t mean it should.
+L539: This module revisits the famous Marshmallow Test to explore self-regulation and delayed gratification in an AI-driven world. While AI offers instant answers, shortcuts, and emotional substitutes—from work to learning to intimacy—long-term wellbeing often depends on the ability to pause, reflect, and choose wisely.
+L540: 
+L541: You’ll learn:
+L542: 
+L543:     * Why self-regulation is a core future skill in the age of AI
+L544: 
+L545:     * How instant gratification through AI can undermine long-term happiness
+L546:     * Why human relationships, though messy and slow, outperform AI substitutes over time
+L547: 
+L548:     * How conscious restraint leads to deeper fulfillment, learning, and meaning
+L549: 
+L550: This session invites learners to move from impulsive AI use to intentional AI engagement, balancing convenience with long-term human flourishing.
+L551: 
+L552:   * The Responsible AI Decision Checklist (5 Questions)1:13
+L553: 
+L554:   * Responsible AI in Real Life (Judgment Test)
+L555: 
+L556:   * Diversity is key to ethical AI design 4:59
+L557: ### Leadership, Accountability & AI Culture 7 lectures • 19min
+L558: 
+L559:   * AI, Grief, and the Choice to Let Go
+L560: 
+L561:   * Responsible AI Is a Team Sport: Why Accountability Matters 2:38
+L562: 
+L563: Awareness is easy. Action is harder. Accountability is what sustains change.
+L564: 
+L565: In this video, we focus on the final—and most human—pillar of Responsible AI: accountability. You’ll learn why ethical AI use doesn’t happen in isolation, and how sharing intentions with friends, families, and colleagues strengthens follow-through.
+L566: Through relatable (and light-hearted) examples, this video shows how:
+L567: 
+L568:     * Talking about AI habits makes behavior change stick
+L569: 
+L570:     * Social accountability reinforces ethical boundaries
+L571: 
+L572:     * Responsible AI is not just a policy—but a mindset and culture
+L573: 
+L574:   * Be the Leader You Wish You Had in the Age of AI 4:16
+L575: 
+L576: AI adoption today is often driven by social conformity.
+L577: 
+L578: Everyone is using AI.
+L579: Teams feel pressure to keep up.
+L580: Leaders adopt tools without questioning impact.
+L581: But responsible AI leadership isn’t about following the crowd—it’s about having the courage to pause, question, and act intentionally.
+L582: 
+L583: In this lecture, we explore how social pressure and herd mentality influence the way individuals and organizations use AI—often leading to rushed, irresponsible, or unethical decisions.
+L584: 
+L585: You’ll reflect on a powerful idea:
+L586: Be the leader you wish you had.
+L587: This session shows why responsible AI use starts not with policies or tools, but with conversations—with colleagues, managers, leaders, and teams.
+L588: 
+L589:   * Being Human in an AI Age: Why the Future Depends on Us 2:14
+L590: 
+L591: This final video brings the course together with one clear message:
+L592: 
+L593: Responsible AI is not about better technology.
+L594: It’s about better humans.
+L595: Throughout this course, you’ve explored how AI shapes behavior, relationships, work, power, and culture. In this conclusion, we zoom out to reflect on what truly determines the future of AI—not algorithms, speed, or innovation, but human judgment, values, and self-regulation.
+L596: 
+L597: In this session, you’ll reflect on:
+L598: 
+L599:     * Why responsibility cannot be outsourced to technology
+L600: 
+L601:     * Why being human—imperfect, thoughtful, ethical—still matters in an automated world
+L602:     * How your decisions create ripple effects in teams, families, and society
+L603: 
+L604: This is not a call to fear AI or reject progress.
+L605: It’s a reminder that how we use AI is a mirror of who we are becoming.
+L606: 
+L607: You’ll leave this lecture with clarity on:
+L608: 
+L609:     * What role you want to play in an AI-driven world
+L610: 
+L611:     * How to stay human while working with powerful tools
+L612: 
+L613:     * Why responsibility starts with awareness, not compliance
+L614: 
+L615: This course doesn’t end with answers—it ends with agency.
+L616:   * Human Skills in an AI Age 1:41
+L617: 
+L618:   * My Ripple Effect (2 Minutes Exercise)
+L619: 
+L620:   * Why Human Imperfection Is Your Biggest Advantage in the AI Age 5:14
+L621: 
+L622: AI can write flawlessly.
+L623: AI can paint beautifully.
+L624: AI can optimize endlessly.
+L625: 
+L626: And yet — people don’t fall in love with perfection.
+L627: 
+L628: They connect with struggle, emotion, vulnerability, and story.
+L629: History and art remind us of this again and again. We connect with human creators not because they were perfect — but because they were real. Their work carried their doubts, emotions, failures, and lived experience.
+L630: 
+L631: In this video, we explore:
+L632: 
+L633:     * Why human imperfection creates trust and connection
+L634: 
+L635:     * Why vulnerability is something AI can imitate — but never live
+L636: 
+L637:     * The danger of chasing AI‑level perfection as humans
+L638: 
+L639:     * Your unique X‑factor in a world of increasingly capable machines
+L640: I also share my own vulnerability — because connection doesn’t come from polish, it comes from presence.
+L641: 
+L642: AI may outperform humans on efficiency and precision.
+L643: But meaning, empathy, and authenticity are still deeply human skills.
+L644: 
+L645: And that’s not a weakness.
+L646: That’s the edge.
+L647: 
+

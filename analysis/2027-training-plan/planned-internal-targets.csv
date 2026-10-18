@@ -1,0 +1,48 @@
+﻿Cohort,Need,Applicable requirements,Course coverage %,Incomplete requirements,Incomplete with planned internal item,Incomplete without planned internal item,Unlinked requirement IDs,Internal modules
+All users,N1,3,11.11111111111111,3,3,0,,IH-01 · What our people are doing with AI
+All users,N2,7,0,7,7,0,,"IH-02 · Our approved tools, agent architecture and boundaries"
+All users,N3,7,61.904761904761905,7,4,3,N3.2; N3.3; N3.4,IH-03 · Safe use in my job — coached case and Gate 1
+All users,N4,6,16.666666666666664,6,4,2,N4.3; N4.5,"IH-02 · Our approved tools, agent architecture and boundaries; IH-03 · Safe use in my job — coached case and Gate 1"
+All users,N5,6,61.111111111111114,4,0,4,N5.3; N5.4; N5.5; N5.6,
+All users,N6,8,37.5,8,8,0,,"IH-02 · Our approved tools, agent architecture and boundaries; IH-03 · Safe use in my job — coached case and Gate 1"
+Practitioner additions,N4,1,0,1,1,0,,IH-04 · Supervise and recover an agent on our platform; IH-07 · Agent-supervisor observed sign-off
+Practitioner additions,N7,5,20.0,5,5,0,,IH-04 · Supervise and recover an agent on our platform; IH-07 · Agent-supervisor observed sign-off
+Practitioner additions,N8,5,0,5,5,0,,"IH-04 · Supervise and recover an agent on our platform; IH-05 · Create, own and retire a shared Skill; IH-07 · Agent-supervisor observed sign-off"
+Practitioner additions,N9,5,53.333333333333336,4,4,0,,"IH-05 · Create, own and retire a shared Skill; IH-06 · Domain test cases and release checks; IH-07 · Agent-supervisor observed sign-off"
+Technical Expert,N5,1,66.66666666666666,1,1,0,,"IH-09T · Build, evaluate and secure a scoped agent; IH-10T · Independent technical challenge"
+Technical Expert,N10,8,45.83333333333333,7,7,0,,"IH-09T · Build, evaluate and secure a scoped agent; IH-10T · Independent technical challenge"
+Technical Expert,N11,6,27.77777777777778,6,6,0,,"IH-09T · Build, evaluate and secure a scoped agent; IH-10T · Independent technical challenge"
+Technical Expert,N12,8,62.5,8,8,0,,"IH-09T · Build, evaluate and secure a scoped agent; IH-10T · Independent technical challenge"
+Technical Expert,N14,5,13.333333333333334,5,5,0,,IH-08T · Workflow and supervision design studio; IH-10T · Independent technical challenge
+Governance Expert,N5,1,66.66666666666666,1,1,0,,IH-09G · Bank AI-risk and assurance evidence case
+Governance Expert,N11,6,33.33333333333333,6,6,0,,IH-09G · Bank AI-risk and assurance evidence case; IH-10G · Independent governance challenge
+Governance Expert,N13,6,66.66666666666666,6,6,0,,IH-09G · Bank AI-risk and assurance evidence case; IH-10G · Independent governance challenge
+Governance Expert,N14,5,33.33333333333333,5,5,0,,"IH-08G · Workflow, supervision and accountability studio; IH-10G · Independent governance challenge"
+Leadership / tool selection,N5,1,66.66666666666666,1,0,1,N5.7,
+Leadership / tool selection,N11,6,5.555555555555555,6,6,0,,IH-08L · Operating-model and tool-selection decision studio; IH-09L · Quarterly evidence and adoption forums
+Leadership / tool selection,N13,6,66.66666666666666,6,6,0,,IH-08L · Operating-model and tool-selection decision studio; IH-09L · Quarterly evidence and adoption forums
+Leadership / tool selection,N14,7,38.095238095238095,7,7,0,,IH-08L · Operating-model and tool-selection decision studio; IH-09L · Quarterly evidence and adoption forums
+Incident response,R1.1,6,0,6,6,0,,Agent incident response drill
+Agent forensics,R1.1,6,11.11111111111111,6,6,0,,Agent evidence reconstruction exercise
+Agent forensics,R1.2,3,11.11111111111111,3,3,0,,Agent evidence reconstruction exercise
+"DLP, classification & AI risk",N4,7,33.33333333333333,7,7,0,,"DLP and classification control case; IH-02 · Our approved tools, agent architecture and boundaries; IH-03 · Safe use in my job — coached case and Gate 1; IH-04 · Supervise and recover an agent on our platform; IH-07 · Agent-supervisor observed sign-off"
+"DLP, classification & AI risk",N7,5,20.0,5,5,0,,DLP and classification control case; IH-04 · Supervise and recover an agent on our platform; IH-07 · Agent-supervisor observed sign-off
+"DLP, classification & AI risk",N8,5,0,5,5,0,,"DLP and classification control case; IH-04 · Supervise and recover an agent on our platform; IH-05 · Create, own and retire a shared Skill; IH-07 · Agent-supervisor observed sign-off"
+"DLP, classification & AI risk",N9,5,53.333333333333336,4,4,0,,"DLP and classification control case; IH-05 · Create, own and retire a shared Skill; IH-06 · Domain test cases and release checks; IH-07 · Agent-supervisor observed sign-off"
+"DLP, classification & AI risk",N13,6,61.111111111111114,6,6,0,,DLP and classification control case
+Governance & assurance,N13,6,66.66666666666666,6,6,0,,Agent assurance evidence challenge; IH-09G · Bank AI-risk and assurance evidence case; IH-10G · Independent governance challenge
+Governance & assurance,R6.1,2,33.33333333333333,2,2,0,,Agent assurance evidence challenge
+Agent testing,R3.1,2,66.66666666666666,2,2,0,,Contained agent testing exercise
+Agent testing,R3.2,5,0,5,5,0,,Contained agent testing exercise
+Expert agent red-teaming,R3.1,5,53.333333333333336,5,5,0,,Specialist agent red-team validation
+Expert agent red-teaming,R3.2,5,0,5,5,0,,Specialist agent red-team validation
+Exposure management,R4.1,6,38.88888888888889,6,6,0,,Agent and connector inventory exercise
+Code-analysis harnesses,R4.1,6,33.33333333333333,6,6,0,,Code-analysis harness validation
+Code-analysis harnesses,R4.2,7,0,7,7,0,,Code-analysis harness validation
+Agent security architecture,N12,9,59.25925925925925,9,9,0,,"Agent control-plane design review; IH-09T · Build, evaluate and secure a scoped agent; IH-10T · Independent technical challenge"
+Agent security architecture,R5.1,6,50.0,6,6,0,,Agent control-plane design review
+Agent identity operations,R9.1,7,19.047619047619047,7,7,0,,Agent joiner mover leaver and revocation drill
+Agent identity integration,R9.1,10,33.33333333333333,10,10,0,,Agent identity integration and break-glass test
+Strategy & tool selection,N11,6,5.555555555555555,6,6,0,,IH-08L · Operating-model and tool-selection decision studio; IH-09L · Quarterly evidence and adoption forums; Vendor decision and adoption review
+Strategy & tool selection,N13,6,66.66666666666666,6,6,0,,IH-08L · Operating-model and tool-selection decision studio; IH-09L · Quarterly evidence and adoption forums; Vendor decision and adoption review
+Strategy & tool selection,N14,7,38.095238095238095,7,7,0,,IH-08L · Operating-model and tool-selection decision studio; IH-09L · Quarterly evidence and adoption forums; Vendor decision and adoption review

@@ -1,0 +1,868 @@
+[
+  {
+    "id": "N1",
+    "name": "What AI can do in cyber",
+    "coverage": 0.7777777777777778,
+    "critical": 0,
+    "full": 1,
+    "count": 3,
+    "gaps": [
+      {
+        "id": "N1.2",
+        "title": "What is emerging",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N1.3",
+        "title": "How one's own work changes",
+        "score": 2,
+        "core": true
+      }
+    ]
+  },
+  {
+    "id": "N2",
+    "name": "How AI systems are built",
+    "coverage": 0.8095238095238095,
+    "critical": 0,
+    "full": 3,
+    "count": 7,
+    "gaps": [
+      {
+        "id": "N2.1",
+        "title": "Models",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N2.2",
+        "title": "Modalities",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N2.3",
+        "title": "Ways of using AI",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N2.7",
+        "title": "Where it runs",
+        "score": 2,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "N3",
+    "name": "AI limitations and pitfalls",
+    "coverage": 0.8095238095238095,
+    "critical": 0,
+    "full": 3,
+    "count": 7,
+    "gaps": [
+      {
+        "id": "N3.2",
+        "title": "Sycophancy",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N3.3",
+        "title": "Context loss",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N3.6",
+        "title": "Automation bias",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N3.7",
+        "title": "Counter-habits",
+        "score": 2,
+        "core": true
+      }
+    ]
+  },
+  {
+    "id": "N4",
+    "name": "AI risks and responsible use",
+    "coverage": 0.8571428571428571,
+    "critical": 0,
+    "full": 4,
+    "count": 7,
+    "gaps": [
+      {
+        "id": "N4.2",
+        "title": "Confidentiality and client data",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N4.5",
+        "title": "Regulation",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N4.6",
+        "title": "The bank's rules",
+        "score": 2,
+        "core": true
+      }
+    ]
+  },
+  {
+    "id": "N5",
+    "name": "AI-powered threats",
+    "coverage": 0.9047619047619048,
+    "critical": 0,
+    "full": 5,
+    "count": 7,
+    "gaps": [
+      {
+        "id": "N5.6",
+        "title": "Recognising AI-enabled attacks",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N5.7",
+        "title": "Tracking the threat landscape",
+        "score": 2,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "N6",
+    "name": "Working with AI",
+    "coverage": 0.7083333333333334,
+    "critical": 0,
+    "full": 1,
+    "count": 8,
+    "gaps": [
+      {
+        "id": "N6.1",
+        "title": "Delegation",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N6.3",
+        "title": "Discernment",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N6.4",
+        "title": "Diligence",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N6.5",
+        "title": "Choosing a model",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N6.6",
+        "title": "Context window and memory",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N6.7",
+        "title": "Platform for the data",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N6.8",
+        "title": "Own work with AI",
+        "score": 2,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "N7",
+    "name": "Supervising agents",
+    "coverage": 0.6666666666666666,
+    "critical": 0,
+    "full": 0,
+    "count": 5,
+    "gaps": [
+      {
+        "id": "N7.1",
+        "title": "Delegate",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N7.2",
+        "title": "Monitor",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N7.3",
+        "title": "Verify",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N7.4",
+        "title": "Intervene",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N7.5",
+        "title": "Account",
+        "score": 2,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "N8",
+    "name": "Skills and connectors",
+    "coverage": 0.5333333333333333,
+    "critical": 0,
+    "full": 2,
+    "count": 5,
+    "gaps": [
+      {
+        "id": "N8.1",
+        "title": "Writing a Skill",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N8.2",
+        "title": "Maintaining Skills",
+        "score": 0,
+        "core": false
+      },
+      {
+        "id": "N8.3",
+        "title": "Shared library",
+        "score": 0,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "N9",
+    "name": "Evaluating AI in your own work",
+    "coverage": 0.7333333333333333,
+    "critical": 0,
+    "full": 2,
+    "count": 5,
+    "gaps": [
+      {
+        "id": "N9.2",
+        "title": "Known faults",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N9.4",
+        "title": "Rerun on change",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N9.5",
+        "title": "Feeding the domain system",
+        "score": 1,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "N10",
+    "name": "Building agents and the platform",
+    "coverage": 0.75,
+    "critical": 0,
+    "full": 3,
+    "count": 8,
+    "gaps": [
+      {
+        "id": "N10.2",
+        "title": "Multi-agent design",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N10.3",
+        "title": "Harness and context engineering",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N10.5",
+        "title": "Hosting and residency",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N10.7",
+        "title": "Skills as infrastructure",
+        "score": 1,
+        "core": false
+      },
+      {
+        "id": "N10.8",
+        "title": "Safe deployment",
+        "score": 2,
+        "core": true
+      }
+    ]
+  },
+  {
+    "id": "N11",
+    "name": "Designing AI evaluation",
+    "coverage": 0.5555555555555556,
+    "critical": 0,
+    "full": 0,
+    "count": 6,
+    "gaps": [
+      {
+        "id": "N11.1",
+        "title": "Test-set design",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N11.2",
+        "title": "Error analysis",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N11.3",
+        "title": "Validating automated judges",
+        "score": 1,
+        "core": true
+      },
+      {
+        "id": "N11.4",
+        "title": "Benchmarking vendor AI",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N11.5",
+        "title": "Drift in production",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N11.6",
+        "title": "Evidence for decisions",
+        "score": 1,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "N12",
+    "name": "Securing AI systems and agents",
+    "coverage": 0.8148148148148148,
+    "critical": 0,
+    "full": 4,
+    "count": 9,
+    "gaps": [
+      {
+        "id": "N12.2",
+        "title": "Agent identity",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N12.4",
+        "title": "Authorisation layers",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N12.6",
+        "title": "Logging, monitoring and kill switches",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N12.8",
+        "title": "Fixing findings",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N12.9",
+        "title": "Reference architectures",
+        "score": 2,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "N13",
+    "name": "Governing AI risk",
+    "coverage": 0.7222222222222222,
+    "critical": 0,
+    "full": 1,
+    "count": 6,
+    "gaps": [
+      {
+        "id": "N13.1",
+        "title": "AI inventory",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N13.2",
+        "title": "AI risk assessment",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N13.3",
+        "title": "Autonomy policy",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N13.4",
+        "title": "Third-party AI risk",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N13.6",
+        "title": "Assurance evidence",
+        "score": 2,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "N14",
+    "name": "Redesigning work, supervision and adoption",
+    "coverage": 0.7142857142857143,
+    "critical": 0,
+    "full": 1,
+    "count": 7,
+    "gaps": [
+      {
+        "id": "N14.1",
+        "title": "Who does what",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N14.2",
+        "title": "Workflow redesign",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N14.3",
+        "title": "Supervision model",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "N14.5",
+        "title": "Running the change",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N14.6",
+        "title": "Keeping skills alive",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "N14.7",
+        "title": "Accountability",
+        "score": 2,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "R1.1",
+    "name": "Run incidents where the agent is the subject",
+    "coverage": 0.5555555555555556,
+    "critical": 0,
+    "full": 0,
+    "count": 6,
+    "gaps": [
+      {
+        "id": "R1.1.1",
+        "title": "Agent incident playbooks",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "R1.1.2",
+        "title": "Ways to stop an agent",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R1.1.3",
+        "title": "Investigating a compromised agent",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R1.1.4",
+        "title": "Cleaning up",
+        "score": 1,
+        "core": false
+      },
+      {
+        "id": "R1.1.5",
+        "title": "Operating without the agent",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "R1.1.6",
+        "title": "Reporting",
+        "score": 1,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "R1.2",
+    "name": "Use AI in forensics without breaking the evidence, and make agents' traces investigable",
+    "coverage": 0.4444444444444444,
+    "critical": 1,
+    "full": 0,
+    "count": 3,
+    "gaps": [
+      {
+        "id": "R1.2.1",
+        "title": "Recording the AI step",
+        "score": 0,
+        "core": true
+      },
+      {
+        "id": "R1.2.2",
+        "title": "Forensic readiness for agents",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R1.2.3",
+        "title": "Investigating an agent as suspect",
+        "score": 2,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "R3.1",
+    "name": "Red-team the bank's own agents",
+    "coverage": 0.8666666666666667,
+    "critical": 0,
+    "full": 3,
+    "count": 5,
+    "gaps": [
+      {
+        "id": "R3.1.2",
+        "title": "Published methods",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R3.1.5",
+        "title": "Automated red-team programme",
+        "score": 2,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "R3.2",
+    "name": "Contain self-directed testing agents and validate their findings at trajectory level",
+    "coverage": 0.2,
+    "critical": 0,
+    "full": 0,
+    "count": 5,
+    "gaps": [
+      {
+        "id": "R3.2.1",
+        "title": "Containment before a run",
+        "score": 1,
+        "core": true
+      },
+      {
+        "id": "R3.2.2",
+        "title": "Monitoring during a run",
+        "score": 0,
+        "core": false
+      },
+      {
+        "id": "R3.2.3",
+        "title": "Escape patterns",
+        "score": 0,
+        "core": false
+      },
+      {
+        "id": "R3.2.4",
+        "title": "Trajectory-level validation",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R3.2.5",
+        "title": "Collateral findings",
+        "score": 0,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "R4.1",
+    "name": "Manage agents, MCP servers, Skills and connectors as an exposure class",
+    "coverage": 0.7222222222222222,
+    "critical": 0,
+    "full": 1,
+    "count": 6,
+    "gaps": [
+      {
+        "id": "R4.1.1",
+        "title": "Discovery",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R4.1.2",
+        "title": "Inventory",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "R4.1.3",
+        "title": "Content-bound approval",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R4.1.4",
+        "title": "Scanning",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "R4.1.5",
+        "title": "AI bill of materials",
+        "score": 2,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "R4.2",
+    "name": "Build and validate AI code-analysis harnesses",
+    "coverage": 0.38095238095238093,
+    "critical": 0,
+    "full": 0,
+    "count": 7,
+    "gaps": [
+      {
+        "id": "R4.2.1",
+        "title": "Why set-up is the skill",
+        "score": 1,
+        "core": false
+      },
+      {
+        "id": "R4.2.2",
+        "title": "Giving the model context",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R4.2.3",
+        "title": "Framework, model and method",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "R4.2.4",
+        "title": "Confirming before reporting",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R4.2.5",
+        "title": "Reliability by vulnerability class",
+        "score": 1,
+        "core": false
+      },
+      {
+        "id": "R4.2.6",
+        "title": "Deduplication and cost",
+        "score": 0,
+        "core": false
+      },
+      {
+        "id": "R4.2.7",
+        "title": "Measuring the harness",
+        "score": 0,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "R5.1",
+    "name": "Design the agent control plane",
+    "coverage": 0.6111111111111112,
+    "critical": 0,
+    "full": 0,
+    "count": 6,
+    "gaps": [
+      {
+        "id": "R5.1.1",
+        "title": "Classifying agent actions",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R5.1.2",
+        "title": "Enforcement outside the model",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R5.1.3",
+        "title": "The stop mechanism",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R5.1.4",
+        "title": "The audit trail",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "R5.1.5",
+        "title": "The oversight interface",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "R5.1.6",
+        "title": "Reference architectures",
+        "score": 1,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "R6.1",
+    "name": "Assure agents",
+    "coverage": 0.5,
+    "critical": 0,
+    "full": 0,
+    "count": 2,
+    "gaps": [
+      {
+        "id": "R6.1.1",
+        "title": "Agent control catalogue",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R6.1.2",
+        "title": "Assuring assurance's own AI",
+        "score": 1,
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "R9.1",
+    "name": "Run the identity lifecycle of agents",
+    "coverage": 0.5,
+    "critical": 0,
+    "full": 0,
+    "count": 10,
+    "gaps": [
+      {
+        "id": "R9.1.1",
+        "title": "Registering an agent",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R9.1.2",
+        "title": "Delegated authority",
+        "score": 2,
+        "core": true
+      },
+      {
+        "id": "R9.1.3",
+        "title": "Connector and MCP scopes",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "R9.1.4",
+        "title": "Just-in-time access",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "R9.1.5",
+        "title": "Short-lived sub-agents",
+        "score": 1,
+        "core": false
+      },
+      {
+        "id": "R9.1.6",
+        "title": "Recertification",
+        "score": 0,
+        "core": false
+      },
+      {
+        "id": "R9.1.7",
+        "title": "Revocation drills",
+        "score": 1,
+        "core": true
+      },
+      {
+        "id": "R9.1.8",
+        "title": "Integration with IGA, PAM, SIEM",
+        "score": 2,
+        "core": false
+      },
+      {
+        "id": "R9.1.9",
+        "title": "Privileged access and break-glass",
+        "score": 1,
+        "core": false
+      },
+      {
+        "id": "R9.1.10",
+        "title": "Audit trail and standards",
+        "score": 2,
+        "core": false
+      }
+    ]
+  }
+]

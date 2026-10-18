@@ -1,0 +1,229 @@
+AI Literacy Essentials: Working Responsibly with AI (https://www.udemy.com/course/ai-literacy-essentials-working-responsibly-with-ai/)
+citeturn64view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-literacy-essentials-working-responsibly-with-ai/","lineno":null}); Total lines: 239
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Literacy Essentials: Working Responsibly with AI
+L30: Rating: 4.5 out of 5 4.5cite8†(26,770 ratings) L31: 
+L32: 64,571 students
+L33: 
+L34: cite0†Image†img-c.udemycdn.com Preview this course
+L35: # AI Literacy Essentials: Working Responsibly with AI
+L36: 
+L37: Essential AI literacy training for workplace compliance (EU AI Act ready) | Understand & safely use AI systems
+L38: 
+L39: Created bycite9†Tristan Roth L40: 
+L41: Last updated 10/2025
+L42: 
+L43: English
+L44: 
+L45: Czech [Auto],German [Auto], 14 more
+L46: 
+L47: cite0†Image†img-c.udemycdn.com Preview this course
+L48: ## What you'll learn
+L49: 
+L50:   * Understand the basics of AI and its applications in the workplace.
+L51: 
+L52:   * Recognize the strengths and limitations of AI tools.
+L53: 
+L54:   * Learn how to verify and responsibly use AI outputs.
+L55: 
+L56:   * Build confidence in applying AI to improve efficiency while maintaining ethical standards.
+L57: 
+L58:   * For leaders, knowing what to expect from their teams using generative AI
+L59: 
+L60: ## Course content
+L61: 
+L62: 6 sections • 18 lectures • 42m total length
+L63: 
+L64: Expand all sections
+L65: ### Introduction 1 lecture • 1min
+L66: 
+L67:   * Introduction Preview 1:25
+L68: 
+L69: Society: Why AI literacy is now a core competency
+L70: ### Understanding AI in Everyday Work 3 lectures • 6min
+L71: 
+L72:   * Recognizing AI Preview 1:46
+L73: 
+L74:   * Defining AI Preview 2:29
+L75: 
+L76: Explore how artificial intelligence, trained on large data, analyzes information to recognize patterns, filter spam, and power chatbot responses, while noting humans provide context and ethics for responsible use.
+L77: 
+L78:   * Capabilities vs. Reality Preview 1:37
+L79: Ai is great at repetitive tasks, scans data, and detects patterns to save time, but lacks context and empathy, so humans must interpret results and verify data for safe use.
+L80: 
+L81:   * Understanding AI in Everyday Work
+L82: ### AI’s Strengths, Weaknesses, and Misconceptions 4 lectures • 11min
+L83: 
+L84:   * AI’s Strengths Preview 2:14
+L85: 
+L86: Ai can sort vast data, draft initial content, and automate complex workflows, while spotting small issues in large systems.
+L87: 
+L88:   * AI’s Weaknesses and Limitations Preview 2:27
+L89: 
+L90:   * Real-life example: AI bias 4:19
+L91: 
+L92: This video is part of the Critical thinking module and deals with challenging AI outputs, in the presence of bias.
+L93: 
+L94:   * Common Misconceptions 1:34
+L95: Identify common ai myths about accuracy, time savings, and replacing human judgment, and understand that human review remains essential for critical decisions.
+L96: 
+L97:   * AI’s Strengths, Weaknesses, and Misconceptions
+L98: ### Recognizing and Managing AI-Related Risks 4 lectures • 11min
+L99: 
+L100:   * Data Privacy and Security 1:53
+L101: 
+L102: Protect data privacy and security by avoiding unapproved AI tools, using secure, approved platforms, and consulting IT before handling sensitive information under HIPAA.
+L103: 
+L104:   * Compliance and Regulatory Landscape 1:45
+L105: Explore how the EU AI Act governs AI through transparency labeling, risk-based oversight, and staff training, and compare regional rules like HIPAA and financial regulations to protect privacy and trust.
+L106: 
+L107:   * Real World Incident Examples 1:35
+L108: 
+L109: Explore real-world incidents where an AI chatbot leaked banking client data to external servers and misdiagnosed X-rays, underscoring that AI should assist professionals, not replace them.
+L110:   * When AI takes action: zoom on AI browser agents (GPT Atlas, Perplexity Comete..)5:47
+L111: 
+L112: OpenAI released ChatGPT Atlas, Perplexity released Comet. Both are AI browsers that "work for you". Here we cover the risks of these new browsers and how you should protect yourself from unintended consequences.
+L113: 
+L114:   * Recognizing and Managing AI-Related Risks
+L115: ### Practical Guidelines for Safe AI Use 2 lectures • 5min
+L116: 
+L117:   * Responsible Interaction Steps 2:25
+L118: 
+L119: Learn four practical steps for safe AI use at work: obtain approval, protect data, verify results, and seek expert oversight to keep operations secure and compliant.
+L120: 
+L121:   * Documentation and Transparency 2:07
+L122: 
+L123: Document AI use to prove compliance, trace errors, and build trust through transparency and accountability, as shown by Medical Scan's 90% accuracy and radiologist review.
+L124:   * Practical Guidelines for Safe AI Use
+L125: ### Conclusion and Next Steps 4 lectures • 9min
+L126: 
+L127:   * Recap Key Takeaways 2:26
+L128: 
+L129: AI is powerful but not all-knowing; humans oversee ethics and real-world judgment, verify outputs, follow regulations, protect data, and keep final decisions under qualified human oversight.
+L130: 
+L131:   * Continuing Your AI Literacy Journey 2:11
+L132: Continue your AI literacy journey by staying informed with memos, newsletters, and quick guides. Attend refresher sessions, engage your team, and assess new tools for security, compliance, and responsible use.
+L133: 
+L134:   * Going further: AI Literacy reading list 1:39
+L135: 
+L136: Important: this lists all the articles shared below each course lectures, all in one place.
+L137: This is an optional reading list if you want to go further on each topic mentioned during the course. I've manually picked each article so that they bring a nuanced view of what AI can or can't do today, and how you can make the best out of it.
+L138: 
+L139:   * Outro: Timeline of AI capabilities 2:23
+L140: 
+L141: Evolution of AI capabilities from the 1950s to 2025, in two minutes. Who knows what's next?
+L142: ## Requirements
+L143: 
+L144:   * No prior AI knowledge is required.
+L145: 
+L146:   * Familiarity with basic workplace software is helpful but not necessary.
+L147: ## Description
+L148: 
+L149: JUST 45 MINUTES TO AI LITERACY Quick, focused training that fits your busy schedule. Get essential AI literacy in less than an hour, including EU AI Act compliance basics. No fluff, just what you need to know... plus articles if you want to learn further.
+L150: Before joining, be aware: It won't make you an AI expert. That's not the goal. It's just the essentials you need to start using AI in the workplace without acting as if we were in the Wild West. So, we'll focus on AI capabilities, limitations, good practices, security checks, documentation needs, and that's pretty much it.
+L151: 
+L152: Warning: If you're already an expert of AI literacy, this course isn't for you. If you're new to working with AI however... this reminder can be useful.
+L153: This course is for professionals getting familiar with AI at work and being required by their organization to get some knowledge on the compliance of AI and using it responsibly.
+L154: 
+L155: And if you want to go deeper, look at the readings I added under each lecture :). I manually picked the best articles to go further on topics like AI capabilities, limitations, etc. These articles usually focus on specific industries or trends to give you even more concrete examples. I really invite you to check these out!
+L156: PERFECT FOR BUSY PROFESSIONALS Learn or get reminded the basics of AI literacy • Complete in one lunch break • Short modules • Straight to the point learning
+L157: 
+L158: QUICK BUT COMPREHENSIVE 5 Focused Modules (45 minutes total):
+L159: 
+L160:   1. Understanding AI in Everyday Work
+L161: 
+L162:   * Intro to AI: Basics and Examples
+L163: 
+L164:   * Recognizing AI in Your Role
+L165: 
+L166:   * AI's Strengths and Limitations
+L167: 
+L168:   1. AI Strengths, Weaknesses, and Misconceptions
+L169: 
+L170:   * AI's Capabilities: What It Does Best
+L171: 
+L172:   * Common Misconceptions and How to Avoid Them
+L173:   1. Recognizing and Managing AI-Related Risks
+L174: 
+L175:   * Data Privacy, Security, and Compliance
+L176: 
+L177:   * Real-World Case Studies on AI Risks
+L178: 
+L179:   1. Practical Guidelines for Safe AI Use
+L180: 
+L181:   * Responsible AI Interaction Steps
+L182: 
+L183:   * Documentation and Transparency Practices
+L184: 
+L185:   1. Putting It All Together and Next Steps
+L186: 
+L187:   * Recap and Final Thoughts
+L188: 
+L189:   * Staying Updated on AI Trends and Compliance
+L190: DESIGNED FOR: • Busy professionals • Teams needing quick compliance • Organizations meeting EU AI Act requirements • Anyone wanting efficient AI literacy
+L191: 
+L192: NO FLUFF INCLUDED: • Concise video lessons • Quick reference guides • Essential checklists
+L193: 
+L194: This course won't:
+L195: 
+L196:   * Waste your time
+L197: 
+L198:   * Get technical
+L199: 
+L200:   * Include unnecessary theory
+L201: 
+L202:   * Make false promises
+L203: 
+L204: It will quickly teach you:
+L205: 
+L206:   * Essential AI literacy
+L207: 
+L208:   * Basic safety practices
+L209: 
+L210:   * Compliance fundamentals
+L211: 
+L212:   * Practical guidelines
+L213: Very important: this course is new and provided for to you for free. The only thing I'm asking from you in exchange... is a relevant and honest feedback.
+L214: 
+L215: 95% of people who follow this course don't give any kind of actionable feedback. Don't be like them.
+L216: 
+L217: I don't mind if you don't give the best rating.
+L218: 
+L219: But I mind if you thought it could have been better but didn't share it with me. Every occasion to improve shall be taken and you can play a role in it.
+L220: You followed the course and liked it? Let me know why you liked it.
+L221: 
+L222: You didn't like some parts of it or think I need to improve the scripts, the voice, the tone, the pace, the visuals, the examples, the quizzes? Don't keep it for you!
+L223: 
+L224: Leaving an actual written review and telling me what shall become better is the only way to make this course better. Not just 5-stars review because they're not enough feedback to understand what could have been better. Thanks a lot for considering it!
+L225: 
+L226: Take care, Tristan
+L227: PS: really have a look at the readings under each video. I took time selecting each article. This is valuable, and I hope you'll like it.
+L228: ## Who this course is for:
+L229: 
+L230:   * Professionals from all industries curious about AI.
+L231:   * Teams using AI tools for decision-making or automation.
+L232:   * Individuals aiming to enhance their AI knowledge for career growth.
+L233:   * Employees of companies having to comply with the EU AI Act
+L234:   * Managers and leaders empowering their team to use generative AI
+L235: 
+L236: Show more Show less
+L237: 
+L238: cite10†Report abuse 

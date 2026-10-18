@@ -1,0 +1,284 @@
+Change Management for Generative AI (https://www.udemy.com/course/change-management-for-generative-ai-leaders-human-resources/)
+citeturn95view0 [wordlim: 200] Crawled: 2 months ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/change-management-for-generative-ai-leaders-human-resources/","lineno":null}); Total lines: 300
+L0: cite13†Image†www.udemy.com L1: 
+L2: Skip to content
+L3: 
+L4: cite14†Image: Udemy†www.udemy.com L5: 
+L6: Explore
+L7: 
+L8:   *     *
+L9: 
+L10:     *
+L11: 
+L12:     *
+L13: 
+L14:     *
+L15: 
+L16:     *
+L17: 
+L18:     *
+L19: 
+L20:     *
+L21: 
+L22:     *
+L23: 
+L24: cite0†Subscribe L25: 
+L26: cite1†Udemy Business L27: 
+L28:   * cite2†Compare Plans L29:   * cite3†Try Udemy Business L30: 
+L31: cite4†Teach on Udemy L32: 
+L33: Turn what you know into an opportunity and reach millions around the world.
+L34: 
+L35: cite4†Learn More L36: 
+L37: Your cart is empty.
+L38: 
+L39: cite5†Keep shopping L40: 
+L41: cite6†Log in L42: 
+L43: cite7†Sign up L44: 
+L45: Change Management for Generative AI
+L46: 
+L47: Rating: 4.3 out of 5 4.3(768 ratings)
+L48: 2,003 students
+L49: 
+L50:   1. cite8†Business L51:   2. cite9†Management L52:   3. cite10†Change Management L53: 
+L54: cite15†Image†www.udemy.com Preview this course
+L55: # Change Management for Generative AI
+L56: 
+L57: Master the FASTER framework to lead successful AI transformation &amp; overcome adoption challenges
+L58: 
+L59: Created bycite11†Yash Thakker L60: 
+L61: Last updated 1/2025
+L62: 
+L63: English
+L64: 
+L65: German [Auto],English [Auto], 4 more
+L66: 
+L67: cite16†Image†www.udemy.com Preview this course
+L68: ## What you'll learn
+L69: 
+L70:   * Apply the FASTER framework to create a comprehensive change management plan for Generative AI implementation in your organization
+L71: 
+L72:   * Evaluate your organization's readiness for Generative AI adoption using industry-standard assessment tools
+L73: 
+L74:   * Design effective training programs to help employees transition to working alongside Generative AI tools
+L75: 
+L76:   * Develop strategies to address common workforce concerns and resistance to AI adoption
+L77:   * Implement safeguards and governance protocols for responsible AI use in your organization
+L78: 
+L79:   * Create communication plans that effectively establish urgency and build support for AI initiatives
+L80: 
+L81:   * Analyze the potential impact of Generative AI on different roles and departments within your organization
+L82: 
+L83:   * Build measurable success metrics to track the progress of your AI transformation initiatives
+L84: ## Explore related topics
+L85: 
+L86:   * cite10†Change Management L87:   * cite9†Management L88:   * cite8†Business L89: 
+L90: ## Course content
+L91: 
+L92: 7 sections • 23 lectures • 1h 38m total length
+L93: 
+L94: Expand all sections
+L95: ### Introduction 6 lectures • 23min
+L96: 
+L97:   * Introduction Preview 2:45
+L98: 
+L99: Discover practical strategies to implement generative AI in business, starting small, focusing on high-value use cases, and augmenting human creativity with real case studies and battle-tested frameworks.
+L100: 
+L101:   * Why GenAI is unlike any other Transformation Before 3:32
+L102: GenAI follows historical transformation patterns that create new roles and opportunities, not replacements. Leaders reimagine their organizations to thrive in the AI-driven ecosystem across healthcare, education, and finance.
+L103: 
+L104:   * GenAI's impact on Job Market Today 2:22
+L105: 
+L106: GenAI democratizes expertise and augments human work, enabling small businesses, solo entrepreneurs, and creators to compete at scale. Learn how to adapt quickly to use AI as a competitive advantage.
+L107: 
+L108:   * Preparing for changes 2:35
+L109: Explore how technological revolutions transform industries, create new roles like AI art directors and prompt engineers, and why organizations must reimagine roles to thrive.
+L110: 
+L111:   * How to prepare for Changes 4:54
+L112: 
+L113: Discover the pattern that technology eliminates tasks, not jobs, and creates higher value roles. Learn practical steps to prepare for the AI transformation.
+L114: 
+L115:   * Misconceptions around AI Preview 6:54
+L116: Discover why generative ai differs from prior transformations and its rapid adoption reshapes every function. Form a cross-functional task force and training with guardrails to address bias, privacy, and hallucinations.
+L117: ### Playbook for CEOs & Leaders 4 lectures • 24min
+L118: 
+L119:   * Driving changes as CEO / Leaders Preview 5:10
+L120: 
+L121: Champion generative AI as a CEO by personally experimenting, building cross-functional teams, and establishing ethical guidelines and a growth mindset to drive organization-wide adoption.
+L122: 
+L123:   * GenAI for CEOs 6:12
+L124: GenAI acts as a thought partner for CEOs, refining ideas and generating insights with large language models to support idea generation, evaluation, analysis, and communication, upskilling teams and driving change.
+L125: 
+L126:   * Basic Prompt Engineering & ChatGPT 8:50
+L127: 
+L128: Engage in hands-on prompt engineering using Claude and ChatGPT, practicing summarization, idea refinement, evaluation, analysis, and chain-of-thought prompts to craft effective AI interactions.
+L129:   * Prompting Strategies and ChatGPT for Day to Day work Preview 4:04
+L130: 
+L131: Explore prompting strategies with ChatGPT to design implementation and evaluation frameworks, using context and advanced prompts to analyze expansion plans, metrics, and risk.
+L132: ### FASTER Framework 7 lectures • 18min
+L133: 
+L134:   * What is FASTER Framework?2:29
+L135: 
+L136: Explore why AI adoption must start at the top and how leadership vulnerability drives generative AI use. Learn three practical ways to model AI behavior that your team will follow.
+L137: 
+L138:   * Alignment 2:04
+L139: 
+L140: Lead with authentic leadership and diverse cross-functional AI teams to identify and prioritize AI opportunities, start small, learn publicly, and decide what not to do to avoid wasted effort.
+L141: 
+L142:   * Safeguard 2:57
+L143: Explore why blanket ai bans backfire by driving shadow ai, and learn the three critical elements of effective ai governance: psychology, strategic framework, and empowered innovation zones, plus practical safeguards.
+L144: 
+L145:   * Training 2:23
+L146: 
+L147: Discover the three-step empowerment framework—skill building, psychological safety, and practical application—for rapid AI training that boosts adoption, integrates learning into daily work, and reduces job security fears.
+L148: 
+L149:   * Evolution 2:43
+L150: Join the evolution of generative AI and drive a culture of continuous innovation by empowering every employee to solve problems with augmented intelligence.
+L151: 
+L152:   * Replication 2:34
+L153: 
+L154: Learn to replicate AI success with a three-step framework: understand success DNA, implement controlled mutation, and build a scalable replication infrastructure that enables enterprise wide transformation.
+L155: 
+L156:   * Bridging the gaps 2:23
+L157: Bridge leadership and ground reality by empowering cross-functional teams with authority and budget across frontline, middle, and senior roles, move fast, deliver customer-focused innovations, and avoid delays from multiple approvals.
+L158: ### Economic Impact of Generative AI 1 lecture • 4min
+L159: 
+L160:   * Economic Impact of GenAI 4:15
+L161: 
+L162: Explore how generative AI reshapes the job market, with research indicating up to 50% of jobs impacted after the advent of GPT-4.
+L163: ### Adding value to your customers with AI 1 lecture • 10min
+L164: 
+L165:   * How to add consistent value to Products 9:54
+L166: 
+L167: Learn how to generate value with generative AI by analyzing customer feedback across product touchpoints, categorize insights, visualize results, and prioritize features with an impact-effort framework.
+L168: ### Manage and Mitigate risks 2 lectures • 11min
+L169: 
+L170:   * How to communicate risks to employees 6:08
+L171: 
+L172: Learn to identify and communicate AI-related risks to employees, from hallucinations and data security to regulatory and IP concerns, while aligning strategy and team structures for safer innovation.
+L173: 
+L174:   * How to manage risks and challenges 5:04
+L175: Transform AI ethics into a practical risk management framework that protects society and business, addressing bias, privacy concerns, and human rights through accountable governance, stakeholder engagement, and continuous improvement.
+L176: ### Congratulations!2 lectures • 8min
+L177: 
+L178:   * 2025 AI Roadmap 6:55
+L179: 
+L180: Explore the 2025 ai roadmap, featuring operator and browser agents that write code and book travel, and the rise of infinite memory, physical robots, and enterprise workflow ai.
+L181: 
+L182:   * Congrats!1:11
+L183: 
+L184: Apply battle-tested frameworks and strategies to implement generative AI in the real world, starting small to deliver value and avoid common pitfalls.
+L185: 
+L186: ## Requirements
+L187: 
+L188:   * No experience needed.
+L189: ## Description
+L190: 
+L191: Are you ready to lead your organization through the Generative AI revolution? As this transformative technology reshapes industries, successful implementation requires more than just technical knowledge - it demands effective change management strategies.
+L192: In this comprehensive course, you'll master the FASTER framework, a proven approach to managing organizational change in the era of Generative AI. Whether you're a business leader, manager, or change agent, you'll gain practical skills to drive successful AI adoption while addressing common workforce concerns and resistance.
+L193: 
+L194: What Makes This Course Different?
+L195: 
+L196:   * Learn from Yash Thakker, a seasoned product leader with 10 years of experience in AI and platforms
+L197:   * Benefit from hands-on insights from someone actively implementing AI in a top tech startup
+L198: 
+L199:   * Master the FASTER framework: Foundation, Alignment, Safeguards, Training, Evolution, and Replication
+L200: 
+L201:   * Complete hands-on labs to apply concepts to your specific industry
+L202: 
+L203:   * Understand both leadership and employee perspectives on AI adoption
+L204: 
+L205: About Your Instructor
+L206: 
+L207: Yash Thakker brings a wealth of experience as:
+L208: 
+L209:   * Head of Product at a leading tech startup in India
+L210:   * 10 years of expertise in product management, AI, platforms, and apps
+L211: 
+L212:   * 2 years of specialized experience in Generative AI implementation
+L213: 
+L214:   * Creator of 20+ successful courses on marketing automation and product management
+L215: 
+L216:   * Instructor trusted by over 41,000 students with 10,000+ reviews
+L217: 
+L218: Course Content Overview
+L219: 
+L220: Module 1: Introduction to Change Management for Generative AI
+L221: 
+L222:   * Understand how Generative AI differs from previous technological changes
+L223:   * Analyze AI's impact on the job market and workforce
+L224: 
+L225:   * Learn strategies for establishing urgency and preparing teams for change
+L226: 
+L227:   * Complete practical exercises to assess AI's impact in your industry
+L228: 
+L229: Module 2: The FASTER Framework
+L230: 
+L231:   * Master each component of the FASTER framework
+L232: 
+L233:   * Learn to build strong foundations for AI initiatives
+L234: 
+L235:   * Develop strategies for stakeholder alignment
+L236: 
+L237:   * Implement crucial safeguards and training programs
+L238:   * Create evolution and replication strategies for sustained success
+L239: 
+L240: Module 3: Understanding Workforce AI Concerns
+L241: 
+L242:   * Gain insights from real employee discussions about AI
+L243: 
+L244:   * Learn to address common fears and resistance
+L245: 
+L246:   * Develop strategies for inclusive AI transformation
+L247: 
+L248:   * Create action plans for successful change management
+L249: 
+L250: Who This Course Is For:
+L251: 
+L252:   * Business leaders and executives leading AI transformation
+L253: 
+L254:   * Product managers and tech leaders implementing AI solutions
+L255:   * Change management professionals
+L256: 
+L257:   * HR leaders preparing for workforce transformation
+L258: 
+L259:   * Team leaders wanting to effectively guide their teams through AI adoption
+L260: 
+L261: Requirements:
+L262: 
+L263:   * No technical AI knowledge required
+L264: 
+L265:   * Basic understanding of organizational structure and management
+L266: 
+L267:   * Willingness to learn and apply new frameworks
+L268: 
+L269:   * Access to a computer with internet connection
+L270: 
+L271: What You'll Learn:
+L272: 
+L273:   * Master the FASTER framework for AI change management
+L274:   * Develop strategies to address workforce AI concerns
+L275: 
+L276:   * Create effective AI training and adoption programs
+L277: 
+L278:   * Implement safeguards for responsible AI use
+L279: 
+L280:   * Build sustainable AI transformation strategies
+L281: 
+L282:   * Lead successful organizational change initiatives
+L283: Join over 41,000 students who have benefited from Yash's practical, results-driven approach to technology implementation. As a lifelong learner and active practitioner in the AI space, Yash brings real-world expertise to help you navigate the challenges of AI transformation.
+L284: 
+L285: Start your journey toward becoming an effective leader in the age of Generative AI today!
+L286: ## Who this course is for:
+L287:   * Technology transformation leaders who are tasked with implementing GenAI solutions across their organization and need a structured approach to manage the change
+L288:   * HR Directors and managers preparing their workforce for AI integration, particularly those concerned about employee resistance and skills gaps
+L289:   * Mid-level managers in traditional industries (banking, manufacturing, healthcare) who need to prepare their teams for upcoming AI implementations
+L290:   * Change management consultants looking to update their frameworks and methodologies to specifically address AI-related transformations
+L291:   * Product managers at tech companies who need to guide their teams through the integration of GenAI features into existing products
+L292:   * Operations leaders responsible for streamlining processes with AI while maintaining team morale and productivity
+L293:   * Learning & Development managers tasked with creating AI training programs and upskilling initiatives for their organizations
+L294:   * Project managers leading AI implementation projects who need practical strategies to handle stakeholder concerns and resistance
+L295:   * Startup founders and executives planning to integrate GenAI into their business operations and wanting to avoid common adoption pitfalls
+L296:   * Business unit leaders in enterprise companies who need to align their teams with corporate AI initiatives while maintaining operational efficiency
+L297: Show more Show less
+L298: 
+L299: cite12†Report abuse 

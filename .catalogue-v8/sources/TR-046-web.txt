@@ -1,0 +1,145 @@
+AI and Cybersecurity (Blended Learning) (https://www.iss.nus.edu.sg/blended-learning-programmes/programmes/course-bl/detail/ai-and-cybersecurity/cybersecurity)
+citeturn189view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.iss.nus.edu.sg/blended-learning-programmes/programmes/course-bl/detail/ai-and-cybersecurity/cybersecurity","lineno":null}); Total lines: 168
+L0: # Course BL
+L1: 
+L2: cite0†YouTube video player†www.youtube.com ;
+L3: 
+L4: # Overview
+L5: 
+L6: Part of  | -
+L7: Enquiry  | Please email to iss-blendedlearning@nus.edu.sg.
+L8: 
+L9: ## Upcoming Classes
+L10: 
+L11: [Input][Input]
+L12: ###
+L13: 
+L14: Class 1 01 Mar 2027 to 02 Apr 2027 (Full Time)
+L15: 
+L16: cite1†Button cite1† L17: 
+L18: Live Session:
+L19: 
+L20: ● Live Session 1: Fri 5 Mar 2027, 10am – 11.30am*
+L21: 
+L22: ● Live Session 2: Fri 12 Mar 2027, 10am – 11.30am*
+L23: 
+L24: ● Live Session 3: Fri 19 Mar 2027, 10am – 11.30am*
+L25: 
+L26: ● Live Session 4: Fri 2 Apr 2027, 10am – 11.30am*
+L27: 
+L28: All sessions are in Singapore Time (GMT+8).
+L29: 
+L30: [Input][Input]
+L31: ###
+L32: 
+L33: Class 2 26 Apr 2027 to 28 May 2027 (Full Time)
+L34: 
+L35: cite1†Button cite1† L36: 
+L37: Live Session:
+L38: 
+L39: ● Live Session 1: Fri 30 Apr 2027, 10am – 11.30am*
+L40: 
+L41: ● Live Session 2: Fri 7 May 2027, 10am – 11.30am*
+L42: 
+L43: ● Live Session 3: Fri 14 May 2027, 10am – 11.30am*
+L44: 
+L45: ● Live Session 4: Fri 28 May 2027, 10am – 11.30am*
+L46: 
+L47: All sessions are in Singapore Time (GMT+8).
+L48: 
+L49: * * *
+L50: 
+L51: This course is also offered in:
+L52:   * In-person Learning (in Singapore): Learn more and register cite2†here L53:   * Live Online Learning (via Zoom): Available for corporate groups only. Contact us at (65) 6516 2093 or email us at iss-blendedlearning@nus.edu.sg
+L54: “AI is the new electricity” proclaims Andrew Ng, co-founder of Google Brain. Just as we need to know how to safely harness electricity, we also need to know how to securely employ Artificial Intelligence (AI) to power our businesses. In some scenarios, the security of AI systems can impact the safety and well-being of humans. Hence, it is imperative that AI systems, including the models and algorithms, be protected against cyber-attacks.
+L55: On the flip side, AI techniques can also be misused by cyber-adversaries and so we need to understand how to counter them.
+L56: Cybersecurity professionals, in partnership with AI specialists, would need to enhance their organisations’ cybersecurity strategy and frameworks to take in account the following cybersecurity implications of AI:
+L57: ● Security, safety and privacy of AI systems deployed in various business use cases.
+L58: ● Strengths and shortcomings of employing AI for cybersecurity defence.
+L59: ● AI-aided attack techniques and corresponding mitigations / compensating controls.
+L60: Experience a glimpse into this course and explore our learning platform cite3†Register Now†services-iss.nus.edu.sg L61: 
+L62: 
+L63: 
+L64: * * *
+L65: ### Key Takeaways
+L66: 
+L67: At the end of the course, learners will be able to:
+L68: 
+L69: ● Identify security, safety and privacy vulnerabilities of AI systems, including AI-specific cybersecurity risks, and recommend appropriate risk mitigation actions and recognise limitations, if any
+L70: 
+L71: ● Evaluate the appropriateness of AI for cybersecurity defence and identify their shortcomings, if any.
+L72: 
+L73: ● Describe various AI-aided attack techniques and recommend appropriate mitigations or compensating controls.
+L74: ● Keep abreast of new developments in AI/ML security in order to assess the risks, if any, they pose to their organisation.
+L75: 
+L76: * * *
+L77: ### Structure
+L78: 
+L79: ● Course duration: 6 weeks online.
+L80: ● Learners' time commitment: 3 to 4 hours per week.
+L81: ● This course has 4 live online sessions for group activities, discussions, feedback and interactions.
+L82: ● Throughout the course, learners are expected to actively contribute to the group activities and online discussions, and are encouraged to apply the knowledge learnt.
+L83: 
+L84: * * *
+L85: ### Who Should Attend
+L86: 
+L87: This course is ideal for professionals in Singapore and around the world, as it is conducted entirely online.
+L88: 
+L89: This course is suitable for leaders and professionals in cyber security, cyber risk and AI who need to:
+L90: ● Formulate security policies, strategies or programmes or any related action plan to address the risks posed by using AI-based systems in their business processes and/or products.
+L91: ● Understand the implications of AI-powered attack techniques to their cyber defences.
+L92: ● Assess the appropriateness of AI-aided cyber defence solutions and their shortcomings, if any.
+L93: 
+L94: 
+L95: 
+L96: * * *
+L97: ### Instructors
+L98: 
+L99: cite4†Image: NG Kok Leong L100: 
+L101: Mr. NG Kok Leong
+L102: 
+L103: Principal Lecturer & Consultant, AI Strategy & Organizational Transformation Practice
+L104: 
+L105: cite5†View Profile > L106: 
+L107: * * *
+L108: 
+L109: cite6†Image: TIAN Jing L110: 
+L111: Dr. TIAN Jing
+L112: 
+L113: Principal Lecturer & Consultant, Artificial Intelligence Practice
+L114: 
+L115: cite7†View Profile > L116: 
+L117: * * *
+L118: ### Fees And Funding
+L119: 
+L120: Type of Learners   | Course Fee  | Total course fee payable, including GST
+L121: --- | --- | ---
+L122: Learners residing in Singapore (SGD)  | SGD 900  | SGD 981
+L123: Learners residing outside Singapore (USD)  | USD 700  | USD 700
+L124: 
+L125: * * *
+L126: ### Things To Note
+L127: 
+L128: ● Learners are expected to set aside time for group activities beyond the live sessions.
+L129: 
+L130: ● The NUS-ISS Certificate of Completion will be issued to learners who have met the course requirements successfully. This will include attending all synchronous Zoom sessions and completing the learning activities, workshops and assessments (where applicable).
+L131: 
+L132: ● Read the terms and conditions of NUS-ISS Course Registration cite8†here .
+L133: ● Read about NUS-ISS and Learner’s Commitment and Responsibilities cite9†here .
+L134: 
+L135: ● All classes are subject to confirmation and NUS-ISS will send an acceptance email to learners one week prior to the commencement date.
+L136: 
+L137: ● All responses to feedback and surveys conducted by NUS-ISS and its partners must be submitted by learners.
+L138: 
+L139: ● All trainings and assessments will be delivered by NUS-ISS, as described in the course webpage.
+L140: ● For general enquiries and feedback, please feel free to reach out to us via email at iss-blendedlearning@nus.edu.sg.
+L141: 
+L142: Online Blended Learning Programmes
+L143: cite10†Home L144: cite11†About L145: cite12†Programmes L146: cite13†FAQs L147: cite14†Contact Us L148: cite8†Terms & Conditions L149: 
+L150: Programmes
+L151: cite15†Artificial Intelligence L152: cite16†Cybersecurity L153: cite17†Data Science L154: cite18†Digital Agility L155: cite19†Digital Health L156: cite20†Digital Innovation & Design L157: cite21†Digital Products & Platforms L158: cite22†Digital Strategy & Leadership L159: cite22†Digital Products & Platforms L160: cite22†Software Systems L161: cite22†Startup Tech Talent Development L162: 
+L163: * * *
+L164: 
+L165: Copyright 2023 National University of Singapore. All Rights Reserved.
+L166: 
+L167: cite23†iframe†www.googletagmanager.com 

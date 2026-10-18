@@ -1,0 +1,442 @@
+Microsoft Security Copilot Hands On Course with Simulations (https://www.udemy.com/course/microsoft-security-copilot-hands-on-course-with-simulations/)
+citeturn157view0 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/microsoft-security-copilot-hands-on-course-with-simulations/","lineno":null}); Total lines: 452
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Microsoft Security Copilot Hands On Course with Simulations
+L30: 
+L31: Role Play
+L32: Rating: 4.7 out of 5 4.7cite8†(44 ratings) L33: 
+L34: 375 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # Microsoft Security Copilot Hands On Course with Simulations
+L38: 
+L39: Learn how to expertly administer Microsoft Security Copilot with hands on experience!
+L40: 
+L41: Created bycite9†John Christopher | 500,000+ enrollments L42: 
+L43: Last updated 10/2026
+L44: 
+L45: English
+L46: 
+L47: English [Auto],
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Learn the concepts and perform hands on activities needed to master Microsoft Security Copilot
+L53: 
+L54:   * Gain a tremendous amount of knowledge involving Microsoft Security Copilot
+L55: 
+L56:   * Learn using hands on simulations on how Microsoft Security Copilot
+L57: 
+L58:   * Learn how to set up your own test lab for practicing the concepts!
+L59: 
+L60: ## Course content
+L61: 
+L62: 12 sections • 64 lectures • 6h 8m total length
+L63: 
+L64: Expand all sections
+L65: ### Introduction 9 lectures • 1hr 2min
+L66: 
+L67:   * Welcome to the Microsoft Security Copilot course!Preview 4:53
+L68: 
+L69: Master Microsoft Security Copilot through hands-on simulations and labs, learning zero trust security models, incident response, threat hunting, and Copilot-driven intelligence across Defender, Purview, and Sentinel.
+L70: 
+L71:   * Understanding the Microsoft 365 and Azure Environment 1:51
+L72: Assess foundation of on-premise Active Directory domain services, remote access with DMZ concepts, and virtualization, then map the Microsoft cloud services model—IaaS, PaaS, and SaaS—to Azure and Microsoft 365.
+L73: 
+L74:   * A Solid Foundation of Active Directory Domains Preview 12:11
+L75: 
+L76: Explore foundations of Microsoft domains and Active Directory Domain Services, including DNS, Kerberos, NTLM, LDAP, and group policy objects. Learn how on-prem domains transition toward cloud services and virtualization.
+L77:   * A Solid Foundation of RAS, DMZ, and Virtualization Preview 13:09
+L78: 
+L79: Master the foundations of remote access, dmz, and virtualization, including ras, vpn, and hyper-v, to secure on-premise services and enable elastic cloud-ready architectures.
+L80: 
+L81:   * A Solid Foundation of the Microsoft Cloud Services Preview 17:14
+L82: Define cloud service foundations by comparing IaaS, PaaS, and SaaS, and explain Azure and IntraID as cloud directories, with IntraConnect and IntraSync for on-premise to cloud synchronization and single sign-on.
+L83: 
+L84:   * DO NOT SKIP: Portals renamed!1:51
+L85: Observe how Microsoft renames portals and references transition from Azure Active Directory to IntraID. Follow the links at portals.examlabpractice.com for the latest portals, including admin.microsoft.com, defender.microsoft.com, purview.microsoft.com, and intune.microsoft.com.
+L86: 
+L87:   * DON'T SKIP: Using Assignments in the course 3:29
+L88: 
+L89: Learn how to navigate course simulations and complete checks, with emphasis that only videos have checkmarks toward your certificate while assignments do not.
+L90:   * Questions for John Christopher 5:42
+L91: 
+L92: John Christopher invites questions and commits to answering them, guiding learners to docs.microsoft.com for official Microsoft 365 information and to examlabpractice.com for courses and updates.
+L93: 
+L94:   * Certificate of Completion 1:19
+L95: ### Setting up for hands on 2 lectures • 22min
+L96: 
+L97:   * DONT SKIP: Before beginning your account setup 4:48
+L98: 
+L99: Sign up for a free Office 365 trial to access a Microsoft 365 E5 subscription, activate it, and explore a 30-day Teams trial with portal steps.
+L100: 
+L101:   * Creating a trial Microsoft 365/Azure Account 17:08
+L102: 
+L103: Learn to create a free Microsoft 365 E5 trial account with a new email, verify by phone, assign the license, and cancel after 30 days while navigating portal changes.
+L104: ### Understanding Microsoft Security Copilot and basic security concepts 6 lectures • 41min
+L105: 
+L106:   * What Microsoft Security Copilot (MSC) is and how it works Preview 11:10
+L107: 
+L108: Discover how Microsoft Security Copilot uses generative AI to analyze data across Microsoft 365 and Azure, integrates with Defender, Sentinel, Intune, accelerates incident response, threat hunting, and generates KQL queries.
+L109: 
+L110:   * Core components and architecture 7:09
+L111: Explore the core components and architecture of Microsoft Security Co-Pilot, including the Microsoft Security Trust Boundary, Azure OpenAI backbone, prompts and plugins, and responsible AI grounded outputs.
+L112: 
+L113:   * How Copilot uses security signals and context Preview 7:19
+L114: 
+L115: Gather security signals—from logon attempts to policy changes and VPN usage—to reveal the bigger security picture. Copilot uses these signals from intra identity protection, Defender, and Intune to analyze incidents.
+L116:   * Common use cases: incident response, threat hunting, posture management Preview 3:19
+L117: 
+L118: Explore how Microsoft Security Copilot accelerates incident response, enables proactive threat hunting, and strengthens posture management by analyzing alerts, translating prompts into KQL queries, and identifying misconfigurations.
+L119: 
+L120:   * What is Defense in Depth?4:44
+L121: Discover how defense in depth secures Azure environments by layering protection around cloud services and virtual machines with Azure firewall, NSGs, IP filtering, RBAC, and DDoS protection.
+L122: 
+L123:   * Understanding the the Zero-Trust model 6:59
+L124: 
+L125: Apply the zero trust model by verifying every authentication and enforcing least privilege. Implement just-in-time and just-enough access, PIM, and conditional and compliance policies to protect identities, devices, and data.
+L126: ### Concepts involving Microsoft Defender, Microsoft Purview, and Microsoft Sentinel 12 lectures • 1hr 15min
+L127: 
+L128:   * Understanding Microsoft Security Copilots connections with various services 1:56
+L129: 
+L130: Explore how Microsoft Security Copilot communicates with Azure and Microsoft 365 services through plugins, prompts, and sources, including Microsoft Defender XDR, Microsoft Defender for Cloud, Purview, and Sentinel.
+L131: 
+L132:   * Introduction to the Microsoft 365 Defender services 17:28
+L133: Explore how Microsoft 365 Defender services orchestrate alerts and automated responses across endpoints, identity, and cloud apps, including Defender for Endpoint and Defender for Office 365.
+L134: 
+L135:   * Understanding the concepts of extended detection and response (XDR)9:57
+L136: 
+L137: Explore extended detection and response (XDR) and how Microsoft 365 Defender unifies Defender for Identity, Office 365, Endpoint, and Cloud Apps to detect, analyze, and respond to threats.
+L138:   * Understanding the basics of Microsoft Defender for Cloud 6:21
+L139: 
+L140: Explore Microsoft Defender for Cloud, a cloud native protection platform uniting cnap, cspm, and cwpp to secure multi-cloud workloads and enable devsecops.
+L141: 
+L142:   * Common Vulnerabilities and Exposures (CVEs)3:34
+L143: 
+L144: Learn how CVEs, or common vulnerabilities and exposures, are tracked by MITRE and scored with CVSS, and how scanning with Defender for Endpoint reveals these risks.
+L145: 
+L146:   * Basic purposes of using Microsoft Sentinel 8:44
+L147: Explore how Microsoft Sentinel unifies SIEM and SOAR in a cloud-based platform that centralizes data from Azure, Microsoft 365, and on-premises systems to detect, investigate, and respond to threats.
+L148: 
+L149:   * Setup a log analytics workspace for using Microsoft Sentinel 4:35
+L150: 
+L151: Plan and configure a log analytics workspace for Microsoft Sentinel, review prerequisites and pricing, then create the workspace and attach Microsoft Sentinel in the Azure portal.
+L152:   * Working with Sentinel log types, log retention and data storage 3:53
+L153: 
+L154: Explore how Sentinel uses a log analytics workspace to store log types in tables, and adjust interactive retention and archiving for security events, alerts, incidents, and Sentinel health.
+L155: 
+L156:   * Understanding data sources with Microsoft Sentinel 4:59
+L157: Explore data connectors that ingest and normalize logs from cloud sources like Office 365, Azure, Intune, and on-premise sources into Sentinel, using agents or REST APIs, cef, and csv formats.
+L158: 
+L159:   * Using the MITRE ATT&CK matrix for analyzing attack vectors 9:51
+L160: 
+L161: Explore how the MITRE ATT&CK framework guides threat detection and investigation in Microsoft Sentinel by mapping alerts to attacker tactics and techniques to reveal an attack timeline.
+L162: 
+L163:   * Connecting to data sources with Microsoft Sentinel 2:07
+L164: Install connectors for Azure Activity, Defender for cloud, and Microsoft Enter ID in Microsoft Sentinel to let Security Copilot ingest data and help with KQL queries.
+L165: 
+L166:   * SIMULATION: Open the Sentinel Log Analytics Workspace. Set total retention to 60
+L167: 
+L168:   * DONT SKIP: Redoing simulations in the course 1:45
+L169: 
+L170: Access and redo simulations after completing an assignment by selecting 'go to summary', back to assignment, and instructions to reach the simulation link anytime.
+L171:   * SIMULATION: Open the Sentinel Content Hub...
+L172: ### Prerequisites and Basics for using Microsoft Security Copilot 4 lectures • 18min
+L173: 
+L174:   * What are Security compute units (SCUs)5:39
+L175: 
+L176: Explore security compute units (SCUs) that power Microsoft Security Copilot, with provision capacity billed hourly and overage capacity for spikes, plus management via Azure and Security Copilot portals.
+L177: 
+L178:   * Looking at the latest pricing for Security compute units (SCUs)Preview 3:31
+L179: Explore the latest Microsoft Security Copilot SCUs pricing, compare per hour costs and overages, and use the Azure Pricing Calculator to estimate charges for different regions and usage.
+L180: 
+L181:   * Warning before allocating Security compute units (SCUs)2:01
+L182: 
+L183: Allocate security compute units before creating a workspace to enable Security Copilot, and beware the $4 per hour per unit charge; watch a demonstration first to manage costs.
+L184: 
+L185:   * Allocating Security compute units (SCUs) in Azure Preview 6:42
+L186: Allocate security compute units (SCUs) in Azure by configuring a capacity, a resource group, and a workspace, then monitor hourly costs and delete the capacity when done.
+L187: 
+L188:   * SIMULATION: Setup 1 Security Computer Unit (SCU) for Microsoft Security Copilot
+L189: ### Exploring the User Interface 5 lectures • 25min
+L190: 
+L191:   * Owner Settings and Role Assignments 6:15
+L192: 
+L193: Access owner settings in Security CoPilot to manage billing, capacity, data flow, integrations, and governance via Azure resource links, and configure roles and least-privilege access for teams.
+L194: 
+L195:   * Concepts of Prompts, Promptbooks, Roles and Plugins 9:04
+L196: Explore prompts and prompt books to run repeatable security workflows in Security Copilot, and define roles and plugins to tailor data sources and context.
+L197: 
+L198:   * Controlling Plugin access 2:25
+L199: 
+L200: Configure who can add and manage custom plug-ins in Microsoft Security Copilot, choosing owners or contributors. Restrict plug-in availability and limit access to data from Microsoft 365 services.
+L201: 
+L202:   * Writing effective prompts in Microsoft Security Copilot 6:33
+L203: Craft clear prompts in Microsoft Security Copilot to improve result quality. Define goal, context, scope, format, and source, apply best practices, and iteratively tailor outputs for executives or SOC analysts.
+L204: 
+L205:   * Monitoring Security Computer Unit (SCU) usage 0:41
+L206: 
+L207: Learn to monitor billing usage in Microsoft Security Copilot with the usage monitoring page, tracking seu capacity and recent activity by hour, day, and month.
+L208: 
+L209:   * SIMULATION: In Microsoft Security Copilot, give John Smith the Owner role...
+L210: ### Incident Response with Security Copilot 5 lectures • 26min
+L211: 
+L212:   * Setting up sample alerts for querying 2:52
+L213: 
+L214: Learn to set up sample alerts in Defender for Cloud to generate test data for Security Copilot simulations, focusing on storage accounts and virtual machines.
+L215: 
+L216:   * Using a Prompt to investigate an incident involving a VM 6:11
+L217: Investigate a multi-stage incident across Windows and Linux using Defender Incident Summary prompts in Microsoft Defender XDR; identify incident ID, analyze five alerts, and understand defense evasion and mining activity.
+L218: 
+L219:   * Using a Prompt to investigate an incident involving Azure Storage 5:57
+L220: 
+L221: Learn to use Microsoft Security Copilot to investigate a high severity multistage incident in Azure Storage, covering initial access, data exfiltration, and malware activity in a sample storage account.
+L222:   * Incident investigation of a VM using a Promptbook 7:05
+L223: 
+L224: Use Microsoft Security Copilot with prompt books to investigate a high-severity multi-stage VM incident, examining endpoints, devices, users, and ransomware indicators like sample.exe.
+L225: 
+L226:   * Incident investigation of Azure Storage using a Promptbook 4:19
+L227: 
+L228: Use a prompt book to investigate a storage incident in Microsoft 365 Defender, tracing a high-severity multi-stage attack from initial access to data exfiltration and malware uploads.
+L229:   * SIMULATION: Open Defender for Cloud and add sample alerts for Azure Storage...
+L230: 
+L231:   * SIMULATION: Lookup the incident ID for the "Multi-Stage Execution...
+L232: ### Analysis and Intelligence Gathering with Security Copilot 6 lectures • 27min
+L233: 
+L234:   * Getting a script for Microsoft Security Copilot (MSC) to analyze 3:07
+L235: 
+L236: Analyze suspicious scripts using Security Copilot's prompt books to reveal privilege escalation and remote code execution. Test scripts from exploit-db.com by pasting them into Security Copilot for analysis.
+L237: 
+L238:   * Using MSC to analyze a malicious script 6:25
+L239: Analyze a malicious script with Microsoft Security Copilot, identifying DNS injection, NTLM relay, and RPC coercion, and generate indicators and incident response recommendations for Windows domain environments.
+L240: 
+L241:   * Creating data in Microsoft Entra ID to analyze 5:40
+L242: 
+L243: Discover how Microsoft Security Copilot analyzes events in Microsoft Entra ID by querying users, groups, identity risks, sign-in logs, and audit logs, while creating a user and a group.
+L244:   * Analyzing data from Entra ID using Microsoft Security Copilot (MSC)4:01
+L245: 
+L246: Analyze a user in Microsoft Entra ID with Microsoft Security Copilot to list groups, directory roles, and permissions from the SharePoint administrator role, including conditional access and identity protection insights.
+L247: 
+L248:   * Perform a Microsoft User Analysis on an Entra user 4:13
+L249: Learn to perform a Microsoft user analysis on an Entra user with a prompt book, using the UPN to pull last logins, failed logon attempts, audit logs, Purview activities.
+L250: 
+L251:   * Uploading and analyzing files in Microsoft Security Copilot (MSC)3:04
+L252: 
+L253: Upload files to Microsoft Security Copilot, then summarize and analyze them to reference policies and the five pillars policy during tasks; compare user activity against the plan.
+L254:   * SIMULATION: Create a user named Jimmy Willis. Add him to the user programmers...
+L255: ### Using Data Loss Prevention and Security Copilot to prevent data leakage 7 lectures • 43min
+L256: 
+L257:   * What is data loss prevention (DLP) in Microsoft 365 Defender 12:06
+L258: 
+L259: Identify sensitive data and monitor across Exchange Online, SharePoint Online, OneDrive, Teams, and endpoints with data loss prevention in Microsoft 365 Defender to block leaks and alert on violators.
+L260: 
+L261:   * Working with roles and permissions in regard to data loss prevention (DLP)3:19
+L262: Explore essential roles and permissions for data loss prevention in Microsoft Purview, focusing on the compliance administrator, compliance data administrator, and information protection admin, with guidance on role assignment.
+L263: 
+L264:   * Using Microsoft Security Copilot to create step by step instructions for DLP 2:13
+L265: Explore how Microsoft Security Copilot accesses documentation to generate step-by-step instructions for creating a Purview data loss prevention policy, signing in to Purview, selecting data sources, and applying privacy categories.
+L266: 
+L267:   * Implementing data loss prevention policies 13:05
+L268: 
+L269: Create a custom data loss prevention policy in Microsoft Purview, applying US financial templates across Exchange, SharePoint, OneDrive, Teams, and devices, with policy tips and alerts.
+L270:   * How Adaptive Protection works in data loss prevention 5:13
+L271: 
+L272: Adaptive protection uses machine learning based data loss prevention to adjust enforcement by risk levels. Insider risk management continuously monitors activity, assigns low, medium, or high risk, and triggers actions.
+L273: 
+L274:   * Policy and rule precedence in Data Loss Prevention 4:45
+L275: Explains how data loss prevention policies use lower numbers for higher priority, how to reorder policies, and that when rules conflict, the most restrictive rule prevails.
+L276: 
+L277:   * Leveraging the Microsoft Purview plugin to look up DLP alerts 2:04
+L278: 
+L279: Leverage the Microsoft Purview plugin within securitycopilot.microsoft.com to look up data loss prevention alerts by alert IDs, summarize Purview alerts, and gain actionable insights.
+L280: 
+L281:   * SIMULATION: Prompt MSC for steps for creating a DLP US Financial policy...
+L282: ### Non-Microsoft and Custom Plugins 4 lectures • 16min
+L283: 
+L284:   * Intro to Non-Microsoft Plugins 1:43
+L285: 
+L286: Explore non-microsoft plugins for security copilot, learn how to view sources, enable plugins, and set up accounts with API keys, including custom plugins not on the list.
+L287: 
+L288:   * Shodan InternetDB Plugin 4:44
+L289: 
+L290: Explore the Shodan InternetDB plugin in Security Copilot to query IPs and banners, reveal open ports, OS, and encryption, enabling cybersecurity professionals to assess exposed surfaces and risks.
+L291:   * CIRCL Hash Lookup 4:07
+L292: 
+L293: Use the Circle Hash Lookup plugin in Security Copilot to verify file integrity by querying a hash database for MD5 and SHA-256 values, ensuring a file matches its expected hash.
+L294: 
+L295:   * Adding a custom plugin 5:23
+L296: 
+L297: Learn to add a custom plugin to Security Copilot, including non-Microsoft plugins via the custom sources. Upload the YAML file and use KQL to query risky users and sign-in activities.
+L298: 
+L299:   * SIMULATION: Open Microsoft Security Copilot and use the Shodan InternetDB plugin
+L300: 2 more sections
+L301: ## Requirements
+L302: 
+L303:   * Willingness to put in the time and practice the steps shown in the course
+L304: ## Description
+L305: 
+L306: We really hope you'll agree, this training is way more than the average course on Udemy!
+L307: 
+L308: Have access to the following:
+L309: 
+L310:   * Training from an instructor of over 20 years who has trained thousands of people and also a Microsoft Certified Trainer
+L311: 
+L312:   * Lecture that explains the concepts in an easy to learn method for someone that is just starting out with this material
+L313: 
+L314:   * Instructor led hands on and simulations to practice that can be followed even if you have little to no experience
+L315: TOPICS COVERED INCLUDING HANDS ON LECTURE AND PRACTICE TUTORIALS:
+L316: 
+L317: Introduction
+L318: 
+L319:   * Welcome to the course!
+L320: 
+L321:   * Understanding the Microsoft 365 and Azure Environment
+L322: 
+L323:   * A Solid Foundation of Active Directory Domains
+L324: 
+L325:   * A Solid Foundation of RAS, DMZ, and Virtualization
+L326: 
+L327:   * A Solid Foundation of the Microsoft Cloud Services
+L328: 
+L329:   * DON'T SKIP: Using Assignments in the course
+L330: 
+L331:   * Questions for John Christopher
+L332: 
+L333:   * Certificate of Completion
+L334: 
+L335: Setting up for hands on
+L336:   * DONT SKIP: Before beginning your account setup
+L337: 
+L338:   * Creating a trial Microsoft 365/Azure Account
+L339: 
+L340: Understanding Microsoft Security Copilot and basic security concepts
+L341: 
+L342:   * What Microsoft Security Copilot (MSC) is and how it works
+L343: 
+L344:   * Core components and architecture
+L345: 
+L346:   * How Copilot uses security signals and context
+L347: 
+L348:   * Common use cases: incident response, threat hunting, posture management
+L349: 
+L350:   * What is Defense in Depth?
+L351: 
+L352:   * Understanding the Zero-Trust model
+L353: Concepts involving Microsoft Defender, Microsoft Purview, and Microsoft Sentinel
+L354: 
+L355:   * Understanding Microsoft Security Copilots connections with various services
+L356: 
+L357:   * Introduction to the Microsoft 365 Defender services
+L358: 
+L359:   * Understanding the concepts of extended detection and response (XDR)
+L360: 
+L361:   * Understanding the basics of Microsoft Defender for Cloud
+L362: 
+L363:   * Common Vulnerabilities and Exposures (CVEs)
+L364: 
+L365:   * Basic purposes of using Microsoft Sentinel
+L366:   * Setup a log analytics workspace for using Microsoft Sentinel
+L367: 
+L368:   * Working with Sentinel log types, log retention and data storage
+L369: 
+L370:   * Understanding data sources with Microsoft Sentinel
+L371: 
+L372:   * Using the MITRE ATT&CK matrix for analyzing attack vectors
+L373: 
+L374:   * Connecting to data sources with Microsoft Sentinel
+L375: 
+L376: Prerequisites and Basics for using Microsoft Security Copilot
+L377: 
+L378:   * What are Security compute units (SCUs)
+L379: 
+L380:   * Looking at the latest pricing for Security compute units (SCUs)
+L381:   * Warning before allocating Security compute units (SCUs)
+L382: 
+L383:   * Allocating Security compute units (SCUs) in Azure
+L384: 
+L385: Exploring the User Interface
+L386: 
+L387:   * Owner Settings and Role Assignments
+L388: 
+L389:   * Concepts of Prompts, Promptbooks, Roles and Plugins
+L390: 
+L391:   * Controlling Plugin access
+L392: 
+L393:   * Writing effective prompts in Microsoft Security Copilot
+L394: 
+L395:   * Monitoring Security Computer Unit (SCU) usage
+L396: 
+L397: Incident Response with Security Copilot
+L398: 
+L399:   * Setting up sample alerts for querying
+L400:   * Using a Prompt to investigate an incident involving a VM
+L401: 
+L402:   * Using a Prompt to investigate an incident involving Azure Storage
+L403: 
+L404:   * Incident investigation of a VM using a Promptbook
+L405: 
+L406:   * Incident investigation of Azure Storage using a Promptbook
+L407: 
+L408: Analysis and Intelligence Gathering with Security Copilot
+L409: 
+L410:   * Getting a script for Microsoft Security Copilot (MSC) to analyze
+L411: 
+L412:   * Using MSC to analyze a malicious script
+L413: 
+L414:   * Creating data in Microsoft Entra ID to analyze
+L415:   * Analyzing data from Entra ID using Microsoft Security Copilot (MSC)
+L416: 
+L417:   * Perform a Microsoft User Analysis on an Entra user
+L418: 
+L419:   * Uploading and analyzing files in Microsoft Security Copilot (MSC)
+L420: 
+L421: Using Data Loss Prevention and Security Copilot to prevent data leakage
+L422: 
+L423:   * What is data loss prevention (DLP) in Microsoft 365 Defender
+L424: 
+L425:   * Working with roles and permissions in regard to data loss prevention (DLP)
+L426: 
+L427:   * Using Microsoft Security Copilot to create step by step instructions for DLP
+L428:   * Implementing data loss prevention policies
+L429: 
+L430:   * How Adaptive Protection works in data loss prevention
+L431: 
+L432:   * Policy and rule precedence in Data Loss Prevention
+L433: 
+L434:   * Leveraging the Microsoft Purview plugin to look up DLP alerts
+L435: 
+L436: Non-Microsoft and Custom Plugins
+L437: 
+L438:   * Intro to Non-Microsoft Plugins
+L439: 
+L440:   * Shodan InternetDB Plugin
+L441: 
+L442:   * CIRCL Hash Lookup
+L443: 
+L444:   * Adding a custom plugin
+L445: ## Who this course is for:
+L446: 
+L447:   * IT people interested in learning a tremendous amount about Microsoft Security Copilot
+L448: 
+L449: Show more Show less
+L450: 
+L451: cite10†Report abuse 

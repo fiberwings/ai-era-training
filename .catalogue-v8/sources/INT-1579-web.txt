@@ -1,0 +1,129 @@
+Gen AI Literacy for Employees and Managers (https://www.udemy.com/course/genai-literacy/)
+citeturn108view0 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/genai-literacy/","lineno":null}); Total lines: 139
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Gen AI Literacy for Employees and Managers
+L30: 
+L31: Role Play
+L32: 
+L33: Rating: 4.4 out of 5 4.4cite8†(17 ratings) L34: 394 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # Gen AI Literacy for Employees and Managers
+L38: 
+L39: The basics of what Generative AI is, what it can do, how it changes work, and how to work with it effectively.
+L40: 
+L41: Role Play
+L42: 
+L43: Created bycite9†Vasco Patrício L44: 
+L45: Last updated 4/2026
+L46: 
+L47: English
+L48: 
+L49: English
+L50: 
+L51: cite0†Image†img-c.udemycdn.com Preview this course
+L52: ## What you'll learn
+L53: 
+L54:   * You'll learn what Gen AI is, and how it changes work and workflows
+L55: 
+L56:   * You'll learn about the types of tasks that Gen AI does well, and the types it doesn't do well
+L57: 
+L58:   * You'll learn about the common pain points when adopting Gen AI (output issues, workflow issues, disorganization, and many more)
+L59: 
+L60:   * You'll learn about the key technological components of Gen AI (parameters, context, training, fine-tuning, hallucinations, and more)
+L61: ## Course content
+L62: 
+L63: 1 section • 8 lectures • 1h 51m total length
+L64: ### Gen AI Literacy 9 lectures • 1hr 52min
+L65: 
+L66:   * Module Intro Preview 3:38
+L67: 
+L68: clarify what gen ai is and isn’t, how it works, and where it adds value across industries. explore foundation models, uvas, three usefulness tiers, work modes, and key technical concepts.
+L69: 
+L70:   * Where We Are Preview 16:50
+L71: 
+L72: Contextualize the current state of GenAI by understanding foundation models, their uneven impact on work, and the cognitive, emotional, and organizational shifts they introduce.
+L73:   * What Gen AI Can Actually Do 17:26
+L74: 
+L75: Classify GenAI use cases by usefulness and risk, distinguishing tasks where it reliably augments work from those where it produces shallow reasoning, instability, or dangerous errors.
+L76: 
+L77:   * How Gen AI Changes Work 16:58
+L78: 
+L79: Evaluate how GenAI changes professional work by shifting effort from execution to automation, requiring structured reasoning, orchestration, and new validation responsibilities.
+L80: 
+L81:   * Technical Aspects of Gen AI 30:02
+L82: Understand the technical foundations of GenAI systems—including models, context, embeddings, and hallucinations—to better interpret outputs, limitations, and failure modes.
+L83: 
+L84:   * Common Pain Points 23:00
+L85: 
+L86: Identify common organizational and human pain points in GenAI adoption, including unrealistic expectations, workflow misalignment, trust erosion, and cognitive degradation.
+L87: 
+L88:   * The AHEADS Model 1:35
+L89: 
+L90:   * Module Outro 2:14
+L91: 
+L92:   * Role Play: Teaching Gen AI Literacy
+L93: ## Requirements
+L94: 
+L95:   * None. Any person, regardless of background, will be able to understand this course
+L96: ## Description
+L97: 
+L98: KNOWING EVERYTHING ABOUT GEN AI
+L99: 
+L100: Generative AI is here, it's disruptive, and it's transforming most - if not all - positions in organizations.
+L101: 
+L102: We need to understand it, but also understand how it changes work, and what we must do to adapt.
+L103: 
+L104: In this course, we'll go over all the foundational information related to Gen AI.
+L105: What it is. What it can do in work. What it can't do. Types of tasks it does well. Types of tasks it's not good at. Problems when adopting it (related to people, tech, processes, others). Basic technical aspects. And a lot more.
+L106: 
+L107: This is the definitive course on understanding Gen AI, and working with Gen AI, for any employee of any organization.
+L108: 
+L109: LET ME TELL YOU... EVERYTHING.
+L110: 
+L111: Some people - including me - love to know what they're getting in a package.
+L112: And by this, I mean, EVERYTHING that is in the package.
+L113: 
+L114: So, here is a list of everything that this course covers:
+L115: 
+L116:   * You'll learn about where we are right now, in the world, with Gen AI. What it can do, the effects it has on people, how it's being adopted, and how it's revolutionizing various industries;
+L117:   * You'll learn about what Gen AI can do. The three tiers of tasks (Tier 1: Very useful; Tier 2: somewhat useful; Tier 3: dangerous!), what are the characteristics of tasks that Gen AI is good/bad at, and also what is hype versus what is true capability;
+L118:   * You'll learn about how Gen AI changes work, including big shifts such as most employees going from focusing on the work itself to focusing on the design of workflows (to break down tasks so some can be automated), and going from "executor" to automator (instead of actually "doing" work, focusing on the automation of tasks in the same style/format as you previously did work);
+L119:   * You'll learn about various technical aspects of Gen AI models. What do characteristics such as the number of parameters or the size of the context window mean, what are models for text/image/audio/video, as well as models such as multimodals or MoEs (mixtures of experts), as well as what are processes such as tokenization and vectorization for creating embeddings, why hallucinations occur, as well as an overview of what is training, fine-tuning, the creation of LoRAs, and the usage of RAG;
+L120:   * You'll learn about the most common pain points when adopting Gen AI in an organization, including elements such as unrealistic expectations, premature optimizations, having insufficient/unfit tools, having problems with output quality/trustability, misalignment between Gen AI and workflows, disorganization issues, various anxieties and stigmas by employees, or stochastic degration (small widespread mistakes due to hallucinations, bad Gen AI adoption, or others);
+L121: 
+L122: MY INVITATION TO YOU
+L123: Remember that you always have a 30-day money-back guarantee, so there is no risk for you.
+L124: 
+L125: Also, I suggest you make use of the free preview videos to make sure the course really is a fit. I don't want you to waste your money.
+L126: 
+L127: If you think this course is a fit, and can take your knowledge of dealing with change to the next level... it would be a pleasure to have you as a student.
+L128: 
+L129: See on the other side!
+L130: ## Who this course is for:
+L131: 
+L132:   * Workers that have to work with Gen AI (due to their own initiatve or not!)
+L133:   * Managers that will start to manage and coordinate Gen AI work
+L134:   * Anyone who wants to know how Gen AI will impact their work and workflows
+L135: 
+L136: Show more Show less
+L137: 
+L138: cite10†Report abuse 

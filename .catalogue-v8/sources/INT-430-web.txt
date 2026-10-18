@@ -1,0 +1,211 @@
+AI Literacy Basics: Apply, Understand and Use AI Responsibly (https://www.udemy.com/course/ai-literacy-a-feasable-approach-to-understand-ai/)
+citeturn60view0 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-literacy-a-feasable-approach-to-understand-ai/","lineno":null}); Total lines: 221
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Literacy Basics: Apply, Understand and Use AI Responsibly
+L30: 
+L31: Role Play
+L32: Rating: 4.5 out of 5 4.5cite8†(916 ratings) L33: 
+L34: 2,696 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # AI Literacy Basics: Apply, Understand and Use AI Responsibly
+L38: 
+L39: Critical thinking, ethical use, privacy protection, and responsible decision-making with AI
+L40: 
+L41: Role Play
+L42: 
+L43: Created bycite9†Data Universe L44: 
+L45: Last updated 8/2026
+L46: 
+L47: English
+L48: 
+L49: English [Auto],French [Auto], 1 more
+L50: 
+L51: cite0†Image†img-c.udemycdn.com Preview this course
+L52: ## What you'll learn
+L53: 
+L54:   * Understand how artificial intelligence works, its capabilities, limitations, and how it differs from human intelligence
+L55: 
+L56:   * Identify and assess ethical risks, biases, and social impacts of AI systems in real-world applications
+L57: 
+L58:   * Apply practical strategies to use AI tools responsibly while maintaining critical thinking and human oversight
+L59: 
+L60:   * Develop organizational policies and governance frameworks that ensure ethical and compliant AI adoption
+L61:   * Recognize misinformation, privacy risks, and surveillance concerns in AI-driven systems and protect yourself accordingly
+L62: 
+L63:   * Evaluate when to use AI and when human judgment is irreplaceable across different professional contexts
+L64: ## Course content
+L65: 
+L66: 10 sections • 29 lectures • 1h 52m total length
+L67: 
+L68: Expand all sections
+L69: ### Understanding What AI Is and Why It Matters 4 lectures • 19min
+L70: 
+L71:   * What it means to be AI-literate: capabilities, limits, and common myths Preview 5:01
+L72: 
+L73: Develop AI literacy by understanding how AI works, its capabilities and limits, and the myths, ethics, and data-driven considerations guiding responsible use.
+L74: 
+L75:   * What AI really is: simple definitions and how models are trained without technic Preview 4:28
+L76: Artificial intelligence enables machines to perform tasks by learning from data and recognizing patterns. It does not think, but predicts from learned patterns, sometimes hallucinating and needing human verification.
+L77: 
+L78:   * How AI is transforming work, society, and decision-making 4:36
+L79: 
+L80: Discover how artificial intelligence transforms work, society, and decision making—from everyday apps to professional roles—while balancing automation with human oversight and ethics.
+L81:   * Generative AI: what it offers, what risks it introduces, and how it differs from 4:31
+L82: 
+L83: Explore how generative ai creates new content—text, images, and code—by predicting outputs from large data, and examine opportunities, misinformation risks, privacy concerns, and human oversight.
+L84: ### Real-World Applications of AI in Work and Everyday Life 4 lectures • 17min
+L85: 
+L86:   * Current use cases: healthcare, education, public sector, industry, and culture 4:20
+L87: 
+L88: Explore how artificial intelligence transforms healthcare, education, public sector, industry, and culture with AI-enabled diagnostics, adaptive learning, predictive services, smart factories, and personalized recommendations.
+L89: 
+L90:   * AI tools you are already using: assistants, text and image generation, and auto 4:43
+L91: Discover how you already use artificial intelligence daily from virtual assistants and voice recognition to personalized recommendations, writing tools, and digital security features.
+L92: 
+L93:   * How AI integrates into workflows without you noticing 3:36
+L94: 
+L95: Discover how artificial intelligence quietly blends into daily workflows as a built-in feature across emails, calendars, searches, and tools. Learn to supervise automation critically to harness benefits while maintaining control.
+L96:   * The digital and organizational skills required for AI adoption 4:43
+L97: 
+L98: Develop AI literacy by cultivating personal and organizational skills and data literacy for ethical, critical, and productive collaboration with artificial intelligence.
+L99: ### Collaborating with AI Systems While Maintaining Human Control 4 lectures • 18min
+L100: 
+L101:   * Which tasks can be automated and which should remain human 4:35
+L102: 
+L103: Explore which tasks AI can automate and which require human judgment, empathy, and ethics, balancing efficiency with quality and responsible use.
+L104: 
+L105:   * Human-AI collaboration models: what assisted decision-making is and is not 4:46
+L106: Explore how human-AI collaboration, as a complementary relationship and assisted decision-making, blends creativity and ethics with AI speed and precision to improve decision quality while preserving human judgment.
+L107: 
+L108:   * How to avoid blind dependence: meaningful control, supervision, and critical rev 3:59
+L109: Learn to guard against blind dependence on AI by maintaining meaningful control, reviewing outputs, and combining technology with human judgment through data source verification, cross-checking results, and ethical consideration.
+L110: 
+L111:   * Best practices for teams working with AI tools 4:29
+L112: 
+L113: establish a clear purpose and define roles when using ai tools, promote transparency, assign human owners, and encourage collaborative review; commit to continuous learning, ethics, and periodic assessment.
+L114: ### Real Risks of AI Use and How to Assess Them 4 lectures • 16min
+L115: 
+L116:   * How to detect bias, errors, and hallucinations in AI systems 4:36
+L117: 
+L118: Learn to detect bias, errors, and hallucinations in AI systems, understand their causes, and apply critical, responsible oversight to ensure ethical, reliable AI decisions.
+L119: 
+L120:   * Privacy, surveillance, misinformation: ethical risks of everyday AI use 4:26
+L121: Explore the ethical risks of everyday ai use, including privacy, surveillance, and misinformation, and learn to use technology responsibly with digital literacy.
+L122: 
+L123:   * When not to use AI: examples of inappropriate or unsafe applications 3:43
+L124: 
+L125: Recognize when to avoid AI by weighing outcome reliability, data quality, privacy, transparency, and social impact, and rely on human judgment in critical domains such as healthcare, justice, and education.
+L126:   * Introduction to ethical and social impact assessment of AI systems 3:38
+L127: 
+L128: Assess the ethical and social impact of AI systems through simple, practical steps, including algorithmic impact assessment, to ensure fairness, privacy, autonomy, transparency, and alignment with human values.
+L129: ### AI Literacy Practice Test A: Foundations, Everyday Use & Human Control 0
+L130: 
+L131:   * AI Literacy Practice Test A: Foundations, Everyday Use & Human Control
+L132: ### Principles of Ethics and Responsibility in Artificial Intelligence 4 lectures • 14min
+L133: 
+L134:   * Pillars of responsible AI I: transparency, explainability, and fairness 3:38
+L135: 
+L136: this lesson outlines three pillars of responsible AI: transparency, explainability, and fairness, to build trust by making data, objectives, and decision reasons understandable, interpretable, and fair.
+L137: 
+L138:   * Pillars of responsible AI II: ethical design, consent, traceability, and human 3:29
+L139: Explore four principles of responsible AI: ethical design, consent, traceability, and human control, and learn how conscious design builds trustworthy, auditable AI under human supervision.
+L140: 
+L141:   * How to apply data ethics in systems that collect or generate information 3:32
+L142: 
+L143: Explore data ethics principles for systems that collect or generate information, focusing on minimization, legitimate purpose, data quality, security, transparency, and the right to know and correct.
+L144:   * Real cases where lack of ethics led to legal or reputational consequences 3:23
+L145: 
+L146: Examine ethics failures in AI through cases of biased recruitment, misidentifications by facial recognition, and biased justice, highlighting oversight and regulatory frameworks to ensure fair deployment.
+L147: ### Regulation, Governance, and Organizational Culture 4 lectures • 13min
+L148: 
+L149:   * What the European AI Act requires: principles, risk levels, and obligations by u Preview 3:12
+L150: 
+L151: Explore the European AI Act, its risk-based classification from prohibited to high risk, limited risk, and minimal risk, and the obligations like data quality, transparency, human oversight, and impact assessments.
+L152: 
+L153:   * How to create an internal policy for responsible AI use 3:36
+L154: Define the scope and objectives of a responsible AI policy aligned with organization's values. Specify guiding principles: transparency, fairness, safety, traceability, and human oversight; assign roles, monitoring, training, and improvement.
+L155: 
+L156:   * Roles and responsibilities to ensure ethical and legal compliance 3:33
+L157: Executive sponsorship and a multidisciplinary AI governance committee coordinate ethics, compliance, and risk. The AI officer and DPO ensure transparency, human oversight, and responsible AI across projects.
+L158: 
+L159:   * How to foster a critical digital culture: continuous learning, transparency, and 3:06
+L160: 
+L161: Develop a critical digital culture by continuous ai literacy education, transparency, and accountability, guiding ethical decision making and responsible use of automation across the organization.
+L162: ### Practical Cases, Simulations, and Applicable Tools 4 lectures • 14min
+L163: 
+L164:   * Case studies of successful and failed AI implementations 3:40
+L165: 
+L166: Explore real case studies of AI implementations, from ethics committees reviewing training data to transparency and human oversight in recruitment, showing how responsible design yields trust and safer outcomes.
+L167: 
+L168:   * Guided simulation: decision-making in an ethical dilemma with generative AI 2:52
+L169: Engage in a practical ethical decision-making simulation for a generative AI, weighing options from ignoring bias to full review and intermediate safeguards, emphasizing transparency and trust.
+L170: 
+L171:   * How to design an internal AI use policy template adapted to your organization 3:28
+L172: 
+L173: Design an internal AI use policy template adapted to your organization, turning ethical and regulatory principles into a living, practical guide for all teams that use or develop AI.
+L174:   * Downloadable checklist to assess ethical, organizational, and regulatory maturit 3:52
+L175: 
+L176: Use a practical self-assessment checklist to evaluate ethical, organizational, and regulatory maturity of AI in your organization, identify strengths and risks, and plan improvements.
+L177: ### Final Course Assessment 1 lecture0
+L178: 
+L179:   * AI Literacy Practice Test B: Ethics, Regulation & Responsible Practice
+L180: 
+L181:   * Champion Compliance: AI Act Safeguards vs. a looming launch deadline
+L182: 
+L183: ### AI Literacy Toolkit 1 lecture • 1min
+L184: 
+L185:   * AI Literacy Toolkit 0:37
+L186: ## Requirements
+L187: 
+L188:   * No technical background or programming knowledge required - this course is designed for everyone
+L189: 
+L190:   * Curiosity about how artificial intelligence affects your daily life, work, and society
+L191: 
+L192:   * Willingness to think critically about technology and question automated decisions
+L193: 
+L194:   * Basic digital literacy: ability to use common applications and browse the internet
+L195: 
+L196:   * Open mindset toward learning how to coexist responsibly with AI systems
+L197: ## Description
+L198: 
+L199: Artificial Intelligence is no longer a futuristic concept, it's embedded in the tools you use every day, shaping decisions that affect your work, privacy, and daily life. But do you truly understand how it works, when to trust it, and when to question it?
+L200: This course provides a comprehensive foundation in AI literacy, empowering you to navigate artificial intelligence with confidence, critical thinking, and ethical awareness. You'll discover what AI really is, how models learn from data, and why their outputs can sometimes be biased, inaccurate, or harmful.
+L201: We'll explore real-world applications across healthcare, education, public administration, industry, and culture, examining both the transformative benefits and the serious risks AI introduces when ethics are ignored. You'll learn to identify misinformation, protect your privacy, recognize surveillance risks, and understand when automation crosses ethical boundaries.
+L202: A significant focus will be on practical skills: how to collaborate effectively with AI systems while maintaining meaningful human control, how to detect bias and errors, and how to assess the social and ethical impact of AI tools in your environment.
+L203: 
+L204: You'll also gain insight into regulatory frameworks like the European AI Act, understand compliance requirements, and learn how to build internal policies for responsible AI adoption within your organization.
+L205: This course features real cases, guided simulations, ethical dilemmas, and downloadable tools including checklists and policy templates you can immediately apply in your professional context.
+L206: Designed for non-technical professionals, this program requires no programming knowledge, just curiosity and a commitment to using technology thoughtfully. Whether you're a manager, educator, HR professional, student, or simply someone who wants to understand the AI shaping our world, this course will equip you with the knowledge to use artificial intelligence wisely, ethically, and safely.
+L207: 
+L208: Get ready to think critically, act responsibly, and become truly AI-literate.
+L209: ## Who this course is for:
+L210:   * Professionals in any field who want to understand AI's impact on their work and make informed decisions
+L211:   * Business leaders and managers responsible for adopting or overseeing AI systems in their organizations
+L212:   * Educators, communicators, and public sector workers navigating AI in their daily responsibilities
+L213:   * HR professionals and team leaders preparing their workforce for AI-driven transformation
+L214:   * Students and early-career professionals building foundational digital literacy for the future workplace
+L215:   * Non-technical employees who use AI tools daily and want to understand how they work and their limitations
+L216:   * Anyone concerned about privacy, ethics, and the social impact of artificial intelligence in society
+L217:   * Compliance officers and legal professionals ensuring responsible and regulated AI use within organizations
+L218: Show more Show less
+L219: 
+L220: cite10†Report abuse 

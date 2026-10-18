@@ -1,0 +1,158 @@
+AI Governance and Management Systems (https://www.udemy.com/course/ai-governance/)
+citeturn47view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-governance/","lineno":null}); Total lines: 172
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: AI Governance and Management Systems
+L41: 
+L42: Rating: 4.4 out of 5 4.4cite12†(104 ratings) L43: 
+L44: 805 students
+L45: 
+L46: cite0†Image†img-c.udemycdn.com Preview this course
+L47: # AI Governance and Management Systems
+L48: 
+L49: Mastering AI Governance: Risk, Compliance, and Management Systems for Business Success
+L50: 
+L51: Created bycite13†Adrian Resag, QIAL, CMIIA, CIA, CRMA, CFSA, GRCP, IAAP, CIMA Adv Dip MA L52: 
+L53: Last updated 2/2025
+L54: 
+L55: English
+L56: 
+L57: German [Auto],English [Auto], 1 more
+L58: 
+L59: cite0†Image†img-c.udemycdn.com Preview this course
+L60: ## What you'll learn
+L61: 
+L62:   * AI in Governance, Risk, and Compliance (GRC) – Explore AI’s role in managing risks, ensuring compliance, and supporting corporate governance.
+L63: 
+L64:   * AI Risk Management – Identify and mitigate risks associated with AI systems, including ethical risks and cybersecurity threats.
+L65: 
+L66:   * AI Compliance & Regulations – Understand global AI regulations, including the EU AI Act and ISO 42001.
+L67:   * AI Data Analytics – Learn how AI is used for risk detection, compliance monitoring, and advanced data analysis.
+L68: 
+L69:   * AI Maturity Models & Ethical Considerations – Assess AI adoption stages and implement ethical AI principles.
+L70: 
+L71:   * Planning & Implementing AI Management Systems (AIMS) – Step-by-step guidance on integrating AI governance frameworks.
+L72: 
+L73:   * Auditing AI Systems – Apply auditing techniques to AI implementations, ensuring transparency and accountability.
+L74:   * ISO 42001 Compliance & Implementation – Learn the requirements of ISO 42001 and how to apply them in an organization.
+L75: 
+L76:   * AI Governance Best Practices – Establish AI policies, frameworks, and governance strategies for long-term success.
+L77: ## Course content
+L78: 
+L79: 3 sections • 15 lectures • 3h 28m total length
+L80: 
+L81: Expand all sections
+L82: ### Fundamental Concepts in Artificial Intelligence 5 lectures • 55min
+L83: 
+L84:   * AI Risks Preview 11:23
+L85: 
+L86: Examine AI risks, including deepfake scams against a CFO, chatbot manipulation, and AI-specific threats—data poisoning, model stealing, and model inversion—plus ISO 42,001 protection and an AI use maturity model.
+L87: 
+L88:   * The Basics of AI 10:22
+L89: Discover the basics of artificial intelligence, from machine learning and neural networks to probabilistic outputs, and explore governance concepts like ISO AI standards and AI risk management.
+L90: 
+L91:   * Types of AI Systems 15:36
+L92: 
+L93: Explore the varieties of AI systems, from AI agents that perceive inputs and act to symbolic and subsymbolic approaches, and learning paradigms from supervised to reinforcement learning.
+L94: 
+L95:   * Classification of AI According to the EU AI Act 10:21
+L96: Explore the EU AI act’s risk-based classification from minimal to unacceptable risk, and learn how high-risk systems demand transparency, risk assessments, data quality, human oversight, and robust documentation.
+L97: 
+L98:   * Ethical Principles of AI 7:46
+L99: 
+L100: Promote fairness and prevent discrimination by ensuring explainable, accountable artificial intelligence systems with human oversight, while establishing reliability, privacy, and security to pursue shared benefits for society.
+L101: ### Planning and Implementation of an AI Management System 5 lectures • 1hr 7min
+L102: 
+L103:   * ISO 42001 AI Management Systems 28:46
+L104: 
+L105: Learn how ISO 42,001 AI management systems govern AI with planning, operation, check, and act cycles, covering risk assessment, leadership, policy, and data governance.
+L106: 
+L107:   * Clauses of the ISO 42001 Standard 18:15
+L108: Explore the context and scope of an ai management system under iso 42001, define objectives, assess risks, assign roles, secure resources, and pursue continuous improvement.
+L109: 
+L110:   * Annexes of ISO 42001 AI Management Systems 2:43
+L111: 
+L112: Explore ISO 42,001 annexes for AI governance and management systems: annex A's applicability and controls with justification, annex B's implementation guidance, and annex C's AI risk sources for risk assessment.
+L113: 
+L114:   * Roles and Responsibilities in an AIMS 10:15
+L115: Explore the full spectrum of roles in AI governance and management systems, from AI manager and ethics officer to data science, risk, user experience, and policy analysts.
+L116: 
+L117:   * Standards and Laws over AI 7:05
+L118: 
+L119: Examine AI governance standards and laws, including ISO 42,001; NIST AI risk management framework; and EU AI act, with focus on certification, risk, transparency, and terminology.
+L120: ### Using AI for Governance, Risk and Compliance (GRC)5 lectures • 1hr 26min
+L121: 
+L122:   * The AI Use Maturity Model 17:28
+L123: 
+L124: Explore six-level AI use maturity model for governance of privileged information, from siloed to wide focus systems, including area, organization, and portfolio AI with data warehouse, NLP, and sentiment analysis.
+L125: 
+L126:   * Simple Use Cases of Using AI for GRC 17:09
+L127: Define simple AI uses for governance, risk management and compliance (GRC), including anomaly detection, fraud detection, data privacy, AML, KYC, third-party risk, and regulatory reporting.
+L128: 
+L129:   * Types of AI Data Analysis 15:42
+L130: 
+L131: Explore the four AI data analytics types—descriptive, diagnostic, predictive, and prescriptive—and how AI derives insights from data, reveals causes, forecasts trends, and guides decision making.
+L132: 
+L133:   * AI Data Analytics for Risk, Compliance and Detection 17:28
+L134: Explore ai data analytics for risk, compliance and detection, including data cleansing, fraud and anomaly detection, and real-time risk analytics using SAP GTS and OpenRefine.
+L135: 
+L136:   * AI Data Analytics for Performance, Insight, and Optimization 18:13
+L137: 
+L138: Explore AI data analytics for performance, insight, and optimization across operational performance, sentiment analysis, network analysis, clustering and segmentation, and behavioral analytics, with Tableau and Gurobi.
+L139: ## Requirements
+L140: 
+L141:   * No prerequisites are required.
+L142: ## Description
+L143: 
+L144: This course is designed to equip professionals with the skills and knowledge to manage AI systems within their organizations, mitigate risks, and ensure compliance with frameworks. Led by Adrian Resag, an experienced AI governance and risk management expert, this course explores AI's role in corporate governance, data analytics, risk assessment, and compliance strategies.
+L145: Participants will gain hands-on insights into AI-powered risk management, ethical considerations, and AI maturity models. The course covers everything from basic AI concepts to the implementation of an Artificial Intelligence Management System (AIMS), providing practical guidance on integrating AI into business operations.
+L146: 
+L147: What You Will Learn
+L148: 
+L149:   * Introduction to Artificial Intelligence – Understanding AI fundamentals and classifications.
+L150:   * AI in Governance, Risk, and Compliance (GRC) – Exploring AI’s role in information security, data management, and regulatory compliance.
+L151: 
+L152:   * AI Data Analytics – Using AI for risk detection, compliance monitoring, and advanced data analysis.
+L153: 
+L154:   * Planning & Implementing AI Management Systems – Step-by-step guidance on integrating AI governance frameworks, including ISO 42001.
+L155: 
+L156:   * AI Risk Management & Ethical Principles – Understanding AI risks, ethical AI frameworks, and maturity models.
+L157:   * AI Auditing & Compliance – Applying ISO 42001, understanding regulatory requirements, and auditing AI systems.
+L158: 
+L159: This course includes practical exercises, real-world case studies, and step-by-step implementation strategies to ensure you can effectively apply AI governance principles in your organization. Whether you are a risk manager, auditor, compliance officer, or business leader, this course will help you leverage AI while ensuring responsible and compliant deployment.
+L160: ## Who this course is for:
+L161: 
+L162:   * Governance, Risk, and Compliance (GRC) professionals
+L163:   * AI and IT managers
+L164:   * AI project managers and system implementers
+L165:   * Business leaders and decision-makers implementing AI
+L166:   * Internal and external auditors
+L167:   * Anyone interested in AI governance, risk, and compliance
+L168: 
+L169: Show more Show less
+L170: 
+L171: cite14†Report abuse 

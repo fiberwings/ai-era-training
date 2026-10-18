@@ -1,0 +1,341 @@
+AI Safety for Enterprises: Compliance and Risk Management (https://www.udemy.com/course/ai-safety/)
+citeturn73view0 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-safety/","lineno":null}); Total lines: 351
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Safety for Enterprises: Compliance and Risk Management
+L30: 
+L31: Role Play
+L32: Rating: 4.6 out of 5 4.6cite8†(1,366 ratings) L33: 
+L34: 4,697 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # AI Safety for Enterprises: Compliance and Risk Management
+L38: 
+L39: Master responsible AI usage with global frameworks (EU AI Act, GDPR), decision protocols, and risk mitigation strategies
+L40: 
+L41: Created bycite9†Federico Garay , cite10†Milena Garay L42: 
+L43: Last updated 6/2026
+L44: 
+L45: English
+L46: 
+L47: English [Auto],Korean [Auto],
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Protect the company from critical risks associated with the use of AI
+L53: 
+L54:   * Comply with the EU AI Act, GDPR, and global regulations applicable to your organization
+L55: 
+L56:   * Classify each AI use case by legal risk level and determine specific documentation and oversight obligations
+L57: 
+L58:   * Prevent sensitive data leaks by applying protocols to identify what information must never be shared with public AI tools
+L59:   * Implement a certified Decision Framework that enables employees to make safe and legally compliant decisions before using any AI system
+L60: 
+L61:   * Detect and mitigate discriminatory bias in HR AI systems and assessments, protecting the company from employment-related lawsuits
+L62: 
+L63:   * Verify AI outputs using three-level validation protocols that prevent decisions based on false information or hallucinations
+L64:   * Establish legally defensible AI policies with a clear implementation plan, defined roles, and documented compliance evidence
+L65: ## Course content
+L66: 
+L67: 4 sections • 19 lectures • 1h 56m total length
+L68: 
+L69: Expand all sections
+L70: ### The AI Risk Overview 4 lectures • 17min
+L71: 
+L72:   * Introduction: The New Reality of AI at Work Preview 4:45
+L73: 
+L74: Identify when using AI is safe versus risky, learn the basic legal framework, and apply a practical decision protocol to work confidently and compliantly.
+L75: 
+L76:   * The 5 AI Risks That Keep Legal and HR Awake at Night Preview 7:00
+L77: Identify and prevent the five AI risks—data leakage, intellectual property violations, bias and discrimination, hallucinations, and loss of control—through practical compliance and risk-management strategies.
+L78: 
+L79:   * The Real Cost of Using AI: Beyond the Obvious Preview 5:37
+L80: 
+L81: Explore the real costs of AI incidents, from GDPR fines to reputational damage and lost clients. Learn practical prevention through training, policies, and verification protocols.
+L82:   * Intervention for Risky AI Use: Protecting Confidential Data
+L83: ### The Global Regulatory Framework 9 lectures • 54min
+L84: 
+L85:   * Introduction: Why AI Regulations Matter Right Now Preview 4:48
+L86: 
+L87: Understand why AI regulations matter now through the Brussels effect and the EU AI Act, and learn universal principles, risk categories, and practical tools to assess AI use.
+L88: 
+L89:   * EU AI ACT: The Risk Classification System 7:25
+L90: Explore the EU AI Act's risk-based classification, detailing prohibited, high, limited, and minimal risk categories, with real-world examples like hiring, credit scoring, chatbots, and content generation.
+L91: 
+L92:   * EU IA ACT: Obligations by Category 7:02
+L93: 
+L94: Navigate the EU AI Act obligations by category, from prohibited risks to high-risk requirements, including the four Ps—prevention, paper, people, and proof—and transparency.
+L95: 
+L96:   * EU IA ACT: Timeline and Enforcement 4:30
+L97: Map the EU AI Act timeline and enforcement across four phases, from phase one bans in February 2025 to phase four obligations for regulated products, guiding immediate preparation.
+L98: 
+L99:   * GDPR and Data Protection in the Use of AI 9:26
+L100: 
+L101: Understand how the GDPR intersects with AI, focusing on automated decisions, data minimization, transparency, and consent. Apply human oversight and data rights to compliant AI use with personal data.
+L102: 
+L103:   * AI Usage Regulations in the United States 7:18
+L104: Navigate the fragmented U.S. AI regulation by prioritizing California CPRA and New York Local Law 144, while aligning with federal executive orders and the EU AI Act.
+L105: 
+L106:   * AI Use Regulations in Asia 5:54
+L107: 
+L108: Asia shows diverse AI regulations—from China’s mandatory registration and content controls to Japan’s soft-law guidelines and Singapore’s governance framework—while many countries converge toward European principles for global and China-specific compliance.
+L109: 
+L110:   * Latin America - The Emerging Outlook 7:39
+L111: Explore Latin America's move to EU AI regulation, led by Brazil's PL 2332 2023, with data protection and a national AI authority guiding sectoral and policy alignment.
+L112: 
+L113:   * Compliance Advisory: Implementing AI in Recruitment and Hiring
+L114: ### Safe Use Protocol 6 lectures • 29min
+L115: 
+L116:   * The Decision Framework: Your 3-Step Protocol 6:24
+L117: 
+L118: Apply a three-step decision framework for AI use: classify information as public, internal nonsensitive, sensitive, or protected; identify decision level as exploration, assistance, recommendation, or automated decision making; assess risk.
+L119: 
+L120:   * Sensitive Data: What You Should NEVER Share with AI 7:47
+L121: Identify sensitive data and follow the red list to avoid sharing with public ai, then use anonymization, synthetic data, or enterprise tools to protect personal, confidential, and proprietary data.
+L122: 
+L123:   * Verification of Outputs: How to Detect Hallucinations 4:28
+L124: 
+L125: Identify and verify hallucinations in AI outputs by recognizing five warning signs and applying tiered verification protocols for low, medium, and high impact tasks.
+L126: 
+L127:   * Intellectual Property: Copyright and AI 4:54
+L128: Determine ownership of AI-generated content by human authorship through significant modifications and creative input; verify tool policies, avoid uploading proprietary data, and document your process.
+L129: 
+L130:   * Biases in AI Use: How to Identify and Mitigate Them 5:29
+L131: 
+L132: Identify and mitigate AI biases by understanding their sources, detection methods, and prevention strategies; apply diversified inputs and mandatory human review to ensure fair outcomes in high-risk areas.
+L133:   * Risk Assessment: Deciding Whether to Use AI in a Critical Project
+L134: ### Practical AI Security Implementation 4 lectures • 16min
+L135: 
+L136:   * Multi-Jurisdictional AI Safety Case Studies 5:59
+L137: 
+L138: Explore multi-jurisdictional AI safety by examining cases in Europe, Brazil, and the US: GDPR compliance, data anonymization, human oversight, IP rights, and transparent AI use.
+L139: 
+L140:   * How to Implement Safe AI Protocols in Your Company 5:51
+L141: Audit current ai usage to know where you stand, implement a practical five-step plan with concise policies, train your team, and monitor ongoing compliance and risk management across the enterprise.
+L142: 
+L143:   * Resources, Commitment and Taking Action 4:34
+L144: 
+L145: Access official AI resources and updates to stay compliant with evolving regulations, and apply the three step framework: red list, hallucination verification, bias mitigation, for responsible use.
+L146:   * Advisory on Responsible AI Use: Evaluating Risks and Establishing Policies
+L147: ## Requirements
+L148: 
+L149:   * Currently using or planning to use AI in daily work, at any level
+L150: 
+L151:   * Experience with or exposure to generative AI tools such as ChatGPT, Claude, or Copilot
+L152: 
+L153:   * A desire to protect both the organization and oneself from legal, security, and compliance risks
+L154: 
+L155:   * Motivation to use AI in a responsible, ethical, and legally compliant manner
+L156: ## Description
+L157: 
+L158: AI is the best way to accelerate and automate business processes. That’s why we use it EVERY SINGLE DAY.
+L159: 
+L160: But do you know how many things can go terribly wrong?
+L161: 
+L162: Every time an employee copies information into ChatGPT without thinking, your company is one click away from a data breach, a multimillion-dollar fine, or a discrimination lawsuit.
+L163: 
+L164: And here’s the problem: most teams use AI…
+L165: 
+L166:   * … without understanding current regulations
+L167: 
+L168:   * … without knowing what data is considered sensitive
+L169:   * … without verifying AI-generated information
+L170: 
+L171:   * … without clear decision-making protocols
+L172: 
+L173: The good news? Preventing these risks is 100 times cheaper than fixing them after they happen.
+L174: 
+L175: Why is this course essential for your company?
+L176: 
+L177: Europe already has mandatory AI regulations in force since 2024. The EU AI Act classifies AI systems by risk level and establishes specific obligations. Non-compliance can result in fines of up to 4% of global annual revenue.
+L178: The United States is regulating AI state by state. California, New York, and others already have laws governing AI use in hiring, credit evaluation, and data protection.
+L179: 
+L180: Latin America is following the European model. Brazil leads with Bill PL 2338/2023, while Argentina, Chile, Mexico, and Colombia are developing their own regulations.
+L181: 
+L182: Your company needs to comply. Now.
+L183: 
+L184: Not just to avoid fines, but to:
+L185: 
+L186:   * Protect your brand reputation
+L187: 
+L188:   * Prevent employment lawsuits due to discriminatory bias
+L189:   * Ensure customer trust
+L190: 
+L191:   * Build a competitive advantage through strong AI policies
+L192: 
+L193: What makes this course unique
+L194: 
+L195:   * This is NOT a technical course. It is designed specifically for non-technical corporate professionals: HR, Legal, Marketing, Finance, Sales, Managers—anyone using AI at work.
+L196: 
+L197:   * This is NOT abstract theory. You get practical protocols you can apply TODAY in your daily work.
+L198:   * This is NOT just about regulations. You’ll understand the “why” behind every rule, through real-world cases where companies made costly mistakes—and how to avoid them.
+L199: 
+L200: What you’ll learn in this course
+L201: 
+L202: MODULE 1: The AI Risk Overview
+L203: 
+L204: You’ll identify the 5 critical AI risks that keep Legal and HR departments awake at night:
+L205: 
+L206:   * Confidential data leaks
+L207: 
+L208:   * Intellectual property violations
+L209: 
+L210:   * Bias and discrimination
+L211: 
+L212:   * Hallucinations and flawed decisions
+L213: 
+L214:   * Dependency and loss of control
+L215:   * And you’ll understand why prevention is 100x cheaper than remediation.
+L216: 
+L217: MODULE 2: The Global Regulatory Framework
+L218: 
+L219: You’ll master the most important AI regulations worldwide:
+L220: 
+L221:   * EU AI Act: The risk-based classification system (prohibited, high, limited, minimal), the specific obligations for each category (the 4 Ps: Prevention, Purpose, People, Proof), and the implementation timelines that are already in effect.
+L222:   * GDPR: Article 22 on automated decision-making, how AI intersects with data protection, consent, and the right to be forgotten as applied to AI systems.
+L223: 
+L224:   * United States: The fragmented regulatory landscape (federal vs. state), California’s CPRA, New York’s Local Law 144 on bias in hiring, and federal executive orders.
+L225: 
+L226:   * Latin America: Brazil’s PL 2338/2023 (the most advanced in the region), Argentina, Chile, Mexico, and Colombia, and the clear trend toward convergence with the European model.
+L227:   * The common denominator: The universal principles being adopted globally — transparency, non-discrimination, human oversight, and accountability.
+L228: 
+L229: MODULE 3: Safe AI Usage Protocol
+L230: 
+L231: This is the practical core of the course. You will gain tools you can apply immediately:
+L232: 
+L233:   * The 3-Step Decision Framework: A simple protocol to decide in 30 seconds whether you can use AI for a specific task:
+L234: 
+L235:     * What type of information will I use?
+L236: 
+L237:     * What type of decision am I making?
+L238:     * What is the real level of risk?
+L239: 
+L240:   * The Red List: What data must NEVER be shared with public AI tools (personal data, customer data, trade secrets, financial information, employee data), and safe alternatives (proper anonymization, synthetic data, corporate AI tools).
+L241: 
+L242:   * Hallucination Detection: The 5 warning signs when AI is making up information, and a three-level verification protocol based on the impact of each decision.
+L243:   * Intellectual Property: The current legal debate around ownership of AI-generated content, when it can be used commercially, how to protect your IP, and the policies of different tools (ChatGPT, Claude, Copilot, Midjourney).
+L244: 
+L245:   * Bias: How to identify and mitigate bias in critical areas (HR, credit, legal), with practical strategies such as diversifying inputs, testing multiple tools, mandatory human review, and periodic audits.
+L246: 
+L247: MODULE 4: Practical Implementation
+L248: You will consolidate everything through integrated case studies and a clear action plan:
+L249: 
+L250:   * 3 Multi-Jurisdictional Case Studies:
+L251: 
+L252:     * Marketing agency in Madrid (GDPR and customer data)
+L253: 
+L254:     * Fintech in São Paulo (automated decisions and Brazil’s LGPD)
+L255: 
+L256:     * Tech startup in Miami (intellectual property of AI-generated code)
+L257: 
+L258:   * 5-Step Implementation Plan:
+L259: 
+L260:     * Audit current AI usage within your organization
+L261: 
+L262:     * Establish internal AI policies (editable template included)
+L263: 
+L264:     * Train the team
+L265:     * Implement the Decision Framework
+L266: 
+L267:     * Ongoing monitoring and continuous updates
+L268: 
+L269:   * Roles and Responsibilities: Who does what in each department (CEO, Legal, HR, IT, Managers, Employees).
+L270: 
+L271: Downloadable Resources Included (10 PDFs/Documents):
+L272: 
+L273:     * The 5 AI Risks: Self-Assessment Checklist
+L274: 
+L275:     * Compliance Matrix: What Applies to My Organization?
+L276: 
+L277:     * Decision Framework Poster (printable)
+L278: 
+L279:     * Output Verification Checklist (3 levels)
+L280: 
+L281:     * Red List: Data You Must NEVER Share with AI
+L282:     * AI Usage Policy Template for Companies (editable Word file)
+L283: 
+L284:     * 30-Day Implementation Plan
+L285: 
+L286:     * Roles and Responsibilities by Department
+L287: 
+L288:     * Updated Resources and Links (document with links to regulations)
+L289: 
+L290: Your Instructor
+L291: Federico Garay — Udemy Best-Selling Instructor with a distinctive teaching style: engaging, high-energy, approachable, and empathetic. His “talking head” approach delivers dense content in a clear and accessible way, allowing him to stand out in highly competitive markets.
+L292: 
+L293: Over 500,000 students worldwide have achieved their goals by building practical skills through his courses.
+L294: IMPORTANT: Generative AI was used in the development of this course, with human oversight applied at every stage of the process.
+L295: 
+L296: By the end of this course, you will be able to:
+L297: ✓ Make informed and secure decisions every time you use AI at work
+L298: ✓ Identify which information is sensitive and what can be shared with public AI tools
+L299: ✓ Classify any AI use case according to its legal risk level
+L300: ✓ Comply with the EU AI Act, GDPR, and regulations applicable to your organization
+L301: ✓ Detect when AI is fabricating information and know how to verify it
+L302: ✓ Identify and mitigate discriminatory bias in AI systems
+L303: ✓ Establish legally defensible AI policies within your organization
+L304: ✓ Protect your company from costly fines, lawsuits, and reputational damage
+L305: Why do L&D leaders choose this course?
+L306: 
+L307:   * “It’s the only course that covers ALL global AI regulations in a format accessible to non-technical teams.”
+L308: 
+L309:   * “After a costly incident, we needed to prove we had trained our team. This course provided the documentation and evidence Legal required.”
+L310: 
+L311:   * “We made it mandatory company-wide. In just 2 hours, every employee knows exactly what to do — and what to avoid — when using AI. The investment paid for itself within the first week.”
+L312: This course is your insurance policy against AI risks
+L313: 
+L314: Every day your team uses AI without this knowledge, you are accumulating risk.
+L315: 
+L316: Every employee who shares data carelessly is a legal time bomb.
+L317: 
+L318: Every decision made with AI without human oversight is a potential lawsuit.
+L319: 
+L320: But that ends here
+L321: 
+L322: In less than 2 hours, you will transform your team into responsible AI users who protect the company while fully leveraging this revolutionary technology.
+L323: 
+L324: The question is not whether you can afford this course.
+L325: The question is: can you afford NOT to take it?
+L326: 
+L327: Enroll now and protect your organization.
+L328: 
+L329: This course includes:
+L330: 
+L331:   * 2 hours of video content
+L332: 
+L333:   * 10 downloadable resources (PDFs, templates, checklists)
+L334: 
+L335:   * Certificate of completion
+L336: 
+L337: Start today. Protect your organization tomorrow.
+L338: 
+L339: I’ll see you in Lesson #1.
+L340: 
+L341: FEDE
+L342: ## Who this course is for:
+L343:   * Corporate professionals who use AI tools in their daily work and need to align with responsible and compliant practices
+L344:   * HR, Legal, and Compliance leaders responsible for ensuring their organization complies with the EU AI Act, GDPR, and global AI regulations
+L345:   * Managers and team leaders who oversee AI usage and need clear protocols to protect their teams from legal and operational risks
+L346:   * Professionals in Marketing, Sales, Finance, or any function that handles customer or employee data and uses AI for analysis, content creation, or decision-making
+L347:   * Employees designated by their companies to obtain certification in responsible AI usage as part of mandatory corporate compliance programs
+L348: Show more Show less
+L349: 
+L350: cite11†Report abuse 

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "cohortCalculations": 68,
+  "sourceVersion": "0381363ac494ead9",
+  "sourceSha256": "7c96d938644906aff0838f39987a109e33f8369b84ac28690125c91b62bb26d1",
+  "checks": [
+    "Workbook bytes match snapshot hash",
+    "Independent requirement maxima and equal-need coverage",
+    "Layer and inherited coverage",
+    "Full durations and deduplicated hours",
+    "All course budgets respected",
+    "Internal links stay within applicable scope",
+    "All 17 Option 1 conditional solves proven optimal",
+    "INT-397 + INT-1840 adds no N13 coverage"
+  ]
+}

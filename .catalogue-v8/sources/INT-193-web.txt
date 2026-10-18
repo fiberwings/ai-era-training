@@ -1,0 +1,216 @@
+AI Agent Governance & Risk Management (https://www.udemy.com/course/ai-agent-governance-risk-management/)
+citeturn12view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-agent-governance-risk-management/","lineno":null}); Total lines: 226
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Agent Governance & Risk Management
+L30: 
+L31: Role Play
+L32: 
+L33: Rating: 4.6 out of 5 4.6cite8†(112 ratings) L34: 753 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # AI Agent Governance & Risk Management
+L38: 
+L39: Agentic AI governance: risk assessment, behavioral boundaries, oversight models, & regulatory compliance, without coding
+L40: 
+L41: Created bycite9†Data Universe L42: 
+L43: Last updated 8/2026
+L44: 
+L45: English
+L46: 
+L47: English [Auto],
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Understand why AI agents create a new category of operational risk that traditional IT governance frameworks are not designed to handle
+L53: 
+L54:   * Build a complete agent inventory so your organization knows which autonomous systems are running, what they do, and who is accountable
+L55: 
+L56:   * Define autonomy levels and behavioral boundaries specifying exactly what agents can do, what they must never do, and when to escalate
+L57:   * Assess agent risk across financial, compliance, reputational, and operational dimensions combined with realistic failure likelihood
+L58: 
+L59:   * Design guardrails and controls proportional to each agent's risk tier, applying strict governance where it matters most
+L60: 
+L61:   * Establish a governance operating model with clear roles, review cadences, and escalation paths that keep agents accountable
+L62:   * Monitor agents in production, identify metrics that signal unsafe behavior, and evaluate performance continuously after deployment
+L63: 
+L64:   * Navigate the global AI regulatory landscape and identify where regulation leaves gaps that your internal policies must fill
+L65: 
+L66:   * Apply enhanced governance to high-stakes scenarios in finance, HR, healthcare, and regulated industries where failure consequences are severe
+L67:   * Design a complete 30-day governance implementation plan for a real agent with defined controls, ownership, and monitoring metrics
+L68: ## Course content
+L69: 
+L70: 12 sections • 31 lectures • 3h 4m total length
+L71: 
+L72: Expand all sections
+L73: ### Why AI Agent Governance Matters 3 lectures • 19min
+L74: 
+L75:   * From AI agents to operational risk Preview 5:57
+L76: 
+L77: AI agents move from information provision to autonomous actions, creating operational risk that requires governance, accountability, and audit trails to prevent cascading errors.
+L78: 
+L79:   * Why traditional governance is not enough Preview 7:15
+L80: Govern AI agents with risk-aware frameworks that adapt traditional governance to probabilistic, non-deterministic behavior, address cascading decisions, and sustain accountability through audit trails and continuous monitoring.
+L81: 
+L82:   * What this course will solve 5:54
+L83: 
+L84: Learn risk-based governance to deploy ai agents with confidence through inventory, risk assessment, guardrails, monitoring, and practical frameworks aligned to regulation and internal policies.
+L85: ### What Must Be Governed 3 lectures • 20min
+L86: 
+L87:   * Agent inventory: know what you have 6:11
+L88: 
+L89: Audit and centralize your AI agent landscape by building a comprehensive inventory that captures identification, ownership, scope, autonomy, integrations, deployment, and lifecycle to enable risk-based governance.
+L90: 
+L91:   * Permissions and autonomy levels 6:59
+L92: Define precise agent permissions and autonomy levels to balance value with risk, applying a four-level framework, explicit action, scope, and behavior limits, plus escalation and documentation.
+L93: 
+L94:   * Data, tools and system access 7:10
+L95: 
+L96: Define and enforce agent access to data, systems, and tools using the principle of least privilege; document access, inventory connections, manage credentials, and conduct regular reviews for security and compliance.
+L97: ### Risk Scoring for Agents 3 lectures • 24min
+L98: 
+L99:   * Business impact 7:41
+L100: 
+L101: Assess four dimensions of agent business impact—financial, compliance, reputational, and operational—to govern risk with concrete failure scenarios, determine exposure, and tailor governance intensity accordingly.
+L102: 
+L103:   * Likelihood and failure modes 8:20
+L104: Assess likelihood and identify common AI agent failure modes—prompt injection, misunderstanding, loops, overconfidence, and escalation failures—to prioritize governance and risk controls.
+L105: 
+L106:   * Simple risk tiers 8:07
+L107: 
+L108: Combine business impact and failure likelihood into a simple three-tier risk framework to govern AI agents. Document each agent's risk tier and tailor guardrails and controls by tier.
+L109: ### Guardrails and Control Design 4 lectures • 27min
+L110: 
+L111:   * Behavioral boundaries 9:42
+L112: 
+L113: Define and enforce behavioral boundaries to govern agent actions, covering financial, operational, content, and data boundaries, with multi-layer governance, risk management, and escalation pathways.
+L114: 
+L115:   * Human-in-the-loop vs Human-in-command 5:27
+L116: Compare human-in-the-loop and human-in-command governance models for AI agents, detailing when humans review actions, autonomous execution within bounds, and escalation for risk and transparency.
+L117: 
+L118:   * Logging, traceability and auditability 6:12
+L119: 
+L120: Underpin agent governance with comprehensive, structured logging by recording actions, timestamps, inputs, outcomes, and escalations, enabling debugging, regulatory compliance, and accountability.
+L121: 
+L122:   * Escalation and exception handling 5:58
+L123: Learn how to design robust escalation and exception handling within agent governance, defining four escalation situations, routing rules, response times, logging, and continuous improvement.
+L124: ### Governance Operating Model 3 lectures • 18min
+L125: 
+L126:   * Roles and accountability 6:37
+L127: 
+L128: Define three governance roles—owner, operator, and reviewer—for AI agents, outlining ownership, accountability, and RACI processes to ensure safe deployment, ongoing oversight, and clear escalation across the agent lifecycle.
+L129: 
+L130:   * Governance cadence 5:33
+L131: Establish an ongoing governance cadence that keeps agents aligned with changing conditions. Conduct daily monitoring, weekly high-risk reviews, monthly all-agent reviews, quarterly strategic assessments, and annual audits to prevent drift.
+L132: 
+L133:   * Policy to practice 5:41
+L134: 
+L135: Bridge the gap between governance policies and daily practice by translating abstract policies into operational, auditable procedures with templates and embedded workflows for agent governance and risk management.
+L136: ### Practice Test: Sections 1-5 0
+L137: 
+L138:   * AI Agent Governance Foundations: Risk, Inventory, and Controls
+L139: ### Monitoring and Evaluation in Production 3 lectures • 19min
+L140: 
+L141:   * What to monitor 6:42
+L142: 
+L143: Monitor AI agents using a structured framework across quality, performance, behavioral, and business metrics, establishing baselines, thresholds, and role-specific dashboards to ensure governance and ROI.
+L144: 
+L145:   * Continuous evaluation 5:31
+L146: Continuous evaluation monitors agent governance as conditions evolve to maintain alignment with business context, risk, and regulatory changes. Trigger actions such as continue, modify, restrict, or retire, and document decisions.
+L147: 
+L148:   * Red flags 6:48
+L149: 
+L150: Identify red flags across performance, behavior, and governance to prompt immediate investigation. Learn to monitor production, document responses, and align with external governance and regulatory expectations.
+L151: ### Regulation, Compliance and Internal AI Policy 4 lectures • 21min
+L152: 
+L153:   * Global regulatory landscape for AI 4:17
+L154: 
+L155: Navigate the global AI regulatory landscape, from Europe’s risk-based rules to China’s control-oriented approach and the US sector-specific regime, and build adaptable, compliant, well-documented governance.
+L156: 
+L157:   * European AI regulatory framework 5:17
+L158: Explore the EU AI Act, its four risk levels, and requirements for high-risk, limited-risk, and minimal-risk systems, including governance, transparency, data quality, and conformity assessment.
+L159: 
+L160:   * Chinese AI regulatory framework 4:51
+L161: 
+L162: Explore China's layered AI regulatory framework, including the Algorithm Recommendation Regulation and Deep Synthesis Regulation, focusing on state control, data localization, and mandatory approvals before deployment.
+L163:   * Internal corporate regulations and best practices 6:26
+L164: 
+L165: Develop internal policies that tailor governance to your organization's risks and culture, covering guardrail, approval, logging, vendor, and override policies with enforceable, auditable standards.
+L166: ### Regulated and High-Risk Scenarios 3 lectures • 17min
+L167: 
+L168:   * When the stakes are higher 4:14
+L169: 
+L170: Identify high-stakes domains where agent failures trigger strict governance, regulatory scrutiny, and liability. Tailor governance intensity to risks in financial services and transactions, human resources, healthcare, and safety-critical contexts.
+L171: 
+L172:   * What changes in those contexts 6:23
+L173: In high-stakes contexts, reduce agent autonomy and increase human oversight, with explicit approvals for consequential actions. Require audit trails, deployment documentation, independent reviews, rigorous validation, bias testing, and legal preclearance.
+L174: 
+L175:   * How to keep the model simple 6:02
+L176: 
+L177: Apply the simplicity principle by identifying two to three top risks in your high-stakes scenario and concentrating enhanced governance there, with standard governance for everything else.
+L178: ### Final Workshop: Build Your Agent Governance Plan 4 lectures • 19min
+L179: 
+L180:   * Pick one agent use case 4:08
+L181: 
+L182: Design a governance plan for a selected agent, document selection criteria, define autonomy levels and ownership, and establish concrete controls for immediate business impact.
+L183: 
+L184:   * Define autonomy, controls and owners 5:42
+L185: Define agent autonomy levels, establish concrete governance boundaries, escalation rules, and assign owner, operator, and reviewer roles; set logging, monitoring, and review cadences to ensure compliant, auditable risk management.
+L186: 
+L187:   * Create the 30-day action plan 8:35
+L188: 
+L189: Translate governance design into a concrete 30-day action plan with milestones, documentation, and technical controls to enforce boundaries, monitor risk, and train stakeholders.
+L190: 
+L191:   * BONUS: AI Governance Toolkit 0:29
+L192: 
+L193: 2 more sections
+L194: ## Requirements
+L195: 
+L196:   * No programming or technical background required — this course is designed for anyone who works with or around AI agents in a business context
+L197: 
+L198:   * All you need is a basic familiarity with how your organization operates and an interest in understanding how to deploy AI responsibly
+L199: 
+L200:   * No prior experience with AI governance, risk management, or compliance frameworks is necessary — everything is built from the ground up
+L201: ## Description
+L202: 
+L203: AI agents are no longer experimental. Organizations are deploying them across sales, operations, finance, and customer service, giving them access to real systems and the autonomy to take real actions. And most organizations are doing it without adequate governance.
+L204: 
+L205: That's the problem this course solves.
+L206: When an agent approves a transaction, sends a customer communication, or updates a critical record, something can go wrong in ways traditional IT governance was never designed to catch. Agents fail subtly, cascade errors across systems, and create accountability gaps that only become visible after damage is done.
+L207: This course gives you a complete, practical framework for governing AI agents responsibly. You will learn how to build an agent inventory, assess risk across financial, compliance, reputational, and operational dimensions, and design behavioral boundaries and oversight models proportional to each agent's risk level.
+L208: You will establish a governance operating model with clear roles, escalation paths, and review cadences. You will learn what to monitor in production and which signals indicate an agent is drifting from safe behavior. You will navigate the global regulatory landscape, understand where regulation leaves gaps, and build internal policies to fill them.
+L209: 
+L210: The course closes with a hands-on workshop where you design a complete 30-day governance implementation plan for a real agent in your organization.
+L211: No technical background required. If you work with AI agents or are planning to, this course gives you the frameworks and tools to deploy them with confidence, accountability, and control.
+L212: ## Who this course is for:
+L213:   * Business professionals and managers who are deploying or planning to deploy AI agents and need a practical framework to do it responsibly
+L214:   * Anyone in any industry who wants to move beyond using AI as a chatbot and understand how to deploy autonomous agents safely and confidently
+L215:   * Entrepreneurs and startup founders who are building AI-powered products and need to think about accountability and risk from day one
+L216:   * Students and early-career professionals who want to develop practical skills in AI governance and stand out in a rapidly evolving job market
+L217:   * Risk managers, compliance officers, and legal professionals who need to understand the specific governance challenges that AI agents introduce
+L218:   * Executives and decision-makers who must evaluate, approve, and oversee AI agent deployments and want to ask the right questions
+L219:   * Operations and process improvement teams responsible for ensuring that automated systems work reliably and within defined boundaries
+L220:   * IT leaders, platform architects, and technical teams who want a business-focused governance framework to build into agent design from the start
+L221:   * Data scientists and ML engineers who need to communicate agent capabilities and limitations clearly to non-technical stakeholders
+L222:   * Consultants and business analysts who advise organizations on AI adoption and want to add agent governance to their toolkit
+L223: Show more Show less
+L224: 
+L225: cite10†Report abuse 

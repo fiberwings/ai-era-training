@@ -1,0 +1,94 @@
+TR-041	N4.2=1 N4.3=1 N6.3=1	Cybersecurity career module includes risks and ethics; guided labs do not establish agent supervision or code-analysis harness design.
+TR-042	N13.2=1 N13.5=1 N14.4=2 N14.5=2	Published workshop includes AI-use policy, measuring projects and roadmap activity; generic leadership material does not teach agent autonomy controls.
+TR-043	N14.5=1 N13.1=1	Current MIT page includes shadow-AI exposure and workforce awareness. General audits do not demonstrate agent-control assurance.
+TR-044	N14.2=1 N14.4=1 N14.5=1 N13.2=1	Session titles introduce workflows, strategy, impact and governance; no detailed agent or cyber curriculum.
+TR-045	UNASSESSED	Provider page still blocked by a robot check; course title alone cannot support numerical teaching assessments.
+TR-046	N12.1=1 N12.8=1	NUS topic list names AI threat modelling, exploitation and mitigations; depth beyond headings is not public.
+TR-047	N1.1=1 N5.1=1 N5.3=1 N5.5=1 N13.2=1 N13.5=1 N14.4=1 N14.5=1	Development-stage outline names AI defence, threats, governance and strategy; no teaching depth or practice is evidenced.
+TR-048	N3.1=1 N4.2=1 N4.5=1 N6.4=1	Only the announcement for this self-paced course supports assessment; do not transfer the detailed VERIFY/FEAT syllabus from the distinct in-person IBFAILF course.
+TR-049	N4.4=2 N8.5=1	Path modules include supply-chain attacks and malicious MCP servers. Generic ML model building is not agent engineering or operator evaluation.
+TR-050		Exam-only; preserve objective mapping separately from teaching evidence.
+TR-051		Benchmarking infrastructure with no published learner curriculum; resource availability is not teaching coverage.
+TR-052	R1.2.3=1 N4.4=2	AI forensics is only named; supply-chain security is a taught module. No agent forensic readiness or evidence-preservation method is evidenced.
+TR-053	N14.2=1 N6.4=1	Defender workflow examples and responsible-use introduction; demonstrations do not evidence complete oversight practice.
+TR-060	N2.6=1 N9.1=1 N9.3=1	Defence episode introduces guardrails; PyRIT datasets and scorers introduce security-evaluation components, without a complete operator evaluation method.
+TR-061	N12.5=2	Crescendo challenges demonstrate guardrail evasion, but not guardrail engineering as a whole.
+TR-062	N9.1=2 N9.3=2 N11.1=2 N11.3=1	Runnable attack datasets and scoring workflows teach partial test design and checks. Model-based scorers are not evidence of validation against human labels.
+TR-063	N7.2=2 N7.4=1 N8.4=2 N8.5=2 N13.3=1 N14.3=2 R4.1.3=2 R4.1.6=2 R9.1.1=1 R9.1.2=2 R9.1.3=2	Failure-mode mitigations cover consent fatigue, inter-agent trust, tool controls and supply-chain validation. Reading-only; no full operational sign-off.
+TR-064	N7.2=1 N7.4=1 N8.4=2 N8.5=1 N12.2=2 N12.4=2 N12.6=2 N11.5=1 R1.1.1=1 R1.1.2=1 R1.2.2=1 R4.1.2=2 R6.1.1=1	Agent registry, identity, tool restrictions, monitoring and disablement guidance support partial controls. Forensic logging is mentioned without integrity/reconstruction detail.
+TR-070	N7.1=1 N7.2=1 N8.4=2 N8.5=1 N13.2=2 N13.3=1 N14.3=1 R3.1.1=2 R3.1.3=1 R5.1.2=2 R5.1.4=1 R9.1.3=2	SAIF agent guidance covers least privilege, consequential-action approval, auditable tool use and risk self-assessment; no practical supervision assessment.
+TR-071	N7.2=1 N9.1=1 N9.3=2 N12.6=1	Day-four quality codelabs include traces, metrics and evaluation of responses/tool use. Human approval is introduced with tools, not full oversight training.
+TR-072	N3.6=1 N4.2=1 N6.4=2	Responsible-use module and human-oversight outcomes support basic diligence and awareness; no bank-specific handling rules.
+TR-077	N7.1=1 N7.3=1 N8.4=1 N10.1=1 N10.2=1 N10.4=1 N14.2=1 R3.1.1=1	AITECH published objectives explicitly introduce HITL, MCP primitives, agent design and workflow optimisation; topic names do not evidence the corresponding advanced skills.
+TR-078	N12.1=1 N12.5=1 R3.1.1=1 R3.1.2=1	Cisco tutorial description names adversarial threats, OWASP, ATLAS and model defences; product marketing is excluded from teaching evidence.
+TR-088	N3.1=1 N3.5=1 N4.2=1 N9.1=2 N9.3=2 N11.1=1	Scanner documentation explains probes, detectors and result reports. It supplies model-security checks, not general agent evaluations or a curriculum.
+TR-089		Published 4D curriculum supports existing mappings. Platform privacy FAQs are not learning content and do not create N4 coverage.
+TR-090	N6.1=1 N7.1=1 N13.3=1	Team roles, gradual release and information boundaries introduce delegation and autonomy; surrounding Academy course advertisements excluded.
+TR-093	N8.4=1 N12.6=1	MCP tools, roots boundaries and logging notifications are introduced; no authorisation/connector-vetting method. Other courses on the catalogue landing page excluded.
+TR-094	N8.4=1 N12.2=1	Course roadmap explicitly mentions future authentication/authorisation. This is awareness, not implemented security practice.
+TR-095	N7.1=1 N7.3=1	Official announcement names boundaries and reviewing results, but no detailed supervision curriculum is published.
+TR-097	N13.1=1	Leadership outcomes include ownership/governance of initiatives; surrounding Academy builder-course content excluded.
+TR-098	N11.1=2 N11.2=2 N11.5=1 N6.3=1	Evaluation/error-analysis module teaches test examples, component diagnosis and performance metrics. It does not validate judges against human labels or aggregate a whole domain's practitioner results.
+TR-099	N9.1=2 N9.3=2 N11.1=2 N11.3=1	Manual and automated chatbot testing contributes test design and checks; benchmarking discussion and model-based evaluators remain partial.
+TR-100	N2.4=2 N10.1=2 N10.3=2 N11.1=2 N11.2=1 N11.3=1 N11.5=1 N12.6=2	Agent construction and tracing labs were omitted from the prior needs list. Judge improvement and production monitoring are introductory; no complete human-label validation method is established.
+TR-101	N2.6=2 N4.2=2 N3.4=1	Input/output guard labs include confidentiality and PII; probabilistic outputs are explicitly introduced. No prompt-injection defence inferred.
+TR-102	N12.2=1 N12.4=1	Brief extensions/security lesson mentions protocol security; no full identity or authorisation engineering practice.
+TR-103	N7.2=2 N11.1=2 N11.3=1 N11.5=1 N12.6=2	Bonus observability/evaluation unit adds traces, offline benchmarks and online judges. Monitoring does not imply kill switches or validated automated judges.
+TR-104	N9.1=1 N9.3=1 N12.1=1 N12.5=1	Lectures on evaluation and safety introduce relevant concepts; research talks and optional projects do not establish a complete operational curriculum.
+TR-105	N2.1=2 N2.4=2 N2.5=2 N3.1=2 N6.6=2 N12.3=1 N3.5=1 N12.5=1 N7.3=1	Available early builder slides cover context, grounding and tools; later safety topics are scheduled headings only. Enrolled-student labs are not attributed to the public-materials record.
+TR-106	N2.6=1 N11.1=1 N11.3=1 N12.5=1	Frontier-model alignment, evaluations and defence research are adjacent introductions, not agent operating skills.
+TR-107	N13.5=1 N11.6=1	System-card interpretation and policy briefings are transferable awareness only; the provider explicitly excludes corporate compliance.
+TR-108	N2.4=2 N2.5=2 N7.2=2 N12.3=2 N12.4=2 N12.6=2 R5.1.2=2	Inspect tutorials document agent traces, sandboxes and tool-approval controls. Release-note bug fixes are not treated as additional taught topics.
+TR-109	N2.4=2 N2.6=2 N7.1=2 N7.2=2 N8.4=2 N8.5=2 R4.1.3=2 R4.1.6=2 R5.1.2=2 R5.1.4=2 R9.1.2=2 R9.1.3=2	2026 mitigations cover deterministic authorisation, scoped tool calls, MCP signing/pinning and retrieval logs. These are partial reading-based controls, not bank operating practice.
+TR-110	N2.6=2 N4.4=2 N4.7=2 N7.1=2 N7.2=2 N7.4=2 N8.4=2 N8.5=2 N13.3=1 N14.3=2 R4.1.3=2 R4.1.5=2 R5.1.1=2 R5.1.2=2 R5.1.3=2 R5.1.4=2 R5.1.5=2 R9.1.2=2 R9.1.3=2 R1.1.2=2	Agentic Top 10 mitigations include approval, trust abuse, bounded identity, supply chain and rogue-agent containment; no exercises or complete incident playbooks.
+TR-111	N3.5=2 N4.4=2 N7.2=2 N8.4=2 N8.5=2 N10.1=2 N10.2=2 N14.3=2 R3.1.1=2 R3.1.3=2 R3.1.4=2 R4.1.5=2 R9.1.2=2 R9.1.3=2	Architecture and threat taxonomy explain agent patterns, cross-agent attacks, HITL overload and signed component provenance. Knowledge reference only.
+TR-112	N2.6=2 N7.2=1 N13.1=2 R4.1.2=2 R4.1.5=2 R6.1.1=2	Guardian lifecycle hooks, action audit and AgBOM support partial inventory/control-assurance learning. Early specification and conformance checks are not learner exercises.
+TR-113	N3.5=1 N4.4=2 N4.5=2 N14.3=1 N14.5=1 R4.1.5=2 R9.1.1=2 R9.1.2=2 R9.1.10=2	Report sections cover agent identity, provenance and regulation. Content from other reports advertised on the OWASP landing page is excluded.
+TR-114	N3.5=2 N9.1=2 N9.3=2 N9.4=2 N11.1=2 N11.2=1	Red-team blueprint, test datasets, metrics and continuous testing support security-specific evaluation. No general domain evaluation or human-label calibration is inferred.
+TR-115	N4.4=2 N9.1=2 N9.2=2 N9.3=2 N11.1=2 R9.1.2=2 R9.1.3=2 R5.1.2=2	Published test cases include expected results, remediation, delegated identity and permission abuse. Reading-only test library, not completed practice.
+TR-116	N2.5=1 N8.4=1 N12.4=2 N12.7=2	CTF demonstrates policy bypass and MCP/tool poisoning. Platform implementation features and roadmap attacks are not credited as learner instruction.
+TR-117	N3.5=2 N4.4=2 R4.1.3=1 R4.1.5=1	ATLAS techniques/cases explicitly cover indirect injection, agent tool supply-chain compromise and rug pulls; references do not teach the exposure-management lifecycle.
+TR-118	N5.1=2 N5.2=2 N5.3=2 N11.1=2 N11.5=2 N14.6=1	GenAI Profile describes AI-enabled threats and suggested measurement/monitoring actions. Workforce effects are acknowledged, not a junior-pipeline design method.
+TR-119	N2.2=2 N4.4=2	Taxonomy includes multimodal models and generative-AI supply-chain attacks. Poison forensics is not forensic readiness for agent traces.
+TR-120	N2.6=1 N3.1=1 N3.5=1 N4.4=2 N7.4=1 N11.5=1 N12.6=1 R4.1.5=1 R9.1.3=1	Draft profile names guardrails, fallback, AI component inventories and least privilege. CSF outcome statements are not a detailed method or practice.
+TR-121		NICE knowledge/skill statements are a workforce taxonomy, not lessons. Their topic names are not credited as teaching.
+TR-122	N7.1=2 N7.2=2 N7.4=2 N14.3=2 N14.7=2 R1.1.2=2 R1.2.2=2 R9.1.1=2 R9.1.3=2 R9.1.4=2	Joint guidance describes distinct agent identities, time-bounded access, protected logs, graduated autonomy and rollback. Reading-only; bank execution and drill details remain gaps.
+TR-123	N2.6=1 N4.4=2 N12.1=1 N12.3=2 N12.6=2 N12.7=1 N13.4=2	Current guideline text gives concrete third-party due diligence, import isolation and monitoring recommendations. Pre-agentic scope limits the coverage but does not justify suppressing these partial requirements.
+TR-124	N4.4=2 N7.3=1 N9.4=1 N14.3=1 R4.1.2=1 R5.1.4=1	Code provisions cover supply-chain control, human oversight, asset inventories and audit records; generic AI lifecycle provisions are not full agent controls.
+TR-125	N3.1=2 N3.5=2 N6.7=2 N10.5=2 N13.4=2	ANSSI recommendations explain hallucination/injection, restricted-data hosting and third-party solutions. Bank-specific classifications still require internal completion.
+TR-126	N6.3=1 N6.7=1	Available agency summary supports critical review and local handling of code. Full PDF remains unavailable; no further technical depth inferred.
+TR-127	N7.1=1 N8.4=1 N12.3=1 N12.4=1	CERT-FR bulletin names sandboxing, restricted tool access and human approval. Short recommendations provide awareness rather than operational training.
+TR-128	N2.6=1 N3.5=2 N4.4=2 N5.4=2 R3.1.1=2 R4.1.5=1	Companion guide gives injection and supply-chain controls with worked cases; pre-agentic forensic and access-control references do not satisfy agent-specialist requirements.
+TR-129	N3.1=2 N3.5=2 N4.4=2 N4.7=2 N7.1=2 N7.2=2 N7.4=2 N8.4=2 N8.5=2 N10.1=2 N10.2=2 N14.3=2 R1.1.2=2 R1.2.2=2 R3.1.1=2 R3.1.3=2 R4.1.5=2 R5.1.1=2 R5.1.2=2 R5.1.3=2 R5.1.4=2	Agentic addendum provides concrete architecture, identity, logging, containment and human-control guidance with cases. Reading-only; not an operational drill or complete specialist curriculum.
+TR-130	N4.4=1 N12.1=1 N13.2=1 N13.5=1	Older multilayer framework names AI threats, supply chain and risk practices. Historic regulatory discussion is not current compliance training.
+TR-131	N4.5=2 N14.5=1	Landing page now explains the Article 4 literacy duty and limitations of copying practices; regional regulator expectations are still absent. Repository is programme-design reference, not a learner course.
+TR-132	N3.1=1 N3.5=1 N12.1=2 N12.2=2 N12.4=2 N12.6=2 R5.1.2=2 R5.1.4=2	Published category/test summaries include control hijacking, trace evasion and accountability checks. Separate technical-implementation documents linked on the page are excluded.
+TR-133	N2.6=1 N7.1=1 N12.4=2 N12.6=1	Autonomy proposal explains enforceable boundaries and approval levels. It remains a proposed framework, not a standard or practical course.
+TR-134	N14.1=1	Prototype landing page describes AI's effect on roles; security-specific entries are not visible.
+TR-135	N1.1=1 N4.4=1 N5.2=1 N5.3=1 N13.4=1	Hub paper titles indicate relevant topics only. Membership papers have not been inferred from titles.
+TR-136	N3.5=1	Interactive prompt-attacking game supports awareness; dynamically rendered challenge detail is unavailable.
+TR-137	N12.4=2 N12.5=2	Web LLM lesson gives access-control and output-validation defences alongside labs; no MCP or whole-agent control plane inferred.
+TR-138	N5.4=1	Competition/tutorial explicitly concerns attacks on AI; specialised non-cyber challenge tracks excluded.
+TR-139	N3.5=1 N12.4=1	Chatbot challenges expose prompt-driven authentication bypass without teaching a secure authorisation design.
+TR-140	R3.1.1=1	Password-extraction game is introductory direct-injection practice; no current detailed syllabus retrievable.
+TR-141	N2.4=1 N12.4=1	ReAct banking lab reveals tool access-control abuse; operating the supplied lab is not agent-building training.
+TR-142	N2.5=1 N4.4=1 N8.4=1 N8.5=1 N12.4=2 N12.7=2 R4.1.3=1 R4.1.6=1 R9.1.3=1	MCP challenges demonstrate scopes, tool poisoning and rug pulls. They do not teach a discovery, hash-approval or scanning programme.
+TR-143	N3.5=2 N7.2=2 N9.1=2 N9.2=2 N9.3=2 N9.4=2 N11.1=2 N12.4=2 N12.6=2	Agent red-team guide includes trace-based tests and reusable trajectory assertions. Product navigation and unrelated plug-ins are not added as course content.
+TR-144	N5.7=1 R3.1.1=1	Community/events index signals current AI attacks, without a stable assessable curriculum.
+TR-145		Four-properties lessons support the existing limitation mappings; lesson text is gated and platform privacy FAQs are excluded.
+TR-146	N14.5=1	Teaching/assessment of human AI fluency may support internal trainers. Assessing students is not N9/N11 evaluation of AI systems.
+TR-154	N1.1=1 N4.2=1 N5.4=1 N6.3=1 N7.1=1 N7.2=1 N7.3=1 N12.4=2 N12.5=1 N12.6=1	Current published topic detail includes fail-closed controls, parameter validation, review gates and safe logging. Detailed course/lab content remains behind login, so no full-practice scores are inferred.
+TR-155	N6.8=2 N7.2=1 N13.2=2 N13.4=2 N13.5=2 N13.6=2 N14.2=1 R3.1.1=1 R9.1.3=1	Official path now includes governance/risk/compliance. Four course outlines cover risk frameworks, vendor risk, monitoring/audit and AI workflow automation; video-only evidence caps skills below 3.
+TR-156	N3.1=2 N3.7=2 N12.6=2 N13.3=1 N14.7=2	Current LDR553 outline explicitly addresses hallucination, human accountability, restraint and evidence preservation in agent incidents. Generic human-account revocation is not scored as agent IAM training.
+TR-157	N2.4=2 N2.6=2 N13.2=2 N14.2=2 N9.3=1 R5.1.5=1	SOC syllabus has a workflow-risk-assessment lab, agent configuration and approval/audit controls. SOC use does not imply agent incident response or code-analysis harness capability.
+TR-158	N7.2=1 N9.3=1 N10.8=1 N11.5=1 N12.2=2 N12.4=2 N12.6=2 R9.1.1=1 R9.1.3=2	Databricks walkthroughs teach distinct identity, least-privilege data access and tracing. Product-specific demonstrations are partial skills coverage, not complete bank governance.
+TR-159	N4.2=1 N9.3=1 N11.1=1 N12.4=1 N12.5=1 N12.6=1 R3.1.1=1	Public collection descriptions name evaluations, RBAC, guardrails and observability. Individual lab detail is gated; no deeper claims inferred.
+TR-160	N2.5=1 N10.8=1 R3.1.1=1	Workshop titles introduce MCP and agent security; other resources on the learning hub are excluded.
+TR-161	N4.5=1 N11.5=1	AIMS certification outline names performance evaluation and responsible management; it does not evidence agent-control auditing or production drift measurement methods.
+TR-162	N7.2=1 N12.2=2 N12.3=2 N12.4=2 N14.7=1 R4.1.2=2 R5.1.2=1	Enterprise governance lessons explain identity, execution containment, policy control and inventory through Microsoft examples. No full operational IAM lifecycle.
+TR-163	N12.5=2 N12.6=1 N12.7=1	Security-controls module introduces content filters, monitoring and library review. Model/app controls remain partial for agents.
+TR-164	N2.6=1 N7.2=1 N11.5=1 N12.6=1 R4.1.2=2 R6.1.1=1	Maturity guidance includes ownership, registry and telemetry; a maturity checklist is not a control-testing course.
+TR-165	R3.1.1=1	Prompt-injection awareness is present; leader tabletop exercises do not establish technical red-teaming competence.
+TR-166	N2.6=2 N3.5=2 N4.4=2 N4.7=2 N5.4=2 N7.4=1 N8.4=2 N8.5=2 N10.8=2 N11.5=1 N13.3=1 N14.3=2 R1.1.2=2	Detailed security-engineering modules also teach supply-chain risk, safe connector use and deployment controls. Short lab videos are not assumed to be hands-on learner assessments.
+TR-167	N2.6=2 N3.1=2 N3.5=2 N3.6=2 N4.4=2 N4.7=2 N14.3=2 R5.1.2=2 R5.1.5=2 R9.1.3=2	Coding-agent framework explicitly treats untrusted input, hallucinated packages, consent fatigue, MCP permissions and staged approvals. Reading-only and coding-specific.
+TR-168	N2.5=2 N3.5=2 N5.4=2 N7.1=1 N10.7=1 N13.1=2 R3.1.1=2 R6.1.1=1	Skills-risk document includes malicious instructions, component inventories and installation governance. Draft mitigations are not a complete Skills-library implementation course.

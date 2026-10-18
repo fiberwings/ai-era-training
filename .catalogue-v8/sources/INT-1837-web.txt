@@ -1,0 +1,172 @@
+Human-centered AI for Leaders (https://www.udemy.com/course/human-centered-ai-for-leaders/)
+citeturn140view0 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/human-centered-ai-for-leaders/","lineno":null}); Total lines: 182
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Human-centered AI for Leaders
+L30: 
+L31: Rating: 4.9 out of 5 4.9cite8†(71 ratings) L32: 
+L33: 1,418 students
+L34: cite0†Image†img-c.udemycdn.com Preview this course
+L35: # Human-centered AI for Leaders
+L36: 
+L37: Lead purposeful AI - learn to design, evaluate, and communicate responsible AI systems that enhance human flourishing
+L38: 
+L39: Created bycite9†Prof. Dr. Ana-Maria Olteteanu L40: 
+L41: Last updated 8/2026
+L42: 
+L43: English
+L44: 
+L45: English [Auto],
+L46: 
+L47: cite0†Image†img-c.udemycdn.com Preview this course
+L48: ## What you'll learn
+L49: 
+L50:   * Understand the principles and frameworks behind Human-Centered AI and why they matter for leadership.
+L51: 
+L52:   * Apply ethical, psychological, and design-based perspectives to guide responsible AI adoption.
+L53: 
+L54:   * Evaluate AI systems beyond performance — considering fairness, wellbeing, and long-term impact.
+L55: 
+L56:   * Lead cross-functional teams in developing or implementing AI solutions that align with human values.
+L57:   * Communicate AI strategies that inspire trust, transparency, and engagement across your organization.
+L58: 
+L59:   * Envision future-ready, purpose-driven AI initiatives that enhance both human and organizational flourishing.
+L60: ## Course content
+L61: 
+L62: 5 sections • 21 lectures • 3h 32m total length
+L63: 
+L64: Expand all sections
+L65: ### The Human-AI Relationship - Past, Present and Future 3 lectures • 31min
+L66: 
+L67:   * Why Human-Centered AI -From Automation to Augmentation: Redefine the Human Story Preview 7:59
+L68: 
+L69: Explore how AI shifts from automation to augmentation, defining human-centered AI as a partner that augments, rather than replaces, human creativity, empathy, and well-being.
+L70: 
+L71:   * Visions of the Future: Emerging Frontiers in Human-Centered AI Preview 14:08
+L72: Explore the emerging frontiers of human-centered AI for leaders—social, affective, and creative AI—that foster flourishing and well-being while guiding ethics.
+L73: 
+L74:   * Your First Use Case: Co-Designing the Future of Learning 8:52
+L75: 
+L76: Explore participatory ai in education and co-design with teachers and students to co-own learning tools, harness feedback, and build transparent, ethically grounded classrooms.
+L77: ### Understanding Humans in the Loop 3 lectures • 37min
+L78: 
+L79:   * How Humans Think and Feel: Understanding Foundations for Human-Centered AI 16:10
+L80: 
+L81: Explore how human cognition and emotion inform human-centered ai, balancing system 1 and system 2 thinking, cognitive load and heuristics, and fostering transparency and trust.
+L82: 
+L83:   * Human-in-the-Loop vs. Human-on-the-Loop - Designing Human-AI Collaboration 11:43
+L84: Explore human in the loop and human on the loop designs that balance automation with human authority, guiding trustworthy, value-sensitive collaboration between people and AI.
+L85: 
+L86:   * Designing AI that Reflects Human Values and Emotional Intelligence 8:54
+L87: 
+L88: Explore value sensitive design and empathic design to embed individual, organizational, and societal values into human-centered AI, boosting trust, inclusion, fairness, transparency, and ethics through emotional intelligence.
+L89: ### Designing Human-Centered AI Experiences 8 lectures • 1hr 19min
+L90: 
+L91:   * Designing for Trustworthy, Empathic, and Engaging Interfaces 8:57
+L92: 
+L93: Design human AI interfaces that listen, explain, and adapt to users, building trust through transparent, empathic, and engaging micro interactions that support co-design and mutual learning.
+L94: 
+L95:   * Explainable and Interpretable AI - Making the Invisible Visible 9:24
+L96: Learn explainable and interpretable AI to turn AI decisions into clear insights and trust. Use user-friendly explanations, counterfactuals, and tools like SHAP and LIME to reveal influencing factors.
+L97: 
+L98:   * AI for Creativity and Co-Creation - When Machines Dream with Us 12:00
+L99: 
+L100: Explore human-centered AI co-creativity as a partner for inspiration, expanding imagination through a human-AI creative loop. Examine divergent and convergent thinking, authorship, and ethical co-creation in AI art.
+L101:   * AI for Emotional Intelligence and Support - Emotionally Aware Systems 10:00
+L102: 
+L103: Explore how AI uses emotional intelligence to read cues from facial expressions, voice, language, and physiological data to respond with sensitivity and support human needs, while addressing ethics and privacy.
+L104: 
+L105:   * AI for Emotional Intelligence - AI in Mental Health and Coaching 9:36
+L106: Discover how AI for emotional intelligence companions support mental health and coaching by reflecting on thoughts, rehearsing CBT techniques, and adapting to physiological signals to aid burnout prevention.
+L107: 
+L108:   * AI for Wellbeing and Flourishing p1 9:15
+L109: 
+L110: Explore how human-centered AI becomes a quiet partner for wellbeing and flourishing, fostering autonomy, engagement, relationships, meaning, and accomplishment through CBT micro coaching and reflective prompts.
+L111:   * AI for Wellbeing and Flourishing - p. 2 9:39
+L112: 
+L113: Explore how human-centered ai supports wellbeing and flourishing through companionship and culturally tuned support, guided by trust, personalization, transparent ethics, and designs that empower user autonomy.
+L114: 
+L115:   * Measuring Human Flourishing for Human-Centered AI Systems 9:44
+L116: Explore measuring flourishing in human-centered ai, shifting from accuracy and speed to well-being, trust, and growth through indicators like flow, autonomy, and meaningful engagement.
+L117: ### Building and Evaluating Human-Centered AI Systems 4 lectures • 43min
+L118: 
+L119:   * Data with Dignity 8:11
+L120: 
+L121: Explore data with dignity by designing human-centered AI that treats consent as an ongoing dialogue, protects privacy by design, and co-designs with diverse users to earn trust.
+L122: 
+L123:   * AI Evaluation Beyond Accuracy 12:29
+L124: Evaluate AI beyond accuracy by focusing on human-centered metrics like trust, empowerment, dignity, and emotional resonance. Use mixed-method evaluation to blend qualitative insights with quantitative data for holistic understanding.
+L125: 
+L126:   * Prototyping AI for Impact 11:07
+L127: 
+L128: Learn participatory prototyping and iterative, human-centered design to refine AI systems with empathy, feedback loops, and real-world field pilots that measure impact and ethics.
+L129: 
+L130:   * Designing Your Human Impact Lifecycle Map 11:05
+L131: Design your human impact lifecycle map for a living, human-centered AI system by integrating data evaluation, feedback, and evolving relationships across design, deployment, and renewal.
+L132: ### Capstone - Designing the Future of Human-Centered Ai 3 lectures • 24min
+L133: 
+L134:   * Bringing Human-AI Systems to Life - Journey and Use Cases 13:22
+L135: 
+L136: Explore how to bring human-centered AI to life by designing with purpose, empathy, and transparency across education, healthcare, environment, and civic use cases.
+L137: 
+L138:   * The Future we Want with AI - the AI 2030 Manifesto 9:24
+L139: envision how human-centered ai can foster personal, collective, and planetary flourishing and craft a manifesto that reflects ethical and emotional dimensions of ai futures.
+L140: 
+L141:   * Bonus Lecture 0:46
+L142: ## Requirements
+L143: 
+L144:   * No technical background required
+L145: ## Description
+L146: 
+L147: Artificial Intelligence is transforming every industry — but true leadership in this new era requires more than technical know-how. It calls for wisdom, empathy, and a human-centered approach.
+L148: 
+L149: In this course, you’ll explore how to lead responsibly in an AI-driven world. Drawing on psychology, ethics, and design thinking, you’ll learn how to align intelligent systems with human values — ensuring technology supports growth, wellbeing, and fairness rather than undermining them.
+L150: You’ll discover frameworks for responsible AI decision-making, explore practical cases from healthcare, education, creativity, and sustainability, and learn how to measure success in human terms — trust, empowerment, and social impact. You will learn what the frontiers of human-centered AI, including social AI, creative AI and emotional AI.
+L151: Through engaging examples, reflective prompts, and storytelling-based lessons, you’ll build the mindset and practical tools to design, evaluate, and communicate AI strategies that are ethical, inclusive, and future-ready.
+L152: 
+L153: By the end of the course, you will be able to:
+L154: 
+L155:   * Evaluate the human impact of AI systems using practical ethical and design frameworks.
+L156: 
+L157:   * Communicate purpose-driven AI strategies to teams and stakeholders.
+L158:   * Integrate wellbeing, creativity, and trust as success metrics for AI initiatives.
+L159: 
+L160:   * Lead with confidence in shaping an AI future that empowers people and communities.
+L161: 
+L162: Whether you work in business, education, policy, or innovation — this course helps you lead with clarity and conscience.
+L163: Join now to shape the next generation of AI leadership — one that’s intelligent, ethical, and deeply human.
+L164: ## Who this course is for:
+L165:   * Executives and senior leaders guiding AI or digital transformation initiatives.
+L166:   * Middle managers seeking to integrate human-centered principles into innovation projects.
+L167:   * Product managers designing or deploying AI-based products or services.
+L168:   * Data scientists and AI practitioners interested in the human and ethical dimensions of their work.
+L169:   * Policymakers developing governance frameworks for ethical and responsible AI.
+L170:   * Educators and academic leaders teaching technology, ethics, or leadership.
+L171:   * UX and service designers incorporating empathy and inclusion in AI-driven systems.
+L172:   * Consultants advising organizations on AI strategy, innovation, or digital ethics.
+L173:   * Entrepreneurs and startup founders building human-centered or socially responsible AI ventures.
+L174:   * Researchers exploring AI’s impact on psychology, behavior, or society.
+L175:   * Nonprofit leaders and NGOs applying AI for social good and community wellbeing.
+L176:   * HR and organizational development leaders focusing on wellbeing and future-of-work strategies.
+L177:   * Students or career changers preparing for leadership roles in the AI era.
+L178:   * Curious professionals who want to understand how AI can empower — not replace — people.
+L179: Show more Show less
+L180: 
+L181: cite10†Report abuse 

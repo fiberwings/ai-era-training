@@ -1,0 +1,357 @@
+AI fundamentals for Beginners - Learn LLM, Agentic AI, MCP (https://www.udemy.com/course/ai-fundamentals-for-beginners-learn-llm-agentic-ai-mcp/)
+citeturn45view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-fundamentals-for-beginners-learn-llm-agentic-ai-mcp/","lineno":null}); Total lines: 371
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: AI fundamentals for Beginners - Learn LLM, Agentic AI, MCP
+L41: 
+L42: Rating: 4.5 out of 5 4.5cite12†(1,405 ratings) L43: 
+L44: 8,472 students
+L45: 
+L46: cite0†Image†img-c.udemycdn.com Preview this course
+L47: # AI fundamentals for Beginners - Learn LLM, Agentic AI, MCP
+L48: 
+L49: From Zero to AI-Ready 2026: Learn from scratch about Gen AI, LLMs, Prompt Engineering, RAG, MCP, Claude and AI Agents
+L50: 
+L51: Created bycite13†Himanshu Rana L52: 
+L53: Last updated 10/2026
+L54: 
+L55: English
+L56: 
+L57: cite0†Image†img-c.udemycdn.com Preview this course
+L58: ## What you'll learn
+L59: 
+L60:   * Fundamentals of Generative AI and how it differs from traditional AI
+L61: 
+L62:   * How Large Language Models (LLMs) work at a high level (without heavy math)
+L63: 
+L64:   * Prompt Engineering techniques to get better, more reliable AI outputs
+L65: 
+L66:   * How AI systems use context, memory, and tools
+L67: 
+L68:   * Build an AI agent and host in AWS Bedrock AgentCore that can get I.T done with simple prompting
+L69: 
+L70:   * Building own MCP server
+L71:   * Model Context Protocol (MCP) – how models securely connect to tools, data, and services
+L72: 
+L73:   * Using 3rd party MCP servers to connect to external systems
+L74: 
+L75:   * Working with open source model locally on your own machine
+L76: 
+L77:   * Building RAG based chatbots using Langflow
+L78: 
+L79:   * Build app using Claude Code
+L80: 
+L81: Show more Show less
+L82: ## Course content
+L83: 
+L84: 8 sections • 64 lectures • 8h 50m total length
+L85: 
+L86: Expand all sections
+L87: ### Getting first hand taste of Generative Ai on your local Machine 7 lectures • 31min
+L88: 
+L89:   * Jumping right into the World of Artificial Intelligence Preview 2:01
+L90: 
+L91: Explore how modern ai goes beyond chatbots to book flights and browse and scrape the web. Engage hands-on with open-source models on your laptop to build an english tutor assistant.
+L92: 
+L93:   * Setting up Ollama on Mac & Windows for local testing Preview 8:33
+L94: 
+L95:   * Build your first Ai application: English Tutor using Ollama 4:38
+L96:   * Explore NotebookLM from Google 4:54
+L97: 
+L98: Explore Google's Notebook LM, an AI tool for students and researchers that generates audio and video overviews, mind maps, reports, infographics, flashcards, and slide decks from uploaded or linked sources.
+L99: 
+L100:   * Course Roadmap Preview 3:15
+L101: 
+L102: follow the five-section course roadmap from installing open source models to building an english tutor assistant and exploring llm fundamentals, tokens, prompts, and mcp integrations.
+L103:   * Know your Instructor - Skip if its boring 1:21
+L104: 
+L105: Meet Iman Surana, a cloud solutions architect with 16+ years delivering enterprise-grade solutions on Azure and AWS, a Microsoft Certified Trainer and Udemy instructor partner guiding this AI fundamentals course.
+L106: 
+L107:   * Taking a look at some of the widely used Closed and Open source models 6:24
+L108: Examine closed and open source language models, including frontier models like GPT, Codex, and Gemini, alongside DeepSeq, Mistral, and Llama, and learn to test them on your laptop.
+L109: ### Fundamentals of Generative AI & LLMs 5 lectures • 33min
+L110: 
+L111:   * Generative AI vs traditional AI 4:33
+L112: 
+L113: Differentiate traditional AI from generative AI, noting that traditional AI does not generate new content while generative AI creates new text, images, and videos using deep learning.
+L114: 
+L115:   * What are Large Language Models (LLMs)6:00
+L116: Learn how large language models, trained on billions of words and billions of parameters, generate human-like text and perform tasks like answering questions, translating, and content creation.
+L117: 
+L118:   * How LLM works 9:20
+L119: 
+L120: Understand how large language models predict the next token from context using billions of parameters. They learn patterns from terabytes of data, not memorize databases, enabling reasoning and multilingual understanding.
+L121: 
+L122:   * What are Tokens 5:53
+L123: Explain tokens as the building blocks language models use to process text, including words, parts of words, numbers, punctuation, and spaces, and how tokenization influences input and pricing.
+L124: 
+L125:   * AI Jargons - Inference, Context Window, hallucinations, RAG 7:43
+L126: 
+L127: Explore how inference drives output from trained models, how the context window limits tokens, and why hallucinations occur, with rag as retrieval augmented generation.
+L128: ### Art of Prompt Engineering: Understanding And Crafting good Prompts 8 lectures • 36min
+L129: 
+L130:   * Why need to engineer a prompt?3:20
+L131: 
+L132: Learn why prompt engineering matters, choosing concise prompts to save tokens and improve accuracy, and discover how to specify output formats in prompts for large language models.
+L133: 
+L134:   * Role of Temperature, Top-K, Top-P in Sampling Output 13:25
+L135: Explore how temperature, top-k, and top-p sampling shape large language model outputs, from deterministic coding tasks to creative brainstorming, by adjusting randomness and probability mass.
+L136: 
+L137:   * Components of Prompt 6:21
+L138: 
+L139: Master prompt design by defining a persona, supplying context and input data, detailing instructions, choosing an output format, and using examples to align llm outputs with your goals.
+L140: 
+L141:   * Zero Shot Prompting 2:20
+L142: Explore zero shot prompting, giving the model only the task with no example and relying on pre-trained knowledge for simple, well known questions to yield quick results.
+L143: 
+L144:   * One-Shot or Few-Shot Prompting 2:23
+L145: 
+L146: Learn few-shot and one-shot prompting, where models follow examples to control tone, format, and reasoning for structured outputs, rewrites, and data transformations, including polite customer service style and chain-of-thought prompting.
+L147: 
+L148:   * Chain-of-Thought or CoT Prompting 1:45
+L149: Explain chain-of-thought prompting and the react prompting technique, guiding models to think step by step to improve reasoning in math, logic, and multi-step planning, with ChatGPT examples.
+L150: 
+L151:   * ReAct or Reason and Act Prompting 2:19
+L152: 
+L153: Explore react prompting, a reason-and-action approach where AI agents alternate thinking and acting—reasoning steps, then retrieving facts by searching the web or calling tools and API calls to produce answers.
+L154: 
+L155:   * System, contextual and role prompting 3:50
+L156: Master system, contextual, and role prompting to design prompts that govern AI behavior, supply background context, and define persona, shaping accurate, safe, and helpful responses in AI applications.
+L157: ### Build An AIOPS agentic AI and hosting in AWS Bedrock AgentCore 25 lectures • 3hr 33min
+L158: 
+L159:   * How This Module is Structured 3:52
+L160: 
+L161:   * What is an AI Agent 4:22
+L162: 
+L163: Learn about the AI Agent and where does it fit.
+L164: 
+L165:   * Components of AI agent 5:35
+L166: 
+L167: This lecture will explain about the components of an AI Agent
+L168: 
+L169:   * AIOPS Agent Architecture - What are we building?2:00
+L170: 
+L171: In this lecture you'll understand what product you are going to build in this module.
+L172: 
+L173:   * AIOPS Bedrock AgentCore Git Repo - Overview 6:57
+L174: You'll learn about the Git repository that we are going to use in this module and its structure.
+L175: 
+L176:   * NB 1: Building AIOPS Agent - Kickstart 7:46
+L177: 
+L178:   * NB 1: Building AIOPS Agent - Why AWS Bedrock AgentCore ?5:32
+L179: 
+L180: In this lecture you'll understand what problem does AWS Bedrock AgentCore solve
+L181: 
+L182:   * NB 1: Building AIOPS Agent - Prerequisite 17:52
+L183: 
+L184:   * NB 1: Building AIOPS Agent - Creating IAM SSO user 4:59
+L185: 
+L186: This lecture will show you how you can create an IAM SSO user in AWS
+L187:   * NB 1: Building AIOPS Agent - Configure IAM SSO user in AWS CLI 7:49
+L188: 
+L189: In this lecture you'll configure IAM SSO user in the AWS CLI to authenticate to AWS before executing any commands.
+L190: 
+L191:   * NB 1: Building AIOPS Agent - Testing Model Access 8:56
+L192: 
+L193: We'll use the AWS CLI configured with IAM SSO user to test the LLM Model Access in AWS Bedrock
+L194: 
+L195:   * NB 2: Building AIOPS Agent - Getting ready to build tools 17:22
+L196: You'll understand how you can build Tools for an AI Agent. AI Agent uses tools at its disposal to get things done.
+L197: 
+L198:   * NB 2: Building AIOPS Agent - Building and Testing Tools for our Agent 15:42
+L199: 
+L200: You'll understand how you can build and test Tools for an AI Agent. AI Agent uses tools at its disposal to get things done.
+L201: 
+L202:   * NB 2: Building AIOPS Agent - Launching EC2 Instance 8:36
+L203: 
+L204: We'll launch an EC2 instance in AWS for testing
+L205: 
+L206:   * NB 2: Building AIOPS Agent - System Prompt for our Agent 1:28
+L207: You'll understand how we can control Agent behavior using the System Prompt
+L208: 
+L209:   * NB 2: Building AIOPS Agent - Assembling the Agent & behind the scene 8:24
+L210: 
+L211:   * NB 2: Building AIOPS Agent - Test our Agent before ship to AWS AgentCore 11:31
+L212: 
+L213: We'll test our Agent will the tools locally to see if it works before we ship it to AWS AgentCore
+L214: 
+L215:   * NB 3: Deploying AIOPS Agent - Quick Overview of What will follow 4:55
+L216: 
+L217:   * NB 3: Deploying AIOPS Agent - Creating Agent Entrypoint 11:04
+L218:   * NB 3: Deploying AIOPS Agent - Installing AgentCore CLI & Scaffold the project 11:45
+L219: 
+L220: You'll install the AWS AgentCore CLI package in your terminal
+L221: 
+L222:   * NB 3: Deploying AIOPS Agent - Deploy the package into AgentCore runtime in AWS 12:37
+L223: 
+L224: You'll package the agent and deploy it into AgentCore runtime in AWS.
+L225: 
+L226:   * NB 3: Deploying AIOPS Agent - Scoping the IAM role And Invoking the Agent 11:35
+L227: 
+L228: We'll assign the requirement IAM permissions to the IAM role that AgentCore will use to get things done
+L229:   * NB 3: Deploying AIOPS Agent - Observability 6:48
+L230: 
+L231: Understand how to check trace logs of the Agent
+L232: 
+L233:   * NB 3: Deploying AIOPS Agent - Cleanup 6:56
+L234: 
+L235: Cleanup the AIOPS lab by tearing down runtime, terminating idle EC2 instances, and deleting remaining resources and policies to prevent idle costs, while reviewing deployment, observability, and guardrails.
+L236: 
+L237:   * Responsible AI Principles 8:21
+L238: Explore responsible AI principles—fairness, privacy and security, accountability, reliability, and transparency—and learn how guardrails, human in the loop oversight, and AWS Bedrock tools enable safe AI.
+L239: ### Understanding and Implementing Agentic RAG in Langflow 5 lectures • 1hr 25min
+L240: 
+L241:   * Understanding Retrieval Augmented Generation (RAG)13:12
+L242: 
+L243: Understand what RAG (Retrieval Augmented generation) is and why it is used
+L244: 
+L245:   * Front Desk Agent Without RAG - Understanding the problem 13:33
+L246: 
+L247: Understand the problem without RAG
+L248: 
+L249:   * Implementing RAG based Front Desk agent using Langflow 24:47
+L250: 
+L251: We'll setup RAG for front desk agent using Langflow to overcome the problem
+L252: 
+L253:   * Traditional RAG vs Agentic RAG 11:07
+L254: We'll understand the difference between traditional RAG and Agentic RAG
+L255: 
+L256:   * Implementing Agentic RAG 22:08
+L257: 
+L258: In this lecture we'll implement Agentic RAG.
+L259: ### Fundamentals of Model Context Protocol (MCP) and Use 4 lectures • 44min
+L260: 
+L261:   * What is MCP – The Universal Connector for AI 3:52
+L262: 
+L263: You'll understand what is Model Context Protocol or MCP and why we use it
+L264: 
+L265:   * Get the taste of Docker MCP server 10:06
+L266: 
+L267: Explore using the Docker desktop MCP server to generate YouTube transcripts by connecting a client (cloud desktop, VS Code, Gemini CLI) to MCP servers from the catalog.
+L268: 
+L269:   * Basic MCP Architecture 8:49
+L270: 
+L271: You'll understand the MCP Architecture
+L272:   * Build your own MCP server to manage Your Google Calendar 21:15
+L273: 
+L274: We learn with doing it, so in this lecture we'll configure our own MCP server to manage the Google Calendar. Google now has their own MCP server that you can use but configuring our own MCP will help to understand behind the scene working of MCP.
+L275: ### Learn how to use Claude effectively 9 lectures • 1hr 24min
+L276: 
+L277:   * What is Claude?10:54
+L278: 
+L279: You'll understand what is Claude actually
+L280: 
+L281:   * Installing Claude Desktop 6:01
+L282: 
+L283:   * Claude Features - Claude is not just a chatbot 9:12
+L284: 
+L285: You'll understand various Claude features - Claude chat, Claude cowork which is now merged into Claude chat in Sept'26 and Claude Code
+L286: 
+L287:   * Claude Models Family 6:41
+L288: 
+L289: Understand which Large Language models (LLMs) family is available in Claude.
+L290: 
+L291:   * What is Claude Code 10:01
+L292: Build anything using Claude Code, that what we gonna learn in this lecture
+L293: 
+L294:   * Build a real app using Claude Code 12:17
+L295: 
+L296: We'll build a real app using Claude Code (by just prompting to Claude)
+L297: 
+L298:   * Overview of Claude Skills 13:57
+L299: 
+L300: You'll understand what is skill and what do we do with it in Claude
+L301: 
+L302:   * Using Claude Skills 6:47
+L303: 
+L304: We'll use Claude skill to teach claude how to get the work done
+L305: 
+L306:   * Creating a new Claude Skill 8:25
+L307: You'll learn how you can create your own skill for repetitive task instead of prompting Claude the same instructions again and again.
+L308: ### Conclusion 1 lecture • 4min
+L309: 
+L310:   * Wrap-up 4:11
+L311: 
+L312: Wraps up by revisiting open-source models you can install locally, highlights prompt engineering, agentic AI with AWS bedrock, and MCP (model context protocol) for connecting external sources like Google Calendar.
+L313: ## Requirements
+L314: 
+L315:   * No prior experience required in AI, ML. We'll get that covered
+L316: 
+L317:   * Basic programming knowledge (Python, yaml or JavaScript) can be helpful for hands-on examples
+L318: 
+L319:   * Basic knowledge of AWS cloud and services like EC2, Lambda functions, cloudformation
+L320: 
+L321:   * Basic knowledge of Git
+L322: 
+L323:   * Curiosity to learn about AI
+L324: ## Description
+L325: 
+L326: Artificial Intelligence is no longer just for researchers and data scientists. Generative AI and Large Language Models (LLMs) are becoming part of everyday work — from writing and research to automation and intelligent agents. If you want to actually understand how today's AI systems work (not just use ChatGPT and hope for the best), this course gives you that foundation.
+L327: This is a beginner-friendly, hands-on introduction to modern AI — but don't mistake "beginner-friendly" for "surface-level." By the end, you'll have built an AIOPS agent, a Retrieval-Augmented Generation (RAG) pipeline visually using Langflow, and built and deployed your own working MCP (Model Context Protocol) server with real OAuth authentication and API integration — two things most "intro to AI" courses never get close to.
+L328: 
+L329: Taught by a cloud architect, not just an AI enthusiast
+L330: This course is created by Himanshu Rana, a Cloud Solutions Architect with 16+ years delivering enterprise-grade solutions on AWS and Azure, and a Microsoft Certified Trainer. You're learning AI fundamentals from someone who's also spent a career building production systems — so the explanations are grounded in how this technology actually gets used, not just how it's marketed.
+L331: 
+L332: What you'll learn
+L333: 
+L334:   * Core foundations of Generative AI and how LLMs actually "think" and generate responses
+L335:   * Tokens, prompts, and how tokenization affects both output quality and API cost
+L336: 
+L337:   * Prompt engineering techniques to get consistent, reliable results from any LLM
+L338: 
+L339:   * Retrieval-Augmented Generation (RAG) — the difference between traditional RAG and agentic RAG, and how to build a RAG pipeline visually using Langflow, no heavy coding required
+L340: 
+L341:   * AI Agents: how they plan, reason, and use tools across vector stores, web search, and APIs
+L342:   * Model Context Protocol (MCP) — the emerging standard for connecting AI models to real tools and systems, including hosts, clients, servers, and transport layers
+L343: 
+L344:   * Hands-on project: build your own MCP server to manage Google Calendar, with OAuth authentication and live API access — list, schedule, and delete events through an AI client
+L345: 
+L346:   * How to run and compare open-source models locally, and build an agentic AI Agent with AWS Bedrock AgentCore
+L347:   * How you can better use Claude features - Claude Code, Claude Cowork, Claude Skill
+L348: 
+L349: Who this course is for
+L350: 
+L351:   * Beginners with no prior AI or machine learning background who want a real foundation, not just buzzwords
+L352: 
+L353:   * Developers and non-developers alike who want a visual, low-code way to understand RAG and agentic workflows before diving into code-first frameworks like LangChain or LangGraph
+L354:   * Product managers, founders, and team leads who need a working mental model of how modern AI systems are built
+L355: 
+L356:   * Anyone curious about AWS Bedrock Agentcore, MCP, Langflow, or what it actually takes to connect an AI model to a real external tool
+L357: 
+L358: A note on scope
+L359: This course is intentionally focused — it's the solid on-ramp before you commit to a multi-week, multi-framework bootcamp. You'll walk away with real conceptual depth, a working RAG pipeline built visually in Langflow, and a complete hands-on MCP project — not a half-finished tour through ten different agent frameworks. If you're looking for a clear, practical starting point in AI before specializing into code-heavy frameworks, this is built for exactly that.
+L360: By the end of this course, you won't just know about AI — you'll know how it works under the hood, and you'll have built something real with it.
+L361: ## Who this course is for:
+L362: 
+L363:   * Beginners with no prior AI or machine learning experience
+L364:   * Students curious about Generative AI and modern AI systems
+L365:   * Developers who want to understand LLMs, agents, and MCP concepts clearly
+L366:   * Professionals and entrepreneurs looking to upskill in AI
+L367: 
+L368: Show more Show less
+L369: 
+L370: cite14†Report abuse 

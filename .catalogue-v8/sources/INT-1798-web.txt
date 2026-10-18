@@ -1,0 +1,605 @@
+Hands On AI (LLM) Red Teaming (https://www.udemy.com/course/hands-on-ai-llm-red-teaming/)
+citeturn132view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/hands-on-ai-llm-red-teaming/","lineno":null}); Total lines: 619
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: Hands On AI (LLM) Red Teaming
+L41: 
+L42: Rating: 4.4 out of 5 4.4cite12†(131 ratings) L43: 
+L44: 2,225 students
+L45: 
+L46: cite0†Image†img-c.udemycdn.com Preview this course
+L47: # Hands On AI (LLM) Red Teaming
+L48: 
+L49: Learn AI Red Teaming from Basics of LLMs, LLM Architecture, AI/GenAI Apps and all the way to AI Agents
+L50: 
+L51: Created bycite13†Jitendra Chauhan L52: 
+L53: Last updated 9/2025
+L54: 
+L55: English
+L56: 
+L57: English [Auto],Korean [Auto],
+L58: 
+L59: cite0†Image†img-c.udemycdn.com Preview this course
+L60: 
+L61: ## What you'll learn
+L62: 
+L63:   * Fundamentals of LLMs
+L64: 
+L65:   * Jailbreaking LLMs
+L66: 
+L67:   * OWASP Top 10 LLM & GenAI
+L68: 
+L69:   * Hands On - LLM Red Teaming with tools
+L70: 
+L71:   * Writing Malicious Prompts (Adversarial Prompt Engineering)
+L72: ## Course content
+L73: 
+L74: 8 sections • 47 lectures • 12h 24m total length
+L75: 
+L76: Expand all sections
+L77: ### Introduction 4 lectures • 44min
+L78: 
+L79:   * Introduction Preview 11:48
+L80: 
+L81: Instructor: Jitendra Chauhan, Founder of Detoxio AI,  Hands On Red Teaming Practitioner and Cybersecurity Professional since 2006. 2x Patents in AI based Red Teaming.
+L82: 
+L83: Objective
+L84: This course provides hands-on training in AI security, focusing on red teaming for large language models (LLMs). It is designed for offensive cybersecurity researchers, AI practitioners, and managers of cybersecurity teams. The training aims to equip participants with skills to:
+L85: 
+L86:     * Identify and exploit vulnerabilities in AI systems for ethical purposes.
+L87: 
+L88:     * Defend AI systems from attacks.
+L89: 
+L90:     * Implement AI governance and safety measures within organizations.
+L91: 
+L92: Why AI Security Matters
+L93:     1. Historical Incidents Highlighting AI Vulnerabilities:
+L94: 
+L95:        * Microsoft Tay (2016): Offensive behavior due to unsupervised learning.
+L96: 
+L97:        * Amazon AI Recruiting Tool (2018): Discriminatory hiring practices caused by biased training data.
+L98: 
+L99:        * McDonald's AI Order Management System (2024): Operational failures leading to a rollback.
+L100: 
+L101:     2. Rising AI Incidents:
+L102: 
+L103:        * A 300% increase in AI-related security incidents (Databricks data).
+L104:        * High-profile cases involving brands like Air Canada, Zillow, and others.
+L105: 
+L106:     3. The Threat Landscape:
+L107: 
+L108:        * Misuse of AI for disinformation, deepfakes, and malicious activities.
+L109: 
+L110:        * Direct attacks on AI systems (e.g., jailbreaking, adversarial inputs, prompt injections).
+L111: 
+L112:     4. Consequences of Inadequate AI Security:
+L113: 
+L114:        * Financial losses.
+L115: 
+L116:        * Brand damage.
+L117: 
+L118:        * Regulatory scrutiny.
+L119: 
+L120: Learning Goals
+L121: 
+L122:     * Understand generative AI risks and vulnerabilities.
+L123:     * Explore regulatory frameworks like the EU AI Act and emerging AI safety standards.
+L124: 
+L125:     * Gain practical skills in testing and securing LLM systems.
+L126: 
+L127: Course Structure
+L128: 
+L129:     1. Introduction to AI Red Teaming:
+L130: 
+L131:        * Architecture of LLMs.
+L132: 
+L133:        * Taxonomy of LLM risks.
+L134: 
+L135:        * Overview of red teaming strategies and tools.
+L136: 
+L137:     2. Breaking LLMs:
+L138: 
+L139:        * Techniques for jailbreaking LLMs.
+L140: 
+L141:        * Hands-on exercises for vulnerability testing.
+L142: 
+L143:     3. Prompt Injections:
+L144:        * Basics of prompt injections and their differences from jailbreaking.
+L145: 
+L146:        * Techniques for conducting and preventing prompt injections.
+L147: 
+L148:        * Practical exercises with RAG (Retrieval-Augmented Generation) and agent architectures.
+L149: 
+L150:     4. OWASP Top 10 Risks for LLMs:
+L151: 
+L152:        * Understanding common risks.
+L153: 
+L154:        * Demos to reinforce concepts.
+L155: 
+L156:        * Guided red teaming exercises for testing and mitigating these risks.
+L157: 
+L158:     5. Implementation Tools and Resources:
+L159:        * Jupyter notebooks, templates, and tools for red teaming.
+L160: 
+L161:        * Taxonomy of security tools to implement guardrails and monitoring solutions.
+L162: 
+L163: Key Outcomes
+L164: 
+L165:     * Enhanced Knowledge: Develop expertise in AI security terminology, frameworks, and tactics.
+L166: 
+L167:     * Practical Skills: Hands-on experience in red teaming LLMs and mitigating risks.
+L168: 
+L169:     * Framework Development: Build AI governance and security maturity models for your organization.
+L170: 
+L171: Who Should Attend?
+L172: 
+L173: This course is ideal for:
+L174:     * Offensive cybersecurity researchers.
+L175: 
+L176:     * AI practitioners focused on defense and safety.
+L177: 
+L178:     * Managers seeking to build and guide AI security teams.
+L179: 
+L180: Good luck and see you in the sessions!
+L181: 
+L182:   * Setup Lab Preview 11:18
+L183: 
+L184: Welcome to the LLM Red Teaming Training. This guide provides step-by-step instructions to set up the necessary environment and tools for practicing red teaming and hands-on sessions with Large Language Models (LLMs).
+L185: 
+L186: This setup guide includes:
+L187:     * Hugging Face account registration and access token generation.
+L188: 
+L189:     * Kaggle setup for utilizing GPUs.
+L190: 
+L191:     * Optional Grok Cloud setup for additional model access.
+L192: 
+L193:     * Detox API key setup.
+L194: 
+L195:     * Enterprise cloud options for running large-scale models.
+L196: 
+L197:   * Run a Hugging Face Model
+L198: 
+L199:   * Quick Lab Setup: Get Your Virtual Environment Ready 5:20
+L200: 
+L201: Lab Setup Guide
+L202: 
+L203: This guide will get your virtual lab running quickly.
+L204: 
+L205: 1. System Requirements
+L206: First, ensure your computer has these resources available for the VM:
+L207: 
+L208:     * CPU: 4-8 Cores
+L209: 
+L210:     * RAM: 8-16 GB
+L211: 
+L212:     * Disk Space: 50 GB
+L213: 
+L214: 2. Import the VM
+L215: 
+L216: Download the OVA file from the link in the Resources section and import it into your virtualization software (like VirtualBox/VMware).
+L217: 
+L218: Start the VM and log in with:
+L219: 
+L220:     * User: dtx
+L221: 
+L222:     * Password: dtx
+L223: 
+L224: 3. Add API Keys
+L225: 
+L226: 4. Run Final Setup
+L227: 
+L228: Your lab is now ready!
+L229: 
+L230:   * Ollama - Running Model on your Local Laptop 15:45
+L231: This lecture provided an introduction to Ollama, a framework for running AI models locally, even on CPUs, by using quantized versions of models. Key topics included:
+L232: 
+L233:     1. Installation: Steps to install Ollama on Linux and set up the environment.
+L234: 
+L235:     2. Model Management: How to browse, pull, and run various models like qwen2:0.5b and llama3.2:1b.
+L236: 
+L237:     3. Customization: Creating and deploying customized models using Modelfile with parameters like temperature and system prompts.
+L238:     4. API Access: Using APIs to interact with models programmatically.
+L239: 
+L240:     5. Service Management: Commands to start, stop, and manage the Ollama service.
+L241: 
+L242:     6. Version Control: Organizing and tracking customized models using Git.
+L243: 
+L244:   * Solve Three Gods Puzzle
+L245: 
+L246:   * google/gemma-3-270m and BOMB vs Bomb
+L247: ### Short Introduction to AI and LLMs 2 lectures • 51min
+L248: 
+L249:   * Fundamentals of AI for Red teamers 13:47
+L250: This session talks about the foundation of AI through a series of labs that explore the history of GPT, the evolution of AI agents, and the early roots of perceptrons in the 1960s—the atoms of AI. You will dive into discriminative and generative models, understand their significance, and learn how the limitations of traditional NLP approaches paved the way for modern large language models (LLMs).
+L251: By combining theory with practical insights, this session provides a strong base for grasping how AI has evolved into today’s powerful systems.
+L252:   * Download and Run resnet50-v1-12 Model
+L253: 
+L254:   * A short Fundamentals of LLMs 37:05
+L255: This lecture breaks down the core concepts of Large Language Models (LLMs). We'll explore what they are, how they are trained, and the breakthrough Transformer architecture that powers them. You will understand how their simple function of predicting the next word leads to powerful emergent capabilities like text generation, summarization, and code completion. This is your essential primer on the technology driving the AI revolution.
+L256: 
+L257:   * Downloading and Running Qwen/Qwen3-0.6B
+L258: ### AI Adversarial Testing 5 lectures • 54min
+L259: 
+L260:   * Introduction to Adversarial Testing 20:11
+L261: This session talks about adversarial testing and the essential tools used to evaluate AI systems against real-world threats. You will explore evasion attacks that fool trained models, extraction attacks that steal model functionality, and inference attacks that compromise sensitive data. The session also covers poisoning attacks that corrupt the learning process and introduces the Fast Gradient Sign Method (FGSM) as a key adversarial strategy.
+L262: By understanding these methods and notable incidents, you’ll gain practical knowledge of how adversarial testing strengthens AI security and resilience.
+L263:   * Practice Questions on Adversarial Testing
+L264: 
+L265:   * Introduction IBM ART 9:52
+L266: 
+L267: This session talks about the introduction of IBM Adversarial Robustness Toolbox (ART), explaining its architecture and core components. You will explore the various types of attacks it supports, along with practical examples that highlight its use in adversarial testing. The session also provides an overview of key functions, helping you understand how ART can be applied to strengthen AI models against security threats.
+L268:   * Adversarial Robustness Testing of an ONNX Model
+L269: 
+L270:   * Introduction Textattack 8:37
+L271: 
+L272: This session talks about the TextAttack tool, covering its architecture and its attack models. You will explore how TextAttack performs data augmentation and generates adversarial attacks in NLP. The session also introduces the AdvBench dataset, providing a foundation for understanding and experimenting with adversarial robustness in natural language processing tasks.
+L273:   * Adversarial Text Generation with Textattack (Data Augmentation)7:54
+L274: 
+L275: This session talks about the setup process for the TextAttack tool and demonstrates how to get it running effectively. You will be guided through installation and configuration, ensuring the environment is ready for use. The session also walks through practical examples, showing the tool in action and helping you understand its functionality for adversarial testing in NLP.
+L276: 
+L277:   * Generating Adversarial Text with textattack
+L278:   * Blackbox Adversial Testing with textattack 7:45
+L279: 
+L280: This session talks about blackbox adversarial testing using the TextAttack tool in a real-time lab environment. You will learn how to execute attacks without direct access to the model’s internals, gaining practical insights into blackbox evaluation methods. Through hands-on demonstrations, the session shows how adversarial testing can expose vulnerabilities in NLP systems and prepare you to apply these techniques in real-world scenarios.
+L281:   * Adversarial Attack on a Toxicity Classifier using IBM ART
+L282: ### AI Red Teaming Introduction 10 lectures • 2hr 9min
+L283: 
+L284:   * History of AI Attacks & Failures 18:34
+L285: 
+L286: This session provides an overview of significant incidents involving AI systems, highlighting vulnerabilities and ethical challenges. Students will learn about key examples of AI failures, such as biased decision-making, adversarial attacks on models, and real-world consequences of AI missteps. The focus will be on understanding lessons learned to improve AI reliability, security, and fairness.
+L287:   * AI Risk Classes 2:01
+L288: 
+L289: This session introduces the various categories of risks associated with AI systems. Students will learn about technical risks (e.g., adversarial attacks, robustness), ethical risks (e.g., bias, privacy), and societal risks (e.g., automation impact, misinformation). The session aims to provide a foundational understanding of how these risks can manifest and their implications for AI deployment.
+L290: 
+L291:   * What is AI Red Teaming?17:16
+L292: This session explores the concept of AI Red Teaming, a proactive approach to identifying vulnerabilities in AI systems. Students will learn how adversarial testing, ethical hacking, and stress-testing techniques are applied to uncover weaknesses in models, datasets, and system workflows. The goal is to understand how Red Teaming enhances AI security, reliability, and resilience against threats.
+L293: 
+L294:   * Try Malicious Prompt on an Online Model
+L295: 
+L296:   * AI Attacks Taxonomy Part 1 9:13
+L297: This session provides an overview of the classification of AI attacks, offering insights into different methods used to exploit AI systems. Students will learn about attack categories such as adversarial attacks, data poisoning, model inversion, and evasion. The focus will be on understanding how these attacks work and their implications for AI security and trustworthiness.
+L298: 
+L299:   * Data Poisoning Attack on Hugging Face Models
+L300: 
+L301:   * AI Attacks Taxonomy Part 2 18:51
+L302: Building on Part 1, this session delves deeper into advanced and emerging AI attack techniques. Students will explore methods like backdoor attacks, membership inference, and model stealing. The session emphasizes real-world scenarios, the evolving landscape of AI vulnerabilities, and strategies to detect and mitigate these sophisticated threats.
+L303: 
+L304:   * Create your own PoisonGPT
+L305: 
+L306:   * Adversarial Testing - TextAttack Demo 20:58
+L307: This session introduces the concept of adversarial testing for AI systems, focusing on natural language processing (NLP) models. Students will learn how adversarial examples are generated and tested using the TextAttack framework. Through a hands-on demonstration, they will observe how small, crafted perturbations can impact model predictions and understand the importance of robustness in NLP models.
+L308: 
+L309:   * TextAttack Results 8:35
+L310: In this session, we will go through the results of a systematic evaluation of a natural language processing (NLP) model's robustness against adversarial attacks using TextAttack, a specialized framework for generating and analyzing adversarial examples. By applying predefined attack recipes and leveraging model-specific configurations, we tested the model's ability to maintain accurate predictions under manipulated inputs.
+L311: The results revealed key insights into the model's vulnerabilities and its performance under constrained adversarial conditions, offering valuable guidance for refining its defenses and improving overall robustness.
+L312:   * Adversarial Testing - Jailbreaking Demo 10:29
+L313: 
+L314: In this session, students will explore the concept of jailbreaking AI systems, focusing on methods to bypass safeguards in language models. Through live demonstrations, students will learn how adversarial prompts can exploit system weaknesses and the importance of designing stronger guardrails to prevent misuse.
+L315: 
+L316:   * Try Vision Model Jailbreak
+L317: 
+L318:   * Run Garak on Ollama Models 10:12
+L319: This session provided insights into testing a customized Ollama model using the Garak tool. The focus was on evaluating the model's performance, identifying potential vulnerabilities, and validating its adherence to customization parameters
+L320: 
+L321:   * Reading Garak Results 13:07
+L322: In this session, we explored the results of a Garak analysis, focusing on the performance of a language model when subjected to adversarial probes and mitigation strategies. The primary objective was to interpret the model's vulnerabilities, particularly in handling DAN-style jailbreaks and its ability to bypass or maintain mitigation defenses.
+L323: By examining the success and failure rates across different detectors, we identified specific areas where the model demonstrated weaknesses, providing actionable insights for improving its robustness and safety mechanisms. The session highlighted the effectiveness of Garak as a tool for diagnosing and benchmarking language model vulnerabilities.
+L324: ### Jailbreaking & Prompt Injections 9 lectures • 3hr 13min
+L325: 
+L326:   * Introduction to Prompt Injections Preview 12:36
+L327: 
+L328: This chapter introduces the concept of prompt injections and their role as a class of attacks on AI applications. Students will learn how prompt injections manipulate LLM behavior to bypass safeguards, similar to SQL injection in traditional web security.
+L329: 
+L330:   * Setup AI Agents Lab
+L331: 
+L332:   * Prompt Internal Structure 15:42
+L333: This chapter provides an in-depth look into the internal structure of prompts, covering system prompts, context data, developer instructions, and user queries.
+L334: 
+L335:   * RAG prompt Structure
+L336: 
+L337:   * Real life Examples of Prompt Injections 11:50
+L338: 
+L339: Explore real-world instances where prompt injections have caused security breaches, including OpenAI's financial API, Chevrolet chatbot, and Microsoft Tay chatbot incidents.
+L340: 
+L341:   * Prompt Injection on Text2SqlAgent
+L342: 
+L343:   * Craft a Prompt Injection Prompt 24:16
+L344: Students will learn to construct their first prompt injection attack using techniques like forceful suggestion and role-playing to influence LLM behavior.
+L345: 
+L346:   * Try Prompt Injections on Pokebot 11:01
+L347: 
+L348: Session Overview
+L349: The session introduced two primary platforms: PokeBot and Medusa, which are designed to simulate real-world vulnerabilities in AI systems. Participants were tasked with identifying and exploiting vulnerabilities in these systems to gain insights into potential security flaws in AI-powered applications. The session emphasized the importance of implementing robust guardrails to prevent unauthorized access and data leaks.
+L350: 
+L351: Key Platforms and Their Purpose
+L352: 
+L353:     1. PokeBot
+L354:        * A sample healthcare assistant designed to handle healthcare-related queries.
+L355: 
+L356:        * Demonstrates a limited ability to respond to out-of-context questions due to a lack of data, simulating a basic guardrail.
+L357: 
+L358:        * Participants explored ways to bypass these guardrails and make the bot respond to unrelated or sensitive queries.
+L359: 
+L360:     2. Medusa
+L361: 
+L362:        * A platform containing multiple vulnerable AI-driven applications, each presenting unique challenges for participants to solve:
+L363:          * Math Assistant: Exploiting vulnerabilities in a library to evaluate math expressions.
+L364: 
+L365:          * SQL DB Assistant: Extracting unauthorized data from a database.
+L366: 
+L367:          * Chat Leaky Assistant: Accessing sensitive credentials across progressive challenge levels.
+L368: 
+L369:          * Fintech Assistant: Extracting sensitive transactional data.
+L370: 
+L371:   * Basic Prompt Injection Techniques 25:19
+L372: This chapter dives into foundational techniques such as "Ignore All Instructions" and "Forceful Suggestion," which exploit attention shifts in LLMs.
+L373: 
+L374:   * Try Prompt Injections on Medusa Preview 11:40
+L375: The session introduced Medusa, a GenAI application designed for exploring vulnerabilities in generative AI systems through interactive challenges. Participants learned how to navigate the platform, select challenges, and engage with AI agents showcasing specific vulnerabilities such as prompt injection, SQL injection, and code execution flaws.
+L376: The session highlighted how to creatively interact with AI guardrails, exploit vulnerabilities, and retrieve hidden flags, offering a hands-on approach to understanding AI security concepts. This interactive learning experience provided insights into securing AI applications against common threats.
+L377:   * Intermediate Prompt Injection Techniques 18:41
+L378: 
+L379: This chapter explores techniques like context switching, payload splitting, and obfuscation to bypass advanced safeguards in LLM systems.
+L380: 
+L381:   * Owasp top 10 LLM Apps 1:01:25
+L382: In this lecture, we explore the OWASP Top 10 vulnerabilities for Large Language Models (LLMs) and why they matter in today's AI-driven world. From Prompt Injection to Sensitive Information Disclosure, Data Poisoning, and System Prompt Leakage, we break down the biggest risks that come with implementing AI systems. These vulnerabilities highlight how LLMs can be manipulated, exploited, or misused, posing risks to businesses, developers, and users alike.
+L383: ### Advance AI - AI Agents and Reasoning Models 9 lectures • 2hr 14min
+L384: 
+L385:   * Introduction to Reasoning Models 20:09
+L386: 
+L387: This lecture introduces the concept of reasoning models, highlighting their ability to perform logical deductions, handle multi-step tasks, and simulate human-like problem-solving processes. It explains the importance of reasoning capabilities in AI systems and provides foundational knowledge about their applications.
+L388: 
+L389:   * Reasoning Models Training & Applicability 19:33
+L390: In this lecture, the training processes and methodologies behind reasoning models, such as chain-of-thought reasoning and reinforcement learning, are discussed. It explores their applicability across domains like decision-making, mathematics, and novel problem-solving scenarios, showcasing their superiority in handling complex tasks.
+L391: 
+L392:   * Handson - Running Deepseek Using Olama 7:15
+L393: This session provides a hands-on guide to running Deepseek, a cutting-edge reasoning model, using the Olama platform. It covers the setup process, execution steps, and the use of Deepseek for advanced reasoning tasks, emphasizing its efficiency and practicality in real-world problem-solving.
+L394: 
+L395:   * Introduction to AI Agents 13:17
+L396: This lecture introduces AI agents, explaining their ability to integrate reasoning with autonomous actions to perform complex workflows. It discusses their architecture, including components like cognition, planning, tool integration, and memory, highlighting their potential to revolutionize AI-driven decision-making.
+L397: 
+L398:   * Demo of Autonomous Pentesting AI Agent 23:21
+L399: Explore a hands-on demonstration of an AI agent performing automated vulnerability assessment using tools like Nmap, showcasing goal-driven task planning, execution, and result analysis.
+L400: 
+L401:   * AI Agents Evolution 9:14
+L402: 
+L403: Trace the journey of AI agents from simple LLMs to sophisticated autonomous systems capable of reasoning, planning, and acting in diverse real-world scenarios.
+L404: 
+L405:   * AI Agents in Enterprises 15:23
+L406: Learn how autonomous AI agents are transforming enterprise operations—from marketing and customer support to cybersecurity and workflow automation.
+L407: 
+L408:   * Detoxio AI's Autonomous AI Jailbreak Agent 8:46
+L409: 
+L410: Understand how Detoxio's agent generates adversarial prompts to test and bypass AI safety filters, highlighting both offensive testing and defensive reinforcement techniques.
+L411: 
+L412:   * Build an AI Agent using Microsoft Autogen Framework 16:44
+L413: In this lecture, learners are guided through the process of building an AI agent specifically for red teaming tasks. The session covers the design, integration of reasoning models, and deployment of agents to identify vulnerabilities in AI systems, showcasing their application in enhancing AI security.
+L414: ### Mitigating AI Safety Issues 4 lectures • 1hr 12min
+L415: 
+L416:   * Mitigating Prompt Injections and Jailbreaks 19:54
+L417: 
+L418: Overview:
+L419: 
+L420:     * Understanding prompt injection and jailbreak techniques in LLMs.
+L421: 
+L422:     * Key security risks such as excessive privilege, data leaks, and context poisoning.
+L423: 
+L424:     * Strategies to mitigate these risks through filtering, access control, and input validation.
+L425: 
+L426: What to Expect:
+L427: 
+L428:     * How attackers exploit LLM weaknesses.
+L429: 
+L430:     * Different approaches to filtering malicious prompts.
+L431:     * Practical methods to prevent unauthorized access and information leakage.
+L432: 
+L433:   * Demo Jailbreak Filtering 17:41
+L434: 
+L435: Overview:
+L436: 
+L437:     * Demonstration of jailbreak filtering techniques in LLM-based applications.
+L438: 
+L439:     * Testing filtering mechanisms using real-world jailbreak prompts.
+L440: 
+L441:     * Identifying limitations and bypass techniques.
+L442: 
+L443: What to Expect:
+L444: 
+L445:     * Live testing of security filters against prompt injections.
+L446: 
+L447:     * Understanding how regex-based and model-based filters work.
+L448:     * Observing weaknesses in existing filtering techniques and discussing improvements.
+L449: 
+L450:   * Hands-on Use Prompt Guard to filter Jailbreaks
+L451: 
+L452:   * Demo of AI App with Jailbreak Prevention 17:06
+L453: 
+L454: Overview:
+L455: 
+L456:     * Hands-on demonstration of an AI application with security measures in place.
+L457: 
+L458:     * Testing how effective different filtering layers are against malicious inputs.
+L459: 
+L460:     * Exploring real-time detection and blocking of adversarial prompts.
+L461: 
+L462: What to Expect:
+L463:     * Interaction with a secure AI assistant in a controlled environment.
+L464: 
+L465:     * How security layers like input validation, context monitoring, and access restrictions work.
+L466: 
+L467:     * Identifying practical challenges in real-world implementations.
+L468: 
+L469:   * Run a Demo AI App protected with Prompt Guard
+L470: 
+L471:   * LLAMA Guard - Prevent Toxicity, Misinformation, etc.17:09
+L472: 
+L473: Overview:
+L474: 
+L475:     * Introduction to LLAMA Guard, an advanced model for filtering harmful content.
+L476:     * Detecting and blocking misinformation, toxicity, defamation, and privacy risks.
+L477: 
+L478:     * Customizing LLAMA Guard for different security needs.
+L479: 
+L480: What to Expect:
+L481: 
+L482:     * Practical use cases for LLAMA Guard in AI applications.
+L483: 
+L484:     * Live demonstrations of filtering different types of harmful prompts.
+L485: 
+L486:     * Understanding the model’s strengths and weaknesses in handling adversarial attacks.
+L487: ### Optional - Detailed LLM Architecture for Red Teamers 4 lectures • 56min
+L488: 
+L489:   * History of LLMs, Problems with NLP & Tokenization 20:14
+L490: 
+L491: This session delves into the evolution of Large Language Models (LLMs), tracing their journey from early Natural Language Processing (NLP) techniques like Bag of Words to the transformative impact of attention-based models. We explore foundational challenges in NLP, such as handling context and polysemy, and introduce tokenization as a crucial step in modern LLMs.
+L492: Key Takeaways for Participants:
+L493: 
+L494:     * Understand the historical progression of NLP and LLMs.
+L495: 
+L496:     * Identify the challenges early NLP methods faced in handling language complexity.
+L497: 
+L498:     * Learn the importance of tokenization in preparing data for LLMs.
+L499: 
+L500:   * Visualize Sentence Embedding
+L501: 
+L502:   * Embedding and Self-Attention 10:01
+L503: This session provides a foundational understanding of embeddings and self-attention mechanisms, the building blocks of LLMs. Participants will learn how embeddings represent words in vector space and how self-attention allows models to capture contextual relationships within text.
+L504: 
+L505: Key Takeaways for Participants:
+L506: 
+L507:     * Grasp the concept of embeddings as numerical representations of language.
+L508: 
+L509:     * Explore the role of self-attention in understanding context and meaning.
+L510:     * Recognize the significance of these concepts in improving language comprehension in AI.
+L511: 
+L512:   * Visualize Self Attention
+L513: 
+L514:   * Transformer Architecture 18:32
+L515: 
+L516: This session focuses on the architecture that revolutionized NLP—Transformers. Participants will learn about the encoder-decoder model, the role of multi-layer perceptrons, and how stacked transformer blocks enable LLMs to process and generate text effectively.
+L517: 
+L518: Key Takeaways for Participants:
+L519:     * Understand the structure and components of Transformer models.
+L520: 
+L521:     * Learn how encoder-decoder architecture supports context understanding and text generation.
+L522: 
+L523:     * Recognize the importance of transformer layers in advancing AI capabilities.
+L524: 
+L525:   * Comparing Various LLMs 7:24
+L526: This session provides a comparative analysis of popular LLMs, such as GPT, LLaMA, and Gemini. Participants will explore how models differ in quality, speed, cost, and capabilities, as well as their use cases in diverse applications.
+L527: 
+L528: Key Takeaways for Participants:
+L529: 
+L530:     * Gain insights into the strengths and limitations of various LLMs.
+L531: 
+L532:     * Learn how to evaluate LLMs based on context length, parameters, and benchmarks.
+L533:     * Understand the considerations for selecting models for specific business or technical needs.
+L534: ## Requirements
+L535: 
+L536:   * Basics of Python Programming
+L537: 
+L538:   * Cybersecurity Fundamentals
+L539: ## Description
+L540: 
+L541: Objective
+L542: 
+L543: This course provides hands-on training in AI security, focusing on red teaming for large language models (LLMs). It is designed for offensive cybersecurity researchers, AI practitioners, and managers of cybersecurity teams. The training aims to equip participants with skills to:
+L544: 
+L545:   * Identify and exploit vulnerabilities in AI systems for ethical purposes.
+L546: 
+L547:   * Defend AI systems from attacks.
+L548: 
+L549:   * Implement AI governance and safety measures within organizations.
+L550: 
+L551: Learning Goals
+L552:   * Understand generative AI risks and vulnerabilities.
+L553: 
+L554:   * Explore regulatory frameworks like the EU AI Act and emerging AI safety standards.
+L555: 
+L556:   * Gain practical skills in testing and securing LLM systems.
+L557: 
+L558: Course Structure
+L559: 
+L560:   1. Introduction to AI Red Teaming:
+L561: 
+L562:      * Architecture of LLMs.
+L563: 
+L564:      * Taxonomy of LLM risks.
+L565: 
+L566:      * Overview of red teaming strategies and tools.
+L567: 
+L568:   2. Breaking LLMs:
+L569: 
+L570:      * Techniques for jailbreaking LLMs.
+L571: 
+L572:      * Hands-on exercises for vulnerability testing.
+L573:   3. Prompt Injections:
+L574: 
+L575:      * Basics of prompt injections and their differences from jailbreaking.
+L576: 
+L577:      * Techniques for conducting and preventing prompt injections.
+L578: 
+L579:      * Practical exercises with RAG (Retrieval-Augmented Generation) and agent architectures.
+L580: 
+L581:   4. OWASP Top 10 Risks for LLMs:
+L582: 
+L583:      * Understanding common risks.
+L584: 
+L585:      * Demos to reinforce concepts.
+L586: 
+L587:      * Guided red teaming exercises for testing and mitigating these risks.
+L588: 
+L589:   5. Implementation Tools and Resources:
+L590:      * Jupyter notebooks, templates, and tools for red teaming.
+L591: 
+L592:      * Taxonomy of security tools to implement guardrails and monitoring solutions.
+L593: 
+L594: Key Outcomes
+L595: 
+L596:   * Enhanced Knowledge: Develop expertise in AI security terminology, frameworks, and tactics.
+L597: 
+L598:   * Practical Skills: Hands-on experience in red teaming LLMs and mitigating risks.
+L599: 
+L600:   * Framework Development: Build AI governance and security maturity models for your organization.
+L601: 
+L602: Who Should Attend?
+L603: 
+L604: This course is ideal for:
+L605:   * Offensive cybersecurity researchers.
+L606: 
+L607:   * AI practitioners focused on defense and safety.
+L608: 
+L609:   * Managers seeking to build and guide AI security teams.
+L610: 
+L611: Good luck and see you in the sessions!
+L612: ## Who this course is for:
+L613: 
+L614:   * Cybersecurity Professionals who wants to secure LLMs and AI Agents
+L615: 
+L616: Show more Show less
+L617: 
+L618: cite14†Report abuse 

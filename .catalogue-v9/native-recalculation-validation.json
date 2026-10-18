@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "formulaCachesChecked": 347742,
+  "differences": [],
+  "excelErrors": [],
+  "method": "LibreOffice recalculation from a temporary workbook with all formula caches removed; native recalculated output compared to published v9. Published workbook was not replaced."
+}

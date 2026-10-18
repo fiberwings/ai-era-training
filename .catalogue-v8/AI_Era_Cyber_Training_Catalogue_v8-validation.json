@@ -1,0 +1,19 @@
+{
+  "file": "/Users/cyberk/projects/ai-era-training/AI_Era_Cyber_Training_Catalogue_v8.xlsx",
+  "score_pairs": 43120,
+  "offers": 308,
+  "coverage_rows": 7084,
+  "mismatches": [],
+  "formula_errors": [],
+  "original_unchanged": true,
+  "byte_preserved_sheets": [
+    "xl/worksheets/sheet7.xml",
+    "xl/worksheets/sheet8.xml",
+    "xl/worksheets/sheet9.xml",
+    "xl/worksheets/sheet11.xml",
+    "xl/worksheets/sheet12.xml",
+    "xl/worksheets/sheet13.xml",
+    "xl/worksheets/sheet14.xml",
+    "xl/worksheets/sheet15.xml"
+  ]
+}

@@ -1,0 +1,427 @@
+AI Governance Professional (AIGP) Exam Prep Course (https://www.udemy.com/course/ai-governance-professional-aigp/)
+citeturn52view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-governance-professional-aigp/","lineno":null}); Total lines: 441
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: AI Governance Professional (AIGP) Exam Prep Course
+L41: 
+L42: Highest Rated
+L43: 
+L44: Hot & New
+L45: 
+L46: Rating: 4.8 out of 5 4.8cite12†(51 ratings) L47: 
+L48: 347 students
+L49: 
+L50: cite0†Image†img-c.udemycdn.com Preview this course
+L51: # AI Governance Professional (AIGP) Exam Prep Course
+L52: 
+L53: Pass AIGP Exam with Confidence | AI Governance, Responsible AI, EU AI Act, ISO 42001, NIST AI RMF and AI Risk Management
+L54: 
+L55: Created bycite13†Luxmi Narayan L56: 
+L57: Last updated 9/2026
+L58: 
+L59: English
+L60: 
+L61: English [Auto],
+L62: 
+L63: cite0†Image†img-c.udemycdn.com Preview this course
+L64: ## What you'll learn
+L65: 
+L66:   * Master the fundamentals of AI governance, AI systems, machine learning, Generative AI, and the AI lifecycle.
+L67: 
+L68:   * Understand the core principles of Responsible AI, including fairness, transparency, explainability, accountability, safety, privacy, and human oversight.
+L69: 
+L70:   * Learn how to build and operate an effective AI governance framework within an organization.
+L71: 
+L72:   * Identify, assess, prioritize, and mitigate AI risks across the AI lifecycle.
+L73:   * Understand major AI laws, regulations, standards, and governance frameworks, including the EU AI Act and privacy-related requirements.
+L74: 
+L75:   * Learn how to govern AI development, including data governance, training data, testing, validation, documentation, model evaluation, and release decisions.
+L76: 
+L77:   * Understand how to govern AI deployment and operational use, including monitoring, human oversight, incident management, and ongoing risk management.
+L78:   * Learn practical approaches to AI impact assessments, risk assessments, policies, controls, and organizational roles and responsibilities.
+L79: 
+L80:   * Understand governance considerations for Generative AI and emerging AI technologies, including common risks and responsible-use controls.
+L81: 
+L82:   * Prepare for the IAPP AI Governance Professional (AIGP) certification exam using exam-focused concepts, scenarios, terminology and knowledge checks.
+L83:   * Build the knowledge needed to apply AI governance and Responsible AI practices in real-world business and technology environments.
+L84: 
+L85: Show more Show less
+L86: ## Course content
+L87: 
+L88: 11 sections • 65 lectures • 6h 41m total length
+L89: 
+L90: Expand all sections
+L91: 
+L92: ### Welcome, Exam Strategy, and AIGP Roadmap 3 lectures • 21min
+L93: 
+L94:   * Welcome to the Course Preview 4:43
+L95: 
+L96:   * What Is AIGP and Why It Matters Preview 7:31
+L97: 
+L98:   * Who This Course Is For, and How the Exam Works 9:15
+L99: 
+L100: ### AI Governance Foundations 4 lectures • 24min
+L101: 
+L102:   * What Is AI Governance 6:18
+L103: 
+L104:   * Why AI Governance Is Needed 6:42
+L105: 
+L106:   * Understanding - AI, GenAI & Agentic AI 4:10
+L107: 
+L108:   * AI Governance + Responsible AI 6:46
+L109: ### AI Risks, Harms, and Governance Challenges 3 lectures • 20min
+L110: 
+L111:   * Why AI Risk Is Different 5:31
+L112: 
+L113:   * What Is Hallucination & Why it is so Risky 5:09
+L114: 
+L115:   * Understanding Grounding, RAG & their Relationship 9:16
+L116: ### Laws, Regulations, and Global AI Governance Landscape 14 lectures • 1hr 24min
+L117: 
+L118:   * U.S. AI Governance Landscape 5:44
+L119: 
+L120: Navigate the U.S. AI governance landscape as a layered patchwork of federal actions, sector rules, agency enforcement, state experimentation, and voluntary frameworks like the NIST AI RMF.
+L121: 
+L122:   * State-Level AI Regulation Concepts 5:09
+L123: 
+L124:   * Global AI Regulation Trends 5:34
+L125: 
+L126:   * South Korea AI Basic Law — What to Know 4:22
+L127: 
+L128:   * Privacy Laws and AI Governance 8:10
+L129:   * Why AI Laws Are Expanding 4:53
+L130: 
+L131:   * Risk-Based Regulation Explained 6:00
+L132: 
+L133:   * Clarification: “Europe” vs “EU” and the scope of the EU AI Act 1:18
+L134: 
+L135:   * The EU AI Act — Big Picture 8:06
+L136: 
+L137:   * High-Risk AI Systems 8:00
+L138: 
+L139:   * Prohibited AI Practices 6:01
+L140: 
+L141:   * Developer vs Deployer Responsibilities 8:05
+L142: 
+L143:   * Cross-Border AI Compliance 7:23
+L144: 
+L145:   * Singapore and Global AI Governance Framework 5:17
+L146: 
+L147:   * Quiz — Laws, Regulations, and Global AI Governance Landscape
+L148: ### AI Standards, Frameworks, and Best Practices 5 lectures • 33min
+L149: 
+L150:   * Why Standards Matter in AI Governance 4:35
+L151: 
+L152:   * NIST AI RMF Overview 8:07
+L153: 
+L154:   * NIST AI RMF Core Functions 9:07
+L155: 
+L156:   * ISO/IEC 42001 and the ISO Family 6:40
+L157: 
+L158:   * OECD and UNESCO Principles 4:04
+L159: 
+L160:   * Quiz — AI Standards, Frameworks, and Best Practices
+L161: ### Governing AI Development — Lifecycle, Data, and Design 6 lectures • 28min
+L162: 
+L163:   * What AI Development Governance Means 3:06
+L164: 
+L165:   * AI System Lifecycle Stages 4:22
+L166: 
+L167:   * Business Case and Use Case Approval 5:05
+L168: 
+L169:   * Data Governance for AI 6:27
+L170: 
+L171:   * AI Documentation Package 5:05
+L172: 
+L173:   * Privacy and Security by Design 4:24
+L174: 
+L175:   * Quiz — Governing AI Development: Lifecycle, Data, and Design
+L176: ### Testing, Validation, Evaluation, and Risk Controls 8 lectures • 52min
+L177: 
+L178:   * Why AI Testing Is Critical 3:44
+L179: 
+L180:   * Model Evaluation Basics 7:19
+L181: 
+L182:   * Accuracy, Reliability, and Robustness 7:12
+L183: 
+L184:   * Fairness Testing 13:36
+L185: 
+L186:   * Explainability and Privacy Testing 5:31
+L187: 
+L188:   * Security Testing and Red Teaming 4:37
+L189: 
+L190:   * Impact Assessment 5:37
+L191: 
+L192:   * Conformity, Approval Gates, and Pre-Deployment Review 4:41
+L193: 
+L194:   * Quiz — Testing, Validation, Evaluation, and Risk Controls
+L195: ### Governing AI Deployment and Use 8 lectures • 56min
+L196: 
+L197:   * Deployment Governance Explained 5:49
+L198: 
+L199:   * User Training and Acceptable Use 5:45
+L200: 
+L201:   * Transparency Notices 5:47
+L202: 
+L203:   * Human Oversight in Production 8:04
+L204: 
+L205:   * Monitoring AI System Performance 8:36
+L206: 
+L207:   * Model Drift and Retraining 6:06
+L208: 
+L209:   * Incident Management 9:58
+L210: 
+L211:   * Deactivation, Feedback, and Governance Reporting 6:16
+L212: 
+L213:   * Quiz — Governing AI Deployment and Use
+L214: ### Third-Party AI, Procurement, Vendors, and Contracts 7 lectures • 37min
+L215: 
+L216:   * Why Third-Party AI Is Risky 3:47
+L217: 
+L218:   * AI Vendor Due Diligence 6:17
+L219: 
+L220:   * Procurement Governance 4:43
+L221: 
+L222:   * Contractual Controls for AI 4:45
+L223: 
+L224:   * Data Sharing and Vendor Transparency 6:40
+L225: 
+L226:   * Vendor Risk Monitoring 4:04
+L227: 
+L228:   * Shadow AI and Embedded AI Features 6:58
+L229: 
+L230:   * Quiz — Third-Party AI, Procurement, Vendors, and Contracts
+L231: ### AI Governance Program Implementation 7 lectures • 45min
+L232: 
+L233:   * What an AI Governance Program Includes 4:10
+L234: 
+L235:   * AI Governance Operating Model 7:38
+L236: 
+L237:   * AI Policy Framework 5:50
+L238: 
+L239:   * AI Risk Management Workflow 6:09
+L240: 
+L241:   * AI Inventory and Control Library 7:48
+L242: 
+L243:   * 30-60-90 Day AI Governance Plan 7:02
+L244: 
+L245:   * Congratulations and Next Steps 6:34
+L246: 
+L247:   * Quiz — AI Governance Program Implementation
+L248: 
+L249: 1 more section
+L250: ## Requirements
+L251: 
+L252:   * No formal prerequisites are required to enroll in this AI Governance Professional (AIGP) Complete Exam Prep course.
+L253: 
+L254:   * A basic understanding of Artificial Intelligence, Generative AI, data, and technology concepts is helpful but not mandatory.
+L255: 
+L256:   * Familiarity with business, risk management, compliance, privacy, cybersecurity, or IT governance can be beneficial.
+L257:   * The course is suitable for AI professionals, IT and security leaders, compliance and privacy professionals, risk managers, legal professionals, auditors, consultants, and business leaders.
+L258: 
+L259:   * You do not need programming or advanced machine-learning skills to take this course.
+L260: 
+L261:   * A willingness to learn AI governance, Responsible AI, AI risk management, AI regulations, and AI lifecycle governance is all you need to get started.
+L262: ## Description
+L263: 
+L264: " This course contains the use of artificial intelligence "
+L265: 
+L266: AI Governance Professional (AIGP) Complete Exam Prep
+L267: Artificial Intelligence is transforming every industry, but with great AI capabilities come new challenges around governance, risk, compliance, ethics, privacy, security, and accountability. Organizations worldwide are adopting AI at an unprecedented pace, making AI Governance one of the fastest-growing and most valuable skills for technology, risk, compliance, privacy, cybersecurity, and business professionals.
+L268: If you're preparing for the AI Governance Professional (AIGP) certification or want to become an expert in enterprise AI governance, this course is designed specifically for you.
+L269: This comprehensive course covers the complete AIGP certification syllabus while providing practical knowledge that you can immediately apply in real-world organizations. Whether you're new to AI Governance or an experienced professional looking to validate your expertise, you'll gain the confidence and knowledge needed to succeed.
+L270: Throughout this course, you'll learn how organizations govern Artificial Intelligence responsibly, manage AI risks, comply with global regulations, implement governance frameworks, and build trustworthy AI systems that align with business objectives and legal requirements.
+L271: Unlike many courses that focus only on theory, this course explains every concept in simple language with practical examples, visual explanations, quizzes, memory techniques, and exam-focused guidance to help you understand—not just memorize—the material.
+L272: 
+L273: What You'll Learn
+L274: 
+L275:   * Master the complete AI Governance Professional (AIGP) certification syllabus.
+L276: 
+L277:   * Understand AI Governance, Responsible AI, Trustworthy AI, AI Ethics, and AI Risk Management.
+L278:   * Learn the complete AI system lifecycle and governance controls from design through retirement.
+L279: 
+L280:   * Identify and mitigate AI risks including bias, discrimination, privacy, security, explainability, hallucinations, model drift, automation bias, and AI safety.
+L281: 
+L282: Understand global AI regulations including the EU AI Act, U.S. AI governance landscape, privacy laws, and emerging international AI regulations.
+L283: 
+L284: Apply leading AI governance frameworks including:
+L285: 
+L286:   * NIST AI Risk Management Framework (AI RMF)
+L287:   * ISO/IEC 42001
+L288: 
+L289:   * ISO/IEC 23894
+L290: 
+L291:   * ISO/IEC 22989
+L292: 
+L293:   * OECD AI Principles
+L294: 
+L295:   * UNESCO AI Ethics Recommendations
+L296: 
+L297:   1. Govern Generative AI, Large Language Models (LLMs), Foundation Models, and Agentic AI systems.
+L298: 
+L299:   2. Learn AI governance for development, testing, validation, deployment, monitoring, and continuous improvement.
+L300: 
+L301:   3. Manage third-party AI vendors, procurement risks, AI contracts, Shadow AI, and enterprise AI compliance.
+L302:   4. Build and implement an enterprise AI Governance Program including policies, governance committees, operating models, AI inventories, AI control libraries, metrics, reporting, and governance workflows.
+L303: 
+L304: This Course Covers
+L305: 
+L306:   * AI Governance Fundamentals
+L307: 
+L308:   * Responsible AI
+L309: 
+L310:   * Trustworthy AI
+L311: 
+L312:   * AI Ethics
+L313: 
+L314:   * AI Risk Management
+L315: 
+L316:   * AI Compliance
+L317: 
+L318:   * AI Regulations
+L319: 
+L320:   * EU AI Act
+L321: 
+L322:   * AI Governance Frameworks
+L323: 
+L324:   * NIST AI RMF
+L325: 
+L326:   * ISO/IEC 42001
+L327: 
+L328:   * ISO/IEC 23894
+L329:   * AI System Lifecycle Governance
+L330: 
+L331:   * AI Development Governance
+L332: 
+L333:   * AI Testing and Validation
+L334: 
+L335:   * AI Deployment Governance
+L336: 
+L337:   * AI Monitoring
+L338: 
+L339:   * Third-Party AI Governance
+L340: 
+L341:   * AI Vendor Risk Management
+L342: 
+L343:   * Enterprise AI Governance
+L344: 
+L345:   * AI Governance Operating Models
+L346: 
+L347:   * AI Policies and Controls
+L348: 
+L349:   * Generative AI Governance
+L350: 
+L351:   * Large Language Model (LLM) Governance
+L352: 
+L353:   * Foundation Model Governance
+L354: 
+L355:   * Agentic AI Governance
+L356: 
+L357: Why Take This Course?
+L358:   * Complete coverage of the AIGP certification domains
+L359: 
+L360:   * Beginner-friendly explanations with no unnecessary jargon
+L361: 
+L362:   * Practical enterprise-focused examples
+L363: 
+L364:   * Exam-focused quizzes and memory aids
+L365: 
+L366:   * Real-world governance scenarios
+L367: 
+L368:   * Structured learning path from fundamentals to advanced governance concepts
+L369: 
+L370:   * Ideal for both certification preparation and professional development
+L371: 
+L372: Who Should Take This Course?
+L373: 
+L374: This course is ideal for:
+L375:   * AI Governance Professional (AIGP) certification candidates
+L376: 
+L377:   * AI Governance professionals
+L378: 
+L379:   * Governance, Risk, and Compliance (GRC) professionals
+L380: 
+L381:   * AI Risk Management professionals
+L382: 
+L383:   * Privacy and Data Protection professionals
+L384: 
+L385:   * Cybersecurity professionals
+L386: 
+L387:   * Information Security professionals
+L388: 
+L389:   * Compliance Officers
+L390: 
+L391:   * Internal Auditors
+L392: 
+L393:   * Risk Managers
+L394: 
+L395:   * AI Product Managers
+L396: 
+L397:   * Project and Program Managers
+L398: 
+L399:   * Enterprise Architects
+L400: 
+L401:   * AI Engineers
+L402:   * Machine Learning Engineers
+L403: 
+L404:   * Data Scientists
+L405: 
+L406:   * Technology Consultants
+L407: 
+L408:   * Digital Transformation Leaders
+L409: 
+L410:   * IT Managers
+L411: 
+L412:   * Business Leaders responsible for AI adoption
+L413: 
+L414:   * Anyone interested in Responsible AI and Enterprise AI Governance
+L415: 
+L416: Course Requirements
+L417: 
+L418: No prior AI Governance experience is required.
+L419: 
+L420: Basic familiarity with Artificial Intelligence concepts is helpful but not mandatory.
+L421: 
+L422: No programming, coding, data science, or machine learning experience is required.
+L423: Everything is explained step by step—from foundational concepts to advanced enterprise AI governance.
+L424: 
+L425: Enroll Today
+L426: AI Governance is rapidly becoming a core capability for organizations implementing Artificial Intelligence responsibly. Whether your goal is to earn the AI Governance Professional (AIGP) certification, advance your career, lead enterprise AI initiatives, or build expertise in Responsible AI and AI Risk Management, this course provides the knowledge, practical insights, and exam preparation you need to succeed.
+L427: Join today and start your journey toward becoming an AI Governance Professional with confidence.
+L428: ## Who this course is for:
+L429:   * Professionals preparing for the IAPP AI Governance Professional (AIGP) certification exam.
+L430:   * AI governance, Responsible AI, AI risk, and AI compliance professionals.
+L431:   * IT, cybersecurity, privacy, compliance, legal, audit, and risk management professionals working with AI.
+L432:   * Technology leaders, architects, managers, and consultants responsible for AI strategy, governance, security, or risk.
+L433:   * Data and AI professionals who want to understand the governance and regulatory side of AI.
+L434:   * Business leaders and decision-makers involved in AI adoption, AI policies, and responsible AI practices.
+L435:   * Professionals transitioning into AI governance and Responsible AI careers.
+L436:   * Anyone who wants practical knowledge of AI regulations, AI lifecycle governance, risk management, and trustworthy AI.
+L437:   * Learners who want structured, exam-focused preparation with scenarios, knowledge checks, and practice questions for the AIGP certification.
+L438: Show more Show less
+L439: 
+L440: cite14†Report abuse 

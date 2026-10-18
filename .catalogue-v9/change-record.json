@@ -1,0 +1,29 @@
+{
+  "removedCourse": "TR-127",
+  "reason": "Personal-assistant workstation scope unnecessary for the corporate training programme, per project owner.",
+  "date": "2026-10-16",
+  "source": "AI_Era_Cyber_Training_Catalogue_v8.xlsx",
+  "output": "AI_Era_Cyber_Training_Catalogue_v9.xlsx",
+  "sourceSha256": "7c96d938644906aff0838f39987a109e33f8369b84ac28690125c91b62bb26d1",
+  "removedRows": {
+    "Scores": 140,
+    "Coverage": 23,
+    "Offers": 1,
+    "V8 audit": 1
+  },
+  "changedParts": [
+    "xl/worksheets/sheet6.xml",
+    "xl/worksheets/sheet1.xml",
+    "xl/worksheets/sheet3.xml",
+    "xl/worksheets/sheet14.xml",
+    "xl/worksheets/sheet5.xml",
+    "xl/tables/table8.xml",
+    "xl/tables/table2.xml",
+    "xl/tables/table5.xml",
+    "xl/tables/table9.xml",
+    "xl/worksheets/sheet10.xml",
+    "xl/worksheets/sheet4.xml",
+    "xl/worksheets/sheet16.xml"
+  ],
+  "preservedParts": 34
+}

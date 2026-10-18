@@ -1,0 +1,575 @@
+AI Hallucinations Management & Fact Checking in LLMs (https://www.udemy.com/course/ai-hallucinations-management-fact-checking-in-llms/)
+citeturn57view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-hallucinations-management-fact-checking-in-llms/","lineno":null}); Total lines: 657
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: AI Hallucinations Management & Fact Checking in LLMs
+L41: 
+L42: Role Play
+L43: 
+L44: Rating: 4.4 out of 5 4.4cite12†(382 ratings) L45: 
+L46: 4,463 students
+L47: 
+L48: cite0†Image†img-c.udemycdn.com Preview this course
+L49: # AI Hallucinations Management & Fact Checking in LLMs
+L50: 
+L51: Spot, prevent, and fact-check AI hallucinations in real workflows with AI assistants like ChatGPT
+L52: 
+L53: Created bycite13†Arkadiusz Włodarczyk L54: 
+L55: Last updated 10/2026
+L56: 
+L57: English
+L58: 
+L59: English [Auto],Korean [Auto],
+L60: 
+L61: cite0†Image†img-c.udemycdn.com Preview this course
+L62: ## What you'll learn
+L63: 
+L64:   * Identify and explain different types of AI hallucinations and why they occur
+L65: 
+L66:   * Design prompts that reduce hallucinations and improve AI response accuracy
+L67: 
+L68:   * Use RAG systems and verification techniques to fact-check AI output
+L69: 
+L70:   * Apply monitoring and guardrails to make AI systems safer and more reliable
+L71: 
+L72:   * Build practical workflows for detecting, preventing, and verifying AI hallucinations
+L73: ## Course content
+L74: 
+L75: 10 sections • 41 lectures • 2h 53m total length
+L76: 
+L77: Expand all sections
+L78: ### Introduction 4 lectures • 7min
+L79: 
+L80:   * How AI Works: A Story About Guessing Preview 1:42
+L81: 
+L82: I remember standing in front of the class. Scared. The teacher asked a question I couldn't answer.
+L83: 
+L84: So I guessed.
+L85: 
+L86: And I got it right. Pure luck. A calculated guess based on what seemed probable.
+L87: 
+L88: This is how AI often works. It's a guesser. A very, very smart one, but a guesser nonetheless. It predicts the next word based on probability, not on truth.
+L89: 
+L90: Sometimes, that guess is wrong. Confidently wrong.
+L91: That's what we call a hallucination.
+L92: 
+L93: In this video, I break down this strange and important idea. We'll look at why it happens and why AI is actually trained to take these risks. It's the key to understanding both the power and the pitfalls of this technology.
+L94: 
+L95:   * What AI Hallucinations Are?0:52
+L96: 
+L97: A summary of what is AI hallucination
+L98: 
+L99:   * The Business Risk of Unchecked AI Output Preview 3:45
+L100: 
+L101: You shipped the AI. It works.
+L102: 
+L103: But it can fail. And when it does, the consequences land on you.
+L104: In this session, I break down the real risks-the ones nobody talks about until it's too late. Hallucinations aren't bugs; they're features. Your AI is an attack surface. Bias gets baked right in.
+L105: 
+L106: I'll show you what can go wrong, so you can build to prevent it. We'll cover the fallout from bad data, clever attacks, and simple system failures.
+L107: 
+L108: This isn't about theory. It's about defense.
+L109: 
+L110:   * [NOTES] Key Definitions 0:39
+L111: 
+L112: Key definitions for this section.
+L113: 
+L114:   * Quiz [Basics]
+L115: ### Understanding Hallucinations 3 lectures • 8min
+L116: 
+L117:   * How LLMs Generate Text (and Why They "Make Things Up")Preview 4:00
+L118: 
+L119: Large Language Models feel smart. Almost like magic.
+L120: 
+L121: But it’s a trick.
+L122: 
+L123: In this video, I’ll show you how it really works. We'll break it down, step by step. No jargon, just the core ideas.
+L124: 
+L125: We start with the big secret: LLMs don't think. They predict.
+L126: I’ll explain how your prompt gets chopped into 'tokens'. How the model scores every possible next word. And how it turns those scores into a guess.
+L127: 
+L128: Then, we’ll look at the tools you can use to control the output. Things like 'temperature' that can make your AI more creative or more focused. We’ll cover the different strategies it uses to pick the next word, from simple 'greedy' choices to smarter methods like 'nucleus sampling'.
+L129: Finally, we'll confront the big problem: hallucinations. I'll explain why they happen - not as a bug, but as a core part of how these models work. You'll understand why an engine built for fluency can't be a truth engine.
+L130: 
+L131: By the end, you won't see magic. You'll see a system. And you'll know how to work with it.
+L132: 
+L133:   * Three Types of AI Errors to Watch Out For Preview 3:12
+L134: 
+L135: AI gets things wrong.
+L136: It doesn't do it on purpose. It's just predicting the next word. But when you rely on its output, you need to know how it fails.
+L137: 
+L138: In this video, I'll show you the three quiet mistakes AI makes. The ones that look true until you check.
+L139: 
+L140: We’ll start with Fabricated Facts. Laws, studies, and APIs that sound formal. But they don’t exist.
+L141: Then, we'll look at Wrong References. The model gives you a source. A link. A paper. But the link is dead, or the paper says something else entirely. It’s decoration, not proof.
+L142: 
+L143: Finally, we’ll cover the most dangerous one for developers: Overconfident Examples. The code looks perfect. No errors, no warnings. But it’s broken. It fails silently, or worse, gives you the wrong answer.
+L144: 
+L145: This isn't about avoiding AI. It’s about being smarter than the tool you're using.
+L146: 
+L147:   * Quiz [understanding hallucinations]
+L148:   * [NOTES] Key definitions 1:12
+L149: ### Prevention Through Prompt Design 7 lectures • 26min
+L150: 
+L151:   * Structured Control: Guiding AI with Instructions, Guardrails, & Context 9:09
+L152: 
+L153: We aren't trying to lock the model in a cage.
+L154: 
+L155: We're just giving it a map. So it doesn't wander off a cliff.
+L156: 
+L157: This isn't about total control. It's about structured control. Just enough to keep the AI focused, factual, and useful.
+L158: 
+L159: In this video, I'll show you the three simple tools for this:
+L160: 1. System Instructions: The AI's rulebook. Its job description. This is where we set the tone before the conversation even starts.
+L161: 
+L162: 2. Guardrails: The safety net. These are the checks that catch mistakes *after* the AI has spoken, but *before* your user sees the result.
+L163: 
+L164: 3. Scoped Context: The focus. Instead of giving the AI the entire library, we give it the one book it needs right now.
+L165: 
+L166: Together, they don't make your AI perfect.
+L167: 
+L168: They make it predictable enough to trust.
+L169:   * Crafting Clear, Specific, Constrained Prompts 5:31
+L170: 
+L171: Vague prompts lead to chaos. The model guesses. It fills in the blanks. Sometimes you get lucky. Most of the time, you get a well-written mess.
+L172: 
+L173: This has to stop.
+L174: 
+L175: In this lecture, I'll show you how to build a fence around your prompts. It's about taking control and leaving nothing to chance.
+L176: 
+L177: We will craft prompts that are:
+L178: 
+L179: - Clear: Simple language wins. Always.
+L180: 
+L181: - Specific: Give the model a role, a task, and a format.
+L182: - Constrained: Set boundaries to stop the guessing.
+L183: 
+L184: This isn't about clever tricks or fancy wording. It’s about being solid.
+L185: 
+L186: When you communicate clearly, hallucinations drop on their own. Let's start building.
+L187: 
+L188:   * Few-Shot Prompting and Chain-of-Thought for Reliability 6:42
+L189: 
+L190: You can't just tell  an AI to be logical. It doesn't work.
+L191: 
+L192: You have to show it.
+L193: 
+L194: That’s the secret. The real shift in getting great results. We're moving from a guessing machine to a reasoning partner.
+L195: In this video, I'll break down two powerful ways to do this:
+L196: 
+L197: Few-Shot Prompting. Giving the model a few perfect examples. Not telling it the rules, but letting it see the pattern.
+L198: 
+L199: Chain-of-Thought. Forcing the model to show its work. To think step-by-step. Out loud.
+L200: 
+L201: This isn't about upgrading the AI's memory. It's about upgrading its process.
+L202: 
+L203: We're changing how it thinks. From noise to clarity. Let's begin.
+L204: 
+L205:   * AI as Prompt Architect?2:23
+L206: 
+L207: Your prompts are holding you back.
+L208: Simple requests like 'debug my code' don't work well. They're too broad. Too vague. An AI can't read your mind.
+L209: 
+L210: In this video, I'll show you how to fix that. We're going to use AI to improve our prompts for AI.
+L211: 
+L212: I'll introduce you to two custom GPTs I built: Prompt Architect and Prompt Engineer.
+L213: First, you'll see how 'Prompt Architect' takes a weak prompt and breaks it down. It teaches you. It shows you better options - a specific error-focused version, a general improvement version, and more. It helps you learn to think with more clarity.
+L214: 
+L215: Then, I'll show you a different approach with 'Prompt Engineer'. This one is faster. More direct. It gets straight to building a powerful, structured prompt. It gives the AI a role, defines the task, and sets clear constraints.
+L216: 
+L217: This is how you get results.
+L218: And I'll leave you with one of the most useful tricks I know- a simple line to add to your programming prompts that stops the AI from rewriting your entire code base. It's a game-changer.
+L219: 
+L220:   * [PROMPT] Confidence 0:15
+L221: 
+L222:   * [PROMPT] What did you ASSUME 0:04
+L223: 
+L224:   * [NOTES] Key definitions 1:32
+L225: 
+L226:   * Quiz [Prevention Through Prompt Design]
+L227: ### Prevention through RAG 9 lectures • 50min
+L228: 
+L229:   * What is RAG any why it reduces hallucination?7:13
+L230: 
+L231: AI makes things up. We call it hallucinating.
+L232: 
+L233: It happens for a simple reason: it only knows what it was trained on. It has a great memory, but no access to today's facts.
+L234: 
+L235: This is where RAG comes in.
+L236: 
+L237: Retrieval-Augmented Generation.
+L238: 
+L239: It’s a simple idea with a powerful punch. Before the AI answers, it looks things up. It retrieves fresh, relevant information from a source *you* provide.
+L240: Think of it this way:
+L241: 
+L242: An AI without RAG is a brilliant student answering from memory alone. An AI with RAG is that same student, but now they can check their notes before speaking.
+L243: 
+L244: This one change grounds the AI in reality. Your reality.
+L245: 
+L246: In this video, I break down exactly what RAG is. We’ll look at the two core steps - Retrieval and Generation - and how they work together. You'll understand how we turn your documents, databases, and websites into a knowledge source the AI can use instantly.
+L247: This isn't just theory. This is the most effective way to build reliable, accurate, and trustworthy AI systems. It’s how we move from guessing to knowing.
+L248: 
+L249:   * NoteBookLM - instant RAG database 5:31
+L250: 
+L251: I'm going to show you the easiest way to set up a RAG database. For free.
+L252: 
+L253: We'll use a tool called NotebookLM.
+L254: 
+L255: It’s simple. You give it sources. PDFs, websites, Google Docs, even YouTube links. Anything.
+L256: NotebookLM takes that information and transforms it. It turns your data into a vector database. This is called embedding.
+L257: 
+L258: What does that mean for you?
+L259: 
+L260: It means you now have a personal AI. An AI that is an expert on *your* information. It answers questions based only on the sources you provided.
+L261: 
+L262: No more guessing. No more vague answers.
+L263: Just grounded, factual responses, with citations pointing right back to your documents. We'll explore how to ask it questions, generate reports, quizzes, and even mind maps. All from your source material.
+L264: 
+L265: This is Retrieval-Augmented Generation. Made simple.
+L266: 
+L267:   * How model selection changes hallucinaction rate?1:31
+L268: 
+L269: Hallucination in AI is a real problem.
+L270: 
+L271: Your model starts making things up. It sounds confident, but it's wrong. How do you stop that?
+L272: You choose a better model. One that stays grounded in facts.
+L273: 
+L274: In this video, I show you how to do just that. No theory. Just action.
+L275: 
+L276: First, we'll look at a Hallucination Leaderboard. A simple chart that ranks models on how often they invent information. You'll see which ones are the most reliable at a glance.
+L277: 
+L278: Then, I'll show you how to directly compare two models you're considering. A quick search can reveal exactly what you need to know.
+L279: This is a practical skill. It's about making smart choices *before* you build. It saves you time, headaches, and helps you create applications that people can actually trust.
+L280: 
+L281:   * DeepResearch as tool for looking for reliable information 4:16
+L282: 
+L283: Tired of AI answers?
+L284: 
+L285: The ones that sound good... but aren't quite right?
+L286: 
+L287: There is a better way to get real, fact-checked information. Information grounded in actual sources.
+L288: 
+L289: This is Deep Research.
+L290: It isn't the fast way. It's the right way. A normal search is a guess. Deep Research is a report.
+L291: 
+L292: In this video, I show you the difference. I put them side-by-side. See for yourself how to get answers you can actually trust.
+L293: 
+L294:   * Context Length & Truncation: How Token Limits Cause Hallucinations 12:21
+L295: 
+L296: Let's talk about something that kills AI projects.
+L297: 
+L298: Something nobody sees coming.
+L299: 
+L300: The context limit.
+L301: Every AI model has a wall. A hard limit on how much it can remember at one time. We call this the context window. It's measured in 'tokens' - basically, chunks of words.
+L302: 
+L303: When you hit that wall? Things break. The model starts to forget.
+L304: 
+L305: In this video, I’ll show you exactly how this happens. I'll explain what tokens are, how different models have different limits, and why even a massive context window isn't a magic fix.
+L306: We'll look at the 'lost in the middle' problem - where the model ignores crucial details buried in a long conversation.
+L307: 
+L308: This isn't just a technical detail. It's the direct cause of many AI hallucinations. When a model loses context, it starts guessing. It makes things up. And your reliable assistant becomes a confident liar.
+L309: 
+L310: I’ll give you practical strategies to handle this. How to design for context efficiency. How to spot the warning signs before your users do.
+L311: Because more context isn't always better.
+L312: 
+L313: *Smart* context is.
+L314: 
+L315:   * Create your own RAG db locally - INSTALLATION - part 1 4:54
+L316: 
+L317: Want to build your own RAG system?
+L318: 
+L319: One that runs right on your own machine.
+L320: 
+L321: In this video, I give you a head start. A big one.
+L322: 
+L323: We'll skip the boring setup. Instead, you'll use a repository I already built. It has everything you need to get started. Fast.
+L324: I'll walk you through the whole thing. Cloning the code. Installing the parts that make it work. Connecting it to OpenAI with your own key.
+L325: 
+L326: Then, we run it.
+L327: 
+L328: You'll see how to feed it documents. And how to ask those documents questions.
+L329: 
+L330: No theory. Just doing. Let's build something.
+L331: 
+L332:   * Create your own RAG db locally - How it works - PART 2 11:18
+L333: Let's break down my RAG system. Line by line. I've built a single, clean `RAGSystem` class to wrap all the complexity. It’s your main interface. Your entrance. We'll start with the most important dial you can turn: `top_k`. I’ll explain what it is, why it matters, and show you why a value of three is the perfect sweet spot between context and noise. Then, we get hands-on. You'll see how to ingest an entire folder of documents and how the system is smart enough to only re-process files that have changed.
+L334: No wasted effort. Finally, we ask questions. We'll see how the `ask` method finds the right context to give you grounded, accurate answers. This is how we fight hallucinations. I’ll show you the exact prompt I engineered to force the AI to admit when it *doesn't* know, instead of making things up. This isn't just a code walkthrough. It's the logic behind building a RAG pipeline you can actually trust.
+L335:   * [NOTES] Key definitions 2:30
+L336: 
+L337:   * What is RAG?
+L338: ### Verification Techniques 5 lectures • 21min
+L339: 
+L340:   * Don't Trust One AI: The Power of Cross-Checking Models 3:57
+L341: 
+L342: One model gives you an answer.
+L343: 
+L344: Is it right? Maybe.
+L345: 
+L346: Is it a guess? Probably.
+L347: 
+L348: This is the problem with trusting a single AI. You get a false sense of certainty. A dangerous blind spot.
+L349: 
+L350: So what do you do?
+L351: 
+L352: You make them check each other's work.
+L353: In this video, I'll show you a simple, powerful technique called cross-validation. It’s your new safety check. It turns a model's guess into a reliable data point.
+L354: 
+L355: We'll cover the 'why'. And the 'how'.
+L356: 
+L357: I'll give you a three-step process you can use today, right away. No code required. We’ll look at how to read the results - what it means when models agree, and more importantly, what to do when they don't.
+L358: 
+L359: Disagreement isn't a bug.
+L360: 
+L361: It’s a signal. A sign to dig deeper.
+L362: This method isn't about scoring models. It’s about stress-testing your questions until the truth stabilizes. Stop guessing. Start verifying.
+L363: 
+L364:   * Fact-Checking with External Sources and APIs 6:48
+L365: 
+L366: AI gets things wrong.
+L367: 
+L368: Even when multiple models agree. That’s the consensus trap.
+L369: 
+L370: Confidence isn't truth. So, we need to check the source. Always.
+L371: 
+L372: In this video, I'll show you how to build a real-world fact-checking habit. Not just talk about it, but do it.
+L373: 
+L374: We'll break it down into simple steps.
+L375: 1. Extract the claims.
+L376: 
+L377: We don't check paragraphs. We check facts. I'll show you what to look for.
+L378: 
+L379: 2. Verify the claims. Find the right source for the right claim. I'll give you a strategy for targeted, effective searching.
+L380: 
+L381: 3. Automate and ask. We'll make the AI do the heavy lifting by demanding its sources upfront.
+L382: 
+L383: I’ll also show you some powerful tools that do this for you. No coding required.
+L384: 
+L385: Because verification is your job. Not the model’s.
+L386: This isn't about stopping AI from being wrong. It’s about catching it before it spreads.
+L387: 
+L388:   * Self-Ask and Self-Consistency Prompts 6:38
+L389: 
+L390: You're tired of checking the AI's work.
+L391: 
+L392: It gets things wrong. It makes things up. So you have to fix it.
+L393: 
+L394: But what if you didn't have to?
+L395: 
+L396: What if the AI could check itself?
+L397: 
+L398: In this lesson, I'll show you two simple, powerful techniques to make that happen. They're called Self-Ask and Self-Consistency.
+L399: One makes the model pause and think through its logic, just like a student showing their work. The other makes it run the same problem multiple times to find the most reliable answer.
+L400: 
+L401: Together, they create a double filter.
+L402: 
+L403: This turns impulsive guessing into deliberate reasoning. You stop being the fact-checker. You make the model do the heavy lifting. Let's get started.
+L404: 
+L405:   * Activity: Build a verification workflow for a single query 2:03
+L406: 
+L407:   * [NOTES] Key definitions 1:11
+L408: ### Handling Hallucinations in AI Agents & Tools 5 lectures • 29min
+L409: 
+L410:   * AI Code Review: Your New Teammate 7:55
+L411: 
+L412: If you program, this is for you.
+L413: 
+L414: I'm going to show you how to cut down on bugs. How to reduce the noise that gets into your production code.
+L415: 
+L416: We're talking about AI code reviewers.
+L417: 
+L418: It sounds weird. Using AI to check your work. But trust me, these tools do an amazing job. They catch the small things. The repetitive errors. The noise that slips past human eyes.
+L419: And the best part? Almost no setup.
+L420: 
+L421: Today, I'll walk you through a tool called Codex. But there are others, like CodeRabbit and Qodo. Most have free trials, so you can test them yourself.
+L422: 
+L423: I’ll show you exactly how to connect it to your repository. How to tell it what to review. Then, we'll give it a real task - finding potential bugs in my code.
+L424: 
+L425: You'll see it work. Find an issue. Create a pull request. All automatically.
+L426: This isn't about replacing you. It's about giving you a second pair of eyes. A tireless assistant that helps you ship better code, faster.
+L427: 
+L428:   * AI Safety by Design: Guardrails, Logs, and Fallbacks 9:17
+L429: 
+L430: AI fails. That's a promise.
+L431: 
+L432: So we don't build for success alone. We build for failure, too. This is safety by design.
+L433: 
+L434: In this video, I'll show you the three layers that make your AI systems trustworthy. Not because they never break, but because they break safely.
+L435: 
+L436: We'll cover:
+L437: * Guardrails: The rules of the road. Setting boundaries on what your AI can and cannot do. Think of them as bumpers in bowling - they keep the ball on track.
+L438: 
+L439: * Logs: Your evidence trail. When something slips through, logs tell you what, when, and why. No logs means no learning. It's that simple.
+L440: 
+L441: * Fallbacks: Your Plan B. What happens when it all goes wrong? This is your escape hatch, ensuring the system stays stable and the user experience remains intact.
+L442: Together, these aren't just features. They are a mindset.
+L443: 
+L444: We expect failure. We design for recovery. We learn from every mistake. Let's get started.
+L445: Key Takeaways (TL;DR)
+L446: 
+L447:     * AI will inevitably fail; the goal of 'Safety by Design' is not to prevent all failures but to handle them safely and gracefully.
+L448: 
+L449:     * Implement three layers of safety: Guardrails to set boundaries, Logs to understand errors, and Fallbacks to maintain stability when things break.
+L450:     * Guardrails act as rules for your AI, with input filtering, output scanning, and system messages defining what is and isn't allowed.
+L451: 
+L452:     * Comprehensive logging is non-negotiable. Without logs, you cannot learn from failures or improve your system. Log successes and failures alike.
+L453: 
+L454:     * Fallbacks are your Plan B, providing a safe and stable user experience when the primary AI model fails, crashes, or produces invalid output.
+L455: 
+L456:   * [CODE] Guardrails, Logging, Fallback 3:04
+L457: Code used in slides from lecture "adding guardrails, logging, and fallbacks"
+L458: 
+L459:   * Guardrails using OpenAI AGENT 4:03
+L460: 
+L461: Let's talk about safety.
+L462: 
+L463: Because your AI needs a safety net. A filter. A way to stop bad things before they start.
+L464: 
+L465: In this video, I'll show you two powerful ways to do this.
+L466: 
+L467: First, the direct approach. We'll use the OpenAI Moderation endpoint. It’s fast. It’s simple. I'll show you how it works - how it flags harmful content and gives you a clear signal: *stop*.
+L468: Then, we get more visual.
+L469: 
+L470: I’ll guide you through the Agent Builder. We'll build a workflow, step by step. We'll drop in a special node called Guardrails. This is your AI's bodyguard. It checks everything before it even reaches the model.
+L471: 
+L472: Jailbreak attempts? Blocked. Personal information? Redacted. Moderation rules? You decide exactly what's allowed. We'll configure it together.
+L473: No complex code to start. Just drag, drop, and connect. Then, I'll show you how to take that visual workflow and get the code to run it anywhere.
+L474: 
+L475: This is how you build smarter, safer AI.
+L476: 
+L477:   * Building a Knowledge-Based AI Agent Visually using OpenAI AGENT 5:05
+L478: 
+L479: In this video, I'll show you something crucial.
+L480: 
+L481: How to ground your agent in reality.
+L482: 
+L483: We'll teach it to stop making things up. To pull answers only from files you provide.
+L484: I'll walk you through the `File Search` tool. You'll see how to connect your documents, step by step. Then, we'll preview it. See it work in real time.
+L485: 
+L486: We'll look at the workflow itself. A visual map of your agent's brain.
+L487: 
+L488: This simple flow is just the start.
+L489: 
+L490: I’ll also introduce you to more advanced templates. See how you can chain multiple agents together. One to rewrite a question. Another to classify it. A third to find the answer.
+L491: 
+L492: It’s about building smarter, not harder.
+L493: Visually. Quickly. Effectively.
+L494: ### Ethical and Safety Considerations 4 lectures • 19min
+L495: 
+L496:   * Bias, Misinformation, and Compliance Risks 5:05
+L497: 
+L498: AI gets things wrong.
+L499: 
+L500: That's not the problem.
+L501: 
+L502: The problem is that it sounds confident when it's wrong.
+L503: 
+L504: And that confidence is a trap. It leads to bad data, broken compliance, and real-world harm. One small error, repeated and shared, becomes a fact. A guess becomes a liability.
+L505: 
+L506: This isn't about blaming the tool. It's about using it with discipline.
+L507: In this video, I'll show you the simple, practical rules to keep your team safe. We'll cover why this happens and how to stop it. I will teach you the one question you must ask before you trust any AI output.
+L508: 
+L509: Your job is to verify, not just assume.
+L510: 
+L511: Let's get started.
+L512: 
+L513:   * When to Escalate to Human Review 6:10
+L514: 
+L515: You let AI write an answer. It sounds confident. It sounds *right*.
+L516: 
+L517: But what if it's wrong?
+L518: 
+L519: What if that one wrong answer costs money? Or hurts someone? Or breaks a rule?
+L520: That's the moment of truth. This is not about distrusting AI. It’s about knowing its limits.
+L521: 
+L522: This is about control.
+L523: 
+L524: In this video, I will give you a simple framework. A clear set of rules for when to stop, and when to ask a human. We will cover the high-stakes topics that *always* need a review - like legal, medical, or sensitive subjects. I'll show you how to build a smart system with clear handoff points and automatic triggers.
+L525: 
+L526: This isn't about slowing down. It's about being smart.
+L527: Escalation is not failure. It is prevention.
+L528: 
+L529:   * Best Practices for Communicating AI Limitations to Teams 5:56
+L530: 
+L531: Let's talk about what AI can't do.
+L532: 
+L533: This is where most projects go wrong. Not with the code. With the expectations.
+L534: 
+L535: People think it's smarter than it is. That's the real problem.
+L536: 
+L537: So in this talk, I'll give you a simple framework. How to communicate AI's limits to your team. Clearly. Honestly. Without the drama.
+L538: We'll cut the jargon. No more "hallucination rates." We'll just say, "Sometimes it makes things up."
+L539: 
+L540: Simple language builds trust. It turns a black box into a tool everyone can understand and use responsibly.
+L541: 
+L542: I'll show you how to build a culture of healthy skepticism. How to make checking the AI's work a normal part of the job-not an admission of failure.
+L543: 
+L544: Because when your team gets this right, everything changes.
+L545: 
+L546: AI stops being a risk. And starts being a truly reliable partner.
+L547:   * [NOTES] Key definitions 1:57
+L548: ### Monitoring LLMs 2 lectures • 11min
+L549: 
+L550:   * Monitoring LLMs with OpenTelemetry, Prometheus, and Grafana 7:25
+L551: 
+L552: You deploy your LLM app. You think it works.
+L553: 
+L554: But it's out there. In the wild. And you can't see it.
+L555: 
+L556: Your model starts to hallucinate. Users see it. You don't. Not until they complain.
+L557: 
+L558: This is the gap. The blind spot nobody talks about.
+L559: 
+L560: Today, we close that gap.
+L561: I'll show you the fundamentals of production monitoring. We're not just adding a feature at the end. We're building a foundation from day one.
+L562: We'll cover: * The Three Layers of Observability: Instrumentation, Storage, and Visualization. It’s like building a house. Skip a layer, and the whole thing collapses. * The Four Things You Must Capture: Input, Output, Metadata, and Decision Points. This is how you turn confusion into clarity. * The Standard Stack: OpenTelemetry, Prometheus, and Grafana. These are the open-source tools that power companies like Netflix and Uber. They give you power at scale, with no vendor lock-in.
+L563: This isn't just about dashboards. It's about building observability. It's about seeing what's *really* happening when your app is live.
+L564: 
+L565: So you can see it.
+L566: 
+L567: Catch it.
+L568: 
+L569: And fix it. Before anyone else has to.
+L570: 
+L571:   * Setup an LLM Hallucination Monitor in 4 Minutes 3:36
+L572: 
+L573: Let's build something.
+L574: 
+L575: Something real. Something useful.
+L576: 
+L577: Monitoring LLM hallucinations is critical. But setting it up is a pain. Too many moving parts. Too much configuration.
+L578: So I built a complete monitoring system for you. A production-ready stack. And I made it simple to run.
+L579: 
+L580: One command. That's it.
+L581: 
+L582: It just works. Right on your machine.
+L583: 
+L584: In this video, I walk you through it. How to download it. How to start it. How to see it work in real-time.
+L585: 
+L586: You don't need to be an expert. You just need Docker.
+L587: 
+

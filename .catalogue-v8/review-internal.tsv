@@ -1,0 +1,173 @@
+INT-063	N1.1=1	Banking/lending AI examples are adjacent to GRC work; cyber security use and agent controls are not evidenced.
+INT-077	N4.2=2 N4.4=2 N12.4=2 N12.5=2	Visible OWASP demos explain disclosure, supply chain, plugin permissions and mitigations; no complete agent-security practice.
+INT-151	N12.2=2 N12.6=2 N14.7=2 R9.1.1=1 R9.1.2=2 R9.1.10=2	A2A lecture synopses explicitly cover delegated identity, traceability, accountability and protocol governance. Reading/lecture depth only.
+INT-186		Error-fixing activity and source checks support the existing personal-use mappings; prompt-level reliability guardrails do not establish security engineering.
+INT-193	N2.6=2 N7.1=1 N7.2=1 N7.4=1 N12.6=1 R4.1.2=2 R5.1.1=2	Agent inventory, permission boundaries, monitoring and risk-tiered autonomy are explicit. Governance planning is not operational sign-off.
+INT-194	N2.6=2 N4.4=1 N4.7=2 N7.2=2 N9.3=1 R5.1.2=2	Exploit/fix walkthrough uses LangSmith traces and RBAC on tool calls; Skills/MCP are treated as code execution. No full supervisor cycle or general evaluation suite.
+INT-200	N6.1=1 N13.2=1 N13.3=1	Leader introduction names when not to delegate, governance and oversight; short conceptual coverage only.
+INT-222	N7.2=1 N11.3=1	Agent tool-call metrics and human/model grading are introduced; no explicit calibration of judges against human labels.
+INT-258	N2.4=2 N2.6=2 N3.5=1 N7.2=1 N8.4=1 N11.5=2 N14.3=2 R5.1.2=2 R5.1.3=2 R5.1.4=2	Current synopses describe observability, connector controls, human approvals and kill-switch design; v7's blanket exclusion of these topics is too strong. No learner labs evidenced.
+INT-271		Hallucination debugging and generated-code checking retain personal discernment coverage; not a benchmark or code-analysis harness course.
+INT-272	N3.6=1	Human cognitive shortcuts and ethical decision examples provide limited automation-bias awareness; general fairness is not sycophancy.
+INT-273	N11.5=2 N14.5=1	Governance outline explicitly includes drift monitoring and change management; no agent supervision or validated judge method.
+INT-274	N13.2=1 N6.4=1	Risk frameworks and responsible accountability are introduced; unseen sections remain an evidence limit.
+INT-275	N3.6=1	Responsible-use checks counter blind trust; no broader agent supervision inferred.
+INT-276	N3.1=2 N3.6=2 N3.7=2 N4.1=2 N4.2=2 N4.3=2 N4.6=2 N5.2=2 N5.5=2 N6.1=2 N6.3=2 N6.4=2 N13.2=1	Detailed provider synopses explain confidential data in public tools, approval, ownership, automation bias, deepfake verification and the SAFE check. This supersedes v7's assessment from generic lecture titles; no exercises or bank-specific policy.
+INT-277	N3.7=1 N4.2=1 N6.4=1	Accuracy-verification and ethical-prompting topics support awareness beyond prompting; no security or agent operations.
+INT-278	N6.1=2 N6.4=2 N14.3=2 N14.5=2	Written task-boundary and team-plan activities support delegation and oversight/change design partially, even though examples are not cyber-specific.
+INT-279	N3.6=1 N14.6=1	Over-reliance and delegating thought are mentioned; unrelated lifestyle material does not add capability coverage.
+INT-280	N3.6=1 N7.1=1 N7.5=1 N13.3=1	Agent-on-your-behalf lecture introduces limits and accountability; not a practised supervisory workflow.
+INT-309	N14.2=1 N14.5=1	Creative workflow/adoption topics are transferable introductions only; no cyber content.
+INT-320	N8.1=1 N8.4=1 N13.2=1 N13.6=1 N14.3=1	Executive overview names Skills/MCP and AIMS governance; case assignments do not establish the complete specialist skills.
+INT-334	N14.6=1	Deskilling is discussed, without junior-pipeline design. Client examples remain transferable rather than bank policy.
+INT-340	N13.2=1 N14.4=1 N14.5=1	Brief lectures introduce strategy, ethics and implementation; no detailed method or practical assessment.
+INT-341	N11.1=1 N11.4=1 N14.4=1	ML metrics, model leaderboards and project value are adjacent introductions, not agent-evaluation methods.
+INT-342	N14.4=1 N14.5=1 N14.6=1	Business cases name pilot selection and reskilling; no detailed agent work redesign.
+INT-343	N13.2=1	Bias-mitigation exercise introduces AI risk, without risk thresholds/treatment method.
+INT-345	N11.5=1 N12.6=1 R5.1.3=1	Short governance steps mention drift and a stop protocol; no complete technical stop-mechanism design.
+INT-378	N1.1=1 N3.1=1 N6.2=1	Detection framing and brief LLM/hallucination topics add awareness; classical autoencoder work is not agent engineering.
+INT-386	N7.1=1 N7.3=1	Consumer-agent demos introduce boundaries and review; no bank action-class supervision or incident drill.
+INT-387	N4.4=1 N7.2=2 N12.2=1 N12.4=2 N12.6=2	AIOps AgentCore project includes IAM scoping and observability. v7's statement of no security/supervision content was too absolute; coverage remains partial.
+INT-388	N3.1=1 N3.7=1 N4.2=1 N6.1=1 N6.2=1 N6.3=1 N6.8=1	Brief workplace primer names limitations, safe use and prompting; no detailed skill demonstration.
+INT-389	N4.2=1 N6.2=1	Introductory privacy and prompting tips; no agent or cyber-specific method.
+INT-393	N14.7=1	AIMS roles introduce accountability, without per-agent outcome ownership.
+INT-394	N14.5=2 N14.7=1	RACI and a 30-day governance sprint support change planning; accountability is generic AI rather than per-agent.
+INT-395	N3.1=1 N11.5=1 N14.7=1	Exam-prep outline adds AI inherent risks, lifecycle monitoring and governance roles at introductory depth.
+INT-396	N9.3=1 N11.1=1 N11.5=1 N14.7=1	Current readiness/evaluation and deployment-governance lectures introduce evaluation/monitoring. No practised domain evaluation system.
+INT-397	N3.6=1 N9.3=1 N11.5=1 N12.4=2 N12.5=2 N12.6=2 N14.5=2	Controls section teaches RBAC, filters, audit logs and model-change controls; roadmap supports generic change implementation. No full agent control plane.
+INT-398	N4.1=2 N4.2=2 N4.6=2 N14.5=1 N14.7=1	Shadow-AI course applies data classification, approved/restricted tools and named ownership; bank-specific rules remain absent.
+INT-399	N7.1=1 N7.2=1 N7.4=1 N12.4=1 N12.6=1 N14.3=1 N14.7=1	Current description explicitly includes agent permissions, approvals, logging and intervention; depth remains introductory where sections are collapsed.
+INT-400	N11.5=2 N14.7=1	Lifecycle lecture describes data drift and model monitoring; agent governance/accountability is brief.
+INT-401	N4.2=2 N8.4=1 N9.1=2 N9.3=2 N11.1=1 N11.3=1 N12.7=1	RAG evaluation and PII/guardrail labs contribute beyond security attacks. Current outcomes also name MCP and agentic OWASP topics; hidden sections do not support detailed claims.
+INT-402	N10.1=2 N12.5=2 N12.6=2 N11.5=2 N9.3=1	Agent Builder guardrail/fallback workflow and telemetry monitor teach partial build/monitoring skills, oriented to hallucination quality rather than adversarial security.
+INT-424	N6.5=1	Executive model-choice discussion introduces trade-offs without hands-on task selection.
+INT-426		Productivity demos support existing personal-use scores; no further rubric-specific evidence.
+INT-427	N13.5=1	Regulatory overview introduces compliance context; no full control mapping for GRC specialists.
+INT-428	N3.7=2 N4.2=1 N6.4=2	Quality-control/verification lesson and ethical principles teach partial counter-habits and ownership.
+INT-429	N3.6=2 N14.5=1	Current responsible-use checklist explicitly addresses blind trust; personal adoption plan is introductory change content.
+INT-430	N13.2=2 N14.5=1	Simple impact-assessment steps and organisational maturity checklist are partial governance learning; generic maturity assessment is not AI evaluation.
+INT-431	N7.1=1 N7.3=1 N14.2=1	Agent-management lesson and workflow outcomes introduce supervision/design without operational practice.
+INT-432	N3.1=1 N3.7=1 N4.1=1 N4.2=1 N4.5=1 N4.6=1 N2.3=1	Very brief lessons name limitations, approved platforms, regulations and browser agents; restricted depth remains visible as score 1.
+INT-433	N14.2=1	Personal productivity-system framing introduces workflow integration; unseen curriculum not inferred.
+INT-435	N1.3=1 N3.1=1 N3.6=2 N3.7=1	Current synopses explicitly discuss over-reliance and common mistakes. Mismatched lecture descriptions reduce confidence; no complete coverage claim.
+INT-436	N1.1=1 N11.5=1 N14.7=1	Cyber examples, drift and governance roles are introductory mentions.
+INT-437	N14.6=2 R3.1.1=1	Manual practice to prevent skill erosion is explicitly explained; prompt-injection lesson is awareness, not tester training.
+INT-449	N3.1=1 N3.7=1 N4.2=1 N4.5=1 N5.2=1 N6.4=1	Brief ethics/GenAI primer names hallucination checks, privacy, regulation and deepfakes.
+INT-450	N1.3=2 N14.2=1	Role-specific task categories and a reusable workflow exercise address how work changes; depth remains personal-use oriented.
+INT-451	N5.2=1 N5.5=1 N6.4=1	Deepfake/provenance lecture and responsible-use principles support limited threat and ownership awareness.
+INT-452	N3.6=2 N4.1=2 N4.2=2 N4.3=1 N4.5=1 N4.6=1 N5.2=1 N5.5=1 N6.4=1 N13.2=1	Current lecture synopses specify public-tool confidentiality and automation bias; brief remaining topics earn mention credit rather than disappearing from the matrix.
+INT-468	N12.5=2 N2.6=1	Crescendo lab demonstrates active-guardrail bypass. Local-model setup is for a lab, not enterprise hosting design.
+INT-470		Existing safe-use and hallucination mappings retained; generic human review does not establish agent supervision.
+INT-471	N6.1=2 N6.3=2 N13.5=1	Three-step use decision and output-validation protocols support personal delegation/discernment; regulations are overview rather than full control mapping.
+INT-472	N5.1=1 N5.2=1 N5.4=1 N6.2=2 N6.3=2 N6.4=2 N7.1=1	Minimum-context prompting and review/verify/approve workflow teach partial personal-use skills; agent risk discussion remains introductory.
+INT-473	N2.5=2 N8.4=1	Copilot extension/plugin walkthrough introduces tool connectivity, without a complete MCP safe-use or vetting method.
+INT-474	N1.1=2 N5.1=1 N5.2=1 N5.4=1 R3.1.1=1	Cyber/IT prompting section teaches relevant applications; threat and red-team awareness does not establish offensive skills.
+INT-475	N4.2=2 N7.1=2 N7.2=2 N7.4=2 N8.4=1 N14.3=2	Human-in-the-loop middleware pauses agents for approval; tracing and interruption provide partial supervision/design coverage alongside engineering labs.
+INT-476	N4.2=1 N4.4=1 N12.4=1 N12.5=1 R3.1.1=2 R4.1.5=1 R9.1.2=1	Short hacking labs demonstrate injection attacks; mitigation snippets name permissions, OAuth and provenance without full methods.
+INT-477	N7.2=1 N11.5=1 N14.7=1 R5.1.4=2 R6.1.1=1	Prompt-monitoring and audit-trail lectures add partial control design. Generic certification deltas do not establish agent-specific assurance practice.
+INT-478	N3.5=1 N4.4=1 N8.4=1 R3.1.1=1	Current outcomes name injection, AI supply chain and MCP middleware; MAESTRO case remains the substantive skill component.
+INT-479	N4.2=1 N4.5=1 N12.1=1 N12.6=2 N13.2=1	Published model-security modules teach monitoring and incident handling, but not agents or named agent threat frameworks.
+INT-480	N13.1=1	Cloud Security Explorer discovers AI services. General Azure identity/SIEM lessons are not scored as agent-specialist training.
+INT-481	N2.6=2 N7.4=1 N11.5=1 N14.3=2 R1.1.2=2 R5.1.3=2 R5.1.4=1 R6.1.1=1	Current agent case/outcomes explicitly include stop/rollback and human-control design. Short lab videos do not evidence a complete operational exercise.
+INT-482	N7.2=1 N7.4=1 N8.4=2 N8.5=2 N14.3=2 R4.1.3=2 R4.1.6=2 R5.1.1=2 R5.1.2=2 R5.1.3=2 R5.1.5=2 R9.1.2=2 R9.1.3=2	Agentic risk scenarios include scoped delegation, provenance/pinning, replayed approvals and stop controls. Quizzes establish knowledge checks, not full skills practice.
+INT-488	N13.2=2	Use-case risk analysis explains bias, privacy, compliance and impact; no agent autonomy policy.
+INT-589	N1.3=1 N5.2=1 N14.6=1	Job effects, deepfakes and reskilling are mentioned; sustainability content is not relevant rubric coverage.
+INT-638	N4.2=1 N6.4=1 N13.2=1	Ethics/privacy/accountability are briefly introduced; a certificate title does not establish professional competence.
+INT-646		Practice-question bank only; question-topic claims are not evidence of taught content.
+INT-647	N2.2=2 N3.1=1 N5.2=1 N11.5=2 N12.6=1 N14.5=2 N14.7=1	Current lectures add multimodality, drift/incident monitoring and a governance roadmap. Agentic deployment remains introductory.
+INT-655	N1.1=1 N7.1=1 N12.1=2 N13.2=1 N13.5=1 R3.1.2=1	AI testing and scoping lectures introduce ATLAS, agent permissions and risk frameworks; no hands-on red-team programme.
+INT-865	N2.2=1 N3.1=1 N4.3=1 N11.5=1	Executive programme names multimodal AI, hallucinations, IP and MLOps monitoring; no detailed agent control/evaluation design inferred.
+INT-873	N14.1=1 N14.5=2 N14.6=1	Seven-step blueprint with templates explains literacy, co-design and reinforcement. Partial change method is evidenced despite short duration; agent/Skills-specific elements absent.
+INT-874	N13.2=1 N14.4=2 N14.5=2	Current synopses explain measurable pilots, KPI/ROI alignment and change implementation. No hands-on practice or agent-specific adoption method.
+INT-875	N14.4=1 N14.5=1 N14.6=1	Brief inconsistent outline introduces readiness, resistance and workforce development; limited confidence/depth.
+INT-876	N3.1=1 N4.2=1 N4.3=1 N6.2=1 N14.5=2 N14.6=1	FASTER framework describes experimentation/training/replication and communicating AI risks. No full bank change programme or junior-pipeline design.
+INT-878	N3.1=1 N6.3=1 N14.6=1	Scenario-based change course introduces hallucination risk, review skills and reskilling beyond its existing adoption coverage.
+INT-1096	N8.1=1 N8.4=1	Using Skills and a Workspace connector is introduced; not the complete tested-Skill authoring or least-privilege process.
+INT-1099	N2.4=2 N3.1=1 N3.3=2 N6.6=2 N7.2=2 N8.1=1 N12.6=2 N9.2=1	Recovered provider synopsis describes context summarisation, persistent facts, tool traces and structured errors. Architecture walkthroughs support partial skills only; public course version differs slightly from enterprise listing.
+INT-1199	N2.6=2 N4.2=1 N4.4=1 N11.5=1 N13.2=1 N13.5=1 R3.1.1=1 R3.1.2=1	Short SecAI+ preparation clips explicitly cover access, lifecycle monitoring, governance and named attack methods; exam quizzes do not establish hands-on security competence.
+INT-1251	N1.1=1 N14.6=1	Bonus cyber lecture titles and core human-judgment discussion give awareness only; unrelated bundled material excluded.
+INT-1280	N6.3=1 N6.7=1	Employee examples introduce verification and sensitive-data handling; no complete platform/data-classification practice.
+INT-1313	N3.1=1 N9.3=2 N11.5=2 N12.6=2	GenAI governance modules include acceptance criteria, drift and prompt/output logging. Generic data access lifecycle is not agent IAM.
+INT-1315	N4.2=2 N4.5=1 N13.2=1 N13.6=2	Detailed privacy/lineage synopsis and model-documentation template support partial privacy and evidence preparation; no agent controls.
+INT-1316	N4.2=1 N13.2=1 N13.5=1	Public description mentions AI privacy/ethics/compliance; visible core is ordinary data governance, so no deeper AI-specific scoring.
+INT-1406	R6.1.2=1	Use of AI to draft control-assessment material is shown; systematic validation/monitoring of that assessment AI is not taught.
+INT-1460	N6.4=2 N13.2=1 N14.7=1	Decision-ownership scenarios teach personal accountability; ethical assessment remains introductory for GRC specialists.
+INT-1466	N1.3=1 N6.4=1 N14.6=1	Job effects, disclosure and upskilling are discussed, without an agent operating model.
+INT-1468	N5.2=1 N12.6=2 N14.3=2	Articles 12 and 14 lectures/cases teach logging and human-oversight requirements partially. Regulatory sandboxes are not execution sandboxes.
+INT-1469	N5.2=1 N14.5=1	Transparency/deepfake obligations and compliance roadmap introduce supporting topics. No technical controls inferred from regulatory terminology.
+INT-1470	N12.6=1 N14.3=1 R1.2.2=1	Short logging/oversight clips mention protected records; do not establish forensic reconstruction or full agent governance.
+INT-1473	N3.1=1 N7.2=2 N9.1=2 N9.2=2 N9.3=2 N9.4=2 N10.4=1 N11.1=2 N11.2=2 N11.3=1 N11.5=2 N12.6=2	Current detailed synopses explain trace metadata, failure categorisation, test criteria, CI/CD reruns and production thresholds. Short lectures still teach partial methods; no practical work or judge/human calibration demonstrated.
+INT-1529	N4.2=1 N4.5=1 N13.2=1 N13.5=1	Responsible-AI safety-chain and legal overview provide awareness; no bank or agent-specific implementation.
+INT-1579	N3.1=1 N3.3=1 N14.1=1 N14.2=1	Technical foundations name hallucinations/context, and work-transformation lectures introduce orchestration/validation responsibilities.
+INT-1589	N2.6=2 N4.2=2 N4.4=2 N13.4=2 R4.1.5=1	Current supply-chain and disclosure synopses explain vendor vetting, SBOMs and safeguards; old OWASP version remains a limitation.
+INT-1600	N3.6=2 N14.3=1 R5.1.5=2	UX lessons explicitly address confidence displays, user controls and friction to prevent over-reliance. Transferable to approval-interface design but incomplete for agents/banking.
+INT-1601	N2.2=1 N4.2=2 N4.4=2 N4.5=1 N4.6=1 N5.2=1 N12.4=1	Detailed synopsis covers confidential-data controls, third-party diligence and approved applications; governance remains general GenAI.
+INT-1607	N6.3=1 N13.1=2 N13.2=1 N13.4=2	Governance checklist and provider-breach lectures include asset inventory and supplier risk; generic oversight is not operational agent supervision.
+INT-1656	N2.2=1 N4.2=1 N14.5=1 N14.6=1	Generic business overview names modalities, privacy and workforce change; no detailed capability method.
+INT-1657	N3.7=1 N4.2=1 N6.4=1	Ethical-use lecture mentions source checks, privacy and attribution; no deeper security content.
+INT-1658	N2.2=1 N3.1=1 N13.2=1 N14.5=1 N14.6=1	Short leadership overview introduces capabilities, limits, ethics and upskilling only.
+INT-1659	N14.4=2 N14.5=1 N13.2=1	Cost drivers/ROI are explained; adoption mindset and risk governance remain introductory.
+INT-1660	N8.1=2 N8.4=1 N6.6=2	Claude update explicitly covers Skills creation/use and memory; no full trigger/failure/test-case standard or safe connector vetting.
+INT-1662	N13.2=1 N13.5=1	Business-readiness/governance discussion introduces risk/regulation without a complete GRC method.
+INT-1663	N13.2=1 N13.6=1 N14.7=1	Governance, audit and accountability are introduced; tool demos do not establish operational oversight.
+INT-1664	N4.2=1 N6.4=1	Ethics framework contributes basic personal-use awareness; leadership risk exercises are not technical red teaming.
+INT-1665	N1.3=1 N3.7=1 N6.2=1 N13.2=1 N14.5=1 N14.6=1	Brief lectures name job change, checking, policies and learning; insufficient detail for taught-skill scores.
+INT-1666	N1.3=1 N2.2=1 N14.2=2 N14.4=2 N14.5=1	Detailed business-process lecture describes process audits, ROI and integration roadmaps; no agent supervision.
+INT-1667	N4.2=1 N6.1=1 N14.2=1 N14.5=1	Strategy/culture lectures give introductory workflow and ethics coverage; unrelated bonus courses do not establish additional skills.
+INT-1700	N9.3=2 N11.1=1 N11.3=1 N14.3=1 R6.1.1=1	Attack/defence labs supply security checks, and agent lecture names per-tool boundaries. Generic LLM incident simulation is not agent incident-response training.
+INT-1747	N6.5=1 N3.1=1	Coding-assistant comparison and limitations are introduced; no setup/labs in the stated core.
+INT-1788	N2.6=1 N6.2=1 R3.1.1=1	AI risks and prompt concepts are introduced; Azure resource-policy demo is not agent authorisation architecture.
+INT-1797	N2.1=1 N9.1=2 N9.3=2 N11.1=1 N11.3=1 R3.1.5=2	Hallucination grader and scanner examples provide evaluation checks and automated testing. Judge presence does not evidence validation against human labels.
+INT-1798	N4.4=1 N4.5=1 N10.1=2 N9.3=1	AutoGen build example supports partial agent design; attack-framework tests do not imply a complete domain evaluation system.
+INT-1805	N6.2=2 N11.1=1 N11.3=1	Prompt construction and model-based RAG evaluators add partial personal context/evaluation awareness; no judge calibration.
+INT-1830	N1.3=1 N3.6=1 N4.2=1 N6.1=2 N6.4=1 N14.6=1	When-to-use-AI frameworks provide partial delegation guidance; lifestyle examples and wellbeing material add no cyber capability.
+INT-1831	N4.5=1 N14.6=2	Skill erosion and keeping judgment are explicitly discussed; legal oversight requirement remains an introduction.
+INT-1832	N6.1=2 N6.3=2 N6.4=1 N14.3=1	Published lecture explanations cover deciding when to rely on AI and testing/explaining decisions; generic collaboration does not establish agent supervision.
+INT-1833	N14.7=1	Human accountability is explicit but not a complete per-agent ownership model.
+INT-1834	N13.3=1	Delegation levels introduce autonomy boundaries but not action-class policy and treatment.
+INT-1835	N14.1=2 N14.2=2 N14.6=2	Current transformation lectures explain execution/orchestration changes and cognitive degradation; no protected junior-pipeline programme.
+INT-1837	N14.3=2 R5.1.5=2 N13.2=1	HITL/HOTL design and explainable, controllable interfaces teach partial oversight design even though the course targets broader human-centred products.
+INT-1839	N4.2=2 N4.5=1 N13.2=1	Hybrid-team data confidentiality lecture gives practical controls; regulation/risk remain brief.
+INT-1840	N7.4=1 N9.3=1 N12.6=2 N14.5=2 N14.7=1 R3.1.1=1	Deployment controls include logging, stopping and incident monitoring; governance-culture material adds partial change content. No advanced agent control practice.
+INT-1873	N3.1=1 N5.2=1 N6.4=1	Hallucination/fraud and likeness ethics are introductory; data-model bias is not automation bias or sycophancy.
+INT-1903	N13.2=2 N14.7=1	Risk/governance explanation and accountability simulator support partial risk assessment and ownership awareness.
+INT-1923	N4.4=1 N14.5=1	AIMS supply-chain and change-control provisions are introduced; generic internal audits do not teach agent-control assurance.
+INT-1924	N14.5=2 N14.7=1	Role-based competence, learning and governance responsibilities support organisational change partially; no agent-specific accountability design.
+INT-1926	N12.1=2 N12.6=2 N11.5=1 N14.6=1	Security-oriented AIMS modules teach threat assessment and logging; workforce adaptation and monitoring remain introductory.
+INT-1940	N3.7=1 N8.1=1 R6.1.2=1	Script-validation cautions, reusable runbooks and AI audit drafting are present, without the rubric's full tested-Skill or assessment-AI assurance method.
+INT-2041	N3.4=1 N12.6=2 N10.4=1	Agent trace instrumentation is also partial security observability; non-determinism and cost metrics are introduced.
+INT-2042	N7.2=2 N11.1=2 N11.3=1 N12.6=2	LangSmith tracing and production-derived datasets extend beyond the prior N9-only mapping; RAG scoring is not judge calibration.
+INT-2051	N4.2=2 N7.2=2 N11.5=2 N12.6=2	Instrumentation/alerting and privacy-redacted traces teach partial monitoring and confidentiality; no stop mechanisms or complete agent oversight.
+INT-2080	N9.3=1 N11.3=1	Classical metrics and inter-annotator agreement introduce transferable concepts; no agent-specific implementation.
+INT-2132	R6.1.2=1	AI-assisted audit/control examples mention assurance's own AI, without a method for validating and monitoring it.
+INT-2158	N4.2=1 N4.3=1 N6.2=1 N14.5=1	Tool-tour course mentions prompting, privacy/IP and culture; no detailed cyber or agent skills.
+INT-2252	N12.4=2 N12.5=1 N12.7=2 R9.1.3=1	OWASP demos include plugin permission controls and package supply-chain attacks. MCP/agent lifecycle not evidenced.
+INT-2269	R3.1.1=2 R5.1.2=2 R5.1.4=2 R6.1.1=1 R9.1.2=2 R9.1.10=2	MCP course explicitly explains delegated OAuth, enforcement boundaries and reconstructable traffic audits. No hands-on lifecycle or protected-log drill.
+INT-2354	N4.2=1 N13.2=1 N13.3=1 N14.7=1	Responsible-AI principles introduce privacy, impact assessment and human control; no agent-specific method.
+INT-2356	N8.1=1 N8.4=1	Promptbooks and plug-ins are shown; Sentinel data connectors are not MCP connectors and ordinary Entra administration is not agent IAM.
+INT-2427	N4.4=2 N9.3=1 N11.5=1 N14.7=1 R5.1.3=1	RMF lectures describe third-party AI due diligence, monitoring and agent stop/oversight concepts. No implemented agent control plane.
+INT-2477	N1.3=1 N6.1=1	Task sorting/workforce scenarios introduce individual work change and delegation alongside existing organisational redesign scores.
+INT-2478	N4.2=1 N13.2=1	Risk/privacy section introduces organisational AI safeguards; no technical agent security inferred from business supply-chain use cases.
+INT-2480	N7.2=2 N7.4=1 N8.4=2 N11.5=2 N13.1=2 N13.2=2 N13.4=2 N14.3=2 R1.1.3=2 R1.2.3=2 R4.1.2=2 R5.1.2=2 R5.1.3=2 R5.1.4=2 R9.1.3=2	Current extra modules include agent incident reconstruction, inventory templates, connector scopes, policy controls and stop mechanisms. Exercises are walkthroughs, not complete operational drills.
+INT-2483	N4.4=1 N12.1=2 N12.4=2	ATLAS and OWASP case study also supports partial threat modelling and excessive-agency controls; no self-directed testing-agent containment method.
+INT-2537	N3.1=1 N9.1=2 N9.3=2 N9.4=2 N11.1=2	Prompt-strategy synopsis explicitly teaches a reference-answer test suite and systematic reruns; dated tools do not erase this transferable partial evaluation coverage.
+INT-2709	N3.5=1 N5.1=1 N5.4=1 N11.5=2 N12.6=2 N14.3=2 R5.1.3=1 R3.1.1=1	Detailed current security/deployment lessons cover testing, telemetry, drift, rollback and oversight. Generic AI incident controls are not full agent response capability.
+INT-2710	N14.7=1 N14.3=1	Human-control/accountability lessons introduce oversight; no agent action-class policy or technical control design.
+INT-2711	N5.2=1 N5.5=1 N6.4=1 N13.5=1	Deepfake/provenance and responsibility lectures add awareness; regulatory discussion is not complete control mapping.
+INT-2712	N6.4=1 N13.2=2 N14.3=2 N14.6=1 N14.7=1	Published cases discuss ethical use-case assessment, ownership/escalation and review design; job-impact exercise introduces workforce safeguards.
+INT-2713	N3.1=1 N13.2=1 N14.7=1	Brief hallucination and governance-board topics support awareness only.
+INT-2714	N12.6=1 N13.2=1 N13.6=1 N14.7=1	Monitoring/auditing and governance are named; no agent-specific method or practical work evidenced.
+INT-2715	N13.4=1 N14.3=2 N14.6=2 N14.7=2	Lectures explain meaningful oversight, deskilling and named system ownership. Complete agent-specific and junior-pipeline elements remain absent.
+INT-2716	N9.1=1 N9.3=2 N11.1=1 N11.5=2 N10.1=1 N14.6=1 N14.7=1	Evaluation/drift modules and simulators support partial technical measurement; the broad course is not a complete agent platform/evaluation curriculum.
+INT-2752	N1.1=1 N6.8=1	Visible Security Copilot topics provide introductory awareness/use only. General Azure security labs are not evidence of agent security.
+INT-2754		Practice tests only; no numerical teaching coverage inferred from claimed exam domains.
+INT-2755		Visible lectures remain general Azure security. AI-specific exam objective claims without matching teaching do not earn coverage.
+INT-2756	N1.1=1 N5.4=1 N7.2=1 N9.3=1 N11.5=1 R9.1.8=2	Dedicated agent-policy/Defender/monitoring labs add partial agent IAM integration; ordinary user/SAS delegation labs excluded.
+INT-2787	N1.2=1	Emerging AI social-engineering capabilities are introduced; no agent controls or AI-system attack methods.
+INT-2828	N13.2=1	Risk-register template introduces risk governance but not a full AI risk-assessment method.
+INT-2858	N5.2=1 N6.4=1 N13.5=1	Deepfake, disclosure and regional regulation topics support awareness beyond privacy; no practical agent capability.
+INT-2859	N1.3=2 N14.5=1 N14.6=1	Workforce/job-change and opportunity-canvas lessons add personal work-change and adoption awareness.
+INT-2937	N13.1=2 N13.2=2 N13.5=2 N13.6=1	Published compliance process and high-risk case include model inventory, risk triage and obligations-to-controls. Lack of APAC coverage limits, rather than eliminates, N13.
+INT-2938	N5.2=1 N13.1=1 N13.2=1 N13.5=2 N13.6=1	Provider/deployer obligations, conformity and risk classes support partial regulatory mapping; no regional-bank or agent-specific compliance practice.
+INT-2982	N9.1=1 N9.3=2 N9.4=2 N11.1=1 N11.5=1 N14.7=1 R3.1.1=1 R9.1.9=1	TEVV/regression lecture contributes evaluation discipline; break-glass is introduced for AI production systems, not a complete agent PAM implementation.
+INT-3007	N2.2=1 N5.4=1 N11.5=2 N12.6=2 N14.3=2 N14.5=2 N14.7=1 R6.1.1=1	Current governance lectures include operational monitoring, oversight, controls testing and programme rollout; agent-specific assurance remains introductory.

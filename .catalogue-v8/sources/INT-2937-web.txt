@@ -1,0 +1,186 @@
+The EU AI Act Compliance Masterclass 2026 (https://www.udemy.com/course/the-eu-ai-act-compliance-masterclass-2024/)
+citeturn182view0 [wordlim: 200] Crawled: 6 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/the-eu-ai-act-compliance-masterclass-2024/","lineno":null}); Total lines: 196
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: The EU AI Act Compliance Masterclass 2026
+L30: 
+L31: Role Play
+L32: Rating: 4.5 out of 5 4.5cite8†(15,917 ratings) L33: 
+L34: 23,954 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # The EU AI Act Compliance Masterclass 2026
+L38: 
+L39: The Ultimate Guide For Businesses and Professionals To Comply With The EU AI Act
+L40: 
+L41: Created bycite9†Taimur Ijlal | Award winning cybersecurity leader and instructor L42: 
+L43: Last updated 3/2026
+L44: 
+L45: English
+L46: 
+L47: German [Auto],Greek [Auto], 8 more
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * What is the EU AI Act ?
+L53: 
+L54:   * What are the risk tiers within the EU AI Act ?
+L55: 
+L56:   * How are the requirements for high risk AI systems ?
+L57: 
+L58:   * How to practically implement the EU AI Act ?
+L59: 
+L60:   * What are General Purpose AI Systems (GPAI) ?
+L61: 
+L62: ## Course content
+L63: 
+L64: 7 sections • 14 lectures • 2h 2m total length
+L65: 
+L66: Expand all sections
+L67: ### Introduction 2 lectures • 18min
+L68: 
+L69:   * Introduction Preview 9:26
+L70: 
+L71: Explore the EU AI Act masterclass to learn practical steps, case studies, and actionable tips for governance, risk, and cybersecurity compliance for businesses and professionals.
+L72: 
+L73:   * Overview of AI Preview 8:17
+L74: 
+L75: Introduce the fundamentals of ai, explain how ai systems learn and make predictions, and outline ai risks, governance, and the eu ai act framework for risk-based compliance.
+L76: ### The EU AI Act 2 lectures • 20min
+L77: 
+L78:   * Overview of the EU AI Act 9:23
+L79: 
+L80: Explore the EU AI act overview, including its risk-based approach and high-risk obligations, with insights on providers and deployers and the act's global impact.
+L81: 
+L82:   * Overview of the EU AI Act - Part 2 10:19
+L83: 
+L84: Explore how the EU AI Act classifies AI systems into minimal risk, limited risk, high risk, and unacceptable risk, and learn about conformity assessments, data quality standards, and transparency.
+L85: ### The EU AI Act - Risk Tiers 6 lectures • 46min
+L86: 
+L87:   * Minimal Risk 7:56
+L88: 
+L89: Explore the EU AI Act minimal risk and limited risk tiers, their low obligations, transparency requirements for AI interactions, and the recommended AI code of conduct.
+L90: 
+L91:   * Unacceptable Risk 8:01
+L92: 
+L93: Explore unacceptable risk in the EU AI Act, including banned practices like social credit scoring, biometric and manipulative AI, with examples and a compliance checklist to avoid fines.
+L94: 
+L95:   * Dealing With a Prohibited AI Use Case
+L96:   * High Risk AI 13:23
+L97: 
+L98: Identify high risk AI systems under the EU AI Act, implement risk management, conformity assessment, data governance, and human oversight for providers and deployers, and analyze a case study.
+L99: 
+L100:   * High Risk AI - Case Study 16:13
+L101: 
+L102: Explore how a hypothetical company implements EU AI Act high risk requirements in an AI-powered recruitment system, covering risk assessment, data governance, transparency, human oversight, data privacy, and cybersecurity.
+L103:   * Explaining the EU AI Act to your CEO
+L104: ### General Purpose AI 2 lectures • 17min
+L105: 
+L106:   * Overview of General Purpose AI 8:27
+L107: 
+L108: Explore the EU AI act’s handling of general purpose AI, distinguishing regular and systemic risk tiers, with requirements like up-to-date documentation, transparency, risk assessments, and adversarial training.
+L109: 
+L110:   * General Purpose AI - Case Study 8:14
+L111: Explore how a general purpose AI system like Vertex AI meets EU AI Act requirements through documentation, testing, security, monitoring, reporting, and stakeholder engagement in a systemic risk case study.
+L112: ### EU AI Act Process Flow 1 lecture • 5min
+L113: 
+L114:   * Process Flow 5:18
+L115: 
+L116: Explore a simplified EU AI Act process flow that differentiates deployer and provider roles, flags prohibited AI, and outlines high-risk requirements, transparency, and conformity assessments.
+L117: ### EU AI Act Governance 2 lectures • 15min
+L118: 
+L119:   * EU AI Act Governance 5:42
+L120: 
+L121: Discover how the EU AI Act governs compliance through an AI office that monitors, audits, and enforces fines, while regulatory sandboxes foster innovation and codes of conduct.
+L122: 
+L123:   * Implementing The EU AI Act 9:14
+L124: 
+L125: Implement the EU AI Act by building an AI governance framework, inventorying models, conducting gap analyses, automating compliance, and training stakeholders for transparent, continuous risk management.
+L126: ### The Way Forward 1 lecture • 3min
+L127: 
+L128:   * The Way Forward 3:04
+L129: 
+L130: Understand how the EU AI Act functions as a living, evolving regulation. Stay current with debates, revise process flows, and apply compliance for high-risk systems and penalties, plus gap analysis.
+L131: 
+L132: ## Requirements
+L133: 
+L134:   * Basic knowledge of AI
+L135: 
+L136:   * Passion to learn
+L137: 
+L138:   * No prior knowledge of EU AI Act needed
+L139: ## Description
+L140: The European Union's Artificial Intelligence Act (EU AI Act) represents a landmark regulation that seeks to govern the use of artificial intelligence across the member states. As the first of its kind, this legislation introduces a legal framework that aims to ensure AI systems are safe, transparent, and accountable. This course offers an in-depth exploration of the EU AI Act, providing learners with a robust understanding of its contents, implications, and the necessary steps for compliance.
+L141: What You Will Learn:
+L142: 
+L143:   1. Overview of the EU AI Act: Gain a solid foundation in what the EU AI Act entails, its scope, and its objectives.
+L144: 
+L145:   2. Risk-Based Classification: Understand the classification of AI systems under the Act based on risk levels—from minimal to unacceptable risk.
+L146: 
+L147:   3. Compliance Requirements: Learn about the specific compliance requirements for different classes of AI systems, including documentation, data governance, and transparency obligations.
+L148:   4. Practical Compliance Strategies: Receive guidance on implementing effective compliance strategies within your organization.
+L149: 
+L150:   5. Impact on Global Markets: Analyze how the EU AI Act affects not only EU-based companies but also global businesses operating in the EU.
+L151: 
+L152:   6. Future Trends in AI Regulation: Discuss potential future changes in AI regulation and how to prepare for them.
+L153: 
+L154: Course Outline:
+L155: 
+L156:   * What is the EU AI Act?
+L157: 
+L158:   * Risk categories and examples
+L159:   * Case studies of AI in different risk categories
+L160: 
+L161:   * Detailed compliance requirements
+L162: 
+L163:   * Setting up governance structures for AI
+L164: 
+L165:   * Creating a roadmap for compliance
+L166: 
+L167:   * Best practices in AI regulation adherence
+L168: 
+L169: Who Should Take This Course:
+L170: 
+L171: This course is designed for a wide range of professionals who need to understand or comply with the EU AI Act, including:
+L172: 
+L173:   * Tech Industry Professionals: AI developers, project managers, and executives responsible for AI deployment.
+L174:   * Legal and Compliance Officers: Legal experts and compliance officers who need to ensure that AI applications are within regulatory bounds.
+L175: 
+L176:   * Policy Makers and Regulators: Government officials and regulatory agency personnel involved in AI policy.
+L177: 
+L178:   * Academics and Researchers: Individuals in academia studying or researching AI ethics, law, and policy.
+L179: 
+L180:   * Business Leaders: CEOs and other senior leaders who need to understand how AI regulation affects their strategic decisions.
+L181: This course will equip you with the knowledge and skills to navigate the complexities of the EU AI Act, ensuring that your AI systems are not only innovative but also compliant and ethically sound.
+L182: 
+L183: Instructor
+L184: Taimur Ijlal is a multi-award winning, information security leader with over 20+ years of international experience in cyber-security and IT risk management in the fin-tech industry. Strong knowledge of ISO 27001, PCI DSS, GDPR, Cloud Security, DevSecOps and winner of major industry awards in the Middle East such as CISO of the year, CISO top 30, CISO top 50 and Most Outstanding Security team.
+L185: ## Who this course is for:
+L186: 
+L187:   * Legal professionals interested in the EU AI Act
+L188:   * Risk professionals interested in the EU AI Act
+L189:   * Governance and Compliance professionals
+L190:   * Cybersecurity professionals who want to understand EU AI Act and other AI regulsations
+L191:   * Anyone interested in EU AI Act !
+L192: 
+L193: Show more Show less
+L194: 
+L195: cite10†Report abuse 

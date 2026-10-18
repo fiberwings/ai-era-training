@@ -1,0 +1,131 @@
+Change Management for Generative AI (https://www.udemy.com/course/change-management-for-generative-ai-o/)
+citeturn91view0 [wordlim: 200] Crawled: 6 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/change-management-for-generative-ai-o/","lineno":null}); Total lines: 141
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Change Management for Generative AI
+L30: 
+L31: Role Play
+L32: 
+L33: Rating: 4.3 out of 5 4.3cite8†(716 ratings) L34: 2,944 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # Change Management for Generative AI
+L38: 
+L39: Lead the Shift: Strategically Manage Change in the Age of Generative AI
+L40: 
+L41: Created bycite9†Eduardo Aponte, PhD , cite10†Finnse Academy L42: 
+L43: Last updated 6/2026
+L44: 
+L45: English
+L46: 
+L47: German [Auto],English [Auto], 8 more
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * You will understand the transformative potential of generative AI and its impact on modern organizations.
+L53: 
+L54:   * You will learn the core principles of change management essential for digital transformation.
+L55: 
+L56:   * You will explore the intersection between AI adoption and organizational change through real-world examples.
+L57: 
+L58:   * You will develop leadership skills to overcome resistance and foster a culture of innovation.
+L59:   * You will plan and execute AI integration projects using strategic roadmaps and performance metrics.
+L60: 
+L61:   * You will anticipate emerging trends to effectively scale and sustain AI-driven initiatives.
+L62: ## Course content
+L63: 
+L64: 4 sections • 15 lectures • 1h 17m total length
+L65: 
+L66: Expand all sections
+L67: ### Foundations of Generative AI and Change Management 4 lectures • 22min
+L68: 
+L69:   * Introduction to Generative AI in Business Preview 5:20
+L70: 
+L71: Explore how generative AI reshapes business by creating original content from data patterns. Automate routine tasks, boost creativity and efficiency, and support strategic decision making in marketing and product design.
+L72: 
+L73:   * Principles of Change Management Preview 5:27
+L74: Guide people through transition by focusing on communication, training, support, and leadership around generative AI. Reduce fear and resistance by involving employees and delivering quick wins.
+L75: 
+L76:   * The Intersection of AI and Organizational Change 5:27
+L77: 
+L78: Generative AI reshapes daily operations, team roles, and company structure by automating creative tasks and speeding decisions, while organizational readiness ensures leadership alignment and upskilling for a successful adoption.
+L79:   * Aligning AI Initiatives with Business Goals 5:32
+L80: 
+L81: Align AI initiatives with business goals by defining objectives, mapping projects, piloting solutions, and evaluating ROI, while maintaining continuous alignment through KPIs and cross-functional collaboration.
+L82: ### Leadership and Navigating Resistance 5 lectures • 20min
+L83: 
+L84:   * Leading Change in the Age of AI 5:35
+L85: 
+L86: Leaders drive AI adoption by communicating benefits and aligning with strategic goals in digital transformation. They cultivate adaptability and emotional intelligence to create an AI vision and empower their workforce.
+L87: 
+L88:   * Overcoming Resistance to AI Adoption 4:44
+L89: Address resistance to generative AI by understanding its sources at individual, team, and organizational levels. Start early, tailor messages, invite two-way discussion, provide training, and lead by example.
+L90: 
+L91:   * The Employee Who Fears Being Replaced
+L92: 
+L93:   * Stakeholder Engagement and Communication 5:10
+L94: 
+L95: Engage stakeholders and communicate about generative ai changes with early, transparent updates, tailored messages, and multiple channels; use stakeholder maps and a raci matrix to build trust.
+L96:   * Building a Culture of Adaptability and Continuous Learning 4:50
+L97: 
+L98: Develop a culture of adaptability and continuous learning through upskilling and targeted training programs. Create feedback loops, celebrate creative thinking, and view mistakes as learning opportunities to drive innovation.
+L99: ### Operationalizing AI-Driven Change 4 lectures • 21min
+L100: 
+L101:   * Planning and Executing AI Integration Projects 5:34
+L102: 
+L103: Plan and execute AI integration projects by building a strategic roadmap aligned with business goals, and manage planning, implementation, evaluation, and scaling with agile resource allocation.
+L104: 
+L105:   * Measuring Success and Evaluating Impact 4:46
+L106: Define clear KPI and success metrics for AI projects, track performance with dashboards and data-driven decision making, and use analytics to refine and optimize AI initiatives.
+L107: 
+L108:   * Risk Management and Ethical Considerations 5:18
+L109: 
+L110: Identify and mitigate risks in generative AI through pilot projects or simulations and risk assessments, while upholding ethical challenges, regulatory compliance, transparency, fairness, and accountability.
+L111: 
+L112:   * Case Studies in AI-Driven Change 5:30
+L113: Dive into case studies of AI-driven change across healthcare, finance, manufacturing, and retail, highlighting data quality, governance, pilot testing, and effective change management for scalable, responsible adoption.
+L114: ### Future Directions and Strategic Innovation 3 lectures • 15min
+L115: 
+L116:   * Emerging Trends in Generative AI and Business Transformation 4:41
+L117: 
+L118:   * Scaling AI Initiatives Across the Organization 5:06
+L119: 
+L120: Scale AI initiatives across the organization by standardizing pilot projects and methodologies, aligning with business strategy, adopting agile practices, and embedding AI into every function through governance and change management.
+L121: 
+L122:   * Fostering Innovation and a Growth Mindset 4:58
+L123: Foster innovation and a growth mindset by enabling cross-functional collaboration, safe innovation labs, and pilot programs, while embedding continuous learning and inclusive leadership to scale ideas.
+L124: ## Requirements
+L125: 
+L126:   * No previous experience is necessary.
+L127: ## Description
+L128: 
+L129: Are you ready to lead your organization into the next era of digital transformation? Our “Change Management for Generative AI” course is designed to empower you with the strategies and insights to navigate the exciting yet challenging integration of generative AI into your business. This course masterfully blends cutting-edge technology with proven change management methodologies, enabling you to drive innovation while ensuring a smooth organizational transition.
+L130: Throughout the program, you will explore the transformative impact of generative AI on business processes, learning how these advanced systems can automate tasks, enhance decision-making, and unlock new opportunities for growth. At the same time, you will gain a solid foundation in change management principles—examining historical perspectives alongside modern approaches—to effectively lead and support your team through periods of rapid technological change.
+L131: You will discover techniques for aligning AI initiatives with your organization’s core objectives, while also learning how to overcome resistance by building trust and fostering a culture of continuous learning.
+L132: In addition to strategic planning and execution, the course will guide you through ethical considerations and risk management practices essential for responsible AI adoption. Designed specifically for visionary leaders, change managers, and tech innovators, this course provides a comprehensive roadmap from initial planning to execution and evaluation of AI-driven projects.
+L133: Enroll in “Change Management for Generative AI” today and become the catalyst for transformation, positioning your organization for sustained success in an ever-evolving digital landscape.
+L134: ## Who this course is for:
+L135: 
+L136:   * Leaders, Managers, Aspiring Managers, Aspiring Leaders
+L137: 
+L138: Show more Show less
+L139: 
+L140: cite11†Report abuse 

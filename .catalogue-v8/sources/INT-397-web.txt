@@ -1,0 +1,225 @@
+AI Governance: A Complete Guide for Professionals (https://www.udemy.com/course/ai-governance-a-complete-masterclass/)
+citeturn49view0 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-governance-a-complete-masterclass/","lineno":null}); Total lines: 235
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Governance: A Complete Guide for Professionals
+L30: 
+L31: Bestseller
+L32: 
+L33: Role Play
+L34: Rating: 4.6 out of 5 4.6cite8†(142 ratings) L35: 
+L36: 1,120 students
+L37: 
+L38: cite0†Image†img-c.udemycdn.com Preview this course
+L39: # AI Governance: A Complete Guide for Professionals
+L40: 
+L41: Build a working AI governance framework with model cards, policies, risk assessments, and a real EU AI Act scorecard.
+L42: 
+L43: Created bycite9†Georgi Smarts L44: 
+L45: Last updated 10/2026
+L46: 
+L47: English
+L48: 
+L49: Bulgarian [Auto],English [Auto], 2 more
+L50: 
+L51: cite0†Image†img-c.udemycdn.com Preview this course
+L52: ## What you'll learn
+L53: 
+L54:   * Build a complete AI governance framework from scratch using the 6 pillars: accountability, risk, transparency, fairness, privacy, and compliance
+L55: 
+L56:   * Classify any AI system into EU AI Act risk tiers (unacceptable, high, limited, minimal) and assign the right controls for each level
+L57: 
+L58:   * Run a full AI risk assessment covering bias and fairness audits, data privacy risks, and third-party vendor due diligence
+L59:   * Write production-ready governance artefacts: model cards, acceptable use policy, incident response runbook, and audit trails
+L60: 
+L61:   * Govern generative AI specifically through prompt governance, output validation, and cost controls for LLM APIs
+L62: 
+L63:   * Plan a realistic 90-day implementation roadmap and get buy-in from leadership, legal, and engineering
+L64: 
+L65:   * Apply everything to a real capstone: build an AI Governance Scorecard for a fictional retailer end to end
+L66: ## Course content
+L67: 
+L68: 8 sections • 35 lectures • 2h 41m total length
+L69: 
+L70: Expand all sections
+L71: ### Introduction 5 lectures • 20min
+L72: 
+L73:   * Introduction Preview 3:00
+L74: 
+L75:   * What is AI Governance 2:06
+L76: 
+L77:   * The risks of ungoverned AI 4:29
+L78: 
+L79:   * The regulatory landscape: EU AI Act, GDPR, US frameworks 3:02
+L80: 
+L81: Explore the regulatory landscape for AI governance, including the EU AI Act’s risk-based four-tier system, GDPR implications for AI, and evolving US frameworks, with emphasis on mandatory compliance.
+L82: 
+L83:   * AI Governance vs Data Governance 7:14
+L84: Distinguish data governance, focused on data quality, security, stewardship, and lifecycle, from AI governance, which centers on model behavior, fairness and bias, safety and risk, transparency, and accountability.
+L85: ### The Course Project intro 1 lecture • 6min
+L86: 
+L87:   * The course project intro Preview 5:37
+L88: 
+L89: Lead Lumion Pay's 90-day AI governance plan, using templates and tools to assess AI risk, fix governance gaps, and navigate EU and US frameworks across five AI systems.
+L90: ### The AI Governance Framework 6 lectures • 44min
+L91: 
+L92:   * The 6 pillars of AI Governance Preview 9:28
+L93: 
+L94:   * Roles and responsibilities: who owns what 5:17
+L95: 
+L96:   * AI risk classification: low, limited, high, unacceptable 7:29
+L97: 
+L98: Align AI systems to the EU AI Act, classify risk into four tiers—unacceptable, high, limited, and minimal—and document the controls, scoring, and regulator-ready assessments.
+L99: 
+L100:   * The AI inventory: documenting every AI system in use 6:29
+L101: Identify all ai systems in production and establish a governance-focused inventory. Document each entry with 12 fields, addressing shadow it, embedded saas ai, and internal api calls.
+L102: 
+L103:   * AI model cards: what they are and how to write one 5:01
+L104: 
+L105: Create and use a one-page ai model card to explain a system’s purpose, ownership, training data, performance, risks, and controls and oversight for onboarding, audits, and vendor assessments.
+L106: 
+L107:   * The AI Governance Council: setup and decision rights 10:10
+L108: Establish the AI governance council to enforce policy and make decisions, chaired by the chief compliance officer with chief executive officer, chief technology officer, AI governance lead, and legal counsel.
+L109: ### AI Risk Assessment deep dive 3 lectures • 17min
+L110: 
+L111:   * Bias and fairness auditing 5:39
+L112: 
+L113: Integrate bias and fairness auditing from the start, addressing historical, representation, and proxy bias. Apply the 80% rule, per-group checks, and the audit checklist to guide documentation and deployment readiness.
+L114: 
+L115:   * Third-party and vendor AI risk checklist Preview 7:29
+L116: 
+L117:   * (Optional) Practice - Bias audit 4:03
+L118: Explore a bias audit in AI governance by loading a credit decisions dataset, computing overall approval rates, and analyzing gender disparities through six practical tasks in a Python notebook.
+L119: ### AI Policies and Controls 11 lectures • 49min
+L120: 
+L121:   * AI Acceptable Use Policy 3:32
+L122: 
+L123: Discover how to implement an AI acceptable use policy with a ready-to-customize template that defines purpose, scope, permitted and prohibited AI uses, data handling, governance, and enforcement.
+L124: 
+L125:   * AI Technical & Procedural Controls 3:39
+L126: Explore how technical and procedural controls operationalize AI governance by enforcing policy frameworks, preventing data misuse, and ensuring human oversight through access restrictions, reviews, and templates.
+L127: 
+L128:   * Access Controls & Role-Based Permissions 5:22
+L129: 
+L130: Define and enforce access controls and RBAC with four roles—admin, deployer, reader, and service account—plus MFA and authenticated production endpoints for secure AI governance.
+L131: 
+L132:   * Input Validation & PII Scanning 3:38
+L133: Apply input validation to govern data entering AI systems and strip personal data before calls. Use a proxy to scan and replace PII in text before sending to external models.
+L134: 
+L135:   * Output Validation & Guardrails 4:10
+L136: 
+L137: Explore output validation and guardrails that govern AI outputs before delivery. Implement structural schema validation and semantic guardrails to block, log, and route deviations to safe fallbacks.
+L138: 
+L139:   * Human-in-the-Loop Requirements 3:25
+L140: 
+L141:   * Audit Logging 3:55
+L142:   * Cost Ceilings & Rate Limits 3:22
+L143: 
+L144: Implement hard monthly cost caps and per session token limits (8,000 tokens) to prevent uncapped spend and misuse patterns, with soft alerts and real-time dashboards to monitor and respond.
+L145: 
+L146:   * Model Change Control 4:54
+L147: 
+L148: Implement strict model change control with versioned ai artifacts, dual approvals, bias audits, and rollback capabilities to govern updates to production systems and vendor changes.
+L149: 
+L150:   * User Disclosure & Transparency 4:41
+L151: Communicate clearly that users interact with AI before any message, per EU AI Act Article 50. Update privacy notices with system details and user rights.
+L152: 
+L153:   * AI incident response 7:53
+L154: 
+L155: Learn how an AI incident response plan enables organized, legally compliant handling of failures, from detection to post-incident review, with roles, severity levels, and regulatory obligations.
+L156: ### Building Your AI Governance Roadmap 2 lectures • 8min
+L157: 
+L158:   * Assessing your current AI governance maturity Preview 3:43
+L159: 
+L160: Assess your organization's AI governance maturity with an eight-domain self-assessment, scoring each domain from one to four to identify gaps and guide remediation and targets.
+L161: 
+L162:   * The 90-day implementation roadmap 4:27
+L163: Implement a 90-day AI governance roadmap in three phases—foundation, build and prove, and drill—covering system inventory, controls, incident logging, and legal and fairness checks.
+L164: ### Top AI Governance Certifications 5 lectures • 15min
+L165: 
+L166:   * Certified AI Governance Professional (AIGP) - IAPP 3:09
+L167: 
+L168: Earn the AI governance professional credential from IAPP to prove responsible AI governance across four domains; the exam is 100 questions, 3 hours, no prerequisites, costs around $650–800.
+L169: 
+L170:   * ISACA Advanced in AI Audit (AAIA)2:47
+L171: 
+L172:   * ISO/IEC 42001 Lead Implementer / Lead Auditor 2:51
+L173: 
+L174:   * EXIN AICP (AI Compliance Professional)3:17
+L175: Explore Exin ai compliance professional certification, focused on european regulation and eu ai act, six domains. Understand the exam: 40 questions in 90 minutes, open book, 65% pass, accredited training.
+L176: 
+L177:   * EC-Council CRAGE (Certified Responsible AI Governance and Ethics)2:37
+L178: 
+L179: Discover EC-Council CRAGE, Certified Responsible AI Governance and Ethics, and learn to build AI governance programs from scratch with ethics frameworks, oversight, accountability, lifecycle oversight, and compliance.
+L180: ### Course Closure 3 lectures • 3min
+L181: 
+L182:   * Test your AI Governance knowledge
+L183: 
+L184:   * AI Governance interview
+L185: 
+L186:   * Thank You 1:37
+L187: 
+L188: Apply your AI governance knowledge to navigate law, ethics, policy, and technology; ask hard questions and advocate for accountability as AI systems affect lives.
+L189: 
+L190:   * Bonus Lecture 1:35
+L191: 
+L192: ## Requirements
+L193: 
+L194:   * No prior AI, machine learning, or governance experience required
+L195: 
+L196:   * Basic familiarity with how organizations use software is helpful but not essential
+L197: ## Description
+L198: 
+L199: This course contains the use of artificial intelligence.
+L200: 
+L201: AI is everywhere in your organization. Governance usually isn't.
+L202: 
+L203: The EU AI Act is in force. GDPR Article 22 still applies. Your CFO wants to know how much you're spending on LLM APIs. Your legal team is asking who signs off on the new AI hiring tool. And someone in marketing just pasted a client list into a chatbot.
+L204: This course gives you a complete, working AI governance framework you can apply in your organization immediately. No theory-heavy slides. No vague principles. Just the structures, policies, and artefacts that real governance programs run on.
+L205: 
+L206: What you will build
+L207: In three hours, you'll work through 30 focused lectures organized into 7 sections. You'll go from "why governance matters" to writing your own AI Model Card, Acceptable Use Policy, Incident Response runbook, and a 90-day implementation roadmap. Then you'll apply everything in a capstone lab: a full governance scorecard for a fictional retailer with five AI systems across three departments.
+L208: 
+L209: What's inside
+L210: 
+L211:   * The 6 pillars of AI governance and how to score against them
+L212:   * EU AI Act risk classification, GDPR overlap, and US frameworks (NIST AI RMF, Colorado AI Act)
+L213: 
+L214:   * A repeatable risk assessment process for any AI system
+L215: 
+L216:   * Bias auditing, privacy risks, and third-party vendor due diligence
+L217: 
+L218:   * Generative AI specifics: prompt governance, output validation, cost controls
+L219: 
+L220:   * Downloadable templates you can drop into your own organization
+L221: 
+L222:   * Hands-on labs and a scorecard you keep as a portfolio piece
+L223: 
+L224: This course contains a promotion.
+L225: ## Who this course is for:
+L226:   * Compliance, risk, and legal professionals who have suddenly inherited AI governance
+L227:   * Product managers, engineers, and architects who build or buy AI systems
+L228:   * Data and analytics leaders accountable for responsible AI in their organisation
+L229:   * Founders and operators at companies adopting GenAI quickly and informally
+L230:   * Anyone preparing their company for the EU AI Act, GDPR Article 22, or the NIST AI RMF
+L231:   * Career changers looking to move into AI governance, AI risk, or responsible AI roles
+L232: Show more Show less
+L233: 
+L234: cite10†Report abuse 

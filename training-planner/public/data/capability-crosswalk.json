@@ -1,0 +1,2408 @@
+{
+  "modelVersion": 2,
+  "catalogueVersion": "a959067fd5d91eba",
+  "requirements": [
+    {
+      "id": "N1.1",
+      "need": "N1",
+      "title": "What AI does today in cyber",
+      "description": "Describe what AI and agents already do well in one's own domain and the neighbouring ones: triage and enrichment, log and code analysis, drafting and summarising, policy mapping, test generation",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 2
+      }
+    },
+    {
+      "id": "N1.2",
+      "need": "N1",
+      "title": "What is emerging",
+      "description": "Describe what is emerging in AI for cyber, beyond what is in production today",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 3
+      }
+    },
+    {
+      "id": "N1.3",
+      "need": "N1",
+      "title": "How one's own work changes",
+      "description": "Name two or three ways one's own work could change. The purpose is to open the mind to a new way of working, not to teach a tool",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 4
+      }
+    },
+    {
+      "id": "N2.1",
+      "need": "N2",
+      "title": "Models",
+      "description": "Different providers make different models, varying in capability, cost, speed and how much they reason; some are open source and can be hosted by the bank; work is measured in tokens",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 5
+      }
+    },
+    {
+      "id": "N2.2",
+      "need": "N2",
+      "title": "Modalities",
+      "description": "AI handles text, code, images, voice, documents and screens, and can act across them",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 6
+      }
+    },
+    {
+      "id": "N2.3",
+      "need": "N2",
+      "title": "Ways of using AI",
+      "description": "Four patterns: assistant (chat), agent (acts, uses tools, loops until done), teams of agents, and humans and agents working in a shared space",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 7
+      }
+    },
+    {
+      "id": "N2.4",
+      "need": "N2",
+      "title": "Anatomy of an agent",
+      "description": "An agent is a model wrapped in a harness: instructions, memory, tools and a loop; the harness is what people configure",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 8
+      }
+    },
+    {
+      "id": "N2.5",
+      "need": "N2",
+      "title": "Connecting and extending",
+      "description": "Three ways to extend AI: connectors to tools and data (MCP), reusable playbooks (Skills), and APIs for building",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 9
+      }
+    },
+    {
+      "id": "N2.6",
+      "need": "N2",
+      "title": "Safety components",
+      "description": "Every safe deployment has an identity and permissions for the agent, a sandbox it runs in, an authorisation layer that decides what it may do, guardrails on input and output, logs of what it did, and a stop button",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 10
+      }
+    },
+    {
+      "id": "N2.7",
+      "need": "N2",
+      "title": "Where it runs",
+      "description": "The bank's approved platforms versus public tools, and what leaves the bank with each",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 11
+      }
+    },
+    {
+      "id": "N3.1",
+      "need": "N3",
+      "title": "Hallucination",
+      "description": "Hallucination and confident wrong answers: explain them and recognise them in one's own tools",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 12
+      }
+    },
+    {
+      "id": "N3.2",
+      "need": "N3",
+      "title": "Sycophancy",
+      "description": "The model agreeing with the user; recognising it in one's own tools",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 13
+      }
+    },
+    {
+      "id": "N3.3",
+      "need": "N3",
+      "title": "Context loss",
+      "description": "Loss of context in long sessions",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 14
+      }
+    },
+    {
+      "id": "N3.4",
+      "need": "N3",
+      "title": "Non-determinism",
+      "description": "Non-deterministic output: the same input can give different answers",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 15
+      }
+    },
+    {
+      "id": "N3.5",
+      "need": "N3",
+      "title": "Prompt injection",
+      "description": "Prompt injection as a behaviour of the model: content it reads can steer it",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 16
+      }
+    },
+    {
+      "id": "N3.6",
+      "need": "N3",
+      "title": "Automation bias",
+      "description": "Automation bias: the human tendency to over-trust the machine",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 17
+      }
+    },
+    {
+      "id": "N3.7",
+      "need": "N3",
+      "title": "Counter-habits",
+      "description": "The habits that counter these failures: check against sources, record one's own view before reading the AI's, sample rather than trust",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 18
+      }
+    },
+    {
+      "id": "N4.1",
+      "need": "N4",
+      "title": "Data leaving the bank",
+      "description": "Data leaving the bank through public tools",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 19
+      }
+    },
+    {
+      "id": "N4.2",
+      "need": "N4",
+      "title": "Confidentiality and client data",
+      "description": "Confidentiality and client data when using AI",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 20
+      }
+    },
+    {
+      "id": "N4.3",
+      "need": "N4",
+      "title": "Intellectual property",
+      "description": "Intellectual property risks of AI use",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 21
+      }
+    },
+    {
+      "id": "N4.4",
+      "need": "N4",
+      "title": "AI supply chain",
+      "description": "Third-party models, Skills and connectors as a supply chain",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 22
+      }
+    },
+    {
+      "id": "N4.5",
+      "need": "N4",
+      "title": "Regulation",
+      "description": "Regulation: the AI Act's literacy duty and the regional regulators' expectations",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 23
+      }
+    },
+    {
+      "id": "N4.6",
+      "need": "N4",
+      "title": "The bank's rules",
+      "description": "Applying the bank's rules on approved tools, and knowing what may and may not be handed to an agent",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 24
+      }
+    },
+    {
+      "id": "N4.7",
+      "need": "N4",
+      "title": "Vetting third-party Skills and connectors",
+      "description": "Vetting a third-party Skill or connector before using it",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 25
+      }
+    },
+    {
+      "id": "N5.1",
+      "need": "N5",
+      "title": "AI-enabled social engineering",
+      "description": "Phishing and social engineering at scale using AI",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 26
+      }
+    },
+    {
+      "id": "N5.2",
+      "need": "N5",
+      "title": "Deepfakes",
+      "description": "Voice and video deepfakes",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 27
+      }
+    },
+    {
+      "id": "N5.3",
+      "need": "N5",
+      "title": "AI-enabled intrusion",
+      "description": "Vulnerability discovery, malware generation and automated intrusion using AI",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 28
+      }
+    },
+    {
+      "id": "N5.4",
+      "need": "N5",
+      "title": "Attacks on the bank's AI",
+      "description": "Attacks on the bank's own AI systems",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 29
+      }
+    },
+    {
+      "id": "N5.5",
+      "need": "N5",
+      "title": "What changes for defence",
+      "description": "Speed, volume, and the need to verify identity rather than trust a voice or a message",
+      "core": true,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 30
+      }
+    },
+    {
+      "id": "N5.6",
+      "need": "N5",
+      "title": "Recognising AI-enabled attacks",
+      "description": "Recognising AI-enabled attacks in one's own domain",
+      "core": false,
+      "component": "Foundation",
+      "agenticLevel": 0,
+      "specialisms": [],
+      "sourceLevel": "Base",
+      "sourceRank": 0,
+      "source": {
+        "sheet": "Rubric",
+        "row": 31
+      }
+    },
+    {
+      "id": "N5.7",
+      "need": "N5",
+      "title": "Tracking the threat landscape",
+      "description": "Tracking the AI threat landscape and adjusting controls",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "threat-intelligence"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 32
+      }
+    },
+    {
+      "id": "N6.1",
+      "need": "N6",
+      "title": "Delegation",
+      "description": "Deciding what to hand to AI and what to keep, with a clear definition of success",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 1,
+      "specialisms": [],
+      "sourceLevel": "Entry",
+      "sourceRank": 1,
+      "source": {
+        "sheet": "Rubric",
+        "row": 33
+      }
+    },
+    {
+      "id": "N6.2",
+      "need": "N6",
+      "title": "Context",
+      "description": "Giving the AI the right information, examples and constraints; this has replaced prompt-writing as the core skill",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 1,
+      "specialisms": [],
+      "sourceLevel": "Entry",
+      "sourceRank": 1,
+      "source": {
+        "sheet": "Rubric",
+        "row": 34
+      }
+    },
+    {
+      "id": "N6.3",
+      "need": "N6",
+      "title": "Discernment",
+      "description": "Judging the output, the reasoning and the behaviour",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 1,
+      "specialisms": [],
+      "sourceLevel": "Entry",
+      "sourceRank": 1,
+      "source": {
+        "sheet": "Rubric",
+        "row": 35
+      }
+    },
+    {
+      "id": "N6.4",
+      "need": "N6",
+      "title": "Diligence",
+      "description": "Owning the result and being transparent about AI's part in it",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 1,
+      "specialisms": [],
+      "sourceLevel": "Entry",
+      "sourceRank": 1,
+      "source": {
+        "sheet": "Rubric",
+        "row": 36
+      }
+    },
+    {
+      "id": "N6.5",
+      "need": "N6",
+      "title": "Choosing a model",
+      "description": "Choosing a model and effort level for a task",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 1,
+      "specialisms": [],
+      "sourceLevel": "Entry",
+      "sourceRank": 1,
+      "source": {
+        "sheet": "Rubric",
+        "row": 37
+      }
+    },
+    {
+      "id": "N6.6",
+      "need": "N6",
+      "title": "Context window and memory",
+      "description": "Why long sessions degrade as the context window fills, and managing memory",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 1,
+      "specialisms": [],
+      "sourceLevel": "Entry",
+      "sourceRank": 1,
+      "source": {
+        "sheet": "Rubric",
+        "row": 38
+      }
+    },
+    {
+      "id": "N6.7",
+      "need": "N6",
+      "title": "Platform for the data",
+      "description": "Which approved platform suits which data classification",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 1,
+      "specialisms": [],
+      "sourceLevel": "Entry",
+      "sourceRank": 1,
+      "source": {
+        "sheet": "Rubric",
+        "row": 39
+      }
+    },
+    {
+      "id": "N6.8",
+      "need": "N6",
+      "title": "Own work with AI",
+      "description": "Using assistants and personal agents for one's own work within the base rules, practised daily",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 1,
+      "specialisms": [],
+      "sourceLevel": "Entry",
+      "sourceRank": 1,
+      "source": {
+        "sheet": "Rubric",
+        "row": 40
+      }
+    },
+    {
+      "id": "N7.1",
+      "need": "N7",
+      "title": "Delegate",
+      "description": "Scope the task, set boundaries and permissions for the action classes one is signed off on, and check the agent's permissions before handing over",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 41
+      }
+    },
+    {
+      "id": "N7.2",
+      "need": "N7",
+      "title": "Monitor",
+      "description": "Read the agent's trace (plan, tool calls, result), know which permissions it holds and what it has changed, find its logs, notice drift and approval overload",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 42
+      }
+    },
+    {
+      "id": "N7.3",
+      "need": "N7",
+      "title": "Verify",
+      "description": "Sample outputs, trace the evidence, catch planted errors at the target rate",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 43
+      }
+    },
+    {
+      "id": "N7.4",
+      "need": "N7",
+      "title": "Intervene",
+      "description": "Stop, override, roll back and take over mid-task, including when the agent is compromised; keep working when agents are down",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 44
+      }
+    },
+    {
+      "id": "N7.5",
+      "need": "N7",
+      "title": "Account",
+      "description": "Sign off with a record an auditor can follow, own the outcome, feed corrections back",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 45
+      }
+    },
+    {
+      "id": "N8.1",
+      "need": "N8",
+      "title": "Writing a Skill",
+      "description": "Turning a repeated task or runbook into a Skill: an explicit trigger so the agent selects it, numbered steps, an example of the expected output, a section on where the model goes wrong, and its own test cases (N9)",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 46
+      }
+    },
+    {
+      "id": "N8.2",
+      "need": "N8",
+      "title": "Maintaining Skills",
+      "description": "Keeping Skills focused (one task each), reviewing them monthly and retesting them when models or tools change",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 47
+      }
+    },
+    {
+      "id": "N8.3",
+      "need": "N8",
+      "title": "Shared library",
+      "description": "Contributing to a shared Skills library with named owners and a deprecation rule",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 48
+      }
+    },
+    {
+      "id": "N8.4",
+      "need": "N8",
+      "title": "Using connectors safely",
+      "description": "Using connectors (MCP) knowing what each exposes and which permissions it grants, and applying least privilege",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 49
+      }
+    },
+    {
+      "id": "N8.5",
+      "need": "N8",
+      "title": "Vetting before installing",
+      "description": "Vetting third-party Skills and connectors before installing them, since both run with the agent's permissions",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 50
+      }
+    },
+    {
+      "id": "N9.1",
+      "need": "N9",
+      "title": "Benchmark cases",
+      "description": "A set of benchmark cases with known good answers for one's own use cases",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 51
+      }
+    },
+    {
+      "id": "N9.2",
+      "need": "N9",
+      "title": "Known faults",
+      "description": "A catalogue of known faults the AI has made",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 52
+      }
+    },
+    {
+      "id": "N9.3",
+      "need": "N9",
+      "title": "Pass or fail checks",
+      "description": "A pass or fail check for each case and fault",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 53
+      }
+    },
+    {
+      "id": "N9.4",
+      "need": "N9",
+      "title": "Rerun on change",
+      "description": "Rerunning the evals whenever the model, tool or Skill changes; every Skill ships with its test cases",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 54
+      }
+    },
+    {
+      "id": "N9.5",
+      "need": "N9",
+      "title": "Feeding the domain system",
+      "description": "Contributing results to the domain's evaluation system (N11)",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 2,
+      "specialisms": [],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 55
+      }
+    },
+    {
+      "id": "N10.1",
+      "need": "N10",
+      "title": "Agent design patterns",
+      "description": "The agent loop, tool definition, planning and reflection patterns",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 56
+      }
+    },
+    {
+      "id": "N10.2",
+      "need": "N10",
+      "title": "Multi-agent design",
+      "description": "When to split work across several agents and how they communicate",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 57
+      }
+    },
+    {
+      "id": "N10.3",
+      "need": "N10",
+      "title": "Harness and context engineering",
+      "description": "Harness design and context engineering at scale",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-engineering"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 58
+      }
+    },
+    {
+      "id": "N10.4",
+      "need": "N10",
+      "title": "Models, cost and latency",
+      "description": "Model selection and routing, cost and latency",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 59
+      }
+    },
+    {
+      "id": "N10.5",
+      "need": "N10",
+      "title": "Hosting and residency",
+      "description": "Hosting options (vendor, cloud, on-premises) and data residency",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 60
+      }
+    },
+    {
+      "id": "N10.6",
+      "need": "N10",
+      "title": "MCP servers",
+      "description": "Building MCP servers",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-engineering"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 61
+      }
+    },
+    {
+      "id": "N10.7",
+      "need": "N10",
+      "title": "Skills as infrastructure",
+      "description": "Running the Skills library as infrastructure and packaging Skills into domain plugins",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-engineering"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 62
+      }
+    },
+    {
+      "id": "N10.8",
+      "need": "N10",
+      "title": "Safe deployment",
+      "description": "Deploying with the safety components of N2 in place, to the standards set in N12 and the evaluation discipline of N11",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 63
+      }
+    },
+    {
+      "id": "N11.1",
+      "need": "N11",
+      "title": "Test-set design",
+      "description": "Designing test sets for a domain or a vendor product",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 64
+      }
+    },
+    {
+      "id": "N11.2",
+      "need": "N11",
+      "title": "Error analysis",
+      "description": "Error analysis across many practitioners' results (N9)",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 65
+      }
+    },
+    {
+      "id": "N11.3",
+      "need": "N11",
+      "title": "Validating automated judges",
+      "description": "Validating automated judges against human labels",
+      "core": true,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 66
+      }
+    },
+    {
+      "id": "N11.4",
+      "need": "N11",
+      "title": "Benchmarking vendor AI",
+      "description": "Benchmarking vendor AI before purchase",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [
+        "vendor-evaluation"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 67
+      }
+    },
+    {
+      "id": "N11.5",
+      "need": "N11",
+      "title": "Drift in production",
+      "description": "Measuring drift in production",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 68
+      }
+    },
+    {
+      "id": "N11.6",
+      "need": "N11",
+      "title": "Evidence for decisions",
+      "description": "Feeding results into the evidence on which autonomy is proposed (N14) and vendor claims are judged",
+      "core": false,
+      "component": "Agentic level",
+      "agenticLevel": 3,
+      "specialisms": [
+        "vendor-evaluation"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 69
+      }
+    },
+    {
+      "id": "N12.1",
+      "need": "N12",
+      "title": "Threat modelling",
+      "description": "Threat-modelling AI systems and agents using the OWASP LLM and agentic Top 10s and MITRE ATLAS",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-security"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 70
+      }
+    },
+    {
+      "id": "N12.2",
+      "need": "N12",
+      "title": "Agent identity",
+      "description": "Agent identity standards and delegated authorisation, and the threats against them",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-security"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 71
+      }
+    },
+    {
+      "id": "N12.3",
+      "need": "N12",
+      "title": "Sandboxes",
+      "description": "Sandbox design, and the threats against it",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-security"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 72
+      }
+    },
+    {
+      "id": "N12.4",
+      "need": "N12",
+      "title": "Authorisation layers",
+      "description": "Authorisation layers and policy engines, and the threats against them",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-security"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 73
+      }
+    },
+    {
+      "id": "N12.5",
+      "need": "N12",
+      "title": "Guardrails",
+      "description": "Guardrail design, and the threats against it",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-security"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 74
+      }
+    },
+    {
+      "id": "N12.6",
+      "need": "N12",
+      "title": "Logging, monitoring and kill switches",
+      "description": "Logging and observability, monitoring and kill switches, and the threats against them",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-security"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 75
+      }
+    },
+    {
+      "id": "N12.7",
+      "need": "N12",
+      "title": "AI supply chain",
+      "description": "Securing the Skills and connector supply chain and MCP servers",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-security"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 76
+      }
+    },
+    {
+      "id": "N12.8",
+      "need": "N12",
+      "title": "Fixing findings",
+      "description": "Fixing what red-teamers and incident responders find",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-security"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 77
+      }
+    },
+    {
+      "id": "N12.9",
+      "need": "N12",
+      "title": "Reference architectures",
+      "description": "Reference architectures, isolation patterns, platform tenancy and the controls for each hosting option",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-architecture"
+      ],
+      "sourceLevel": "Expert (architects)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 78
+      }
+    },
+    {
+      "id": "N13.1",
+      "need": "N13",
+      "title": "AI inventory",
+      "description": "Maintaining the inventory of AI systems, agents, Skills and connectors",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-governance"
+      ],
+      "sourceLevel": "Expert (GRC, BISOs, leaders)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 79
+      }
+    },
+    {
+      "id": "N13.2",
+      "need": "N13",
+      "title": "AI risk assessment",
+      "description": "Running AI risk assessment with thresholds and treatment",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-governance"
+      ],
+      "sourceLevel": "Expert (GRC, BISOs, leaders)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 80
+      }
+    },
+    {
+      "id": "N13.3",
+      "need": "N13",
+      "title": "Autonomy policy",
+      "description": "Setting the autonomy policy per action class and the accountability that goes with it",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-governance",
+        "leadership"
+      ],
+      "sourceLevel": "Expert (GRC, BISOs, leaders)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 81
+      }
+    },
+    {
+      "id": "N13.4",
+      "need": "N13",
+      "title": "Third-party AI risk",
+      "description": "Managing third-party AI risk",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-governance"
+      ],
+      "sourceLevel": "Expert (GRC, BISOs, leaders)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 82
+      }
+    },
+    {
+      "id": "N13.5",
+      "need": "N13",
+      "title": "Regulatory mapping",
+      "description": "Mapping the AI Act and the regional regulators' requirements to controls",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-governance"
+      ],
+      "sourceLevel": "Expert (GRC, BISOs, leaders)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 83
+      }
+    },
+    {
+      "id": "N13.6",
+      "need": "N13",
+      "title": "Assurance evidence",
+      "description": "Producing the assurance evidence auditors and regulators ask for",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "ai-governance"
+      ],
+      "sourceLevel": "Expert (GRC, BISOs, leaders)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 84
+      }
+    },
+    {
+      "id": "N14.1",
+      "need": "N14",
+      "title": "Who does what",
+      "description": "Deciding, workflow by workflow, what agents do and what people do, and how many agents a person supervises",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "workflow-transformation",
+        "leadership"
+      ],
+      "sourceLevel": "Expert (leaders, champions)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 85
+      }
+    },
+    {
+      "id": "N14.2",
+      "need": "N14",
+      "title": "Workflow redesign",
+      "description": "Redesigning the workflow rather than bolting AI onto it",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "workflow-transformation",
+        "leadership"
+      ],
+      "sourceLevel": "Expert (leaders, champions)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 86
+      }
+    },
+    {
+      "id": "N14.3",
+      "need": "N14",
+      "title": "Supervision model",
+      "description": "Designing the supervision model that N7 practises: approval gates, how output is presented for review, and the autonomy proposed for each action class on evidence from N11",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "workflow-transformation",
+        "leadership"
+      ],
+      "sourceLevel": "Expert (leaders, champions)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 87
+      }
+    },
+    {
+      "id": "N14.4",
+      "need": "N14",
+      "title": "Measuring value",
+      "description": "Measuring the value on evidence",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "workflow-transformation",
+        "leadership"
+      ],
+      "sourceLevel": "Expert (leaders, champions)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 88
+      }
+    },
+    {
+      "id": "N14.5",
+      "need": "N14",
+      "title": "Running the change",
+      "description": "Running the change: a sandbox and protected time to experiment, a network of champions, Skills shared across teams, and a refresh cycle as tools change",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "workflow-transformation",
+        "leadership"
+      ],
+      "sourceLevel": "Expert (leaders, champions)",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 89
+      }
+    },
+    {
+      "id": "N14.6",
+      "need": "N14",
+      "title": "Keeping skills alive",
+      "description": "Keeping core skills alive and protecting the junior pipeline",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "leadership"
+      ],
+      "sourceLevel": "Leaders",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 90
+      }
+    },
+    {
+      "id": "N14.7",
+      "need": "N14",
+      "title": "Accountability",
+      "description": "Setting who is accountable for each agent's outcomes",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "leadership"
+      ],
+      "sourceLevel": "Leaders",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 91
+      }
+    },
+    {
+      "id": "R1.1.1",
+      "need": "R1.1",
+      "title": "Agent incident playbooks",
+      "description": "Writing incident playbooks for three agent scenarios: the agent is wrong (it acted on a false conclusion, closed real alerts, changed the wrong thing); the agent is stopped (its identity expired, the provider is down, it ran out of compute) and its work must continue by hand; the agent is compromised (an attacker steered it through content it read). Plans name who can stop the agent (NCSC)",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "incident-response"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 92
+      }
+    },
+    {
+      "id": "R1.1.2",
+      "need": "R1.1",
+      "title": "Ways to stop an agent",
+      "description": "The ways to stop an agent and when to use each: revoke its identity or session token so it can no longer call any tool; disable only the tools or connectors it misuses while the rest keeps running; put it in observe-only mode, where it may analyse and recommend but is barred from acting; roll back what it changed using its action log",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "incident-response"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 93
+      }
+    },
+    {
+      "id": "R1.1.3",
+      "need": "R1.1",
+      "title": "Investigating a compromised agent",
+      "description": "Where the attack comes from: content the agent reads (logs, alerts, tickets, documents, emails, web pages) can carry instructions aimed at it, so the investigator looks for injection in those sources and cuts any that is poisoned. What the agent did: knowing, for each of the bank's agents, which records exist that the agent cannot write to and how to pull them fast (the platform's audit log of tool calls with arguments and times, gateway and network logs, logs of the systems it touched), then building the timeline from them, because a compromised agent's own summary can omit or misstate what it did",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "incident-response"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 94
+      }
+    },
+    {
+      "id": "R1.1.4",
+      "need": "R1.1",
+      "title": "Cleaning up",
+      "description": "Cleaning up after a manipulated agent: finding the injected content it acted on and removing it from the sources the agent reads; clearing anything it stored in its memory as a result; re-running the same injection against the agent before putting it back in service",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "incident-response"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 95
+      }
+    },
+    {
+      "id": "R1.1.5",
+      "need": "R1.1",
+      "title": "Operating without the agent",
+      "description": "The manual fallback for what the agent handled (triage queue, enrichment, first response), the staffing to sustain it for days, and the regular drill that proves it still works",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "incident-response"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 96
+      }
+    },
+    {
+      "id": "R1.1.6",
+      "need": "R1.1",
+      "title": "Reporting",
+      "description": "What regulators expect in an incident report when an agent caused or worsened the incident (DORA, HKMA, MAS), and which evidence to preserve for it",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "incident-response"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 97
+      }
+    },
+    {
+      "id": "R1.2.1",
+      "need": "R1.2",
+      "title": "Recording the AI step",
+      "description": "Recording any AI step applied to evidence so it can be repeated and defended: the tool, model and version, the exact prompt and settings, the output, and who verified it. The original artefact stays the evidence; AI output is a derived analysis, never a substitute",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-forensics"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 98
+      }
+    },
+    {
+      "id": "R1.2.2",
+      "need": "R1.2",
+      "title": "Forensic readiness for agents",
+      "description": "Defining what every agent must log (prompt and response, each tool call with its arguments, data retrieved, memory writes, approvals given), stored where the agent cannot alter it, time-synchronised and integrity-protected, retained long enough for an investigation (vendors default to 7 to 30 days), and tested by reconstructing a past incident from it",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-forensics"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 99
+      }
+    },
+    {
+      "id": "R1.2.3",
+      "need": "R1.2",
+      "title": "Investigating an agent as suspect",
+      "description": "Rebuilding the agent's actions from its traces, finding the input that steered it, and attributing each action to the human it acted for or to the attacker",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-forensics"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 100
+      }
+    },
+    {
+      "id": "R3.1.1",
+      "need": "R3.1",
+      "title": "AI attack classes",
+      "description": "Direct prompt injection; indirect injection through content the agent reads (documents, web pages, tool results, emails); jailbreaks and guardrail evasion; data exfiltration through the agent's own tools; making the agent exceed its intended authority; tool poisoning (a malicious tool description) and rug pulls (a tool that changes after it was approved)",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-testing"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 101
+      }
+    },
+    {
+      "id": "R3.1.2",
+      "need": "R3.1",
+      "title": "Published methods",
+      "description": "The OWASP GenAI Red Teaming Guide, the Cloud Security Alliance's Agentic AI Red Teaming Guide (12 categories) and MITRE ATLAS techniques",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-testing"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 102
+      }
+    },
+    {
+      "id": "R3.1.3",
+      "need": "R3.1",
+      "title": "Attacks across agents",
+      "description": "Compromising one agent to steer others, injecting into an orchestrator's plan, tampering with messages between agents",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "advanced-redteam"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 103
+      }
+    },
+    {
+      "id": "R3.1.4",
+      "need": "R3.1",
+      "title": "Attacks on model and platform",
+      "description": "Extracting the model or its instructions, poisoning the agent's memory, escaping the sandbox, timing side channels",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "advanced-redteam"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 104
+      }
+    },
+    {
+      "id": "R3.1.5",
+      "need": "R3.1",
+      "title": "Automated red-team programme",
+      "description": "Building and running automated red-team harnesses (PyRIT-class tooling) and a continuous programme that re-tests every agent when its model, tools or prompts change",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "advanced-redteam"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 105
+      }
+    },
+    {
+      "id": "R3.2.1",
+      "need": "R3.2",
+      "title": "Containment before a run",
+      "description": "A network segment from which the agent can reach only in-scope targets; egress allow-lists verified by test, not assumed; a fresh sandbox per run; credentials scoped to the engagement and expiring with it",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-testing"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 106
+      }
+    },
+    {
+      "id": "R3.2.2",
+      "need": "R3.2",
+      "title": "Monitoring during a run",
+      "description": "Watching the agent's actions out of band (not its reports); a named person with the authority and the means to kill the run within minutes; the triggers for doing so (an action outside scope, contact with a third party, a credential used elsewhere)",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-testing"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 107
+      }
+    },
+    {
+      "id": "R3.2.3",
+      "need": "R3.2",
+      "title": "Escape patterns",
+      "description": "The escape patterns seen in practice: attacking something else when the assigned target proves impossible, reading an ambiguous message as approval, creating accounts or identities, carrying on after the window closes, contacting real people",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-testing"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 108
+      }
+    },
+    {
+      "id": "R3.2.4",
+      "need": "R3.2",
+      "title": "Trajectory-level validation",
+      "description": "Validating findings from the transcript, not the summary: check that the evidence the agent cites exists (a 'successful login' that was a redirect, credentials that do not work), reproduce the exploit by hand before reporting, and treat the agent's self-assessment as untrusted",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-testing"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 109
+      }
+    },
+    {
+      "id": "R3.2.5",
+      "need": "R3.2",
+      "title": "Collateral findings",
+      "description": "A disclosure lane for what to do when the agent finds something outside the engagement",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-testing"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 110
+      }
+    },
+    {
+      "id": "R4.1.1",
+      "need": "R4.1",
+      "title": "Discovery",
+      "description": "Finding every MCP server and agent connector in the estate, including those developers run on their own workstations, by searching configuration files and by recognising the MCP protocol in network traffic",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "exposure-management"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 111
+      }
+    },
+    {
+      "id": "R4.1.2",
+      "need": "R4.1",
+      "title": "Inventory",
+      "description": "For each agent and tool server: its owner, version, the tools it exposes, the permissions it holds, the systems it reaches, and the guardrails around it",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "exposure-management"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 112
+      }
+    },
+    {
+      "id": "R4.1.3",
+      "need": "R4.1",
+      "title": "Content-bound approval",
+      "description": "Approving a tool by the hash of its description and code, and checking each session that it has not been silently redefined since (the rug pull)",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "exposure-management"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 113
+      }
+    },
+    {
+      "id": "R4.1.4",
+      "need": "R4.1",
+      "title": "Scanning",
+      "description": "Running MCP and Skill scanners in the build pipeline and on a schedule for tool poisoning, instructions hidden in tool descriptions, servers exposed without authentication and credentials stored in plain text",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "exposure-management"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 114
+      }
+    },
+    {
+      "id": "R4.1.5",
+      "need": "R4.1",
+      "title": "AI bill of materials",
+      "description": "A bill of materials for AI components: which models, tools and Skills a system uses and where each came from",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "exposure-management"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 115
+      }
+    },
+    {
+      "id": "R4.1.6",
+      "need": "R4.1",
+      "title": "Vetting third parties",
+      "description": "Vetting third-party Skills and connectors before they are allowed in",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "exposure-management"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 116
+      }
+    },
+    {
+      "id": "R4.2.1",
+      "need": "R4.2",
+      "title": "Why set-up is the skill",
+      "description": "The same model finds under a tenth or over half of the vulnerabilities in a codebase depending on how it is given context and driven, and filters a third or almost all of a static analyser's false positives for the same reason",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "code-analysis"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 117
+      }
+    },
+    {
+      "id": "R4.2.2",
+      "need": "R4.2",
+      "title": "Giving the model context",
+      "description": "Supplying the functions a target calls, type definitions, the data-flow path to the input and build information, using static and dynamic analysis tools to supply that context automatically",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "code-analysis"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 118
+      }
+    },
+    {
+      "id": "R4.2.3",
+      "need": "R4.2",
+      "title": "Framework, model and method",
+      "description": "Choosing the agent framework and the model for the task, and driving the model through a structured method rather than letting it explore freely",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "code-analysis"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 119
+      }
+    },
+    {
+      "id": "R4.2.4",
+      "need": "R4.2",
+      "title": "Confirming before reporting",
+      "description": "A proof of vulnerability (an input or exploit that demonstrates it in a sandbox), the same test against the patched and unpatched versions, and several runs with a majority verdict",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "code-analysis"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 120
+      }
+    },
+    {
+      "id": "R4.2.5",
+      "need": "R4.2",
+      "title": "Reliability by vulnerability class",
+      "description": "Which classes models find well (memory safety, anything a fuzzer can reach) and which they over-report (documented behaviour reported as a bug, inflated severity, duplicates), and setting thresholds per class",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "code-analysis"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 121
+      }
+    },
+    {
+      "id": "R4.2.6",
+      "need": "R4.2",
+      "title": "Deduplication and cost",
+      "description": "Removing duplicates (by stack trace or sanitiser signature) and keeping cost under control at scale",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "code-analysis"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 122
+      }
+    },
+    {
+      "id": "R4.2.7",
+      "need": "R4.2",
+      "title": "Measuring the harness",
+      "description": "Measuring the harness on a corpus of known vulnerabilities before trusting it",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "code-analysis"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 123
+      }
+    },
+    {
+      "id": "R5.1.1",
+      "need": "R5.1",
+      "title": "Classifying agent actions",
+      "description": "For each action an agent can take in a process (a payment, a data deletion, an email to a client, a firewall change), rating its impact and whether it can be undone, and assigning a tier: autonomous, autonomous with logging, human approval, two-person approval, prohibited",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-architecture"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 124
+      }
+    },
+    {
+      "id": "R5.1.2",
+      "need": "R5.1",
+      "title": "Enforcement outside the model",
+      "description": "An authorisation point between the agent's plan and its execution that checks every action against its tier and the agent's permissions, so the decision never depends on the model obeying its instructions",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-architecture"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 125
+      }
+    },
+    {
+      "id": "R5.1.3",
+      "need": "R5.1",
+      "title": "The stop mechanism",
+      "description": "No standard defines a kill switch, so it is designed as a set of levers (interrupt the task, revoke credentials, cut tool access, quarantine the agent, roll back its changes), each with who may trigger it, how fast it takes effect and how it is tested",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-architecture"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 126
+      }
+    },
+    {
+      "id": "R5.1.4",
+      "need": "R5.1",
+      "title": "The audit trail",
+      "description": "What is recorded (reasoning artefacts, each tool call with its arguments, data accessed, messages between agents, approvals), where (a store the agent cannot write to), for how long, and how each action is tied to the person the agent acted for",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-architecture"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 127
+      }
+    },
+    {
+      "id": "R5.1.5",
+      "need": "R5.1",
+      "title": "The oversight interface",
+      "description": "How an approval request is shown so a person can judge it (what will happen, in plain language, with the risk and the agent's confidence), limiting the volume of requests so approvers do not click through them, and what overseers must be trained on",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-architecture"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 128
+      }
+    },
+    {
+      "id": "R5.1.6",
+      "need": "R5.1",
+      "title": "Reference architectures",
+      "description": "Reference architectures for the bank's agent platforms and how the above is implemented on each",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-architecture"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 129
+      }
+    },
+    {
+      "id": "R6.1.1",
+      "need": "R6.1",
+      "title": "Agent control catalogue",
+      "description": "The control catalogue for agents and how to test each control: a distinct identity and permissions per agent, tool allow-lists, logging that the agent cannot alter, approval gates for high-impact actions, change control on prompts, tools and models",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-assurance"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 130
+      }
+    },
+    {
+      "id": "R6.1.2",
+      "need": "R6.1",
+      "title": "Assuring assurance's own AI",
+      "description": "Documenting, validating and monitoring the AI used to produce assessments and gather evidence",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "agent-assurance"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 131
+      }
+    },
+    {
+      "id": "R9.1.1",
+      "need": "R9.1",
+      "title": "Registering an agent",
+      "description": "Its own identity (never a shared or human credential), a human sponsor recorded in the directory who is accountable for it, a stated purpose and a declared list of what it may do",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "identity-operations"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 132
+      }
+    },
+    {
+      "id": "R9.1.2",
+      "need": "R9.1",
+      "title": "Delegated authority",
+      "description": "Issuing and reading tokens in which the subject is the person and the actor is the agent (token exchange, on-behalf-of flows), with the person's consent recorded, and what the agent may then do in that person's name",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "identity-operations"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 133
+      }
+    },
+    {
+      "id": "R9.1.3",
+      "need": "R9.1",
+      "title": "Connector and MCP scopes",
+      "description": "Reading what a scope actually permits in the bank's applications and tool servers, granting the minimum, and reviewing grants",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "identity-operations"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 134
+      }
+    },
+    {
+      "id": "R9.1.4",
+      "need": "R9.1",
+      "title": "Just-in-time access",
+      "description": "Privilege granted for a task and a time window with no standing privilege, and the conditions that require a human to approve the grant",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "identity-operations"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 135
+      }
+    },
+    {
+      "id": "R9.1.5",
+      "need": "R9.1",
+      "title": "Short-lived sub-agents",
+      "description": "Identities that exist for seconds, with a time to live and no more rights than the parent",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "identity-operations"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 136
+      }
+    },
+    {
+      "id": "R9.1.6",
+      "need": "R9.1",
+      "title": "Recertification",
+      "description": "Quarterly for agents and monthly for high-privilege ones, with de-provisioning triggered when the sponsor leaves or the purpose lapses",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "identity-operations"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 137
+      }
+    },
+    {
+      "id": "R9.1.7",
+      "need": "R9.1",
+      "title": "Revocation drills",
+      "description": "Revoking an agent's identity and its live sessions within minutes, and verifying that it worked",
+      "core": true,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "identity-operations"
+      ],
+      "sourceLevel": "Practitioner",
+      "sourceRank": 2,
+      "source": {
+        "sheet": "Rubric",
+        "row": 138
+      }
+    },
+    {
+      "id": "R9.1.8",
+      "need": "R9.1",
+      "title": "Integration with IGA, PAM, SIEM",
+      "description": "Integrating the agent authorisation point with identity governance, privileged access and the SIEM: registration, scoped issuance, just-in-time grants, recertification and revocation signals flowing between them",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "identity-integration"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 139
+      }
+    },
+    {
+      "id": "R9.1.9",
+      "need": "R9.1",
+      "title": "Privileged access and break-glass",
+      "description": "Privileged access and break-glass for agents inside the existing privileged-access model",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "identity-integration"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 140
+      }
+    },
+    {
+      "id": "R9.1.10",
+      "need": "R9.1",
+      "title": "Audit trail and standards",
+      "description": "The audit trail regulators ask for (which agent, on whose behalf, which tools, what data, what reasoning) and the standards still being written (IETF agent identity, OpenID AuthZEN, MCP authorisation), so the design does not lock into one vendor's delegation model",
+      "core": false,
+      "component": "Role specialism",
+      "agenticLevel": null,
+      "specialisms": [
+        "identity-integration"
+      ],
+      "sourceLevel": "Expert",
+      "sourceRank": 3,
+      "source": {
+        "sheet": "Rubric",
+        "row": 141
+      }
+    }
+  ]
+}

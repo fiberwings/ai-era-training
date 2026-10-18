@@ -1,0 +1,492 @@
+Organizational Redesign in the AI Era (https://www.udemy.com/course/organizational-redesign-in-the-ai-era-l/)
+citeturn165view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/organizational-redesign-in-the-ai-era-l/","lineno":null}); Total lines: 765
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Organizational Redesign in the AI Era
+L30: 
+L31: Role Play
+L32: 
+L33: Rating: 4.7 out of 5 4.7cite8†(28 ratings) L34: 225 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # Organizational Redesign in the AI Era
+L38: 
+L39: AI Transformation, Organizational Design and Redesign, Change Management, Leadership & Future of Work in the age of AI
+L40: 
+L41: Created bycite9†GenMan Solutions L42: 
+L43: Last updated 8/2026
+L44: 
+L45: English
+L46: 
+L47: English [Auto],
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Evaluate whether your organization's current structure is aligned with AI-enabled ways of working.
+L53: 
+L54:   * Redesign organizational workflows using the Structure, Decisions, Workflow, and Culture framework.
+L55: 
+L56:   * Distinguish which tasks should remain human, be redesigned, or be automated using the Keep / Change / Remove framework.
+L57: 
+L58:   * Analyze how AI transforms key business functions, including HR, marketing, sales, operations, and finance.
+L59:   * Assess how leadership, management, and individual contributor roles evolve in AI-enabled organizations.
+L60: 
+L61:   * Develop a practical roadmap for implementing organizational redesign within your team or business.
+L62: 
+L63:   * Measure the success of AI-driven transformation using business metrics, dashboards, and cost-benefit analysis.
+L64: 
+L65:   * Identify security, privacy, governance, and compliance risks associated with organizational AI adoption.
+L66:   * Compare successful and unsuccessful AI transformation strategies using real-world organizational case studies.
+L67: 
+L68:   * Create an actionable organizational redesign plan that prepares your organization for the future of work.
+L69: ## Course content
+L70: 
+L71: 7 sections • 16 lectures • 1h 50m total length
+L72: 
+L73: Expand all sections
+L74: 
+L75: ### Introduction to the Course & Know Your Instructor 1 lecture • 5min
+L76: 
+L77:   * Welcome to the Course & Know Your Instructor Preview 5:29
+L78: ### Foundations 4 lectures • 13min
+L79: 
+L80:   * What Is Organizational Design, and What Is Organizational Redesign in the AI Era Preview 5:52
+L81: 
+L82: What Is Organizational Design in the AI Era?
+L83: 
+L84: Organizational design is about more than reporting lines and team structures — it determines how people, decisions, workflows, and culture come together to deliver value. This lecture introduces the foundations of organizational design and explains why AI is changing the way organizations structure and manage work.
+L85: You’ll explore the difference between organizational design and organizational redesign, and understand how AI is becoming an active participant in workflows rather than simply another workplace tool. The lecture establishes the foundation for examining how AI can reshape work across functions, teams, decisions, and organizational culture.
+L86: 
+L87: In This Lecture, You Will:
+L88: 
+L89: ▸ Understand what organizational design means and how it determines the way people, decisions, and work are arranged to deliver value
+L90: ▸ Identify the four core elements of organizational design: structure, decision rights, workflow, and culture
+L91: 
+L92: ▸ Explore how organizational design changes as organizations grow, enter new markets, or adopt new technologies
+L93: 
+L94: ▸ Understand what organizational redesign in the AI era means and why organizations need to revisit how work is structured
+L95: 
+L96: ▸ Examine how AI is becoming an active participant in work by performing tasks, supporting decisions, and moving workflows forward
+L97: ▸ Recognize how AI changes the division of work between people and AI, rather than simply replacing existing tools
+L98: 
+L99: ▸ Explore how AI can influence decision-making, workflows, and the way people collaborate and work together
+L100: 
+L101: ▸ Distinguish between organizational design as the current arrangement of work and organizational redesign as the process of updating that arrangement for changing realities
+L102: ▸ Understand why AI-era redesign is not simply about replacing people, but about ensuring organizational structure reflects how work is actually done
+L103: 
+L104: ▸ Preview how the course will examine organizational redesign across the organization, business functions, workforce, AI technologies, readiness, costs, risks, and implementation
+L105: 
+L106: Who This Lecture Is For:
+L107: 
+L108:     * HR and People Leaders involved in workforce planning, organizational structure, and transformation
+L109:     * Business Leaders and Managers responsible for adapting teams and workflows to AI-driven changes
+L110: 
+L111:     * Product, Operations, Finance, Marketing, and Sales Professionals affected by changes in how work is organized
+L112: 
+L113:     * Organizational Design and Transformation Professionals looking to understand AI-era redesign
+L114: 
+L115:     * Professionals and Team Leaders who want to understand how AI is changing the structure and flow of work
+L116: 
+L117: Why This Lecture Is Useful for Organizational Leaders and Managers
+L118: Understanding organizational design provides the foundation for making effective AI-era decisions about people, work, decisions, workflows, and culture. By recognizing how AI changes the way work gets divided and performed, leaders and managers can begin evaluating whether their current organizational structure still matches the reality of work today.
+L119: 
+L120:   * Course Presentation for Download 0:03
+L121: 
+L122:   * The Macro View — Organization as a Whole 7:18
+L123: 
+L124: How Is AI Reshaping the Organization as a Whole?
+L125: AI is changing more than individual tasks — it can reshape how an entire organization is structured, how decisions are made, how work flows, and how people collaborate. This lecture takes a macro view of organizational redesign and examines how AI is creating new opportunities and challenges across the organization.
+L126: You’ll explore the four core organizational design levers — structure, decision rights, workflow, and culture — and understand where traditional approaches may no longer align with how work is actually performed. The lecture also highlights what organizations should preserve, what may need to change, and why human judgment remains critical in ambiguous, high-stakes, and relationship-driven situations.
+L127: 
+L128: In This Lecture, You Will:
+L129: ▸ Understand how AI can influence organizational design across structure, decision rights, workflow, and culture
+L130: 
+L131: ▸ Examine how AI changes organizational structure when work previously assigned entirely to people is partly performed by AI systems
+L132: 
+L133: ▸ Explore how AI can reshape decision rights, including which decisions require human approval and which can move forward with AI support or limited human oversight
+L134: ▸ Identify how traditional approval chains can create bottlenecks when AI-generated work still moves through slow, human-centered decision processes
+L135: 
+L136: ▸ Understand how AI introduces new types of workflow handoffs between people and AI systems
+L137: 
+L138: ▸ Recognize why AI-era workflows should focus human time on areas where human judgment adds the most value
+L139: 
+L140: ▸ Explore how AI can influence organizational culture, including trust, accountability, collaboration, and perceptions of AI-assisted work
+L141: ▸ Identify what parts of an organization may continue to work well, particularly activities involving human judgment, ambiguity, high-stakes decisions, and relationships
+L142: 
+L143: ▸ Recognize areas that may need redesign, including approval processes, team sizes, workloads, and job responsibilities
+L144: 
+L145: ▸ Evaluate where organizational design remains aligned with how work is performed and where AI has created a gap between the existing structure and operational reality
+L146: ▸ Understand why AI-era organizational redesign is not about tearing down the existing organization, but about realigning what works and changing what no longer fits
+L147: 
+L148: Who This Lecture Is For:
+L149: 
+L150:     * Business Leaders and Executives responsible for organizational strategy and AI-driven transformation
+L151: 
+L152:     * HR and People Leaders involved in workforce planning, organizational structure, and change management
+L153: 
+L154:     * Managers and Team Leaders adapting teams, workflows, and decision-making to AI
+L155:     * Operations and Functional Leaders evaluating how AI affects work across business functions
+L156: 
+L157:     * Transformation and Organizational Design Professionals working on AI-enabled organizational change
+L158: 
+L159: Why This Lecture Is Useful for Business and Organizational Leaders
+L160: Taking a macro view helps leaders understand that AI-driven change is not limited to individual tools or tasks. It can affect the structure, decision-making, workflows, and culture of the organization. By identifying where these elements remain aligned — and where they have drifted because of AI — leaders can make more targeted redesign decisions while preserving the areas where human judgment delivers the greatest value.
+L161: 
+L162:   * Leading an Organizational Redesign Discussion in the AI Era
+L163: 
+L164:   * Quiz Time!
+L165: ### The Impact — Functions and People 3 lectures • 17min
+L166: 
+L167:   * Zooming Into Business Units 9:34
+L168: 
+L169: How Is AI Changing the Way Business Functions Work?
+L170: 
+L171: AI is reshaping how work gets done across different parts of an organization. This lecture zooms into HR, Marketing, Sales, Operations, and Finance to examine how AI is changing tasks, shifting responsibilities, and redefining the role of people within each function.
+L172: You’ll explore a consistent lens across all five functions: what AI changes, how roles shift, and what remains firmly human. The lecture highlights how AI takes on repeatable, data-heavy, and high-volume work while people increasingly focus on judgment, relationships, exceptions, accountability, and high-stakes decisions.
+L173: 
+L174: In This Lecture, You Will:
+L175: 
+L176: ▸ Explore how AI is changing work across five major business functions: HR, Marketing, Sales, Operations, and Finance
+L177: ▸ Understand how AI can automate early-stage hiring activities such as resume screening, candidate matching, and interview scheduling
+L178: 
+L179: ▸ Examine how HR roles shift toward candidate interaction, cultural fit assessment, mentorship, and human judgment
+L180: 
+L181: ▸ Explore how AI can personalize Learning and Development based on employee roles, gaps, and learning pace
+L182: 
+L183: ▸ Understand how AI can support Performance Management by bringing together employee output, engagement patterns, and project contributions
+L184: ▸ Recognize why performance conversations, empathy, feedback, and contextual judgment remain human responsibilities
+L185: 
+L186: ▸ Examine how AI is transforming Marketing through content creation, campaign variations, testing, optimization, and personalization
+L187: 
+L188: ▸ Understand why marketers increasingly focus on brand judgment, creative risk-taking, and reviewing AI-generated content
+L189: 
+L190: ▸ Explore how AI is reshaping Sales through prospecting, lead prioritization, forecasting, and identifying deals at risk
+L191: ▸ Recognize why relationship building, trust, rapport, and client conversations remain central to the salesperson's role
+L192: 
+L193: ▸ Examine how AI supports Operations and Supply Chain through demand forecasting, route optimization, and quality checking
+L194: 
+L195: ▸ Understand how operations roles shift from routine monitoring and data analysis toward managing exceptions and responding to disruptions
+L196: ▸ Explore how AI is transforming Finance through reporting, reconciliation, forecasting, and continuous financial data analysis
+L197: 
+L198: ▸ Understand how finance professionals increasingly shift from preparing numbers to interpreting them and advising leadership
+L199: 
+L200: ▸ Recognize why accountability, judgment under uncertainty, and ownership of important decisions remain firmly human
+L201: ▸ Identify the common pattern across functions: AI handles more repeatable, data-heavy, and high-volume work, while people focus on judgment, relationships, exceptions, trust, and accountability
+L202: 
+L203: Who This Lecture Is For:
+L204: 
+L205:     * Business Leaders and Executives evaluating AI's impact across organizational functions
+L206: 
+L207:     * HR and People Leaders adapting hiring, learning, and performance processes
+L208: 
+L209:     * Marketing and Sales Leaders exploring AI-enabled content, campaigns, prospecting, and customer engagement
+L210:     * Operations and Finance Leaders assessing opportunities to automate data-heavy and repetitive work
+L211: 
+L212:     * Managers and Team Leaders preparing employees for changing roles and responsibilities
+L213: 
+L214:     * Organizational Design and Transformation Professionals examining how AI reshapes work across business units
+L215: 
+L216: Why This Lecture Is Useful for Business and Organizational Leaders
+L217: Looking at AI function by function helps leaders move beyond the idea that AI simply automates tasks. The real shift is how roles and responsibilities change as AI takes on more repeatable work. Understanding what moves to AI and what remains human helps leaders identify where people should focus their time, judgment, relationships, and accountability.
+L218: 
+L219:   * The Workforce Impact, at Every Level 7:46
+L220: 
+L221: How Does AI Change Roles at Every Level of the Organization?
+L222: AI-driven organizational redesign affects more than business functions — it changes what different levels of the workforce are expected to contribute. This lecture examines how AI is reshaping the roles of senior leaders, middle managers, individual contributors, and aspiring managers and leaders, with each level experiencing the transition differently.
+L223: You’ll explore how routine supervision and execution are reduced as AI takes on repeatable work, while human value shifts toward strategic judgment, coaching, critical review, trust, communication, and handling ambiguity. The lecture also highlights the skills professionals need to build as organizations move toward AI-supported ways of working.
+L224: 
+L225: In This Lecture, You Will:
+L226: 
+L227: ▸ Understand how AI-driven organizational change affects different workforce levels, from senior leaders to individual contributors
+L228: ▸ Examine how AI can change the scope and responsibilities of senior leaders as organizational layers and reporting structures evolve
+L229: 
+L230: ▸ Explore how senior leaders can shift from routine reporting and status management toward strategic decisions, priorities, investment, and risk
+L231: 
+L232: ▸ Understand why the role of middle managers is shifting from routine supervision toward coaching, judgment, and representing team needs
+L233: ▸ Recognize how AI reduces task-level checking while increasing the importance of managers who develop people and handle ambiguous situations
+L234: 
+L235: ▸ Examine how AI changes the day-to-day work of individual contributors, from executing tasks from scratch to reviewing, refining, and directing AI-supported work
+L236: 
+L237: ▸ Identify the skills individual contributors need to work effectively with AI, including critical review, judgment, context, and exception handling
+L238: ▸ Understand why organizations need to help individual contributors adapt to changing roles rather than leaving them to navigate the transition alone
+L239: 
+L240: ▸ Explore how AI is changing the traditional path toward management and leadership
+L241: 
+L242: ▸ Identify the capabilities aspiring managers and leaders need, including directing AI-supported work, making sound judgments, building trust, and communicating through change
+L243: ▸ Recognize why human qualities such as judgment, trust building, coaching, and clear communication become more valuable as AI takes over routine work
+L244: 
+L245: ▸ Understand the common pattern across workforce levels: less focus on routine execution and supervision, and more focus on judgment, coaching, trust, and higher-value decisions
+L246: 
+L247: Who This Lecture Is For:
+L248: 
+L249:     * Senior Leaders and Executives navigating AI-driven organizational and workforce changes
+L250:     * Middle Managers and Team Leaders adapting their roles as routine supervision becomes increasingly automated
+L251: 
+L252:     * Individual Contributors learning how their work and required skills are changing with AI
+L253: 
+L254:     * Aspiring Managers and Leaders preparing for leadership roles in AI-enabled organizations
+L255: 
+L256:     * HR and People Leaders supporting workforce transitions, role redesign, and capability development
+L257: 
+L258: Why This Lecture Is Useful for Business and Organizational Leaders
+L259: Understanding workforce impact at every level helps leaders see that AI-driven redesign is not simply about reducing tasks or changing job titles. It requires rethinking where value is created at each level of the organization. By shifting people toward judgment, coaching, trust, critical review, and strategic decision-making, organizations can help their workforce adapt while making better use of AI.
+L260: 
+L261:   * Leading Your Team Through AI-Driven Changes Across Business Functions
+L262: ### Proof in Practice 1 lecture • 10min
+L263: 
+L264:   * Two Companies, Same Industry, Two Outcomes 10:21
+L265: 
+L266: Why Does AI-Driven Organizational Redesign Lead to Different Outcomes?
+L267: 
+L268: Having access to AI does not automatically lead to better organizational performance. This lecture brings the earlier concepts to life through a practical comparison of two fictional insurance companies that started from nearly identical positions but made very different organizational design choices when adopting AI.
+L269: You’ll compare Company A, which introduced AI without changing its existing structure, decision rights, or workflow, with Company B, which redesigned roles, approval processes, and trust-building practices around AI. The comparison demonstrates why successful AI adoption depends not only on the technology itself, but on how work, decisions, and people are redesigned around it.
+L270: 
+L271: In This Lecture, You Will:
+L272: ▸ Compare two companies in the same industry with similar starting points and access to comparable AI tools
+L273: 
+L274: ▸ Examine how Company A adopted AI as a tooling upgrade while keeping its traditional approval structure and workflow unchanged
+L275: 
+L276: ▸ Understand how an unchanged approval chain can turn faster AI output into a new organizational bottleneck
+L277: 
+L278: ▸ Identify how unclear decision rights and inconsistent trust in AI can create additional work, errors, and employee frustration
+L279: ▸ Explore how Company B redesigned decision rights by matching the level of human review to the risk and complexity of each claim
+L280: 
+L281: ▸ Understand how Company B redesigned roles so assessors focused more on judgment-heavy work and AI error detection
+L282: 
+L283: ▸ Examine how team leads shifted from reviewing every claim to focusing on complex cases, exceptions, and coaching
+L284: 
+L285: ▸ Recognize the importance of communication, training, transparency, and trust building when introducing AI-driven organizational changes
+L286: ▸ Compare the outcomes of the two approaches across processing time, workload, employee trust, and customer satisfaction
+L287: 
+L288: ▸ Understand why AI alone does not guarantee better outcomes when the organizational structure surrounding it remains unchanged
+L289: 
+L290: ▸ Recognize how the same redesign principles can apply beyond insurance, including manufacturing and other industries
+L291: ▸ Identify the core lesson that organizations gain greater value from AI when they deliberately redesign how work, decisions, and people fit together
+L292: 
+L293: Who This Lecture Is For:
+L294: 
+L295:     * Business Leaders and Executives making decisions about AI adoption and organizational transformation
+L296: 
+L297:     * HR and People Leaders supporting role redesign, workforce transitions, and employee trust
+L298: 
+L299:     * Managers and Team Leaders adapting workflows, responsibilities, and decision processes around AI
+L300:     * Operations and Functional Leaders evaluating how AI adoption affects performance and bottlenecks
+L301: 
+L302:     * Transformation and Organizational Design Professionals leading AI-enabled organizational change
+L303: 
+L304: Why This Lecture Is Useful for Business and Organizational Leaders
+L305: This comparison shows why successful AI adoption is not simply a technology decision. Organizations can have similar tools but achieve very different results depending on how they redesign decision rights, roles, workflows, and culture around those tools. By examining the contrasting outcomes of Company A and Company B, leaders can see how deliberate organizational redesign can turn AI capability into real operational improvement rather than simply moving existing bottlenecks.
+L306: ### The Toolkit 4 lectures • 24min
+L307: 
+L308:   * The AI Technologies and Tools Driving This 9:02
+L309: 
+L310: The AI Technologies and Tools Driving This
+L311: 
+L312: AI creates the opportunity to redesign how work gets done, but different AI technologies affect organizations in different ways. This lecture introduces four broad categories of AI — Generative AI, Predictive and Analytics AI, Automation or Agentic AI, and Decision Support AI — and connects each category to the organizational changes it can enable.
+L313: You’ll explore how these technologies influence roles, workflows, human attention, and decision rights, while understanding why the technology itself does not automatically redesign an organization. The lecture also provides a practical way to evaluate new AI tools by asking what organizational lever they affect and whether the organization has redesigned that lever to match.
+L314: 
+L315: In This Lecture, You Will:
+L316: ▸ Understand the four broad categories of AI driving organizational change: Generative AI, Predictive and Analytics AI, Automation or Agentic AI, and Decision Support AI
+L317: 
+L318: ▸ Explore how Generative AI creates content such as text, images, code, summaries, audio, and video and changes first-draft and repeatable production work
+L319: 
+L320: ▸ Understand how Predictive and Analytics AI uses historical data to forecast outcomes, identify patterns, and flag anomalies or exceptions
+L321: ▸ Examine how Automation or Agentic AI carries out multi-step tasks with less need for manual intervention
+L322: 
+L323: ▸ Recognize why autonomous AI requires carefully scoped authority and a fast, tested way for humans to intervene
+L324: 
+L325: ▸ Explore how Decision Support AI provides recommendations, risk scores, and options while leaving the final decision to a human
+L326: 
+L327: ▸ Connect the four AI categories to business functions such as HR, Marketing, Sales, Operations, and Finance
+L328: ▸ Identify how different AI categories affect different organizational levers, including role definitions, human attention, workflow, and decision rights
+L329: 
+L330: ▸ Understand why AI tools create the opportunity for organizational redesign but do not redesign the organization on their own
+L331: 
+L332: ▸ Apply the distinction between technology capability and organizational redesign through the contrast between Company A and Company B
+L333: ▸ Evaluate a new AI tool by asking not only whether it works well, but which organizational lever it affects and whether that lever has been redesigned to match
+L334: 
+L335: ▸ Recognize why aligning AI technology with roles, workflows, decision rights, and organizational structure is essential for achieving meaningful results
+L336: 
+L337: Who This Lecture Is For:
+L338: 
+L339:     * Business Leaders and Executives evaluating AI technologies and organizational transformation
+L340:     * HR and People Leaders assessing how AI changes roles and responsibilities
+L341: 
+L342:     * Managers and Team Leaders introducing AI into team workflows and decision processes
+L343: 
+L344:     * Operations and Functional Leaders evaluating AI capabilities across business functions
+L345: 
+L346:     * Transformation and Organizational Design Professionals designing AI-enabled ways of working
+L347: 
+L348:     * Aspiring Managers and Leaders building the ability to evaluate AI beyond individual tools
+L349: Why This Lecture Is Useful for Business and Organizational Leaders
+L350: 
+L351: Understanding AI by technology category rather than specific products gives leaders a more durable way to evaluate what a new AI capability can actually change. By connecting Generative, Predictive, Automation, and Decision Support AI to roles, workflows, human attention, and decision rights, leaders can move beyond asking whether a tool works and start asking whether the organization is designed to use it effectively.
+L352:   * The Keep / Change / Remove Framework 9:18
+L353: 
+L354: The Keep / Change / Remove Framework
+L355: 
+L356: AI does not mean every task should be automated or every role should be redesigned from scratch. Organizations need a practical way to determine what should remain human, what needs to change, and what can be removed entirely. This lecture introduces the Keep / Change / Remove framework as a simple tool for evaluating tasks, roles, and processes in an AI-enabled workplace.
+L357: You’ll explore the four areas that should generally remain human — accountability, ambiguous judgment, relationship trust, and ethical calls — along with the processes and role structures that may need redesign. The lecture also explains how repetitive, rule-based tasks can be removed while redirecting people’s time toward higher-value work, and highlights the importance of careful evaluation when tasks involve hidden judgment, fairness, or bias.
+L358: 
+L359: In This Lecture, You Will:
+L360: ▸ Understand the Keep / Change / Remove framework for evaluating tasks, roles, and processes in an AI-enabled organization
+L361: 
+L362: ▸ Identify what belongs in the Keep category, including accountability, ambiguous judgment, relationship trust, and ethical decisions
+L363: 
+L364: ▸ Understand why human responsibilities such as accountability and judgment remain important even as AI capabilities advance
+L365: ▸ Explore what belongs in the Change category, including approval workflows, role scope, and reporting lines that no longer fit how work is performed
+L366: 
+L367: ▸ Recognize how unchanged processes can create bottlenecks when AI changes the underlying tasks and work volume
+L368: 
+L369: ▸ Identify what belongs in the Remove category, including purely repetitive and rule-based tasks such as manual data entry, routine scheduling, first-pass document sorting, and basic reconciliation
+L370: ▸ Understand why removing a task from a person's workload does not necessarily mean removing the person, but can redirect their time toward judgment, coaching, and relationship work
+L371: 
+L372: ▸ Apply the framework through three practical questions that help determine whether a task should be kept, changed, or removed
+L373: 
+L374: ▸ Recognize why tasks should be evaluated individually rather than applying a blanket decision to an entire role
+L375: ▸ Understand the risks of moving tasks into the Remove category too aggressively, particularly when seemingly routine work contains hidden judgment or quality considerations
+L376: 
+L377: ▸ Examine the Amazon resume-screening example to understand how AI can reproduce bias and fairness risks from historical data
+L378: 
+L379: ▸ Evaluate people-related tasks for potential unintended consequences, including whether automation could quietly disadvantage a group of people
+L380: ▸ Recognize when a task that appears suitable for removal may instead require redesign and ongoing human oversight
+L381: 
+L382: ▸ Use the Keep / Change / Remove framework as a practical starting point for evaluating how your own team's work should evolve with AI
+L383: 
+L384: Who This Lecture Is For:
+L385: 
+L386:     * Business Leaders and Executives making decisions about AI-driven workforce and process redesign
+L387: 
+L388:     * HR and People Leaders evaluating changes to roles, responsibilities, and people-related processes
+L389:     * Managers and Team Leaders assessing how AI should change the work performed by their teams
+L390: 
+L391:     * Operations and Functional Leaders identifying tasks that should be redesigned or automated
+L392: 
+L393:     * Transformation and Organizational Design Professionals supporting AI-enabled organizational change
+L394: 
+L395:     * Aspiring Managers and Leaders learning how to evaluate work and responsibilities in an AI-enabled organization
+L396: 
+L397: Why This Lecture Is Useful for Business and Organizational Leaders
+L398: The Keep / Change / Remove framework gives leaders a practical way to move from broad AI discussions to task-level decisions. By separating work that requires human accountability and judgment from processes that need redesign and repetitive tasks that can potentially be removed, leaders can pursue efficiency without losing the human capabilities that matter most.
+L399: The framework also encourages careful consideration of bias, fairness, hidden judgment, and unintended consequences before removing human involvement.
+L400:   * Practice: Sorting Tasks with the Keep / Change / Remove Framework 5:22
+L401: 
+L402: Practice: Sorting Tasks with the Keep / Change / Remove Framework
+L403: 
+L404: Understanding the Keep / Change / Remove framework is only useful if you can apply it to real work. This practice lecture gives you an opportunity to sort actual tasks across HR, Marketing, Sales, Operations, and Finance and decide what should stay human, what needs redesign, and what can genuinely be removed.
+L405: You’ll work through a 12-task practice worksheet, apply the framework’s three questions to each task, and provide a short explanation for every decision. The lecture then walks through the answer key, focusing on boundary cases such as low-risk purchase approvals and first-pass marketing content, and reinforces why tasks should be evaluated individually rather than by looking at the entire role.
+L406: 
+L407: In This Lecture, You Will:
+L408: ▸ Apply the Keep / Change / Remove framework to 12 real-world tasks drawn from HR, Marketing, Sales, Operations, and Finance
+L409: 
+L410: ▸ Use the three framework questions to determine whether each task requires accountability, ambiguous judgment, trust, or ethical judgment
+L411: 
+L412: ▸ Identify tasks that belong in Keep when human judgment or accountability remains essential
+L413: 
+L414: ▸ Recognize tasks that belong in Change when the surrounding process needs to be redesigned rather than eliminated
+L415: ▸ Identify tasks that may belong in Remove when they are purely repetitive, rule-based, and require no meaningful judgment
+L416: 
+L417: ▸ Practice providing a one-sentence rationale for each classification rather than relying only on instinct
+L418: 
+L419: ▸ Understand why being able to explain a classification makes the framework more useful in discussions with teams and leadership
+L420: 
+L421: ▸ Examine boundary cases such as low-risk purchase order approval, where redesigning the human check is more appropriate than removing it entirely
+L422: ▸ Analyze first-pass marketing content separately from higher-level creative work to distinguish between tasks that can be removed and tasks that should remain human
+L423: 
+L424: ▸ Recognize why AI-era task analysis should focus on the specific task, rather than automatically classifying an entire role as Keep, Change, or Remove
+L425: 
+L426: ▸ Compare your classifications with the reasoned answer key and identify where differences may come from
+L427: ▸ Build practical confidence in applying the framework to your own team's work and future AI-readiness planning
+L428: 
+L429: Who This Lecture Is For:
+L430: 
+L431:     * Business Leaders and Executives evaluating which work should change as AI adoption increases
+L432: 
+L433:     * HR and People Leaders assessing how individual tasks and responsibilities should evolve
+L434: 
+L435:     * Managers and Team Leaders applying AI-driven task redesign within their teams
+L436:     * Operations and Functional Leaders identifying opportunities to redesign or remove routine work
+L437: 
+L438:     * Transformation and Organizational Design Professionals supporting AI-readiness initiatives
+L439: 
+L440:     * Aspiring Managers and Leaders developing practical skills for evaluating AI's impact on work
+L441: 
+L442: Why This Lecture Is Useful for Business and Organizational Leaders
+L443: This practice turns the Keep / Change / Remove framework from a concept into a repeatable decision-making skill. By classifying individual tasks and explaining the reasoning behind each decision, learners can build the confidence to evaluate real work within their own teams. The exercise also reinforces a critical principle of AI-driven redesign: sort the specific task, not the entire role, so that automation removes appropriate work without eliminating responsibilities that still require human judgment.
+L444:   * Applying the Keep / Change / Remove Framework to Redesign Your Team
+L445: 
+L446:   * Quiz Time!
+L447: ### Making It Happen 5 lectures • 36min
+L448: 
+L449:   * Building Readiness — Process, Timeline, Stakeholders 8:37
+L450: 
+L451: Building Readiness — Process, Timeline, Stakeholders
+L452: 
+L453: Identifying what needs to change is only the first step. This lecture explains how organizations can turn AI-driven organizational redesign into action through a structured readiness process, with realistic timelines and clear stakeholder responsibilities.
+L454: You’ll explore a six-stage process — Diagnose, Pilot, Redesign Roles and Workflow, Reskill, Scale, and Govern — and understand why each stage needs to happen in sequence. The lecture also examines realistic implementation timelines, from 4–6 week pilots to 6–18 month structural redesigns, and clarifies who should initiate, implement, and remain accountable for the outcome.
+L455: 
+L456: In This Lecture, You Will:
+L457: ▸ Understand the six stages of building organizational readiness: Diagnose, Pilot, Redesign Roles and Workflow, Reskill, Scale, and Govern
+L458: 
+L459: ▸ Apply the Diagnose stage using the four organizational design levers, function-by-function analysis, and the Keep / Change / Remove framework
+L460: 
+L461: ▸ Understand why piloting a single team, workflow, or process helps identify resistance, AI limitations, and unexpected bottlenecks before wider implementation
+L462: ▸ Explore how pilot findings inform the redesign of job scopes, approval chains, and reporting lines
+L463: 
+L464: ▸ Recognize why reskilling is essential when roles change, including learning to critically review AI output or moving from supervision toward coaching
+L465: 
+L466: ▸ Understand how organizations move from a refined pilot to broader implementation through the Scale stage
+L467: 
+L468: ▸ Recognize that Govern is an ongoing process for reviewing and adjusting decision rights, workflows, and roles as needed
+L469: ▸ Understand how this six-stage approach can complement established change management models such as Kotter’s 8-Step Model and ADKAR
+L470: 
+L471: ▸ Distinguish between realistic timelines for a focused 4–6 week pilot and a broader 6–18 month structural redesign
+L472: 
+L473: ▸ Understand why rushing organization-wide redesign can create changes that appear fast but fail to resolve underlying workflow problems
+L474: 
+L475: ▸ Identify who typically initiates a redesign, including senior leadership or a transformation office
+L476: ▸ Understand the shared implementation responsibilities of HR, functional leaders, and middle managers
+L477: 
+L478: ▸ Recognize why a single executive sponsor should remain accountable for the overall redesign outcome
+L479: 
+L480: ▸ Map the wider stakeholder group, including Leadership, HR, IT and Data, Legal and Compliance, Middle Managers, and employee representatives or unions where relevant
+L481: 
+L482: ▸ Understand why involving the right stakeholders at the right stage is critical to reducing resistance and maintaining momentum
+L483: ▸ Recognize that successful AI redesign depends not only on the technology, but on following the right process, setting realistic timelines, and involving the right people
+L484: 
+L485: Who This Lecture Is For:
+L486: 
+L487:     * Business Leaders and Executives overseeing AI-driven organizational redesign
+L488: 
+L489:     * HR and People Leaders managing role changes, reskilling, and workforce transitions
+L490: 
+L491:     * Managers and Team Leaders implementing redesigned workflows within their teams
+L492:     * Transformation and Organizational Design Professionals planning and coordinating AI-readiness initiatives
+L493: 
+L494:     * Functional Leaders responsible for adapting processes and roles within their areas
+L495: 
+L496:     * IT, Data, Legal, and Compliance Professionals supporting the implementation and governance of AI-driven change
+L497: 
+L498:     * Aspiring Managers and Leaders learning how organizational redesign is planned and implemented
+L499: 
+L500: Why This Lecture Is Useful for Business and Organizational Leaders
+

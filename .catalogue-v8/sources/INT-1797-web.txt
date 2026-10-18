@@ -1,0 +1,183 @@
+Hallucination Management for Generative AI (https://www.udemy.com/course/hallucination-management-for-generative-ai/)
+citeturn137view0 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/hallucination-management-for-generative-ai/","lineno":null}); Total lines: 193
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Hallucination Management for Generative AI
+L30: 
+L31: Rating: 4.6 out of 5 4.6cite8†(572 ratings) L32: 3,524 students
+L33: 
+L34: cite0†Image†img-c.udemycdn.com Preview this course
+L35: # Hallucination Management for Generative AI
+L36: 
+L37: Learn how to manage hallucinations for LLMs and Generative AI by scientifically backed techniques
+L38: 
+L39: Created bycite9†Atil Samancioglu , cite10†Academy Club L40: 
+L41: Last updated 12/2024
+L42: 
+L43: English
+L44: 
+L45: German [Auto],English [Auto], 1 more
+L46: 
+L47: cite0†Image†img-c.udemycdn.com Preview this course
+L48: ## What you'll learn
+L49: 
+L50:   * Detecting hallucinations for generative ai
+L51: 
+L52:   * Managing hallucinations
+L53: 
+L54:   * Prompt mitigation for hallucinations
+L55: 
+L56:   * RAG implementation for hallucinations
+L57: 
+L58:   * Fine tuning for hallucinations
+L59: 
+L60:   * Vulnerability assessment for LLMs
+L61: 
+L62: ## Course content
+L63: 
+L64: 5 sections • 23 lectures • 2h 58m total length
+L65: 
+L66: Expand all sections
+L67: ### Introduction 2 lectures • 18min
+L68: 
+L69:   * How to use this course?Preview 3:57
+L70: 
+L71: Identify the causes of hallucinations in generative AI and practice hands-on experiments to manage, reduce, or prevent them using science-backed techniques and papers.
+L72: 
+L73:   * Refresher: How does an LLM work?Preview 13:37
+L74: Learn how large language models work, from a generative pre-trained transformer and attention mechanisms to tokenization and next-word prediction, and see how fine-tuning with human feedback helps reduce hallucinations.
+L75: ### Hallucinations and Causes 5 lectures • 52min
+L76: 
+L77:   * What are Hallucinations?10:57
+L78: 
+L79: Define hallucinations in generative AI and explore causes such as data gaps, training data limitations, over generalization, and lack of real-time knowledge. Learn detection and mitigation to protect user trust.
+L80: 
+L81:   * Root Causes for Hallucinations 9:49
+L82: Explore the root causes of hallucinations in generative ai by examining training data biases and diversity, architecture limits, and contextual inference errors, plus practical prompts and external validation strategies.
+L83: 
+L84:   * Hands on Hallucination Experiments Preview 12:27
+L85: 
+L86: Conduct hands-on hallucination experiments across multiple models using prompts to provoke and analyze errors. Compare GPT-4, Gemini, and llama variants, noting real-time data limits and upcoming temperature effects.
+L87:   * Temperature 13:26
+L88: 
+L89: Explore how temperature and maximum tokens shape AI outputs and hallucinations, and how top P, frequency penalty, and presence penalty balance cost and reliability in the OpenAI playground.
+L90: 
+L91:   * Model Architecture and Training Data Hallucinations 5:43
+L92: 
+L93: Explore how training data and model architecture shape hallucinations in generative ai, and compare how different architectures influence responses to the same prompt and data gaps.
+L94: ### Managing Hallucinations 7 lectures • 47min
+L95: 
+L96:   * Hallucination Management First Step Preview 4:18
+L97: 
+L98: Compare models to reduce hallucinations in generative AI and choose the best version for your task. Refine prompts and address data gaps in training and pre-training data to improve reliability.
+L99: 
+L100:   * Prompt Revisions for Hallucinations 5:53
+L101: Explore prompt mitigation to reduce hallucinations by adjusting your prompts rather than blaming the model; see how aggressive prompts can trigger hallucinations across models and why prompt design matters.
+L102: 
+L103:   * Grounding Technique 12:16
+L104: 
+L105: Ground your large language model outputs by grounding responses in factual data from pre-training sources and citing authoritative references, using Rotten Tomatoes or IMDb to reduce hallucinations.
+L106: 
+L107:   * Chain of Verification Preview 7:52
+L108: Use chain of verification to double-check model responses by generating verification questions, revising the initial answer into a final verified one, reducing hallucinations across tasks.
+L109: 
+L110:   * Step Back Prompting 8:27
+L111: 
+L112: Step back prompting uses 'let's think step by step' to force reasoning, abstract concepts, and decompose questions, a method in prompt engineering that reduces hallucinations and improves reliability.
+L113: 
+L114:   * Langchain Implementation for Python 7:45
+L115: Developers learn to implement LangChain in Python to reduce hallucinations by grounding responses to authoritative sources and building a simple OpenAI-based prototype.
+L116: 
+L117:   * Langchain Implementation GitHub Link 0:01
+L118: ### RAG & Fine Tuning for Hallucinations 7 lectures • 40min
+L119: 
+L120:   * What is RAG?6:54
+L121: 
+L122: Explore retrieval augmented generation (rag) and augmented generation to reduce hallucinations. Learn how vector databases, custom GPT, and on-premise models securely provide niche information and improve lms responses.
+L123: 
+L124:   * Custom GPT Example 10:22
+L125: Design a custom GPT called Culinary Companion to provide detailed cooking recipes and step-by-step instructions. Use a rag structure and uploaded PDFs to reduce hallucinations, and add Dall-E visuals.
+L126: 
+L127:   * Custom GPT Example GitHub Link 0:01
+L128: 
+L129:   * RAG Implementation Example 7:09
+L130: 
+L131: See a practical RAG implementation example using link chain, chroma vector database, and a grounded question answering prompt with a hallucination grader to verify factual grounding.
+L132: 
+L133:   * Fine Tuning GitHub Link 0:01
+L134:   * Fine Tuning Example 8:58
+L135: 
+L136: Explore fine tuning as a method to reduce hallucinations in generative AI by training with prompt–response examples, using few-shot learning, and applying OpenAI fine-tuning workflows.
+L137: 
+L138:   * Fine Tuning Results 6:05
+L139: 
+L140: Fine-tune a GPT-4 model with a few-shot dataset and monitor training loss, then compare the fine-tuned model to the base in a playground to reduce hallucinations.
+L141: ### Advanced Hallucination Detection & Vulnerability Assesment 2 lectures • 22min
+L142: 
+L143:   * LLM Vulnerability Scanning 8:27
+L144: 
+L145: Analyze vulnerabilities in LLMs with Nvidia's Jarak tool, focusing on hallucinations and prompt injection. Create vulnerability reports and test prompts, including snowball hallucination and graph connectivity scenarios.
+L146: 
+L147:   * Hallucination Detection 13:54
+L148: Explore a practical hallucination detection workflow using the Garrick tool to provoke and compare original versus verification questions, measuring model resilience across snowball, primes, and graph connectivity prompts with OpenAI.
+L149: ## Requirements
+L150: 
+L151:   * Basic understanding of generative ai
+L152: ## Description
+L153: 
+L154: Welcome to the Hallucination Management for Generative AI course
+L155: 
+L156: Generative Artificial Intelligence and Large Language Models have taken over the world with a great hype! Many people are using these technologies where as others are trying to build products with them. Whether you are a developer, prompt engineer or a heavy user of generative ai, you will see hallucinations created by generative ai at one point.
+L157: Hallucinations will be there but it is up to us to manage them, limit them and minimize them. In this course we will provide best in class ways to manage hallucinations and create beautiful content with gen ai.
+L158: 
+L159: This course is brought to you by Atil Samancioglu, teaching more than 400.000 students worldwide on programming and cyber security! Atil also teaches mobile application development in Bogazici University and he is founder of his own training startup Academy Club.
+L160: Some of the topics that will be covered during the course:
+L161: 
+L162:   * Hallucination Root Causes
+L163: 
+L164:   * Detecting hallucinations
+L165: 
+L166:   * Vulnerability assessment for LLMs
+L167: 
+L168:   * Source grounding
+L169: 
+L170:   * Snowball theory
+L171: 
+L172:   * Take a step back prompting
+L173: 
+L174:   * Chain of verification
+L175: 
+L176:   * Hands on experiments with various models
+L177: 
+L178:   * RAG Implementation
+L179: 
+L180:   * Fine tuning
+L181: 
+L182: After you complete the course you will be able to understand the root causes of hallucinations, detect them and minimize them via various techniques.
+L183: If you are ready, let's get started!
+L184: ## Who this course is for:
+L185: 
+L186:   * Prompt Engineers
+L187:   * Generative AI Users
+L188:   * Developers working with Generative AI
+L189: 
+L190: Show more Show less
+L191: 
+L192: cite11†Report abuse 

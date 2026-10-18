@@ -1,0 +1,2 @@
+# Only needed for Excel refresh. The launcher uses the Python standard library.
+openpyxl>=3.1,<4

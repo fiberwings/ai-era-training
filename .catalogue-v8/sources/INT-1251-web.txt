@@ -1,0 +1,233 @@
+Critical Thinking with AI & GenAI Fundamentals!! (https://www.udemy.com/course/critical-thinking-with-ai-genai-fundamentals/)
+citeturn96view0 [wordlim: 200] Crawled: 2 months ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/critical-thinking-with-ai-genai-fundamentals/","lineno":null}); Total lines: 243
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Critical Thinking with AI & GenAI Fundamentals!!
+L30: 
+L31: Rating: 4.4 out of 5 4.4cite8†(71 ratings) L32: 949 students
+L33: 
+L34: cite0†Image†img-c.udemycdn.com Preview this course
+L35: # Critical Thinking with AI & GenAI Fundamentals!!
+L36: 
+L37: AI Generative AI: Essential human judgment skills for everyday decisions leadership management in an AI-influenced world
+L38: 
+L39: Created bycite9†Mana Dowlatshahi Yeganeh L40: 
+L41: Last updated 8/2026
+L42: 
+L43: English
+L44: 
+L45: cite0†Image†img-c.udemycdn.com Preview this course
+L46: ## What you'll learn
+L47: 
+L48:   * Critical Thinking
+L49: 
+L50:   * AI & GenAI Fundamentals
+L51: 
+L52:   * Essential human judgment skills for everyday decisions, leadership, and management in an AI-influenced world
+L53: 
+L54:   * Basics and Fundamentals + Examples
+L55: 
+L56: ## Course content
+L57: 
+L58: 10 sections • 59 lectures • 64h 43m total length
+L59: 
+L60: Expand all sections
+L61: ### Critical Thinking with AI & GenAI Fundamentals!!15 lectures • 1hr 31min
+L62: 
+L63:   * 01 Foundations Thinking in the Age of AI Preview 6:08
+L64: 
+L65: Explore how humans partner with AI to augment critical thinking, balance processing speed with ethical judgment, and foster responsible, context-rich decision making.
+L66: 
+L67:   * 02 Core Critical Thinking Skills Human First Preview 6:02
+L68: Develop core critical thinking with a human-first approach by distinguishing fast and clear thinking, uncovering hidden assumptions, and differentiating facts, opinions, and predictions to improve reasoning.
+L69: 
+L70:   * 03 How AI Thinks Conceptually 6:13
+L71: 
+L72: Explore how ai thinks conceptually as a pattern matching and probability-based engine, revealing limitations and the gap to true understanding. Understand why it experiences hallucinations and how errors emerge.
+L73:   * 04 Cognitive Biases in Humans and AI The Hidden Feedback Loop 6:11
+L74: 
+L75: Explore how human cognitive biases interact with AI, creating a hidden feedback loop that amplifies bias, prompts automation bias and groupthink, and how to mitigate through transparent, collaborative human-AI design.
+L76: 
+L77:   * 05 Questioning AI Outputs How to Think Critically About AI Responses 5:57
+L78: Learn to critically evaluate AI responses by spotting weak reasoning, missing context, and overconfidence, and develop habits to verify outputs and question assumptions.
+L79: 
+L80:   * 06 Decision Making with AI Input Balancing Insight Judgment and Ethics 6:14
+L81: 
+L82: Balance AI input with human judgment and ethics to improve high-stakes decisions. Explore explainable AI, accountability, and risk management to ensure fair, transparent, human-centered governance.
+L83: 
+L84:   * 07 Ethical Thinking and Responsibility in AI 6:08
+L85: Explore how accountability spans developers, deployers, users, and regulators, and how fairness, transparency, explainability, bias, and human oversight align artificial intelligence with human values.
+L86: 
+L87:   * 08 Strategic Thinking with AI Empowering Leaders and Managers in 2025 5:49
+L88: 
+L89: Empower leaders to use AI as a strategic co-pilot, boosting real-time forecasting, scenario analysis, and informed growth decisions while balancing human judgment with ethical governance.
+L90:   * 09 Communication and Influence in the Age of AI 5:52
+L91: 
+L92: Navigate the intersection of AI and human leadership with transparency, explain AI decisions in context, and balance AI insights with human judgment to build trust and responsible outcomes.
+L93: 
+L94:   * 10 Problem Framing Before AI Defining the Right Challenge 6:03
+L95: 
+L96: Frame problems before building AI, distinguish problem from symptoms, assess business, user, and data context, and weigh constraints and trade-offs to align stakeholders and maximize impact.
+L97:   * 11 Scenario Thinking and Judgment Mastering Decisions in an AI Driven World 6:08
+L98: 
+L99: Master decision making in an AI driven world by applying scenario thinking to anticipate multiple futures, evaluating AI suggestions, and balancing best and worst cases with deliberate judgment.
+L100: 
+L101:   * 12 Continuous Thinking Skills for the AI Era 6:01
+L102: 
+L103: Develop continuous, adaptive thinking to thrive in the AI era by balancing human judgment, creativity, and ethical reasoning with curiosity, skepticism, and unlearning.
+L104:   * 13 Human Advantage in an AI World 6:15
+L105: 
+L106: Explore how uniquely human strengths—empathy, creativity, critical thinking, ethical judgment, and wisdom—complement AI’s data processing to forge better decisions, leadership, and innovation.
+L107: 
+L108:   * 14 Practical Mental Frameworks 5:45
+L109: 
+L110: Master practical mental frameworks as a no-apps mind toolkit for clear reasoning, problem solving, and better decisions using first principles, second-order thinking, and red-team tactics.
+L111:   * 15 Final Integration Navigating Thinking and Leadership in the AI Age 6:09
+L112: 
+L113: Leadership evolves in the ai age by balancing ai capabilities with human cognition to amplify decision making. Embrace metacognition, upskilling, and data informed decision making to guide human-centered strategy.
+L114: ### Additional Training Resources 6 lectures • 6hr 18min
+L115: 
+L116:   * AI Ethics and Responsible AI GenAI Foundations for Everyone PART_1 32:27
+L117: 
+L118:   * AI Ethics and Responsible AI GenAI Foundations for Everyone PART_2 1:34:50
+L119: 
+L120:   * AI & GenAI Fundamentals for Modern Business Analysts!! PART_1 32:23
+L121: 
+L122: Develop critical thinking with AI and GenAI fundamentals for modern business analysts, focusing on foundational concepts to apply in business analysis.
+L123:   * AI & GenAI Fundamentals for Modern Business Analysts!! PART_2 1:33:04
+L124: 
+L125:   * AI for Creative Leaders & Managers GenAI Fundamentals 2026 PART_1 34:08
+L126: 
+L127:   * AI for Creative Leaders & Managers GenAI Fundamentals 2026 PART_2 1:31:24
+L128: ### Additional Training Resources 1 lecture • 3hr 17min
+L129: 
+L130:   * Value Based Selling [Sales & Customer Service] Updated JULY 2026 3:16:32
+L131: 
+L132: ### Additional Training Resources 1 lecture • 4hr 49min
+L133: 
+L134:   * Fundamentals of Change Management in AI & Automation 4:48:54
+L135: 
+L136: Discover the fundamentals of change management in AI and automation, and develop critical thinking to guide organizational transitions, engage stakeholders, and adopt AI-driven processes.
+L137: ### Additional Training Resources 2 lectures • 3hr 33min
+L138: 
+L139:   * AI Literacy for All Employees - Fundamentals for Everyone!!1:29:07
+L140: 
+L141: Equip all employees with essential AI literacy by covering fundamental concepts and responsible use of AI tools.
+L142: 
+L143:   * AI-Driven SOC Fundamentals of Security Operations!!2:04:03
+L144: 
+L145: Explore AI-driven SOC fundamentals and GenAI concepts within security operations to strengthen critical thinking in professional practice.
+L146: ### Additional Training Resources 7 lectures • 12hr 58min
+L147: 
+L148:   * Understanding The Circular Economy 2:48:19
+L149: 
+L150: Explore the circular economy through critical thinking, with a focus on AI and GenAI fundamentals.
+L151: 
+L152:   * GIAC Certified Forensic Examiner GCFE Unlocking Digital Forensics Expertise 31:47
+L153: 
+L154: GCFE certification unlocks digital forensics expertise on Windows, teaching evidence collection, registry, USB, browser artifacts, and timeline reconstruction through hands-on labs and practical investigations.
+L155:   * Fundamentals of SAP Modern Cloud & AI Platform 1:45:10
+L156: 
+L157: Explore critical thinking with AI and GenAI fundamentals. Learn the fundamentals of SAP modern cloud and AI platform.
+L158: 
+L159:   * AI in Operations Management Transforming Business Operations 2:48:51
+L160: 
+L161:   * Sales and Customer Service AI ML NLP and Sentiment Analysis 15:27
+L162: Discover how AI, ML, NLP, and sentiment analysis transform sales and customer service at scale, enabling real-time insights, predicting customer behavior, and personalized, empathetic interactions.
+L163: 
+L164:   * Fundamentals of SLA in IT Service Management 2:35:21
+L165: 
+L166: Explore the fundamentals of service level agreements in IT service management, integrated with critical thinking and AI and GenAI fundamentals to analyze service performance and obligations.
+L167: 
+L168:   * Building a Personal Brand for Career Success!!2:13:26
+L169: ### Additional Training Resources 4 lectures • 2hr 37min
+L170: 
+L171:   * Why AI ML NLP and Sentiment Analysis Matter in Sales and Customer Support 38:27
+L172: 
+L173:   * AI Agents in Customer Support Sales and Marketing Use Cases Best Practices 38:38
+L174: 
+L175:   * AI Agents in IT Network Systems and Cloud 39:26
+L176: 
+L177:   * AI Agents in Security and IT Cybersecurity Protecting Businesses and Infra 40:02
+L178: ### Additional Training Resources 10 lectures • 19hr 49min
+L179: 
+L180:   * AI Cybersecurity What to Learn Why It Matters and the Fundamentals 41:09
+L181: 
+L182:   * AI Cybersecurity Limitations and What Not to Do 39:57
+L183: 
+L184:   * AI Cybersecurity Problems Solutions and What to Consider in 2026 39:55
+L185: 
+L186:   * AI Cybersecurity Defending the Future of Digital Trust 38:41
+L187: 
+L188:   * FinOps for GenAI & Cloud Computing 4:16:15
+L189: 
+L190:   * TOGAF 9 2:45:13
+L191: 
+L192:   * Six Sigma Black Belt 1:56:30
+L193: 
+L194:   * CEO Playbook Strategically Integrating Generative AI 2:08:10
+L195:   * GIAC Certified Incident Handler (GCIH)1:39:04
+L196: 
+L197:   * Network System Administration & Cloud Security IT Infra Fundamentals 4:23:53
+L198: ### Additional Training Resources 4 lectures • 2hr 33min
+L199: 
+L200:   * Foundations of Customer Service with ChatGPT 39:08
+L201: 
+L202:   * Skills First Leadership Future Proof Your Organization 38:04
+L203: 
+L204:   * ChatGPT for Product Management and Innovation 38:42
+L205: 
+L206:   * DigitalOcean Cloud Simplifying Cloud for Developers and Startups 37:32
+L207: ### Additional Training Resources 9 lectures • 7hr 19min
+L208: 
+L209:   * AI Agents & AI IDEs Bootcamp Hands-On Practical Labs 2026!!1:39:08
+L210: 
+L211:   * ai_agent_ide_lab.zip
+L212: 
+L213:   * AI-Powered Vagrant & Virtualization Labs DEVIN AI Antigravity Claude!1:18:30
+L214: 
+L215:   * ai_agent_skill_lab_vmware_virtualbox_vagrant_automation_basics.zip
+L216: 
+L217:   * Complete Linux Home Lab Setup with CentOS Vagrant & DEVIN Windsurf AI PART_1 56:37
+L218: 
+L219:   * Complete Linux Home Lab Setup with CentOS Vagrant & DEVIN Windsurf AI PART_2 1:01:16
+L220:   * Ubuntu Desktop Home Lab VMware KVM Nested Virtualization Devin AI Coding Agent!!1:35:42
+L221: 
+L222:   * Ubuntu Desktop Home Lab VMware KVM Nested Virtualization Devin AI Coding Agent!!47:37
+L223: 
+L224:   * LAB.zip
+L225: ## Requirements
+L226:   * This course has no technical prerequisites. Learners do not need prior knowledge of artificial intelligence, programming, data science, or digital tools. No software installation, configuration, labs, or hands-on systems are required. The only requirements are basic reading comprehension, an openness to learning, and a willingness to reflect on one’s own thinking and decision-making habits.
+L227: The course is suitable for beginners, professionals, managers, and leaders who want a clear, practical understanding of how AI influences reasoning and judgment without engaging in technical implementation.
+L228: ## Description
+L229: 
+L230: Artificial Intelligence and Generative AI are increasingly influencing how people think, decide, communicate, and lead. This course, Critical Thinking with AI & GenAI Fundamentals, focuses on strengthening human judgment in environments where AI-generated insights, recommendations, and content are becoming common. Rather than teaching tools, software, or technical skills, the course builds a clear mental foundation for understanding how AI affects thinking and decision-making.
+L231: The course explains what AI and GenAI are at a conceptual level, what they can and cannot do, and why they should never replace human responsibility. Learners develop the ability to question AI outputs, recognize limitations and biases, and avoid overreliance on automated suggestions. Emphasis is placed on clear reasoning, ethical awareness, and accountability in everyday and professional contexts.
+L232: Understanding how AI influences decisions is essential for leaders and managers. This course highlights the risks of blind trust, automation bias, and false confidence, while showing how AI can be used responsibly as a thinking aid rather than a decision-maker. Participants learn to frame better questions, evaluate information critically, and communicate AI-informed decisions with clarity and confidence.
+L233: The advantages of this course lie in its practicality and accessibility. It requires no technical background, coding, or system configuration. The focus remains on transferable thinking skills that apply across industries, roles, and levels of experience. These skills remain valuable even as technologies evolve.
+L234: This course is designed for anyone who wants to remain a thoughtful, responsible decision-maker in an AI-influenced world. As AI continues to advance, the future belongs to individuals and leaders who can combine technological awareness with strong human judgment, ethical reasoning, and independent thinking.
+L235: ## Who this course is for:
+L236:   * Professionals in Any Role To improve everyday decision-making, avoid overreliance on AI-generated information, and develop stronger reasoning skills in AI-supported environments.
+L237:   * Leaders and Managers To make accountable decisions, guide teams responsibly, and understand when to trust, challenge, or ignore AI-informed recommendations.
+L238:   * Students and Lifelong Learners To build a durable thinking foundation that remains relevant regardless of changing technologies, tools, or job roles.
+L239:   * Policy, Ethics, and Business Stakeholders To better understand AI’s influence on judgment, risk, and responsibility without needing technical expertise.
+L240: Show more Show less
+L241: 
+L242: cite10†Report abuse 

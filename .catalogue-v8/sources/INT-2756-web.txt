@@ -1,0 +1,221 @@
+SC-500: Microsoft Cloud and AI Security Engineer Exam Prep (https://www.udemy.com/course/microsoft-cloud-and-ai-security-engineer/)
+citeturn176view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/microsoft-cloud-and-ai-security-engineer/","lineno":null}); Total lines: 235
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: SC-500: Microsoft Cloud and AI Security Engineer Exam Prep
+L41: 
+L42: Rating: 4.6 out of 5 4.6cite12†(177 ratings) L43: 
+L44: 1,648 students
+L45: 
+L46: cite0†Image†img-c.udemycdn.com Preview this course
+L47: # SC-500: Microsoft Cloud and AI Security Engineer Exam Prep
+L48: 
+L49: Prepare for the SC-500 Exam with Instructor-led videos and Hands-On labs
+L50: 
+L51: Created bycite13†Kuljot Singh Bakshi | 90,000+ Enrollments Worldwide L52: 
+L53: Last updated 9/2026
+L54: 
+L55: English
+L56: 
+L57: English [Auto],
+L58: 
+L59: cite0†Image†img-c.udemycdn.com Preview this course
+L60: ## What you'll learn
+L61: 
+L62:   * Secure Microsoft Entra identities, AI workloads, and applications using authentication, Conditional Access, Zero Trust, and RBAC.
+L63: 
+L64:   * Protect Azure networking, compute, storage, databases, and AI resources using Key Vault, encryption, private endpoints, and Defender.
+L65: 
+L66:   * Detect, investigate, and respond to cyber threats using Microsoft Defender XDR, Microsoft Sentinel, Security Copilot, and playbooks.
+L67:   * Confidently prepare for and pass the Microsoft SC-500: Cloud and AI Security Engineer Associate certification exam through hands-on labs.
+L68: ## Course content
+L69: 
+L70: 17 sections • 153 lectures • 20h 37m total length
+L71: 
+L72: Expand all sections
+L73: 
+L74: ### Introduction 1 lecture • 2min
+L75: 
+L76:   * Introduction Preview 2:28
+L77: 
+L78: ### Course Outline and Resources 2 lectures • 3min
+L79: 
+L80:   * Course Outline and Learning Recommendations 2:02
+L81: 
+L82:   * GitHub Repo for Hands-On Labs and Demos 1:06
+L83: ### Cybersecurity Foundational Concepts 4 lectures • 24min
+L84: 
+L85:   * Understanding How an Attack Takes Place Preview 8:37
+L86: 
+L87:   * Understand Defense in Depth 5:43
+L88: 
+L89:   * Understanding the Zero Trust Principles 4:19
+L90: 
+L91:   * Explain the Cybersecurity Shared Responsibility Model 5:27
+L92: 
+L93: ### Azure AI Foundational Concepts 3 lectures • 21min
+L94: 
+L95:   * Understand the Microsoft AI Ecosystem 10:32
+L96: 
+L97:   * Explain AI Applications as a Threat Vector 6:05
+L98: 
+L99:   * Describe the AI Shared Responsibility Model 3:58
+L100: ### Identity and Access Management 13 lectures • 1hr 33min
+L101: 
+L102:   * Describe the concept of Identities and Role-Based Access Control 5:02
+L103: 
+L104:   * Describe the Concept of Authentication and Authorization 9:22
+L105: 
+L106:   * Lab: Create a User in Entra ID (Hands-On Lab)9:32
+L107: 
+L108:   * Lab: Assign an Entra RBAC Role (Hands-On Lab)6:07
+L109: 
+L110:   * Lab: Configure Microsoft Entra Authentication Methods (Hands-On Lab)3:27
+L111: 
+L112:   * Understand Conditional Access 4:32
+L113: 
+L114:   * Lab: Create a Conditional Access Policy (Hands-On Lab)8:42
+L115:   * RBAC in Azure v/s Microsoft Entra 2:33
+L116: 
+L117:   * Lab: Create and Implement a RBAC Policy in Azure (Hands-On Lab)7:54
+L118: 
+L119:   * Lab: Create and Implement a PIM Policy in Entra (Hands-On Lab)10:47
+L120: 
+L121:   * Lab: Create and Implement a PIM policy in Azure (Hands-On Lab)10:03
+L122: 
+L123:   * Entra ID App Registrations and Enterprise Applications 8:14
+L124: 
+L125:   * Lab: Entra ID App Registration Walkthrough (Hands-On Lab)6:25
+L126: ### Information Protection and Governance with Microsoft Purview 10 lectures • 1hr 14min
+L127: 
+L128:   * Introduction to Microsoft Purview 9:06
+L129: 
+L130:   * Introduction to Information Protection 4:21
+L131: 
+L132:   * Lab: Implement Information Protection (Hands-On Lab)17:48
+L133: 
+L134:   * Understand Auto-Labelling Policies 4:52
+L135: 
+L136:   * Lab: Create an Auto-Labelling Policy (Hands-On Lab)4:34
+L137: 
+L138:   * Introduction to Data Loss Prevention Policies 4:07
+L139: 
+L140:   * Lab: Create a Data Loss Prevention Policy (Hands-On Lab)7:24
+L141:   * Introduction to Communication Compliance 2:32
+L142: 
+L143:   * Lab: Creating a Communication Compliance Policy (Hands-On Lab)9:28
+L144: 
+L145:   * Lab: DSPM for AI on Microsoft Purview (Hands-On Lab)9:29
+L146: ### Enforce Security Governance and Regulatory Compliance 4 lectures • 47min
+L147: 
+L148:   * Lab: Implement a Pre-built Azure Policy (Hands-On Lab)12:46
+L149: 
+L150:   * Introduction to Microsoft Defender for Cloud 14:29
+L151: 
+L152:   * Lab: Enable Microsoft Defender for Cloud (Hands-On Lab)10:50
+L153: 
+L154:   * Lab: Alerts and Incident Management in Defender for Cloud (Hands-On Lab)9:02
+L155: ### Secure AI Workloads with Azure Key Vault 9 lectures • 53min
+L156: 
+L157:   * Introduction to Azure Key Vault 5:00
+L158: 
+L159:   * Lab: Deploy and Create an Azure Key Vault Secret (Hands-On Lab)7:04
+L160: 
+L161:   * Lab: Handle Secret Versioning and Rotation Gracefully (Hands-On Lab)8:57
+L162: 
+L163:   * Understand AKV as Cryptographic Key Storage 7:35
+L164: 
+L165:   * Lab: Create and Store Cryptographic Keys in Azure Key Vault (Hands-On Lab)4:20
+L166: 
+L167:   * Lab: Encrypt and Decrypt Messages in Real-Time (Hands-On Lab)6:36
+L168:   * Describe Certificate Management with Azure Key Vault 6:22
+L169: 
+L170:   * Lab: Manage Certificates in Azure Key Vault (Hands-On Lab)3:12
+L171: 
+L172:   * Secret Scanning and Key Vault with Microsoft Defender for Cloud 3:29
+L173: ### Secure Azure Storage for AI Workloads 9 lectures • 1hr 13min
+L174: 
+L175:   * Describe Azure Storage Services and Redundancy Options 6:22
+L176: 
+L177:   * Describe Azure Storage Authorization Models 13:18
+L178: 
+L179:   * Lab: Deploy an Azure Storage Account (Hands-On Lab)12:21
+L180: 
+L181:   * Lab: Access Content using Shared Key (Hands-On Lab)5:20
+L182: 
+L183:   * Lab: Access Content with Shared Access Signature (Hands-On Lab)5:40
+L184: 
+L185:   * Lab: Access Content with User Delegation Key SAS (Hands-On Lab)2:53
+L186:   * Lab: Create a Stored Access Policy (Hands-On Lab)7:58
+L187: 
+L188:   * Lab: Access Content with Managed Identity (Hands-On Lab)16:46
+L189: 
+L190:   * Storage Accounts and Defender for Storage 2:49
+L191: ### Implement Security for AI Database Solutions 10 lectures • 1hr 21min
+L192: 
+L193:   * Understand Azure Database Offerings 10:43
+L194: 
+L195:   * Lab: Deploy an Azure SQL Server and DB (Hands-On Lab)9:28
+L196: 
+L197:   * Lab: Setting up SQL Server in SSMS (Hands-On Lab)5:44
+L198: 
+L199:   * Understand Encryption with Keys in Azure SQL 14:25
+L200: 
+L201:   * Understand Auditing in Azure SQL 8:10
+L202: 
+L203:   * Lab: Enable Auditing in Azure SQL (Hands-On Lab)4:31
+L204: 
+L205:   * Understand Dynamic Data Masking - Rows and Columns 5:06
+L206:   * Lab: Implement Dynamic Data Masking (Hands-On Lab)11:01
+L207: 
+L208:   * Lab: Implement Row-Level Security (Hands-On Lab)8:18
+L209: 
+L210:   * Microsoft Defender for Databases 3:42
+L211: 
+L212: 7 more sections
+L213: ## Requirements
+L214: 
+L215:   * Basic familiarity with Microsoft Azure fundamentals is recommended.
+L216: 
+L217:   * A free or paid Azure subscription is recommended to complete the hands-on labs.
+L218: 
+L219:   * Basic understanding of networking, identity, and cybersecurity concepts will be helpful.
+L220: ## Description
+L221: 
+L222: The rapid adoption of Artificial Intelligence, cloud-native applications, Microsoft Copilot, and AI agents has transformed the cybersecurity landscape. Organizations now need professionals who can secure not only cloud infrastructure but also AI workloads, identities, data, and modern security operations. That's exactly what the Microsoft SC-500: Cloud and AI Security Engineer Associate certification is designed to validate.
+L223: This course is a comprehensive, hands-on exam preparation program that covers every objective in the official Microsoft SC-500 study guide. Whether your goal is to pass the certification exam, enhance your cloud security expertise, or transition into a Cloud and AI Security Engineer role, this course will provide the knowledge and practical experience you need.
+L224: Unlike courses that focus only on theory, this course emphasizes real-world implementation. You'll build and secure Azure resources, configure Microsoft Entra ID, implement Zero Trust, secure AI applications and identities, protect Azure networking, storage, databases, and Key Vault, and learn how to safeguard Microsoft 365 data using Microsoft Purview.
+L225: You'll also gain practical experience with Microsoft Defender for Cloud, Microsoft Defender XDR, Microsoft Sentinel, Security Copilot, incident response automation, and modern threat detection techniques used by enterprise security teams.
+L226: Throughout the course, we'll combine clear conceptual explanations with numerous hands-on demonstrations and labs so you can confidently apply these skills in real production environments—not just answer exam questions.
+L227: ## Who this course is for:
+L228:   * Students preparing for the Microsoft SC-500: Cloud and AI Security Engineer Associate certification exam.
+L229:   * Azure Administrators, Security Engineers, AI Engineers, and Cloud Engineers looking to strengthen their security expertise.
+L230:   * Cybersecurity professionals who want hands-on experience securing Microsoft Azure, Microsoft 365, and AI workloads.
+L231:   * Anyone interested in building practical cloud and AI security skills using Microsoft Defender, Sentinel, Entra ID, Purview, and Security Copilot.
+L232: Show more Show less
+L233: 
+L234: cite14†Report abuse 

@@ -1,0 +1,351 @@
+LLM AI Agent Evaluations and Observability with Galileo AI (https://www.udemy.com/course/ai-agent-evals/)
+citeturn150view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-agent-evals/","lineno":null}); Total lines: 365
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: LLM AI Agent Evaluations and Observability with Galileo AI
+L41: 
+L42: Rating: 4.5 out of 5 4.5cite12†(69 ratings) L43: 
+L44: 887 students
+L45: 
+L46: cite0†Image†img-c.udemycdn.com Preview this course
+L47: # LLM AI Agent Evaluations and Observability with Galileo AI
+L48: 
+L49: Build Robust AI Agents | Monitor Production AI Agents | Build Custom Evals | Master Galileo AI | For Engineers
+L50: 
+L51: Created bycite13†Henry Habib , cite14†The Intelligent Worker L52: 
+L53: Last updated 2/2026
+L54: 
+L55: English
+L56: 
+L57: English [Auto],
+L58: 
+L59: cite0†Image†img-c.udemycdn.com Preview this course
+L60: ## What you'll learn
+L61: 
+L62:   * Design an LLM observability plan: what to log, how to structure traces, and how to make failures diagnosable
+L63: 
+L64:   * Build evaluation datasets with realistic inputs, expected behavior, metadata, and slices for edge cases and regressions
+L65: 
+L66:   * Run repeatable Galileo AI experiments to compare models, prompts, and agent versions on consistent test sets
+L67: 
+L68:   * Implement custom eval metrics for generation quality, groundedness, safety, and tool correctness (beyond accuracy)
+L69:   * Apply LLM-as-judge scoring with rubrics, constraints, and spot checks to reduce evaluator bias and drift
+L70: 
+L71:   * Debug agent failures using traces to pinpoint breakdowns in retrieval, planning, tool use, or response synthesis
+L72: 
+L73:   * Set up production monitoring in Galileo with signals, dashboards, and alerts for regressions and silent failures
+L74: 
+L75:   * Use eval results to prioritize fixes, validate improvements, and prevent quality or safety regressions over time
+L76:   * Choose observability and eval methods for single-call LLM apps vs. multi-step agents, and explain tradeoffs
+L77: 
+L78:   * Instrument LLM apps and agents in Galileo to capture traces, spans, prompts, tool calls, and metadata for debugging
+L79: 
+L80:   * Design an LLM observability plan: what to log, how to structure traces, and how to make failures diagnosable
+L81: 
+L82: Show more Show less
+L83: ## Course content
+L84: 
+L85: 9 sections • 60 lectures • 7h 29m total length
+L86: 
+L87: Expand all sections
+L88: ### Introduction 10 lectures • 24min
+L89: 
+L90:   * Why LLM evaluations and observability?Preview 9:11
+L91: 
+L92: Explore why LLM evaluations and observability are essential for agentic systems, which are powerful yet unpredictable and prone to silent failures, requiring new evaluation approaches.
+L93: 
+L94:   * Course tips 0:44
+L95: 
+L96:   * What is this course?3:28
+L97: 
+L98: Master agentic AI and LLM observability and evaluations, then apply theory with Galileo AI, instrumenting and evaluating systems using Python notebooks and a GitHub resource.
+L99:   * Course roadmap 3:12
+L100: 
+L101: Explore the course roadmap from introduction to practical evaluations using Galileo AI, covering observability, latency, token metrics, and textual evaluation, with four theory and three practice modules.
+L102: 
+L103:   * Resources 0:02
+L104: 
+L105:   * About the instructor Preview 2:13
+L106: 
+L107: Henry, a 10-year automation productivity consultant, explains how he helps enterprises improve processes and build custom ai agents, emphasizing observability and evaluations to prevent production failures.
+L108:   * Keys to success 2:17
+L109: 
+L110:   * Ways to reach out 0:53
+L111: 
+L112: Reach out using Udemy Q&A for questions that peers can answer, direct messages on the platform, or the contact link to discuss feedback or opportunities.
+L113: 
+L114:   * Leave a rating 0:56
+L115: 
+L116: Leave a rating on this platform to help me become a better instructor, and engage with the content by asking questions and discussing.
+L117: 
+L118:   * Watch in 1080p 0:50
+L119: Watch all videos in 1080p or the highest available resolution to ensure a clearer learning experience; set 1080p in your player, avoiding auto and 720p.
+L120: ### LLM / Agent Observability 3 lectures • 28min
+L121: 
+L122:   * Traditional monitoring to observability Preview 9:34
+L123: 
+L124: Learn why traditional monitoring fails for LLMs, and how AI observability and evaluations track input content, semantic quality, tool calls, and costs to prevent silent failures.
+L125: 
+L126:   * Why AI systems need observability 9:44
+L127: 
+L128:   * Key components of LLM observability Preview 8:38
+L129: ### LLM / Agent Evaluations 3 lectures • 26min
+L130: 
+L131:   * Why evaluations are critical 10:39
+L132: 
+L133: Explore why evaluations are critical for LLM development, addressing the fuzzy outputs and non-determinism, and define a multidimensional rubric including completeness, relevance, correctness, tone, and safety.
+L134: 
+L135:   * Types and approaches for LLM evaluations 8:58
+L136: Explore four eval approaches for LLM outputs: logic-based tests, reference-based comparisons to ground truth, LLM-as-judge metrics, and human feedback, with scalable embeddings and rouge/blue metrics.
+L137: 
+L138:   * Challenges to LLM evaluations Preview 6:13
+L139: 
+L140: Assess the ground truth problem in LLM evaluations, apply rubrics to measure tasks without a single right answer, and address domain-specific considerations.
+L141: ### Observability and Evaluations for LLMs vs Traditional ML 3 lectures • 18min
+L142: 
+L143:   * Unique challenges to LLM observability vs. traditional ML 7:02
+L144: 
+L145: Explore how LLM and agentic workflows present unique observability challenges beyond traditional ML, requiring tracing of inputs, tool calls, spans, and context-window effects, including emergent behaviors and prompt injection risks.
+L146: 
+L147:   * Unique risk and cost factors to LLM observability and evaluations 5:05
+L148: Evaluate the cost and risk factors of LLM observability versus traditional ML, including token costs, hallucinations, unsafe outputs, and wasteful outputs; leverage evals to optimize performance before production.
+L149: 
+L150:   * Iteration and lifecycle loops in LLM development 5:25
+L151: 
+L152: Compare traditional ML pipelines with LLM development lifecycles, where fast tool edits and experiments contrast with slow, nondeterministic evaluation and the need for strong observability and model comparisons.
+L153: ### Tools and Approaches for LLM Observability and Evaluations 2 lectures • 15min
+L154: 
+L155:   * Why a dedicated platform is needed 5:16
+L156: 
+L157: Dedicated observability platforms close the gap between operational metrics and semantic quality for llms and agentic ai, enabling custom evals, metadata-rich logs, and ab tests.
+L158: 
+L159:   * Landscape of obsevability and evaluation platforms 9:32
+L160: Explore the LLM observability landscape, from cloud providers to open-source options. See how Galileo AI combines telemetry, evals, and runtime checks to monitor output quality, PII, and tone.
+L161: ### Galileo Platform Deep-Dive Overview and Setup 7 lectures • 37min
+L162: 
+L163:   * What is Galileo 11:08
+L164: 
+L165:   * Integrations 1:12
+L166: 
+L167: Galileo integrates with many agentic and llm frameworks, including the OpenAI SDK wrapper and OpenAI Agents SDK, via a simple one-line change. See the integrations docs for the full list.
+L168: 
+L169:   * Problems and solutions with Galileo 6:45
+L170: Explore how Galileo AI provides observability for LLM agents with logging, dashboards, and alerts, enabling standardized evals, testing prompt changes, and real-time guardrails against harmful outputs.
+L171: 
+L172:   * Pricing 2:19
+L173: 
+L174: Explore Galileo AI pricing, including a free plan with 5,000 traces per month to evaluate the platform, and consider pro or enterprise upgrades for more traces and support.
+L175: 
+L176:   * Create a Galileo account 3:15
+L177: Create a Galileo account, set up your organization and project names, and enable an LLM integration by adding an API key from OpenAI or Anthropic to test the platform.
+L178: 
+L179:   * Clone the repo 4:49
+L180: 
+L181: Clone the repo, set up a local environment, and configure a .env with OpenAI and Galileo keys to run agentic llm apps and view logs and metrics in Galileo.
+L182: 
+L183:   * Repo and local setup 7:18
+L184: ### Logging LLM Interactions with Galileo 13 lectures • 1hr 51min
+L185: 
+L186:   * Observability intro 2:22
+L187: 
+L188:   * Logging terminology 9:02
+L189: 
+L190: learn Galileo logging terminology by mapping projects, log streams, sessions, traces, and spans to a customer service chatbot example, including tool calls and reg searches, to understand observability.
+L191: 
+L192:   * Why log and different methods of logging 4:53
+L193: 
+L194:   * Manual logging basics 11:57
+L195: 
+L196: Notes:
+L197:     * If the project and log stream do not exist yet, they will be created automatically for you.
+L198: 
+L199:     * In this demo, I am not using the Galileo wrapper for the OpenAI SDK. That is why a span is not automatically created. If you use the wrapper, spans are generated for you by default.
+L200: 
+L201:     * 8:40 clarification: There should be more spans than traces, and more traces than sessions.
+L202: 
+L203:   * Span types and metadata 12:20
+L204: 
+L205: NOTES:
+L206: 
+L207: Workflow and agent spans are also available.
+L208: 
+L209:   * Log decorator 11:55
+L210:   * Galileo OpenAI SDK 19:42
+L211: 
+L212:   * Simulation an LLM app 4:14
+L213: 
+L214: Simulate a llm app with a thousand runs over ten minutes using a Python script and a new log stream, then analyze logs in Galileo for observability patterns.
+L215: 
+L216:   * Viewing results of LLM call in Galileo dashboard 9:39
+L217: 
+L218: Explore how to use the Galileo dashboard for LLM observability: filter by time, view traces and spans, and analyze input and output tokens, costs, latency, and API failures.
+L219: 
+L220:   * Real agent calls gathering logs 5:09
+L221: Explore how Galileo AI enables logging, monitoring, and observability of real agent calls, including tools, handoffs, multi-tool workflows, and log streams like 6-3 agent calls.
+L222: 
+L223:   * Agent graph 7:01
+L224: 
+L225: Explore the agent graph showing the main assistant and science expert flows, tool calls like get weather and Bitcoin price, with traces, latency analytics, and outlier performance.
+L226: 
+L227:   * Agent graph finding clues on bad tools and LLM calls 4:54
+L228: Investigate agent latency by inspecting the dashboard, traces, and Galileo logs to identify that the get price of Bitcoin tool drives delays, guiding targeted optimizations.
+L229: 
+L230:   * Logging, alerts, signals, and metric sampling 7:51
+L231: ### Evaluating LLM Performance with Galileo 18 lectures • 3hr 10min
+L232: 
+L233:   * From observation to evaluation 2:59
+L234: 
+L235:   * Analogy to AI evaluation 5:27
+L236: 
+L237: Explore how AI evaluations drive iterative improvements by running experiments on LLM agents with Galileo. Define experiments, data sets, and metrics as core constructs guiding inputs, outputs, and performance.
+L238: 
+L239:   * Experiments and metrics 6:29
+L240: Galileo centers experiments and metrics as core evaluative constructs, detailing playground and code-based experiment deployment. It explains out-of-the-box and custom metrics, including llm-as-judge approaches and logic-based code metrics.
+L241: 
+L242:   * Dataset creation 14:25
+L243: 
+L244: Create datasets for experiments by using the Galileo SDK or the console, structuring data with input, optional output, and metadata, and optionally importing from CSV or pandas data frames.
+L245: 
+L246:   * Metadata 6:05
+L247: Add metadata to your data sets to disaggregate aggregated metrics by category, revealing how correctness scores vary by question type, such as technical versus account information.
+L248: 
+L249:   * Versioning 5:35
+L250: 
+L251: Learn how dataset versioning tracks evolving data and ground truth in LLM agent evaluations, including version history, addRows, restoring versions, and ensuring experiments run on the same data version.
+L252: 
+L253:   * Experiments playground 18:49
+L254: Set up a 10-row customer service data set in Galileo console, run experiments in the playground, and evaluate outputs with metrics like correctness and ground truth adherence to improve observability.
+L255: 
+L256:   * Experiments code 16:19
+L257: 
+L258: Run experiments with code using the Galileo SDK to test custom functions on datasets, track metrics and ground truth adherence, and optimize prompts and system prompts.
+L259: 
+L260:   * Metrics box response 6:44
+L261: 
+L262: NOTES:
+L263:     * To avoid the deprecation warning, replace GalileoScorers with GalileoMetrics.
+L264: 
+L265:   * Metrics safety and compliance 9:54
+L266: 
+L267: Explore safety and compliance metrics for LLMs, including prompt injection and detection of personally identifiable information, using Galileo AI to compare safe and unsafe data sets.
+L268: 
+L269:   * Expression and confidence 6:59
+L270: Learn to measure and regulate model tone with the tone metric in Galileo, ensuring outputs stay neutral or joyful to align with brand, through neutral and emotional data tests.
+L271: 
+L272:   * Agentic metrics 7:22
+L273: 
+L274:   * Agent metrics 2 15:51
+L275: 
+L276: Analyze agent metrics across traces, spans, and sessions to diagnose tool calls and errors, using Galileo's metrics and signals to optimize efficiency and conversational quality.
+L277: 
+L278:   * Local metrics 17:38
+L279: Explore local metrics that run on your machine, define score and aggregator functions, and use them in experiments to assess word count, greetings, closings, and structure with Galileo AI.
+L280: 
+L281:   * Registered metrics 9:51
+L282: 
+L283:   * LLM as judge 11:11
+L284: 
+L285:   * Prompt egineering 9:02
+L286: 
+L287: Explore prompt engineering for LLMs as judge metrics using Galileo AI's guide to craft explicit prompts, minimal context, decomposed metrics, and clear input and output rubrics.
+L288: 
+L289:   * LLM as judge using code and other output types 19:06
+L290: NOTES:
+L291: 
+L292:     * The boolean score was 33% because 1 out of 3 judges returned true and 2 returned false.
+L293: 
+L294:     * Boolean scores are calculated as the percentage of judges that returned true
+L295: ### Conclusion 1 lecture • 2min
+L296: 
+L297:   * Conclusion and Certification 1:39
+L298: 
+L299: Conclude by applying theory and practical methods for LLM observability, agentic AI evaluation, and productionalizing these systems with Galileo. Learn how to obtain your course certificate.
+L300: 
+L301: ## Requirements
+L302: 
+L303:   * Basic Phython knowledge
+L304: 
+L305:   * Basic AI Agent building knowledge
+L306: 
+L307:   * Can work with Jupyter Notebooks
+L308: 
+L309:   * No prior observability experience needed
+L310: ## Description
+L311: 
+L312: Important note: Please click the video for more information. This course is hands-on and practical, designed for developers, AI engineers, founders, and teams building real LLM systems and AI agents. It’s also ideal for anyone interested in LLM observability and AI evaluations and who wants to apply these skills to future agentic apps. You should have some knowledge in AI agents and how they are built.
+L313: Note this is the complete guide to AI Observability and Evaluations. We go both into theory and practice, using Galileo AI as the AI Agent / LLM monitoring platform. Learners also get access to all resources and the GitHub code / notebooks used in the course.
+L314: 
+L315: Why does LLM Observability and Evaluations Matter?
+L316: LLMs are powerful, but they are unpredictable. They hallucinate, they fail silently, they behave differently across prompts and versions. There is a big difference between building an AI agentic / LLM system and actually "productionalizing" it. What if the LLM starts producing offensive content? What if tools embedded within agents fail silently? How do you measure model quality degradation?
+L317: Traditional monitoring and building methods don't work. You need to run experiments, build custom evaluations, and set up alerts that assess subjective measures. Dashboards built to track classification accuracy are not designed for open-ended text generation. Log pipelines created for predictable APIs cannot capture reasoning steps, tool usage, or why an agent failed.
+L318: As a result, most teams fall back on manual spot checks, gut feel, and endless prompt tweaking. That approach might work in the beginning, but it does not scale.
+L319: 
+L320: What we need instead is a systematic way to measure, monitor, evaluate, and continuously improve LLM and agent systems. That is where observability and structured evaluation come in.
+L321: 
+L322: What is this course?
+L323: This course will make you more confident when you build and deploy AI agents or other LLM-based systems. It will teach you the tools and tricks needed for building robust AI agents with structured personalized evaluations and experiments, and how to monitor your agents in production with observability and logging. We first start with the basics, the theory around what makes AI agents / LLM systems particularly difficult to build and track.
+L324: Then, we get into the practical where we build our own evaluations and instrument our own apps with Galileo AI.
+L325: What is Galileo AI?
+L326: 
+L327: Galileo is a platform designed specifically for evaluating and monitoring LLM and agent systems. It's specifically designed for AI agents / LLM-based systems, and includes the following features:
+L328: 
+L329:   * Observability: Log LLM interactions, track spans and metadata, visualize agent flows, monitor safety and compliance signals
+L330: 
+L331:   * Evaluations: Design experiments, create evaluation datasets, define and register metrics, use LLMs-as-judges, version and compare results
+L332: In short, it gives you a structured way to understand how your AI systems behave and helps you build them. In this course, we do a masterclass in Galileo AI and how to use it to monitor and evaluate your AI app.
+L333: 
+L334: Course Overview:
+L335: 
+L336:   * Introduction - We start by explaining why LLM evaluations and observability matter, covering the risks of deploying generative AI without structured monitoring, setting expectations, and reviewing the course roadmap.
+L337:   * Theory: LLM/Agent Observability - This section introduces traditional monitoring concepts, explains why they fall short for generative systems, and outlines the key components of LLM observability.
+L338: 
+L339:   * Theory: LLM / Agent Evaluations - You’ll explore evaluation theory, understand why evaluations are critical for production AI, learn the main evaluation approaches, and see the common challenges teams face with LLMs.
+L340:   * Theory: Observability and Evaluations for LLMs vs Traditional ML - We contrast generative AI with classical machine learning, highlighting the unique risks, costs, and iteration loops.
+L341: 
+L342:   * Theory: Tools and Approaches for LLM Observability and Evaluations - This section surveys the landscape of observability and evaluation tools available for LLM systems and explains why dedicated platforms are necessary.
+L343:   * Practice: Galileo Platform Deep-Dive Overview and Setup - This section walks you through Galileo’s architecture, integrations, pricing, account creation, repository cloning, and local development setup to prepare you for instrumentation.
+L344: 
+L345:   * Practice: Logging LLM Interactions with Galileo - You’ll learn practical logging with Galileo, including terminology, manual and SDK-based methods, simulating LLM applications, inspecting agent graphs, detecting errors, and setting up alerts and signals.
+L346:   * Practice: Evaluating LLM Performance with Galileo - We shift from observation to evaluation, showing how to design experiments, manage datasets and metadata, implement evaluation code, define metrics, and perform agent-specific and LLM-as-judge assessments.
+L347: 
+L348:   * Conclusion: Earn your certificate
+L349: ## Who this course is for:
+L350:   * AI engineers and ML engineers
+L351:   * Software engineers building agentic apps
+L352:   * Platform or infrastructure engineers
+L353:   * For AI engineers and anyone who are building LLM or agentic applications
+L354:   * Developers deploying Gen AI to production
+L355:   * Teams struggling to evaluate and debug LLM systems
+L356:   * Founders building AI-native apps
+L357:   * If you are someone responsible for AI quality and looking for a way to measure it
+L358:   * Anybody who wants structured, systematic control over AI behavior
+L359:   * Anyone who wants to know why AI fails and how to fix it
+L360:   * Engineers working on safety and compliance
+L361:   * Technical product managers for AI products
+L362: Show more Show less
+L363: 
+L364: cite15†Report abuse 

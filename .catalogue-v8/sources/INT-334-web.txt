@@ -1,0 +1,308 @@
+AI for Helping Professions: Safety & Ethics (https://www.udemy.com/course/ai-for-helping-professions/)
+citeturn32view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-for-helping-professions/","lineno":null}); Total lines: 318
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI for Helping Professions: Safety & Ethics
+L30: 
+L31: Role Play
+L32: 
+L33: Rating: 4.7 out of 5 4.7cite8†(5 ratings) L34: 62 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # AI for Helping Professions: Safety & Ethics
+L38: 
+L39: A practical guide to using AI ethically, safely, and effectively as a therapist, coach, or helping professional
+L40: 
+L41: Created bycite9†Dr Chris Worfolk , cite10†Holbeck College L42: 
+L43: Last updated 9/2026
+L44: 
+L45: English
+L46: 
+L47: English
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Use AI tools effectively for professional tasks including report writing, research, documentation, and summarising content
+L53: 
+L54:   * Apply a clear ethical framework to AI use, including data privacy decisions, competence boundaries, and transparency with clients
+L55: 
+L56:   * Choose the right AI tool for each task, including setting up and using a local LLM for sensitive content
+L57: 
+L58:   * Identify and manage key AI risks including hallucinations, bias, echo chambers, and over-reliance
+L59:   * Craft effective prompts that produce reliable, professionally appropriate AI output
+L60: 
+L61:   * Recognise and respond appropriately when clients are using AI in ways that may be clinically significant
+L62: 
+L63:   * Evaluate new AI tools critically and make informed decisions about adopting them in professional practice
+L64: ## Course content
+L65: 
+L66: 11 sections • 70 lectures • 1h 50m total length
+L67: 
+L68: Expand all sections
+L69: 
+L70: ### Introduction 7 lectures • 7min
+L71: 
+L72:   * Welcome Preview 1:53
+L73: 
+L74:   * Course goals Preview 1:12
+L75: 
+L76:   * Course outline 1:02
+L77: 
+L78:   * How to use this course 0:53
+L79: 
+L80: Learn how to use this course effectively, with video playback controls and captions, start from the basics, take notes, download the handbook, and ask questions on the q&a board.
+L81: 
+L82:   * Course handbook 0:08
+L83: 
+L84:   * Meet your instructor 1:39
+L85: 
+L86:   * Student community 0:12
+L87: ### Getting started with AI 8 lectures • 12min
+L88: 
+L89:   * Let's get started with AI 0:34
+L90: 
+L91:   * Your first chat with Claude Preview 2:35
+L92: 
+L93: Explore how to start and use Claude AI for practical tasks, from the chat box and questions to drafting an email template with professional or warmer personal tone.
+L94: 
+L95:   * Adding screenshots and documents 2:11
+L96: 
+L97:   * Trying out generative AI exercise 0:15
+L98: 
+L99:   * Using different models 2:09
+L100: Explore how AI models differ in capability and speed, and switch between Opus 4.7, Haiku 4.5, Sonnnet 4.6, and Claude. Learn to change models to get different AI responses.
+L101: 
+L102:   * Setting a style/tone 1:40
+L103: 
+L104: Adjust the style and tone of AI outputs by switching to formal or informal settings to tailor messages for different audiences.
+L105: 
+L106:   * Using temporary chats 1:31
+L107: Explore incognito chats in AI for helping professions, where temporary chats aren’t saved to memories or used to train models, though they may undergo human review.
+L108: 
+L109:   * Using voice chat 1:34
+L110: ### What can generative AI do?6 lectures • 10min
+L111: 
+L112:   * What can you use AI for?0:10
+L113: 
+L114: Explore specific use cases for AI in helping professions, building on the basics you’ve learned, and discover practical ways you might want to apply AI.
+L115: 
+L116:   * Using AI for research 2:04
+L117: 
+L118: Use ai to research topics by setting the model to sonnet, outlining internal family systems, its concepts, how therapy works, and the evidence base, including research papers and textbooks.
+L119: 
+L120:   * Using AI for summarising documents 1:27
+L121: Explore how AI can summarize documents by uploading files, setting summary length, and querying implications for therapists, blending document content with existing knowledge to generate targeted insights.
+L122: 
+L123:   * Using AI to transcribe and summarise meetings 1:59
+L124: 
+L125: Explore using AI to transcribe and summarise meetings with Zoom, then generate key outcomes; compare person-centred approach focusing on Carl Rogers' core conditions with cognitive behavioural techniques.
+L126: 
+L127:   * Using AI for report writing 2:41
+L128:   * Using AI for formulation 1:53
+L129: 
+L130: Leverage AI for formulation to brainstorm client-work strategies, considering time management and ADHD factors, while using anonymous, generic details suitable for cloud uploading.
+L131: ### Using AI effectively 4 lectures • 5min
+L132: 
+L133:   * Prompt engineering 0:24
+L134: 
+L135: Explore prompt engineering by learning how to phrase questions effectively to improve AI results, and understand how asking the right questions enhances the outputs in practice.
+L136: 
+L137:   * Giving feedback and iterating Preview 1:52
+L138: 
+L139:   * Be specific 2:11
+L140: 
+L141:   * Roles and context 0:55
+L142: 
+L143: Assign roles and context to AI by asking it to pretend to be a clinical psychologist explaining ADHD in accessible language to a gp.
+L144: 
+L145:   * Test your knowledge
+L146: ### Understanding AI 5 lectures • 10min
+L147: 
+L148:   * What is AI?2:29
+L149: 
+L150: Explore how computers act as fancy calculators and how generative AI imitates human intelligence. Explore natural language processing, image recognition, and the idea of narrow versus general AI.
+L151: 
+L152:   * Large language models (LLMs)1:45
+L153: 
+L154: The lecture explains that large language models power generative AI by being pre-trained on massive data, enabling language generation without real-time learning from user conversations.
+L155:   * Memory and web search 1:35
+L156: 
+L157: Integrate memory units and web search into large language models to recall past conversations and fetch up-to-date information.
+L158: 
+L159:   * Popular LLMs 1:56
+L160: 
+L161: Explore popular LLMs like ChatGPT, Claude, Perplexity, Gemini, Copilot, DeepSeek, and MidJourney, and see how AI assistants rely on diverse underlying models such as GPT-5, DALL.E, and Sora.
+L162: 
+L163:   * Different types of AI 2:18
+L164: Explore generative AI, which can produce text, code, images, audio, and video. Compare it with ML, NLP, computer vision, and speech recognition, and see how training data enables learning.
+L165: 
+L166:   * Test your knowledge
+L167: ### Using AI ethically 9 lectures • 14min
+L168: 
+L169:   * Ethical concerns when using AI 0:14
+L170: 
+L171:   * Competence considerations 1:14
+L172: 
+L173: Ensure you work within your competence by staying trained and qualified, and use prompt engineering to keep AI within your framework and avoid breaches of ethical guidelines.
+L174: 
+L175:   * Limitations of AI Preview 4:04
+L176: 
+L177:   * Privacy concerns when using AI 2:29
+L178: 
+L179:   * Public, enterprise and local LLMs 2:24
+L180: Compare public, enterprise, and local LLMs, highlighting security and data handling; public/paid lack GDPR or HIPAA guarantees, while enterprise may include them via contract and local keeps data on site.
+L181: 
+L182:   * GDPR/HIPAA-compliant LLMs 0:26
+L183: 
+L184:   * Case study: ChatGPT and Grok data leaks 0:11
+L185: 
+L186:   * Anonymising documents 0:49
+L187: 
+L188:   * How to anonymise a document 2:01
+L189: Learn to anonymise a document for cloud upload by using find and replace across common office tools, and proofread to remove remaining identifiers like names, dates, and addresses.
+L190: 
+L191:   * Test your knowledge
+L192: ### Using AI safely 12 lectures • 19min
+L193: 
+L194:   * Safety concerns when using AI 0:15
+L195: 
+L196: Explore safety considerations in AI and identify how AI can be harmful. Learn steps to protect yourself and your clients.
+L197: 
+L198:   * AI can make mistakes 2:30
+L199: 
+L200: Artificial intelligence can make mistakes because large language models are prediction machines, not reasoning systems; double-check important information to maintain safe, ethical use.
+L201: 
+L202:   * Hallucinations 2:24
+L203: Explore how ai hallucinations produce confident, false content and imagined references, especially when documents are unreadable. Learn to verify facts, request evidence and sources, and guard against misleading outputs.
+L204: 
+L205:   * Echo chambers and self-reinforcement 1:18
+L206: 
+L207:   * Bias 1:22
+L208: 
+L209:   * Deskilling 1:16
+L210: 
+L211: Balance AI support with your own decision-making and justification, honing critical thinking and bias awareness through ongoing professional development to stay capable.
+L212: 
+L213:   * Copyright and plagiarism 1:11
+L214: Explore the evolving debate on copyright and plagiarism in artificial intelligence, as training on copyrighted books, images, and web pages raises questions about output legality and ethics.
+L215: 
+L216:   * Checking important information 0:52
+L217: 
+L218: Verify information by asking AI for sources and links to confirm facts. Use digital safety skills to assess whether the websites and papers are real and credible.
+L219: 
+L220:   * Asking AI to provide references 2:16
+L221: 
+L222:   * Evaluating online sources 3:32
+L223: Evaluate online sources using reliable bodies like NICE and professional associations, and rely on peer-reviewed journals. Check author names and bios, references, publication date, and potential conflicts of interest.
+L224: 
+L225:   * Reviewing AI output 1:41
+L226: 
+L227:   * You hold the clinical risk, not AI 0:39
+L228: 
+L229: As the trained professional, you bear responsibility and must back up every decision with professional judgment, not handing expertise to AI; AI serves as an assistant, not a fellow professional.
+L230:   * Test your knowledge
+L231: ### Using AI locally 6 lectures • 10min
+L232: 
+L233:   * What is a local LLM?0:48
+L234: 
+L235:   * Advantages and disadvantages of local LLMs 0:58
+L236: 
+L237: Examine the advantages of local LLMs, including security, offline operation, cost-free use, and model variety, and weigh the trade-offs of convenience, web search limits, and computational demands.
+L238: 
+L239:   * Installing ollama on Mac 2:31
+L240: 
+L241:   * Installing ollama on Windows 3:02
+L242: Learn to install ollama on Windows, download and run the setup, install and verify the mistral model using the command prompt, and list available models with ollama list.
+L243: 
+L244:   * Using ollama 1:54
+L245: 
+L246:   * Using ollama safely 0:42
+L247: 
+L248: Manage Ollama connectivity in settings to stay offline by disabling internet access, keeping all models and data on your computer, or enable cloud models and web search when needed.
+L249: ### Other types of generative AI 5 lectures • 11min
+L250: 
+L251:   * Research mode 1:38
+L252: 
+L253: Activate research mode to perform in-depth research, producing a comprehensive report with sources on trauma-informed practice and its impact on a yoga teacher.
+L254: 
+L255:   * Image generation 1:45
+L256: 
+L257: Explore generative AI image generation using Google Gemini to produce a psychotherapy session illustration in the Studio Ghibli style.
+L258: 
+L259:   * Audio generation 1:16
+L260: 
+L261:   * Video generation 1:18
+L262: 
+L263:   * AI agents 5:29
+L264: ### AI and your clients 6 lectures • 10min
+L265: 
+L266:   * Using AI for note-taking 1:15
+L267: 
+L268:   * Clients using AI for self-treatment 3:27
+L269: 
+L270: Navigate clients' use of AI for self-treatment by identifying validation loops and unhelpful narratives, and reframe issues within familiar frameworks while upholding ethical practice, competence, and privacy concerns.
+L271: 
+L272:   * Clients using AI for reassurance 1:20
+L273: Learn how clients use AI for reassurance in health anxiety and OCD, examining how short-term relief becomes long-term distress through AI as a safety behaviour.
+L274: 
+L275:   * Clients using AI for relationships 2:33
+L276: 
+L277: AI can ease loneliness, but overuse may foster unhealthy, one-sided relationships that mimic connections. Platforms like Claude, Replica, and Character.ai create AI companions that always agree and may replace friendships.
+L278: 
+L279:   * AI psychosis 1:28
+L280: Amplifies disordered thinking in a subset of users and raises safety concerns for helping professions. Disrupts emergency responses and shows AI psychosis may validate grandiose beliefs or blur reality boundaries.
+L281: 
+L282:   * Talking to clients about AI
+L283: 
+L284: 1 more section
+L285: ## Requirements
+L286: 
+L287:   * No prior knowledge of AI is required — we start from the very basics
+L288: 
+L289:   * To follow the local LLM lessons, a computer with at least 16GB of RAM is recommended, but not essential for the course
+L290: ## Description
+L291: 
+L292: AI is changing how helping professionals work. This course makes sure you're ready.
+L293: 
+L294: Whether you're a therapist, coach, healthcare professional, social worker, teacher, or HR professional, this course gives you practical, ethical guidance grounded in the realities of your work.
+L295: Written and taught by a chartered psychologist and software engineer, it gives you everything you need to use AI confidently, safely, and ethically in your professional practice. We start from the very basics, so you don't need any prior knowledge of AI to get started.
+L296: 
+L297: You will learn:
+L298: 
+L299:   * How to use AI for research, formulation, report writing, note-taking, and summarising documents
+L300: 
+L301:   * How to craft effective prompts to get useful, reliable output
+L302:   * How to navigate ethical issues such as competence, privacy, hallucinations, bias and deskilling
+L303: 
+L304:   * How to run AI locally so client data never leaves your computer
+L305: 
+L306: We also cover territory that most AI courses ignore entirely: what to do when your clients are using AI. Whether a client arrives with a ChatGPT formulation, uses AI for reassurance between sessions, or has developed an unhealthy relationship with an AI companion, you will know how to respond.
+L307: By the end of the course, you will be able to use AI as a skilled professional assistant while keeping your clinical judgement, your ethics, and your clients' wellbeing at the centre of your practice.
+L308: ## Who this course is for:
+L309:   * Counsellors, psychotherapists, psychologists, coaches, social workers, and teachers
+L310:   * Mindfulness teachers, occupational therapists, and other allied health professionals
+L311:   * Any helping professional who handles sensitive client data and wants to use AI responsibly
+L312:   * HR professionals, managers, and supervisors supporting staff who work with vulnerable people
+L313:   * Complete beginners with no prior knowledge of AI — we start from scratch
+L314:   * Those already using AI who want to ensure they are doing so safely and ethically
+L315: Show more Show less
+L316: 
+L317: cite11†Report abuse 

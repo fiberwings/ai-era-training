@@ -1,0 +1,592 @@
+SC-500 - Microsoft Certified: Cloud and AI Security Engineer (https://www.udemy.com/course/exam-azure-2/)
+citeturn177view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/exam-azure-2/","lineno":null}); Total lines: 1457
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: SC-500 - Microsoft Certified: Cloud and AI Security Engineer
+L30: Rating: 4.5 out of 5 4.5cite8†(10,117 ratings) L31: 
+L32: 66,987 students
+L33: 
+L34: cite0†Image†img-c.udemycdn.com Preview this course
+L35: # SC-500 - Microsoft Certified: Cloud and AI Security Engineer
+L36: 
+L37: Prepare for SC-500 with Azure security, AI workload protection, hands-on labs, quizzes and practice tests.
+L38: 
+L39: Created bycite9†Alan Rodrigues L40: 
+L41: Last updated 9/2026
+L42: 
+L43: English
+L44: 
+L45: Arabic [Auto],German [Auto], 16 more
+L46: 
+L47: cite0†Image†img-c.udemycdn.com Preview this course
+L48: ## What you'll learn
+L49: 
+L50:   * Prepare for the SC-500 exam and understand the security engineer role across Azure, hybrid, and AI-enabled environments.
+L51: 
+L52:   * Implement identity, access, and governance controls using Microsoft Entra ID, Azure RBAC, PIM, Conditional Access, and Azure Key Vault.
+L53: 
+L54:   * Azure security core services and implement security controls and threat protection.
+L55:   * Secure Azure Storage, Azure SQL databases, and network services using firewalls, private access, encryption, and access controls.
+L56: 
+L57:   * Secure virtual machines, containers, application services, APIs, and AI workloads using Microsoft security controls and best practices.
+L58: 
+L59:   * Manage security posture and workload protection with Microsoft Defender for Cloud, Defender CSPM, and vulnerability management.
+L60: ## Course content
+L61: 
+L62: 11 sections • 460 lectures • 36h 35m total length
+L63: 
+L64: Expand all sections
+L65: ### NEW - SC-500 - Manage identity, access, and governance 63 lectures • 5hr 24min
+L66: 
+L67:   * PowerPoint Slides download 0:13
+L68: 
+L69:   * Code and resources download for this section 0:10
+L70: 
+L71:   * Azure Foundations for Cloud Security Preview 3:55
+L72: 
+L73: Explore Azure cloud computing, its broad services from computing to AI, and learn to set up a free account for hands-on practice aligned with security-focused exam objectives.
+L74: 
+L75:   * Creating the Azure Free Account 4:48
+L76: Register an Azure free account using Gmail or GitHub to access $200 free credit for new customers for 30 days, with phone verification and multi-factor authentication.
+L77: 
+L78:   * About Microsoft Entra ID 2:59
+L79: 
+L80: Explore Microsoft Entra ID as the centralized identity and access management solution, create users and groups, and manage Azure roles with built-in and Entra roles.
+L81: 
+L82:   * Quick tour of Microsoft Entra ID 4:03
+L83: Explore the Microsoft Entra ID interface, navigate the Azure portal, and learn about default directory, tenant ID, licenses, and basic management of users, groups, and applications.
+L84: 
+L85:   * Creating a User in Microsoft Entra ID 4:04
+L86: 
+L87:   * Introduction to Azure Virtual Machines 4:59
+L88: 
+L89: Learn how Azure virtual machines deliver on-demand compute to host applications, with configurable Windows or Linux OS, CPU, RAM, storage, region, and networking, billed pay-as-you-go.
+L90:   * Lab - Deploying an Azure Virtual machine 12:38
+L91: 
+L92:   * What is Azure Role-Based Access Control 3:21
+L93: 
+L94: Explore Azure RBAC as an authorization system for managing access to Azure resources, using built-in and custom roles and scope-based role assignments.
+L95: 
+L96:   * Lab - RBAC - Resource level assignment 7:14
+L97: 
+L98: Learn how to assign Azure RBAC roles at the resource level for labuser01, including reader and virtual machine contributor roles, through a step-by-step role assignment, scope, and least-privilege guidance.
+L99:   * Lab - RBAC - Resource-Group-Level Assignment 7:00
+L100: 
+L101: Apply role-based access control at the resource group level by granting lab user 01 the reader role to all resources, illustrating scope inheritance and post-lab cleanup.
+L102: 
+L103:   * Lab - RBAC - Assigning the Contributor Role 3:40
+L104: 
+L105: A hands-on lab demonstrates using RBAC to assign the virtual machine contributor role alongside reader at the resource group level, enabling management actions like stopping a VM.
+L106:   * Lab - RBAC - User Access Administrator Role 5:21
+L107: 
+L108: Explore how the user access administrator role enables you to manage role assignments at a scope, without granting resource permissions, and delegate Azure RBAC control across resource groups.
+L109: 
+L110:   * Creating a Custom Azure RBAC Role 5:21
+L111: 
+L112: Define and assign a custom Azure RBAC role at the resource group level by cloning and editing permissions to allow select VM actions like start and restart.
+L113: 
+L114:   * Creating a Security Group in Microsoft Entra ID 6:23
+L115: Create and manage security groups in microsoft entra id to centrally assign azure resource permissions and microsoft entra roles, enabling scalable access control and lifecycle management.
+L116: 
+L117:   * About renewing the temporary access pass 0:44
+L118: 
+L119:   * Introduction to Microsoft Entra ID Roles 2:31
+L120: 
+L121: Explore Microsoft Entra ID roles and how RBAC grants permission to create users, groups, and applications at the directory level, alongside managing Azure resources.
+L122: 
+L123:   * Assigning a Microsoft Entra Role to a User 6:02
+L124: Demonstrate how lab user 01 is granted a Microsoft Entra ID user admin role to manage users and groups at the directory level, illustrating Entra ID roles versus resource rbac.
+L125: 
+L126:   * Deleting resources 3:19
+L127: 
+L128:   * Introduction to Microsoft Entra Authentication Methods 4:41
+L129: 
+L130: Explore Microsoft Entra authentication methods, including primary authentication with username and password or a temporary access pass, plus multifactor authentication and self-service password reset.
+L131:   * Using the Microsoft Authenticator App 9:32
+L132: 
+L133: Enable multi-factor authentication with the Microsoft Authenticator app in Microsoft Entra ID. Register the app and use a second factor like a one-time code.
+L134: 
+L135:   * Moving Beyond Passwords with Microsoft Entra Passwordless Authentication 2:27
+L136: 
+L137: Explore passwordless authentication with Microsoft Entra, using key-based credentials stored on devices or security keys, unlocked by a pin or biometrics, including Windows Hello for Business and passkeys.
+L138:   * A look at Microsoft Entra Passwordless Authentication 5:10
+L139: 
+L140: Explore passwordless authentication with Microsoft Entra ID, compare it to multifactor authentication, and learn to register a device, set a passcode, and approve sign in requests via the authenticator app.
+L141: 
+L142:   * Understanding Microsoft Cloud Licences 5:29
+L143: 
+L144: Understand Microsoft Entra ID licenses, especially P2, including pricing, subscription, and how the Microsoft 365 admin center manages licenses and user access for Entra security features.
+L145:   * Accessing Microsoft 365 Admin Center 11:21
+L146: 
+L147: Subscribe to Microsoft Entra ID P2 trial licenses via the Microsoft 365 admin center, create a user, set up billing, and assign licenses for conditional access and privileged identity management.
+L148: 
+L149:   * Summary - Microsoft Entra ID 14:34
+L150: 
+L151:   * Privileged Identity Management 6:36
+L152: Learn how privileged identity management enables just-in-time, temporary access to Microsoft Entra and Azure resource roles through eligibility, activation, MFA, and approvals, with audit and governance.
+L153: 
+L154:   * Lab - Privileged Identity Management - Microsoft Entra roles - Assignment 7:32
+L155: 
+L156: Explore privileged identity management in Microsoft Entra by granting and activating Microsoft Entra roles, using eligible vs active assignments, and provisioning a user administrator role with time-bound eligibility.
+L157:   * Lab - Privileged Identity Management - Microsoft Entra roles - Activation 3:53
+L158: 
+L159: Demonstrates privileged identity management enabling eligible assignments to Microsoft Entra roles. Shows activation of a user admin role for a limited duration with justification.
+L160: 
+L161:   * Lab - Privileged Identity Management - Role settings 2:40
+L162: Navigate Microsoft Entra Privilege Identity Management to configure role settings for the user administrator role, adjusting activation duration, MFA, justification, approvals, assignments, and notifications for roles, groups, and resources.
+L163: 
+L164:   * Lab - Privileged Identity Management - RBAC 4:24
+L165: 
+L166: Learn how privileged identity management extends to Azure resources, managing RBAC roles, activating roles, and handling eligible and active assignments at the subscription or resource group level.
+L167:   * Microsoft Entra Conditional Access 4:09
+L168: 
+L169:   * Lab - Microsoft Entra Conditional Access 9:29
+L170: 
+L171:   * Lab - Conditional Access Policy - Locations 5:19
+L172: 
+L173: Create a named ip address location, mark it as trusted, and apply a conditional access policy that grants access from trusted locations while requiring multifactor authentication, then review sign-in logs.
+L174: 
+L175:   * Summary - PIM and Conditional Access 6:49
+L176: Explore how Microsoft Entra Privileged Identity Management reduces standing privileges by enforcing time-based activation, multifactor authentication, approvals, and conditional access for admin roles.
+L177: 
+L178:   * Introduction to Azure Key Vault 2:42
+L179: 
+L180: Explore the Azure Key Vault service, a managed solution for storing secrets, encryption keys, certificates, and other sensitive data; learn how apps securely fetch passwords, API keys, and connection strings.
+L181: 
+L182:   * Lab - Deploy an Azure Key Vault 3:30
+L183: Deploy an Azure key vault from the marketplace, select standard pricing, enable soft delete and purge protection, store secrets, keys, and certificates, and configure role-based access control with public access.
+L184: 
+L185:   * Lab - Creating a secret in the key vault 5:32
+L186: 
+L187: Explore creating secrets, encryption keys, and certificates in Azure Key Vault, and apply RBAC to separate control plane from data plane access, enabling apps to securely fetch secrets.
+L188:   * Retrieve a Secret from Azure Key Vault with Python 2:04
+L189: 
+L190:   * Installing Python and Visual Studio Code 4:19
+L191: 
+L192:   * Lab – Retrieve a Secret from Azure Key Vault with Python 10:26
+L193: 
+L194: Build a simple Python program using Azure Identity and the Azure Key Vault Secrets library to fetch the dbpassword secret from a Key Vault via the Azure CLI as labuser01.
+L195: 
+L196:   * Quick look at creating encryption keys 2:59
+L197: 
+L198:   * Configure Azure Key Vault Firewall and Network Access 1:24
+L199:   * Lab - Configure Azure Key Vault Firewall - IP address 3:32
+L200: 
+L201: Configure azure key vault firewall to restrict access, enabling public access only from specific virtual networks and IP addresses, add your client IP to authorize secure calls and fetch secrets.
+L202: 
+L203:   * Move the Key Vault Application to an Azure Virtual Machine 7:41
+L204: 
+L205: Move the key vault application to an azure virtual machine, configure a virtual network, install python and azure identity and key vault secrets, then log in with a device code.
+L206:   * Understanding Virtual Network Service Endpoints 4:14
+L207: 
+L208: Enable a virtual network service endpoint for the subnet so the Python program on the virtual machine can securely access the Key Vault's secret.
+L209: 
+L210:   * Why Applications Need an Identity in Microsoft Entra ID 3:17
+L211: 
+L212: Register an application in Microsoft Entra ID to give a Python program its own identity, enabling RBAC access to Azure resources like Key Vault and virtual machines.
+L213: 
+L214:   * Lab - Authenticate an Application to Key Vault 7:14
+L215: Register a new application in Microsoft Entra ID, and configure a Python program to authenticate to Azure with a client secret credential, then access a key vault secret.
+L216: 
+L217:   * Managed Identities for Azure Resources 2:23
+L218: 
+L219: Learn how Azure managed identities create a resource identity for Azure resources to access Key Vault without az login or client secrets, with Microsoft Entra managing credentials and tokens.
+L220: 
+L221:   * Lab - Managed Identities for Azure Resources 3:41
+L222: Enable a system assigned managed identity on the virtual machine and grant it role-based access control to access key vault secrets, letting the program use the vm identity.
+L223: 
+L224:   * Introduction to Microsoft Graph API 1:50
+L225: 
+L226: Explore Microsoft Graph API as a gateway to data across Microsoft cloud services via REST APIs and SDKs. Learn about application and delegated permissions with a Python-based Graph API example.
+L227: 
+L228:   * How a Microsoft Graph request works 2:09
+L229: Explore the key components of a Microsoft Graph request, including the http method, endpoint, api version, resources, access tokens, and delegated and application permissions.
+L230: 
+L231:   * Delegated and application permissions 4:33
+L232: 
+L233: Learn how delegated and application permissions govern access to Microsoft Entra ID via Microsoft Graph, contrasting signed-in-user tokens with app-only tokens for background services.
+L234: 
+L235:   * Lab - Call Microsoft Graph from Python - Application permissions 10:16
+L236: Learn to call the Microsoft Graph API from Python using GraphServiceClient and application permissions, configure an Entra ID app, grant admin consent for User.Read.All, and read all users.
+L237: 
+L238:   * Lab - Call Microsoft Graph from Python - Delegated permissions 7:38
+L239: 
+L240: Learn how to call Microsoft Graph from Python using delegated permissions to sign in a user via device code flow and fetch the signed-in user's profile, contrasting with application permissions.
+L241: 
+L242:   * Summary - Key vault and identities 9:57
+L243: Explore how Azure Key Vault protects secrets, keys, and certificates; manage access with Microsoft Entra ID and role-based access control; leverage application and managed identities with Graph API permissions.
+L244: 
+L245:   * Protecting Azure Resources with Resource Locks 3:58
+L246: 
+L247:   * Enforcing Security Standards with Azure Policy 3:10
+L248: 
+L249:   * Understanding Azure Management Groups 2:42
+L250: 
+L251:   * Lab - Block public IP address creation with Azure Policy 7:52
+L252: Assign the built-in not allowed resource types policy to block public IP address creation under microsoft.network, and view compliance in the policy dashboard as you prevent non-compliant deployments.
+L253: 
+L254:   * Remediate Existing Azure Resources with Azure Policy 4:54
+L255: 
+L256: demonstrates how to create an Azure policy with a remediation task to enforce a default environment tag on resources, using a managed identity, assignment scope, and remediation verification.
+L257: 
+L258:   * Summary - Locks, policy, management groups 7:02
+L259: Enforce protection with Azure resource locks at subscription, resource group, or resource level, and govern resources using policy, management groups, and policy effects such as audit, deny, modify, and deployIfNotExists.
+L260: 
+L261:   * Section Quiz
+L262: ### NEW - SC-500 -Secure storage, databases, and networking 55 lectures • 4hr 37min
+L263: 
+L264:   * Code and resources download for this section 0:10
+L265: 
+L266:   * Introduction to Azure Storage Accounts 6:31
+L267: 
+L268: Explore Azure storage accounts and their blob, file, queue, and table services, learning how general-purpose v2 accounts store unstructured data, host file shares, manage messaging, and enable NoSQL data.
+L269: 
+L270:   * Lab - Building an Azure storage account 2:49
+L271: Create an Azure storage account in the portal, selecting a resource group, West US 2 region, and general-purpose v2 with locally redundant storage, then review and create.
+L272: 
+L273:   * Lab - Blob service - Uploading objects to the service 4:31
+L274: 
+L275: Learn to upload and manage binary objects in Azure blob storage by creating containers, uploading documents or code, and using versions, snapshots, access tier, and unique URLs.
+L276: 
+L277:   * Access Azure Storage Data with Azure Storage Explorer 1:56
+L278:   * Installing Azure Storage Explorer 1:19
+L279: 
+L280:   * Lab - Access Azure storage using Storage account access key 5:22
+L281: 
+L282: Connect to an Azure storage account with Azure Storage Explorer using a storage account access key (key1 or key2) and rotate keys to maintain access to blob containers.
+L283: 
+L284:   * Lab - Access Azure storage using Shared Access Signature 6:21
+L285: Explore secure, time-bound access to Azure storage using shared access signatures, with granular permissions for blob, container, and object levels and start and expiry times.
+L286: 
+L287:   * Lab - Role-Based Access Control for Azure Blob Storage 7:07
+L288: 
+L289: Apply role-based access control for Azure blob storage by assigning storage blob data reader and blob data contributor roles at the storage account scope, then verify access in Storage Explorer.
+L290: 
+L291:   * Lab - Accessing Azure Blob Storage on an Azure virtual machine 5:14
+L292: Explore accessing Azure blob storage from an Azure virtual machine using the Azure CLI to list blobs with account key and login authentication, including undelete of deleted blobs.
+L293: 
+L294:   * Lab - Accessing Azure Blob Storage on an Azure virtual machine -Managed Identity 3:21
+L295: 
+L296: Learn to use a system-assigned managed identity on an Azure VM to access blob storage, by granting the Storage Blob Data Reader role and authenticating with az login --identity.
+L297:   * Lab - Configure Azure Storage Firewalls - Service Endpoints 5:14
+L298: 
+L299: Explore how to configure Azure Storage firewalls and networking, including public access controls, private endpoints, virtual network service endpoints, and IP-based restrictions to secure storage accounts.
+L300: 
+L301:   * Secure Azure Storage with Private Endpoints 1:42
+L302: 
+L303:   * Manage Shared Access with Stored Access Policies 5:13
+L304: Learn how stored access policies add a revocable permission layer to shared access signatures at the container level, enabling revocation by editing policy permissions without regenerating account keys.
+L305: 
+L306:   * Introduction to Azure SQL Database 3:31
+L307: 
+L308: Explore the Azure SQL Database service as a fully managed relational database in the cloud, covering logical SQL servers, administrators, and firewall rules, with focus on security for the exam.
+L309: 
+L310:   * Lab - Setting up an Azure SQL database 4:56
+L311: Create an Azure SQL database by provisioning a logical server and database in a resource group, selecting region and SQL or Entra authentication, and enabling a public firewall endpoint.
+L312: 
+L313:   * Lab - Azure SQL - Logging into the database 1:54
+L314: 
+L315:   * Lab - Azure SQL - Adding a new user 5:05
+L316: 
+L317: Enable Microsoft Entra authentication for an Azure SQL server, create a labuser01 user from external provider, grant data reader role, and verify access.
+L318: 
+L319:   * Firewall and Network Settings in Azure SQL Database 6:01
+L320: Learn how Azure SQL Database firewall and public access control connections, including allowing Azure services and adding virtual network service endpoints for secure VM access.
+L321: 
+L322:   * Connecting Azure SQL Database Through a Virtual Network Service Endpoint 2:43
+L323: 
+L324: Configure a virtual network service endpoint to access Azure SQL database from a virtual machine, then add the SQL endpoint and a virtual network rule on the server.
+L325: 
+L326:   * Configure Database Auditing for Azure SQL 4:42
+L327: Enable Azure SQL Auditing at the server level to record selected database activities and send audit events to a Log Analytics workspace for querying with KQL and auditing insights.
+L328: 
+L329:   * Summary - Azure Storage and SQL 9:42
+L330: 
+L331: Navigate azure storage accounts and their blob, file, queue, and table services, covering authorization, key management, SAS tokens, RBAC roles, and Azure SQL database authentication and auditing.
+L332: 
+L333:   * Networking 101 – Understanding Azure Network Fundamentals 2:53
+L334:   * Lab - Let’s first deploy a virtual network 6:26
+L335: 
+L336:   * Lab - Now let’s deploy virtual machines to the virtual network 6:50
+L337: 
+L338:   * Introducing Network Security Groups 3:50
+L339: 
+L340:   * Examining our current Network Security Groups 7:36
+L341: 
+L342:   * Lab - Installing NGINX on our web server 8:01
+L343: 
+L344:   * Lab - NSG - Allowing traffic from the Internet 4:47
+L345: 
+L346:   * Lab - NSG - Being more specific in the rules 4:30
+L347: 
+L348:   * Lab - NSG - Private communication across machines 9:30
+L349: 
+L350:   * Working with Application Security Groups 6:41
+L351:   * Introduction to Azure Virtual Network Manager 2:04
+L352: 
+L353:   * Lab - Azure Virtual Network Manager - Deployment 2:01
+L354: 
+L355:   * Lab - Azure Virtual Network Manager - Groups and rules 9:57
+L356: 
+L357:   * Using Azure Network Watcher 5:19
+L358: 
+L359:   * Purpose of Private endpoints 2:22
+L360: 
+L361:   * Lab - Azure Storage - Creating the private endpoint 4:53
+L362: 
+L363:   * Lab - Azure Storage - Private endpoint implementation 8:49
+L364: 
+L365:   * Understanding Azure Private Link Service 2:22
+L366: 
+L367:   * Lab - Azure Private Link - Virtual Machine Setup 9:15
+L368:   * Lab - Azure Private Link - Load Balancer setup 7:34
+L369: 
+L370:   * Lab - Azure Private Link -Private Link setup 7:57
+L371: 
+L372:   * Lab - Azure Private Link - Consumer Private Endpoint 8:00
+L373: 
+L374:   * Introduction to Azure Firewall 3:18
+L375: 
+L376:   * Lab - Azure Firewall - Deployment 5:26
+L377: 
+L378:   * Lab - Azure Firewall - Routing 4:05
+L379: 
+L380:   * Lab - Azure Firewall - Defining rules 3:36
+L381: 
+L382:   * Understanding Azure VPN Gateway 3:20
+L383: 
+L384:   * Lab - Point-to-Site VPN implementation - Gateway Deployment 6:46
+L385:   * Lab - Point-to-Site VPN Implementation - Certificates 3:52
+L386: 
+L387:   * Lab - Point-to-Site VPN Implementation - P2S Configuration 4:45
+L388: 
+L389:   * Harden the Point-to-Site VPN with Microsoft Entra ID authentication 7:18
+L390: 
+L391:   * Understanding Azure Virtual WAN 4:20
+L392: 
+L393:   * Microsoft Entra Private Access 2:49
+L394: 
+L395:   * Section Quiz
+L396: ### NEW - SC-500 - Secure compute 39 lectures • 3hr 22min
+L397: 
+L398:   * Code and resources download for this section 0:08
+L399: 
+L400:   * Understanding Azure VM Disk Encryption 4:06
+L401: 
+L402:   * Azure virtual machines - Encryption at host 7:33
+L403: 
+L404:   * Azure Bastion 1:38
+L405: 
+L406:   * Lab - Azure Bastion - Deployment 7:22
+L407: 
+L408:   * Lab - Azure Bastion - Connecting to the virtual machines 4:54
+L409: 
+L410:   * Azure Bastion – Understanding the Required NSG Rules 6:45
+L411: 
+L412:   * Note - Azure policy for Arc-enabled servers 2:58
+L413: 
+L414:   * Introduction to Azure Web Apps 4:22
+L415:   * Lab - Creating an Azure Web App 3:54
+L416: 
+L417:   * Lab - Uploading our code to the Azure Web App 6:33
+L418: 
+L419:   * Lab - Secure web app access to the key vault 3:21
+L420: 
+L421:   * Note - Azure Web Apps - Additional security 3:31
+L422: 
+L423:   * Authentication for the Azure Web App 5:19
+L424: 
+L425:   * Protecting Azure Web Apps with Web Application Firewal 3:54
+L426: 
+L427:   * Lab - Deploying the Azure Application Gateway and Web Application Firewall 12:35
+L428: 
+L429:   * Lab - Configure Web Application Firewall - Enable logging 5:57
+L430:   * Lab - Configure Web Application Firewall - Defining rules 5:41
+L431: 
+L432:   * Introduction to Azure API Management 4:56
+L433: 
+L434:   * Lab - Deploy an Azure API Management instance 2:37
+L435: 
+L436:   * Azure API Management Policies 3:53
+L437: 
+L438:   * Azure API management notes 4:57
+L439: 
+L440:   * Introduction to Azure Function Apps 5:00
+L441: 
+L442:   * Lab - Creating the Azure Function App 4:20
+L443: 
+L444:   * Lab - Azure Functions - Managed identity 7:54
+L445: 
+L446:   * Introduction to Container-Based Applications in Azure 3:43
+L447: 
+L448:   * Introduction to Azure Container Registry 4:04
+L449:   * Lab - Deploying a resource based on Azure Container Registry 2:41
+L450: 
+L451:   * Lab - Creating a container image 9:24
+L452: 
+L453:   * Lab - Deploying an Azure Container Instance 6:40
+L454: 
+L455:   * Lab - Deploying an Azure Container Instance using managed identities 9:10
+L456: 
+L457:   * What is an Azure Container Group 2:16
+L458: 
+L459:   * Lab - Azure Container Group - Container Image creation 6:04
+L460: 
+L461:   * Lab - Azure Container Group - Deployment 6:46
+L462: 
+L463:   * Introduction to Kubernetes and Azure Kubernetes Service 4:01
+L464:   * Lab - Azure Kubernetes - Cluster deployment 4:49
+L465: 
+L466:   * Lab - Azure Kubernetes - Application deployment 8:47
+L467: 
+L468:   * Secure AKS Cluster Access with Microsoft Entra ID and Kubernetes RBAC 6:38
+L469: 
+L470:   * Azure Kubernetes notes 3:13
+L471: 
+L472:   * Section Quiz
+L473: ### NEW - SC-500 - Manage and monitor security posture 45 lectures • 3hr 29min
+L474: 
+L475:   * Code and resources download for this section 0:10
+L476: 
+L477:   * What are we going to cover 3:03
+L478: 
+L479:   * Introduction to Microsoft Defender for Cloud 3:57
+L480: 
+L481:   * Understanding the Microsoft Defender for Cloud menu 8:40
+L482: 
+L483:   * Defender for Cloud Fundamentals and Initial Configuration 6:43
+L484: 
+L485:   * Security standards and recommendations 6:18
+L486: 
+L487:   * Regulatory compliance in Microsoft Defender for Cloud 2:19
+L488:   * Microsoft Defender for Databases 7:23
+L489: 
+L490:   * Microsoft Defender for Key Vault 4:00
+L491: 
+L492:   * Microsoft Defender for Storage 8:49
+L493: 
+L494:   * Microsoft Defender for Containers 3:12
+L495: 
+L496:   * Microsoft Defender for Servers 2:39
+L497: 
+L498:   * Vulnerability Scanning for Servers 3:53
+L499: 
+L500:   * Endpoint Detection and Response for Servers 4:00
+L501: 
+L502:   * Enable and Enforce Just-in-Time (JIT) VM Access 7:32
+L503: 
+L504:   * Enforce security configuration with Azure Machine Configuration 5:03
+L505: 
+L506:   * File Integrity Monitoring in Microsoft Defender for Cloud 2:24
+L507:   * Microsoft Defender for Cloud - Additional features 5:55
+L508: 
+L509:   * Microsoft Defender for Cloud RBAC Roles 2:09
+L510: 
+L511:   * Summary - Microsoft Defender for Cloud 8:02
+L512: 
+L513:   * Additional notes - Microsoft Defender for Cloud 5:54
+L514: 
+L515:   * What is Microsoft Sentinel 2:26
+L516: 
+L517:   * Onboarding Microsoft Sentinel 2:48
+L518: 
+L519:   * The Microsoft Defender portal 2:31
+L520: 
+L521:   * Microsoft Sentinel - Data Connectors 6:41
+L522: 
+L523:   * Microsoft Sentinel - Windows Security Events collection 11:33
+L524: 
+L525:   * Understanding Log Analytics Data and KQL 6:39
+L526:   * Microsoft Sentinel - Collect Syslog Events from Linux Servers 3:16
+L527: 
+L528:   * Windows Forwarded Events and Common Event Format 3:32
+L529: 
+L530:   * Create Custom Log Tables for Microsoft Sentinel 7:45
+L531: 
+L532:   * Create Custom Log Tables for Microsoft Sentinel - Resources 1:10
+L533: 
+L534:   * Working through Microsoft Sentinel 8:11
+L535: 
+L536:   * Microsoft Sentinel Analytics Rules 5:53
+L537: 
+L538:   * Alerts and Incidents in Microsoft Sentinel 3:47
+L539: 
+L540:   * Microsoft Sentinel RBAC Roles 1:34
+L541: 
+L542:   * Good news - Permissions solved in Microsoft Defender 5:09
+L543:   * Microsoft Sentinel - Managing incidents 1:36
+L544: 
+L545:   * Microsoft Sentinel - Automation 4:48
+L546: 
+L547:   * Summary - Microsoft Sentinel 5:31
+L548: 
+L549:   * Additional notes - Microsoft Sentinel 1:50
+L550: 
+L551:   * Discover Unprotected Assets and Vulnerabilities with Microsoft Defender EASM 4:08
+L552: 
+L553:   * Microsoft Security Copilot - The AI Layer Across Microsoft Security 3:12
+L554: 
+L555:   * Microsoft Security Copilot - Workspaces 4:46
+L556: 
+L557:   * Microsoft Security Copilot - Members and Roles 5:15
+L558: 
+L559:   * Microsoft Security Copilot - Plugins and Agents 2:42
+L560:   * Section Quiz
+L561: ### NEW - SC-500 - Practice Section 0
+L562: 
+L563:   * Practice Test 01
+L564: 
+L565:   * Practice Test 02
+L566: 
+L567: ### AZ-500 - Introduction 2 lectures • 1min
+L568: 
+L569:   * Important Course Instructions 0:40
+L570: 
+L571:   * PDF and Diagrams download 0:04
+L572: ### OLD - AZ-500 - Manage identity and access 74 lectures • 6hr 26min
+L573: 
+L574:   * Resources and an Identity provider Preview 5:31
+L575: 
+L576: Understand how an external identity provider, such as Microsoft ID for Azure, handles authentication and authorization, reduces data store burden, and enables multi-factor authentication, single sign-on, and auditing.
+L577: 
+L578:   * Using Azure as a cloud platform 3:20
+L579: Azure is a cloud platform that eliminates upfront infrastructure costs by hosting apps in global data centers, to deploy a virtual machine using Microsoft ID as the identity provider.
+L580: 
+L581:   * Introduction to Azure Preview 1:39
+L582: 
+L583: Azure is a popular cloud platform offering services from virtual machines to Azure Kubernetes Service, AI, and app service. Explore the products page and create an Azure account to begin.
+L584: 
+L585:   * The Azure Free Account Preview 4:49
+L586: Create an azure free account with a Microsoft or GitHub sign-in to access $200 credit for 30 days and 12 months of free services; convert to pay-as-you-go after the period.
+L587: 
+L588:   * Creating an Azure Free Account Preview 5:23
+L589: 
+L590: Create an Azure free account by setting up a Microsoft account, completing verification, and selecting pay-as-you-go to access $200 free credit for 30 days.
+L591: 
+L592:   * Tour around the Azure Portal Preview 2:57
+L593: 
+L594:   * Important basic concepts with Azure 3:16
+L595: Learn essential Azure basics, including managing identities and permissions, deploying storage accounts and virtual machines, and organizing resources with subscriptions and resource groups, with a focus on securing deployed infrastructure.
+L596: 
+L597:   * Microsoft Entra ID - The big picture Preview 6:34
+L598: 
+L599: This goes through Azure AD
+L600: 
+

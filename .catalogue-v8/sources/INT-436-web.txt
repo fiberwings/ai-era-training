@@ -1,0 +1,203 @@
+AI Literacy for Employees: Responsible & Ethical AI Use (https://www.udemy.com/course/ai-in-the-workplace-legal-ethical-use/)
+citeturn65view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-in-the-workplace-legal-ethical-use/","lineno":null}); Total lines: 213
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Literacy for Employees: Responsible & Ethical AI Use
+L30: 
+L31: Role Play
+L32: Rating: 4.4 out of 5 4.4cite8†(106 ratings) L33: 
+L34: 4,399 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # AI Literacy for Employees: Responsible & Ethical AI Use
+L38: 
+L39: Practical AI literacy for the workplace: responsible AI, data protection, ethics, governance & real-world scenarios
+L40: 
+L41: Created bycite9†John Courtenay L42: 
+L43: Last updated 8/2026
+L44: 
+L45: English
+L46: 
+L47: English [Auto],
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * An explanation of the basics of artificial intelligence (AI)
+L53: 
+L54:   * Types of AI found in a workplace environment
+L55: 
+L56:   * Laws and regulations surrounding AI
+L57: 
+L58:   * Ethical principles of AI in business
+L59: 
+L60:   * Practical applications of AI and associated risks
+L61: 
+L62:   * Risk assessments in terms of AI
+L63: 
+L64: ## Course content
+L65: 
+L66: 8 sections • 25 lectures • 1h 16m total length
+L67: 
+L68: Expand all sections
+L69: ### Introduction 2 lectures • 5min
+L70: 
+L71:   * Introduction Preview 1:20
+L72: 
+L73: Explore the legal and ethical use of artificial intelligence in the workplace, including generative AI like ChatGPT, regulations, data protection, ethics, and practical applications.
+L74: 
+L75:   * What is artificial intelligence (AI)?Preview 3:14
+L76: 
+L77: Define artificial intelligence and its learning-from-data basis. Explore narrow, general, and generative AI, with examples like virtual assistants, spam filters, streaming recommendations, and chatbots.
+L78:   * Section 1 Quiz
+L79: ### Types of workplace AI 4 lectures • 9min
+L80: 
+L81:   * Automation Preview 2:01
+L82: 
+L83: Explore how automation uses AI to handle repetitive tasks with greater speed and accuracy, including RPA, invoice processing, payroll, and chatbots, while highlighting limitations and human oversight per GDPR.
+L84: 
+L85:   * Analytics Preview 2:17
+L86: Analyze large data volumes to uncover insights, trends, and anomalies with AI analytics. Apply analytics-based AI to sales forecasts, demand planning, healthcare diagnostics, and marketing insights, with human oversight needed.
+L87: 
+L88:   * Generative AI Preview 1:46
+L89: 
+L90: Explore generative AI, the technology that creates images, video, and code, with examples like ChatGPT and Copilot, and its use in reports, contracts, logos, and documentation, with human review.
+L91: 
+L92:   * Decision support 2:35
+L93: Explore decision support by detailing data collection and integration, data analysis and modeling, and reasoning and recommendation, with examples like pattern recognition and outcome prediction.
+L94: 
+L95:   * Section 2 Quiz
+L96: ### Regulations surrounding AI 3 lectures • 6min
+L97: 
+L98:   * Overview of global AI regulations 3:44
+L99: 
+L100: Explore global AI regulations shaping workplace use, including GDPR data protection, intellectual property, Equality Act 2010 and other human rights laws, plus consumer and competition laws.
+L101: 
+L102:   * Why is compliance important?2:18
+L103: 
+L104: Explain why AI compliance matters, including data protection and GDPR relevance. Learn to stay updated on laws, handle subject access requests, and implement AI policies.
+L105:   * Ensuring your organisation is using AI responsibly
+L106: 
+L107:   * Section 3 Quiz
+L108: ### AI policies in the workplace (new 2026)2 lectures • 9min
+L109: 
+L110:   * Workplace AI policies - overview 2:55
+L111: 
+L112: Learn how workplace ai policies protect data, reduce misuse, and define what can or cannot go into an ai system. Discuss personal data, special category data, and clear usage examples.
+L113: 
+L114:   * Workplace AI policies - what to include 5:36
+L115: Outline the purpose, scope, and acceptable versus unacceptable AI use in organizations, covering data privacy, ownership, disclosure, and consequences for misuse to guide responsible workplace AI policies.
+L116: 
+L117:   * Section 4 Quiz
+L118: ### AI challenges and usage examples (new 2026)4 lectures • 12min
+L119: 
+L120:   * Challenges of shadow IT 3:36
+L121: 
+L122: Explore the challenges of shadow it with ai-enabled devices and unmanaged personal devices, and the regulatory implications under gdpr for data location and subject access.
+L123: 
+L124:   * Usage example - Call centres 3:06
+L125: 
+L126: Explore how AI can enhance call centers through chatbots, KYC and AML checks, and letter writing templates, while emphasizing data privacy, human oversight, and transparent customer interactions.
+L127:   * Usage example - Hospitals 2:23
+L128: 
+L129: Explore how AI can assist diagnosis from x ray images and monitor patients in hospitals. Maintain human oversight, protect health data under GDPR, and ensure ring-fenced systems with DPIA approvals.
+L130: 
+L131:   * Usage example - Recruitment 3:19
+L132: 
+L133: Explore how AI enhances recruitment with screening, interview scheduling, automated communications, and ad placement, while addressing GDPR transparency and the need for human review of automated decisions.
+L134: 
+L135:   * Section 5 Quiz
+L136: ### Governance, accountability, transparency and trust (new 2026)2 lectures • 6min
+L137: 
+L138:   * Governance and accountability 2:29
+L139: 
+L140: Explore governance and accountability in artificial intelligence, including human in command, human in the loop, accountability and ownership, and algorithmic impact assessment, with regulator expectations.
+L141: 
+L142:   * Transparency and trust 3:29
+L143: Explore transparency and trust in ai by distinguishing interpretability from explainability, and applying transparency by design, ai disclosure, data provenance, and data minimization to ensure compliant, accountable ai.
+L144: 
+L145:   * Section 6 Quiz
+L146: ### Risk Assessments (new 2026)5 lectures • 16min
+L147: 
+L148:   * Risk assessments 5:15
+L149: 
+L150: Assess the risk of artificial intelligence by answering five key questions—what it does, who is affected, and severity—then apply controls like training, audits, and human oversight.
+L151: 
+L152:   * Identifying stakeholders 2:04
+L153: Identify stakeholders in AI risk assessment, including employees, job applicants, and customers, whose data or decisions affect AI processes. Distinguish internal tools from external ones, noting GDPR and security implications.
+L154: 
+L155:   * Risk categories 4:59
+L156: 
+L157: Explore six AI risk categories: legal and compliance, ethical and fairness, data and privacy, operational, reputational, and security/IP risk, and learn to identify issues from GDPR violations to model drift.
+L158: 
+L159:   * Residual risks 2:09
+L160: Assess residual risks after security controls to decide acceptability, executive approval, or whether to restrict or stop the artificial intelligence. Outcomes: approved, approved with restrictions, or not approved under dpia.
+L161: 
+L162:   * Ongoing monitoring 1:58
+L163: 
+L164: Maintain ongoing monitoring of AI risks, log issues via the IT service desk, reassess with a DPIA, and track model drift as laws and GDPR obligations evolve across borders.
+L165: 
+L166:   * Section 7 Quiz
+L167: ### Ethical principles and practical applications of AI 4 lectures • 14min
+L168: 
+L169:   * Ethical principles overview 3:32
+L170: 
+L171: Explore key ethical principles for AI in the workplace, including transparency and explainability, GDPR rights, fairness, accountability, human oversight, privacy and data governance, and safety and reliability.
+L172: 
+L173:   * Fairness & bias mitigation 4:45
+L174: Explore fairness and bias mitigation in AI, preventing discrimination by age, disability, or race. Learn data-level rebalancing, in-processing, and calibration techniques for equitable predictions.
+L175: 
+L176:   * Transparency & explainability 1:54
+L177: 
+L178: Explore transparency and explainability in AI, detailing data collection and use, AI processes and limitations, training data, evaluation, and algorithms, and healthcare as an assistant.
+L179: 
+L180:   * Practical applications of AI 3:36
+L181: Explore practical applications of artificial intelligence across customer service, healthcare support, fraud detection, content recommendations, cybersecurity, and real-time language translation, while noting ethical and legal considerations.
+L182: 
+L183:   * Section 8 Quiz
+L184: ## Requirements
+L185: 
+L186:   * No previous experience required
+L187: ## Description
+L188: 
+L189: This course contains the use of artificial intelligence
+L190: 
+L191: ** Now with role play and quiz questions at the end of each section! **
+L192: 
+L193: Over this course, you will learn the basics of legal and ethical use of artificial intelligence (AI) in a workplace setting as well as how to create policies to ensure responsible usage of AI and protect your organisation from any unnecessary risks.
+L194: 
+L195: Some of the topics covered in this course are as follows:
+L196: * An explanation into the basics of artificial intelligence (AI) and what exactly it is, including some of the basic concepts
+L197: 
+L198: * Types of AI that you might find in use in a workplace (Automation, Analytics, Generative AI and decision support)
+L199: 
+L200: * Laws and regulations surrounding AI (for example, this would be GDPR within the European Union (EU)
+L201: 
+L202: * Ethical principles of AI in business (for example, fairness and bias mitigation, along with transparency and explainability)
+L203: * Practical applications of AI and the associated risks involved when building and or purchasing them
+L204: 
+L205: Although artificial intelligence is a fairly new technology, it is becoming more advanced as time goes on, meaning that knowledge of all of the above will become more important than ever. As AI is an evolving field, it is my intention to update this course on a regular basis, to ensure that the knowledge within it remains useful and up-to-date.
+L206: ## Who this course is for:
+L207: 
+L208:   * Anyone wanting to learn the basics of artificial intelligence use in an organisation
+L209: 
+L210: Show more Show less
+L211: 
+L212: cite10†Report abuse 

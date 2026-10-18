@@ -1,0 +1,17 @@
+TR-036	N2.5=2	Completeness correction: the prior evidence explicitly says Skills are not covered; MCP and APIs alone cannot earn 3 for the three-part connecting-and-extending requirement.
+TR-034	N3.3=1	The provider curriculum names context windows and exhaustion; no public explanation of session degradation supports more than mention-only credit.
+TR-063	N3.1=2	The failure-mode taxonomy explains consequential decisions based on hallucinated information; this supports partial hallucination knowledge, without recognition in the learner's own tools.
+TR-070	N3.1=2 N3.4=1	The OWASP reading explains hallucination-driven package attacks and factuality issues; non-determinism is named as a disclosure-risk factor rather than fully taught.
+TR-115	N3.4=1	The provider guidance names non-deterministic AI failure as a difference from software testing; this is awareness rather than complete teaching.
+TR-119	N3.4=2	The NIST taxonomy discusses intrinsic randomness and generation controls; partial non-determinism teaching is evidenced, without a complete learner-facing demonstration.
+INT-077	N3.1=1	Published learning outcomes include hallucinations among red-team findings, without a full explanation or recognition exercise.
+INT-194	N3.4=2	The prompt-hardening lecture synopsis explicitly explains why non-deterministic models cannot provide a guaranteed security boundary.
+INT-345	N3.5=2 N3.6=2	Lecture synopses teach input guardrails against prompt injection, and procedural kill switches and human control to counter automation bias.
+INT-473	N3.6=1	Overreliance is explicitly listed among GenAI threat vectors, but the public synopsis does not establish a complete treatment of human automation bias.
+INT-476	N3.1=2	The public lab synopsis tests chatbot reliability and checks answers against trusted sources; partial hallucination recognition is evidenced.
+INT-481	N3.4=2	The AI-security synopsis explains non-determinism and uncertainty as a reason for continuous monitoring and controls.
+INT-1607	N3.6=2	The lecture synopsis explains overreliance, misinformation and reputational harm and teaches verification and human oversight.
+INT-1700	N3.3=2 N3.4=1	Context-window exhaustion is explained alongside token processing and attacks. Temperature is named as affecting safety, without full non-determinism teaching.
+INT-1788	N3.6=2	The hallucination-risk synopsis explicitly discusses overreliance and its impact on decisions, beyond simply naming the threat.
+INT-1798	N3.4=1	Model customisation includes the temperature parameter; the public synopsis does not establish a complete explanation of non-deterministic output.
+INT-2483	N3.6=1	Overreliance is listed among GenAI threat vectors; public evidence supports mention-only coverage of the human tendency.

@@ -1,0 +1,175 @@
+AI: Ethics, Sustainability, Jobs Market, Copyright & More (https://www.udemy.com/course/ai-ethics-guidelines/)
+citeturn89view0 [wordlim: 200] Crawled: 4 weeks ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-ethics-guidelines/","lineno":null}); Total lines: 185
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI: Ethics, Sustainability, Jobs Market, Copyright & More
+L30: Rating: 4.3 out of 5 4.3cite8†(405 ratings) L31: 
+L32: 6,802 students
+L33: 
+L34: cite0†Image†img-c.udemycdn.com Preview this course
+L35: # AI: Ethics, Sustainability, Jobs Market, Copyright & More
+L36: 
+L37: A Comprehensive Deep-dive into the Ethics and Socio-economic Impact of the AI Revolution.
+L38: 
+L39: Created bycite9†Green Courses L40: 
+L41: Last updated 7/2026
+L42: 
+L43: English
+L44: 
+L45: English Japanese [Auto], 2 more
+L46: 
+L47: cite0†Image†img-c.udemycdn.com Preview this course
+L48: ## What you'll learn
+L49: 
+L50:   * How is AI market booming and how is AI impacting our lives?
+L51: 
+L52:   * What challenges is AI facing today?
+L53: 
+L54:   * What are the ethical considerations of AI?
+L55: 
+L56:   * How is AI impacting the jobs Market?
+L57: 
+L58:   * What is the link between AI & Sustainability?
+L59: 
+L60:   * Is AI infringing any Copyright law?
+L61: 
+L62:   * What are the guidelines and recommandations for a safe and responsible use of AI?
+L63: 
+L64: ## Course content
+L65: 
+L66: 10 sections • 15 lectures • 3h 33m total length
+L67: 
+L68: Expand all sections
+L69: ### 1. Rise of AI 2 lectures • 10min
+L70: 
+L71:   * Notice Preview 1:00
+L72: 
+L73: Address the notice in artificial intelligence, examining challenges, ethics, and guidelines to inform responsible ai practice.
+L74: 
+L75:   * Rise of AI Preview 9:18
+L76: 
+L77: Discover how artificial intelligence now shapes what we see, believe, and do, from ChatGPT conversations to self-driving cars, and how rising investments drive its global impact.
+L78: ### 2. Impact of AI 1 lecture • 7min
+L79: 
+L80:   * Impact of AI 6:39
+L81: 
+L82: Explore how training computation and the three fundamental factors: algorithms, input data, and parameters drive ai progress. See how ai surpasses humans in language and image tasks and affects jobs.
+L83: ### 3. Challanges of AI 1 lecture • 12min
+L84: 
+L85:   * Challanges of AI 12:01
+L86: 
+L87: Explore AI's major challenges, including energy consumption, training costs, data issues, bias, and robustness, job displacement, responsibility, transparency, memory storage, and ethics, with sustainability implications.
+L88: ### 4. Ethical Concerns of AI 1 lecture • 20min
+L89: 
+L90:   * Ethical Concerns of AI 19:54
+L91: 
+L92: Explore the ethical challenges of artificial intelligence, including bias and discrimination, data privacy, surveillance capitalism, manipulation, accessibility, authenticity, academic integrity, and the rise of deepfakes.
+L93: ### 5. AI & Sustainability (Data Centers)2 lectures • 49min
+L94: 
+L95:   * Energy Use in AI Data Centers 37:29
+L96: 
+L97: Examine how ai data centers meet growing data demand with gpu-driven workloads, high power density, and cooling, and how the energy mix: renewables, natural gas, coal, and nuclear shapes sustainability.
+L98: 
+L99:   * Water Consumption in AI Data Centers Preview 11:24
+L100: ### 6. AI & Copyright 1 lecture • 26min
+L101: 
+L102:   * AI & Copyright 26:28
+L103: 
+L104: Examine how AI copyright raises ownership, originality, and authorship questions in AI-generated works, including training data, human involvement, transparency, and global harmonization.
+L105: ### 7. AI & the Job Market 1 lecture • 23min
+L106: 
+L107:   * AI & the Job Market 23:24
+L108: 
+L109: Explore how AI transforms the job market, identify at-risk roles, and discover growth areas. Embrace lifelong learning, soft skills, agility, and specialization to stay relevant.
+L110: ### 8. AI for Sustainability 3 lectures • 49min
+L111: 
+L112:   * Sustainability & SDGs 11:13
+L113: 
+L114: Explore how artificial intelligence advances sustainability by aligning with the 2030 agenda and the SDGs. Harness AI to support climate action, decarbonization, and equitable, resilient development through data-driven innovation.
+L115: 
+L116:   * AI Techniques and Applications for Sustainability 15:31
+L117: Explore how machine learning, deep learning, computer vision, NLP, and robotics enable sustainable solutions—from smart grids and energy efficiency to precision agriculture and circular design.
+L118: 
+L119:   * Challenges of AI Applications for Sustainability 22:08
+L120: 
+L121: Study how AI can support sustainability while managing its ecological footprint, green debt, and the AI divide, with green AI, XAI, data governance, and risk mitigation.
+L122: ### 9. AI Guidelines for Responsible Use 1 lecture • 14min
+L123: 
+L124:   * AI Guidelines for Responsible Use 14:20
+L125: 
+L126: Explore OECD AI principles for trustworthy, human-centered AI, covering inclusive growth, transparency, robustness, accountability, and human rights, plus policy recommendations for R&D, ecosystems, governance, skills, and international cooperation.
+L127: ### Conclusion & References 2 lectures • 3min
+L128: 
+L129:   * Conclusion & References 2:31
+L130: 
+L131: Explore how AI challenges and ethics intertwine with technology, summarizing five take-home lessons on market growth, impact, hurdles, ethical varieties, and the crucial role of guidelines for safe use.
+L132: 
+L133:   * Bonus Lecture: Explore More Great Courses 0:33
+L134: 
+L135: ## Requirements
+L136: 
+L137:   * No requirements needed
+L138: ## Description
+L139: 
+L140: AI: Ethics, Sustainability, Jobs Market, Copyright & More
+L141: 
+L142:   * Artificial Intelligence (AI) has revolutionized our world, from groundbreaking large language models like ChatGPT, DeepSeek and Google Gemini to advancements that impact nearly every facet of our lives. Yet, as with any powerful technology, AI brings complex challenges and ethical considerations that demand our attention.
+L143:   * In this course, we’ll explore AI from critical perspectives: Ethics, Sustainability, Jobs Market, Copyright & More. Through a balanced, in-depth approach, you’ll gain insights into the hurdles AI must overcome, the ethical dilemmas it presents, and the guiding principles that shape responsible AI development.
+L144: 
+L145: Course Outline:
+L146: 
+L147:   1. Rise of AI
+L148: 
+L149:   2. Impact of AI
+L150: 
+L151:   3. Challenges of AI
+L152: 
+L153:   4. Ethical Concerns of AI
+L154: 
+L155:   5. AI & Sustainability (Data Centers)
+L156: 
+L157:   6. AI & Copyright
+L158: 
+L159:   7. AI & the Job Market
+L160:   8. AI for Sustainability
+L161: 
+L162:   9. AI Guidelines for Responsible Use
+L163: 
+L164: What You’ll Learn:
+L165: 
+L166:   1. AI Challenges: Discover the core challenges limiting AI’s potential, including energy consumption, data privacy, job displacement, transparency, and ethical concerns.
+L167: 
+L168:   2. Ethical Dimensions: Explore the ethical issues facing AI, such as discrimination, data privacy, copyright, surveillance, manipulation, and academic integrity. We’ll unpack the broader societal impacts and risks associated with unregulated AI.
+L169:   3. Sustainability angle: Learn about how AI Data Centers are disrupting energy and water resources.
+L170: 
+L171:   4. Policy Recommendations: Understand the essential steps policymakers can take to foster a trustworthy AI ecosystem. Topics include investment in AI research, building human capacity, and establishing international cooperation for a sustainable AI future.
+L172: 
+L173: Who Should Enroll:
+L174: This course is perfect for anyone interested in AI, from beginners to professionals, policy enthusiasts, and anyone curious about the ethical and social implications of AI. No prior technical knowledge is required!
+L175: 
+L176: Join us to develop a comprehensive understanding of AI’s promises, challenges, and ethical responsibilities.
+L177: NB: (No artificial intelligence tools (ChatGPT, Deepseek, generative AI, prompts ..) were used in the development of this course, I believe this is important for providing an original learning experience for students).
+L178: ## Who this course is for:
+L179: 
+L180:   * Leaders, Managers, Students, Professionals, Decision-Makers, Curious Minds....
+L181: 
+L182: Show more Show less
+L183: 
+L184: cite10†Report abuse 

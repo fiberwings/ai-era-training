@@ -1,0 +1,444 @@
+AI Ethics & Governance for Corporates: Compliance Mastery (https://www.udemy.com/course/ai-ethics-governance-for-corporates-compliance-mastery-course/)
+citeturn28view0 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-ethics-governance-for-corporates-compliance-mastery-course/","lineno":null}); Total lines: 454
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Ethics & Governance for Corporates: Compliance Mastery
+L30: 
+L31: Role Play
+L32: Rating: 4.6 out of 5 4.6cite8†(63 ratings) L33: 
+L34: 1,209 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # AI Ethics & Governance for Corporates: Compliance Mastery
+L38: 
+L39: AI Ethics, AI Governance & AI Compliance for EU AI Act, US regulations, and corporate risk management
+L40: 
+L41: Role Play
+L42: 
+L43: Created bycite9†Avnish Singh , cite10†Pavan Kumar L44: 
+L45: Last updated 5/2026
+L46: 
+L47: English
+L48: 
+L49: English [Auto],
+L50: 
+L51: cite0†Image†img-c.udemycdn.com Preview this course
+L52: ## What you'll learn
+L53: 
+L54:   * Identify AI ethics risks using real failure patterns
+L55: 
+L56:   * Navigate EU AI Act, US regulations, and international standards
+L57: 
+L58:   * Build a comprehensive AI governance framework
+L59: 
+L60:   * Detect and mitigate algorithmic bias
+L61: 
+L62:   * Implement AI risk assessment processes
+L63: 
+L64:   * Create AI ethics policies and procedures
+L65: 
+L66:   * Establish AI governance committees and roles
+L67: 
+L68:   * Ensure AI transparency and explainability
+L69: 
+L70:   * Manage third-party AI vendors
+L71: 
+L72:   * Develop 30-60-90 day implementation plans
+L73:   * Lead AI ethics initiatives in your organization
+L74: 
+L75: Show more Show less
+L76: ## Course content
+L77: 
+L78: 12 sections • 61 lectures • 12h 8m total length
+L79: 
+L80: Expand all sections
+L81: ### Introduction to AI Ethics in the Corporate World 5 lectures • 39min
+L82: 
+L83:   * Welcome & Course Overview Preview 7:02
+L84: 
+L85: An overview of the course objectives, structure, and learning outcomes, explaining how AI ethics directly impacts corporate risk, compliance, and strategy.
+L86: 
+L87:   * Why AI Ethics Matters for Your Business 11:08
+L88: 
+L89: Explores how AI ethics affects trust, brand reputation, legal exposure, and long-term competitiveness across industries.
+L90: 
+L91:   * Three Watershed AI Disasters Preview 9:20
+L92: Examines three major AI failures that reshaped public perception, regulation, and corporate accountability.
+L93: 
+L94:   * The Business Case for AI Governance 11:34
+L95: 
+L96: Builds a clear financial and strategic argument for investing in AI governance, risk management, and oversight.
+L97: 
+L98:   * Downloadable Resources for this Course 0:05
+L99: ### 2023–2025 AI Ethics Scandals & Breaking Cases 10 lectures • 1hr 21min
+L100: 
+L101:   * Generative AI Scandals – ChatGPT & Legal Disasters Preview 11:34
+L102: 
+L103: Covers hallucinations, data leakage, copyright issues, and corporate misuse of generative AI tools.
+L104: 
+L105:   * Hallucinated Law — When Generative AI Breaks the Courtroom
+L106: 
+L107:   * AI Hiring Discrimination – The Workday Lawsuits 12:42
+L108: 
+L109: Explores algorithmic bias in recruitment systems and the legal consequences of discriminatory hiring AI.
+L110:   * The Algorithm Rejected Them First — AI Hiring Under Fire
+L111: 
+L112:   * Facial Recognition Disasters & Wrongful Arrests 10:27
+L113: 
+L114: Analyzes real cases where facial recognition caused false arrests and civil rights violations.
+L115: 
+L116:   * Healthcare AI Failures with Patient Impact 12:04
+L117: 
+L118: Examines clinical AI failures that led to misdiagnosis, inequitable care, and patient harm.
+L119: 
+L120:   * Financial AI Discrimination & Regulatory Actions Preview 12:41
+L121: Reviews credit scoring, lending, and insurance AI cases resulting in regulatory penalties.
+L122: 
+L123:   * Big Tech AI Ethics Violations 10:52
+L124: 
+L125: Breaks down ethical controversies involving major technology companies and systemic governance failures.
+L126: 
+L127:   * Emerging AI Scandals – Deepfakes & Manipulation 10:45
+L128: 
+L129: Explores misinformation, election interference, fraud, and identity manipulation risks from AI-generated media.
+L130: 
+L131:   * Other Usefull Documentation 0:05
+L132: 
+L133:   * Quiz
+L134: ### Foundations of AI Ethics – Core Principles 6 lectures • 56min
+L135: 
+L136:   * The Five Pillars of Ethical AI Framework 11:10
+L137: 
+L138: Introduces fairness, transparency, accountability, privacy, and safety as core ethical pillars.
+L139: 
+L140:   * Five Principles, One System, No Easy Answers
+L141: 
+L142:   * Fairness & Non-Discrimination in AI 15:11
+L143: 
+L144: Explains bias sources, disparate impact, and fairness challenges in AI systems.
+L145: 
+L146:   * Fair on Paper, Risky in Practice
+L147: 
+L148:   * Transparency, Explainability & Accountability 15:26
+L149: Covers explainable AI, auditability, and organizational accountability mechanisms.
+L150: 
+L151:   * Privacy, Safety & Security 14:38
+L152: 
+L153: Addresses data protection, model security, misuse prevention, and harm mitigation.
+L154: 
+L155:   * Quiz
+L156: ### Global AI Regulatory Landscape Overview 6 lectures • 49min
+L157: 
+L158:   * Understanding the Global Regulatory Map 13:48
+L159: 
+L160: Surveys key AI regulations across regions and jurisdictions.
+L161: 
+L162:   * It’s Not Just Europe — Or Is It?
+L163: 
+L164:   * Sector-Specific Regulations Preview 11:59
+L165: 
+L166: Highlights how AI regulation differs across healthcare, finance, HR, and critical infrastructure.
+L167: 
+L168:   * Voluntary Standards vs Legal Requirements 11:27
+L169: 
+L170: Clarifies the difference between binding laws and voluntary ethical standards.
+L171:   * Legal Compliance or Competitive Advantage?
+L172: 
+L173:   * Self-Assessment – Your AI Compliance Status 12:13
+L174: 
+L175: Guides learners through evaluating their organization’s current compliance posture.
+L176: 
+L177:   * Quiz
+L178: ### The EU AI Act – Complete Guide 8 lectures • 1hr 20min
+L179: 
+L180:   * EU AI Act Overview & Risk-Based Approach 12:51
+L181: 
+L182: Explains the structure, scope, and classification system of the Act.
+L183: 
+L184:   * Prohibited AI Systems – What You Cannot Do 14:20
+L185: 
+L186: Covers banned AI practices and unacceptable risk categories.
+L187: 
+L188:   * Is This Banned, High-Risk… or Just Inconvenient?
+L189: 
+L190:   * High-Risk AI Systems – Part 1: Identification 14:24
+L191: 
+L192: Teaches how to identify high-risk AI use cases.
+L193:   * High-Risk AI Systems – Part 2: Compliance Requirements 13:19
+L194: 
+L195: Details governance, documentation, and monitoring obligations.
+L196: 
+L197:   * We’re High-Risk — Now Prove We’re Compliant
+L198: 
+L199:   * General Purpose AI (GPAI) Models Regulations 12:22
+L200: 
+L201: Explains obligations for foundation models and generative AI.
+L202: 
+L203:   * EU AI Act Timeline, Penalties & Enforcement 12:16
+L204: 
+L205: Reviews enforcement timelines, fines, and compliance deadlines.
+L206: 
+L207:   * Quiz
+L208: ### US AI Regulations & NIST Framework 7 lectures • 1hr
+L209: 
+L210:   * US Federal AI Regulatory Approach 13:30
+L211: 
+L212: Explains executive orders, agency guidance, and enforcement trends.
+L213: 
+L214:   * There’s No AI Act — So Who’s Actually in Charge?
+L215: 
+L216:   * NIST AI Risk Management Framework – Introduction 13:06
+L217: 
+L218: Introduces the purpose and structure of the NIST AI RMF.
+L219: 
+L220:   * NIST AI RMF – The Govern Function 10:53
+L221: 
+L222: Covers governance, oversight, and accountability structures.
+L223: 
+L224:   * NIST AI RMF – Map, Measure & Manage Functions 12:31
+L225: Explains risk identification, measurement, and mitigation.
+L226: 
+L227:   * US State Laws & Sector Regulations 10:01
+L228: 
+L229: Reviews emerging state-level and industry-specific AI laws.
+L230: 
+L231:   * Voluntary Until the Lawsuit Hits
+L232: 
+L233:   * Quiz
+L234: ### International Standards – ISO, IEEE & OECD 6 lectures • 27min
+L235: 
+L236:   * Overview of International AI Standards 3:33
+L237: 
+L238: Provides a comparative overview of major standards bodies.
+L239: 
+L240:   * ISO/IEC 42001 – AI Management Systems Standard 6:01
+L241: 
+L242: Explains AI governance through management system principles.
+L243: 
+L244:   * Integrating NIST AI RMF with ISO Standards 5:40
+L245: 
+L246: Shows how frameworks align in practice.
+L247: 
+L248:   * IEEE Standards for Ethical AI Design 5:39
+L249: 
+L250: Covers ethical-by-design principles and technical guidance.
+L251:   * OECD AI Principles & UNESCO Recommendations 6:11
+L252: 
+L253: Reviews international policy-level ethical guidance.
+L254: 
+L255:   * One Framework, or Governance Chaos?
+L256: 
+L257:   * Quiz
+L258: ### Building Your AI Governance Framework 7 lectures • 1hr 8min
+L259: 
+L260:   * Designing Your AI Governance Structure 10:19
+L261: 
+L262: Defines roles, committees, and accountability models.
+L263: 
+L264:   * Developing AI Policies and Standards 12:47
+L265: 
+L266: Covers internal policies, acceptable use, and controls.
+L267: 
+L268:   * Creating Your AI System Inventory and Risk Register 10:34
+L269: 
+L270: Introduces AI asset management and risk documentation.
+L271: 
+L272:   * Implementing Technical Controls and Safeguards 12:53
+L273: 
+L274: Explains monitoring, testing, and security mechanisms.
+L275:   * AI Vendor and Third-Party Management 10:14
+L276: 
+L277: Addresses supply-chain and vendor risk.
+L278: 
+L279:   * Governance Metrics, Reporting & Continuous Improvement 11:10
+L280: 
+L281: Covers KPIs, audits, and maturity models.
+L282: 
+L283:   * From Slides to System: Can Governance Actually Work?
+L284: 
+L285:   * Quiz
+L286: ### AI Risk Management & Assessment 6 lectures • 1hr 11min
+L287: 
+L288:   * Understanding AI Risk Categories 15:36
+L289: 
+L290: Explains operational, legal, ethical, and reputational risks.
+L291: 
+L292:   * Conducting AI Risk Assessments 13:44
+L293: 
+L294: Walks through structured AI risk assessment processes.
+L295: 
+L296:   * Fairness Testing and Bias Detection 13:58
+L297: 
+L298: Introduces bias testing methods and tools.
+L299: 
+L300:   * Bias Mitigation Strategies and Techniques 13:39
+L301: 
+L302: Explores technical and organizational mitigation approaches.
+L303:   * Model Monitoring, Drift Detection & Performance Management 14:04
+L304: 
+L305: Covers ongoing AI system oversight.
+L306: 
+L307:   * This Model Is Live—Are We Actually Safe?
+L308: 
+L309:   * Quiz
+L310: ### Implementation Strategies & Organizational Change 5 lectures • 1hr 13min
+L311: 
+L312:   * Building the Business Case for AI Governance 15:17
+L313: 
+L314: Aligns ethics with ROI and executive priorities.
+L315: 
+L316:   * Change Management for AI Governance 14:35
+L317: 
+L318: Addresses resistance, adoption, and stakeholder alignment.
+L319: 
+L320:   * Embedding Governance in the AI Development Lifecycle 15:17
+L321: 
+L322: Integrates governance into design, development, and deployment.
+L323: 
+L324:   * Creating a Culture of Responsible AI 13:36
+L325: Builds ethics into everyday decision-making.
+L326: 
+L327:   * Measuring Governance Maturity and Effectiveness 14:11
+L328: 
+L329: Introduces governance maturity models.
+L330: 
+L331:   * Quiz
+L332: 
+L333: 2 more sections
+L334: ## Requirements
+L335: 
+L336:   * No advanced technical background is required.
+L337: ## Description
+L338: 
+L339: This course contains the use of artificial intelligence. AI Ethics for Corporates: Master AI Governance Through Real-World Cases & Practical Implementation. Artificial intelligence is no longer experimental. It is making hiring decisions, approving loans, diagnosing patients, pricing products, monitoring employees, and shaping public opinion. With this power comes unprecedented risk.
+L340: From biased hiring algorithms and wrongful arrests to regulatory bans, lawsuits, and billion-dollar losses, organizations across the world are discovering that AI without ethics and governance is a business liability.
+L341: This course, AI Ethics for Corporates, is a comprehensive, real-world guide to building responsible, compliant, and defensible AI systems inside modern organizations. Designed for business leaders, compliance teams, legal professionals, and AI practitioners, this program goes far beyond theory. You will analyze 35+ real AI scandals from 2023–2025, understand exactly what went wrong, and learn how to prevent the same failures in your organization.
+L342: 
+L343: Why This Course Matters Now
+L344: Regulators are no longer issuing warnings. They are issuing fines, bans, and enforcement actions.
+L345: 
+L346:   * The EU AI Act introduces penalties of up to 7% of global revenue.
+L347: 
+L348:   * The United States is enforcing AI accountability through executive orders, sector regulators, and state-level laws.
+L349: 
+L350:   * Financial, healthcare, HR, and retail organizations are being sued for AI discrimination, privacy violations, and unsafe automation.
+L351: 
+L352: Most companies are unprepared.
+L353: 
+L354: This course is designed to close that gap.
+L355: A Case-Driven Learning Experience
+L356: 
+L357: Rather than abstract ethics discussions, this course is built around real incidents with real consequences, including:
+L358: 
+L359:   * Generative AI legal disasters involving ChatGPT and fabricated court cases
+L360: 
+L361:   * AI hiring discrimination lawsuits involving Workday and automated screening tools
+L362: 
+L363:   * Facial recognition failures leading to wrongful arrests and multimillion-dollar settlements
+L364: 
+L365:   * Healthcare AI systems that harmed patients instead of helping them
+L366:   * Financial AI discrimination cases, regulatory investigations, and “AI-washing” enforcement actions
+L367: 
+L368:   * Deepfake fraud, voice-cloning scams, and executive impersonation attacks
+L369: 
+L370:   * Big Tech ethics controversies involving Google, Meta, Microsoft, and others
+L371: 
+L372: Each case is dissected to reveal technical failures, governance gaps, legal exposure, and missed warning signs, followed by concrete lessons you can apply immediately.
+L373: 
+L374: From Ethics Principles to Operational Governance
+L375: Understanding ethics is not enough. Organizations need repeatable systems, roles, processes, and controls.
+L376: 
+L377: You will learn the globally recognized foundations of ethical AI, including fairness, transparency, accountability, privacy, and safety, and see how these principles are embedded in international frameworks such as OECD, UNESCO, and IEEE.
+L378: 
+L379: From there, the course walks you step-by-step through building a practical AI governance framework, covering:
+L380:   * AI governance structures, ethics committees, and executive accountability
+L381: 
+L382:   * AI inventories and risk classification systems
+L383: 
+L384:   * Algorithmic Impact Assessments (AIA)
+L385: 
+L386:   * AI risk assessment and continuous monitoring
+L387: 
+L388:   * Bias detection, mitigation, and fairness testing
+L389: 
+L390:   * Explainable AI (XAI), documentation, and audit readiness
+L391: 
+L392:   * Human oversight, escalation, and override mechanisms
+L393: 
+L394:   * Third-party and vendor AI risk management
+L395: This is governance designed for real organizations, not academic exercises.
+L396: 
+L397: Global Regulations Explained Clearly
+L398: 
+L399: Regulation is one of the biggest sources of confusion and anxiety around AI. This course provides a clear, structured, and business-focused explanation of the global regulatory landscape.
+L400: 
+L401: You will gain a complete understanding of:
+L402: 
+L403:   * The EU AI Act and its risk-based classification system
+L404: 
+L405:   * Prohibited and high-risk AI systems
+L406:   * General Purpose AI (GPAI) and foundation model obligations
+L407: 
+L408:   * Enforcement timelines, penalties, and compliance priorities
+L409: 
+L410: On the US side, the course explains:
+L411: 
+L412:   * Federal AI policy and enforcement trends
+L413: 
+L414:   * The NIST AI Risk Management Framework
+L415: 
+L416:   * State-level AI laws in Colorado, California, and New York
+L417: 
+L418:   * Employment AI enforcement by the EEOC
+L419: 
+L420:   * Sector-specific actions in finance, healthcare, insurance, and retail
+L421: You will not only understand the rules, but also what regulators actually expect organizations to do.
+L422: 
+L423: Tools, Templates, and Immediate Action
+L424: 
+L425: One of the defining strengths of this course is its implementation focus.
+L426: 
+L427: You receive 50+ downloadable, ready-to-use templates, including AI ethics policies, risk assessment worksheets, compliance checklists, vendor due-diligence tools, incident response plans, model cards, and a complete 30-60-90 day AI governance action plan.
+L428: These resources allow you to move from learning to execution immediately.
+L429: 
+L430: What You Will Be Able to Do
+L431: 
+L432: By the end of this course, you will be able to identify AI ethics risks before they become crises, navigate global AI regulations with confidence, design and implement a robust AI governance framework, manage bias and discrimination risks, oversee third-party AI vendors, and lead AI ethics initiatives inside your organization with credibility and authority.
+L433: 
+L434: A Course Built for the Future
+L435: AI regulation, public scrutiny, and enforcement are accelerating. Organizations that act now will gain trust, resilience, and competitive advantage. Those that delay will face fines, lawsuits, reputational damage, and operational disruption.
+L436: 
+L437: This course equips you to be on the right side of that divide.
+L438: 
+L439: Enroll today and become the AI ethics and governance leader your organization urgently needs.
+L440: ## Who this course is for:
+L441: 
+L442:   * Corporate Executives & Board Members
+L443:   * Compliance & Risk Officers
+L444:   * Legal & Privacy Teams
+L445:   * Data Scientists & AI Engineers
+L446:   * Product Managers
+L447:   * HR & Procurement Professionals
+L448:   * Consultants & Advisors
+L449:   * Anyone deploying AI in organizations
+L450: 
+L451: Show more Show less
+L452: 
+L453: cite11†Report abuse 

@@ -1,0 +1,170 @@
+AI Literacy at Work: Essential Skills for Every Employee (https://www.udemy.com/course/ai-literacy-at-work/)
+citeturn59view0 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-literacy-at-work/","lineno":null}); Total lines: 180
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Literacy at Work: Essential Skills for Every Employee
+L30: 
+L31: Role Play
+L32: Rating: 4.5 out of 5 4.5cite8†(1,784 ratings) L33: 
+L34: 5,337 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # AI Literacy at Work: Essential Skills for Every Employee
+L38: 
+L39: Learn what AI can do, how to use it in your job, and how to work with it responsibly. No technical background required.
+L40: 
+L41: Created bycite9†Nicolle Merrill L42: 
+L43: Last updated 2/2026
+L44: 
+L45: English
+L46: 
+L47: Greek [Auto],English [Auto], 6 more
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Identify tools and tasks that benefit from generative AI
+L53: 
+L54:   * Use AI for research and simple workflow support
+L55: 
+L56:   * Write clear prompts and improve outputs through iteration
+L57: 
+L58:   * Spot good AI use cases in their own role and create a basic adoption plan
+L59: 
+L60:   * Recognize limitations, hallucinations, and risks in AI outputs
+L61: 
+L62:   * Verify AI-generated work and apply safe data practices
+L63: 
+L64:   * Make responsible and ethical decisions when using AI
+L65:   * Understand how AI is reshaping jobs and the skills needed to adapt
+L66: 
+L67:   * Build a 30 day plan for continued AI learning
+L68: ## Course content
+L69: 
+L70: 4 sections • 17 lectures • 53m total length
+L71: 
+L72: Expand all sections
+L73: ### Introduction 5 lectures • 14min
+L74: 
+L75:   * Welcome to the course Preview 1:53
+L76: 
+L77: Build AI literacy foundations for professionals with this beginner course, answer how to choose tools, use generative AI at work, handle hallucinations, and practice responsible use through hands-on activities.
+L78: 
+L79:   * What is Generative AI?Preview 4:15
+L80: 
+L81: Discover generative AI, a multi-purpose, accessible tool that creates text, images, audio, video, and code without coding, acting as a collaborator across roles.
+L82:   * Real-world applications of AI at work Preview 2:44
+L83: 
+L84: Explore real-world ai products across industries—from avatars and onboarding videos to legal drafting and design—and learn to start with one user-friendly tool to practice prompts at work.
+L85: 
+L86:   * What Generative AI does well Preview 2:33
+L87: 
+L88: Learn how generative AI boosts everyday work, from drafting emails and summarizing notes to researching, analyzing data, and brainstorming, with practical hands-on use cases.
+L89:   * Activity: Using AI for research Activity: Researching GenAI tools for your role 2:24
+L90: 
+L91: Explore generative AI for research by using tools like Perplexity AI to find role-specific GenAI options, compare them with Google search, and reflect on time savings and quality improvements.
+L92: ### Using AI in Everyday Work 6 lectures • 17min
+L93: 
+L94:   * Embracing experimentation and curiosity with AI 2:11
+L95: 
+L96: Experiment with generative AI to discover what it does well or poorly in your role, set boundaries, and share lessons to cultivate curiosity and effective use at work.
+L97: 
+L98:   * Prompting basics: How to talk to AI 6:58
+L99: 
+L100: Learn the art of prompting to make AI work for you, with a four-part structure—persona, task, format, and context—plus practical examples and templates to craft strong, detailed prompts.
+L101:   * Collaborating with AI to get results 2:50
+L102: 
+L103: Learn to collaborate with AI by guiding it with clear context and feedback, starting small, refining prompts, and combining your expertise to co-create reliable results.
+L104: 
+L105:   * Identifying where to use AI in your role 3:00
+L106: 
+L107: Identify five daily scenarios for getting started with generative artificial intelligence. Use artificial intelligence as a thinking partner to improve, explain, prepare for new challenges, and explore.
+L108:   * Activity: Explore how use AI in your job (note: this uses a custom GPT that teac 2:08
+L109: 
+L110: Explore how to use a custom GPT, the AI Skills Coach, to save time and reduce repetitive work by applying generative AI at work, with HR-focused examples.
+L111: 
+L112:   * Talking through where AI fits in your role
+L113: ### Working Safely and Responsibly with AI 5 lectures • 14min
+L114: 
+L115:   * Understanding AI limitations and hallucinations 4:40
+L116: 
+L117: Explore the limitations and hallucinations of generative AI, learn to assess risk, verify outputs, and apply human judgment in high-risk contexts.
+L118: 
+L119:   * Taking responsibility for AI-generated outputs 2:38
+L120: Treat AI as a collaborator, not an authority, and pause to verify outputs before sharing. Use a responsible AI checklist to counter blind trust, overreliance, and disappearing accountability.
+L121: 
+L122:   * Keeping data safe when working with AI 2:55
+L123: 
+L124: Learn to keep data safe when using ai by avoiding sensitive data in prompts, verifying company privacy rules, and asking before sharing documents.
+L125: 
+L126:   * Setting boundaries around data use with AI
+L127: 
+L128:   * Making ethical decisions when using AI 3:42
+L129: Explore ethical AI use in the workplace by examining layoff scripting, AI-driven communications, and hiring decisions, addressing bias, transparency, audits, human oversight, and inclusive guidelines.
+L130: ### Building Your Future Skills with AI 3 lectures • 9min
+L131: 
+L132:   * How AI is changing our jobs 4:08
+L133: 
+L134: AI augments rather than replaces work, driving salaries 28% higher for AI-skilled roles and prompting employers to require AI use while adding AI skills to job postings.
+L135: 
+L136:   * How to stay up to date and keep learning about AI 2:22
+L137: 
+L138: Adopt a continuous learning mindset to stay current with generative AI at work by exploring ethics, bias, testing tools, and crafting a 30-day learning plan.
+L139:   * Activity: Create a 30 day learning plan for continuous learning 2:19
+L140: 
+L141: Create a personalized 30-day plan to learn generative AI for HR, using prompts, hands-on practice, and source checks for accuracy.
+L142: ## Requirements
+L143: 
+L144:   * No prior experience with AI or technical background is required to take this course.
+L145: 
+L146:   * No programming experience required
+L147: ## Description
+L148: 
+L149: If you have been curious about AI but unsure where to begin, this course is where to start. The course gives you a simple introduction to generative AI to get you using AI at work quickly. No technical background is required.
+L150: You're a good fit for this course if you're looking practical guidance and a clear, starting point with AI. This is an introductory course that focuses on the core ideas and AI skills you need for the workplace. If you are new to AI or want to build confidence working with AI before going deeper on other AI topics, this course will help you get there.
+L151: Please note, this is not a course for those who already have daily experience working with generative AI, a technical background, or have more intermediate/advanced AI skills.
+L152: This course is designed to quickly get you up-to-speed on AI in the workplace and give you you a balanced view of AI without the technical complexity or jargon.
+L153: 
+L154: In 60 minutes you'll learn:
+L155: 
+L156:   * What generative AI is and how to think about it's uses
+L157: 
+L158:   * How it's used in real workplace scenarios
+L159: 
+L160:   * How to explore AI tools that apply to your role
+L161: 
+L162:   * How to write clearer prompts that lead to better results
+L163: 
+L164:   * How to identify good opportunities to use AI in your daily tasks
+L165:   * How to check AI generated content and spot common mistakes
+L166: 
+L167:   * How to protect sensitive data and information while using AI
+L168: 
+L169: The course also includes a look at how AI is changing jobs and what that means for your own career. You'll end the course with ways to stay current on AI trends and build new AI skills over time.
+L170: ## Who this course is for:
+L171: 
+L172:   * This course is for employees who want practical guidance on using generative AI in everyday work.
+L173:   * It is ideal for non technical professionals who want to build confidence with AI tools and improve productivity.
+L174:   * It supports beginners who feel unsure about where to start.
+L175:   * It helps managers who want to guide their teams in using AI effectively.
+L176: 
+L177: Show more Show less
+L178: 
+L179: cite10†Report abuse 

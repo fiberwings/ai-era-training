@@ -1,0 +1,364 @@
+Total:AI Risk Management for Security Managers (https://www.udemy.com/course/total-isaca-advanced-in-ai-security-management-aaism/)
+citeturn184view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/total-isaca-advanced-in-ai-security-management-aaism/","lineno":null}); Total lines: 374
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Total:AI Risk Management for Security Managers
+L30: 
+L31: Hot & New
+L32: 
+L33: New
+L34: Rating: 4.8 out of 5 4.8cite8†(10 ratings) L35: 
+L36: 133 students
+L37: 
+L38: cite0†Image†img-c.udemycdn.com Preview this course
+L39: # Total:AI Risk Management for Security Managers
+L40: 
+L41: Build an AI security program: governance, risk, vendors, incidents, and controls. Unofficial AAISM exam prep.
+L42: 
+L43: Created bycite9†Total Seminars Over 1 Million Enrollments , cite10†Michael Solomon L44: 
+L45: Last updated 8/2026
+L46: 
+L47: English
+L48: 
+L49: English [Auto],
+L50: 
+L51: cite0†Image†img-c.udemycdn.com Preview this course
+L52: ## What you'll learn
+L53: 
+L54:   * Prepare for all three domains of the ISACA AAISM certification exam, covering every one of the thirteen exam objectives
+L55: 
+L56:   * Determine whether your organization is a provider or a deployer under the EU AI Act, and what each role legally obliges you to do
+L57: 
+L58:   * Build an AI governance program: steering committee charter, risk appetite, asset inventory, policy set, and executive reporting
+L59:   * Assess and manage AI risk — impact analysis, risk registers, treatment planning, and resiliency for production models
+L60: 
+L61:   * Run due diligence on AI vendors and manage third, fourth, and fifth-party AI supply chain risk
+L62: 
+L63:   * Threat model an LLM application using MITRE ATLAS and the OWASP LLM Top 10, and scope AI penetration testing
+L64: 
+L65:   * Detect, classify, and respond to AI incidents, including red-button and break-glass controls for production systems
+L66:   * Select, implement, and monitor AI security controls across the model lifecycle, from data pipeline to deployed system
+L67: ## Course content
+L68: 
+L69: 6 sections • 47 lectures • 6h 30m total length
+L70: 
+L71: Expand all sections
+L72: ### AI Governance, Strategy, and Regulatory Frameworks 10 lectures • 1hr 12min
+L73: 
+L74:   * About the AAISM Exam Preview 4:29
+L75: 
+L76: Learn about the AAISM Exam!
+L77: 
+L78:   * AAISM Exam Information Preview 4:57
+L79: 
+L80: This video covers the details of the AAISM exam.
+L81: 
+L82:   * What Can The AAISM Certification Do For You?Preview 4:35
+L83: 
+L84: This video goes into detail about what the AAISM certification can do for you.
+L85: 
+L86:   * AI Governance Foundations Preview 7:52
+L87: Explains core AI governance models (centralized, federated, hybrid) and board-level accountability.
+L88: 
+L89:   * Steering Committees and Charters Preview 3:51
+L90: 
+L91: Defines formal AI steering committees, charters, and governance workflows.
+L92: 
+L93:   * Stakeholder Identification and Accountability Preview 5:38
+L94: 
+L95: Identifies key stakeholders across business and security; clarifies accountability models.
+L96: 
+L97:   * Risk Appetite and Risk Tolerance 6:56
+L98: 
+L99: Explains executive risk threshold definitions and operational deployment decisions.
+L100:   * Framework Selection and Regulatory Alignment 22:01
+L101: 
+L102: Compares EU AI Act, ISO 42001, OECD, and NIST AI RMF for selection criteria.
+L103: 
+L104:   * AI Business Use Case Governance 5:36
+L105: 
+L106: Explains governance of intake, privacy reviews, and approval workflows.
+L107: 
+L108:   * AI Strategy: Consumer vs Enterprise 5:59
+L109: 
+L110: Analyzes strategic considerations of shadow AI and data residency boundaries.
+L111: 
+L112:   * Chapter 01 Quiz
+L113: ### AI Risk Management and Data Security 8 lectures • 51min
+L114: 
+L115:   * Buy vs Build Decision Governance 3:48
+L116: 
+L117: Analyzes procurement, vendor selection, and make-vs-buy security tradeoffs.
+L118: 
+L119:   * AI Policy and Responsible Use 13:06
+L120: 
+L121: Explains policy drafting, acceptable use, and ethical requirements.
+L122: 
+L123:   * Procedures and Manuals Governance 2:39
+L124: 
+L125: Defines procedural standards and manuals to support auditable deployments.
+L126: 
+L127:   * AI Asset Inventory and Documentation 3:44
+L128: Explains building an AI asset inventory (models, datasets, APIs).
+L129: 
+L130:   * Model Cards and Documentation Standards 3:55
+L131: 
+L132: Explains model cards as a documentation standard for capabilities and ethics.
+L133: 
+L134:   * Data Classification and Discovery 6:00
+L135: 
+L136: Covers automated discovery and how classification drives retention and access.
+L137: 
+L138:   * Data Augmentation and Cleaning 7:49
+L139: 
+L140: Explains cleaning workflows and quality controls to prevent bias introduction.
+L141: 
+L142:   * Secure Data Storage and Protection 10:07
+L143: Covers encryption at rest/transit and vector store security.
+L144: 
+L145:   * Chaoter 02 Quiz
+L146: ### AI Lifecycle Security and Program Management 8 lectures • 49min
+L147: 
+L148:   * Data Destruction and Retention 3:54
+L149: 
+L150: Covers destruction standards (NIST 800-88) for AI model artifacts.
+L151: 
+L152:   * Developing AI Security Program Plan 5:57
+L153: 
+L154: Structure for a formal plan including scope and phased implementation.
+L155: 
+L156:   * Aligning AI Security with InfoSec 4:59
+L157: 
+L158: Integration of AI controls into NIST CSF, ISO 27001, and SOC 2.
+L159: 
+L160:   * AI Security Team and Proficiencies 5:51
+L161: Defines roles (Architect, Red Teamer, MLSecOps) and required proficiencies.
+L162: 
+L163:   * AI-Enabled Security Tools 9:50
+L164: 
+L165: Covers AI-powered SIEM/SOAR/UEBA and protecting the protectors.
+L166: 
+L167:   * AI Security Metrics, KPIs, and KRIs 5:49
+L168: 
+L169: Explains defining and reporting metrics via dashboards.
+L170: 
+L171:   * Executive Management Reporting 6:30
+L172: 
+L173: Narrative framing and translating findings into business risk language.
+L174: 
+L175:   * AI Incident Detection and Notification 6:20
+L176: 
+L177: Explains anomalous inference patterns and regulatory reporting.
+L178:   * Chapter 03 Quiz
+L179: ### AI Threat Landscape and Resiliency Planning 8 lectures • 1hr 26min
+L180: 
+L181:   * Incident Classification and Severity 7:26
+L182: 
+L183: Defines incident taxonomy and severity scoring for AI failures.
+L184: 
+L185:   * AI Resiliency and BCP 7:33
+L186: 
+L187: Covers model fallback architectures and continuity requirements.
+L188: 
+L189:   * Red-Button and Break-Glass Controls 7:21
+L190: 
+L191: Emergency shutdown procedures and escalation authority.
+L192: 
+L193:   * AI RTO, RPO, and Disaster Recovery 7:44
+L194: 
+L195: Applies RTO/RPO to retraining and data recovery tiers.
+L196:   * AI Risk Assessment and Impact 6:24
+L197: 
+L198: Risk methodologies, Conformity Assessments, and PIAs.
+L199: 
+L200:   * Risk Documentation and Treatment 9:55
+L201: 
+L202: Risk register design and residual risk documentation.
+L203: 
+L204:   * Pen Testing and Vulnerability Testing 14:18
+L205: 
+L206: Scoping, executing, and reporting on AI-specific pen tests.
+L207: 
+L208:   * Red Teaming and Adversarial Threats 25:20
+L209: 
+L210: Red team methods like model inversion and evasion attacks.
+L211: 
+L212:   * Chapter 04 Quiz
+L213: ### Incident Response, Vendor Risk, and AI Ethics 8 lectures • 1hr 10min
+L214: 
+L215:   * Threat Intel & AI Attack Chains 15:31
+L216: 
+L217: Attack chain mapping using MITRE ATLAS and intel sources.
+L218: 
+L219:   * Deepfakes, Insider Threat, and Agents 16:39
+L220: 
+L221: Detection of deepfakes and governance of autonomous agents.
+L222: 
+L223:   * Vendor Due Diligence & Contracts 5:56
+L224: 
+L225: Vendor assessment processes and SLA definitions for AI.
+L226: 
+L227:   * Provider vs Deployer Accountability 8:13
+L228: 
+L229: Accountability shifts based on fine-tuning vs deployment.
+L230:   * 3rd, 4th, and 5th-Party Risk 4:53
+L231: 
+L232: Supply chain analysis beyond direct vendors.
+L233: 
+L234:   * IP Ownership and Liability 5:21
+L235: 
+L236: Training data rights and copyright exposure from outputs.
+L237: 
+L238:   * Vendor Monitoring & Risk Changes 6:36
+L239: 
+L240: Continuous tracking of material changes in vendor risk posture.
+L241: 
+L242:   * AI Sec Architecture & Change Mgmt 7:20
+L243: 
+L244: Secure-by-design principles and infrastructure-as-code governance.
+L245: 
+L246:   * Chapter 05 Quiz
+L247: ### AI Security Controls and Continuous Monitoring 5 lectures • 1hr 1min
+L248: 
+L249:   * Model Testing, Regression, and TEVV 15:00
+L250: 
+L251: TEVV frameworks and regression testing cadences.
+L252: 
+L253:   * Data Management and Data Poisoning 21:31
+L254: 
+L255: Collection governance and defenses against poisoning/bias.
+L256: 
+L257:   * Privacy, Ethical, and Trust Controls 9:04
+L258: 
+L259: Explainability, fairness auditing, and content moderation.
+L260: 
+L261:   * Control Selection and Lifecycle 7:56
+L262: 
+L263: Selection through retirement; self-assessments (CSA).
+L264:   * Security Monitoring and Threat Mapping 7:57
+L265: 
+L266: Dashboards for control effectiveness and threat-to-control mapping.
+L267: 
+L268:   * Chapter 06 Quiz
+L269: ## Requirements
+L270: 
+L271:   * Working familiarity with information security, risk management, audit, or compliance — this is not an entry-level security course
+L272: 
+L273:   * No machine learning, data science, or programming experience required; the course teaches no model building and requires no coding
+L274: 
+L275:   * No lab environment, software, or subscriptions needed — all lessons are video-based
+L276:   * To sit the AAISM exam itself, ISACA requires candidates to hold an active CISM or CISSP certification. The course content is valuable to any AI security or governance practitioner, but registering for the exam requires meeting ISACA's eligibility criteria.
+L277: ## Description
+L278: 
+L279: Enterprise AI has outrun enterprise security. This course closes the gap.
+L280: Your organization is deploying AI faster than it can govern it. Models are going into production without an owner, vendors are answering security questionnaires with certifications that say nothing about their training data, and the board has started asking questions that nobody in the room can answer. Meanwhile a new class of regulation — led by the EU AI Act — is assigning legal obligations to companies based on a role most of them have never formally determined.
+L281: This course teaches you how to govern, assess, and secure AI systems in a real enterprise, and prepares you for ISACA's Advanced in AI Security Management (AAISM) certification exam. It covers all three exam domains and every one of the thirteen exam objectives, taught by Dr. Michael Solomon across 47 focused video lessons.
+L282: 
+L283: What makes this different from a generic AI course
+L284: This is not an introduction to machine learning, and it is not a prompt-engineering course. It assumes you already work in security, risk, audit, or compliance, and it starts where your existing expertise stops: at the point where AI systems break the assumptions your current controls were built on.
+L285: Every module is built around a decision you will actually have to make. Which governance model fits your organization. Whether you are a provider or a deployer under the EU AI Act, and what each role obliges you to do. What to ask an AI vendor that a SOC 2 report will not answer. How to classify an AI incident when your existing severity matrix has no category for a model that started producing subtly wrong output three weeks ago.
+L286: When to press the red button on a production model, who is allowed to press it, and what has to be true before you turn it back on.
+L287: Why your existing controls do not simply extend to AI
+L288: Most security programs try to absorb AI as one more asset class, and most of them discover the same four problems. A model that passes acceptance testing can degrade quietly in production, so a control that verifies something once is no longer a control. The training data is an attack surface, which means your supply chain now includes parties you have never contracted with and cannot audit.
+L289: A model update changes system behavior without changing a line of code, so your change management process never sees it. And the vendor at the center of it will hand you an ISO 27001 certificate or a SOC 2 report that is necessary but nowhere near sufficient.
+L290: This course works through each of those, not as theory but as the specific controls, documents, and decisions that address them — and it names the failure patterns that show up when organizations skip the step.
+L291: 
+L292: What the course covers
+L293: 
+L294: Domain 1 — AI Governance and Program Management
+L295: 
+L296:   * Governance structures and steering committee charters — centralized, federated, and hybrid models, and how to choose
+L297: 
+L298:   * Stakeholder identification, RACI, and accountability that survives an audit
+L299:   * AI risk appetite and risk tolerance, and how they drive every escalation rule downstream
+L300: 
+L301:   * Framework selection and regulatory alignment: the EU AI Act, NIST AI RMF, and ISO/IEC 42001
+L302: 
+L303:   * AI use case governance, intake, and approval; consumer versus enterprise AI strategy
+L304: 
+L305:   * Buy-versus-build decisions, AI policy development, acceptable use, and responsible use principles
+L306: 
+L307:   * AI asset inventory, model cards, and documentation standards
+L308:   * Data classification, discovery, augmentation, cleaning, secure storage, retention, and destruction
+L309: 
+L310:   * Building an AI security program: team structure, proficiencies, metrics, KPIs and KRIs, and executive reporting
+L311: 
+L312:   * AI incident detection, notification, classification, and severity
+L313: 
+L314:   * AI resiliency and business continuity planning; RTO, RPO, and disaster recovery for models
+L315: 
+L316:   * Red-button and break-glass controls for production AI
+L317: 
+L318: Domain 2 — AI Risk Management
+L319:   * AI risk assessment and impact analysis; risk documentation and treatment planning
+L320: 
+L321:   * Penetration testing and vulnerability testing of AI systems — scoping, authorization, and findings disposition
+L322: 
+L323:   * Threat modeling for LLM applications: attack surfaces, trust boundaries, MITRE ATLAS, and the OWASP LLM Top 10
+L324: 
+L325:   * Threat intelligence and AI attack chains; deepfakes, insider threat, and AI agents
+L326:   * Vendor due diligence and contracts; provider versus deployer accountability; third, fourth, and fifth-party risk
+L327: 
+L328:   * Intellectual property ownership and liability; vendor monitoring and risk change management
+L329: 
+L330: Domain 3 — AI Technologies and Controls
+L331: 
+L332:   * AI security architecture and change management — why a model update is not a patch
+L333: 
+L334:   * Model testing, regression testing, and continuous evaluation of deployed models
+L335:   * Data management controls and data poisoning: provenance, integrity, and pipeline access
+L336: 
+L337:   * Privacy, ethical, and trust controls; explainability, bias, and fairness
+L338: 
+L339:   * Control selection, implementation, and lifecycle management
+L340: 
+L341:   * Security monitoring metrics and threat-to-control mapping
+L342: 
+L343: How the course is taught
+L344: Forty-seven video lessons, six and a half hours total, each one focused enough to watch in a single sitting. Three orientation lessons open the course with what the credential is, what the exam looks like, and what it can do for your career. Every lesson after that maps to a specific exam objective, so you always know which part of the blueprint you are covering.
+L345: The course includes 106 knowledge-check questions, each tied to the lesson it tests and the exam objective it covers, so you can find and close a weak area rather than simply retaking a practice test until the score improves.
+L346: 
+L347: What you will be able to do when you finish
+L348: Walk into a steering committee and propose a governance model, and know what a charter has to contain. Read your own AI stack against the EU AI Act and say which role your organization holds and what that obliges. Sit across from an AI vendor knowing which categories a due-diligence questionnaire has to cover and why a SOC 2 report does not close them. Take an AI incident from first alert through classification, notification, and containment without improvising.
+L349: Tell your board what your AI risk actually is, in terms they can act on. And go into the AAISM exam having covered all thirteen objectives on the blueprint.
+L350: Common questions
+L351: 
+L352: Do I need a technical background? No. There is no coding, no model building, and no lab. You need working familiarity with security, risk, audit, or compliance — the course starts from there.
+L353: 
+L354: Is this only useful if I sit the exam? No. The exam blueprint is a well-built map of what an AI security practitioner needs to know, which is why the course follows it. Everything here applies to the job whether or not you ever register for the exam.
+L355: Which frameworks does it use? The course works from the EU AI Act throughout, and draws on the NIST AI Risk Management Framework, ISO/IEC 42001, MITRE ATLAS, and the OWASP LLM Top 10 where each applies.
+L356: 
+L357: Who this is for
+L358: Security managers, IT risk professionals, internal auditors, compliance officers, privacy leads, and consultants who are being asked to evaluate AI systems and have no established playbook for it. You do not need to be a data scientist. You do not need to be able to train a model.
+L359: You need to understand how AI systems introduce risk, how to evaluate the controls over them, and how to apply governance and audit methodology in an AI context — which is exactly what this course teaches and exactly what the AAISM exam tests.
+L360: About the instructor
+L361: 
+L362: Dr. Michael Solomon has spent his career at the intersection of security, risk, and governance, and has authored and taught certification courseware across the security profession. He teaches the material the way a practitioner needs it: the concept, the decision it drives, and the failure pattern that shows up when organizations get it wrong.
+L363: ## Who this course is for:
+L364:   * Security managers and CISOs who have just been handed AI as a new remit and need a program, not a reading list
+L365:   * IT risk professionals and internal auditors who are being asked to assess AI systems with no established methodology
+L366:   * Compliance officers, privacy leads, and DPOs who own EU AI Act readiness and need to know what their organization actually owes
+L367:   * Third-party risk and procurement professionals now responsible for evaluating AI vendors
+L368:   * Security architects and engineers who need to threat model and secure LLM applications and AI data pipelines
+L369:   * CISM and CISSP holders pursuing the AAISM credential as a specialization
+L370:   * Consultants advising enterprises on AI governance, risk, and security
+L371: Show more Show less
+L372: 
+L373: cite11†Report abuse 

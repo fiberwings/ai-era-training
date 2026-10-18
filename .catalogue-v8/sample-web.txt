@@ -1,0 +1,586 @@
+Agentic AI - Risk and Cybersecurity Masterclass 2026 (https://www.udemy.com/course/agentic-ai-risk-and-cybersecurity-masterclass-2025/)
+citeturn11view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/agentic-ai-risk-and-cybersecurity-masterclass-2025/","lineno":null}); Total lines: 289
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: Agentic AI - Risk and Cybersecurity Masterclass 2026
+L41: 
+L42: Role Play
+L43: 
+L44: Rating: 4.5 out of 5 4.5cite12†(1,499 ratings) L45: 
+L46: 7,978 students
+L47: 
+L48: cite0†Image†img-c.udemycdn.com Preview this course
+L49: # Agentic AI - Risk and Cybersecurity Masterclass 2026
+L50: 
+L51: Learn the Cyber security risks around AI Agents and Agentic AI and how to mitigate them
+L52: 
+L53: Created bycite13†Taimur Ijlal | Award winning cybersecurity leader and instructor L54: 
+L55: Last updated 4/2026
+L56: 
+L57: English
+L58: 
+L59: German [Auto],English [Auto], 9 more
+L60: 
+L61: cite0†Image†img-c.udemycdn.com Preview this course
+L62: ## What you'll learn
+L63: 
+L64:   * How Agentic AI Is A Game Changer For Risk And Security
+L65: 
+L66:   * How Agentic AI Works
+L67: 
+L68:   * What Are The Unique Risks That Agentic AI Introduces
+L69: 
+L70:   * How To Mitigate Agentic AI Risks
+L71: 
+L72:   * How To Threat Model Agentic AI Systems
+L73: 
+L74: ## Course content
+L75: 
+L76: 10 sections • 30 lectures • 4h 14m total length
+L77: 
+L78: Expand all sections
+L79: ### Introduction 3 lectures • 30min
+L80: 
+L81:   * Introduction Preview 10:41
+L82: 
+L83: Discover how Agentic AI's autonomous decision making reshapes cybersecurity risks, and learn threat modeling, governance, and practical mitigations for secure autonomous systems.
+L84: 
+L85:   * What Is Agentic AI ?Preview 13:10
+L86: 
+L87: Explore agentic AI, the autonomous framework where AI agents perceive, reason, act, and learn to solve complex goals with minimal human oversight, using a large language model and external tools.
+L88:   * Agentic AI vs Generative AI 5:44
+L89: 
+L90: Explore the differences between agentic AI and generative AI, focusing on autonomy, reasoning, and when to use each for security operations, threat detection, automated IT tasks, and content creation.
+L91: ### Agentic AI Patterns and Architectures 2 lectures • 25min
+L92: 
+L93:   * Agentic AI Patterns and Architectures 16:10
+L94: 
+L95: Explore agentic AI design patterns and architectures, including reflection, tool usage, planning and reasoning, and multi-agent collaboration, with single, distributed, and supervised architectures and practical examples.
+L96: 
+L97:   * AI Agents - Demo 8:42
+L98: 
+L99: See how to set up and run AI agents with a simple multi-agent framework, using Crew AI and OpenAI API keys, to research topics and generate reports.
+L100: ### Agentic AI In Cybersecurity 2 lectures • 18min
+L101: 
+L102:   * Agentic AI Use Cases in Cybersecurity 7:56
+L103: 
+L104: Explore agentic AI use cases in cybersecurity, from autonomous threat analysis and incident response to AI-driven SOCs and virtual CISOs, with adaptive security postures and zero-trust enforcement.
+L105: 
+L106:   * Agentic AI Use Cases in Cybersecurity - Demo 9:43
+L107: Explore agentic ai in cybersecurity, using a swarm of specialized agents to analyze architectures, perform stride threat modeling, and design a secure authentication system with multi-factor authentication.
+L108: ### Agentic AI - Existing Risks 4 lectures • 24min
+L109: 
+L110:   * Agentic AI - Existing Risks 4:45
+L111: 
+L112: Identify how agentic AI differs from generative AI by examining autonomy-driven risks and the threat surface. Learn existing AI vulnerabilities and emerging cybersecurity challenges, with emphasis on applying strong controls.
+L113: 
+L114:   * Bias 5:57
+L115: Explains how bias, an inherent AI risk from biased training data, can skew decision making in loans and policing. Advocates bias testing, human-in-the-loop review, and auditable decision processes.
+L116: 
+L117:   * Transparency 4:27
+L118: 
+L119: Understand transparency in ai and how explainable ai mitigates bias amplified by agentic ai, reinforcing accountability, trust, and compliance with eu ai act and nist ai risk management framework.
+L120: 
+L121:   * AI Model Attacks 8:42
+L122: Explore AI model lifecycles that reuse pre-built models trained on company data, exposed via APIs, and study data tags alongside attacks like data poisoning, model evasion, and extraction.
+L123: ### Agentic AI - New Risks 7 lectures • 40min
+L124: 
+L125:   * Autonomy 6:13
+L126: 
+L127: Autonomy drives both the benefits and risks of agentic AI, risking misinterpretation, misconfiguration, and service disruptions; apply guardrails, human-in-the-loop oversight, sandbox testing, and quick rollback.
+L128: 
+L129:   * Accountability 4:59
+L130: 
+L131: Address accountability risks in agentic AI by establishing AI governance policy, maintaining a decision log, and ensuring human oversight and explainable AI to prevent wrongful decisions and liability.
+L132:   * Misalignment 7:59
+L133: 
+L134: Misalignment in autonomous agentic ai causes goals to diverge from human intent, triggering unintended and harmful actions. Reinforce guardrails, real-time oversight, and failsafes to prevent cascading failures in multi-agent systems.
+L135: 
+L136:   * Disempowerment 3:51
+L137: 
+L138: Disempowerment risks emerge as over reliance on agentic AI erodes human problem solving and creativity. Balance deployment with augmentation, reskilling, and strong human oversight.
+L139: 
+L140:   * Misuse 3:09
+L141: Explore how agentic AI amplifies cyber threats through autonomous, end-to-end attacks—phishing, DDoS, and ransomware—driving a 24/7 army of AI attackers and how defense teams can counter with AI-driven safeguards.
+L142: 
+L143:   * Agent Hijacking 4:51
+L144: 
+L145: Explore AI agent hijacking caused by prompt injections—direct and indirect—and learn how least privilege, monitoring, and red teaming help prevent abuse.
+L146: 
+L147:   * Agentic Pattern Vulnerabilities 8:57
+L148: Explore agentic ai pattern vulnerabilities in distributed and supervisor architectures, including rogue agents, impersonation, emergent behavior, and inter-agent communication exploits.
+L149: ### Creating An Agentic AI Security Framework 1 lecture • 10min
+L150: 
+L151:   * Creating An Agentic AI Security Framework 9:52
+L152: 
+L153: Design and implement an agentic AI security framework through governance, leadership alignment, and a task force. Tailor controls via risk assessment and threat modeling, using NIST, EU AI act, ISO.
+L154: ### Threat Modeling Agentic AI 7 lectures • 1hr 5min
+L155: 
+L156:   * Threat Modeling Agentic AI - Part 1 6:07
+L157: 
+L158: Explore threat modeling for agentic AI, focusing on the maestro framework across seven layers—from foundational models to the agent ecosystem—to identify multi-agent risks and guide defenses.
+L159: 
+L160:   * Threat Modeling Agentic AI - Part 2 13:10
+L161: 
+L162: Apply the maestro framework for threat modeling agenda to agentic ai, detailing the foundation model, data operations, and generic frameworks with practical mitigations.
+L163:   * Threat Modeling Agentic AI - Part 3 11:53
+L164: 
+L165: Explore layer five evaluation and observability for Agentic AI, including observability tools, logging, anomaly detection, and compliance monitoring to guard against tampering and data leakage.
+L166: 
+L167:   * Threat Modeling - Case Study 14:19
+L168: 
+L169: Apply the maestro framework to a practical seven-layer threat modeling case study for agentic AI in finance, with layer decomposition, cross-layer risk identification, mitigation, and continuous monitoring.
+L170:   * The Rise of OpenClaw and Personal Agentic Assistants 13:39
+L171: 
+L172: Explore the rise of OpenClaw and personal agentic assistants, their architecture, and security risks, including prompt injections, memory poisoning, credential leakage, and threat modeling using the Maestro framework.
+L173: 
+L174:   * Threat Modeling OpenClaw and Other Personal Agentic Assistants 6:12
+L175: Model OpenClaw threats with Maestro’s seven-layer framework, tracing prompts, memory, tools, and sub-agents; apply cross-layer mitigations like validation, isolation, and zero-trust.
+L176: 
+L177:   * Meeting the CEO on OpenClaw
+L178: ### The Agentic AI Security Scoping Matrix 1 lecture • 12min
+L179: 
+L180:   * Undersstanding the Agentic AI Security Scoping Matrix 12:20
+L181: 
+L182: Explore the agentic AI security scoping matrix, detailing four autonomy scopes from no to full agency, and the six security dimensions for implementing secure agentic architectures.
+L183: ### Model Context Procol 3 lectures • 28min
+L184: 
+L185:   * What is Model Context Protocol 8:58
+L186: 
+L187: Explore the model context protocol, a standardized open framework that connects AI models to data sources and tools, enabling secure, scalable agent workflows and highlighting security risks with mitigation.
+L188: 
+L189:   * MCP Risks 12:36
+L190: 
+L191: Explore emerging MCP security risks, including malicious servers, rugpull, tool poisoning, and cross tool poisoning, within the client–server architecture and the principle of least privilege.
+L192:   * Reviewing MCP Servers 5:57
+L193: 
+L194: Evaluate MCP servers before use by checking downloads, recency, and provider, then use Lama’s security rating to gauge vulnerabilities and git clone followed by a security scan with Q developer.
+L195: ### Wrapping Up 1 lecture • 3min
+L196: 
+L197:   * The Way Forward 3:28
+L198: 
+L199: Discover how agentic AI is here now, moving from forecasting to autonomous task execution, with new roles like AI cybersecurity, AI agent owners, and risk.
+L200: 
+L201: ## Requirements
+L202: 
+L203:   * Basic Knowledge of IT
+L204: 
+L205:   * Basic Knowledge of Risk and Security
+L206: 
+L207:   * No expertise in Agentic AI Is Needed
+L208: 
+L209:   * Passion To Learn !
+L210: ## Description
+L211: 
+L212: Agentic AI represents the next evolution of artificial intelligence—systems that can autonomously make decisions, plan actions, and interact with the world with minimal human intervention. As AI becomes increasingly autonomous, new risks and security challenges emerge that go beyond traditional cybersecurity concerns.
+L213: The "Agentic AI Risk and Cybersecurity Masterclass" is a comprehensive course designed to provide a deep understanding of agentic AI technologies, their unique risk landscape, and the best practices for securing these intelligent systems.
+L214: 
+L215: This course explores the principles, components, and security considerations of Agentic AI, equipping you with the knowledge to assess, mitigate, and defend against emerging AI threats.
+L216: 
+L217: What You Will Learn
+L218:   * Fundamental principles and architecture of Agentic AI systems
+L219: 
+L220:   * Understanding the risk landscape in autonomous AI and its implications
+L221: 
+L222:   * Security threats unique to Agentic AI, including AI autonomy risks, adversarial manipulation, and decision-based attacks
+L223: 
+L224:   * How prompt injections and model exploitation attacks evolve in an Agentic AI context
+L225: 
+L226:   * Strategies for designing secure Agentic AI systems with ethical safeguards and risk mitigation controls
+L227:   * Compliance and governance frameworks for Agentic AI cybersecurity
+L228: 
+L229: Course Outline
+L230: 
+L231: Introduction to Agentic AI
+L232: 
+L233:   * What is Agentic AI?
+L234: 
+L235:   * How does it differ from Generative AI
+L236: 
+L237:   * Why security in Agentic AI is critical
+L238: 
+L239: Risks in Agentic AI
+L240: 
+L241:   * Overview of the Agentic AI risk landscape
+L242: 
+L243:   * Threat modeling Agentic AI systems
+L244: 
+L245:   * Case Study of Threat Modeling Agentic AI systems
+L246: 
+L247: Security in Agentic AI
+L248: 
+L249:   * Creating a Security Framework For Agentic AI
+L250:   * Threat vectors and attack techniques against autonomous AI
+L251: 
+L252:   * Hijacking attacks, data poisoning, and malicious automation
+L253: 
+L254:   * Best practices for hardening Agentic AI models and deploying AI security frameworks
+L255: 
+L256: Who Should Take This Course
+L257: 
+L258: This course is ideal for individuals looking to understand and mitigate the cybersecurity risks associated with autonomous AI systems, including:
+L259: 
+L260:   * AI engineers & researchers
+L261: 
+L262:   * Cybersecurity professionals
+L263: 
+L264:   * Data Scientists & AI Ethics specialists
+L265:   * IT Managers & risk professionals
+L266: 
+L267:   * Business leaders exploring Agentic AI adoption
+L268: 
+L269: Pre-requisites
+L270: 
+L271: Basic understanding of AI and cybersecurity concepts is recommended, but no prior knowledge of Agentic AI is required.
+L272: 
+L273: Instructor
+L274: Taimur Ijlal is a multi-award-winning cybersecurity leader with over 20+ years of global experience in cyber risk management, AI security, and IT governance. He has been recognized with industry accolades such as CISO of the Year, CISO Top 30, and Most Outstanding Security Team.
+L275: Taimur’s cybersecurity and AI courses have thousands of students worldwide, and his work has been featured in ISACA Journal, CIO Magazine Middle East, and multiple AI security publications. His books on AI Security and Cloud Computing have ranked as #1 new releases on Amazon.
+L276: 
+L277: Join this course to stay ahead of the rapidly evolving landscape of Agentic AI Risk and Cybersecurity!
+L278: ## Who this course is for:
+L279: 
+L280:   * Cybersecurity professionals interested in Agentic AI
+L281:   * IT Professionals
+L282:   * CISOs who to secure Agentic AI
+L283:   * Risk and GRC Professionals Interested In Agentic AI
+L284:   * AI Professionals
+L285: 
+L286: Show more Show less
+L287: 
+L288: cite14†Report abuse --------------------------------------------------------------------------------
+AI Hallucinations Management & Fact Checking in LLMs (https://www.udemy.com/course/ai-hallucinations-management-fact-checking-in-llms/)
+citeturn11view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-hallucinations-management-fact-checking-in-llms/","lineno":null}); Total lines: 657
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: AI Hallucinations Management & Fact Checking in LLMs
+L41: 
+L42: Role Play
+L43: 
+L44: Rating: 4.4 out of 5 4.4cite12†(382 ratings) L45: 
+L46: 4,463 students
+L47: 
+L48: cite0†Image†img-c.udemycdn.com Preview this course
+L49: # AI Hallucinations Management & Fact Checking in LLMs
+L50: 
+L51: Spot, prevent, and fact-check AI hallucinations in real workflows with AI assistants like ChatGPT
+L52: 
+L53: Created bycite13†Arkadiusz Włodarczyk L54: 
+L55: Last updated 10/2026
+L56: 
+L57: English
+L58: 
+L59: English [Auto],Korean [Auto],
+L60: 
+L61: cite0†Image†img-c.udemycdn.com Preview this course
+L62: ## What you'll learn
+L63: 
+L64:   * Identify and explain different types of AI hallucinations and why they occur
+L65: 
+L66:   * Design prompts that reduce hallucinations and improve AI response accuracy
+L67: 
+L68:   * Use RAG systems and verification techniques to fact-check AI output
+L69: 
+L70:   * Apply monitoring and guardrails to make AI systems safer and more reliable
+L71: 
+L72:   * Build practical workflows for detecting, preventing, and verifying AI hallucinations
+L73: ## Course content
+L74: 
+L75: 10 sections • 41 lectures • 2h 53m total length
+L76: 
+L77: Expand all sections
+L78: ### Introduction 4 lectures • 7min
+L79: 
+L80:   * How AI Works: A Story About Guessing Preview 1:42
+L81: 
+L82: I remember standing in front of the class. Scared. The teacher asked a question I couldn't answer.
+L83: 
+L84: So I guessed.
+L85: 
+L86: And I got it right. Pure luck. A calculated guess based on what seemed probable.
+L87: 
+L88: This is how AI often works. It's a guesser. A very, very smart one, but a guesser nonetheless. It predicts the next word based on probability, not on truth.
+L89: 
+L90: Sometimes, that guess is wrong. Confidently wrong.
+L91: That's what we call a hallucination.
+L92: 
+L93: In this video, I break down this strange and important idea. We'll look at why it happens and why AI is actually trained to take these risks. It's the key to understanding both the power and the pitfalls of this technology.
+L94: 
+L95:   * What AI Hallucinations Are?0:52
+L96: 
+L97: A summary of what is AI hallucination
+L98: 
+L99:   * The Business Risk of Unchecked AI Output Preview 3:45
+L100: 
+L101: You shipped the AI. It works.
+L102: 
+L103: But it can fail. And when it does, the consequences land on you.
+L104: In this session, I break down the real risks-the ones nobody talks about until it's too late. Hallucinations aren't bugs; they're features. Your AI is an attack surface. Bias gets baked right in.
+L105: 
+L106: I'll show you what can go wrong, so you can build to prevent it. We'll cover the fallout from bad data, clever attacks, and simple system failures.
+L107: 
+L108: This isn't about theory. It's about defense.
+L109: 
+L110:   * [NOTES] Key Definitions 0:39
+L111: 
+L112: Key definitions for this section.
+L113: 
+L114:   * Quiz [Basics]
+L115: ### Understanding Hallucinations 3 lectures • 8min
+L116: 
+L117:   * How LLMs Generate Text (and Why They "Make Things Up")Preview 4:00
+L118: 
+L119: Large Language Models feel smart. Almost like magic.
+L120: 
+L121: But it’s a trick.
+L122: 
+L123: In this video, I’ll show you how it really works. We'll break it down, step by step. No jargon, just the core ideas.
+L124: 
+L125: We start with the big secret: LLMs don't think. They predict.
+L126: I’ll explain how your prompt gets chopped into 'tokens'. How the model scores every possible next word. And how it turns those scores into a guess.
+L127: 
+L128: Then, we’ll look at the tools you can use to control the output. Things like 'temperature' that can make your AI more creative or more focused. We’ll cover the different strategies it uses to pick the next word, from simple 'greedy' choices to smarter methods like 'nucleus sampling'.
+L129: Finally, we'll confront the big problem: hallucinations. I'll explain why they happen - not as a bug, but as a core part of how these models work. You'll understand why an engine built for fluency can't be a truth engine.
+L130: 
+L131: By the end, you won't see magic. You'll see a system. And you'll know how to work with it.
+L132: 
+L133:   * Three Types of AI Errors to Watch Out For Preview 3:12
+L134: 
+L135: AI gets things wrong.
+L136: It doesn't do it on purpose. It's just predicting the next word. But when you rely on its output, you need to know how it fails.
+L137: 
+L138: In this video, I'll show you the three quiet mistakes AI makes. The ones that look true until you check.
+L139: 
+L140: We’ll start with Fabricated Facts. Laws, studies, and APIs that sound formal. But they don’t exist.
+L141: Then, we'll look at Wrong References. The model gives you a source. A link. A paper. But the link is dead, or the paper says something else entirely. It’s decoration, not proof.
+L142: 
+L143: Finally, we’ll cover the most dangerous one for developers: Overconfident Examples. The code looks perfect. No errors, no warnings. But it’s broken. It fails silently, or worse, gives you the wrong answer.
+L144: 
+L145: This isn't about avoiding AI. It’s about being smarter than the tool you're using.
+L146: 
+L147:   * Quiz [understanding hallucinations]
+L148:   * [NOTES] Key definitions 1:12
+L149: ### Prevention Through Prompt Design 7 lectures • 26min
+L150: 
+L151:   * Structured Control: Guiding AI with Instructions, Guardrails, & Context 9:09
+L152: 
+L153: We aren't trying to lock the model in a cage.
+L154: 
+L155: We're just giving it a map. So it doesn't wander off a cliff.
+L156: 
+L157: This isn't about total control. It's about structured control. Just enough to keep the AI focused, factual, and useful.
+L158: 
+L159: In this video, I'll show you the three simple tools for this:
+L160: 1. System Instructions: The AI's rulebook. Its job description. This is where we set the tone before the conversation even starts.
+L161: 
+L162: 2. Guardrails: The safety net. These are the checks that catch mistakes *after* the AI has spoken, but *before* your user sees the result.
+L163: 
+L164: 3. Scoped Context: The focus. Instead of giving the AI the entire library, we give it the one book it needs right now.
+L165: 
+L166: Together, they don't make your AI perfect.
+L167: 
+L168: They make it predictable enough to trust.
+L169:   * Crafting Clear, Specific, Constrained Prompts 5:31
+L170: 
+L171: Vague prompts lead to chaos. The model guesses. It fills in the blanks. Sometimes you get lucky. Most of the time, you get a well-written mess.
+L172: 
+L173: This has to stop.
+L174: 
+L175: In this lecture, I'll show you how to build a fence around your prompts. It's about taking control and leaving nothing to chance.
+L176: 
+L177: We will craft prompts that are:
+L178: 
+L179: - Clear: Simple language wins. Always.
+L180: 
+L181: - Specific: Give the model a role, a task, and a format.
+L182: - Constrained: Set boundaries to stop the guessing.
+L183: 
+L184: This isn't about clever tricks or fancy wording. It’s about being solid.
+L185: 
+L186: When you communicate clearly, hallucinations drop on their own. Let's start building.
+L187: 
+L188:   * Few-Shot Prompting and Chain-of-Thought for Reliability 6:42
+L189: 
+L190: You can't just tell  an AI to be logical. It doesn't work.
+L191: 
+L192: You have to show it.
+L193: 
+L194: That’s the secret. The real shift in getting great results. We're moving from a guessing machine to a reasoning partner.
+L195: In this video, I'll break down two powerful ways to do this:
+L196: 
+L197: Few-Shot Prompting. Giving the model a few perfect examples. Not telling it the rules, but letting it see the pattern.
+L198: 
+L199: Chain-of-Thought. Forcing the model to show its work. To think step-by-step. Out loud.
+L200: 
+L201: This isn't about upgrading the AI's memory. It's about upgrading its process.
+L202: 
+L203: We're changing how it thinks. From noise to clarity. Let's begin.
+L204: 
+L205:   * AI as Prompt Architect?2:23
+L206: 
+L207: Your prompts are holding you back.
+L208: Simple requests like 'debug my code' don't work well. They're too broad. Too vague. An AI can't read your mind.
+L209: 
+L210: In this video, I'll show you how to fix that. We're going to use AI to improve our prompts for AI.
+L211: 
+L212: I'll introduce you to two custom GPTs I built: Prompt Architect and Prompt Engineer.
+L213: First, you'll see how 'Prompt Architect' takes a weak prompt and breaks it down. It teaches you. It shows you better options - a specific error-focused version, a general improvement version, and more. It helps you learn to think with more clarity.
+L214: 
+L215: Then, I'll show you a different approach with 'Prompt Engineer'. This one is faster. More direct. It gets straight to building a powerful, structured prompt. It gives the AI a role, defines the task, and sets clear constraints.
+L216: 
+L217: This is how you get results.
+L218: And I'll leave you with one of the most useful tricks I know- a simple line to add to your programming prompts that stops the AI from rewriting your entire code base. It's a game-changer.
+L219: 
+L220:   * [PROMPT] Confidence 0:15
+L221: 
+L222:   * [PROMPT] What did you ASSUME 0:04
+L223: 
+L224:   * [NOTES] Key definitions 1:32
+L225: 
+L226:   * Quiz [Prevention Through Prompt Design]
+L227: ### Prevention through RAG 9 lectures • 50min
+L228: 
+L229:   * What is RAG any why it reduces hallucination?7:13
+L230: 
+L231: AI makes things up. We call it hallucinating.
+L232: 
+L233: It happens for a simple reason: it only knows what it was trained on. It has a great memory, but no access to today's facts.
+L234: 
+L235: This is where RAG comes in.
+L236: 
+L237: Retrieval-Augmented Generation.
+L238: 
+L239: It’s a simple idea with a powerful punch. Before the AI answers, it looks things up. It retrieves fresh, relevant information from a source *you* provide.
+L240: Think of it this way:
+L241: 
+L242: An AI without RAG is a brilliant student answering from memory alone. An AI with RAG is that same student, but now they can check their notes before speaking.
+L243: 
+L244: This one change grounds the AI in reality. Your reality.
+L245: 
+L246: In this video, I break down exactly what RAG is. We’ll look at the two core steps - Retrieval and Generation - and how they work together. You'll understand how we turn your documents, databases, and websites into a knowledge source the AI can use instantly.
+L247: This isn't just theory. This is the most effective way to build reliable, accurate, and trustworthy AI systems. It’s how we move from guessing to knowing.
+L248: 
+L249:   * NoteBookLM - instant RAG database 5:31
+L250: 
+L251: I'm going to show you the easiest way to set up a RAG database. For free.
+L252: 
+L253: We'll use a tool called NotebookLM.
+L254: 
+L255: It’s simple. You give it sources. PDFs, websites, Google Docs, even YouTube links. Anything.
+L256: NotebookLM takes that information and transforms it. It turns your data into a vector database. This is called embedding.
+L257: 
+L258: What does that mean for you?
+L259: 
+L260: It means you now have a personal AI. An AI that is an expert on *your* information. It answers questions based only on the sources you provided.
+L261: 
+L262: No more guessing. No more vague answers.
+L263: Just grounded, factual responses, with citations pointing right back to your documents. We'll explore how to ask it questions, generate reports, quizzes, and even mind maps. All from your source material.
+L264: 
+L265: This is Retrieval-Augmented Generation. Made simple.
+L266: 
+L267:   * How model selection changes hallucinaction rate?1:31
+L268: 
+L269: Hallucination in AI is a real problem.
+L270: 
+L271: Your model starts making things up. It sounds confident, but it's wrong. How do you stop that?
+L272: You choose a better model. One that stays grounded in facts.
+L273: 
+L274: In this video, I show you how to do just that. No theory. Just action.
+L275: 
+L276: First, we'll look at a Hallucination Leaderboard. A simple chart that ranks models on how often they invent information. You'll see which ones are the most reliable at a glance.
+L277: 
+L278: Then, I'll show you how to directly compare two models you're considering. A quick search can reveal exactly what you need to know.
+L279: This is a practical skill. It's about making smart choices *before* you build. It saves you time, headaches, and helps you create applications that people can actually trust.
+L280: 
+L281:   * DeepResearch as tool for looking for reliable information 4:16
+L282: 
+L283: Tired of AI answers?
+L284: 
+L285: The ones that sound good... but aren't quite right?
+L286: 
+L287: There is a better way to get real, fact-checked information. Information grounded in actual sources.
+L288: 
+L289: This is Deep Research.
+L290: It isn't the fast way. It's the right way. A normal search is a guess. Deep Research is a report.
+L291: 
+L292: In this video, I show you the difference. I put them side-by-side. See for yourself how to get answers you can actually trust.
+L293: 
+L294:   * Context Length & Truncation: How Token Limits Cause Hallucinations 12:21
+L295: 
+L296: Let's talk about something that kills AI projects.
+L297: 
+L298: Something nobody sees coming.
+L299: 
+L300: The context limit.
+L301: Every AI model has a wall. A hard limit on how much it can remember at one time. We call this the context window. It's measured in 'tokens' - basically, chunks of words.
+L302: 
+L303: When you hit that wall? Things break. The model starts to forget.
+L304: 
+L305: In this video, I’ll show you exactly how this happens. I'll explain what tokens are, how different models have different limits, and why even a massive context window isn't a magic fix.
+L306: We'll look at the 'lost in the middle' problem - where the model ignores crucial details buried in a long conversation.
+L307: 
+L308: This isn't just a technical detail. It's the direct cause of many AI hallucinations. When a model loses context, it starts guessing. It makes things up. And your reliable assistant becomes a confident liar.
+L309: 
+L310: I’ll give you practical strategies to handle this. How to design for context efficiency. How to spot the warning signs before your users do.
+L311: Because more context isn't always better.
+L312: 
+L313: *Smart* context is.
+L314: 
+L315:   * Create your own RAG db locally - INSTALLATION - part 1 4:54
+L316: 
+L317: Want to build your own RAG system?
+L318: 
+L319: One that runs right on your own machine.
+L320: 
+L321: In this video, I give you a head start. A big one.
+L322: 
+L323: We'll skip the boring setup. Instead, you'll use a repository I already built. It has everything you need to get started. Fast.
+

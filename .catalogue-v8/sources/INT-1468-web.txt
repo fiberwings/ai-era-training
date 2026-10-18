@@ -1,0 +1,470 @@
+EU AI Act Compliance Introduction (https://www.udemy.com/course/eu-ai-act-compliance/)
+citeturn112view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/eu-ai-act-compliance/","lineno":null}); Total lines: 480
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: EU AI Act Compliance Introduction
+L30: 
+L31: Bestseller
+L32: 
+L33: Rating: 4.5 out of 5 4.5cite8†(1,196 ratings) L34: 5,476 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # EU AI Act Compliance Introduction
+L38: 
+L39: A Beginner's Guide to Understanding and Achieving Compliance With European Union Artificial Intelligence Act
+L40: 
+L41: Created bycite9†Robert Barcik , cite10†Jana Gecelovská L42: 
+L43: Last updated 7/2026
+L44: 
+L45: English
+L46: 
+L47: Danish [Auto],German [Auto], 11 more
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Master the core provisions of the EU AI Act, including key definitions, scope, and applicability.
+L53: 
+L54:   * Identify and understand prohibited AI practices outlawed by the EU AI Act to protect your business and its users.
+L55: 
+L56:   * Apply the EU AI Act's risk assessment framework to accurately classify your AI system's risk level.
+L57: 
+L58:   * Implement the compliance measures required for high-risk AI systems under the EU AI Act.
+L59:   * Understand the roles and responsibilities of the regulatory bodies enforcing the EU AI Act.
+L60: 
+L61:   * Stay up-to-date on the evolving landscape of AI regulation, including changes to the EU AI Act and related laws.
+L62: ## Course content
+L63: 
+L64: 10 sections • 97 lectures • 11h 17m total length
+L65: 
+L66: Expand all sections
+L67: ### Welcome to the Course 8 lectures • 34min
+L68: 
+L69:   * Course Overview: Understand & Comply with New Regulations Preview 4:23
+L70: 
+L71: Get an overview of the course that awaits you.
+L72: 
+L73:   * Meet Your AI Regulation Expert Preview 2:47
+L74: 
+L75: Learn from Robert Barcik, a specialist in AI compliance, and navigate the EU AI Act with confidence
+L76: 
+L77:   * Understanding AI for EU AI Act Compliance Preview 10:56
+L78: 
+L79: Demystify AI concepts crucial for understanding and complying with the EU AI Act.
+L80:   * EU AI Act Quickstart: Key Points for Busy Professionals Preview 11:25
+L81: 
+L82: Get the essentials of the EU AI Act in this fast-paced overview for time-pressed individuals.
+L83: 
+L84:   * Ways to reach out 1:44
+L85: 
+L86: Please do not forget that if you have any question or concern with respect to the course, you can always reach out to your instructor Robert.
+L87: 
+L88:   * Test your quickstart knowledge!
+L89: 
+L90:   * Recent Updates, Course Materials & Disclaimer 1:12
+L91: This lecture is constantly updated with the recent news surrounding the EU AI Act.
+L92: 
+L93:   * New Coursebook is available (e-book + PDF)0:16
+L94: 
+L95: This lecture contains new coursebook material available for e-read as well as PDF download.
+L96: 
+L97:   * IMPORTANT: EC Proposes Major Timeline Changes 1:02
+L98: 
+L99: European Comission proposes a major timeline changes.
+L100: ### Intuitive Understanding of the EU AI Act 9 lectures • 1hr 12min
+L101: 
+L102:   * Why the EU AI Act Matters: Protect Your Business & Users 2:42
+L103: 
+L104: Grasp the purpose of the EU AI Act and how it safeguards your business and AI users.
+L105: 
+L106:   * The Urgency of AI Regulation: Risks & Benefits Explained 8:02
+L107: 
+L108: Explore the ethical and practical reasons driving AI regulation and how the EU AI Act balances innovation with responsibility.
+L109: 
+L110:   * Data Bias in AI: Protect Your Systems from Manipulation Preview 13:00
+L111: Learn how biased data leads to unfair AI outcomes and ensure compliance with AI Act standards.
+L112: 
+L113:   * Can We Avoid AI Act by NOT Using AI?13:12
+L114: 
+L115: Discover the key factors that determine whether your systems fall under the EU AI Act regulations.
+L116: 
+L117:   * Roles & Responsibilities in AI Compliance 8:05
+L118: 
+L119: Define the key players (providers, users, etc.) and their compliance obligations under the EU AI Act.
+L120: 
+L121:   * The Future of AI in Europe: Innovation Under the AI Act 6:25
+L122: Gain insights into the long-term impact of the EU AI Act on AI development and ethical use within Europe.
+L123: 
+L124:   * EU AI Act Framework: Navigating the Regulations 7:38
+L125: 
+L126: Break down the EU AI Act's structure for a clear understanding of its key components.
+L127: 
+L128:   * EU AI Act Timeline & Impact: When to Act Preview 10:13
+L129: 
+L130: Know critical deadlines and understand the wide-ranging industries and individuals impacted by the Act.
+L131: 
+L132:   * The 2026 Digital Omnibus: what changed 2:50
+L133: Some notes on important EU AI Act timeline updates.
+L134: 
+L135:   * Shaping the Future of AI: Reflections on Risks, Regulation, and Responsibility
+L136: ### Title I: General Provisions 17 lectures • 2hr 17min
+L137: 
+L138:   * EU AI Act Terminology: Decode the Essential Terms 2:46
+L139: 
+L140: Master the key vocabulary of the EU AI Act for effective communication and compliance.
+L141: 
+L142:   * Autonomy of AI Systems 10:35
+L143: 
+L144: Even though the thought of autonomous AI systems seems straightforward, within this video we will explore that AI system can be characterised as autonomous in various ways.
+L145: 
+L146:   * Expanding Autonomy Understanding 2:14
+L147: EU Guidelines are allowing us to understand why most systems will fall under the "autonomy" part of the definition.
+L148: 
+L149:   * Adaptive AI Systems 18:17
+L150: 
+L151: Explore how 'learning' AI systems fall under the EU AI Act and how regulations are designed to address this.
+L152: 
+L153:   * Inference as Key Characteristic of AI Systems Preview 13:35
+L154: 
+L155: A key characteristic of an AI system is capability to infer. Within this video, we will thoroughly explore what inference means.
+L156:   * Is It AI? The EU Definition & Implications for Your Technology Preview 10:03
+L157: 
+L158: Understand the EU's criteria for classifying AI, ensuring your systems align with the regulation.
+L159: 
+L160:   * EU AI Regulation: Which AI Systems Are Under Scrutiny?12:00
+L161: 
+L162: Learn if your AI systems fall within the scope of EU AI Act, avoiding potential compliance issues.
+L163: 
+L164:   * IMPORTANT: Guideline Clarification on Excluded Systems 2:57
+L165: EU published guidelines on the AI definition. These bring a bit more light onto the issue of whether purely rule-based systems will be classified as AI.
+L166: 
+L167:   * Publicly Accessible Space 3:56
+L168: 
+L169: Term "publicly accessible space" occurs multiple times across the EU AI Act. Within this video, we will explain how EU defines publicly accessible space.
+L170: 
+L171:   * Emotion Detection 5:28
+L172: Emotion detection through AI systems is heavily regulated by the AI Act. However, within this video we will learn the crucial differences between emotions, physical states and gestures.
+L173: 
+L174:   * Key Terms: Provider and Deployer Preview 16:24
+L175: 
+L176: EU AI Act identifies two basic entities when it comes to development and use of AI systems - providers and deployers. Within this video, we will cover both of these terms thoroughly.
+L177: 
+L178:   * Intended Purpose & Reasonably Foreseeable Misuse 6:28
+L179: If you are a provider of an AI system, you need to specify for what is this model intended to be used. Moreover, if you are supposed to think about potential misuses that might arise and specify them.
+L180: 
+L181:   * Special Categories of Personal Data 2:34
+L182: 
+L183: Explains special categories of personal data and how AI use with these data raises high risk and regulatory scrutiny, referencing GDPR and the law enforcement directive.
+L184: 
+L185:   * Key Term: Profiling 4:50
+L186: Explore a key term of "profiling" that involves various activities around classification and modelling on top of pesonal data. This term will be crucial later, when we will be classifying AI systems into high-risk.
+L187: 
+L188:   * Available Open-Source Exceptions 8:36
+L189: 
+L190: EU does not want to suppress innovation within the open-source realm when it comes to AI development. However, if a model wants to be classified as open-source by the AI Act, it has to fulfil several conditions.
+L191:   * IMPORTANT: Article 4 Obligation for Training of Employees 1:08
+L192: 
+L193: Article 4 clearly outlines the obligation for companies to train their employees on AI literacy.
+L194: 
+L195:   * Optional Reading Through Title I 15:13
+L196: 
+L197: Within this lecture, you can find raw texts from the regulation in case you would like to get a good look at them.
+L198: 
+L199:   * Test your knowledge from Title I: General Provisions
+L200: ### Title II: Prohibited Practices 8 lectures • 48min
+L201: 
+L202:   * EU AI Act Red Flags: Prohibited Practices to Avoid Preview 3:24
+L203: 
+L204: Protect your business and users by steering clear of unethical practices outlawed by the EU AI Act.
+L205: 
+L206:   * AI Deception & Manipulation: How the EU AI Act Safeguards Users 9:14
+L207: 
+L208: Learn how the regulation combats harmful uses of AI designed to manipulate & mislead.
+L209: 
+L210:   * Protecting Vulnerable Groups: EU AI Act vs. Exploitative AI Preview 5:12
+L211: Discover how the EU AI Act targets AI systems that exploit the vulnerabilities of individuals or groups.
+L212: 
+L213:   * AI-Driven Discrimination: How the EU AI Act Fights Bias 13:27
+L214: 
+L215: Learn about 'social scoring' systems and how the regulations ensure AI systems uphold fairness.
+L216: 
+L217:   * Biometric AI Surveillance: Where the EU AI Act Draws the Line 5:23
+L218: 
+L219: Understand the EU AI Act safeguards for biometric identification (facial recognition, etc.) and mass surveillance concerns.
+L220: 
+L221:   * The bans you have not heard of 3:18
+L222: Another prohibited practice within EU AI Act.
+L223: 
+L224:   * Test your knowledge from Title II: Prohibited Practices
+L225: 
+L226:   * Optional reading through Title II 7:24
+L227: 
+L228: Within this lecture, you can find raw texts from the regulation in case you would like to get a good look at them.
+L229: 
+L230:   * Upcoming expansion to this section 0:35
+L231: 
+L232: European Commission published Guidelines for Prohibited Practices, which will lead to the expansion of this section of the course.
+L233: ### Title III: High-Risk AI Systems 26 lectures • 4hr 8min
+L234: 
+L235:   * High-Risk AI Systems: The EU AI Act's Strictest Scrutiny 2:46
+L236: 
+L237: Dive into the category of highest scrutiny with an emphasis on your obligations and responsibilities.
+L238: 
+L239:   * Is Your AI High-Risk? EU AI Act Risk Assessment Guide Preview 11:58
+L240: 
+L241: Navigate the risk-based approach with a clear understanding of how to classify your AI systems.
+L242: 
+L243:   * Derogation (Ways Out of High-Risk Classification)Preview 11:42
+L244: Even if your AI use case falls under the Annex III classification, there is a possible "way out" of this classification through possible derrogation. We will explore it in this lecture.
+L245: 
+L246:   * Optional Read Through Title III (Article 6)2:55
+L247: 
+L248: Within this lecture, you can find raw texts from the regulation in case you would like to get a good look at them.
+L249: 
+L250:   * Biometrics (Annex III)9:06
+L251: Explore the stringent EU regulations on biometric systems, focusing on their role in surveillance, authentication, and how these technologies are governed under the AI Act to ensure privacy and human rights.
+L252: 
+L253:   * Critical Infrastructure (Annex III)Preview 9:55
+L254: 
+L255: Understand the AI Act’s requirements for AI systems in critical infrastructure sectors, ensuring their reliability and security in vital areas like energy, transportation, and water supply.
+L256: 
+L257:   * Education and Vocational Training (Annex III)9:34
+L258: Dive into the impact of AI on education and vocational training, examining the AI Act's guidelines for ensuring fairness, transparency, and non-discrimination in these crucial fields.
+L259: 
+L260:   * Employment & Workers' Management (Annex III)7:04
+L261: 
+L262: Learn how the AI Act regulates AI applications in employment, focusing on recruitment, performance monitoring, and worker management to promote fairness and transparency in the workplace.
+L263: 
+L264:   * Access to Essential Services & Benefits (Annex III)9:19
+L265: Discover the AI Act’s provisions for AI systems that manage access to essential services and benefits, ensuring these technologies are used responsibly and equitably in public and private sectors.
+L266: 
+L267:   * Law Enforcement (Annex III)5:49
+L268: 
+L269: Investigate the specific rules governing the use of AI in law enforcement, as outlined in the AI Act, to balance innovation with the protection of fundamental rights and freedoms.
+L270: 
+L271:   * Migration, Asylum & Border Management (Annex III)2:10
+L272: Examine how the AI Act addresses the use of AI in managing migration, asylum, and border control, focusing on ethical considerations and the safeguarding of human rights.
+L273: 
+L274:   * Administration of Justice & Democratic Processes (Annex III)6:18
+L275: 
+L276: Analyze the AI Act’s approach to AI systems in justice and democratic processes, ensuring transparency, fairness, and accountability in decision-making.
+L277: 
+L278:   * Future Changes to Annex III (Article 7)1:34
+L279: Stay informed on the potential future amendments to Annex III under Article 7, understanding how the AI Act can adapt to emerging risks and technological advancements.
+L280: 
+L281:   * Optional Read Through Annex III 4:54
+L282: 
+L283: Within this lecture, you can find raw texts from the regulation in case you would like to get a good look at them.
+L284: 
+L285:   * High-Risk Classification and Annex III
+L286: 
+L287:   * High-Risk AI Compliance: EU AI Act Requirements Checklist Preview 3:49
+L288: Create a practical roadmap for compliance with step-by-step obligations under the Act.
+L289: 
+L290:   * Risk Management System (Article 9)15:31
+L291: 
+L292: Within this lecture, we will examine requirements outlined in Article 9 of the EU AI Act on the establishment of risk management system for high-risk AI systems.
+L293: 
+L294:   * Data & Data Governance (Article 10)7:51
+L295: 
+L296: Requirements for data governance for high-risk AI are substantially extended by Article 10 of the EU AI Act. Let´s examine them.
+L297:   * Technical Documentation (Article 11)14:04
+L298: 
+L299: Article 11 is straightforward - we are supposed to create a documentation for our high-risk AI that elaborates on all the neccessary compliance steps we took when developing and deploying it.
+L300: 
+L301:   * Record Keeping (Article 12)8:00
+L302: 
+L303: When we are deploying a high-risk AI system, we shall establish a thorough record keeping, or logging system. Within this lecture, we will examine simulated case study to see how this might look in practice.
+L304:   * Transparency Towards Deployers (Article 13)5:37
+L305: 
+L306: If we are a provider of an AI system, selling, or otherwise providing the system to other entities (deployers), we shall provide a transparent documentation containing necessary information about this AI system.
+L307: 
+L308:   * Human Oversight (Article 14)9:12
+L309: 
+L310: In order for a high-risk AI system to be compliant, we need to implement functionality of human oversight, that will allow humans to step into the process automated to AI, whenever neccessary.
+L311:   * Accuracy (Article 15)23:30
+L312: 
+L313: Article 15 brings very broad requirements on the performance (accuracy) of high-risk AI systems. Within the lecture, we will dive deeper into several examples to appreciate that in order to be compliant with Article 15, significant technical investments shall be made.
+L314: 
+L315:   * Robustness (Article 15)21:30
+L316: Article 15 brings very broad requirements on the robustness of high-risk AI systems. Within the lecture, we will dive deeper into several examples to appreciate that in order to be compliant with Article 15, significant technical investments shall be made.
+L317: 
+L318:   * Cybersecurity (Article 15)19:10
+L319: 
+L320: We are finishing up our lengthy tour of Article 15 of EU AI Act. Our last topic is enhanced considerations for cybersecurity, stemmed in the use of AI systems.
+L321: 
+L322:   * Optional Read through Title III (Section 2)14:15
+L323: Within this lecture, you can find raw texts from the regulation in case you would like to get a good look at them.
+L324: 
+L325:   * Managing High-Risk AI: Real-World Consequences of the EU AI Act 10:49
+L326: 
+L327: See the tangible impact on business processes, development, and deployment for high-risk AI.
+L328: ### Title IV: Transparency Obligations 8 lectures • 38min
+L329: 
+L330:   * Transparency Obligations for Providers and Deployers (Title IV)0:52
+L331: 
+L332: Within this video, we get an overview of upcoming chapter, within which we focus on Title IV of the EU AI Act.
+L333: 
+L334:   * AI Interacting With Natural Persons 4:14
+L335: 
+L336: If a natural persons interacts with an AI system, it should be clear that this is an interaction with AI and not with another natural person.
+L337: 
+L338:   * Synthetic Content and Deep Fakes Preview 6:21
+L339: Within this lecture, we cover a crucial coneptual difference between synthetic content and deepfakes, which are both mentioned within Title IV of the EU AI Act.
+L340: 
+L341:   * Obligations for Synthetic Content 11:22
+L342: 
+L343: If you produce synthetic content, such as text, image or video, this shall be clearly labelled as a product of artificial intelligence (with exceptions).
+L344: 
+L345:   * Deep Fakes 7:17
+L346: Surprisingly, AI Act allows for a creation of deep fakes. This comes with a transparency obligations that we will discuss within this lecture.
+L347: 
+L348:   * Optional Read Through Title IV 3:02
+L349: 
+L350:   * Test Your Knowledge from Transparency Obligations
+L351: 
+L352:   * The transparency duties nobody covered: Article 50(3) and 50(4)2:07
+L353: 
+L354: Interim teytual lectures on additional transparency duties.
+L355: 
+L356:   * Marking AI content: from speculation to Code of Practice 2:15
+L357: 
+L358: Interim textual lecture on the code of practice.
+L359: ### Title V: General Purpose Artificial Intelligence (GPAI)12 lectures • 50min
+L360: 
+L361:   * Welcome to Title V 2:58
+L362: 
+L363: Get an overview of this section that covers Title V: General Purpose AI.
+L364: 
+L365:   * General Purpose AI Definition 11:01
+L366: 
+L367: Within this lecture, we take a look at how AI Act defines "general purpose AI" and thanks to that, we will learn what distinguishes these models from more casual AI models.
+L368: 
+L369:   * A Deeper Dive into the GPAI Definition 1:18
+L370: GPAI Q&A brought new concretizations to which models will be classified as GPAI.
+L371: 
+L372:   * Obligations for General Purpose AI Model Providers 4:41
+L373: 
+L374: If a model is classified as "general purpose AI", there is a list of specific obligations awaiting. We will cover these obligations within this lecture.
+L375: 
+L376:   * Understanding Your Obligations 1:43
+L377: 
+L378: GPAI Q&A brought new concretizations to the obligations for GPAI.
+L379: 
+L380:   * Classification of General Purpose AI with Systemic Risk 5:39
+L381: Similarly to what we have seen with common AI models with the classification rules into high-risk, we now see that GPAI models can be classified into having systemic risk. In this video, we cover these classification rules.
+L382: 
+L383:   * Classifying Systemic Risk - Beyond the Basics 1:37
+L384: 
+L385: GPAI Q&A brought new concretizations to which models will be classified as GPAI.
+L386: 
+L387:   * Obligations for GPAI with Systemic Risk 3:50
+L388: If a model gets classified as having "systemic risk" there is a list of obligations. We will cover these obligations, within this lecture.
+L389: 
+L390:   * The Safety & Security Framework for Systemic Risk Models 2:17
+L391: 
+L392: GPAI Q&A brought new concretizations to the obligations for GPAI models with systemic risks.
+L393: 
+L394:   * Optional Read Through Title V 11:06
+L395: 
+L396:   * Test Your Knowledge from GPAI
+L397: 
+L398:   * Who signed and who refused: the GPAI Code of Practice 1:51
+L399: 
+L400: Interim textual lecture to cover new updates.
+L401:   * Fine-tuning: when are YOU a provider?1:58
+L402: 
+L403: Interim textual lectures to cover new AI Act updates.
+L404: ### Titles VI+: Regulatory Bodies 4 lectures • 23min
+L405: 
+L406:   * EU AI Act Enforcement: Understanding Regulatory Authorities 2:23
+L407: 
+L408: Meet the key players enforcing the EU AI Act and their roles in ensuring compliance.
+L409: 
+L410:   * EU AI Act Sandboxes: A Safe Space for Innovation and Testing 8:38
+L411: 
+L412: Explore the concept of 'regulatory sandboxes' and how they support AI development with compliance.
+L413: 
+L414:   * AI Regulatory Sandboxes: An Expert's Perspective & Potential Benefits 9:40
+L415: Gain your instructor's insights into the potential of sandboxes and how they can benefit businesses.
+L416: 
+L417:   * EU AI Regulatory Sandboxes: Innovation Gateways
+L418: 
+L419:   * Sandboxes revisited (2026)1:53
+L420: 
+L421: Interim text lecture on the new AI Act updates.
+L422: ### Extra Learnings 4 lectures • 26min
+L423: 
+L424:   * Has anyone been fined yet? (July 2026)1:37
+L425: 
+L426: Interim text lecture on new AI Act Developments.
+L427: 
+L428:   * Standards check 2026: ISO 42001 is not AI Act compliance 1:36
+L429: 
+L430: Interim textual lecture on new AI Act developments.
+L431: 
+L432:   * EU AI Act Action Plan: Getting Your Business Ready for Compliance 5:49
+L433: 
+L434: Develop a clear, step-by-step compliance plan to ensure your business aligns with EU AI Act regulations.
+L435:   * AI Authorship & Ownership: Navigating Copyright in the EU AI Act Era 16:43
+L436: 
+L437: Understand the complex legal issues surrounding AI-generated content, who owns the rights, and how the EU AI Act might shape it.
+L438: ### Bonus Section 1 lecture • 3min
+L439: 
+L440:   * Bonus Lecture 2:35
+L441: 
+L442: This is a bonus lecture.
+L443: 
+L444: ## Requirements
+L445: 
+L446:   * A basic understanding of what artificial intelligence (AI) is and how it works. No technical expertise is required
+L447: ## Description
+L448: 
+L449: Is the new EU Artificial Intelligence Act leaving you confused? Do you need to know how it affects your business, technology projects, or your work in regulation?
+L450: This comprehensive course is your essential guide to understanding and confidently navigating the AI Act. I'm Robert Barcik, an AI & Data Science specialist with over 10 years of experience working on EU projects, including those in regulated industries. Nowadays I am a professional AI Act consultant and trainer, helping businesses of all sizes understand and comply with this complex regulation.
+L451: This course is designed for beginners! Even if you've never heard of the EU AI Act before, you'll gain a solid foundation. Here's what you'll learn:
+L452: 
+L453:   * The basics of the EU AI Act: Understand what it is, why it matters, and whether your AI systems fall under its scope.
+L454: 
+L455:   * Protect your business and users: Learn to recognize and avoid the harmful AI practices that are now prohibited.
+L456:   * Assess your AI's risk level: Use the AI Act framework to classify your systems and determine the steps you need to take for compliance.
+L457: 
+L458:   * Navigate compliance for high-risk AI: Implement the right strategies for data management, risk assessments, and documentation.
+L459: 
+L460:   * Understand AI regulation: Explore the roles of EU authorities and stay up-to-date on any changes to the law.
+L461:   * Real-world examples: See how the EU AI Act impacts businesses like yours, and learn from practical compliance strategies.
+L462: 
+L463: Why Choose This Course?
+L464: 
+L465:   * Expert Guidance: Learn from an AI & regulatory consultant with on-the-ground experience helping businesses navigate the  AI Act.
+L466: 
+L467:   * Up-to-Date Content: I constantly update the course so you have the very latest information on this evolving regulation.
+L468:   * Personalized Support: I'm always available to answer your questions and help you apply these concepts to your specific situation.
+L469: 
+L470: Enroll today and gain the knowledge you need to successfully implement the EU AI Act and safeguard your business in the age of responsible AI.
+L471: ## Who this course is for:
+L472:   * Attorneys, in-house counsel, or legal professionals who need a foundational understanding of the EU AI Act's implications for their clients' businesses and technology use.
+L473:   * Professionals responsible for ensuring their organization adheres to regulations. They need to understand the EU AI Act's specific requirements to develop and implement compliance strategies.
+L474:   * Those involved in the design and development of AI systems who want to understand ethical considerations, potential risks, and compliance obligations mandated by the EU AI Act.
+L475:   * Decision-makers responsible for overseeing the development and deployment of AI-powered products or services. They need to grasp the regulation's impact on innovation, risk management, and market strategies.
+L476:   * Individuals working in regulatory bodies or government agencies tasked with understanding, implementing, or enforcing the EU AI Act. They require a comprehensive knowledge of the regulation.
+L477: Show more Show less
+L478: 
+L479: cite11†Report abuse 

@@ -1,0 +1,183 @@
+Cybersecurity & AI Safety Awareness for Employees (https://www.udemy.com/course/cybersecurity-ai-safety-awareness/)
+citeturn100view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/cybersecurity-ai-safety-awareness/","lineno":null}); Total lines: 193
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Cybersecurity & AI Safety Awareness for Employees
+L30: 
+L31: Role Play
+L32: Rating: 4.5 out of 5 4.5cite8†(458 ratings) L33: 
+L34: 5,382 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # Cybersecurity & AI Safety Awareness for Employees
+L38: 
+L39: Stay Secure at Work: Phishing, AI Risks, Passwords, Data Protection & Incident Response
+L40: 
+L41: Created bycite9†GenMan Solutions L42: 
+L43: Last updated 2/2026
+L44: 
+L45: English
+L46: 
+L47: Arabic [Auto],English [Auto], 3 more
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Recognise phishing, smishing, vishing, and AI-based impersonation attempts by identifying common psychological and technical warning signs.
+L53: 
+L54:   * Detect early indicators of suspicious activity in emails, messages, websites, and workplace systems before damage occurs.
+L55: 
+L56:   * Apply strong password, passphrase, and multi-factor authentication practices to secure personal and work accounts.
+L57:   * Navigate websites, links, and downloads safely by verifying legitimacy even when content appears realistic or AI-generated.
+L58: 
+L59:   * Secure devices and workspaces by adopting simple daily habits that reduce the risk of malware and unauthorised access.
+L60: 
+L61:   * Protect work activities on public Wi-Fi and during remote work using practical, employee-friendly security measures.
+L62: 
+L63:   * Use AI tools responsibly at work by preventing accidental data exposure and avoiding unsafe prompts or inputs.
+L64:   * Identify AI-specific risks such as hallucinations and prompt injection that can lead to incorrect decisions or data leaks.
+L65: 
+L66:   * Respond confidently to suspicious situations using a clear, step-by-step reporting and escalation approach.
+L67: 
+L68:   * Build long-term security habits that align with organisational policies and reduce human-led cybersecurity incidents.
+L69: ## Course content
+L70: 
+L71: 8 sections • 20 lectures • 1h 56m total length
+L72: 
+L73: Expand all sections
+L74: ### Foundations of Cybersecurity and AI Safety for Employees 6 lectures • 16min
+L75: 
+L76:   * Introduction to the Course & Know Your Instructor Preview 3:17
+L77: 
+L78:   * Why Cybersecurity and AI Safety Matter Today Preview 5:00
+L79: 
+L80: Learn how cybersecurity and ai safety awareness help employees recognize phishing, malware, and social engineering, and practice mindful behaviors like pausing, verifying sources, and reporting suspicious activity.
+L81: 
+L82:   * How Attackers Use Human Instincts — The Psychology Behind Modern Scams 3:51
+L83: Attackers exploit five human instincts—urgency, trust, curiosity, fear, and helpfulness—amplified by AI to make scams believable; recognize patterns, slow down, and apply risk-check habits.
+L84: 
+L85:   * The Urgent Request — Recognising Risk in Everyday Communication
+L86: 
+L87:   * Course Presentation For Download 0:02
+L88: 
+L89:   * You've reached your first milestone!3:24
+L90: Celebrate reaching your first milestone in cybersecurity and ai safety awareness for employees, and learn to rate the course, adjust playback, enable subtitles, and ask questions via Q&A.
+L91: ### Social Engineering and Communication-Based Attacks 1 lecture • 7min
+L92: 
+L93:   * How Cyberattacks Reach You — Phishing, Smishing, Vishing & AI Impersonation Preview 6:44
+L94: 
+L95: Discover how phishing, smishing, vishing, and AI impersonation exploit urgency, trust, curiosity, fear, and helpfulness through email, text messages, calls, and video to prompt fast actions.
+L96: ### Securing Accounts and Everyday Online Activity 6 lectures • 38min
+L97: 
+L98:   * Protecting Your Accounts — Passwords, Passphrases & Multi-Factor Authentication 7:04
+L99: 
+L100: Learn why long passphrases and multi-factor authentication protect your accounts from email, HR systems, and cloud tools, while password managers simplify security and guard against AI-powered credential cracking.
+L101: 
+L102:   * Safe Browsing — How to Stay Secure on the Web When Everything Looks Real 6:29
+L103: Learn to stay secure while browsing by recognizing AI-generated fake sites, avoiding drive-by downloads and malvertising, using direct URLs and bookmarks, keeping software updated, and using only company-approved extensions.
+L104: 
+L105:   * Public Wi-Fi, Personal Devices & AI-Enhanced Network Attacks 8:27
+L106: 
+L107: Learn how public Wi-Fi, personal devices, and AI-enabled attacks threaten accounts, and adopt safe habits—use trusted networks, a VPN, updated devices, and approved apps and extensions.
+L108:   * Protecting Your Devices & Workspace — Small Habits That Prevent Big Incidents 8:06
+L109: 
+L110: Lock your screen whenever you step away to prevent data exposure. Don't plug in unknown USB devices; enable encryption and report lost devices to IT.
+L111: 
+L112:   * Remote Work Security — Staying Safe When Home Becomes the New Workplace 8:12
+L113: Strengthen remote work security by locking down home networks, updating routers, and using a separate work network; protect personal devices and separate work and personal accounts with a company VPN.
+L114: 
+L115:   * Everyday Security Decisions — Protecting Accounts, Devices, and Online Activity
+L116: ### Detecting and Responding to Threats Early 3 lectures • 12min
+L117: 
+L118:   * Early Warning Signs — How to Spot When Something Isn’t Right 7:15
+L119: 
+L120: Learn to spot early warning signs of cyber threats—from slightly off messages to unusual device behavior—and verify via separate channels, report suspicions, and enable multi-factor authentication.
+L121: 
+L122:   * What To Do When Something Looks Suspicious — A Simple 3-Step Response 5:12
+L123: Pause, capture, and report when something looks suspicious to stop interacting, preserve evidence, and alert security, preventing AI-driven scams and other threats.
+L124: 
+L125:   * Something Feels Off — What Should You Do Next?
+L126: ### Safe and Responsible Use of AI at Work 2 lectures • 14min
+L127: 
+L128:   * Using AI Safely at Work — Preventing Accidental Data Exposure 5:26
+L129: 
+L130: Learn to use ai safely at work by sticking to company approved tools, avoiding public ai platforms for sensitive data exposure, and practicing safe prompting with placeholders.
+L131: 
+L132:   * AI Risks Employees Don’t Expect — Hallucinations and Prompt Injection 8:33
+L133: Explore AI risks such as hallucinations and prompt injection, and apply safe, verified practices: use company approved tools, review outputs, verify facts, and avoid unverified content.
+L134: ### Data Protection and Information Handling 1 lecture • 10min
+L135: 
+L136:   * Handling Sensitive Data in an AI World — What You Can and Cannot Share 9:31
+L137: 
+L138: Learn to classify data, minimize exposure, and share information safely using company tools and clear rules to prevent data breaches in an AI-enabled world.
+L139: ### Malware, Ransomware and Incident Reporting 2 lectures • 14min
+L140: 
+L141:   * Malware & Ransomware — How Attacks Start and How to Stop Them Early 7:43
+L142: 
+L143: Learn how malware and ransomware enter devices through normal work actions and why early detection matters; recognize subtle warning signs and report suspicious activity to stop attacks before they escalate.
+L144: 
+L145:   * Why Early Reporting Matters — What Happens After You Raise a Concern 6:07
+L146: Understand why early reporting matters and how quick risk assessment limits damage. Recognize early signals, protect colleagues, and prevent threats from spreading.
+L147: ### Course Wrap Up and Behaviour Change 2 lectures • 6min
+L148: 
+L149:   * Building Strong Security Habits — Small Actions That Protect Everyone 5:33
+L150: 
+L151: Turn actions into strong cybersecurity and AI safety habits, pausing before clicking, verifying requests and data handling, protecting accounts with a company approved password manager and MFA, and reporting early.
+L152: 
+L153:   * Bonus Lecture 0:41
+L154: ## Requirements
+L155: 
+L156:   * No technical background or cybersecurity experience is required. You only need basic familiarity with using a computer, email, the internet, and common workplace tools, making this course suitable for complete beginners.
+L157: ## Description
+L158: 
+L159: This course contains the use of artificial intelligence.
+L160: 
+L161: (Some images used in this course have been created using artificial intelligence (AI) for illustrative and educational purposes. These images are not real photographs of actual people, organisations, or events and are intended solely to support learning and understanding.)
+L162: If you are an employee who uses email, messaging apps, cloud tools, or AI tools at work, this course is for you.
+L163: Have you ever wondered how a single click on a link, a quick file upload to an AI tool, or a rushed reply to an urgent message could put your organisation at risk? Do you sometimes feel that cybersecurity sounds too technical, or that AI risks are someone else’s problem? This course is designed to change that — clearly, practically, and without technical jargon.
+L164: This course gives you a clear, real-world understanding of how modern cyberattacks and AI-related risks actually reach employees, and how small everyday actions can either prevent or trigger serious security incidents. Instead of focusing on complex tools or policies, it focuses on you — your decisions, habits, and responses — and shows how they directly impact organisational security.
+L165: 
+L166: In this course, you will:
+L167:   * Develop the ability to recognise phishing, smishing, vishing, and AI-based impersonation attempts before they cause damage
+L168: 
+L169:   * Build strong everyday security habits around passwords, multi-factor authentication, browsing, and device usage
+L170: 
+L171:   * Strengthen your awareness of AI risks such as accidental data exposure, hallucinations, and prompt injection
+L172: 
+L173:   * Apply simple, practical steps to respond quickly and correctly when something feels suspicious
+L174:   * Adopt safe data-handling practices in an AI-enabled workplace
+L175: 
+L176:   * Reinforce secure behaviours for remote work, public Wi-Fi, and personal devices
+L177: Why is this topic so important?
+L178: Cybersecurity incidents today rarely start with sophisticated hacking — they start with human behaviour. At the same time, AI tools are now part of everyday work, quietly introducing new risks that most employees are not trained to spot. Organisations can invest in the best technology, but one unintentional mistake can still open the door. This course empowers you to become a strong first line of defence, not through fear, but through awareness and confidence.
+L179: Throughout the course, you will engage with short, focused video lectures, practical explanations, and quizzes that reinforce real-world decision-making. The scenarios are workplace-relevant and globally applicable, helping you connect concepts directly to what you do every day.
+L180: What makes this course different is its employee-first approach. It avoids technical overload and policy-heavy language, focusing instead on realistic situations, simple mental models, and clear actions you can take immediately. The course also bridges cybersecurity and AI safety — a combination most awareness programs still treat separately — making it highly relevant for today’s AI-enabled workplace.
+L181: If you want to work smarter with technology while staying safe, confident, and responsible, this course is for you.
+L182: Enroll now and start building security habits that protect you, your data, and your organisation — one decision at a time.
+L183: ## Who this course is for:
+L184:   * Office employees who want to avoid accidental security mistakes while using email, cloud tools, and AI at work.
+L185:   * Remote and hybrid workers who want to stay secure when working from home, cafés, or public networks.
+L186:   * Non-technical professionals who want practical cybersecurity and AI safety guidance without technical jargon.
+L187:   * Employees using AI tools who want to prevent data exposure, unsafe prompts, and AI-related errors.
+L188:   * Managers and team leads who want to reduce human-led security risks across their teams.
+L189:   * New joiners and early-career professionals who want to build strong security habits from day one.
+L190: Show more Show less
+L191: 
+L192: cite10†Report abuse 

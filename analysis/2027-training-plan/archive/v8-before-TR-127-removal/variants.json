@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Option 3B: SecAI+ Practitioner credential extension",
+    "cohort": "practitioner",
+    "selected": [
+      "TR-100",
+      "TR-129",
+      "TR-155"
+    ],
+    "coverage": 0.4833333333333333,
+    "cumulativeCoverage": 0.45886243386243386,
+    "critical": 1,
+    "cumulativeCritical": 3,
+    "course": {
+      "hours": 13.933333333333334,
+      "unknown": 0
+    },
+    "cumulativeCourse": {
+      "hours": 17.85,
+      "unknown": 0
+    },
+    "internal": 9,
+    "needs": [
+      {
+        "id": "N4",
+        "coverage": 0.6666666666666666
+      },
+      {
+        "id": "N7",
+        "coverage": 0.4666666666666667
+      },
+      {
+        "id": "N8",
+        "coverage": 0.26666666666666666
+      },
+      {
+        "id": "N9",
+        "coverage": 0.5333333333333333
+      }
+    ],
+    "revisionHoursEstimate": 6,
+    "examHoursCatalogue": 1,
+    "note": "Raise Practitioner course budget to 14h. Six revision hours are a starting estimate, not a pass guarantee. Confirm exam duration at booking."
+  },
+  {
+    "name": "Option 3B: GAIPS technical specialisation",
+    "cohort": "technical",
+    "selected": [
+      "TR-001",
+      "TR-063"
+    ],
+    "coverage": 0.4855555555555555,
+    "cumulativeCoverage": 0.41346153846153844,
+    "critical": 0,
+    "cumulativeCritical": 6,
+    "course": {
+      "hours": 32,
+      "unknown": 0
+    },
+    "cumulativeCourse": {
+      "hours": 40.416666666666664,
+      "unknown": 0
+    },
+    "internal": 21,
+    "needs": [
+      {
+        "id": "N5",
+        "coverage": 0.6666666666666666
+      },
+      {
+        "id": "N10",
+        "coverage": 0.4583333333333333
+      },
+      {
+        "id": "N11",
+        "coverage": 0.2777777777777778
+      },
+      {
+        "id": "N12",
+        "coverage": 0.625
+      },
+      {
+        "id": "N14",
+        "coverage": 0.4
+      }
+    ],
+    "revisionHoursEstimate": 8,
+    "examHoursVerified": 2,
+    "note": "Replaces 11h technical core with 32h. Raise course budget to 32h. Internal capstone remains 12h. Revision may need more time; current exam is 2h."
+  },
+  {
+    "name": "Option 4: Non-coding Practitioner adaptation",
+    "cohort": "practitioner",
+    "selected": [
+      "TR-129"
+    ],
+    "coverage": 0.3333333333333333,
+    "cumulativeCoverage": 0.37059082892416223,
+    "critical": 4,
+    "cumulativeCritical": 6,
+    "course": {
+      "hours": 2,
+      "unknown": 0
+    },
+    "cumulativeCourse": {
+      "hours": 6.8,
+      "unknown": 0
+    },
+    "internal": 12,
+    "needs": [
+      {
+        "id": "N4",
+        "coverage": 0.6666666666666666
+      },
+      {
+        "id": "N7",
+        "coverage": 0.4
+      },
+      {
+        "id": "N8",
+        "coverage": 0.26666666666666666
+      },
+      {
+        "id": "N9",
+        "coverage": 0
+      }
+    ],
+    "note": "Remove TR-100 rather than claiming full-course credit for a demo. Add 3h assisted no-code evaluation-harness practice; no assessed credit until internally evidenced."
+  },
+  {
+    "name": "Option 4: Provisional organisational-design course removed",
+    "cohort": "technical",
+    "selected": [
+      "TR-003",
+      "INT-194",
+      "TR-063",
+      "TR-094"
+    ],
+    "coverage": 0.4572222222222222,
+    "cumulativeCoverage": 0.4562881562881564,
+    "critical": 2,
+    "cumulativeCritical": 5,
+    "course": {
+      "hours": 13.183333333333334,
+      "unknown": 0
+    },
+    "cumulativeCourse": {
+      "hours": 22.483333333333334,
+      "unknown": 0
+    },
+    "internal": 21,
+    "needs": [
+      {
+        "id": "N5",
+        "coverage": 0.6666666666666666
+      },
+      {
+        "id": "N10",
+        "coverage": 0.5416666666666666
+      },
+      {
+        "id": "N11",
+        "coverage": 0.2777777777777778
+      },
+      {
+        "id": "N12",
+        "coverage": 0.6666666666666666
+      },
+      {
+        "id": "N14",
+        "coverage": 0.13333333333333333
+      }
+    ],
+    "note": "Shows consequence if Q1 pilot rejects INT-2478; internal replacement does not retain its scores."
+  }
+]

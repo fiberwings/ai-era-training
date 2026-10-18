@@ -1,0 +1,16 @@
+# Local operating-system files
+.DS_Store
+
+# Dependencies and Python caches
+node_modules
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample

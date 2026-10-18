@@ -1,0 +1,242 @@
+Governance for Generative AI (https://www.udemy.com/course/governance-for-generative-ai/)
+citeturn128view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/governance-for-generative-ai/","lineno":null}); Total lines: 252
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Governance for Generative AI
+L30: 
+L31: Rating: 4.4 out of 5 4.4cite8†(746 ratings) L32: 
+L33: 2,562 students
+L34: cite0†Image†img-c.udemycdn.com Preview this course
+L35: # Governance for Generative AI
+L36: 
+L37: Learn Governance for Generative AI | Understand how to build a GenAI Governance Program | Elevate your Career
+L38: 
+L39: Created bycite9†Christopher Nett | 150.000+ Enrollments L40: 
+L41: Last updated 1/2026
+L42: 
+L43: English
+L44: 
+L45: English [Auto],French [Auto], 3 more
+L46: 
+L47: cite0†Image†img-c.udemycdn.com Preview this course
+L48: ## What you'll learn
+L49: 
+L50:   * Basics - Generative AI: Gain a foundational understanding of generative AI, its capabilities, applications, and the challenges it presents in corporate environm
+L51: 
+L52:   * Corporate Governance: Explore the principles of corporate governance and how they apply to AI ethics, compliance, and risk management in organizations.
+L53: 
+L54:   * Cybersecurity for Generative AI: Learn about the security risks associated with generative AI, including data privacy, adversarial attacks, and mitigation strat
+L55:   * Risks for Generative AI: Examine the key risks generative AI poses, such as misinformation, bias, regulatory concerns, and operational vulnerabilities.
+L56: 
+L57:   * Building a Governance Program for GenAI: Analyze a real-world example of how organizations develop and implement governance frameworks to manage AI.
+L58: 
+L59:   * AI Governance with Azure Policy: Explore how Azure Policy can be leveraged to enforce AI governance,.
+L60: ## Course content
+L61: 
+L62: 8 sections • 38 lectures • 1h 36m total length
+L63: 
+L64: Expand all sections
+L65: 
+L66: ### Introduction 2 lectures • 1min
+L67: 
+L68:   * Welcome Preview 1:13
+L69: 
+L70: Gain practical governance insights for generative AI from real-world cloud, cybersecurity, and AI architecture experience drawn from a decade at Azure and Microsoft.
+L71: 
+L72:   * FAQs 0:16
+L73: ### Basics - Generative AI 5 lectures • 13min
+L74: 
+L75:   * What is Generative AI?Preview 1:31
+L76: 
+L77: Define generative AI and how it creates content—from text to images and audio—using machine learning and generative adversarial networks. Explore applications in content creation, and note copyright, misinformation, and biases.
+L78: 
+L79:   * What is a Large Language Model (LLM)?Preview 2:39
+L80: Discover how large language models predict the next token from context, not real intelligence, through probability-based word choices and simple examples like 'how do you feel'.
+L81: 
+L82:   * What is a Prompt?Preview 3:41
+L83: 
+L84: Prompts are the inputs you provide to large language models to generate a desired response, using natural language, structured commands, or code cues.
+L85: 
+L86:   * LLM Architecture Preview 3:27
+L87: Explore the large language model architecture from user prompts through application services and plugins to downstream databases and websites, highlighting automation agents, external data sources, and cross-layer security.
+L88: 
+L89:   * AI Models 1:20
+L90: 
+L91: Explore how ai models train on text, images, speech, or structured data to establish a foundation model, then adapt it for use-case specific tasks like analysis or object recognition.
+L92: ### Corporate Governance 3 lectures • 11min
+L93: 
+L94:   * What is Corporate Governance?2:07
+L95: 
+L96: Define corporate governance as a system of rules, practices, and processes that direct a firm, including cybersecurity and generative AI. Use enterprise risk management to make risks transparent for decision-making.
+L97: 
+L98:   * What is Enterprise Risk Management?3:59
+L99: Explore how enterprise risk management operationalizes corporate governance by identifying, analyzing, prioritizing, and responding to preventable, strategic, and external risks—emphasizing cybersecurity, financial, environmental, and cloud-provider bankruptcy concerns, plus continuous monitoring.
+L100: 
+L101:   * What is Cyber Security Risk Management?5:09
+L102: Identify and manage cyber security risks by understanding CIA protections, evaluating threats, vulnerabilities, and impacts, and applying remediation, mitigation, avoidance, transfer, or acceptance, often using a heatmap to prioritize actions.
+L103: ### Cybersecurity for Generative AI 7 lectures • 25min
+L104: 
+L105:   * The Importance of Security in GenAI 3:42
+L106: 
+L107: Highlight the importance of security in generative ai by protecting sensitive data and privacy. Build trust and reliability with robust cyber security, ai systems integrity, and compliant practices.
+L108: 
+L109:   * Threat Vectors for a GenAI Application 3:48
+L110: Identifies prominent threat vectors for GenAI apps, covering prompt injection, data leakage, overreliance, data poisoning, supply chain risks, insecure plugins, and jailbreaks across AI data, usage, application, and platform.
+L111: 
+L112:   * What is OWASP?1:13
+L113: 
+L114: Explore the Open Worldwide Application Security Project, known for the top ten risks for web apps, APIs, and large language models, plus ZAP and the Web Security Testing Guide.
+L115: 
+L116:   * OWASP Top 10 for LLMs 5:48
+L117: Explore the OWASP top ten for llms, from prompt injection to model theft, and learn how insecure outputs, data poisoning, and supply chain risks threaten governance of generative AI.
+L118: 
+L119:   * How Adversaries Leverage AI 3:33
+L120: 
+L121: Show how adversaries leverage AI to fuel misinformation, create fake images and news, and craft highly personalized phishing at scale, including impersonation and SEO fraud.
+L122: 
+L123:   * Shared Responsibility in AI 4:02
+L124: Explore the shared responsibility model for AI in the Microsoft cloud, clarifying customer versus Microsoft duties across iaas, paas, and saas offerings.
+L125: 
+L126:   * Microsoft Responsible AI 2:56
+L127: 
+L128: Explore how Microsoft defines responsible artificial intelligence in governance for generative artificial intelligence, focusing on fairness, reliability, safety, privacy, security, inclusiveness, transparency, and accountability.
+L129: ### Risks for Generative AI 6 lectures • 17min
+L130: 
+L131:   * Inherent LLM Risks 4:25
+L132: 
+L133: Assess inherent large language model risks, from imaginative yet unreliable outputs to suggestible, exploitable behavior, and cybersecurity threats like data exfiltration and prompt injections.
+L134: 
+L135:   * Transparency & Accountability 3:20
+L136: Explain transparency and accountability in generative AI, tackling opaque decision making, auditability, error attribution, trust risks, and legal and ethical concerns to build trusted, compliant systems.
+L137: 
+L138:   * Regulatory Compliance 2:38
+L139: 
+L140: navigate the evolving regulatory landscape for generative ai by addressing global inconsistencies, sector-specific rules, and data protection laws, while ensuring thorough reporting and audit readiness.
+L141: 
+L142:   * Hallucinations 2:24
+L143: Explore the risks of AI hallucinations, including factually incorrect outputs, overreliance, and impacts on decision making in critical fields, and the role of data quality and monitoring in mitigating them.
+L144: 
+L145:   * Bias and Discrimination 2:11
+L146: 
+L147: Explore how bias and discrimination arise in general ai systems, how training data amplifies existing biases, and the resulting discriminatory decisions and legal risks.
+L148: 
+L149:   * Copyright Infringement and Violation of Intellectual Property 2:15
+L150: Explore the risks of copyright infringement and intellectual property violations in generative ai, including unauthorized use of materials, legal liabilities, model rights, economic impact on creators, and liability complexity.
+L151: ### Case Study - Building a Governance Program for GenAI 9 lectures • 16min
+L152: 
+L153:   * Scenario 0:36
+L154: 
+L155: Learn how a cyber security professional at a car manufacturer builds a governance program for generative AI to govern AI-enabled business processes.
+L156: 
+L157:   * Establish a GenAI Governance Committee 1:50
+L158: Establish a GenAI governance committee by including cross-functional leaders from IT, legal, compliance, HR, and business units; define roles, schedule regular meetings, engage diverse stakeholders, and track governance KPIs.
+L159: 
+L160:   * Develop Comprehensive Governance Policies and Guidelines 1:38
+L161: 
+L162: Develop comprehensive governance policies with the Chennai committee, covering ethical standards, data security and handling, compliance checklists, transparency, and regular updates of regulations and tech changes.
+L163:   * Implement Risk Management Practices 2:18
+L164: 
+L165: Develop robust risk management for generative AI by identifying, assessing, and prioritizing risks. Conduct vendor and third-party AI service assessments, implement monitoring, mitigation, and crisis response plans.
+L166: 
+L167:   * Training and User Awareness Programs 2:11
+L168: 
+L169: Develop role-specific training and ongoing awareness to support AI governance, covering cybersecurity risks, workshops, e-learning delivery, certifications, and continuous updates based on feedback.
+L170:   * Adopt AI Ethics and Standards Frameworks 1:34
+L171: 
+L172: Select relevant international or industry AI ethics frameworks, such as Microsoft Responsible AI, and embed them into governance policies, train stakeholders, and conduct audits to ensure adherence for generative AI.
+L173: 
+L174:   * Enhance Monitoring and Feedback Mechanisms 1:59
+L175: Enhance monitoring and feedback for generative AI by implementing monitoring tools, real-time alerts for anomalies, user surveys, analytics, and governance committee reviews to drive actionable improvements.
+L176: 
+L177:   * Define Data and Identity Governance 2:14
+L178: 
+L179: Define data and identity governance for AI with proactive data lifecycle management, data quality checks, role-based access, least privilege, advanced identity verification tools, and compliance audits.
+L180: 
+L181:   * Continuous Improvement and Adaptation 1:25
+L182: Implement continuous improvement and adoption of the governance program by leveraging feedback loops, monitoring, and technology watch to rapidly adapt policies for generative AI through pilot tests and stakeholder forums.
+L183: ### Case Study - AI Governance with Azure Policy 5 lectures • 13min
+L184: 
+L185:   * Azure Resource Hierarchy 3:13
+L186: 
+L187: Learn how the Azure resource hierarchy uses management groups, subscriptions, and resource groups to cluster resources by lifecycle, location, department, or criticality, enabling governance and cost control.
+L188: 
+L189:   * Azure Subscription Types 2:03
+L190: Explore Azure subscription types, including free, student, pay-as-you-go, and enterprise agreement, with emphasis on free and student options for demos in this governance for generative ai course.
+L191: 
+L192:   * Entra ID Tenants and Azure Subscriptions 1:39
+L193: 
+L194: Discover how Entra ID tenants host identities that access Azure resources in subscriptions and resource groups, clarifying that subscriptions are not tenants.
+L195: 
+L196:   * Get your Azure Subscription 0:59
+L197: Learn how to create a free Azure subscription by choosing between free and pay as you go and providing personal details. Log in at portal.azure.com to start building in Azure.
+L198: 
+L199:   * Azure Policy 4:37
+L200: 
+L201: Define guardrails for azure resources with json policy definitions and policy initiatives. Use policy effects like audit and deny to enforce defender for cloud and servers.
+L202: ### Bonus 1 lecture • 1min
+L203: 
+L204:   * Bonus 0:52
+L205: 
+L206: Celebrate finishing this governance for generative ai course by leaving a review, explore discounts on all courses at Christopher Net.com, and subscribe to Azure and cybersecurity newsletters.
+L207: 
+L208: ## Requirements
+L209: 
+L210:   * Basic IT Knowledge
+L211: 
+L212:   * Willingness to learn cool stuff!
+L213: ## Description
+L214: 
+L215: This course contains the use of artificial intelligence.
+L216: Governance for Generative AI is a meticulously structured Udemy course aimed at IT professionals seeking to master Governance for Generative AI to leverage the power of generative AI. This course systematically walks you through the initial basics to advanced concepts with applied case studies. You will gain a deep understanding of the principles and practices necessary for effective governance. The course combines theoretical knowledge with practical insights to ensure comprehensive learning.
+L217: By the end of the course, you'll be equipped with the skills to implement governance frameworks that align with your enterprise's strategic goals.
+L218: By learning Governance for Generative AI, you're gaining proficiency on how to effectively govern GenAI in your enterprise.
+L219: 
+L220: Key Benefits for you:
+L221: 
+L222:   1. Basics - Generative AI: Gain a foundational understanding of generative AI, its capabilities, applications, and the challenges it presents in corporate environments.
+L223: 
+L224:   2. Corporate Governance: Explore the principles of corporate governance and how they apply to AI ethics, compliance, and risk management in organizations.
+L225:   3. Cybersecurity for Generative AI: Learn about the security risks associated with generative AI, including data privacy, adversarial attacks, and mitigation strategies.
+L226: 
+L227:   4. Risks for Generative AI: Examine the key risks generative AI poses, such as misinformation, bias, regulatory concerns, and operational vulnerabilities.
+L228:   5. Case Study - Building a Governance Program for GenAI: Analyze a real-world example of how organizations develop and implement governance frameworks to manage AI risks effectively.
+L229: 
+L230:   6. Case Study - AI Governance with Azure Policy: Explore how Azure Policy can be leveraged to enforce AI governance, ensuring compliance and security in cloud-based AI systems.
+L231: 
+L232: This course contains promotional materials.
+L233: ## Who this course is for:
+L234: 
+L235:   * SOC Analyst
+L236:   * Security Engineer
+L237:   * Security Consultant
+L238:   * Security Architect
+L239:   * Security Manager
+L240:   * CISO
+L241:   * Cybersecurity Professional
+L242:   * IT Architect
+L243:   * CIO
+L244:   * Prompt Engineer
+L245:   * GenAI Architect
+L246:   * Data Scientist
+L247:   * Cloud Architect
+L248: 
+L249: Show more Show less
+L250: 
+L251: cite10†Report abuse 

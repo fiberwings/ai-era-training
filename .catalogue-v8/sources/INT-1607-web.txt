@@ -1,0 +1,236 @@
+Generative AI - Risk and Cyber Security Masterclass 2026 (https://www.udemy.com/course/generative-ai-risk-and-cybersecurity-masterclass-2023/)
+citeturn116view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/generative-ai-risk-and-cybersecurity-masterclass-2023/","lineno":null}); Total lines: 250
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: Generative AI - Risk and Cyber Security Masterclass 2026
+L41: 
+L42: Role Play
+L43: 
+L44: Rating: 4.5 out of 5 4.5cite12†(11,413 ratings) L45: 
+L46: 36,903 students
+L47: 
+L48: cite0†Image†img-c.udemycdn.com Preview this course
+L49: # Generative AI - Risk and Cyber Security Masterclass 2026
+L50: 
+L51: Learn the cyber security risks around Generative AI and how to mitigate them
+L52: 
+L53: Created bycite13†Taimur Ijlal | Award winning cybersecurity leader and instructor L54: 
+L55: Last updated 3/2026
+L56: 
+L57: English
+L58: 
+L59: German [Auto],English [Auto], 15 more
+L60: 
+L61: cite0†Image†img-c.udemycdn.com Preview this course
+L62: ## What you'll learn
+L63: 
+L64:   * How Generative AI is a game changer for risk and security
+L65: 
+L66:   * What are the key risks in Generative AI
+L67: 
+L68:   * What are the unique risks that Generative AI introduces
+L69: 
+L70:   * How to secure a Generative AI system
+L71: 
+L72: ## Course content
+L73: 
+L74: 4 sections • 25 lectures • 3h 12m total length
+L75: 
+L76: Expand all sections
+L77: ### Introduction 5 lectures • 35min
+L78: 
+L79:   * Introduction Preview 12:17
+L80: 
+L81: Explore the key security risks of generative ai and llms, learn a risk framework and threat modeling, and implement actionable policies and controls for safe enterprise use.
+L82: 
+L83:   * What is Generative AI Preview 11:08
+L84: 
+L85: Explore generative ai's ability to create text, images, music, and videos using deep learning and generative adversarial networks, while examining risks and security implications.
+L86: 
+L87:   * What are Large Language Models 6:15
+L88: Discover what large language models are and how they generate human-like text. Learn their training, use cases, limitations, and security considerations for risk and cyber security.
+L89: 
+L90:   * Generative AI vs Agentic AI 5:44
+L91: 
+L92:   * Meeting with the CIO to decide Agentic or GenAI
+L93: ### Risks in Generative AI 15 lectures • 1hr 43min
+L94: 
+L95:   * Generative AI Risks 6:31
+L96: 
+L97: Explore the privacy and security risks of generative AI, including data leakage, hallucinations, and prompt injections, and learn how CISOs balance security with business value amid rapid adoption and guardrails.
+L98: 
+L99:   * Data Privacy and Confidentiality 7:53
+L100: Understand data privacy and confidentiality risks in public generative AI, including data leakage, third-party processing, and regulatory exposure under GDPR, HIPAA, and PCI DSS, with opt-out and anonymization considerations.
+L101: 
+L102:   * GenAI Provider Breach 6:27
+L103: 
+L104: examine the generative ai provider breach risk, including privacy exposure, data breaches via provider vulnerabilities like Redis, concentration risk, and mitigations such as policy, anonymization, DLP, CASB, and threat modeling.
+L105:   * Evolution of Threat Actors 13:17
+L106: 
+L107: Threat actors deploy generative AI to escalate phishing, social engineering, deep fake scams, and mutating malware, demanding updated awareness and defenses.
+L108: 
+L109:   * Data Leakage 7:07
+L110: 
+L111: Explore data leakage risks in generative AI and LLMs. Understand unintentional and intentional scenarios and implement output filtering, anonymization, access controls, monitoring, and audits to prevent exposure.
+L112: 
+L113:   * Prompt Injections 12:43
+L114: Understand prompt injections in generative ai, how attackers bypass filters to cause data leakage or unauthorized actions, and the defense through guardrails and context-aware filtering.
+L115: 
+L116:   * Prompy Injections - Demo 4:58
+L117: 
+L118: Demonstrates prompt injections in a hands-on sandbox, escalating levels to reveal how attackers coax a password from a mini LLM using storytelling, translation, and encoding tricks for security teams.
+L119: 
+L120:   * Indirect Prompt Injections 7:43
+L121: Explore indirect prompt injections, where attackers place malicious prompts in data sources like websites, PDFs, or chats, and learn defensive strategies such as input and output filtering and local hosting.
+L122: 
+L123:   * Inadequate Sandboxing 4:33
+L124: 
+L125: Examine inadequate sandboxing that leaves llms exposed to external systems, enabling prompt injection, unauthorized code execution, and data breaches; learn to isolate, limit permissions, and audit.
+L126: 
+L127:   * Hallucinations 6:15
+L128: Explore how hallucinations in generative ai arise from overreliance on llm content, causing misinformation, miscommunication, and reputational risk, and learn verification, human oversight, and transparency about limitations.
+L129: 
+L130:   * Server Side Request Forgery (SSRF)4:08
+L131: 
+L132: Explore server side request forgery risks, where unvalidated URLs enable internal access, and learn practical mitigations like input validation, sandboxing, allow lists, and monitoring to prevent SSRF.
+L133: 
+L134:   * DDOS attacks 2:55
+L135: Explore how denial-of-service attacks threaten the availability of generative AI systems, with risk management strategies such as local hosting, threat modeling, due diligence on third-party providers, and security testing.
+L136: 
+L137:   * Data Poisoning 6:56
+L138: 
+L139: Identify data poisoning as a risk in generative AI, where attackers manipulate training data or fine-tuning to insert backdoors and mislead outputs, and learn protections like data integrity and audits.
+L140: 
+L141:   * Model Bias 7:54
+L142: Explore model bias in AI, illustrated by a Bloomberg study on Stable Diffusion that shows skews in skin tone and gender across occupations, highlighting training data diversity and transparency needs.
+L143: 
+L144:   * Copyright Violations 3:29
+L145: 
+L146: Understand copyright risks in generative AI, where tools like ChatGPT, Midjourney, and Stable Diffusion train on copyrighted data without consent, creating legal exposure and requiring policy controls.
+L147: ### How to Secure Generative AI 5 lectures • 50min
+L148: 
+L149:   * How to Secure Generative AI 9:41
+L150: 
+L151: Build a Generative AI governance framework guided by policy and a multi-stakeholder working group. Apply risk framework and threat modeling to balance security controls with business value.
+L152: 
+L153:   * Threat Modeling and GenAI security 9:41
+L154: Use threat modeling as risk assessment to visualize data flows and trust boundaries in generative ai, identify risks with STRIDE, and map them to controls while upskilling teams for security.
+L155: 
+L156:   * LLM and AI Governance Checklist 2:53
+L157: 
+L158: Apply the OWASP LLM governance checklist to enhance cybersecurity for generative AI, covering adversarial risk, threat modeling, AI asset inventory, and alignment with EU AI Act and NIST.
+L159: 
+L160:   * AWS Generative AI Security Scoping Matrix 17:33
+L161: Explore the AWS generative AI security scoping matrix, a five-scope framework that maps governance, legal, risk, controls, and resilience across public, enterprise, foundation model, fine-tuned, and self-trained deployments.
+L162: 
+L163:   * OWASP Top 10 For LLMs - 2025 9:51
+L164: 
+L165: Update on the 2025 OWASP top ten for LLMs, detailing threats: excessive agency, system prompt leakage, vector embedding weaknesses, and unbounded consumption, with guidance to map risks and enforce them.
+L166: ### Next Steps 1 lecture • 5min
+L167: 
+L168:   * Next Steps 4:41
+L169: 
+L170: Explore the positive potential of generative AI in cybersecurity, from a local LLM and security chatbots to vulnerability assessments, while upskilling and applying the NIST AI risk management framework.
+L171: 
+L172: ## Requirements
+L173: 
+L174:   * Basic Knowledge of IT
+L175: 
+L176:   * Basic Knowledge of Risk and Security
+L177: 
+L178:   * Passion to Learn !
+L179: 
+L180:   * No expertise in AI or Generative AI is needed
+L181: ## Description
+L182: 
+L183: Generative AI is transforming how the world works - from coding and design to decision-making and automation. Tools like ChatGPT, Claude, and Midjourney are revolutionizing industries, but they also introduce new security and governance risks that most professionals aren’t prepared for.
+L184: The “Generative AI – Risk and Cybersecurity Masterclass 2026” gives you a complete understanding of how these systems work — and how to secure them. You’ll learn the core principles, components, and threat surfaces of generative AI systems, along with practical strategies, frameworks, and controls to manage emerging AI risks effectively.
+L185: 
+L186: What You Will Learn
+L187: 
+L188:   * Fundamental principles and components of Generative AI
+L189: 
+L190:   * Understanding the risk landscape in Generative AI and its implications
+L191:   * Strategies for identifying, mitigating, and managing risks in Generative AI
+L192: 
+L193:   * Unique Risks like Prompt Injections, Hallucinations, Data Poisoning etc.
+L194: 
+L195:   * Techniques and guidelines for implementing a robust security architecture within Generative AI systems
+L196: 
+L197: Course Outline
+L198: 
+L199:   1. Introduction to Generative AI
+L200: 
+L201:      * What is Generative AI?
+L202: 
+L203:      * Why is understanding risks and security in Generative AI important?
+L204: 
+L205:   2. Risks in Generative AI
+L206: 
+L207:      * Overview of the Generative AI risk landscape
+L208:      * Detailed analysis of potential risks and their implications
+L209: 
+L210:      * How these risks can have a real life impact
+L211: 
+L212:   3. Security in Generative AI
+L213: 
+L214:      * Implementing a security framework for Generative AI systems
+L215: 
+L216:      * Key challenges to overcome
+L217: 
+L218:      * Techniques to assess and improve the security posture of a Generative AI system
+L219: 
+L220: Who Should Take This Course
+L221: 
+L222: This course is designed for individuals interested in understanding and managing the risks associated with Generative AI, including:
+L223:   * AI practitioners
+L224: 
+L225:   * Cybersecurity professionals
+L226: 
+L227:   * Data Scientists
+L228: 
+L229:   * IT Managers
+L230: 
+L231:   * Anyone interested in learning about Generative AI and its risks
+L232: 
+L233: Prerequisites
+L234: 
+L235: This course assumes a basic understanding of AI and cybersecurity, but no prior knowledge of Generative AI is required.
+L236: 
+L237: Instructor
+L238: A multi-award winning, information security leader with over 20+ years of international experience in cyber-security and IT risk management in the fin-tech industry. Winner of major industry awards such as CISO of the year, CISO top 30, CISO top 50 and Most Outstanding Security team.
+L239: Taimur's courses on Cybersecurity and AI have thousands of students from all over the world. He has also been published in leading publications like ISACA journal, CIO Magazine Middle East and published two books on AI Security and Cloud Computing ( ranked #1 new release on Amazon )
+L240: ## Who this course is for:
+L241: 
+L242:   * Cybersecurity professionals wanting to know about Generative AI
+L243:   * IT Professionals interested in learning about Generative AI
+L244:   * CISOs who want to practically secure GenAI
+L245:   * Risk professionals who to understand GenAI risks
+L246: 
+L247: Show more Show less
+L248: 
+L249: cite14†Report abuse 

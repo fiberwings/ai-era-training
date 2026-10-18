@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "cohortCalculations": 68,
+  "scenarioRoundTrips": 4,
+  "catalogueUnchanged": true,
+  "globalExclusions": [
+    "TR-125",
+    "TR-128",
+    "TR-129"
+  ],
+  "checks": [
+    "No globally excluded resources selected or suggested in report",
+    "Four options and recommended Option 4 render correctly",
+    "Technical cohort displays 43.5h cumulative and 43.2% assessed layer coverage",
+    "N1 module expands to complete 90-minute brief with N1.1/N1.2/N1.3 targets",
+    "No iteration narrative in report prose",
+    "No browser console errors",
+    "13-file plan pack matches files on disk",
+    "Standalone app payload packaging tests pass"
+  ]
+}

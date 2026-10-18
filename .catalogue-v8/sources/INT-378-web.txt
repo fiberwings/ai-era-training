@@ -1,0 +1,228 @@
+AI for Suspicious Activity Monitoring (https://www.udemy.com/course/ai-for-suspicious-activity-monitoring/)
+citeturn38view0 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-for-suspicious-activity-monitoring/","lineno":null}); Total lines: 238
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI for Suspicious Activity Monitoring
+L30: 
+L31: Rating: 4.3 out of 5 4.3cite8†(203 ratings) L32: 
+L33: 899 students
+L34: cite0†Image†img-c.udemycdn.com Preview this course
+L35: # AI for Suspicious Activity Monitoring
+L36: 
+L37: Build AI-Powered Systems to Detect Anomalies, Fraud, and Unusual Patterns in Real-Time Using Machine Learning & Gen AI
+L38: 
+L39: Created bycite9†Minerva Singh L40: 
+L41: Last updated 5/2025
+L42: 
+L43: English
+L44: 
+L45: English [Auto],Korean [Auto],
+L46: 
+L47: cite0†Image†img-c.udemycdn.com Preview this course
+L48: ## What you'll learn
+L49: 
+L50:   * Learn about the uses of self-supervised machine learning
+L51: 
+L52:   * Implement self-supervised machine learning frameworks such as autoencoders using Python
+L53: 
+L54:   * Learn about deep learning frameworks such as Keras and H2O
+L55: 
+L56:   * Learn about Gen AI and LLM Frameworks
+L57: 
+L58: ## Course content
+L59: 
+L60: 4 sections • 35 lectures • 2h 35m total length
+L61: 
+L62: Expand all sections
+L63: ### Introduction 8 lectures • 37min
+L64: 
+L65:   * Introduction Preview 1:19
+L66: 
+L67: Explore real-time anomaly detection for fraud and cyber threats using classical methods, deep learning, and generative AI with Python autoencoders and GPT-based tools by leveraging Langshan and Llama Index.
+L68: 
+L69:   * Data and Code 0:03
+L70: 
+L71:   * Colab Preview 7:13
+L72: 
+L73: Discover Google Colab, a cloud-based platform to run Jupyter notebooks in your browser, manage Colab notebooks in Drive, and run Python code with pandas, numpy, TensorFlow, and Keras.
+L74:   * Install H2O in Colab Preview 3:18
+L75: 
+L76: Install H2O in Colab by setting up Java and the OpenJDK runtime, then import H2O and initialize the cluster, usable in Colab or locally for deep learning.
+L77: 
+L78:   * What Is AI?9:51
+L79: 
+L80: Explore artificial intelligence, its relation to machine learning and deep learning, and how neural networks learn patterns to tackle tasks like cancer detection and fraud monitoring.
+L81: 
+L82:   * Read In A PDF 2:10
+L83: Read text from pdfs in Colab using the pdfx package, extract and clean data, and prepare it for nlp models, with guidance on handling multiple pdfs.
+L84: 
+L85:   * Read in PDFs-1 9:15
+L86: 
+L87: import and read multiple pdf documents into python using PyPDF2, iterating through files in a pdf directory, extracting text from each page and compiling it into text data for analysis.
+L88: 
+L89:   * Using AI For Suspicious Behaviour 3:44
+L90: Leverage ai and gen ai to detect suspicious behavior in real time through anomaly detection and transaction analysis, with adaptive learning and synthetic data improving fraud detection and risk mitigation.
+L91: ### llms and genai 13 lectures • 56min
+L92: 
+L93:   * Data In the Era of Gen AI 6:51
+L94: 
+L95: Unleash data value with generative AI by generating synthetic data, data augmentation for machine learning models, and improving predictive accuracy, while ensuring data readiness, quality, privacy, and security.
+L96: 
+L97:   * Gen AI- In Action 6:19
+L98: 
+L99: Explore Gen AI in action, generating videos from brief prompts and turning data into insights through analysis, automation, and predictive analytics for newbies with a fun, friendly tone.
+L100:   * The LLM Workflow-Theory 2:29
+L101: 
+L102: Explore the end-to-end large language model workflow, from loading PDFs and text splitting to embedding and vector storage. Then harness semantic search and an LLM to generate final answers iteratively.
+L103: 
+L104:   * Gen AI Models 4:29
+L105: 
+L106: Explore how generative AI leverages well-labeled training data and large language models for text-to-image generation. Compare tools like you.com and various models to support creative and research tasks.
+L107: 
+L108:   * Of Gen AI and LLMs 6:12
+L109: Discover how large language models form the foundation of generative AI, leveraging transformer architecture and attention to generate text, with biases, ethics, and multimodal futures.
+L110: 
+L111:   * GPTs 1:39
+L112: 
+L113: Trace the evolution of GPT from GPT-1’s 117 million parameters to GPT-4’s data-to-text capabilities, noting training timelines, fine-tuning, multilingual output, text-to-text vs data-to-text, and reliability differences.
+L114: 
+L115:   * Hugging Face LLMs 3:21
+L116: Explore using the hugging face interface to access a large language model, install lang chain and hugging face hub, and generate text with the falcon 7b instruct model.
+L117: 
+L118:   * Prompting-1 4:04
+L119: 
+L120: Master prompt engineering by defining tasks, setting context, providing demonstrations, and using interactive, iterative prompts with style controls to shape AI outputs while avoiding bias.
+L121: 
+L122:   * Prompting-2 5:54
+L123: Explore prompt engineering with lang chain and OpenAI to build a text classification model that detects spam vs ham, using few-shot prompts and an extraction chain evaluated with accuracy.
+L124: 
+L125:   * More Prompting 4:24
+L126: 
+L127: Learn how prompt engineering shapes outputs in generative ai for suspicious activity monitoring, covering text-based, keyword-based, rule-based, and generative prompts, plus templating, frameworks, and prompt chaining, role play, and contexts.
+L128: 
+L129:   * Mistral 6:05
+L130: Access mistral large language models on Hugging Face, including the 7 billion parameter 7b v0.1 transformer. Learn login requirements, memory needs, and the pip and tokenizer setup for text generation in PyTorch.
+L131: 
+L132:   * Hallucinations 2:08
+L133: 
+L134: Explore how ai hallucinations arise in generative tools like ChatGPT, exposing the black-box risk of misleading, biased outputs and real-world missteps with bogus cases and fake research.
+L135: 
+L136:   * Using Gen AI For Recognition 1:42
+L137: Apply generative ai with vision to recognize items in an image, encode the image, and flag unusual or rotted food by listing all detected items with gpt-4 vision.
+L138: ### Autoencoders 9 lectures • 42min
+L139: 
+L140:   * What is Unsupervised Learning?3:37
+L141: 
+L142: Discover the foundational building blocks of data science in Python, including exploratory data analysis, visualization, statistics, and machine learning, for suspicious activity monitoring.
+L143: 
+L144:   * Theory 5:05
+L145: 
+L146: Explore what constitutes an anomaly and how autoencoders detect anomalies by measuring reconstruction loss in unsupervised learning, using examples like abnormal pulse and fever spikes.
+L147: 
+L148:   * Implement Autoencoders 3:11
+L149: Train an h2o autoencoder on a 75/25 split to detect anomalies and distinguish malignant from benign tumors, using 120 neurons, tanh activation, and feature importance.
+L150: 
+L151:   * Keras Autoencoders 5:43
+L152: 
+L153: Implement a simple autoencoder in Keras to learn a 32-dimensional encoded representation and reconstruct MNIST digits using dense layers, adadelta optimizer, and binary cross-entropy.
+L154: 
+L155:   * auto2 4:06
+L156: Set up a simple autoencoder for unsupervised anomaly detection by dropping the diagnosis column, using 30 predictors, a single hidden layer with tanh activation, and a 75% training split.
+L157: 
+L158:   * Basic H2O Autoencoder 8:55
+L159: 
+L160: Implement a basic h2o vanilla autoencoder with tan activation, train for 50 epochs on an 80/20 split, and detect anomalies via reconstruction error and a 0.1 threshold.
+L161: 
+L162:   * Self-Supervise 3:03
+L163: Learn how autoencoders enable self-supervised learning by encoding data into a latent representation and reconstructing it with a decoder to denoise and enable data compression, dimensionality reduction, and feature extraction.
+L164: 
+L165:   * VAE 5:10
+L166: 
+L167: Learn to perform anomaly detection with variational autoencoders using the H2O deep learning estimator, training on a prepared data set, calculating reconstruction error, and flagging anomalies above a 0.001 threshold.
+L168: 
+L169:   * Self-Supervised Autoencoders 3:03
+L170: Discover how autoencoders enable self-supervised learning by encoding input into a latent representation and decoding to reconstruct and denoise data, enabling data compression, dimensionality reduction, and feature extraction.
+L171: ### Miscellaneous Section 5 lectures • 22min
+L172: 
+L173:   * What Is Denoise?2:26
+L174: 
+L175: Explain how denoising removes noise from grainy images to recover a clearer, noise-free view. Explore wavelet transforms and denoising autoencoders that train by deliberately corrupting inputs to zero.
+L176: 
+L177:   * Keywords 10:20
+L178: 
+L179: Learn to extract keywords using tf-idf by preprocessing text, removing stopwords, and vectorizing chunks. Apply the method to PDFs and other text data to identify top keywords with tf-idf scores.
+L180:   * Using Llama 3:50
+L181: 
+L182: Learn to set up and query data with the Lama index, using PDF readers, vector store index, data connectors, and a query engine to leverage LLM embeddings.
+L183: 
+L184:   * Langchain Tech 3:01
+L185: 
+L186: Configure api keys and environment, load and preprocess pdf data with LangChain, build a vector store with embeddings, and query with gpt-3.5 turbo.
+L187: 
+L188:   * What Is TF-IDF?1:53
+L189: Explore how tf-idf ranks word importance by balancing term frequency with its corpus-wide uniqueness, using stopword removal and pre-processing to reveal key terms.
+L190: ## Requirements
+L191: 
+L192:   * Basic Python data science concepts
+L193: 
+L194:   * Basic Python syntax
+L195: 
+L196:   * Understanding of the Colab environment
+L197: 
+L198:   * Introduction to the Gen AI Ecosystem
+L199: ## Description
+L200: 
+L201: Disclaimer- This course contains the use of artificial intelligence
+L202: 
+L203: Unlock the power of AI to detect anomalies, fraud, and suspicious behaviour in digital systems. "AI for Suspicious Activity Monitoring" is a hands-on, end-to-end course designed to teach you how to use traditional AI techniques, deep learning, and generative AI (GenAI) to monitor and respond to unusual patterns in real-world data.
+L204: Whether you're a developer, data analyst, or aspiring AI professional, this course provides practical tools and strategies to build intelligent monitoring systems using Python, autoencoders, and large language models (LLMs).
+L205: 
+L206: What You’ll Learn
+L207: 
+L208:   * Anomaly Detection Techniques: Implement classical and modern methods, including statistical outlier detection, clustering-based approaches, and autoencoders.
+L209:   * Deep Learning for Behaviour Monitoring: Use unsupervised learning (e.g., autoencoders) to detect irregular patterns in time series, text, or sensor data.
+L210: 
+L211:   * GenAI & LLM Integration: Explore how large language models like OpenAI’s GPT and frameworks such as LangChain and LLAMA-Index can assist in monitoring human-generated activity (e.g., suspicious conversations, document scans).
+L212:   * Fraud and Cyber Threat Detection: Apply AI tools to detect threats in finance, cybersecurity, e-commerce, and other high-risk domains.
+L213: 
+L214:   * Cloud-Based Implementation: Build scalable pipelines using tools like Google Colab for real-time or batch monitoring.
+L215: 
+L216:   * Text Analysis for Audit Trails: Perform NLP-based extraction, entity recognition, and text summarisation to flag risky interactions and records.
+L217: 
+L218: Why Enrol in This Course?
+L219: In today’s fast-paced digital world, AI-powered monitoring systems are essential to detect threats early, reduce risk, and protect operations. This course offers:
+L220: 
+L221:   * A practical, Python-based curriculum tailored for real-world applications
+L222: 
+L223:   * Step-by-step project-based learning guided by an instructor with an MPhil from the University of Oxford and a PhD from the University of Cambridge
+L224: 
+L225:   * A rare combination of AI, deep learning, and GenAI in a single course
+L226:   * Use of cutting-edge LLM frameworks like OpenAI, LangChain, and LLAMA-Index to expand beyond numerical anomaly detection into text-based threat detection
+L227: 
+L228:   * Lifetime access, updates, and instructor support
+L229: ## Who this course is for:
+L230: 
+L231:   * Data Scientists who want to increase their knowledge of self-supervised machine learning
+L232:   * Students of Artificial Intelligence (AI) and Gen AI
+L233:   * Students interested in learning about frameworks such as autoencoders
+L234: 
+L235: Show more Show less
+L236: 
+L237: cite10†Report abuse 

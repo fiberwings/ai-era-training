@@ -1,0 +1,76 @@
+
+2027 Option 1 — Maximum scored coverage
+all 44.1% 2 critical 3.90h INT-275,INT-334,INT-450,INT-476
+practitioner 51.7% 0 critical 6.88h TR-100,TR-110,INT-1099,INT-1473
+technical 62.7% 0 critical 23.98h TR-012,TR-063,TR-094,TR-111,TR-162,INT-194,INT-2041,INT-2478
+governance 62.8% 0 critical 15.00h TR-063,TR-133,INT-397,INT-2041,INT-2478
+leadership 62.3% 0 critical 18.73h TR-063,TR-122,INT-397,INT-437,INT-1473,INT-2041,INT-2478
+cdc 11.1% 1 critical 0.00h 
+forensics 19.4% 2 critical 3.00h TR-064,TR-122
+idp 56.4% 0 critical 3.93h TR-133,TR-167,INT-397
+biso 50.0% 0 critical 2.00h TR-112
+testing 33.3% 2 critical 3.00h TR-114
+redteam 30.0% 2 critical 2.97h INT-1797
+exposure 50.0% 1 critical 3.05h TR-162,INT-2269
+harness 25.0% 3 critical 2.57h INT-2269
+architecture 62.0% 0 critical 2.00h TR-112
+iam 28.6% 1 critical 0.48h TR-162
+iam-expert 33.3% 0 critical 3.00h TR-064,TR-122
+cio 60.8% 0 critical 0.00h 
+
+2027 Option 2 — Quality and distinct learning outcomes
+all 31.4% 5 critical 3.80h INT-437,INT-2787
+practitioner 18.3% 3 critical 2.50h TR-100
+technical 55.2% 0 critical 15.02h TR-003,INT-194,TR-063,INT-2478,TR-094
+governance 60.0% 0 critical 13.52h INT-397,INT-2478,TR-063,TR-118,TR-133
+leadership 51.4% 2 critical 7.52h INT-397,INT-2478,TR-063,TR-133
+cdc 0.0% 2 critical 0.00h 
+forensics 11.1% 2 critical 1.00h TR-064
+idp 33.6% 3 critical 2.68h INT-397
+biso 50.0% 0 critical 2.00h TR-112
+testing 33.3% 2 critical 3.00h TR-114
+redteam 26.7% 2 critical 3.00h TR-114
+exposure 38.9% 1 critical 3.05h INT-2269,TR-162
+harness 16.7% 3 critical 2.57h INT-2269
+architecture 54.6% 1 critical 2.00h TR-112
+iam 19.0% 2 critical 2.00h TR-111
+iam-expert 33.3% 0 critical 3.00h TR-064,TR-113
+cio 46.3% 2 critical 0.00h 
+
+2027 Option 3 — Reputable sources only
+all 19.6% 7 critical 2.92h TR-090,TR-163
+practitioner 20.0% 3 critical 2.50h TR-100
+technical 47.7% 0 critical 11.00h TR-003,TR-063,TR-094
+governance 50.3% 0 critical 11.00h TR-118,TR-113,TR-133,TR-063
+leadership 47.0% 1 critical 11.00h TR-118,TR-113,TR-133,TR-063
+cdc 0.0% 2 critical 0.00h 
+forensics 11.1% 2 critical 1.00h TR-064
+idp 40.9% 2 critical 2.25h TR-113,TR-167
+biso 47.2% 0 critical 2.00h TR-112
+testing 33.3% 2 critical 3.00h TR-114
+redteam 26.7% 2 critical 3.00h TR-114
+exposure 33.3% 1 critical 2.48h TR-109,TR-162
+harness 16.7% 3 critical 0.48h TR-162
+architecture 52.8% 1 critical 2.00h TR-112
+iam 19.0% 2 critical 2.00h TR-111
+iam-expert 33.3% 0 critical 3.00h TR-064,TR-113
+cio 40.5% 1 critical 0.00h 
+
+2027 Option 4 — Quality core and in-house capability
+all 31.4% 5 critical 3.80h INT-437,INT-2787
+practitioner 18.3% 3 critical 2.50h TR-100
+technical 43.2% 2 critical 13.18h TR-003,INT-194,TR-063,TR-094
+governance 50.0% 1 critical 11.68h INT-397,TR-063,TR-118,TR-133
+leadership 44.2% 3 critical 5.68h INT-397,TR-063,TR-133
+cdc 0.0% 2 critical 0.00h 
+forensics 11.1% 2 critical 1.00h TR-064
+idp 33.6% 3 critical 2.68h INT-397
+biso 50.0% 0 critical 2.00h TR-112
+testing 33.3% 2 critical 3.00h TR-114
+redteam 26.7% 2 critical 3.00h TR-114
+exposure 38.9% 1 critical 3.05h INT-2269,TR-162
+harness 16.7% 3 critical 2.57h INT-2269
+architecture 54.6% 1 critical 2.00h TR-112
+iam 19.0% 2 critical 2.00h TR-111
+iam-expert 33.3% 0 critical 3.00h TR-064,TR-113
+cio 36.8% 3 critical 0.00h 

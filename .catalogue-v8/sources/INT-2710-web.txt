@@ -1,0 +1,213 @@
+Responsible AI at Work: Ethics, Governance & AI Risk [2026] (https://www.udemy.com/course/responsible-ai-at-work/)
+citeturn166view0 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/responsible-ai-at-work/","lineno":null}); Total lines: 223
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Responsible AI at Work: Ethics, Governance & AI Risk [2026]
+L30: 
+L31: Role Play
+L32: 
+L33: New
+L34: Rating: 4.6 out of 5 4.6cite8†(11 ratings) L35: 
+L36: 37 students
+L37: 
+L38: cite0†Image†img-c.udemycdn.com Preview this course
+L39: # Responsible AI at Work: Ethics, Governance & AI Risk [2026]
+L40: 
+L41: Responsibel AI : Apply Fairness, Transparency, Accountability, Privacy, Safety, Reliability & Human Oversight at Work
+L42: 
+L43: Created bycite9†GenMan Solutions L44: 
+L45: Last updated 10/2026
+L46: 
+L47: English
+L48: 
+L49: English [Auto],
+L50: 
+L51: cite0†Image†img-c.udemycdn.com Preview this course
+L52: ## What you'll learn
+L53: 
+L54:   * Identify the key principles of Responsible AI and apply them to common workplace AI use cases.
+L55: 
+L56:   * Evaluate AI systems for fairness, transparency, accountability, privacy, security, human oversight, safety, and reliability.
+L57: 
+L58:   * Recognize ethical, operational, and business risks associated with the use of AI in workplace decisions.
+L59: 
+L60:   * Assess AI use cases through practical ethical risk assessment and identify potential sources of harm.
+L61:   * Detect common forms of bias in AI-supported decisions and identify practical ways to reduce them.
+L62: 
+L63:   * Apply Responsible AI principles to real-world workplace scenarios and business decisions.
+L64: 
+L65:   * Identify the key components of an organizational AI governance framework and the responsibilities involved.
+L66: 
+L67:   * Create a practical inventory of AI systems to improve organizational visibility and governance.
+L68:   * Evaluate AI systems across their lifecycle and apply risk-based approaches to determine appropriate governance controls.
+L69: 
+L70:   * Translate Responsible AI principles into practical policies, processes, and controls that support responsible AI use across an organization.
+L71: ## Course content
+L72: 
+L73: 6 sections • 28 lectures • 2h 10m total length
+L74: 
+L75: Expand all sections
+L76: 
+L77: ### Introduction 3 lectures • 15min
+L78: 
+L79:   * Welcome to the Course & Know Your Instructor Preview 5:08
+L80: 
+L81:   * The AI Questions Every Professional Should Be Asking Preview 9:31
+L82: 
+L83:   * AI Strategy Review
+L84: 
+L85:   * Quiz Time!
+L86: ### Responsible AI: Learn the principles 19 lectures • 1hr 8min
+L87: 
+L88:   * Introduction to Responsible AI and its Principles 5:27
+L89: 
+L90:   * AI Fairness: What It Means and How to Get It Right 4:58
+L91: 
+L92:   * AI Fairness in Action: Real-World Business Scenarios 5:14
+L93: 
+L94:   * Making AI-Powered Learning Opportunities Fair
+L95: 
+L96:   * AI Transparency: From Black Box to Explainable Systems 4:27
+L97: 
+L98:   * AI Transparency in Practice: Real-World Applications 3:40
+L99: 
+L100:   * Reviewing an AI-Powered Business Decision
+L101:   * AI Accountability: Who Is Responsible for AI Decisions?3:53
+L102: 
+L103:   * AI Accountability in Action: Real-World Business Cases 2:18
+L104: 
+L105:   * Who Owns the AI Decision?
+L106: 
+L107:   * AI Privacy and Security: Protecting Data and People 3:47
+L108: 
+L109:   * Privacy and Security in Practice: Real-World Business Scenarios 4:05
+L110: 
+L111:   * Can We Safely Use This Data with AI?
+L112: 
+L113:   * Human Oversight: Keeping Humans in Control 6:47
+L114: 
+L115:   * Human Oversight in Practice: Real-World AI Scenarios 7:19
+L116: 
+L117:   * Keeping Humans in Control of an AI-Powered Workflow
+L118:   * AI Safety and Reliability: Can We Trust AI to Perform as Intended?8:13
+L119: 
+L120:   * AI Safety and Reliabiloty: Real-World AI Scenarios 7:36
+L121: 
+L122:   * Can We Still Rely on This AI System?
+L123: 
+L124:   * Quiz Time!
+L125: ### Assess AI Risk: Identify and Reduce Potential Harm 5 lectures • 15min
+L126: 
+L127:   * AI Ethical Risk Assessment: What to Look For 3:19
+L128: 
+L129:   * Ethical Risk Assessment in Action: Real-World AI Scenarios 2:02
+L130: 
+L131:   * How to Spot and Reduce Bias in AI at Work 4:34
+L132: 
+L133:   * Recognizing and Reducing Bias in Everyday AI Decisions 4:37
+L134: 
+L135:   * Assessing the Risks Before an AI-Powered Business Change
+L136: 
+L137:   * Quiz Time!
+L138: ### AI Governance: From Individual Use to Organizational Responsibility 4 lectures • 19min
+L139: 
+L140:   * You’ve Been Asked to Govern AI: Where Do You Start?Preview 6:32
+L141: 
+L142:   * AI Governance Explained: What Are We Actually Governing?Preview 6:25
+L143: 
+L144:   * Understanding AI Systems: What Kind of AI Are We Governing?Preview 5:45
+L145: 
+L146:   * Deciding How an AI Use Case Should Be Governed
+L147: 
+L148:   * Quiz Time!
+L149: ### Build the AI Governance Framework: Inventory, Lifecycle and Risk-Based Controls 6 lectures • 13min
+L150: 
+L151:   * A Practical AI Governance Framework Preview 3:11
+L152: 
+L153:   * AI Inventory: You Cannot Govern What You Cannot See 2:54
+L154: 
+L155:   * AI Governance Across the Lifecycle 2:18
+L156: 
+L157:   * AI Risk: What Could Actually Go Wrong?2:12
+L158: 
+L159:   * Risk Tiering: Not Every AI Needs the Same Governance 2:21
+L160: 
+L161:   * Determining the Right Governance for an AI-Powered Claims Tool
+L162: 
+L163:   * Quiz Time!
+L164: ### Responsible AI Principles to Practical Controls 2 lectures • 2min
+L165: 
+L166:   * From Responsible AI Principles to Practical Controls 2:18
+L167: 
+L168:   * Turning Responsible AI Principles into Practical Controls
+L169: 
+L170:   * Quiz Time
+L171: ## Requirements
+L172: 
+L173:   * No prior experience with AI, technology, ethics, or AI governance is required. This course is designed for all employees and professionals who use or encounter AI at work. A basic understanding of workplace processes and access to a computer or mobile device with an internet connection is sufficient.
+L174: ## Description
+L175: 
+L176: Are you using AI at work but unsure what responsible AI really means in practice? How do you identify AI risks, recognize bias, protect sensitive data, and make sure humans remain accountable for AI-driven decisions? And if your organization asks you to help govern AI, where do you even begin?
+L177: Responsible AI at Work: Ethics, Governance & AI Risk gives you a practical framework for navigating these questions. You’ll move beyond AI principles and explore how fairness, transparency, accountability, privacy, human oversight, safety, and reliability translate into real workplace decisions, risk assessments, governance processes, and practical controls.
+L178: 
+L179: In this course, you will:
+L180: 
+L181:   * Develop a practical understanding of Responsible AI principles and how they apply to everyday business situations
+L182:   * Evaluate AI systems for fairness, transparency, accountability, privacy, security, human oversight, safety, and reliability
+L183: 
+L184:   * Identify ethical and operational risks that can arise when AI is used in workplace decisions
+L185: 
+L186:   * Recognize potential sources of bias and explore practical approaches to reduce bias in AI-supported decisions
+L187: 
+L188:   * Assess AI risks using real-world business scenarios and structured risk assessment approaches
+L189:   * Build a practical foundation for AI governance, from understanding AI systems to defining organizational responsibilities
+L190: 
+L191:   * Create an AI inventory to improve visibility into the AI systems being used across an organization
+L192: 
+L193:   * Apply lifecycle-based governance to evaluate AI from development and deployment through ongoing monitoring
+L194: 
+L195:   * Classify AI systems using risk-based approaches so that governance and controls can be proportionate to the level of risk
+L196:   * Translate Responsible AI principles into practical organizational controls and actions
+L197: 
+L198: Why is Responsible AI important?
+L199: AI is increasingly being used to support hiring, customer service, content creation, financial decisions, productivity, analytics, and many other business activities. But using AI effectively is not only about getting better outputs. Organizations also need to consider what could go wrong, who is accountable, what data is being used, whether decisions are fair, and where human judgment must remain involved.
+L200: Responsible AI helps you approach these challenges systematically—so AI can be used with greater awareness of ethical, operational, privacy, security, and business risks.
+L201: 
+L202: A practical, scenario-driven learning experience
+L203: This course is designed to help you apply concepts rather than simply memorize definitions. Throughout the course, you’ll work through real-world business scenarios, role plays, and quizzes that help you examine AI-related situations from different perspectives and practice making responsible decisions.
+L204: 
+L205: You’ll explore scenarios involving AI fairness, transparency, accountability, privacy, human oversight, safety, bias, ethical risk, and organizational AI governance.
+L206: 
+L207: Why this course?
+L208: Instead of treating Responsible AI as a purely theoretical topic, this course connects principles → risks → governance → controls. You’ll see how responsible AI considerations can move from individual AI use to organization-wide governance and practical risk management.
+L209: Whether you work with AI directly, manage teams using AI, contribute to AI projects, or are involved in risk, compliance, technology, HR, legal, security, or governance, this course gives you a structured foundation for participating in responsible AI conversations at work.
+L210: 
+L211: Ready to move beyond simply using AI and start using it responsibly? Enroll now and build the practical skills to identify AI risks, support responsible AI decisions, and contribute to effective AI governance in your organization.
+L212: ## Who this course is for:
+L213:   * All employees who want to use AI responsibly, safely, and ethically in their everyday work.
+L214:   * Managers and team leaders who want to establish responsible AI practices within their teams and workflows.
+L215:   * Business professionals who want to use AI responsibly while identifying ethical, privacy, security, and operational risks.
+L216:   * Risk, compliance, legal, and governance professionals who want to contribute to AI risk assessment and governance initiatives.
+L217:   * HR and people professionals who want to evaluate AI-related fairness, bias, privacy, and accountability risks in workplace decisions.
+L218:   * Risk, compliance, legal, and governance professionals who want to support AI risk assessment and organizational governance.
+L219:   * Technology and AI professionals who want to apply Responsible AI principles, risk-based controls, and governance practices to AI systems.
+L220: Show more Show less
+L221: 
+L222: cite10†Report abuse 

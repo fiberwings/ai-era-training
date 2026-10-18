@@ -1,0 +1,154 @@
+Microsoft Responsible AI Standard: Building Trustworthy AI (https://www.udemy.com/course/responsibleai/)
+citeturn158view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/responsibleai/","lineno":null}); Total lines: 164
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Microsoft Responsible AI Standard: Building Trustworthy AI
+L30: 
+L31: Role Play
+L32: Rating: 4.5 out of 5 4.5cite8†(7,859 ratings) L33: 
+L34: 13,776 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # Microsoft Responsible AI Standard: Building Trustworthy AI
+L38: 
+L39: Learn how Microsoft turns AI ethics into practical standards you can apply
+L40: 
+L41: Created bycite9†Scott Duffy • 1.600.000+ Students L42: 
+L43: Last updated 3/2026
+L44: 
+L45: English
+L46: 
+L47: English [Auto],Korean [Auto],
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Explain Microsoft’s six Responsible AI principles
+L53: 
+L54:   * Describe the requirements of the Responsible AI Standard v2
+L55: 
+L56:   * Apply Responsible AI concepts across the AI lifecycle
+L57: 
+L58:   * Evaluate real-world case studies and future trends
+L59: 
+L60: ## Course content
+L61: 
+L62: 4 sections • 18 lectures • 54m total length
+L63: 
+L64: Expand all sections
+L65: ### Introduction 4 lectures • 12min
+L66: 
+L67:   * Welcome to the Course Preview 1:46
+L68: 
+L69: Explore Microsoft's responsible ai standard and its six principles. Learn about v2 across the life cycle, case studies, and tools like the responsible ai dashboard and fairness assessment libraries.
+L70: 
+L71:   * Why Responsible AI Matters Preview 3:29
+L72: 
+L73: Learn why responsible ai matters for trust, adoption, and growth by embedding fairness, transparency, safety, and inclusivity in ai systems while meeting regulatory expectations.
+L74:   * The Origins of Microsoft’s Responsible AI Preview 3:37
+L75: 
+L76: Microsoft shifts from reactive fixes to proactive responsible AI, creating the Aether Committee and Ora, embedding fairness, safety, privacy, and accountability into the responsible AI standard version two.
+L77: 
+L78:   * Quick Overview of the Responsible AI Standard Preview 2:57
+L79: Explore Microsoft's responsible AI standard, a six-principle framework guiding the full AI life cycle from planning to monitoring, including fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.
+L80: 
+L81:   * Section 1 Quiz
+L82: ### Microsoft’s Responsible AI Principles 7 lectures • 16min
+L83: 
+L84:   * Responsible AI Principle #1 - Fairness 2:26
+L85: 
+L86: Promote fairness by ensuring similar cases are treated similarly and pursuing equitable outcomes, addressing data biases, with tools like Fairlearn and the responsible ai dashboard to measure and mitigate bias.
+L87: 
+L88:   * Responsible AI Principle #2 - Reliability & Safety 2:38
+L89: Ensure AI systems operate reliably and safely through rigorous testing across edge cases and unusual conditions, with continuous monitoring. Maintain human oversight with fallbacks to reduce harm and build trust.
+L90: 
+L91:   * Responsible AI Principle #3 - Privacy & Security 2:31
+L92: 
+L93: Guard privacy and security by minimizing data, encrypting information, and restricting access, applying privacy by design and differential privacy to align with GDPR and HIPAA and build trust in AI.
+L94: 
+L95:   * Principles 1 to 3
+L96:   * Responsible AI Principle #4 - Inclusiveness 2:59
+L97: 
+L98: Design AI with diverse user needs in mind from the start, ensuring accessibility and inclusive design practices that empower everyone and broaden impact.
+L99: 
+L100:   * Responsible AI Principle #5 - Transparency 2:55
+L101: 
+L102: Explore how transparency makes ai systems understandable and explainable, building trust and enabling clear disclosure through model cards, data sheets, and plain-language explanations.
+L103: 
+L104:   * Responsible AI Principle #6 - Accountability 2:37
+L105: Ensure human accountability for AI outcomes; regulators and customers expect people to oversee decisions, with clear escalation, impact assessments, and sign-offs through Ora, the Aether Committee, and governance tools.
+L106: 
+L107:   * Principles 4 to 6
+L108: 
+L109:   * Addressing Bias in AI-Powered Loan Approvals
+L110: ### Implementation Guidelines 6 lectures • 22min
+L111: 
+L112:   * Microsoft’s Responsible AI Standard v2 3:46
+L113: 
+L114: Microsoft translates the responsible ai principles into v2 requirements, guiding teams through planning, building, deployment, and monitoring with governance, impact assessments, bias testing, explainability, and compliance with ai laws.
+L115: 
+L116:   * DEMO: Microsoft's Responsible AI Standard v2 3:22
+L117: Explore Microsoft responsible AI standard v2 through a hands-on demo of the document, including fairness and transparency requirements, impact assessment templates, and ongoing documentation practices.
+L118: 
+L119:   * Human Oversight & Accountability 1:34
+L120: 
+L121: Assign clear accountability, document decisions, and uphold human oversight through Ora and the Aether Committee, with mandatory sign-off and fallback mechanisms for human intervention.
+L122: 
+L123:   * The AI Lifecycle in Practice 2:07
+L124: Learn how the responsible AI standard guides the full AI lifecycle—from planning and design inclusiveness to development, deployment, and continuous monitoring—to address risks and ensure accountability.
+L125: 
+L126:   * Case Studies 3:21
+L127: 
+L128: Explore two real world case studies that illustrate why responsible AI matters and how Tay and facial recognition bias inform safeguards, fairness, accountability, and the responsible AI standard.
+L129: 
+L130:   * DEMO: Responsible AI Dashboard 7:59
+L131: ### The Future of Responsible AI 2 lectures • 4min
+L132: 
+L133:   * Future of Responsible AI 2:25
+L134: 
+L135: Explore the evolving landscape of responsible AI, including generative AI, regulatory trends, and a company-driven responsibility model, focusing on trust, safety, transparency, and accountability.
+L136: 
+L137:   * Next steps for learning 2:04
+L138: Explore official resources, including the responsible AI standard v2 PDF and Azure documentation, to stay informed about governance frameworks like the EU AI Act and the AI Risk Management Framework.
+L139: ## Requirements
+L140: 
+L141:   * No prior experience with AI or ethics is required — this course is designed for beginners.
+L142: 
+L143:   * An interest in artificial intelligence, technology, or responsible innovation will be helpful.
+L144: 
+L145:   * (Optional) A free Microsoft Azure account if you’d like to try out the Responsible AI tools yourself.
+L146: ## Description
+L147: 
+L148: Artificial Intelligence is transforming the world — but with great power comes great responsibility. How do we make sure AI systems are fair, safe, transparent, and trustworthy? Microsoft has answered that challenge with the Responsible AI Standard, a practical framework that turns ethical principles into actionable requirements.
+L149: In this course, you’ll learn exactly how Microsoft applies Responsible AI across the entire AI lifecycle — from planning and design, through development and deployment, to ongoing monitoring. We’ll break down the six core principles (Fairness, Reliability & Safety, Privacy & Security, Inclusiveness, Transparency, and Accountability), explore the Responsible AI Standard v2, and examine real-world case studies like the Tay chatbot and facial recognition bias.
+L150: You’ll also look ahead to the future of AI regulation and generative AI, so you’re prepared for what’s coming next.
+L151: Along the way, you’ll see how Responsible AI helps organizations reduce risk, meet regulatory expectations, and build trust with customers and society. You’ll gain insights not just into the theory, but also the governance practices, oversight processes, and cultural changes needed to make Responsible AI real inside an organization.
+L152: Whether you’re a business leader, compliance professional, developer, or simply curious about AI ethics, this course gives you the knowledge and tools to engage with AI responsibly. By the end, you’ll not only understand Microsoft’s Responsible AI Standard — you’ll know how to apply its principles to evaluate, design, and manage AI systems in the real world.
+L153: 
+L154: Enroll today and join the movement toward trustworthy AI.
+L155: ## Who this course is for:
+L156:   * Professionals working with AI or data who want to understand Microsoft’s Responsible AI approach.
+L157:   * Business leaders, project managers, and decision-makers seeking to apply ethical AI practices in their organizations.
+L158:   * Students and early-career professionals interested in AI, ethics, and responsible innovation.
+L159:   * Anyone curious about how Microsoft ensures AI systems are fair, transparent, and accountable.
+L160:   * Compliance, risk, or governance teams seeking a clear overview of AI ethics and Microsoft’s Responsible AI Standard v2
+L161: Show more Show less
+L162: 
+L163: cite10†Report abuse 

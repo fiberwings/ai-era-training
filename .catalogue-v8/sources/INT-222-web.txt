@@ -1,0 +1,373 @@
+AI Agents, RAG & LLM Evals for Beginners: DeepEval & RAGAS (https://www.udemy.com/course/ai-testing-deepeval-ragas-ollama/)
+citeturn20view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-testing-deepeval-ragas-ollama/","lineno":null}); Total lines: 387
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: AI Agents, RAG & LLM Evals for Beginners: DeepEval & RAGAS
+L41: 
+L42: Bestseller
+L43: 
+L44: Role Play
+L45: 
+L46: Rating: 4.5 out of 5 4.5cite12†(1,124 ratings) L47: 
+L48: 9,428 students
+L49: 
+L50: cite0†Image†img-c.udemycdn.com Preview this course
+L51: # AI Agents, RAG & LLM Evals for Beginners: DeepEval & RAGAS
+L52: 
+L53: 2026 - Path to AI QA Engineer to test LLMs and AI Apps using DeepEval, RAGAs and HF Evaluate with Local LLMs like Ollama
+L54: 
+L55: Created bycite13†Karthik KK L56: 
+L57: Last updated 6/2026
+L58: 
+L59: English
+L60: 
+L61: Arabic [Auto],German [Auto], 7 more
+L62: 
+L63: cite0†Image†img-c.udemycdn.com Preview this course
+L64: ## What you'll learn
+L65: 
+L66:   * Understand the purpose of Testing LLM and LLM based Application
+L67: 
+L68:   * Understand DeepEval and RAGAs in detail from complete ground up
+L69: 
+L70:   * Understand different metrics and evaluations to evaluate LLMs and LLM based app using DeepEval and RAGAs
+L71: 
+L72:   * Understand the advanced concepts of DeepEval and RAGAs
+L73: 
+L74:   * Testing RAG based application using DeepEval and RAGAs
+L75: 
+L76:   * Testing AI Agents using DeepEval to understand how tool callings can be tested
+L77: ## Course content
+L78: 
+L79: 17 sections • 127 lectures • 14h 40m total length
+L80: 
+L81: Expand all sections
+L82: ### What You'll Learn: AI Testing, LLM Evaluation & the Tools That Power It 6 lectures • 1hr 4min
+L83: 
+L84:   * Why Testing LLM Apps Is Completely Different from Traditional Testing Preview 9:11
+L85: 
+L86: Develop testing and evaluation of large language models using traditional and non traditional metrics, ground truth comparisons, and tools like Ollama, DeepEval, and RAGs for local and hosted models.
+L87: 
+L88:   * Chatbots, AI Agents & RAG: The 3 Types of AI Apps You'll Be Testing 13:09
+L89: Learn the types of AI applications, including chatbots and AI agents, and how retrieval augmented generation and vector stores power real-world tasks with LLMs.
+L90: 
+L91:   * LLM Evaluation 101: The Different Ways to Measure AI Quality Preview 10:03
+L92: 
+L93: Explore the basics of llm evaluation with prompts and compare human-based, code-based, and llm-based approaches using tools like DeepEval, RAGAs, and Hugging Face Evaluate to optimize prompts and deployment.
+L94:   * Human Graded Evaluation: Using the Anthropic Workbench to Score AI 17:17
+L95: 
+L96: Explore human graded evaluation for large language models using the Anthropic workbench, translating prompts and code across languages, and generating test cases for robust QA automation.
+L97: 
+L98:   * Every Key Metric You Need to Evaluate AI Apps (Relevancy, Bias & More)5:48
+L99: Explore common evaluation metrics for AI applications, from answer relevancy and contextual precision to tool selection accuracy and bias detection, and learn how to assess function arguments.
+L100: 
+L101:   * DeepEval vs RAGAs vs OpenAI Evals vs HuggingFace: Which Tool Wins?8:03
+L102: 
+L103: Compare major llm evaluation libraries—deep evals, ragas, OpenAI evals, Galileo, and Huggingface evaluate—highlighting observability, evaluation matrices, online monitoring, and addressing hallucination to test llm applications.
+L104:   * Check your knowledge!
+L105: ### Run Any LLM on Your Own Machine for Free with Ollama 6 lectures • 26min
+L106: 
+L107:   * Why Running LLMs Locally Changes Everything for AI Testers 4:01
+L108: 
+L109: Learn to run local large language models with ollama to save money by avoiding API calls, and explore embedding, vision, and tool-support model options, plus installation steps for local testing.
+L110: 
+L111:   * 7B vs 70B vs 671B Parameters: How to Pick the Right Local Model 4:36
+L112: Learn to select and run local models with Ollama, from 7 billion to 671 billion parameters, examining quantization, headcount, and hardware requirements on a capable machine.
+L113: 
+L114:   * Step-by-Step: Pull & Run Your First Local LLM with Ollama 7:17
+L115: 
+L116: Learn to run llm locally with Ollama: list and pull models, download a 1.8b parameter Alibaba Cloud model, and switch to the deep sea 8b model for offline code generation.
+L117: 
+L118:   * No Terminal? No Problem: Using Ollama with a Visual Interface 3:40
+L119:   * Essential Ollama CLI Commands Every AI Tester Should Know 2:19
+L120: 
+L121:   * Turn Ollama into a Local API Server & Call It from Your Code 4:01
+L122: 
+L123: Start Ollama as an api server and interact with a llama model via http endpoints on port 11434, using api generate calls and optional streaming to retrieve model responses.
+L124: 
+L125:   * Check your knowledge!
+L126: ### Download the Complete Course Source Code 1 lecture • 1min
+L127: 
+L128:   * Complete Source code 0:01
+L129: ### Set Up Your Testing Environment for LLM Evaluation (DeepEval + RAGAs)5 lectures • 21min
+L130: 
+L131:   * Setting Up Python, DeepEval & Jupyter for AI Testing 8:41
+L132: 
+L133: Set up the environment to test large language models with deep eval and ragas; create a Python virtual environment, install deep eval, and enable Jupyter in VS Code.
+L134: 
+L135:   * Creating & Running Your First AI Test Jupyter Notebook in VS Code 4:34
+L136: Learn to set up and use a Jupyter notebook in Visual Studio Code. Select the Python kernel, install the ipy kernel, run code, and save notebooks for DeepEval testing.
+L137: 
+L138:   * Quick Reference: Create & Activate a Python Virtual Environment⚡️0:32
+L139: 
+L140:   * Important Update: How to Log In to the Confident AI Portal (New Changes)0:13
+L141: 
+L142:   * Setting Up Confident AI: Your Dashboard for Visualising Evaluation Results 7:20
+L143: Learn to set up a confident ai login for the deep eval cloud and enable evaluation of large language models with a data set, simulations, observability, evaluation, and human feedbacks.
+L144: ### DeepEval from the Ground Up: Core Concepts Every AI Tester Must Know 15 lectures • 1hr 47min
+L145: 
+L146:   * Unit Tests, Regression Tests & Functional Tests: Applying Old-School QA to LLMs 5:21
+L147: 
+L148: Compare large language model testing to traditional software testing, and apply unit, functional, regression, and responsibility testing using deep eval to assess accuracy, bias, toxicity, and fairness.
+L149: 
+L150:   * Why Traditional Testing Falls Short — The Non-Traditional Way to Evaluate LLMs 4:04
+L151: Explore non-traditional evaluation of large language models using matrix-based metrics, focusing on answer relevancy, prompt alignment, correctness, and hallucination to assess LLM outputs.
+L152: 
+L153:   * LLMs-as-a-Judge Explained: Using AI to Grade AI Responses 5:40
+L154: 
+L155: Explore using large language models as judges to evaluate AI outputs, with DeepEval and RAGAS assessing relevancy, faithfulness, contextual relevancy, precision, recall, bias, toxicity, and tool correctness.
+L156:   * Your First DeepEval Test: Measuring Answer Relevance in Under 10 Minutes 7:47
+L157: 
+L158: Write the first deep eval code to test an llm with the answer relevance metric, loading the OpenAI key via env or dot env, using Joe Biden as context.
+L159: 
+L160:   * What Is Context Precision & How to Test It with DeepEval 12:45
+L161: 
+L162: Explore deep eval's context precision matrix and answer relevancy metrics to evaluate LLM outputs, using test cases with input, actual output, and retrieval context.
+L163:   * Run Your Evaluation & View Results Live on the Confident AI Dashboard 10:59
+L164: 
+L165: Run live evaluations with deep eval using the evaluate method and push results to the Confident AI portal; view insights, LLM test cases, inputs, outputs, and costs on the dashboard.
+L166: 
+L167:   * Running Batch Evaluations: Test Multiple Cases for Answer Relevance at Once 8:20
+L168: Evaluate multiple test cases with the evaluate method to measure answer relevancy metrics using a retrieval context, and perform an A-to-B comparison of LM outputs.
+L169: 
+L170:   * Goldens vs Test Cases: Understanding Datasets in DeepEval 9:45
+L171: 
+L172: Explains that a data set in DeepEval stores goldens, the truth used to generate test cases, and shows converting goldens to test cases for evaluation with an evaluation data set.
+L173: 
+L174:   * How to Build & Use a Golden Dataset for Reliable LLM Evaluation 7:52
+L175: Build a golden dataset, create test cases from goldens, and run LLM evaluations using input, expected output, and retrieval context to ensure reliable results.
+L176: 
+L177:   * Push Your Golden Dataset to Confident AI for Cloud-Based Evaluation 12:58
+L178: 
+L179: Formulate and manage golden datasets from multiple test cases using the Confident AI portal. Learn to push, store, and reuse evaluation datasets with inputs, outputs, and context.
+L180: 
+L181:   * Pull Your Cloud Dataset & Run Evaluations Directly from Confident AI 12:02
+L182: Pull your cloud dataset from Confident AI, convert its goldens into test cases, and run evaluations with a mock LLM app to validate retrieval context.
+L183: 
+L184:   * Important: DeepEval Command Update — Read This Before Running⚡️0:26
+L185: 
+L186:   * Replace GPT with Local DeepSeek R1: Free & Private Evaluation via Ollama 4:21
+L187: 
+L188: Learn to run evaluations with a local large language model using Ollama and DeepEval, configure the local model, and use the local model as a judge for assessment.
+L189:   * Running Full Evaluations with a Local LLM as Your Judge 4:25
+L190: 
+L191: Learn to run evaluations using local LLMs with the deep eval tool, switching from GPT to the deep eval r1 8b Olama model and managing runs for testing.
+L192: 
+L193:   * Check your knowledge!
+L194: 
+L195:   * Deepen your understanding of the basic concepts of DeepEval with AI Assistant!
+L196: ### Test a Real Local LLM End-to-End: Generate Outputs & Build Evaluation Datasets 7 lectures • 47min
+L197: 
+L198:   * The Plan: Using a Local LLM as Both the App Under Test & the Dataset Source 4:13
+L199: 
+L200: Learn to build a golden data set by using a local large language model for evaluation and actual output generation, integrating LangChain to run tests with a local LLM.
+L201: 
+L202:   * Invoking a Local LLM with LangChain to Generate Real Test Data 6:49
+L203: Learn to use LangChain to invoke a local LLM with Ollama, configure a notebook workflow, install LangChain and llama libraries, and generate evaluation data using invoke operations.
+L204: 
+L205:   * Testing Answer Relevancy When Your Judge & App Are Both Local LLMs 9:58
+L206: 
+L207: Evaluate a local large language model (LLM) as both application and judge to test answer relevancy, using lang chain, LM invoke, and prompt engineering to compare outputs and retrieval context.
+L208:   * Context Precision + Threshold Control: Tuning Your Local LLM Evaluation 8:32
+L209: 
+L210: Evaluate local large language models with contextual precision metrics and threshold control in a real Ollama setup. Observe retrieval context handling and bias types to validate outputs against expectations.
+L211: 
+L212:   * Detecting Bias in Local LLMs: Setting Up a Bias Evaluation with a Threshold 5:01
+L213: Evaluate bias in local LLMs by applying a bias matrix with a tunable threshold, running bias metrics, and checking prompts for gender bias.
+L214: 
+L215:   * Build Your Own Bias Metric with GEval and Chain-of-Thought Reasoning 7:29
+L216: 
+L217: Use the gavel framework in deep eval to create custom evaluation metrics, with an LLM as judge and chain of thought, to assess bias and faithfulness.
+L218: 
+L219:   * Running Custom GEval Bias Tests on a Local LLM 5:07
+L220: Build and evaluate custom bias metrics with GEval in the GA framework for local LLMs, using DeepEval tests and AI agent safety metrics.
+L221: 
+L222:   * Check your knowledge!
+L223: ### How to Test a RAG App with DeepEval: From Setup to Evaluation 6 lectures • 32min
+L224: 
+L225:   * What Is RAG & Why Does Your AI App Need It?3:57
+L226: 
+L227: Explore how retrieval augmented generation (rag) improves large language model accuracy by retrieving external data before answering, and learn to test rag-based apps with deep eval.
+L228: 
+L229:   * SOURCE CODE UPDATED ⚡️0:23
+L230: 
+L231:   * Inside a RAG App: PDF Extraction, Vector Stores & Retrieval Explained 8:02
+L232: Describe how a RAG-based app extracts data from PDFs and other sources, embeds it into a vector store, and uses retrieval augmented generation, with testing by DeepEval.
+L233: 
+L234:   * Live Demo: Running a RAG App with Llama & Testing It with DeepEval 6:49
+L235: 
+L236: Demonstrates testing a rag application that reads from vector stores, chunks data with embeddings, and uses the llama 3.2 latest model with the model context protocol to answer questions.
+L237: 
+L238:   * Building a Custom GEval Test Case for Your RAG Application 7:06
+L239: Create a GEval test case for a rag application using DeepEval, building an evaluation data set and an LM test case to ensure concise and complete outputs match expected results.
+L240: 
+L241:   * Is Your RAG App Concise & Complete? Testing It with GEval Custom Metrics 6:08
+L242: 
+L243: Explore testing a RAG app with GEval to measure completeness and conciseness using DeepEval, custom and answer relevancy matrices, and an evaluation dashboard.
+L244: 
+L245:   * Check your knowledge!
+L246: ### Advanced RAG Testing: Multi-Input Datasets, Goldens & Confident AI Integration 8 lectures • 30min
+L247: 
+L248:   * Advanced RAG Testing Strategy: Multi-Input Data & Cloud Dashboards 4:10
+L249: 
+L250: Advance testing of rag applications with deep eval, using multi-input/output and golden data sets, while managing actual and expected outputs in confident AI in VS Code.
+L251: 
+L252:   * SOURCE CODE UPDATED ⚡️0:23
+L253: 
+L254:   * Building a Multi-Input Test Data Array for RAG Evaluation 4:27
+L255: Create and manage multiple test data for evaluation by building input-output data arrays, using golden data sets, and preparing a pipeline to push results to confident AI for future lectures.
+L256: 
+L257:   * Creating RAG Goldens & Uploading Them to the Confident AI Portal 2:53
+L258: 
+L259: Create golden data sets and push them into Confident AI, overwriting existing datasets, run evaluation data sets, and prepare retrieval context and outputs from rag and MCP components.
+L260:   * Populating Actual Outputs & Retrieval Context Using LangChain + RAG 8:00
+L261: 
+L262: Pull the golden data into test cases, populate actual outputs and retrieval context using a Rag workflow, retriever, and retrieval QA with LangChain to build LM test cases.
+L263: 
+L264:   * Converting Your Golden Dataset into Full LLMTestCases 4:21
+L265: 
+L266: Create lm test cases from a golden data set by converting each golden input into a test case with input, actual output, expected output, and retrieval context.
+L267: 
+L268:   * SOURCE CODE UPDATED ⚡️0:41
+L269:   * Running the Full RAG Evaluation & Verifying Results in Confident AI Preview 5:14
+L270: 
+L271: Evaluate test cases against deep eval matrices using answer relevance, faithfulness, context precision, and contextual relevance metrics to verify RAG performance, compare retrieval contexts with expected outputs, and assess results.
+L272: 
+L273:   * Check your knowledge!
+L274: ### How to Test AI Agents & Tool Calls Using Local LLMs and DeepEval 8 lectures • 41min
+L275: 
+L276:   * AI Agents Explained: Tool Calls, MCP & How They Work Under the Hood 8:13
+L277: 
+L278: Understand how ai agents use the model context protocol to access data and tools, enabling tool calls and browser automation. Learn to test ai agent interactions with deep eval.
+L279: 
+L280:   * Building an AI Agent with Add, Subtract & DuckDuckGo Search Tools 6:25
+L281: Demonstrates testing an AI agent by binding tools like the add tool, the subtraction tool, and the DuckDuckGo search tool to produce real-time responses.
+L282: 
+L283:   * The Right Strategy for Testing an AI Agent with DeepEval 2:14
+L284: 
+L285: test an ai agent using deep eval by creating an lm test case, sending queries to a 2.5 model, and validating tool calls, inputs, and outputs.
+L286: 
+L287:   * Testing an AI Agent Offline: Validating Tool Calls Without the Live System 8:40
+L288: Test an ai agent with deep eval using a local llm model, set up tool calls and test data, and verify the correct add numbers tool invocation to yield 60.
+L289: 
+L290:   * Adding Tool Correctness Metrics & Running Offline Agent Evaluation 4:19
+L291: 
+L292: Create tool correction metrics and use the measure method to verify test cases offline. Note the deep eval limitation: online evaluation isn't available, so results come from offline testing.
+L293: 
+L294:   * Upgrade to Real Testing: Evaluating Your AI Agent Against the Live System 4:43
+L295: Test AI agents with the actual system instead of a fake system by using the query AI agent method to obtain real tool inputs, outputs, and responses.
+L296: 
+L297:   * SOURCE CODE UPDATED ⚡️0:24
+L298: 
+L299:   * Data-Driven Agent Testing: Running Multiple Tool Call Scenarios at Once 6:06
+L300: 
+L301: Demonstrate testing ai agents with multiple datasets and tools, including the DuckDuckGo search, to verify correct tool invocation. Measure data-driven evaluation with DeepEval and track tool calls across test cases.
+L302: 
+L303:   * Check your knowledge!
+L304: ### PyTest + DeepEval: Write Clean, Professional AI Eval Test with Zero Boilerplate 14 lectures • 1hr 44min
+L305: 
+L306:   * Why PyTest Is the Right Home for Your DeepEval Evaluation Tests 3:58
+L307: 
+L308: Move DeepEval testing from Jupyter notebooks to the PyTest framework to reduce boilerplate in AI agent and RAG evaluation.
+L309: 
+L310:   * Setting Up requirements.txt with All Dependencies for PyTest & DeepEval 10:00
+L311: Migrate code from jupyter notebooks to the pytest framework and set up a virtual environment. Create a requirements.txt with langchain, langchain-core, and deepEval 4.0.5.
+L312: 
+L313:   * From Jupyter Notebook to PyTest: Migrating Your AI Evaluation Tests 10:05
+L314: 
+L315:   * Running DeepEval's Evaluate Method Inside a PyTest Test 6:23
+L316: 
+L317:   * Using a Local LLM as the Judge Inside Your PyTest Evaluation 8:44
+L318: Adapt pytest to use a local large language model as the DeepEval judge, configuring the local model, api key, and base url via environment variables or code for evaluation.
+L319: 
+L320:   * The Clean Way: Configuring Local LLMs for Evaluation in PyTest 11:15
+L321: 
+L322: Learn to run local LLMs for evaluation without embedding a local model in tests by centralizing settings in a dot env file and resetting DeepEval metrics configurations.
+L323: 
+L324:   * Keep Tests Clean: Move DeepEval Setup Code into PyTest's Conftest 7:04
+L325: Leverage Conf Test in PyTest to remove boilerplate from DeepEval test code by moving setup into a dedicated fixture file, simplifying tests and wiring automatic environment loading.
+L326: 
+L327:   * Auto-Login to DeepEval on Every Test Run with PyTest Hooks 9:03
+L328: 
+L329: Explore pytest hooks and fixtures in conf test to automatically login to the DeepEval llm app, and move boilerplate setup into reusable configurations for llm-based testing.
+L330: 
+L331:   * Sharing Your Local LLM Setup Across Tests with PyTest Fixtures & Scopes 4:41
+L332:   * Grouping Related AI Evaluations into Clean PyTest Test Classes 5:39
+L333: 
+L334: Learn to organize PyTest tests into Python classes to improve readability and scalability for DeepEval tests, including class structure, self parameter, and class-based test execution.
+L335: 
+L336:   * Wiring Up a RAG Evaluation Test Inside PyTest Conftest 7:23
+L337: 
+L338: Move the rag testing workflow into pytest fixtures, migrating the rag application from notebook to conf test and integrating the llm app with nomic embed text v2 moe.
+L339:   * Organising RAG Evaluation Tests into Structured PyTest Classes 10:01
+L340: 
+L341:   * Using Python Closures to Eliminate LangChain Boilerplate from Your Tests 9:55
+L342: 
+L343: Learn how to use Python closures to reduce boilerplate in DeepEval tests, migrate from Jupyter to pytest, and run faster RAG evaluations with LangChain and smaller models.
+L344: 
+L345:   * Source Code 0:02
+L346: 
+L347: 7 more sections
+L348: ## Requirements
+L349: 
+L350:   * Basics of working with LLM like using ChatGPT
+L351: 
+L352:   * Basics of any programing language like Java or Javascript
+L353: 
+L354:   * Basics of python will be a plus
+L355: ## Description
+L356: 
+L357: Testing AI & LLM App with DeepEval, RAGAs & more using Ollama and Local Large Language Models (LLMs)
+L358: 
+L359: Master the essential skills for testing and evaluating AI applications, particularly Large Language Models (LLMs). This hands-on course equips QA, AI QA, Developers, data scientists, and AI practitioners with cutting-edge techniques to assess AI performance, identify biases, and ensure robust application development.
+L360: 
+L361: Topics Covered:
+L362:   * Section 1: Foundations of AI Application Testing (Introduction to LLM testing, AI application types, evaluation metrics, LLM evaluation libraries).
+L363: 
+L364:   * Section 2: Local LLM Deployment with Ollama (Local LLM deployment, AI models, running LLMs locally, Ollama implementation, GUI/CLI, setting up Ollama as API).
+L365: 
+L366:   * Section 3: Environment Setup (Jupyter Notebook for tests, setting up Confident AI).
+L367:   * Section 4: DeepEval Basics (Traditional LLM testing, first DeepEval code for AnswerRelevance, Context Precision, evaluating in Confident AI, testing with local LLM, understanding LLMTestCases and Goldens).
+L368: 
+L369:   * Section 5: Advanced LLM Evaluation (LangChain for LLMs, evaluating Answer Relevancy, Context Precision, bias detection, custom criteria with GEval, advanced bias testing).
+L370:   * Section 6: RAG Testing with DeepEval (Introduction to RAG, understanding RAG apps, demo, creating GEval for RAG, testing for conciseness & completeness).
+L371: 
+L372:   * Section 7: Advanced RAG Testing with DeepEval (Creating multiple test data, Goldens in Confident AI, actual output and retrieval context, LLMTestCases from dataset, running evaluation for RAG).
+L373:   * Section 8: Testing AI Agents and Tool Callings (Understanding AI Agents, working with agents, testing agents with and without actual systems, testing with multiple datasets).
+L374: 
+L375:   * Section 9: Evaluating LLMs using RAGAS (Introduction to RAGAS, Context Recall, Noise Sensitivity, MultiTurnSample, general purpose metrics for summaries and harmfulness).
+L376:   * Section 10: Testing RAG applications with RAGAS (Introduction and setup, creating retrievers and vector stores, MultiTurnSample dataset for RAG, evaluating RAG with RAGAS).
+L377: ## Who this course is for:
+L378: 
+L379:   * QA Engineers
+L380:   * AI QA Test Engineers
+L381:   * Business Analyst
+L382:   * AI Engineers
+L383: 
+L384: Show more Show less
+L385: 
+L386: cite14†Report abuse 

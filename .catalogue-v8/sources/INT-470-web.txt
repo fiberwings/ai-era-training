@@ -1,0 +1,357 @@
+AI Safety & Data Security For All Employees in 2026 (https://www.udemy.com/course/ai-safety-data-security-for-all-employees-at-work/)
+citeturn77view0 [wordlim: 200] Crawled: 3 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-safety-data-security-for-all-employees-at-work/","lineno":null}); Total lines: 367
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Safety & Data Security For All Employees in 2026
+L30: 
+L31: Role Play
+L32: Rating: 4.5 out of 5 4.5cite8†(3,076 ratings) L33: 
+L34: 8,135 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # AI Safety & Data Security For All Employees in 2026
+L38: 
+L39: AI Security Course: Data Security | Risk Management | Ethical AI | ChatGPT, Copilot + Claude LLMs | GDPR + AI EU Act
+L40: 
+L41: Created bycite9†Michael James (PSM I, PSM II, PSM III, PSPO 1, PSPO II, SPS certified) , cite10†Video School , cite11†Phil Ebiner L42: 
+L43: Last updated 9/2026
+L44: 
+L45: English
+L46: 
+L47: German [Auto],English [Auto], 3 more
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * This is THE course EVERYONE needs to take to know how to use AI tools safely in 2026
+L53: 
+L54:   * Safely use ChatGPT, Copilot, and Claude at work without exposing sensitive company or client data
+L55: 
+L56:   * Prevent AI-related data leaks using proven data sanitization and prompt anonymization techniques
+L57: 
+L58:   * Identify and stop Shadow AI risks created by unapproved employee AI usage
+L59: 
+L60:   * Apply a simple AI safety framework to decide which tools are safe for public, internal, and confidential data
+L61:   * Reduce legal and compliance risk by maintaining proper human-in-the-loop oversight for AI outputs
+L62: 
+L63:   * Detect AI hallucinations, misinformation, and fabricated citations before they cause real-world damage
+L64: 
+L65:   * Protect intellectual property and avoid copyright or plagiarism risks when generating AI content or code
+L66: 
+L67:   * Understand the Regulation & Global Impact of the EU AI Act and GDPR
+L68: 
+L69:   * Use AI responsibly and ethically while maintaining productivity, compliance, and trust
+L70: ## Course content
+L71: 
+L72: 9 sections • 47 lectures • 3h 21m total length
+L73: 
+L74: Expand all sections
+L75: ### AI in Our Workplace 9 lectures • 25min
+L76: 
+L77:   * Introduction to AI Safety and Shadow AI Risks Preview 4:18
+L78: 
+L79: Learn how to use ai safely and responsibly by identifying shadow ai risks, unapproved tools, and data safeguards to protect your organization, colleagues, and reputation.
+L80: 
+L81:   * The 5 Major Risks of Unsafe AI Use Preview 4:47
+L82: 
+L83: Identify the five major risks of unsafe AI use: data breaches, reputational damage, security threats, legal and IP violations, and bias, and review real-world case studies.
+L84:   * Case Study: Samsung’s AI Data Leak Preview 3:12
+L85: 
+L86: Samsung workers leaked confidential code and notes by using public ChatGPT, exposing data from secure environments and intellectual property. Use work-provided tools and avoid personal accounts.
+L87: 
+L88:   * Case Study: WormGPT, The AI's Dark Side 1:40
+L89: 
+L90:   * Demo: When The AI Model is Out of Date Preview 3:38
+L91: Demonstrates how AI model cutoff dates affect accuracy in AI safety and data security training, comparing legacy GPT-4 data up to May 2024 with newer internet-searching models.
+L92: 
+L93:   * 2 Issues With Over Relying on AI 3:13
+L94: 
+L95: Explore two risks of over relying on ai: loss of ability to work without ai and reduced visibility into decision processes, with GDPR and eu ai safety act implications.
+L96: 
+L97:   * The Real Cost And Damage of AI Mistakes Preview 2:35
+L98: Understand the real costs of ai mistakes, including gdpr fines up to 4% of global revenue, bias lawsuits, remediation expenses, and the case for prevention.
+L99: 
+L100:   * AI Safety Quiz 1
+L101: 
+L102:   * Join The Student Community 1:14
+L103: 
+L104:   * Disclaimer 0:43
+L105: ### A Three-Tiered Framework to AI Security 6 lectures • 30min
+L106: 
+L107:   * Case Study: Air Canada’s Reputation Risk 3:30
+L108: 
+L109: Air Canada's chatbot gave incorrect bereavement refund policy information, leading to a court ruling that the company is responsible for ai outputs; implement checks, human-in-the-loop, and restricted chatbot authority.
+L110: 
+L111:   * 3 AI Security Tiers: Public vs. Enterprise vs. On‑Premise 8:48
+L112: Understand a three-tier ai security framework: public, enterprise, and on-premise models. Learn how encryption, zero data retention, and retrieval augmented generation protect company information.
+L113: 
+L114:   * Tier 1: Public LLMs Preview 3:14
+L115: 
+L116: Public LLMs like ChatGPT, Gemini, Copilot, and Claude offer helpful capabilities for broad, low-risk tasks. Avoid entering sensitive data, as inputs may be stored or reviewed.
+L117: 
+L118:   * Tier 2: Enterprise, Your Go-To For Work 4:59
+L119: 
+L120:   * Tier 3: Maximum Security, On-Premise 3:46
+L121: Illustrate tier three on-premise large language models, keeping data within company environments, ensuring privacy, isolation, and strict regulatory compliance. Highlight data residency, access control, and isolation for high-stakes workflows.
+L122: 
+L123:   * Exercise: Which Security Tier?5:54
+L124: 
+L125: Assess how to apply the tier framework to real tasks, from drafting a post to debugging proprietary code, while considering shadow AI, confidential data, and cloud or on premise safeguards.
+L126: 
+L127:   * AI Safety Quiz 2
+L128: ### Safe & Responsible AI Practices 10 lectures • 1hr 2min
+L129: 
+L130:   * Case Study: Replika's Data Privacy Failure 2:43
+L131: 
+L132: Examine how Replika's data privacy breach led to a 5.6 million euro fine, highlighting inadequate age verification, unlawful processing of minors' data, and GDPR non-compliance.
+L133: 
+L134:   * Data Privacy and Sensitive Information in AI Preview 3:03
+L135: Identify government ids, employee numbers, biometric data, and sensitive data such as healthcare and finance, and explain why they must not be put into public tiers for privacy and security.
+L136: 
+L137:   * Data Privacy Essentials: Protecting Confidential Company Information 2:58
+L138: 
+L139: Apply data privacy basics to protect confidential company information and PII, anonymize content before sending to AI, and select appropriate retention tiers.
+L140: 
+L141:   * Writing Safe, Effective Prompts and Avoiding AI Hallucinations Preview 5:03
+L142: Master safe, effective prompts using chain of thought prompting, demand evidence and official sources, and ask for uncertainty to reduce hallucinations and ensure verified outputs.
+L143: 
+L144:   * Demo: Using Official Sources and Knowledge Bases with AI Preview 5:40
+L145: 
+L146: Demonstrates using official sources and knowledge bases with AI, referencing UK Civil Aviation Authority regulations PDF and linking with page numbers for facts and instructions.
+L147: 
+L148:   * Exercise 4 LLMs compared, Hallucination Hunt 3:45
+L149: Explore how large language models hallucinate and practice detecting false outputs by cross-checking results from Copilot, ChatGPT, Grok, Gemini, Claude, and DeepSeek in a hallucination hunt.
+L150: 
+L151:   * Prompt Engineering: Write Good Prompts and Get Good Results Preview 6:38
+L152: 
+L153: Master prompt engineering to achieve accurate outputs by applying a clear prompt structure: task, role, limits, guidance, context, steps, templates, and examples.
+L154: 
+L155:   * Prompt Engineering Special Tips 4:57
+L156: Discover special prompt engineering tips to keep prompts safe and accurate, such as challenging assumptions, exploring multiple perspectives, and giving AI space to think for better outputs.
+L157: 
+L158:   * Quick Demo: Verifying Different Stats on Fast Cars 9:34
+L159: 
+L160: Compare ChatGPT and Gemini to reveal discrepancies in top speeds for production cars. Highlight how prompt precision and authentic sources improve accuracy and promote AI safety.
+L161: 
+L162:   * Exercise & Demo of Good Prompting and Researching AI Safety Updates 17:37
+L163:   * AI Safety Quiz 3
+L164: ### Bias, Ethics, IP, Copyright with AI 9 lectures • 43min
+L165: 
+L166:   * Case Study: Bias and Discrimination in Amazon Hiring Model 5:09
+L167: 
+L168: Explore how Amazon's AI recruiting model learned from biased historical resumes, amplifying gender discrimination; learn bias detection, testing methods, and the importance of human in the loop and supervised learning.
+L169: 
+L170:   * AI Ethics and Bias: Understanding and Preventing Stereotypes 3:07
+L171: 
+L172:   * Exercise: Testing 4 LLMs for Bias 7:10
+L173:   * Human Responsibility and Oversight in AI Use 7:48
+L174: 
+L175: Ensure human responsibility for AI results by reviewing and validating outputs. Pause to assess fairness, safety, privacy, hallucinations, memory, and appropriateness, escalating when uncertain or risky.
+L176: 
+L177:   * Human-in-the-loop Safeguard 2:38
+L178: 
+L179: Explore human in the loop and its oversight levels, including a human reviewer, to ensure artificial intelligence outputs meet standards with escalation when needed.
+L180:   * Frameworks for Ethical and Responsible AI Use 3:09
+L181: 
+L182: Explore frameworks for ethical and responsible AI use across personal, organizational, and professional levels, emphasizing transparency, data privacy, compliance with laws, and ongoing AI ethics awareness.
+L183: 
+L184:   * Copyright, Ownership, and Plagiarism in AI 7:31
+L185: 
+L186: Identify ownership of AI-generated content in the workplace, assess licensing and copyright risks, and avoid plagiarism by verifying sources and crediting authors.
+L187:   * Exercise: Guess The Ownership 3:59
+L188: 
+L189:   * Demo Plagiarism on Harry Potter?2:50
+L190: 
+L191:   * AI Safety Quiz 4
+L192: ### Legislation EU AI Act and GDPR and More 7 lectures • 20min
+L193: 
+L194:   * Regulatory Frameworks and Industry Limits on AI Use 6:11
+L195: 
+L196: Explore key regulatory frameworks and industry limits on ai use, including the eu ai act, the nist ai framework, and gdpr, with practical guidance for compliant, responsible applications across sectors.
+L197: 
+L198:   * EU AI Act - What is it 2:33
+L199: Explore the EU AI Act and the Brussels effect, showing how 2024 EU standards set the baseline for global AI regulation and simplify compliance for major providers.
+L200: 
+L201:   * EU AI Act - 4 Levels of AI Risk Preview 3:10
+L202: 
+L203:   * EU AI Act High-Risk AI Compliance Obligations 1:40
+L204: 
+L205: Organizations must conduct risk management for high-risk AI, document risk register and data used, ensure meaningful human oversight with override rights, and test for accuracy, reliability, and bias.
+L206:   * EU AI Act Limited-Risk AI Compliance Obligations 1:26
+L207: 
+L208:   * EU AI Act Minimal-Risk AI Compliance Obligations 1:33
+L209: 
+L210: reduce the amount of data you store and process to minimize risk. ensure data remains accurate, secure, and up to date while complying with GDPR and privacy laws.
+L211: 
+L212:   * What are Other Countries Doing...3:02
+L213: 
+L214:   * AI Safety Regulation Quiz (Quiz 5)
+L215: ### Verifying AI Outputs 1 lecture • 4min
+L216: 
+L217:   * Verifying AI Outputs: Accuracy, Bias, and Compliance 3:55
+L218: 
+L219: Verify AI outputs for accuracy, bias, and compliance by cross-checking facts with trusted sources, ensuring transparent reasoning, and applying deployment due diligence with human review.
+L220: ### Your Company's Approach & Your Role to AI Safety 3 lectures • 14min
+L221: 
+L222:   * Company AI Policies and Responsible Use Framework 7:21
+L223: 
+L224: Follow your company AI policies and use only approved tools to protect personal and confidential data. Assess whether data is personally identifiable or sensitive and request human review when needed.
+L225: 
+L226:   * Exercise: Find Your Company Policies and Regulations 3:03
+L227: Research your organization's AI policies, governance groups, data security rules, and data controller roles by consulting intranet resources and your manager to know what to follow and stay compliant.
+L228: 
+L229:   * Course Recap: Key Takeaways for Responsible AI Use 3:42
+L230: 
+L231: Select the appropriate AI tier for each task, protect personal and confidential data, craft clear prompts, verify outputs, and stay aware of bias, fairness, and data policies.
+L232: 
+L233:   * AI Safety Quiz 6
+L234: ### Practice Your AI Safety Knowledge with a Role Play 1 lecture0
+L235: 
+L236:   * Meeting with Your Supervisor About AI Safety
+L237: ### AI Safety Course Conclusion 2 lectures • 3min
+L238: 
+L239:   * AI Safety Course Conclusion, Thank You & What's Next?1:21
+L240: 
+L241: Apply practical takeaways for safe AI use and data security at work, and plan the next steps after this course. Explore bonus courses and bespoke training from Learn Management online.
+L242: 
+L243:   * Bonus and Course Discounts 1:15
+L244: 
+L245: Learn more from Michael James
+L246: 
+L247: For updates on courses, follow me on Facebook and LinkedIn.
+L248: ## Requirements
+L249: 
+L250:   * No prior AI, technical, or programming experience required
+L251: 
+L252:   * No cybersecurity or legal background needed
+L253: 
+L254:   * Interest in using AI tools like ChatGPT, Copilot, or Claude at work
+L255: 
+L256:   * Willingness to think critically about data privacy, security, and responsible AI use
+L257: ## Description
+L258: 
+L259: Right now, you or your employees are using AI to do their jobs.
+L260: 
+L261: Whether it is drafting a client email, debugging code, or summarizing a confidential meeting strategy, Generative AI has become the invisible co-worker in your organization.
+L262: 
+L263: But here is the problem: Nearly 50% of employees admit to using AI tools without their employer's knowledge.
+L264: 
+L265: This is called "Shadow AI," and it is currently the single biggest cybersecurity and legal blind spot facing modern businesses.
+L266: When a well-meaning employee pastes a client’s sensitive financial data, your proprietary source code, or a draft of a confidential press release into a public Large Language Model (LLM) like the free version of ChatGPT, that data leaves your control. In many cases, it is used to train the model, meaning your trade secrets could effectively become public knowledge.
+L267: It happened to Samsung. Engineers accidentally leaked proprietary code by pasting it into a public chatbot to check for errors. It happened to Air Canada. A chatbot promised a refund policy that didn't exist, and the courts ruled the company was liable for the AI's "hallucination."
+L268: 
+L269: Is your team next?
+L270: 
+L271: You cannot afford to ban AI—it is too competitive an advantage. But you cannot afford to let your staff use it blindly. You need to bridge the gap between "Don't use it" and "Use it safely."
+L272: The Solution: Practical, Standardized AI Safety & AI Security Training
+L273: 
+L274: This AI security course is the solution to the Shadow AI problem. It is designed specifically for employees and anyone wanting to use AI safely. It is for business owners, HR directors, and Training Managers who need a plug-and-play solution to upskill their workforce on the risks and responsibilities of using LLMs.
+L275: We move beyond vague warnings and provide a concrete operational AI safety framework that employees can apply immediately to their daily AI workflows.
+L276: 
+L277: What Your Team Will Learn
+L278: 
+L279: This AI security course breaks down complex cybersecurity and legal concepts into digestable, actionable lessons.
+L280: 
+L281:   * The "3-Tier" AI Safety Framework: A simple, traffic-light system I have developed to help employees instantly decide which AI tool is safe for which type of data (Public vs. Enterprise vs. Secure).
+L282:   * How to Stop Data Leakage: We teach the art of "Data Sanitization"—how to strip PII (Personally Identifiable Information) from prompts so employees can use AI's power without exposing client secrets.
+L283: 
+L284:   * Avoiding Legal Liability: Using the Air Canada case study, we demonstrate why "The AI said so" is not a legal defense, and how to keep a "Human-in-the-Loop" to protect the company.
+L285: 
+L286:   * The AI Hallucination Trap: How to spot when an AI is lying, fabricating facts, or citing non-existent court cases.
+L287:   * AI Copyright & IP Dangers: Understanding who owns the output, and why using AI to generate code or content carries hidden plagiarism risks.
+L288: 
+L289:   * AI Bias & Ethics: How to recognize when an AI is reinforcing harmful stereotypes in hiring or customer service.
+L290: 
+L291:   * Understand the Regulation & Global Impact of the EU AI Act and GDPR.
+L292: 
+L293: Who This AI Safety Course Is For
+L294: 
+L295:   * All employees who use AI and LLMs such as ChatGPT or Copilot at work
+L296:   * Business Owners who are terrified of a data breach but don't want to lose the productivity gains of AI.
+L297: 
+L298:   * HR & L&D Managers looking for a standardized "onboarding" course for AI usage policy.
+L299: 
+L300:   * IT Managers struggling to combat Shadow AI and needing a way to educate non-technical staff.
+L301: 
+L302:   * Team Leaders who want to encourage innovation but ensure compliance.
+L303: 
+L304: Why This AI Safety Course?
+L305: 
+L306: Most AI & Data Security courses focus on "How to write better prompts" or "How to make money with AI."
+L307: This is the missing manual on SAFETY.
+L308: 
+L309: We don't just talk theory. We provide exercises on data security, anonymization challenges, and hallucination hunting. By the end of this course, you or your employees won't just be using AI faster—you will be using it safer.
+L310: 
+L311: Key Topics in this AI Safety Course:
+L312: 
+L313:   * AI safety & governance
+L314: 
+L315:   * Responsible AI usage
+L316: 
+L317:   * AI compliance basics
+L318: 
+L319:   * Shadow AI & Workplace Risk
+L320: 
+L321:   * Workplace AI policy
+L322: 
+L323:   * Generative AI & LLM Risks
+L324: 
+L325:   * ChatGPT security risks
+L326:   * Microsoft Copilot safety
+L327: 
+L328:   * Claude AI security
+L329: 
+L330:   * Data Protection & Privacy
+L331: 
+L332:   * AI data leakage prevention
+L333: 
+L334:   * Data sanitization techniques
+L335: 
+L336:   * Prompt anonymization
+L337: 
+L338:   * AI legal liability
+L339: 
+L340:   * AI hallucination risks
+L341: 
+L342:   * AI copyright & IP risks
+L343: 
+L344:   * Plagiarism risks with AI
+L345: 
+L346:   * AI bias detection
+L347: 
+L348:   * Ethical AI practices
+L349: 
+L350:   * Responsible AI decision-making
+L351: 
+L352:   * EU AI Act and GDPR
+L353: 
+L354: Your Data is Your Most Valuable Asset. Don't let it leak into a public chatbot.
+L355: Enroll your team today. Turn your workforce from your biggest security risk into your strongest line of defense.
+L356: ## Who this course is for:
+L357: 
+L358:   * Business Owners who are terrified of a data breach but don't want to lose the productivity gains of AI.
+L359:   * HR & L&D Managers looking for a standardized "onboarding" course for AI usage policy.
+L360:   * IT Managers struggling to combat Shadow AI and needing a way to educate non-technical staff.
+L361:   * Team Leaders who want to encourage innovation but ensure compliance.
+L362:   * Anyone who wants to know how to use AI tools safely & securely
+L363: 
+L364: Show more Show less
+L365: 
+L366: cite12†Report abuse 

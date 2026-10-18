@@ -1,0 +1,254 @@
+AI Governance Professional (AIGP) 2026 Complete Training (https://www.udemy.com/course/ai-governance-professional-aigp-2025/)
+citeturn43view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-governance-professional-aigp-2025/","lineno":null}); Total lines: 536
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: AI Governance Professional (AIGP) 2026 Complete Training
+L41: 
+L42: Bestseller
+L43: 
+L44: Rating: 4.5 out of 5 4.5cite12†(842 ratings) L45: 
+L46: 7,250 students
+L47: 
+L48: cite0†Image†img-c.udemycdn.com Preview this course
+L49: # AI Governance Professional (AIGP) 2026 Complete Training
+L50: 
+L51: Be among the first to master the new 2026 AIGP certification with AIGP Certified expert-led course!
+L52: 
+L53: Created bycite13†Saahil Gupta L54: 
+L55: Last updated 9/2026
+L56: 
+L57: English
+L58: 
+L59: Bulgarian [Auto],English [Auto], 7 more
+L60: 
+L61: cite0†Image†img-c.udemycdn.com Preview this course
+L62: ## What you'll learn
+L63: 
+L64:   * Prepare for globally recognized Artificial Intelligence Governance Professional (AIGP) certification and position yourself as a trusted leader in AI governance
+L65: 
+L66:   * A step-by-step guide on how to establish AI governance infrastructure in any organization using practical tools and frameworks.
+L67: 
+L68:   * Understanding the foundations of Traditional, Generative & Agentic AI along with in-depth coverage of end-to-end AI development lifecycle with practical example
+L69:   * Coverage of global AI laws: the EU AI Act, South Korea’s AI Basic Law, Italy’s AI Act, Vietnam’s AI Law, and the US AI Action Plan, plus state laws
+L70: 
+L71:   * NIST AI Risk Management Framework, ISO AI standards (22989, 42001, and 42005), and OECD principles, frameworks, and policies.
+L72: 
+L73:   * Coverage of other laws that apply to AI: GDPR, Title VII of the Civil Rights Act, ADA, FCRA, ECOA, FHA, FTC, COPPA, HIPAA, and the EU Revised Product Liability
+L74:   * Other AI-specific emerging bills/ draft laws/ guidelines from China, Japan, Brazil, Canada, India and Singapore
+L75: 
+L76:   * 400+ page textbook-style downloadable notes in black & white for revision and long-term reference
+L77: 
+L78:   * 200+ questions across 4 domains, organized by domain and competency & 2 practice tests.
+L79: 
+L80:   * Five in-depth case studies across different industries and Responsible AI Principles with follow-up quizzes to test practical understanding
+L81: ## Course content
+L82: 
+L83: 11 sections • 74 lectures • 14h 29m total length
+L84: 
+L85: Expand all sections
+L86: ### Introduction 7 lectures • 21min
+L87: 
+L88:   * Let’s Get Started! Welcome to the Course Preview 1:53
+L89: 
+L90: Explore the AIGP 2026 complete training with Sahil, a certified responsible AI professional, and discover what the exam covers, why to get certified, who it’s for, and how to prepare.
+L91: 
+L92:   * All About the AIGP Exam Preview 3:31
+L93: 
+L94:   * Why Get AIGP Certified?Preview 2:29
+L95: Explore five reasons to earn the AIGP certification, including managing AGI risk, complying with EU and US regulations, and unlocking in-demand governance roles.
+L96: 
+L97:   * Who Should Take the AIGP?Preview 2:50
+L98: 
+L99:   * How to pass the AIGP Exam?Preview 2:54
+L100: 
+L101: Plan a three-month study to cover all 13 BOK domains, assigning one week per domain, using 30 hours (technical) or 50 hours (non-technical), plus practice tests.
+L102: 
+L103:   * AIGP Syllabus Walkthrough Preview 5:30
+L104: BREAKING UPDATE: The IAPP has officially released version 2.1.0 of the AIGP Body of Knowledge (BoK)- upgraded from version 2.01.
+L105: 
+L106: Confirmed changes:
+L107: 1️⃣ Newly passed AI-specific regulations have been incorporated.
+L108: 2️⃣ Agentic AI is now formally included in the syllabus.
+L109: Important note:
+L110: This updated BoK will apply only to examinations scheduled on or after February 2, 2026. If you are appearing for the exam on or before February 1, 2026, this update does not apply to you. Please continue referring to the current version- 2.0.1 (AIGP_Cert_BOK_FINAL_012925_2.0.1.pdf) if you are appearing for the exam on or before February 1, 2026. But if you plan to appear on or after February 2, 2026, please refer to the latest updated version-2.1.0 (AIGP_Cert_BOK_2025_FINAL_v2.1.0.pdf)
+L111: Here are three significant updates in BoK v2.1 that have not yet received widespread attention:
+L112: 
+L113:     * Domain II.C has been expanded to cover additional enacted AI laws beyond the EU AI Act, including South Korea’s AI Basic Law.
+L114: 
+L115:     * Domain II.D now explicitly references the ISO 42005 standard.
+L116: 
+L117:     * Domain IV.A has been revised to include Agentic Architectures as a formal topic of study.
+L118: Additionally, minor language refinements have been made across the BoK, such as the consistent use of the term “system” when referring to models and/or systems, ensuring greater clarity and precision.
+L119: 
+L120: If you are preparing for the 2026 version of the exam (i.e., on or after February 2, 2026), you do not need to purchase a separate course. This course will soon be updated to include all new additions as a clearly labeled module, marked as new/optional for current exam takers.
+L121:   * How to make most of AIGP Course? [Downloadable Notes Included in Resources HERE]1:58
+L122: 
+L123: Here are the links you’ll need to get started. Just click, download, or join as needed. Everything is ready for you- notes, community groups, and extra resources.
+L124: 
+L125:     1. Downloadable Study Notes- In the resources section of this video.
+L126: 
+L127:     2. LinkedIn Study Group- https://www.linkedin.com/groups/14498288/
+L128: 
+L129:     3. Discord Channel- https://discord.com/invite/7TsHtSfZ [NEW]
+L130: ### Domain I.A Understand what AI is and why it needs governance.19 lectures • 4hr 33min
+L131: 
+L132:   * Domain 1A Overview Preview 5:24
+L133: In this lecture, we looked at Domain 1A at a high level and discussed how it is structured in the AIGP Body of Knowledge and in this course. We started off with the four exam domains and explained the difference between domains, competencies and performance indicators. Then we discussed the expected number of questions from Domain 1 and why Domain 1A is especially important for building a strong conceptual foundation. We also looked at how the four performance indicators are divided into separate lessons.
+L134: These lessons cover AI fundamentals, including key AI and machine learning terms, the OECD AI classification framework, types of AI, machine learning methods and the AI technology stack. We then discussed different AI risks, harms and biases, followed by the main reasons why AI needs governance. Finally, we looked at the principles of responsible AI and explained that each principle will be covered in detail using practical examples, especially from generative and agentic AI.
+L135:   * Domain 1A. 1. Know the generally accepted definitions and types of AI 8:34
+L136: In this lecture, we looked at the generally accepted definitions and basic elements of artificial intelligence and machine learning at a high level. We started off by understanding the relationship between AI, machine learning, deep learning, and generative AI, and why these terms should not be used interchangeably.
+L137: Then we discussed how AI acts as the broader umbrella term, machine learning learns from data without being explicitly programmed, deep learning uses multilayered neural networks, and generative AI creates new content by learning patterns from training data. We also briefly looked at how data science can cut across these areas to generate useful insights.
+L138: Finally, we looked at the four common elements found in AI and machine learning definitions, which are technology, automation, the role of humans, and outputs such as predictions, recommendations, and decisions.
+L139:   * Domain 1A. 1. OECD AI Classification Framework & Common AI Task Types 11:56
+L140: In this lecture we looked at the OECD AI Classification Framework and common AI use cases at a high level. We started off with the purpose of the framework and how it helps policymakers and organizations understand an AI system’s risks, opportunities, and policy implications. We then discussed its five main dimensions, which are people and planet, economic context, data and input, AI model, and task and output.
+L141: Finally, we looked at seven common AI tasks defined by the OECD, including recognition, event detection, forecasting, personalization, interaction support, goal-driven optimization, and reasoning with knowledge structures, along with simple examples to understand how they differ from one another.
+L142:   * Domain 1A. 1. Types of AI Systems (Weak vs Strong AI)3:08
+L143: In this lecture, we looked at the two main types of AI systems at a high level: weak or narrow AI and strong or general AI. We started off with the current status of AI and learned that almost all AI systems available today are narrow AI systems designed for specific tasks, while general AI is still a theoretical and futuristic concept.
+L144: Then we discussed the major differences between them based on intelligence level, capabilities, learning, adaptation, emotional intelligence, consciousness, and self-awareness. We also learned that narrow AI works only within its trained domain, while general AI would be able to perform different intellectual tasks and adapt across areas such as legal, finance, and healthcare without additional training.
+L145: Finally, we looked at important keywords and examples that can help identify whether an exam scenario is describing narrow AI or general AI.
+L146:   * Domain 1A. 1. Basics of Machine Learning & Training Methods 11:52
+L147: In this lecture we looked at the basics of machine learning and different AI concepts at a high level. We started off with the four main machine learning methods, which are supervised, unsupervised, semi-supervised, and reinforcement learning, and discussed the key clues that help identify each method in exam scenarios. Then we discussed self-supervised learning and how it is used to train large language models on large amounts of data.
+L148: We also looked at the differences between deep learning, generative AI, multimodal models, transformer architecture, natural language processing, and large language models. Finally, we looked at the difference between robotics and robotic process automation, where robotics uses physical machines while RPA uses software robots to perform repetitive digital tasks.
+L149:   * Domain 1A. 1. AI Technology Stack- 3 Layers 3:09
+L150: In this lecture we looked at the AI technology stack at a high level. We started off by understanding how the technology stack provides another useful way to study an AI system alongside the five OECD dimensions. Then we discussed the three main layers of the stack, which are the application layer, model layer, and infrastructure layer.
+L151: We learned that the application layer is the user-facing interface where inputs are submitted and outputs are received, while the model layer works in the background to process the input and generate a response. Finally, we looked at how the infrastructure layer provides the computing resources, such as GPUs and tensor processing units, needed to support the application and model layers, and how understanding all three layers helps us govern, audit, and identify risks in an AI system.
+L152:   * Domain 1A. 1. Practice Quiz
+L153: 
+L154:   * Domain 1A. 2. Identify the types of AI risks and harms-Overview Preview 5:42
+L155: In this lecture we discussed AI risks, harms and biases at a high level. We started off with an overview of the IAPP taxonomy, which includes five types of harms, four types of risks and sixteen types of biases, and discussed the common exam format where learners must identify the most relevant type from a given scenario.
+L156: Then we discussed the difference between risk and harm, where risk refers to the possibility of a negative outcome that may happen in the future, while harm refers to actual damage or adverse impact that has already occurred. Finally, we looked at bias and discussed how ethical bias can create systematic and unfair outcomes, while technical bias in machine learning refers to concepts such as model parameters and the bias-variance trade-off.
+L157:   * Domain 1A. 2. Overview of AI Harms 17:12
+L158: In this lecture we looked at the five main types of harm caused by AI systems at a high level. We started off with individual harms, including impacts on civil rights, privacy, economic opportunities, employment and personal safety. Then we discussed group harms caused by biased facial recognition, mass surveillance and discrimination against specific communities, followed by societal harms such as deepfakes, disinformation, echo chambers, election manipulation and unequal access to education and jobs.
+L159: Finally, we looked at institutional harms, including reputational, cultural and financial damage to organizations, and ecosystem harms caused by the high use of energy, water and natural resources by AI systems. We also discussed useful keywords that can help distinguish group harms from societal harms in exam questions.
+L160:   * Domain 1A. 2. Overview of AI Risks 12:53
+L161: In this lecture we looked at the main types of AI risks at a high level. We started off with the four broad categories of risk, which are security, privacy, business and other risks. Then we discussed security risks and important concepts such as adversarial attacks, prompt injection, data poisoning, model poisoning and model inversion.
+L162: We also looked at privacy risks such as keeping data beyond consent, using data for a different purpose, collecting data from unintended people and failing to provide proper consent and transparency. Next, we discussed business risks related to third-party vendors, legal and regulatory violations, reputational damage and financial impact.
+L163: Finally, we looked at other risks, including threats to democracy and public trust, over-reliance on AI, misuse of surveillance and profiling, operational failures and the environmental impact of training and running AI systems.
+L164:   * Domain 1A. 2. Overview of AI Biases 9:35
+L165: In this lecture we looked at 16 types of AI bias across four broad dimensions at a high level. We started off with human-centric biases, including cognitive, projection, confirmation, anchoring, implicit, and psychological or sociological bias. Then we discussed data-centric biases such as sampling, selection, temporal, labelling, and measurement bias, followed by societal and systemic bias.
+L166: Finally, we looked at machine and automation-related biases, including computational, automation, and transfer learning bias, and used a housing price prediction example to understand the key differences between these bias types.
+L167:   * Domain 1A. 2. Practice Quiz
+L168: 
+L169:   * Domain 1A 3: Identify Characteristics of AI Requiring Comprehensive Governance 22:14
+L170: In this lecture we discussed at a high level the unique characteristics of AI that make governance necessary. We started off with an overview of the seven key characteristics aligned with the Body of Knowledge and also looked at how exam questions may test these through real life situations.
+L171: Then we discussed each characteristic one by one, including complexity, opacity, autonomy, speed and scale, potential for harm or misuse, data dependency, and probabilistic outputs, and understood what each one means and why it creates governance challenges. Finally, we looked at real examples from the AI Incident Database for every characteristic to see how these issues appear in practice and why it is important to carefully analyze AI systems from multiple angles when answering scenario based questions.
+L172:   * Domain 1A. 3. Practice Quiz
+L173: 
+L174:   * Domain 1A. 4. Identify and apply the common principles of responsible AI 28:28
+L175: In this lecture we discussed the common principles of Responsible AI at a high level. We started off by clarifying the difference between AI governance and Responsible AI using the latest IAPP definitions, where AI governance refers to the organizational frameworks, processes, and oversight used to manage AI systems, while Responsible AI focuses on the ethical principles and standards that AI systems should follow to avoid harm and build trust.
+L176: Then we discussed each Responsible AI principle one by one including fairness, privacy, safety, security, accountability, transparency, explainability, interpretability, robustness, reliability, resilience, human centricity, and sustainability, and understood their meaning in simple terms.
+L177: Finally we looked at several real world incidents from the AI Incident Database to see how these principles apply in practice and how failures in these areas can lead to bias, privacy violations, safety risks, misinformation, unreliable systems, and environmental concerns in real world AI deployments.
+L178:   * Domain 1A. 4. Practice Quiz
+L179: 
+L180:   * Domain 1A. AI Lifecycle -Planning Preview 8:20
+L181: In this lecture, we discussed the AI development lifecycle as a bonus section that was previously part of Domain 5. We started off with understanding that the AI lifecycle is not a sequential approach but rather an iterative one, where each stage interconnects with others. The lecturer emphasized that key processes like data labeling and model training are not one-time activities but may need to be revisited and refined throughout the development process.
+L182: We then took a deep dive into the planning stage, particularly focusing on determining business objectives and requirements. The lecturer explained this using real-life examples from e-commerce personalization and fraud detection in financial services. We saw how to break down the planning process into understanding the problem statement, mapping business challenges to objectives, and defining desired outcomes in terms of both functional and technical requirements.
+L183: For instance, if a business is facing low customer engagement, the objective might be to increase engagement by 30%.
+L184: We also explored the scope of AI projects, using an e-commerce recommendation engine as an example. The lecturer explained how scope encompasses various dimensions including datasets (like customer browsing history and product catalogs), geography, customer segments, product hierarchies, technical constraints, compliance requirements, and evaluation metrics.
+L185: The final part touched on AI governance and risk management, emphasizing the importance of integrating AI risk management with existing organizational frameworks and embedding responsible AI principles into company culture. Remember that understanding the iterative nature of the AI lifecycle and the detailed planning phase is very important for the exam.
+L186:   * Domain 1A. AI Lifecycle -Designing 16:06
+L187: In this lecture, we took a deep dive into the design phase of the AI lifecycle. We started off with two main categories: implementing a data strategy and determining AI architecture/model selection. Within data strategy, we looked at three key areas: data understanding, data wrangling, and data labeling. We also explored Privacy Enhancing Techniques (PETs) like data minimization, differential privacy, and federated learning, which are particularly important from an exam perspective.
+L188: Next, we delved into AI system architecture, which consists of three layers: application layer, model layer, and infrastructure layer. The application layer is where users interact with the system through interfaces like web apps or mobile apps. The model layer houses the core AI and machine learning models, while the infrastructure layer provides the necessary hardware and software resources.
+L189: Remember that understanding the relationship between these layers is crucial for the exam, as they work together to create a complete AI system.
+L190: Finally, we explored model selection and the important tradeoffs to consider. We looked at key concepts like accuracy versus interpretability and bias versus variance. It's essential to remember that high bias leads to underfitting, while high variance leads to overfitting - this relationship is particularly important for the exam. We also discussed other tradeoffs like training time versus performance, feature engineering versus automatic feature engineering, and model simplicity versus flexibility.
+L191: Each of these tradeoffs presents unique challenges and considerations when selecting the right model for your AI project.
+L192:   * Domain 1A. AI Lifecycle -Developing 21:52
+L193: 
+L194: In this lecture, we did a deep dive into the Development stage of the AI/ML lifecycle. We started off with an overview of four key substages: feature engineering, model building, model training and validation, and model testing. Each of these substages plays a crucial role in developing effective AI models, and the instructor emphasized several concepts that are particularly important from an exam perspective.
+L195: Moving into the specifics, we first explored feature engineering, which is all about creating new features or transforming existing ones to improve model performance. The instructor used a great real-world example of fraudulent transactions to show how raw data can be transformed into meaningful features. Then we looked at three different model building approaches: building from scratch, fine-tuning, and retraining.
+L196: It's interesting to note how the field has shifted from building models from scratch to more fine-tuning approaches, especially after the advent of generative AI like GPT models.
+L197: The final part of the lecture covered model training, validation, and testing. We learned about the important distinction between training, validation, and test datasets - remember, this is particularly crucial for the exam! The instructor explained how validation happens alongside training, while testing comes after the model is trained to a decent state. We also explored the concepts of overfitting and underfitting, their symptoms, and mitigation strategies.
+L198: For overfitting, key signs include high training accuracy but low validation/test accuracy, while underfitting shows low accuracy across all datasets. Each of these issues has specific mitigation strategies that are important to understand from an exam perspective.
+L199:   * Domain 1A. AI Lifecycle -Implementing 12:55
+L200: In this lecture, we discussed the Implementation phase of AI systems, which comes after the planning, designing, and development phases. We started off with readiness assessments, where we looked at various aspects like adversarial testing (also called red teaming), scalability testing, and checking the model's transparency. In this, we took a deep dive into how to ensure the model is ready for real-world deployment by testing it against edge cases and unexpected inputs.
+L201: We then looked at the steps needed to deploy a model into production. We started with choosing between batch and real-time deployment methods, setting up infrastructure (either on-premise, cloud, or hybrid), and containerizing the model using Docker. We also saw these concepts like CI/CD pipelines and deployment strategies which are very important from an exam perspective. Remember, understanding Docker and containers is crucial for the exam as they're fundamental to model deployment.
+L202: Finally, we covered how to monitor, validate, and maintain models once they're in production. We learned about important concepts like data drift (changes in statistical properties of input data over time) and model drift (degradation of model performance). We also explored setting up automated monitoring systems, implementing feedback loops through reinforcement learning from human feedback (RLHF), and establishing criteria for model retraining.
+L203: The key definitions of data drift and model drift are particularly important for the exam, as they carry significant marks.
+L204:   * Domain 1A. AI Lifecycle Practice Quiz
+L205: 
+L206:   * Domain 1A. Leftover Terms from IAPP’s Glossary 31:54
+L207: In this lecture, we discussed key leftover technical terms in AI governance at a high level. We started off by revisiting AI terminology and classification frameworks including strong and weak AI, different machine learning methods, and the AI lifecycle. Then we explored the importance of IAPP’s official glossary by walking through several critical terms that are often missed but likely to appear in exams, using comparative examples to simplify learning.
+L208: Finally, we looked at technical building blocks like models, algorithms, parameters, and hyperparameters; architectural terms like preprocessing, postprocessing, and deployment types; and important safety terms such as watermarking, synthetic data, and AI assurance.
+L209:   * Domain 1A. Leftover Terms Practice Quiz
+L210: 
+L211:   * Domain 1A. 1. Introduction to Agentic AI & Agentic Architectures 41:08
+L212: 
+L213: Explore agentic ai and agentic architectures, uncover core concepts and design principles for governance-ready intelligent systems.
+L214: 
+L215:   * Domain 1A. 1. Introduction to Agentic AI & Agentic Architectures Practice Quiz
+L216: 
+L217:   * Domain 1A Mind-map for last day revision 0:23
+L218: ### Domain 1B,C Foundations of Implementing RAI Governance & Risk Management 5 lectures • 51min
+L219: 
+L220:   * Domain 1B,C. Foundational AI Governance- Overview Preview 2:36
+L221: In this lecture we looked at implementing responsible AI governance and risk management at a high level. We started off by understanding why competencies 1B and 1C have been combined into one section, because both of them focus on foundational AI governance and together carry a much higher exam weight than domain 1A.
+L222: Then we discussed the difference between the current body of knowledge and the older body of knowledge, and why the older structure gives a more logical and organized pathway for learning these concepts. Finally, we looked at how this section will be covered in the coming videos, starting with interoperability of AI risk management with other operational risk strategies, then integration of AI governance principles into the organization, and finally establishing AI governance infrastructure from scratch.
+L223:   * Domain 1B,C. Foundational AI Governance- Ensure inter-operability of AI risk 6:03
+L224: In this lecture we discussed the interoperability of AI risk at a high level. We started off by understanding what interoperability means and how AI risk management should work efficiently with existing risk frameworks instead of being treated as something completely separate. Then we discussed why organizations do not need to build AI risk management from scratch, because most of them already have security risk, privacy risk, operational risk, and business risk frameworks in place.
+L225: Finally, we looked at examples of existing frameworks such as the NIST Cybersecurity Framework, ISO/IEC 27001, MITRE ATT&CK, NIST Privacy Framework, ISO/IEC 27701, GDPR compliance practices, COSO ERM, and ISO 31000, and discussed how AI-specific risks like hallucination, sycophancy, and other emerging AI risks can be integrated into these existing frameworks instead of reinventing the wheel.
+L226:   * Domain 1B,C. 1 Practice Quiz
+L227: 
+L228:   * Domain 1B,C. Foundational AI Governance- Integrate AI Governance Principles 8:35
+L229: In this lecture we discussed integrating AI governance principles at a high level and understood how these principles are different from responsible AI principles like fairness, privacy, and transparency. We started off by clarifying that AI governance principles are more about creating a cultural shift inside the organization, where governance becomes part of how teams think, plan, and build AI systems.
+L230: Then we discussed the six key principles one by one, including adopting a pro-innovation mindset, making governance risk-centric, ensuring planning and design are consensus-driven, keeping teams outcome-focused, following a non-prescriptive approach, and building a framework that is law, industry, and technology agnostic.
+L231: Finally, we looked at these principles with simple examples from financial services, healthcare, e-commerce, manufacturing, and technology companies to understand how AI governance professionals can apply them in real organizational settings and answer tricky scenario-based exam questions more confidently.
+L232:   * Domain 1B,C. 2 Practice Quiz
+L233: 
+L234:   * Domain 1B,C. Foundational AI Governance- Establish AI Governance Infrastructure 32:44
+L235: In this lecture we discussed how to establish AI governance infrastructure at a high level. We started off by understanding why the scattered performance indicators from the current and previous body of knowledge need to be arranged into a more logical sequence, and then we looked at three broad steps: understanding the organization, getting leadership buy-in, and establishing governance processes.
+L236: Then we discussed how to understand the organization by identifying whether it is a developer, deployer, or user of AI, understanding its responsibilities, reviewing existing AI governance roles, and studying relevant local and global regulatory requirements.
+L237: After that, we looked at how to get leadership buy-in by understanding the pressure on technical teams, learning how data science and model operations teams work, and influencing behavioral and cultural change through training, champions, and better alignment with business goals.
+L238: Finally, we looked at how to establish governance processes by comparing centralized, decentralized, and hybrid governance models, understanding why AI governance approaches differ across organizations, and organizing governance work across people, AI, risk management, and third-party dimensions, including roles and responsibilities, AI policies, taxonomy, AI inventory, maturity assessment, organizational risk strategy, existing privacy and data governance practices, vendor assessment, procurement processes, and third-party risk policies.
+L239:   * Domain 1B,C. 3 Practice Quiz
+L240: 
+L241:   * Domain 1B,C Mind-map for last day revision 0:41
+L242: This one-page revision sheet covers Domain 1B and 1C in a clear flow, starting with how AI risk management should connect with existing operational risk processes across security, privacy, business, and other risks. It then summarizes the six core AI governance principles, including a pro-innovation mindset, risk-centric governance, consensus-driven planning, outcome-focused teams, intelligent self-management, and a law-, industry-, and technology-agnostic approach.
+L243: The sheet then moves to establishing AI governance infrastructure by first understanding the organization, defining its role as a developer, deployer, or user, clarifying responsibilities, identifying governance groups, and reviewing regulatory requirements.
+L244: It next explains leadership buy-in, followed by centralized, decentralized, and hybrid governance models, the main reasons governance differs across organizations, and the four key governance dimensions: people, AI systems, risk management, and third-party oversight.
+L245: It ends with a practical end-to-end sequence showing how an organization can start small, use existing structures, assign ownership, create policies, document responsibilities, appoint an executive champion, and gradually make AI governance part of normal business operations.
+L246: ### Domain 2A. Understand how existing data privacy laws apply to AI.8 lectures • 1hr 2min
+L247: 
+L248:   * Domain 2A. Understand how existing data privacy laws apply to AI- GDPR Overview 4:28
+L249: In this lecture, we discussed Domain 2 at a high level, which focuses on how laws, regulations, standards, and frameworks apply to AI. We started off by understanding the overall structure and weightage of Domain 2, including its four main competency areas: data privacy laws, other existing laws that apply to AI, AI-specific laws, and key industry standards such as NIST, OECD, and ISO.
+L250: Then we looked more closely at Domain 2A, which focuses on how existing data privacy laws apply to AI, with GDPR being the most important law covered in this section. We also discussed how the current Body of Knowledge has added important topics such as transparency, lawful basis, and automated decision-making, which makes them especially important for the exam.
+L251: Finally, we looked at how the GDPR section has been organized into five simple parts, including principles and definitions, transparency, notice, choice, consent, purpose limitation, data minimization, privacy by design, lawfulness of processing, and automated decision-making, so that learners can build a clear mental map, remember the structure more easily, and prepare for the four to six questions expected from this competency.
+L252:   * Domain 2A. GDPR- Principles & Definitions 14:04
+L253: In this lecture we discussed GDPR principles and key definitions at a high level. We started off with understanding what GDPR means, how it protects the privacy rights of individuals, defines obligations for organizations that process personal data, supports compliance, and also applies to cross-border transfers of personal data outside the EU.
+L254: Then we discussed where GDPR applies, including EU member states, the European Economic Area, and even non-EU companies that collect, process, or store the personal data of people in the EU. After that, we looked at what kind of personal data is covered under GDPR, including names, identification numbers, location data, electronic data, and even non-automated paper records when they are part of an organized filing system.
+L255: Then we discussed the core GDPR principles such as lawfulness, fairness and transparency, purpose limitation, data minimization, accuracy, storage limitation, integrity and confidentiality, and accountability.
+L256: Finally, we looked at important GDPR definitions such as personal data, processing, profiling, pseudonymization, controller, processor, third party, consent, genetic data, biometric data, main establishment, representative, supervisory authority, and cross-border processing so that the basic GDPR vocabulary becomes clear before moving into transparency, notice, choice, consent, and purpose limitation in the next lecture.
+L257:   * Domain 2A. GDPR- Transparency, Notice, Choice, Consent, and Purpose Limitation 7:25
+L258: In this lecture we discussed transparency, notice, consent and lawfulness of processing under GDPR at a high level. We started off with the notice and transparency requirements under Articles 12, 13 and 14, where we looked at how GDPR expects communication with data subjects to be concise, transparent, intelligible, easily accessible, written in clear and plain language, available in written or electronic form, and generally free of charge.
+L259: Then we discussed the difference between direct collection and indirect collection of personal data, and how GDPR provides rules for both situations. After that, we looked at consent and understood that valid consent must be freely given, specific, informed and unambiguous, and must be shown through a clear affirmative action. We also discussed that the controller must be able to demonstrate consent and maintain records showing how and when consent was obtained.
+L260: Finally, we looked at lawfulness of processing under Article 6 of GDPR, where we discussed that processing becomes lawful if at least one legal basis applies, such as consent, performance of a contract, legal obligation, vital interest, public interest or legitimate interest.
+L261:   * Domain 2A. GDPR- Data Minimization and Privacy by Design 3:46
+L262: In this lecture we looked at data minimization and privacy by design at a high level. We started off with a quick recap of important GDPR principles like data minimization, purpose limitation and storage limitation, and how these principles are connected to exam-relevant concepts.
+L263: Then we discussed privacy by design under Article 25, where privacy should be built into the system from the beginning through appropriate technical and organizational measures such as pseudonymization, data minimization, regular reviews and privacy-focused design choices.
+L264: After that, we looked at privacy by default, which means only the necessary personal data should be collected, processed, stored and accessed by default, with privacy-preserving settings, no automatic opt-ins, limited access and deletion after the purpose is fulfilled.
+L265: Finally, we looked at certification mechanisms under GDPR, including how approved and voluntary certifications can help demonstrate compliance, along with key factors organizations must consider such as the risk level of processing, available technology and cost of implementation.
+L266:   * Domain 2A. GDPR- Controller Obligations 13:13
+

@@ -1,0 +1,206 @@
+AI Security, Governance & Compliance (https://www.udemy.com/course/ai-security-governance-compliance/)
+citeturn82view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-security-governance-compliance/","lineno":null}); Total lines: 220
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: AI Security, Governance & Compliance
+L41: 
+L42: Rating: 4.0 out of 5 4.0cite12†(83 ratings) L43: 
+L44: 5,345 students
+L45: 
+L46: cite0†Image†img-c.udemycdn.com Preview this course
+L47: # AI Security, Governance & Compliance
+L48: 
+L49: Design, deploy, and govern secure, compliant AI systems used in real enterprises
+L50: 
+L51: Created bycite13†Data Science Academy , cite14†School of AI L52: 
+L53: Last updated 2/2026
+L54: 
+L55: English
+L56: 
+L57: English [Auto],
+L58: 
+L59: cite0†Image†img-c.udemycdn.com Preview this course
+L60: ## What you'll learn
+L61: 
+L62:   * Design secure and compliant AI systems by identifying AI-specific risks, threat models, and failure modes across the full AI lifecycle.
+L63: 
+L64:   * Apply AI governance frameworks in real enterprise environments, including defining ownership, approval workflows, documentation standards, and operating models
+L65: 
+L66:   * Secure Generative AI and LLM-based applications using guardrails, prompt isolation, retrieval validation, and human-in-the-loop controls.
+L67:   * Prepare AI systems for audits and regulatory review by producing audit-ready evidence, traceability, and documentation aligned with global regulations.
+L68: 
+L69:   * Manage privacy, consent, and data protection risks in AI systems, including PII handling, data retention, and cross-border data considerations.
+L70: 
+L71:   * Respond effectively to AI incidents and failures, including hallucinations, abuse, security breaches, and autonomous agent failures.
+L72:   * Evaluate and mitigate risks in autonomous and agentic AI systems, including kill-switch design, rollback strategies, and operational safeguards.
+L73: 
+L74:   * Communicate AI risk, governance, and compliance decisions confidently to technical teams, auditors, regulators, and leadership.
+L75: ## Course content
+L76: 
+L77: 9 sections • 32 lectures • 3h 46m total length
+L78: 
+L79: Expand all sections
+L80: 
+L81: ### Certificate of Completion 1 lecture • 1min
+L82: 
+L83:   * Certificate of Completion Preview 0:29
+L84: 
+L85: Complete the course on Udemy to receive a certificate of completion, download it, email it to schoolofaillc at gmail.com, and we will issue your official School of AI certificate.
+L86: ### AI Security & Governance Mindset 3 lectures • 25min
+L87: 
+L88:   * Why AI Security Is Different from App Security Preview 11:46
+L89: 
+L90: Explore how AI security differs from app security by embracing non-determinism and managing uncertainty through data, model, and system risk, governance, guardrails, and continuous monitoring.
+L91: 
+L92:   * Enterprise AI Failure Stories (Realistic)Preview 11:11
+L93: Explore realistic enterprise AI failure patterns driven by design gaps, hallucinations, and prompt injection. Learn governance pillars: guardrails, policies, monitoring, and human oversight to prevent data exposure and compliance risk.
+L94: 
+L95:   * Hands on Lab 1:59
+L96: ### AI Threat Landscape 5 lectures • 44min
+L97: 
+L98:   * Threat Modeling for AI Systems 10:01
+L99: 
+L100: Identify assets, map attack surfaces, and design controls to reduce risk in AI systems. Embrace a probabilistic, end-to-end threat modeling mindset that accounts for prompts, data, models, and tools.
+L101: 
+L102:   * Prompt Injection & Jailbreak Attacks 9:45
+L103: Explore prompt injection and jailbreak attacks as AI-native threats hijacking inference. Implement defense in depth with retrieval augmented generation safeguards, untrusted input handling, guardrails, tool access controls, and continuous monitoring.
+L104: 
+L105:   * Data Leakage & Privacy Attacks 9:37
+L106: 
+L107: Explore how data leakage in AI arises during training, prompting, logging, and inference, and learn governance, privacy, and data minimization controls to prevent sensitive exposures at scale.
+L108:   * Model Abuse & Misuse 10:11
+L109: 
+L110: Understand how model abuse and misuse stem from governance failures, including internal misuse, over-trust, and rapid scaling, and apply governance controls like human-in-the-loop oversight and rate limiting.
+L111: 
+L112:   * Hands on Lab 4:13
+L113: ### Securing LLM & GenAI Systems 5 lectures • 38min
+L114: 
+L115:   * Secure Prompt & System Design 9:04
+L116: 
+L117: Explore how secure prompt and system design shapes AI behavior and resists prompt injection. Learn to enforce hierarchy, isolate inputs, and apply output controls for resilient AI systems.
+L118: 
+L119:   * Guardrails & Safety Layers 8:40
+L120: Apply guardrails to enforce safety during AI execution by transforming policies into concrete actions, and layered defenses—input validation, output filtering, confidence thresholds, and human-in-the-loop controls—contain risks.
+L121: 
+L122:   * RAG Security 8:10
+L123: 
+L124: Learn how retrieval augmented generation expands ai by pulling external knowledge while enforcing trust boundaries, data validation, and citation enforcement to secure rag pipelines.
+L125: 
+L126:   * Agentic System Risks 8:30
+L127: Understand how agentic systems shift ai risk from informational mistakes to operational failures and real-world consequences. Enforce governance, tighter controls, and continuous monitoring to manage autonomy, tool access, and execution.
+L128: 
+L129:   * Hands on Lab 3:09
+L130: ### Responsible AI (Advanced, Practical)4 lectures • 28min
+L131: 
+L132:   * Fairness, Bias & Harm at Scale 9:24
+L133: 
+L134: Learn how fairness and bias amplification at scale cause systemic harm in high-stakes domains. Apply intentional design, monitoring, and governance, including disaggregated metrics and post-deployment evaluation, to prevent harm.
+L135: 
+L136:   * Explainability & Transparency 8:34
+L137: Explore explainability and transparency in responsible AI, including model and system cards, audit trails, and governance practices to justify AI-driven decisions in high-impact domains.
+L138: 
+L139:   * Human Oversight Models 7:35
+L140: 
+L141: Discover how human oversight governs AI at scale by pairing approval workflows, escalation paths, and overrides with risk-based, mission-aligned models to keep humans responsible for high-stakes decisions.
+L142: 
+L143:   * Hands on Lab 2:28
+L144: ### AI Governance Frameworks 5 lectures • 36min
+L145: 
+L146:   * What Is AI Governance (Real Definition)8:01
+L147: 
+L148: AI governance defines decision rights and accountability to deploy safe, scalable AI within guardrails, integrating security, ethics, and ownership across the entire AI lifecycle.
+L149: 
+L150:   * Enterprise AI Policies 8:37
+L151: 
+L152: Enterprise AI policies convert governance into action by standardizing data usage, approvals, and monitoring across teams, guiding model approvals and lifecycle controls for safe scaling.
+L153:   * AI Risk Management Lifecycle 8:41
+L154: 
+L155: Adopt a continuous AI risk management lifecycle that identifies risks, scores them, and mitigates controls. Continuously monitor data, model behavior, and deployment contexts to reassess, rescore, and adjust protections.
+L156: 
+L157:   * AI Governance Operating Model 8:11
+L158: 
+L159: Discover how an AI governance operating model translates policies into daily actions through people, processes, and workflows, embedding governance in normal work with committees guiding risk and compliance.
+L160:   * Hands on Lab 2:47
+L161: ### Compliance, Regulations & Audits 4 lectures • 25min
+L162: 
+L163:   * Global AI Regulations Overview 8:05
+L164: 
+L165: Explain how AI regulation uses risk-based oversight to protect rights, safety, accountability, and transparency, with the EU AI Act guiding governance and U.S. frameworks balancing innovation and enforcement.
+L166: 
+L167:   * Preparing for AI Audits 7:00
+L168: Prepare for ai audits by showing decision logic, data sourcing, and human oversight. Build end-to-end traceability and collect evidence like model cards, risk assessments, and monitoring logs to prove readiness.
+L169: 
+L170:   * Privacy, Data Protection & AI 7:46
+L171: 
+L172: Adopt privacy by design in enterprise AI, treating data risk as the driver of explicit consent, data minimization, retention, and cross-border compliance across the full lifecycle.
+L173: 
+L174:   * Hands on Lab 2:15
+L175: ### Enterprise Case Studies 4 lectures • 28min
+L176: 
+L177:   * Case Study: Internal AI Assistant 8:20
+L178: 
+L179: Governance drives safe design of internal AI assistants by enforcing RBAC, least privilege, identity authentication, prompt isolation, and comprehensive logging with regular review.
+L180: 
+L181:   * Case Study: Customer-Facing GenAI App 9:11
+L182: 
+L183: Examine how safety, user experience, and scalability shape production for customer-facing Gen AI apps, emphasizing risk management, monitoring, and governance to sustain trust.
+L184:   * Case Study: Autonomous Agent in Ops 8:12
+L185: 
+L186: Examine how an autonomous AI agent operates in production, executing actions and monitoring system health, with governance, safety controls, and rollback.
+L187: 
+L188:   * Hands on Lab 2:18
+L189: ### Capstone Project: Enterprise AI Risk Review 1 lecture • 2min
+L190: 
+L191:   * Capstone Overview 2:27
+L192: 
+L193: ## Requirements
+L194: 
+L195:   * A basic understanding of AI or machine learning concepts (such as models, prompts, or data)
+L196: 
+L197:   * Some familiarity with software systems, products, or operations in a professional environment
+L198: 
+L199:   * An interest in deploying AI in real-world or enterprise settings
+L200: ## Description
+L201: 
+L202: “This course contains the use of artificial intelligence”
+L203: 
+L204: AI systems are no longer experimental tools — they are production systems making real decisions at scale. As organizations deploy Generative AI, LLMs, RAG pipelines, and autonomous agents, the biggest challenges are no longer accuracy or performance, but security, governance, privacy, and regulatory compliance.
+L205: This course is a practical, enterprise-focused guide to building secure, compliant, and trustworthy AI systems that can operate safely in real-world environments. You’ll learn why AI security is fundamentally different from traditional application security, how AI systems fail in production, and what organizations must do to manage risk, accountability, and oversight across the AI lifecycle.
+L206: Rather than abstract ethics or policy theory, this course focuses on how AI is actually governed inside enterprises today. You’ll understand AI threat modeling, prompt injection and data leakage risks, guardrails and safety layers, and how to design human-in-the-loop controls that scale. The course also demystifies AI governance frameworks, showing how teams define ownership, approvals, documentation, and decision rights without slowing innovation.
+L207: You’ll gain a clear understanding of the global AI regulatory landscape, including EU AI Act principles, US governance approaches, and industry standards, and learn how these translate into real controls, audits, and evidence. Privacy, consent, data retention, and cross-border data handling are addressed from a practical, audit-ready perspective — not legal jargon.
+L208: Through realistic enterprise case studies and hands-on design exercises, you’ll learn how to secure internal AI assistants, customer-facing GenAI applications, and autonomous operational agents, including how to handle failures, design kill-switches, and implement safe rollback strategies.
+L209: By the end of this course, you’ll be able to design AI systems that pass audits, survive incidents, and earn trust — and confidently speak the language of AI security, governance, and compliance in technical, product, and leadership settings.
+L210: ## Who this course is for:
+L211:   * AI Engineers, ML Engineers, and GenAI Developers who want to understand the security, governance, and risk implications of production AI systems.
+L212:   * Security, Risk, and GRC professionals who need practical insight into how AI systems introduce new threat models and compliance challenges.
+L213:   * AI Product Managers and Technical Product Owners responsible for launching AI-powered features safely and responsibly.
+L214:   * Platform, MLOps, and Infrastructure Engineers supporting AI systems in production.
+L215:   * Architects and Technical Leaders designing enterprise AI platforms and operating models.
+L216:   * Professionals working with LLMs, RAG systems, or autonomous agents who want to avoid common failures and audit issues
+L217: Show more Show less
+L218: 
+L219: cite15†Report abuse 

@@ -1,0 +1,510 @@
+Data Governance & AI Governance: The Complete Guide (https://www.udemy.com/course/data-governance-ai-governance-the-complete-guide/)
+citeturn105view0 [wordlim: 200] Crawled: 5 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/data-governance-ai-governance-the-complete-guide/","lineno":null}); Total lines: 542
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: Data Governance & AI Governance: The Complete Guide
+L30: 
+L31: Highest Rated
+L32: Rating: 4.6 out of 5 4.6cite8†(42 ratings) L33: 
+L34: 371 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # Data Governance & AI Governance: The Complete Guide
+L38: 
+L39: Design governance, policies and controls, govern data quality, ML lifecycles and GenAI — with ready-to-use templatates
+L40: 
+L41: Created bycite9†Dr. Florian Detzel | BI Academy L42: 
+L43: Last updated 9/2026
+L44: 
+L45: English
+L46: 
+L47: English
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Design a data governance operating model (federated, centralized, or hub-and-spoke) with a RACI, council charter, and decision rights
+L53: 
+L54:   * Write policies, standards, and controls across the full policy hierarchy — corporate to system level
+L55: 
+L56:   * Build a business glossary and metadata catalog with naming standards and curation workflows
+L57: 
+L58:   * Define data quality rules, thresholds, and SLAs; manage issues with ownership and remediation workflows
+L59:   * Apply data classification, access governance, DPIA/PIA, and retention standards to meet GDPR and privacy requirements
+L60: 
+L61:   * Build an AI governance program: impact assessments, model cards, data cards, risk registers, and human oversight plans
+L62: 
+L63:   * Govern the ML lifecycle and GenAI deployments: approval gates, RAG corpus policies, prompt safety, and hallucination evaluation frameworks
+L64: 
+L65:   * Walk away with 15+ production-ready templates you can adapt and deploy immediately
+L66: ## Course content
+L67: 
+L68: 17 sections • 194 lectures • 14h 33m total length
+L69: 
+L70: Expand all sections
+L71: ### Module 0: Welcome 4 lectures • 16min
+L72: 
+L73:   * Welcome and getting to know your lecturer Preview 3:07
+L74: 
+L75: Meet Florian, your lecturer for data governance and AI governance, with over a decade in business intelligence, BI architectures, data modeling, and process mining, plus hands-on exercises.
+L76: 
+L77:   * Course Structure and Learning Objectives Preview 9:19
+L78: Define the data governance core and AI governance framework, covering policies, metadata, data quality, privacy, and lifecycle, with practical templates and case-based exercises.
+L79: 
+L80:   * EasyCar Case Study Introduction 3:55
+L81: 
+L82: Explore the EasyCar case study to apply data governance and BI analytics for one-way rentals, fleet utilization, branch performance, and dynamic pricing in a practical exercise.
+L83: 
+L84:   * Download the Course Slides 0:01
+L85: ### Module 1: Foundations of Data Governance 21 lectures • 1hr 54min
+L86: 
+L87:   * Foundations of Data Governance Preview 3:49
+L88: 
+L89: Learn how data governance serves as the decision layer—defining meaning, access, quality, risk, and accountability—to enable faster, compliant, auditable data use and stronger AI governance.
+L90: 
+L91:   * Why Governance Now?3:41
+L92: Drive governance to accelerate data value while reducing risk by standardizing definitions, making assets discoverable, clarifying ownership, and monitoring quality amid AI-driven complexity.
+L93: 
+L94:   * Outcomes and Anti-Patterns 2:50
+L95: 
+L96: Learn how data governance sustains itself through four outcomes—reliable KPIs, controlled access, fewer incidents, and faster delivery—expressed in operational terms; beware anti-patterns like governance as police, shelfware, and gold plating.
+L97: 
+L98:   * Key Concepts (Cheat Sheet)4:34
+L99: Master governance vocabulary by linking policy, standards, and controls to risk, learning how issues and safe exceptions drive measurable, compliant operations.
+L100: 
+L101:   * Scope Boundaries & Next Modules 2:48
+L102: 
+L103: Set clear scope boundaries for data governance and AI governance, establish module 1 foundations: shared vocabulary, value and risk framing, metadata, data quality, and outline forthcoming modules.
+L104: 
+L105:   * Governance Across the Data Lifecycle 3:27
+L106: Map governance to the data lifecycle by placing control points at ingest, store and transform, surf time, and archive; enforce metadata, quality, lineage, access, and retention obligations.
+L107: 
+L108:   * Metadata, Catalog, and Business Glossary 4:22
+L109: 
+L110: Explore metadata as the translation layer that turns datasets into trustworthy assets for discovery, understanding, and governance; leverage data catalog, business glossaries, and lineage for AI explainability and audit readiness.
+L111: 
+L112:   * Data Quality Essentials 5:10
+L113: Define data quality as fitness for purpose by applying accuracy, completeness, timeliness, consistency, and validity through rules across use cases; AI amplifies issues, underscoring trust and privacy in governance.
+L114: 
+L115:   * Privacy & Security Touchpoints 5:27
+L116: 
+L117: Explore how data governance links business use to privacy and security obligations, classify sensitive data, and enforce access, encryption, retention, and evidence-driven controls for Genai.
+L118: 
+L119:   * Frameworks you should know 6:01
+L120: Explore common data governance frameworks, from DAMA-DMBOK to ISO standards and GDPR basics, and learn to tailor a minimum viable set of policies, controls, and evidence for your organization.
+L121: 
+L122:   * What Changes with AI?3:59
+L123: 
+L124: Explain how AI raises opacity, amplification, drift, and hallucinations, requiring artifacts like model versions, prompts, and sources, and govern with data quality, lineage, and controls.
+L125: 
+L126:   * AI Governance at a Glance 4:35
+L127: Explore AI governance as an extension of governance thinking, with NIST AI Risk Management Framework, EU AI Act, and ISO frames, and artifacts like registers, inventories, evaluations, and monitoring dashboards.
+L128: 
+L129:   * Data Governance vs AI Governance Artifacts 4:57
+L130: 
+L131: Contrast data governance and AI governance artifacts, showing how AI introduces model registries, AI impact risk assessments, prompt logging, and red team evidence while reinforcing accountability, controls, and auditability.
+L132:   * Case Vignette: EasyCar Customer Support RAG Chatbot 5:27
+L133: 
+L134: Ground EZCAR's customer support chatbot in approved sources and access boundaries to reduce wrong policy guidance. Use a retriever to source context and monitor incidents to ensure safe, up-to-date responses.
+L135: 
+L136:   * KPIs & Providing Value 4:01
+L137: Define a set of key performance indicators for data governance and AI governance. Track glossary definitions, catalog metadata, adoption indicators, quality outcomes, risk indications, and time to resolve with scorecards.
+L138: 
+L139:   * Module Deliverable: Governance Charter 2:53
+L140: 
+L141: Define a governance charter to align governance activities, covering purpose, scope, decision rights, engagement and escalation, and measurement, serving as a living reference and base for an AI governance addendum.
+L142:   * Exercise & templates download 0:04
+L143: 
+L144:   * Exercise - Introduction Preview 7:31
+L145: 
+L146: Practice data governance foundations by building a minimum viable governance starter set for the EasyCar reservations domain, including glossary terms, data quality rules, classifications, and ownership roles.
+L147: 
+L148:   * Exercise - Walk-through sample solution Preview 22:38
+L149: Explore a walk-through of data governance exercises, detailing assets, glossary terms, data quality rules, data classification, and ownership placeholders for rental data assets.
+L150: 
+L151:   * Sample Solution Download 0:02
+L152: 
+L153:   * Template explanation 15:38
+L154: 
+L155: Explore a practical governance charter template for data governance and AI governance addendum, detailing mandate, scope, roles, policies, workflows, and KPIs for a data governance program.
+L156: ### Module 2: Operating Model & Roles (Decision Rights & RACI)20 lectures • 1hr 33min
+L157: 
+L158:   * Module Boundaries 2:05
+L159: 
+L160: Explore how governance runs, decision rights, roles, and escalation shape policies, standards, and controls, then navigate metadata, data quality, security, AI risk, and AI lifecycle gates.
+L161: 
+L162:   * Module Deliverables 1:56
+L163: Produce module deliverables for data governance and ai governance, including a racy chart for key workflows, roles, council terms of reference, and a one-page governance scorecard with an implementation roadmap.
+L164: 
+L165:   * Operating Model Patterns 5:09
+L166: 
+L167: Explore the centralized, federated, and hub-and-spoke operating model patterns in governance. Implement cross-domain standards and decision making with domain councils, balancing consistency, speed, and accountability in data and AI workflows.
+L168:   * Trade-Off Dimensions (and Anti-Patterns)5:55
+L169: 
+L170: Explore trade-off dimensions for operating models: decision speed, consistency, cost, and scalability; contrast centralization and federation, and highlight anti-patterns such as shadow committees and unclear mandates with practical fixes.
+L171: 
+L172:   * Decision Rights (What decisions exist?)2:33
+L173: Define decision rights as the heart of data governance, building a practical decision catalog for access, data quality, glossary terms, and tier classification with time-bound exceptions and audit-ready evidence.
+L174: 
+L175:   * Roles 6:49
+L176: 
+L177: Define governance roles using six dimensions—accountability, decision rights, responsibilities, artifacts and evidence, KPIs, and cadence—and map them to data owner, steward, custodian, product owner.
+L178: 
+L179:   * RACI by Scenario 4:34
+L180: Apply raci by scenario to govern data access, quality, and glossary workflows, defining one accountable owner, a responsible Stuart, and consulted security or privacy, with practical evidence artifacts.
+L181: 
+L182:   * Councils & Forums (Where Decisions happen)4:18
+L183: 
+L184: Explore how data councils, domain councils, and the AI governance forum coordinate cross-domain decisions, establish terms of reference, and plug into a single decision system to avoid governance noise.
+L185: 
+L186:   * Escalations & Exceptions 3:50
+L187: Establish a disciplined escalation path from steward to data owner to council and executive sponsor, with a controlled exception lifecycle, service level agreements, risk reviews, and compensating controls.
+L188: 
+L189:   * Domains & Data Products 3:21
+L190: 
+L191: Anchor governance in domains and data products with clear ownership, stewardship, service level agreements, and shared definitions to enable cross-domain interoperability across reservations, customers, fleet, and pricing.
+L192: 
+L193:   * Cadence & Core Artifacts 2:33
+L194: Define cadence and artifacts as the backbone of data governance, with weekly synchronization, monthly council, quarterly reviews, and artifacts like decision lock, issue lock, exception register, KPI scorecard.
+L195: 
+L196:   * Enablement & Change 2:52
+L197: 
+L198: Drive enablement and change by onboarding, training, and running governance workflows, ensuring tier-1 assets have metadata, owners, classifications, quality checks, and automated evidence capture with clear transition plans.
+L199: 
+L200:   * KPIs for the Operating Model 2:18
+L201: Measure the data governance operating model with KPIs that reveal enablement or blocking, starting with decision-lead time, coverage, MTTR, repeat issue rate, and attendance and quorum.
+L202: 
+L203:   * Governance Scorecard 3:11
+L204: 
+L205: Design a governance scorecard linking KPIs, targets, trends, and actions to drive timely decisions, with owners, due dates, risks, issues, exception status, and a lightweight maturity snapshot on one page.
+L206: 
+L207:   * Implementation Roadmap 4:28
+L208: Identify priority domains in the discover phase, baseline pain points, and measure success to guide a phased governance roadmap; pilot one domain, create artifacts, then scale and optimize with kpis.
+L209: 
+L210:   * AI Governance Tie-Ins 3:23
+L211: 
+L212: Explore how AI governance ties into the data governance operating model, applying decision rights, forums, escalations, and evidence to AI artifacts such as model cards, data cards, and monitoring dashboards.
+L213: 
+L214:   * Download: Exercise instructions and template 0:02
+L215:   * Exercise introduction 4:53
+L216: 
+L217: Lead a 90-day governance pilot for EasyCar by drafting a governance operating model, justifying the chosen model, and building a race chart, escalation ladder, and initial scorecard.
+L218: 
+L219:   * Download sample solution and template examples 0:01
+L220: 
+L221:   * Solution walk-through 28:40
+L222: 
+L223: Choose the domain and adopt a federated with central standards operating model for data governance, then map RACI roles, data access processes, SLAs, and governance council terms of reference.
+L224: ### Module 3: Policies, Standards, and Controls 14 lectures • 1hr 10min
+L225: 
+L226:   * Scope Boundaries 3:27
+L227: 
+L228: Set module 3 scope for data governance to keep governance practical, focusing on policy mechanics, testable controls with evidence, and an exception workflow that yields runnable policies.
+L229: 
+L230:   * Policy Hierarchy & Traceability 4:50
+L231: Discover a three-layer governance model—policy, standards, and procedures—and learn how traceability links policy intent to controls and evidence to ensure consistent audits and operation.
+L232: 
+L233:   * Writing Good Policies (and Avoiding bad ones)3:54
+L234: 
+L235: Develop clear, testable data policies with defined scope and auditable evidence, including tier one data sets with documented owners and freshness, while avoiding vague anti-patterns.
+L236: 
+L237:   * Standards & Procedures 5:50
+L238: Translate policy into concrete standards and runnable procedures by defining scope, requirements, test methods, evidence, owners, and frequency, with versioning and reuse to prevent policy sprawl.
+L239: 
+L240:   * Control Taxonomy 4:32
+L241: 
+L242: Apply preventive, detective, and corrective controls to manage risk. Balance manual and automated controls with a hybrid approach; tie control statements to failure modes and evidence.
+L243: 
+L244:   * Evidence & Assurance 4:47
+L245: Link every control to its evidence location with a stable, timestamped proof. Demonstrate control execution, approval, and freshness through artifacts like dashboard URLs, ticket queries, and logs.
+L246: 
+L247:   * Exceptions & Risk Acceptance 4:04
+L248: 
+L249: Understand how an explicit risk acceptance, time-bound exception maintains governance under legacy constraints, with explicit approvals, compensating controls, a risk register, defined expiry, and regular reviews.
+L250: 
+L251:   * Mapping to Frameworks 3:19
+L252: Frame policies as a translation layer to align internal controls with external standards like GDPR and ISO. Use a lightweight mapping for traceability and evidence.
+L253: 
+L254:   * EasyCar Case Vignette 2:08
+L255: 
+L256: Apply data governance and AI governance to EZCAR reservations analytics by translating policies into standards and controls, implementing automated freshness checks, and using time-bound exceptions with compensating controls and evidence.
+L257: 
+L258:   * Module Deliverables 1:48
+L259: Define policy, control, and exception templates to run governance as a workflow. Practice with a small scope on EasyCar reservations, drafting 1 policy and 5–8 controls with evidence locations.
+L260: 
+L261:   * Download exercise instructions and templates 0:01
+L262: 
+L263:   * Download sample solution and template examples 0:01
+L264: 
+L265:   * Exercise introduction 3:14
+L266: Apply policy standards and controls in a practical exercise by drafting a policy for reservation analytics data, building a control catalog, creating an exception register, and reflecting on policy-to-evidence chain.
+L267: 
+L268:   * Solution walk-through 27:46
+L269: 
+L270: Walks through building a data access policy for reservations analytics, detailing metadata, scope, role-based controls, approvals, and an exception register within a data governance framework.
+L271: ### Module 4: Metadata, Catalog, and Business Glossary 12 lectures • 52min
+L272: 
+L273:   * Scope Boundaries 2:42
+L274: 
+L275: Set boundaries for catalog operations and onboarding assets to ensure discoverability and accountability, defining minimal metadata, published status, and metadata ownership with glossary life cycle.
+L276: 
+L277:   * Why Metadata Matters 3:44
+L278: 
+L279: Metadata drives search, understanding, and trust by providing clear names, ownership, and descriptions; it guides AI safety and retrieval accuracy.
+L280:   * Business vs. Technical Metadata 3:47
+L281: 
+L282: Bridge business and technical metadata to enable meaningful data governance and decision rights. Map owners, definitions, classifications, and lineage to ensure data freshness, handling, and accountability.
+L283: 
+L284:   * Glossary Lifecycle 5:32
+L285: 
+L286: Explore the glossary life cycle as a governed workflow that links terms to data assets, with five phases—propose, review, approve, publish, retire. Include ownership and version history.
+L287: 
+L288:   * Catalog Operating Procedures 4:23
+L289: Develop a trustworthy data catalog by applying a repeatable onboarding playbook that captures ownership, business context, and sensitivity, links governance evidence, and scales through automation.
+L290: 
+L291:   * Naming and Classification Standards 4:38
+L292: 
+L293: Establish naming conventions that encode domain, product, and entity with a meaningful version. Use a controlled vocabulary of tags with a steward for consistency and classification from public to restricted.
+L294: 
+L295:   * Integration with Data Quality and Lineage 3:21
+L296: Integrate data quality and data lineage using a single source of truth, linking the catalog to rules, lineage, approvals, issue backlog, and glossary for reliable cross-tool discovery.
+L297: 
+L298:   * Activity & Deliverables 2:14
+L299: 
+L300: Develop artifacts by drafting glossary terms and minimum metadata for a real data set; define owner, description, domain, classification, and onboarding deliverables to establish a shared quality bar.
+L301: 
+L302:   * Download exercise instructions and templates 0:01
+L303:   * Download sample solution and example templates 0:01
+L304: 
+L305:   * Exercise introduction 3:46
+L306: 
+L307: Draft three business glossary terms—booking, cancellation, no show—and define minimum metadata for a data asset, then articulate a definition of done to standardize onboarding in a data catalog prototype.
+L308: 
+L309:   * Sample solution walk-through 17:58
+L310: Walks through defining glossary terms like booking, cancellation, and no show within a data catalog context, outlining minimum metadata, data lineage, and governance for reservations data.
+L311: ### Module 5: Data Quality & Master Data 11 lectures • 1hr 6min
+L312: 
+L313:   * Scope Boundaries 3:26
+L314: 
+L315: Explore data quality and master data boundaries, turning quality into a measurable, repeatable workflow with measurement, enforcement, SLAs, and governance across analytics and AI readiness.
+L316: 
+L317:   * Data Quality Dimensions & How to measure 3:38
+L318: Explore five data quality dimensions—accuracy, completeness, timeliness, consistency, and validity—and learn to measure with metrics, define targets, and publish scorecards to govern quality across pipelines.
+L319: 
+L320:   * Rule design & SLAs 5:04
+L321: 
+L322: Design specific rules with patterns like null checks, non-negative ranges, reference sets, duplicates, and cross-field consistency, aligned to p1–p3 priority levels.
+L323: 
+L324:   * Ownership & Workflows 4:52
+L325: Define clear ownership and workflows to ensure data quality as an operational service, with explicit roles, handoffs, and service level agreements guiding rule logic, data product outcomes, triage, and fixes.
+L326: 
+L327:   * Issue Management & Remediation lifecycle 5:02
+L328: 
+L329: Follow the detect-to-validate remediation lifecycle for data quality, emphasizing evidence and decision rights. Learn to triage, assign owner, define due dates, and implement preventive changes.
+L330: 
+L331:   * MDM & Reference Data Governance 5:15
+L332: Establishes the distinction between master data and reference data, and shows how governance, survivorship rules, golden record hub, and code lists governance prevent duplicates and misaligned analytics.
+L333: 
+L334:   * Monitoring & Reporting 2:53
+L335: 
+L336: Monitor and report data quality by linking dashboards to prioritization and accountability, tracking breach rate, meantime to response, and open P1 and P2 backlogs to drive improvements.
+L337: 
+L338:   * Activity & Deliverables 2:26
+L339: Turn vague expectations into an operational data quality agreement for a single data set by defining three rules with thresholds and SLAs, delivering a rulebook entry and an SLA template.
+L340: 
+L341:   * Download exercise instructions and templates 0:01
+L342: 
+L343:   * Download sample solution and template examples 0:01
+L344: 
+L345:   * Exercise introduction & sample solution 33:39
+L346: Draft a data quality rulebook with completeness, validity, and uniqueness; define severity models, SLAs/OLAs, escalation paths, and a data quality dashboard for EasyCars reservation analytics.
+L347: ### Module 6: Privacy & Security 12 lectures • 1hr 8min
+L348: 
+L349:   * Scope Boundaries 3:25
+L350: 
+L351: Define scope boundaries for data and ai governance by prioritizing safe use of sensitive data through classification, labeling, access governance, retention, DPIA, and ROPA.
+L352: 
+L353:   * Data Classification (Levels, Labels & Tags)4:13
+L354: Data classification drives governance by defining four levels—public, internal, confidential, and restricted—with examples and minimum controls. Labels and tags in catalogs, storage, and BI ensure ownership, onboarding, and measurable compliance.
+L355: 
+L356:   * Handling Standards 3:40
+L357: 
+L358: Learn how handling standards translate sensitive data into safe behaviors across storage, sharing, and analytics, with encryption, clear key ownership, and logging for audits.
+L359: 
+L360:   * Access Governance 5:14
+L361: Master access governance through a five-step lifecycle—request, approve, provision, review, and revoke—emphasizing time-bound access, role-based controls, and auditable evidence to ensure only the right people see data.
+L362: 
+L363:   * DPIA, PIA and RoPA 3:59
+L364: 
+L365: Master DPIA and PIA using a structured record to reveal risks, document purpose and data categories, identify data subjects and recipients and lawful basis, then apply mitigations like masking identifiers.
+L366: 
+L367:   * Retention & Deletion 3:35
+L368: Align retention and deletion with data categories across systems using explicit schedules and automation; use clear deletion patterns—hard delete, soft delete, anonymization—and ensure defensible deletion with audits.
+L369: 
+L370:   * Evidence and Audits 2:42
+L371: 
+L372: Link evidence and audits by weaving standards, decisions, and assessments with operational proof. Maintain a controlled repository with catalog discovery, DPI-A records, Ropa entries, and quarterly checks to prevent drift.
+L373:   * Mini-lab: Apply the Guardrails to a dataset 3:03
+L374: 
+L375: Apply privacy and security guardrails to a dataset by drafting a 10-field classification, defining five handling rules, and outlining an access workflow with roles and retention to enable catalog discoverability.
+L376: 
+L377:   * Download exercise instructions and templates 0:01
+L378: 
+L379:   * Download sample solution and template examples 0:01
+L380: 
+L381:   * Exercise introduction 5:07
+L382: Develop field level classifications and handling rules for the reservations analytics data set, design access workflow, set retention and deletion intents, and assemble an evidence map for a privacy audit.
+L383: 
+L384:   * Sample solution walk-through 33:18
+L385: 
+L386: Explore data classification templates, handling rules, and access workflow designs to implement rigorous data governance. The walkthrough covers roles, separation of duties, review cadences, evidence map, and retention practices.
+L387: ### Module 7: Lifecycle and Lineage 12 lectures • 59min
+L388: 
+L389:   * Scope Boundaries 3:14
+L390: 
+L391: Define lifecycle stages and gate-based transitions, capture lineage and evidence, and enable impact analysis, incident response, and explainability to establish the governance foundation.
+L392: 
+L393:   * Lifecycle Overview - Stages 4:14
+L394: Explore the data governance lifecycle from ingest to delete, through ingest, curate, surf, serving, archive, and delete stages. Emphasizes owner, evidence, and controls for schema, exposure, retention, and deletion.
+L395: 
+L396:   * Lifecycle Control Points 4:25
+L397: 
+L398: Map governance gates to asset life cycle stages, defining pass criteria and evidence for ingest, current, surf, archive, and delete gates to enforce durable, auditable controls.
+L399: 
+L400:   * Lineage Fundamentals 3:50
+L401: Explore lineage fundamentals across processed, table, and column lineage, and how governance defines a minimum standard by risk tier to balance granularity, cost, and explainability for audits and root-cause analysis.
+L402: 
+L403:   * Capturing Lineage 4:06
+L404: 
+L405: Capture lineage as a delivery practice by building multi-layer maturity with coverage, automation, and standards, using templates, instrumentation, and reconciliation to ensure discoverable, versioned lineage for data products.
+L406: 
+L407:   * Using Lineage 3:33
+L408: Discover how data lineage turns investigation into a repeatable workflow, enabling impact analysis before changes and after-incident tracing, with ownership and monitoring to reduce risk and support explainability.
+L409: 
+L410:   * Evidence and Integration 3:52
+L411: 
+L412: Discover how data lineage becomes governance evidence by linking it to catalogs, quality checks, and code releases, enabling traceability, explainability, and auditable outcomes.
+L413: 
+L414:   * Mini-lab: Document Lifecycle and Lineage for one data product 2:47
+L415: Create a data product lifecycle and lineage package that supports change safety, audits, and incident response by detailing sources to consumers, five critical columns, derivation logic, and an evidence checklist.
+L416: 
+L417:   * Download exercise instructions and templates 0:01
+L418: 
+L419:   * Download sample solution and template example 0:01
+L420: 
+L421:   * Exercise introduction 3:54
+L422: Demonstrate building a complete data lineage package for the fact reservations table, covering table and column level lineage, blast radius analysis, lifecycle gates, impact paths, and evidence packaging.
+L423: 
+L424:   * Sample solution walk-through 24:44
+L425: 
+L426: Explore end-to-end data lineage from sources to consumers using a reservations dataset, detailing staging to mart flows, derivation notes, lifecycle stages, and top three impact paths.
+L427: ### Module 8: AI Governance Fundamentals 12 lectures • 55min
+L428: 
+L429:   * Scope Boundaries 2:32
+L430: 
+L431: Define clear scope boundaries for ai governance with a shared vocabulary, guiding principles, and anchor frameworks that clarify roles and decision points across risk, legal, engineering, and product teams.
+L432: 
+L433:   * Why AI Governance 2:52
+L434: Explore why ai governance adds a distinct layer to data governance, addressing opacity, drift, misuse, and fairness through documentation, monitoring, thresholds, and shared responsibility across product, data, and legal teams.
+L435: 
+L436:   * Principles and values 2:46
+L437: 
+L438: Translate governance principles into concrete design requirements, review questions, and audit evidence with named owners for use cases, models, and controls, while ensuring transparency, fairness, safety, privacy, and human oversight.
+L439:   * Roles and forums 2:36
+L440: 
+L441: Assign clear owners for use case, data, and model responsibilities. Establish a governance forum to review evidence, approve with conditions, and escalate risk within risk, legal, privacy, and security constraints.
+L442: 
+L443:   * Frameworks Overview 2:44
+L444: 
+L445: Frameworks anchor ai governance by standardizing risk, documentation, and approval across projects. Translate framework language into local risk-tier requirements, map to controls, and unify policies and evidence.
+L446:   * Core artifacts and processes 2:37
+L447: 
+L448: Establish operational governance by producing a standard artifact package from design through operation, including ai impact assessment, risk register, model and data cards, and an approval record, for risk-aligned reviews.
+L449: 
+L450:   * Evidence and accountability 2:30
+L451: 
+L452: Build a linked, searchable, versioned evidence trail that spans design, build, deploy, and monitor to ensure accountability for model decisions.
+L453: 
+L454:   * Activity: AI Governance Charter Addendum 2:29
+L455: Turn governance ideas into a one-page AI governance charter addendum for a use case, detailing scope and non-use. Align three to five principles with testing, illustrated by EasyCar examples.
+L456: 
+L457:   * Download exercise instructions and templates 0:01
+L458: 
+L459:   * Download sample solution and template examples 0:01
+L460: 
+L461:   * Exercise introduction 3:41
+L462: Draft an AI data governance addendum for a use case, outlining scope, four governance principles with tests, oversight, evidence, and specific risks using the AI governance charter addendum template.
+L463: 
+L464:   * Sample solution walk-through 30:34
+L465: 
+L466: Outline data governance for a customer support triage ai use case with classification, routing, confidence scores, and human review, supported by governance principles and minimum evidence.
+L467: ### Module 9: Responsible AI 12 lectures • 49min
+L468: 
+L469:   * Scope Boundaries 1:45
+L470: 
+L471: Define governance mechanics for ai systems across algorithms and maturity; enable a lightweight yet disciplined responsible ai process with risk taxonomy, review via Aia process, and model and data cards.
+L472: 
+L473:   * AI Risk Taxonomy 1:51
+L474: Use a three-lens AI risk taxonomy: data, model, and use case—to identify precise mitigations for governance, addressing data risks (coverage, privacy, bias), model risks (instability, overfitting), and use-case risk.
+L475: 
+L476:   * Risk Scoring 1:42
+L477: 
+L478: Use a severity and likelihood scoring model to prioritize risks and connect scores to governance obligations, thresholds, and AIA or forum approval, with risk-based review cadences and dynamic pricing.
+L479: 
+L480:   * AI Impact Assessment 2:12
+L481: The AI impact assessment turns responsible AI into a documented decision for new models, major changes, or use contexts, including data sources, evaluation results, risk mitigations, monitoring plans, and auditability.
+L482: 
+L483:   * Model Card and Data Card 1:56
+L484: 
+L485: Explore model cards and data cards as essential, versioned documentation for AI systems. Describe purpose, limitations, monitoring, data provenance, privacy considerations, and evidence links while avoiding stale or conflated documents.
+L486:   * Human Oversight and Transparency 2:02
+L487: 
+L488: Design explicit human oversight with clear intervention points, logging, disclosures, and human in the loop and human on the loop patterns for accountable decision-making.
+L489: 
+L490:   * Risk Register and Tracking 2:03
+L491: 
+L492: The risk register drives ongoing governance for responsible AI by assigning owners, due dates, and evidence links to track mitigation and residual risk decisions.
+L493: 
+L494:   * Activity: Draft AIA + Card Skeletons 1:54
+L495: Draft a lightweight AIA outline, model card skeleton, data card skeleton, oversight plan, and evidence list to demonstrate whether the operating discipline is understandable and repeatable.
+L496: 
+L497:   * Download exercise instructions and templates 0:01
+L498: 
+L499:   * Download sample solution and template examples 0:01
+L500: 
+L501:   * Exercise introduction 4:23
+L502: Explore responsible AI with an exercise introducing AI impact assessment, model card, data card, human oversight plan, and AI risk register for a production fraud-detection model.
+L503: 
+L504:   * Sample solution walk-through 29:17
+L505: 
+L506: Explore a sample walkthrough of a booking fraud detection model within data governance and AI governance, detailing the AI impact assessment, model cart, oversight plan, and risk register.
+L507: 
+L508: 7 more sections
+L509: ## Requirements
+L510: 
+L511:   * Familiarity with analytics or machine learning is helpful but not required
+L512: 
+L513:   * No coding or tooling knowledge required — this course is tool-agnostic
+L514: ## Description
+L515: 
+L516: Your organization is deploying AI. Data teams are growing. Regulations are tightening. And someone has to make sure the data can be trusted and the models can be explained. That's what this course is about.
+L517: 
+L518: Data Governance has expanded well beyond traditional data management and this course reflects that reality.
+

@@ -1,0 +1,49 @@
+{
+  "task": "Audit all Offers against all 140 active requirements using the 0\u20133 rubric and authoritative source evidence; create v8 without modifying v7",
+  "steps": [
+    {
+      "step": "Audit existing methodology and missing assessments",
+      "status": "complete",
+      "finding": "v7 recorded only needs with at least one score >=2, leaving 43 Offers without score rows"
+    },
+    {
+      "step": "Retrieve and review provider syllabi, document inaccessible sources",
+      "status": "complete"
+    },
+    {
+      "step": "Record requirement-level decisions and changes with source references",
+      "status": "complete"
+    },
+    {
+      "step": "Update v8 Scores, Coverage, Offers and directly dependent summaries",
+      "status": "complete"
+    },
+    {
+      "step": "Validate calculations, preservation and visual layout",
+      "status": "complete"
+    }
+  ],
+  "constraints": [
+    "No invented evidence or lab completion",
+    "No inaccessible evidence represented as confirmed zero",
+    "No live app snapshot replacement requested"
+  ],
+  "outcome": {
+    "output": "AI_Era_Cyber_Training_Catalogue_v8.xlsx",
+    "offers_reviewed": 308,
+    "offers_numerically_assessed": 306,
+    "unassessed_offers": [
+      "TR-017",
+      "TR-045"
+    ],
+    "score_rows": 43120,
+    "numeric_scores": 42840,
+    "coverage_rows": 7084,
+    "new_positive_scores": 1289,
+    "changed_scores": 137,
+    "formula_recalculation": "All cached formula values removed in independent copy, recalculated by bundled LibreOffice, and all Scores/Coverage/Rubric/Needs/README results checked; no mismatches or formula errors.",
+    "preservation": "v7 SHA256 unchanged; eight unaffected worksheet XML parts byte-identical.",
+    "authoring_note": "Full artifact-tool imports exhausted 4 GB and 12 GB Node heaps; used minimal OOXML edits to preserve workbook structure. Artifact-tool rendered small native-format extracts before and after edits.",
+    "output_sha256": "7c96d938644906aff0838f39987a109e33f8369b84ac28690125c91b62bb26d1"
+  }
+}

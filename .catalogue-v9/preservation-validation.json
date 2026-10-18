@@ -1,0 +1,10 @@
+{
+  "rows": {
+    "Offers": 307,
+    "Scores": 42980,
+    "Coverage": 7061,
+    "V8 audit": 307
+  },
+  "survivingValuesAndFormulasUnchanged": true,
+  "sourceV8Sha256": "7c96d938644906aff0838f39987a109e33f8369b84ac28690125c91b62bb26d1"
+}

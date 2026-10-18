@@ -1,0 +1,515 @@
+AI Governance: Risk, Compliance & Responsible AI [2026] (https://www.udemy.com/course/ai-governance-at-work/)
+citeturn48view0 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/ai-governance-at-work/","lineno":null}); Total lines: 1198
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Governance: Risk, Compliance & Responsible AI [2026]
+L30: 
+L31: Role Play
+L32: 
+L33: New
+L34: Rating: 4.6 out of 5 4.6cite8†(5 ratings) L35: 
+L36: 31 students
+L37: 
+L38: cite0†Image†img-c.udemycdn.com Preview this course
+L39: # AI Governance: Risk, Compliance & Responsible AI [2026]
+L40: 
+L41: Master AI Risk, Compliance, Security & Governance for Responsible AI, GenAI and AI Agents
+L42: 
+L43: Created bycite9†GenMan Solutions L44: 
+L45: Last updated 10/2026
+L46: 
+L47: English
+L48: 
+L49: English [Auto],
+L50: 
+L51: cite0†Image†img-c.udemycdn.com Preview this course
+L52: ## What you'll learn
+L53: 
+L54:   * Build a practical AI governance framework for evaluating and managing AI initiatives across the organisation.
+L55: 
+L56:   * Develop an AI inventory and lifecycle approach to identify AI systems, their use cases, owners, risks, and governance requirements.
+L57: 
+L58:   * Assess AI risks and apply risk-tiering principles to determine the appropriate level of governance and oversight.
+L59:   * Evaluate AI data practices, including data quality, bias, traceability, access, and the information entering AI systems.
+L60: 
+L61:   * Apply responsible AI principles through practical controls for explainability, human oversight, safety, and accountability.
+L62: 
+L63:   * Compare major AI regulatory approaches and identify how regulatory expectations can affect organisational AI governance.
+L64: 
+L65:   * Apply ISO/IEC 42001, NIST AI RMF, and other governance frameworks to structure AI governance activities.
+L66:   * Design cross-functional AI governance processes covering ownership, decision rights, policies, documentation, and evidence.
+L67: 
+L68:   * Evaluate generative AI, third-party AI providers, AI security risks, incidents, and AI agents using a risk-based governance approach.
+L69: 
+L70:   * Apply an end-to-end AI governance framework to an enterprise AI initiative and make a structured deployment or approval decision based on use case, risk, contro
+L71: ## Course content
+L72: 
+L73: 14 sections • 32 lectures • 3h 5m total length
+L74: 
+L75: Expand all sections
+L76: 
+L77: ### Course Introduction 1 lecture • 6min
+L78: 
+L79:   * Welcome to the Course & Know Your Instructor Preview 5:54
+L80: ### Getting Started with AI Governance 4 lectures • 19min
+L81: 
+L82:   * You’ve Been Asked to Govern AI. Where Would You Start?Preview 6:36
+L83: 
+L84: AI governance starts with understanding how an organisation is actually using AI—not simply deciding whether a particular tool should be approved. With AI already being used across product, innovation, development, business, and employee workflows, governance requires a broader view of use cases, information, risks, accountability, and controls.
+L85: 
+L86: In This Lecture, You Will:
+L87: ▸ Understand why AI governance is an ongoing organisational approach rather than a single approval check at the end of an AI project.
+L88: 
+L89: ▸ Explore the governance considerations involved in providing a generative AI assistant to employees for drafting emails, summarising documents, researching topics, creating presentations, analysing information, and coding.
+L90: ▸ Identify how different types of information, including internal business documents, customer information, source code, and employee information, create different governance considerations.
+L91: 
+L92: ▸ Examine important areas such as organisational data handling, security controls, contractual commitments, access, permitted uses, and information employees should not enter into AI tools.
+L93: ▸ Consider how the consequences of inaccurate AI outputs can differ depending on whether AI is used for brainstorming, recruitment decisions, customer information, or recommendations with significant business or personal impact.
+L94: 
+L95: ▸ Recognise how AI governance changes when AI can move beyond generating information and take actions such as creating IT tickets, updating customer records, initiating purchase requests, accessing calendars, or sending emails.
+L96: ▸ Apply a responsible business-decision perspective by considering AI use, information, affected people, potential consequences, authority, accountability, controls, and whether those controls are working.
+L97: 
+L98: ▸ Explore AI governance from technology, data, security, responsible AI, legal and regulatory, third-party risk, product, and organisational perspectives.
+L99: 
+L100: ▸ Build a foundation for understanding AI and governance before moving into the rules and controls used to govern AI responsibly.
+L101: Who This Lecture Is For:
+L102: 
+L103:     * AI Governance Professionals — building an approach to responsible AI use across an organisation.
+L104: 
+L105:     * AI & Innovation Leaders — evaluating AI use cases and organisational adoption.
+L106: 
+L107:     * Product & Technology Professionals — working with AI features, models, and applications.
+L108: 
+L109:     * IT & Security Professionals — assessing AI technology, access, and security considerations.
+L110:     * Legal, Privacy & Compliance Professionals — considering contracts, data use, privacy, and regulatory requirements.
+L111: 
+L112:     * Data & Risk Professionals — evaluating information, risks, controls, and accountability.
+L113: 
+L114:     * Business Leaders Involved in AI Adoption — making responsible decisions about how AI is used across the business.
+L115: 
+L116: Why This Lecture Is Useful for AI & Business Professionals
+L117: This lecture provides a practical starting point for understanding AI governance across an organisation. It shows how AI adoption connects with data, security, privacy, legal and regulatory requirements, third-party risk, accountability, authority, and controls, giving AI and business professionals a broader view of responsible AI decision-making.
+L118: 
+L119:   * AI, Governance and AI Governance: What Are We Actually Governing?6:29
+L120: AI governance becomes much clearer when you first understand what “AI” includes and what “governance” actually means. AI can generate content, make predictions, classify information, recommend decisions, or even take actions. Governance determines how those capabilities are used, controlled, and held accountable within an organisation.
+L121: 
+L122: In This Lecture, You Will:
+L123: ▸ Understand why AI is broader than generative AI, including systems used for prediction, fraud detection, recommendations, classification, recruitment, forecasting, and operational optimisation.
+L124: 
+L125: ▸ Explore the core principles of governance, including decision authority, guiding rules, accountability, checks, response to problems, and evidence of appropriate decision-making.
+L126: ▸ Recognise why AI governance requires consideration of factors such as model behaviour, data, context, third-party model updates, bias, system connections, permissions, and potential actions.
+L127: 
+L128: ▸ Distinguish between evaluating whether an AI model is technically safe and determining whether an AI system is appropriate for a specific use case, data, users, permissions, and consequences.
+L129: ▸ Examine how AI governance involves different perspectives across AI teams, Product, Innovation, Legal, Compliance, IT, and Security.
+L130: 
+L131: ▸ Understand why AI governance is inherently cross-functional, with different teams addressing different aspects of the same AI system.
+L132: 
+L133: ▸ Differentiate AI governance from AI compliance by examining decisions around whether AI should be used, what it should be used for, who can use it, required controls, approval, risk ownership, and ongoing monitoring.
+L134: ▸ Recognise why an organisation can meet applicable requirements while still having weak AI governance.
+L135: 
+L136: ▸ Identify the key categories of AI activity—generating content, making predictions, recommending decisions, making decisions, and taking actions.
+L137: 
+L138: Who This Lecture Is For:
+L139: 
+L140:     * AI Governance Professionals — developing an understanding of what needs to be governed.
+L141: 
+L142:     * AI & Innovation Leaders — evaluating AI capabilities and organisational use cases.
+L143:     * Product & Technology Professionals — connecting AI capabilities with product and business contexts.
+L144: 
+L145:     * IT & Security Professionals — considering AI access, integrations, data flows, and operational controls.
+L146: 
+L147:     * Legal, Privacy & Compliance Professionals — distinguishing governance responsibilities from compliance requirements.
+L148: 
+L149:     * Data & Risk Professionals — considering accountability, controls, risks, and potential consequences.
+L150:     * Business Leaders Involved in AI Adoption — making informed decisions about organisational AI use.
+L151: 
+L152: Why This Lecture Is Useful for AI & Business Professionals
+L153: 
+L154: This lecture establishes the foundation for AI governance by clarifying what AI can do, what governance controls, and why the two need to be considered together. It also shows why responsible AI decisions require cross-functional perspectives rather than focusing only on the technical performance of an AI model.
+L155:   * What Kind of AI Are We Talking About?5:48
+L156: 
+L157: Not every AI system creates the same governance considerations. An AI tool that rewrites an email is very different from one that uses sensitive information, influences recruitment decisions, or takes actions within enterprise systems. Understanding what an AI system actually does is therefore an essential foundation for effective AI governance.
+L158: 
+L159: In This Lecture, You Will:
+L160: ▸ Identify different ways AI can be used, including predicting, classifying, recommending, generating content, influencing or making decisions, and taking actions.
+L161: 
+L162: ▸ Compare examples such as customer churn prediction, document classification, product or candidate recommendations, generative AI, decision-support systems, and AI agents.
+L163: 
+L164: ▸ Understand why the level of influence and authority an AI system has affects how carefully its governance needs to be considered.
+L165: ▸ Recognise why AI risk cannot be determined from the technology alone and why the specific context and use case matter.
+L166: 
+L167: ▸ Assess key considerations including the AI use case, information required, people affected, potential consequences of errors, level of human involvement, and system capabilities.
+L168: 
+L169: ▸ Explore generative AI capabilities across text, images, audio, video, code, and other forms of content.
+L170: ▸ Examine how governance considerations can change when generative AI moves from rewriting public information to working with internal documents, customer information, or connected enterprise systems.
+L171: 
+L172: ▸ Understand why a consistent governance approach should account for differences between low-risk productivity use cases, sensitive information or important decisions, and autonomous AI systems.
+L173: ▸ Recognise the importance of considering permissions, approvals, logging, and human intervention when AI can act autonomously.
+L174: 
+L175: Who This Lecture Is For:
+L176: 
+L177:     * AI Governance Professionals — assessing what different AI systems are actually being used to do.
+L178: 
+L179:     * AI & Innovation Leaders — evaluating AI use cases and their level of influence or autonomy.
+L180: 
+L181:     * Product & Technology Professionals — understanding how AI capabilities affect governance requirements.
+L182:     * IT & Security Professionals — considering AI access, permissions, integrations, and actions.
+L183: 
+L184:     * Legal, Privacy & Compliance Professionals — identifying how use cases and information affect governance considerations.
+L185: 
+L186:     * Data & Risk Professionals — assessing affected people, potential consequences, and levels of AI influence.
+L187: 
+L188:     * Business Leaders Involved in AI Adoption — understanding why different AI use cases require different governance approaches.
+L189: Why This Lecture Is Useful for AI & Business Professionals
+L190: 
+L191: This lecture provides a practical way to distinguish AI use cases based on what the system actually does, the information it uses, who it affects, and how much influence or autonomy it has. This helps AI and business professionals understand why governance requirements should vary from one AI use case to another.
+L192: 
+L193:   * Should We Approve the AI-Powered Customer Service Assistant?
+L194: 
+L195:   * Quiz Time!
+L196: ### The AI Governance Decision Framework 6 lectures • 13min
+L197: 
+L198:   * A Practical AI Governance Framework 3:13
+L199: 
+L200: AI governance becomes easier to manage when every new AI use case follows a repeatable process. Instead of handling each proposal as an open-ended discussion, a practical framework can help determine who is involved, how much governance is needed, which controls should be applied, and what evidence should be retained.
+L201: 
+L202: In This Lecture, You Will:
+L203: ▸ Understand the four connected stages of a practical AI governance framework: ownership, risk, control, and evidence.
+L204: 
+L205: ▸ Identify ownership considerations, including responsibility for the business outcome, AI system ownership, required reviewers, approval authority, and who can stop the system if something goes wrong.
+L206: 
+L207: ▸ Assess AI risks by considering inaccurate outputs, information processed, affected people, important decisions, sensitive system access, and the ability to take actions.
+L208: ▸ Determine how the answers to these risk considerations can influence the level of governance required for an AI use case.
+L209: 
+L210: ▸ Explore practical AI governance controls, including data-access restrictions, human review, scenario-based model testing, vendor contractual protections, and logging of AI-generated actions.
+L211: 
+L212: ▸ Understand why evidence is important when demonstrating how an AI system was assessed and approved.
+L213: ▸ Document key governance evidence, including assessed areas, identified risks, required controls, and approval decisions.
+L214: 
+L215: ▸ Recognise why a repeatable AI governance process is important as organisations scale their use of AI, rather than relying on individual knowledge or memory.
+L216: 
+L217: Who This Lecture Is For:
+L218: 
+L219:     * AI Governance Professionals — applying a structured process to AI use cases.
+L220: 
+L221:     * AI & Innovation Leaders — evaluating new AI proposals and determining governance needs.
+L222:     * Product & Technology Professionals — working with AI systems that require ownership, risk assessment, and controls.
+L223: 
+L224:     * IT & Security Professionals — assessing access, system risks, and operational controls.
+L225: 
+L226:     * Legal, Privacy & Compliance Professionals — contributing to reviews, controls, and governance evidence.
+L227: 
+L228:     * Data & Risk Professionals — assessing AI risks and appropriate controls.
+L229:     * Business Leaders Involved in AI Adoption — understanding ownership, approval, and accountability for AI systems.
+L230: 
+L231: Why This Lecture Is Useful for AI & Business Professionals
+L232: 
+L233: This lecture provides a repeatable structure for handling AI governance decisions. The ownership, risk, control, and evidence framework helps AI and business professionals organise responsibilities, assess risks, select appropriate controls, and retain evidence of how AI decisions were made.
+L234:   * AI Inventory: You Cannot Govern What You Cannot See 2:56
+L235: 
+L236: You cannot effectively govern AI if you do not know where it is being used. Organisations may have AI systems managed by IT and AI teams, AI capabilities embedded in vendor products, experimental tools used by business teams, and public AI tools adopted directly by employees. An AI inventory brings these uses into view so they can be understood and governed.
+L237: 
+L238: In This Lecture, You Will:
+L239: ▸ Understand why organisations can struggle to identify all the AI systems currently being used across different teams and software platforms.
+L240: 
+L241: ▸ Explore why an AI inventory needs to capture more than model names, including the use case, ownership, users, type of AI, data processed, affected people, connected systems, decision influence, actions, technology provider, and assigned risk level.
+L242: ▸ Recognise how AI capabilities embedded within existing vendor products can make an organisation’s AI landscape more difficult to identify.
+L243: 
+L244: ▸ Identify shadow AI and understand how employees may use AI tools outside the organisation’s formal approval process.
+L245: 
+L246: ▸ Examine why simply banning shadow AI may not address the underlying reasons employees turn to AI tools to support their work.
+L247: ▸ Explore how a safe governance path can support responsible AI adoption through approved enterprise tools, experimentation with public information, and restrictions around confidential or sensitive data.
+L248: 
+L249: ▸ Understand how an AI inventory supports governance by making existing AI use visible before decisions about acceptability and risk are made.
+L250: 
+L251: Who This Lecture Is For:
+L252: 
+L253:     * AI Governance Professionals — building visibility into an organisation’s AI landscape.
+L254:     * AI & Innovation Leaders — identifying AI use across formal and experimental initiatives.
+L255: 
+L256:     * IT & Security Professionals — tracking AI systems, connected systems, and data use.
+L257: 
+L258:     * Legal, Privacy & Compliance Professionals — understanding where AI is being used and what information it processes.
+L259: 
+L260:     * Data & Risk Professionals — assessing AI use cases, affected people, and risk levels.
+L261: 
+L262:     * Business Leaders Involved in AI Adoption — understanding how AI is being used across teams.
+L263: Why This Lecture Is Useful for AI & Business Professionals
+L264: 
+L265: This lecture shows why visibility is a fundamental part of AI governance. By understanding what AI systems and use cases exist across the organisation—including shadow AI—professionals can create a clearer foundation for assessing whether those uses are acceptable and how they should be governed.
+L266: 
+L267:   * AI Governance Across the Lifecycle 2:20
+L268: AI governance should not begin just before an AI system launches. Important decisions about purpose, design, controls, testing, and risk are made much earlier, and the system can continue to change after deployment. Effective governance therefore needs to follow the AI lifecycle from idea through retirement.
+L269: 
+L270: In This Lecture, You Will:
+L271: 
+L272: ▸ Understand why AI governance should be present throughout the lifecycle rather than treated as a final pre-launch check.
+L273: ▸ Identify the key stages of an AI lifecycle: idea, design, build, validate, deploy, monitor, update, and retire.
+L274: 
+L275: ▸ Evaluate whether AI is the right solution at the idea stage before further development begins.
+L276: 
+L277: ▸ Identify risks during design and understand why addressing them early can prevent more expensive fixes later.
+L278: 
+L279: ▸ Explore how controls can be built into an AI system during development rather than added at the end.
+L280: ▸ Understand the role of validation in testing whether an AI system behaves as expected.
+L281: 
+L282: ▸ Recognise the importance of completing required reviews and approvals before deployment.
+L283: 
+L284: ▸ Monitor AI systems after deployment by considering performance, incidents, user feedback, model changes, data changes, and changes in how the system is used.
+L285: ▸ Recognise why third-party generative AI requires ongoing governance when an external provider can update the underlying model and potentially change system behaviour.
+L286: 
+L287: ▸ Understand why AI approval may need to be reassessed when material changes occur rather than treated as permanent approval.
+L288: 
+L289: Who This Lecture Is For:
+L290: 
+L291:     * AI Governance Professionals — establishing governance throughout the AI lifecycle.
+L292: 
+L293:     * AI & Innovation Leaders — evaluating AI initiatives from idea through ongoing use.
+L294:     * Product & Technology Professionals — incorporating governance into AI design, development, and deployment.
+L295: 
+L296:     * IT & Security Professionals — monitoring changes, incidents, and system behaviour after deployment.
+L297: 
+L298:     * Legal, Privacy & Compliance Professionals — supporting reviews and reassessment when material changes occur.
+L299: 
+L300:     * Data & Risk Professionals — identifying and monitoring AI risks across the lifecycle.
+L301:     * Business Leaders Involved in AI Adoption — understanding governance responsibilities before and after AI deployment.
+L302: 
+L303: Why This Lecture Is Useful for AI & Business Professionals
+L304: 
+L305: This lecture provides a lifecycle view of AI governance, showing where governance considerations arise from initial idea through deployment, monitoring, updates, and retirement. It also highlights why ongoing reassessment matters when AI systems or third-party models change over time.
+L306:   * AI Risk: What Could Actually Go Wrong?2:13
+L307: 
+L308: AI risk is not simply about whether a model is accurate. An incorrect answer may only waste a few minutes in a low-impact activity, while a similar error in a customer-facing or important process can have much more serious consequences. Effective AI risk assessment therefore requires looking beyond accuracy to understand what could actually go wrong and what happens when the system is wrong.
+L309: 
+L310: In This Lecture, You Will:
+L311: ▸ Understand why AI risk assessment should look beyond model accuracy.
+L312: 
+L313: ▸ Assess what could go wrong when an AI system produces inaccurate or misleading information.
+L314: 
+L315: ▸ Identify risks involving confidential information, discriminatory outcomes, manipulation, security vulnerabilities, legal issues, and intellectual-property concerns.
+L316: 
+L317: ▸ Consider how AI could influence important decisions or take actions that the user did not intend.
+L318: ▸ Evaluate what happens when an AI system is wrong and why this is a critical question in risk assessment.
+L319: 
+L320: ▸ Distinguish between low-impact AI mistakes that may require relatively light controls and mistakes that could affect employment, financial position, safety, privacy, or access to important services.
+L321: 
+L322: ▸ Understand why AI risk assessment must consider the real-world consequences of mistakes, not just whether the AI can make them.
+L323: 
+L324: Who This Lecture Is For:
+L325:     * AI Governance Professionals — assessing the potential risks and consequences of AI use.
+L326: 
+L327:     * AI & Innovation Leaders — evaluating the risks associated with different AI use cases.
+L328: 
+L329:     * Product & Technology Professionals — understanding how AI errors can affect real-world processes.
+L330: 
+L331:     * IT & Security Professionals — considering security vulnerabilities and potential manipulation.
+L332:     * Legal, Privacy & Compliance Professionals — identifying confidentiality, privacy, legal, and intellectual-property risks.
+L333: 
+L334:     * Data & Risk Professionals — evaluating AI risk based on potential impact and consequences.
+L335: 
+L336:     * Business Leaders Involved in AI Adoption — understanding how the impact of AI mistakes should influence governance decisions.
+L337: 
+L338: Why This Lecture Is Useful for AI & Business Professionals
+L339: This lecture provides a practical way to think about AI risk by moving beyond accuracy and asking what could actually go wrong. It helps AI and business professionals assess risk based on the consequences of AI mistakes, particularly when those mistakes could affect employment, finances, safety, privacy, or access to important services.
+L340: 
+L341:   * Risk Tiering: Not Every AI Needs the Same Governance 2:22
+L342: Not every AI use case creates the same level of risk, so applying exactly the same governance process to every system does not make sense. Risk tiering provides a practical way to match the level of governance and controls to the potential impact of an AI use case.
+L343: 
+L344: In This Lecture, You Will:
+L345: 
+L346: ▸ Understand why different AI use cases may require different governance processes.
+L347: 
+L348: ▸ Explore how risk tiering can categorise AI uses into low, moderate, and high-risk levels.
+L349: ▸ Identify characteristics of low-risk uses, including limited data, limited impact, and a person remaining firmly in control.
+L350: 
+L351: ▸ Recognise moderate-risk uses that may affect important business processes or involve more sensitive information.
+L352: 
+L353: ▸ Identify high-risk uses involving significant decisions about people, sensitive data, critical processes, or substantial autonomous action.
+L354: 
+L355: ▸ Understand why some AI uses may be categorised as not permitted by an organisation.
+L356: ▸ Recognise that risk labels and thresholds can vary depending on the organisation and regulatory environment.
+L357: 
+L358: ▸ Apply the principle of proportionality by matching the amount of governance to the level of AI risk.
+L359: 
+L360: ▸ Understand why innovation should not be used as a reason to bypass meaningful governance review.
+L361: 
+L362: Who This Lecture Is For:
+L363: 
+L364:     * AI Governance Professionals — designing proportionate governance processes for different AI risk levels.
+L365:     * AI & Innovation Leaders — evaluating AI use cases without treating innovation as an exception to review.
+L366: 
+L367:     * Product & Technology Professionals — understanding how governance requirements can vary by AI use case.
+L368: 
+L369:     * IT & Security Professionals — considering stronger controls where potential impact and autonomy increase.
+L370: 
+L371:     * Legal, Privacy & Compliance Professionals — supporting risk-based governance across different AI uses.
+L372:     * Data & Risk Professionals — categorising AI use cases according to their potential impact.
+L373: 
+L374:     * Business Leaders Involved in AI Adoption — understanding why different AI applications require different levels of governance.
+L375: 
+L376: Why This Lecture Is Useful for AI & Business Professionals
+L377: This lecture shows how risk tiering helps organisations apply AI governance proportionately. It provides a practical way to distinguish lower-impact productivity uses from AI systems that could significantly affect people, sensitive information, critical processes, or business decisions.
+L378: 
+L379:   * The AI Invoice Reviewer: From Discovery to Governance Decision
+L380: 
+L381:   * Quiz Time!
+L382: ### Data Governance for AI 3 lectures • 4min
+L383: 
+L384:   * What Data Is Going Into the AI?2:14
+L385: 
+L386: Approving an AI tool does not mean employees can put any information into it. The next governance question is what data the AI will actually process, because different types of information create different governance considerations.
+L387: 
+L388: In This Lecture, You Will:
+L389: 
+L390: ▸ Understand why approving an enterprise AI tool does not automatically approve every type of data employees might enter into it.
+L391: ▸ Identify different categories of information that may be processed by AI, including public information, internal business information, customer data, employee data, financial information, confidential strategy documents, source code, intellectual property, and other sensitive material.
+L392: 
+L393: ▸ Assess where the data came from and whether the organisation is allowed to use it.
+L394: 
+L395: ▸ Consider whether data contains personal or sensitive information and where it is processed.
+L396: ▸ Evaluate who can access the data, how long it is retained, and what the AI provider does with it.
+L397: 
+L398: ▸ Recognise why a technically secure AI tool can still create risk through the way employees use it.
+L399: 
+L400: ▸ Understand why AI governance requires both technology controls and clear rules for users.
+L401: 
+L402: ▸ Recognise why organisations may prohibit certain categories of confidential or personal information unless specific safeguards are in place.
+L403: ▸ Distinguish between approving an AI tool and approving every possible use of that tool.
+L404: 
+L405: Who This Lecture Is For:
+L406: 
+L407:     * AI Governance Professionals — evaluating data-related risks in AI use cases.
+L408: 
+L409:     * AI & Innovation Leaders — understanding what information AI applications may process.
+L410: 
+L411:     * Product & Technology Professionals — considering data use when implementing AI solutions.
+L412: 
+L413:     * IT & Security Professionals — assessing access, processing, retention, and technology controls.
+L414:     * Legal, Privacy & Compliance Professionals — reviewing personal, sensitive, confidential, and intellectual-property information.
+L415: 
+L416:     * Data & Risk Professionals — evaluating how different data categories affect AI governance.
+L417: 
+L418:     * Business Leaders Involved in AI Adoption — establishing appropriate rules for employee use of AI tools.
+L419: 
+L420: Why This Lecture Is Useful for AI & Business Professionals
+L421: This lecture helps professionals evaluate AI governance from a data perspective. It shows why the type of information processed, how it is handled, and how employees use the AI tool all matter when determining whether a particular AI use is appropriate.
+L422: 
+L423:   * Data Quality, Bias and Traceability 1:55
+L424: Having data is not enough for responsible AI governance. You also need to understand whether the data is reliable, representative, affected by bias, and traceable. Historical data can contain patterns that an AI system learns, while weak test data can create false confidence in how well a system performs.
+L425: 
+L426: In This Lecture, You Will:
+L427: 
+L428: ▸ Understand why data quality is not simply a technical issue in AI governance.
+L429: ▸ Recognise how historical recruitment data can contain patterns of bias that an AI system may learn.
+L430: 
+L431: ▸ Assess where data came from, how it was collected, what it represents, and what it leaves out.
+L432: 
+L433: ▸ Identify limitations and potential biases that may exist within data used by AI systems.
+L434: 
+L435: ▸ Understand why test data should represent real-world users and conditions when evaluating or monitoring AI systems.
+L436: ▸ Recognise how unrepresentative test data can create a false sense of confidence in AI system performance.
+L437: 
+L438: ▸ Understand why traceability matters when a significant AI decision is challenged.
+L439: 
+L440: ▸ Identify the information that may need to be traced, including the relevant model or system version, data or information used, output produced, and human decision that followed.
+L441: 
+L442: ▸ Evaluate whether the organisation understands its data well enough to trust how it is being used.
+L443: 
+L444: Who This Lecture Is For:
+L445:     * AI Governance Professionals — assessing data quality, bias, representativeness, and traceability.
+L446: 
+L447:     * AI & Innovation Leaders — evaluating whether data is appropriate for AI use cases.
+L448: 
+L449:     * Product & Technology Professionals — understanding data limitations when developing and evaluating AI systems.
+L450: 
+L451:     * IT & Security Professionals — supporting traceability of AI systems, outputs, and versions.
+L452:     * Legal, Privacy & Compliance Professionals — considering data limitations and traceability when AI decisions are challenged.
+L453: 
+L454:     * Data & Risk Professionals — evaluating data quality, bias, testing, and AI decision traceability.
+L455: 
+L456:     * Business Leaders Involved in AI Adoption — understanding whether data is sufficiently understood to support responsible AI use.
+L457: 
+L458: Why This Lecture Is Useful for AI & Business Professionals
+L459: This lecture helps professionals look beyond the existence of data and assess whether it can be trusted for its intended AI use. It connects data quality, bias, representativeness, testing, and traceability to the practical governance of AI systems and significant AI decisions.
+L460: 
+L461:   * The Data Behind the Model: Is It Ready for Use?
+L462: 
+L463:   * Quiz Time!
+L464: ### Responsible AI 3 lectures • 4min
+L465: 
+L466:   * Responsible AI: From Principles to Controls 2:20
+L467: 
+L468: Responsible AI principles such as fairness, transparency, accountability, privacy, safety, security, and human oversight are important—but principles alone do not make AI governance operational. The practical challenge is translating those principles into controls that can be implemented, owned, and evidenced within an AI system.
+L469: 
+L470: In This Lecture, You Will:
+L471: ▸ Understand the role of responsible AI principles including fairness, transparency, accountability, privacy, safety, security, and human oversight.
+L472: 
+L473: ▸ Translate responsible AI principles into practical questions about how they should work within an AI system.
+L474: 
+L475: ▸ Examine what meaningful human oversight requires, including understanding the AI output, having enough information to challenge it, being able to override recommendations, having enough review time, and exercising independent judgment.
+L476: ▸ Distinguish between a responsible AI principle and an operational control.
+L477: 
+L478: ▸ Apply a practical approach of starting with the principle, identifying the risk, defining the control, assigning an owner, and determining the evidence needed to show the control is working.
+L479: 
+L480: ▸ Understand how a fairness principle can be connected to risks such as materially different outcomes for different groups.
+L481: ▸ Identify controls for fairness, including appropriate testing, monitoring, documented review, and escalation when unexpected differences are found.
+L482: 
+L483: ▸ Recognise the types of evidence that can demonstrate controls are working, including test results, review records, and monitoring reports.
+L484: 
+L485: ▸ Understand why responsible AI needs to move beyond written principles and become something the organisation can actually operate.
+L486: 
+L487: Who This Lecture Is For:
+L488:     * AI Governance Professionals — turning responsible AI principles into practical controls and evidence.
+L489: 
+L490:     * AI & Innovation Leaders — implementing responsible AI principles within AI initiatives.
+L491: 
+L492:     * Product & Technology Professionals — translating principles such as human oversight and fairness into system controls.
+L493: 
+L494:     * IT & Security Professionals — supporting operational controls for responsible and secure AI use.
+L495:     * Legal, Privacy & Compliance Professionals — connecting responsible AI principles with documented controls and evidence.
+L496: 
+L497:     * Data & Risk Professionals — identifying AI risks and defining controls, ownership, and evidence.
+L498: 
+L499:     * Business Leaders Involved in AI Adoption — understanding how responsible AI can become an operational governance practice.
+L500: 
+L501: Why This Lecture Is Useful for AI & Business Professionals
+L502: This lecture provides a practical framework for turning responsible AI principles into controls that can be implemented and assessed. It helps professionals connect principles such as fairness and human oversight to specific risks, controls, owners, and evidence rather than treating responsible AI as a statement of aspirations.
+L503: 
+L504:   * Explainability and Human Oversight 1:41
+L505: Having a person involved in an AI-supported decision does not automatically mean meaningful human oversight exists. If the person simply accepts the AI recommendation without understanding its limitations or having the authority to question it, the human role may be little more than a formality. Explainability and oversight therefore need to reflect the risk and consequences of the AI use.
+L506: 
+L507: In This Lecture, You Will:
+L508: ▸ Understand why having a human involved in an AI-supported decision does not automatically provide meaningful human oversight.
+L509: 
+L510: ▸ Examine how human oversight applies when AI recommends which employees should be considered for promotion.
+L511: 
+L512: ▸ Recognise why meaningful oversight requires enough information and authority to question the AI.
+L513: 
+L514: ▸ Understand why people responsible for AI-supported decisions need to understand relevant AI limitations.
+L515: ▸ Recognise the importance of independent human decision-making rather than simply accepting AI recommendations.
+L516: 
+L517: ▸ Understand why explainability should be proportionate to the AI use case and its consequences.
+L518: 
+L519: ▸ Distinguish between low-impact uses, such as rewriting a paragraph, and important decisions affecting people where greater transparency and justification may be needed.
+L520: 
+L521: ▸ Apply a risk-based approach to determining what level of explanation is appropriate for an AI system.
+L522: Who This Lecture Is For:
+L523: 
+

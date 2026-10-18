@@ -1,0 +1,470 @@
+AI Security with Microsoft Cloud (Azure & M365) (https://www.udemy.com/course/securing-ai-with-microsoft-cloud/)
+citeturn78view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/securing-ai-with-microsoft-cloud/","lineno":null}); Total lines: 508
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: AI Security with Microsoft Cloud (Azure & M365)
+L30: 
+L31: Highest Rated
+L32: Rating: 4.5 out of 5 4.5cite8†(206 ratings) L33: 
+L34: 1,737 students
+L35: 
+L36: cite0†Image†img-c.udemycdn.com Preview this course
+L37: # AI Security with Microsoft Cloud (Azure & M365)
+L38: 
+L39: SC-100 |SC-200 |SC-300 |SC-400 |MD-102 |Microsoft Purview |Entra ID |Microsoft Defender |Microsoft Sentinel|Azure OpenAI
+L40: 
+L41: Created bycite9†Kuljot Singh Bakshi | 70,000+ Enrollments Worldwide L42: 
+L43: Last updated 5/2025
+L44: 
+L45: English
+L46: 
+L47: English [Auto],French [Auto], 1 more
+L48: 
+L49: cite0†Image†img-c.udemycdn.com Preview this course
+L50: ## What you'll learn
+L51: 
+L52:   * Securing Generative AI like Microsoft Copilot, ChatGPT
+L53: 
+L54:   * Securing Predictive AI
+L55: 
+L56:   * Learn about MS Purview, Microsoft Entra ID, Microsoft Sentinel, Microsoft Defender
+L57: 
+L58:   * Learn about Microsoft Intune, Defender For Cloud Apps, Defender For Endpoint etc.
+L59: 
+L60:   * Learn about Cloud Security Posture Management and Cloud Security Hygiene
+L61: 
+L62: ## Course content
+L63: 
+L64: 12 sections • 137 lectures • 26h 21m total length
+L65: 
+L66: Expand all sections
+L67: ### Introduction 1 lecture • 5min
+L68: 
+L69:   * Course Introduction Preview 4:39
+L70: 
+L71: Learn to secure AI workloads in Microsoft cloud by using Purview for data protection, Defender for Cloud Apps, Defender for Endpoint, Intune, Azure AD, and Sentinel.
+L72: ### Bird's Eye View of Security + AI 2 lectures • 15min
+L73: 
+L74:   * Join the Discord Server!!!!0:04
+L75: 
+L76:   * Bird's Eye View of Security + AI Preview 15:06
+L77: 
+L78: Gain a bird's-eye view of security and AI within the Microsoft Cybersecurity Reference Architecture. Discover how Defender, Sentinel, Purview, and Intune enable zero trust and rapid, guided responses.
+L79: ### Important Concepts 4 lectures • 1hr 9min
+L80: 
+L81:   * Zero Trust Essentials 21:11
+L82: 
+L83: Master zero trust essentials by applying assume breach, explicit verification, and least privilege (including just-in-time and just-enough access) to identities, endpoints, apps, data, and networks across multi-cloud environments.
+L84: 
+L85:   * Introduction to Microsoft Sentinel 17:44
+L86: Explore how microsoft sentinel unifies multi-cloud visibility with SIEM and SOAR, ingesting data via connectors, running analytic and hunting queries, and automating incident response with playbooks.
+L87: 
+L88:   * Introduction to Microsoft Defender XDR 16:52
+L89: 
+L90: Explore Microsoft Defender XDR, a unified security suite that coordinates detection, prevention, investigation, and response across endpoints, identities, email, and applications within a zero-trust framework.
+L91:   * Difference between Sentinel and Defender(s)13:15
+L92: 
+L93: Compare Microsoft Sentinel and Defender XDR, outlining siem and soar roles, data connectors, logs, and automated remediation through playbooks.
+L94: ### Microsoft Copilot and Zero Trust Architecture 1 lecture • 28min
+L95: 
+L96:   * Microsoft Copilot and Zero Trust: Match Made in Heaven 28:03
+L97: 
+L98: Microsoft Copilot for M365 enhances security with zero trust, leveraging graph grounding and web grounding, and implementing seven protection layers plus Purview, Defender for cloud apps, and policy controls.
+L99: ### Securing AI with MS Purview (Information Protection and Governance)23 lectures • 5hr 27min
+L100: 
+L101:   * Section Introduction 21:42
+L102: 
+L103: Explore zero trust and seven layers of protection for Microsoft Copilot for 365, focusing on data security across devices and users with Purview demos.
+L104: 
+L105:   * Caution: Licensing!!!!!4:04
+L106: 
+L107: Ensure you have an Office 365 E5 license plus a Copilot for 365 license to run demos integrating Purview with Copilot. An E3 license will not suffice for labeling features.
+L108:   * Introduction To Information Protection 8:53
+L109: 
+L110: Explore information protection with Microsoft Purview to apply sensitivity labels, restrict access between finance and HR documents, and enable Copilot to enforce labels and communicate document sensitivity.
+L111: 
+L112:   * Information Protection Demo (Hands-On Lab)24:15
+L113: Explore information protection in Microsoft Purview: build sensitive info types and sensitivity labels, publish labeling policies, and apply automatic labeling and watermarks in SharePoint and Copilot workflows.
+L114: 
+L115:   * Auto-Labelling Policies Theory Video 8:35
+L116: 
+L117: Explore AI-powered auto labeling policies in Microsoft Purview. Automatically apply sensitivity labels to files and emails using trainable classifiers and sensitive info types, with client-side and server-side labeling.
+L118:   * Auto-Labelling Policies Demo (Hands-On Lab)13:11
+L119: 
+L120: This hands-on lab shows creating an auto labeling policy in Purview, publishing a sensitivity label, and applying labels across Exchange, SharePoint, and OneDrive using sensitive info types and trainable classifiers.
+L121: 
+L122:   * Data Encryption Theory Video 11:00
+L123: Explore data encryption theory in Microsoft Purview with Copilot, applying sensitivity labels to protect data in OneDrive and SharePoint Online, and enforce restricted access, expiry, and offline restrictions.
+L124: 
+L125:   * Data Encryption Demo Video (Hands-On Lab)10:54
+L126: 
+L127: Demonstrate data encryption with a protected sensitivity label in Microsoft Purview, showing how to enable control access, configure access settings, set permissions, and protect documents and emails.
+L128:   * Data Loss Prevention Policies Theory Video 9:00
+L129: 
+L130: Apply data loss prevention policies with Microsoft Purview to prevent sharing of sensitive data like credit card numbers outside the tenant, using custom templates, simulation, and publishing.
+L131: 
+L132:   * Data Loss Prevention Policies Demo (Hands-On Lab)20:58
+L133: This hands-on lab demonstrates creating and enforcing data loss prevention policies in the new Microsoft Purview portal, including custom rules, sensitive data detection, and outside-organization sharing controls.
+L134: 
+L135:   * Viewing Alerts and Incidents On Microsoft Defender Portal 7:13
+L136: 
+L137: Explore how alerts and incidents from Microsoft Purview automatically appear in the Microsoft Defender portal, with detailed incident graphs, impacted assets, and assignment options for threat hunting and eDiscovery.
+L138:   * Endpoint Data Loss Prevention Theory Video 11:37
+L139: 
+L140: Explore endpoint data loss prevention with Microsoft Purview, onboarding Windows and Mac devices, applying just-in-time protections, and alerting on policy violations in a generative AI era.
+L141: 
+L142:   * Endpoint Data Loss Prevention Demo (Hands-On Lab)31:14
+L143: Explore a hands-on lab that demonstrates configuring endpoint data loss prevention policies, onboarding devices to Defender for Endpoint, testing GST number detection, and monitoring alerts in Purview and Defender.
+L144: 
+L145:   * Communication Compliance Theory Video 8:00
+L146: 
+L147: Discover how Microsoft Purview communication compliance enforces policy across Copilot, Outlook, Teams, and Exchange Online, detects sensitive info and harassment, and uses templates and remediation workflows to prevent insider risk.
+L148:   * Communication Compliance Demo Video (Hands-On Lab)14:50
+L149: 
+L150: Explore how to create and customize communication compliance policies in the Purview portal, detect sensitive data (GST numbers), set locations and directions, and manage violations end-to-end.
+L151: 
+L152:   * Insider Risk Management Theory Video 30:08
+L153: Explore insider risk management with Microsoft Purview, learning to trigger, triage, and escalate data exfiltration and obfuscation threats, use adaptive protection, and involve e-discovery and HR data connectors.
+L154: 
+L155:   * Insider Risk Management Demo Video (Hands-On Lab)21:11
+L156: 
+L157: Explore insider risk management in the Microsoft Purview portal, configure alerts and IAM policies, assign users to risk roles, and implement data leak detection via communication compliance and DLP policies.
+L158:   * eDiscovery Theory Video 12:21
+L159: 
+L160: Explore eDiscovery in Microsoft Purview to investigate DLP and communication policy violations, apply legal holds on custodians, and collect, filter, and export evidences across OneDrive, SharePoint Online, and Exchange Online.
+L161: 
+L162:   * eDiscovery Demo Video (Hands-On Lab)20:11
+L163: 
+L164: In this eDiscovery hands-on lab, learn how to configure eDiscovery roles, create cases, assign custodians, collect data, build keyword filters, and export a targeted review set as a zip file.
+L165:   * Data Lifecycle Management Theory Video 16:52
+L166: 
+L167: Explore data lifecycle management with retention and deletion policies in Microsoft Purview, covering container vs document level policies, auto deletion, preservation holds, and compliance with SOX.
+L168: 
+L169:   * Data Lifecycle Management Demo Video (Hands-On Lab)12:31
+L170: Explore data lifecycle management in Microsoft Purview, configuring container-level retention policies for SharePoint and OneDrive, along with document-level labeling policies to apply retention and deletion rules.
+L171: 
+L172:   * AI Hub on MS Purview 8:35
+L173: 
+L174: Explore AI hub in Microsoft Purview to monitor generative AI activity, analyze AI data analytics and sensitive interactions, and auto-create insider risk and data loss prevention policies with a click.
+L175: 
+L176:   * Feedback!!!!!!0:11
+L177: ### Securing AI with Azure Sentinel and Defender for Cloud (SOC Analyst)18 lectures • 3hr 33min
+L178: 
+L179:   * Introduction to Microsoft Defender for Cloud 24:41
+L180: 
+L181: Explore how Microsoft Defender for Cloud secures multi-cloud and hybrid workloads with DevSecOps integration, CSPM, and CWPP, while mapping threats to the Mitre attack framework.
+L182: 
+L183:   * Understanding Data Connectors 10:28
+L184: Explore how data connectors in Azure Sentinel centralize security data from cloud services, on-premise devices, and third-party tools, using built-in and custom connectors to feed a Log Analytics workspace.
+L185: 
+L186:   * Understanding Log Analytics Workspace 15:02
+L187: 
+L188: Explore how the log analytics workspace powers Microsoft Sentinel by unifying data from Azure and non-Azure sources into tables like Azure Activity and Security Alert, queryable with Kusto Query Language.
+L189:   * Setting Up Log Analytics Workspace (Hands-On Lab)5:02
+L190: 
+L191: Set up a Log Analytics workspace in portal.azure.com, attach Azure Sentinel with data connectors, and explore tables such as Azure Activity, Security Event, and Behavioral Analytics using KQL queries.
+L192: 
+L193:   * Setting Up Sentinel on our Log Analytics Workspace (Hands-On Lab)7:04
+L194: Set up a Microsoft Sentinel instance on a log analytics workspace, explore the 31-day free trial with 10 gb daily ingestion, and navigate incidents, hunting cases, and workbooks.
+L195: 
+L196:   * Setting up Defender for Cloud on Subscription Level (Hands-On Lab)10:03
+L197: 
+L198: Enable Defender for Cloud at the subscription level, upgrade to unlock features, enable Defender plans for servers, SQL, app service, storage, and connect to the log analytics workspace.
+L199: 
+L200:   * Setting up Data Connectors in Sentinel (Hands-On Lab)13:53
+L201: Configure Azure Activity and Defender for Cloud data connectors in Microsoft Sentinel, connect them to a Log Analytics workspace, and leverage pre-built KQL templates, workbooks, and hunting queries.
+L202: 
+L203:   * Understanding Analytics Queries and Incidents (SIEM)13:14
+L204: 
+L205: Learn how microsoft sentinel SIEM uses analytics rules and KQL to generate alerts and incidents, with scheduled and near real-time queries for threat detection and insider risk.
+L206:   * Creating a Scheduled KQL query and triggering an incident (Hands-On Lab)17:05
+L207: 
+L208:   * Viewing Sample Alerts and Incidents of Defender for Cloud in Sentinel 11:58
+L209: 
+L210:   * Understanding Automation (SOAR) through Playbooks in Sentinel 7:42
+L211: 
+L212: Learn how playbooks in Microsoft Sentinel automate security orchestration and automated response, using Azure Logic Apps to isolate endpoints and notify the security operations center team via Teams.
+L213: 
+L214:   * Creating Playbook and automation rules (Hands-On Lab)18:39
+L215: Create and automate incident notifications in Azure Sentinel by building a Logic Apps playbook that posts incident ID, URL, and description to a Microsoft Teams channel via automation rules.
+L216: 
+L217:   * Understanding Visualizations through Workbooks in Sentinel 8:16
+L218: 
+L219: Explore how Microsoft Sentinel workbooks provide interactive dashboards with time series graphs and query results, templates, data connectors, and KQL-driven visualizations for threat-hunting and incident documentation.
+L220:   * Understanding User and Entity Behavioral Analytics (UEBA)12:35
+L221: 
+L222: Enable UEBA to analyze logs in Microsoft Sentinel using machine learning to build baseline behavioral profiles of users, hosts, and apps, and detect anomalies for insider risk and threat hunting.
+L223: 
+L224:   * Understanding Threat Hunting 15:35
+L225: 
+L226: Threat hunting uses UEBA data to form and test hypotheses within Microsoft Sentinel. It differs from incident management by proactively addressing insider risk and following the MITRE ATT&CK framework.
+L227:   * Discussing Advanced Multi-Stage Attack Detection via Fusion engine in Sentinel 4:37
+L228: 
+L229: Explore advanced multi-stage attack detection in Microsoft Sentinel using the fusion engine to correlate alerts and incidents from multiple data sources, improving detection with Defender connectors.
+L230: 
+L231:   * Viewing AI posture recommendations in Defender for Cloud (Hands-On Lab)9:56
+L232: Defender for Cloud's security posture view for an azure openai resource reveals CSPM recommendations and provides quick fixes or automated remediation scripts to improve security posture.
+L233: 
+L234:   * Exploring Cloud Security Explorer for AI Governance (Hands-On Lab)7:04
+L235: 
+L236: Explore cloud security explorer to visually query and discover AI services deployed in your Azure subscription, including OpenAI models, and assess internet exposure for governance.
+L237: ### DevSecOps with Defender for Cloud 16 lectures • 2hr 42min
+L238: 
+L239:   * what is Azure DevOps?18:57
+L240: 
+L241: Explore how Azure DevOps unifies planning, building, and deployment through pipelines, boards, repos, and artifacts. Learn how CI/CD and DevSecOps integrate security throughout the lifecycle.
+L242: 
+L243:   * Azure DevOps and Zero Trust (DevSecOps)11:40
+L244: Explore how Azure DevOps enables DevSecOps with zero trust across the full SDLC—from design to operations—using Defender for Cloud and Microsoft Sentinel to secure code, workloads, and incidents.
+L245: 
+L246:   * DevOps Demo Architecture 3:20
+L247: 
+L248: Build a GPT-4 powered AI chat app and deploy it with Azure DevOps CI/CD, using an Azure OpenAI resource, bicep templates, and a web app tested with postman.
+L249: 
+L250:   * Provisioning an Azure OpenAI resource (Hands-On Lab)6:03
+L251: Provision an Azure OpenAI resource, deploy a GPT-4 model in Sweden Central region via Azure OpenAI Studio, and chat with it using the keys and endpoint.
+L252: 
+L253:   * Creating a Azure DevOps Organisation and a DevOps Project (Hands-On Lab)6:12
+L254: 
+L255: Create an Azure DevOps organization and a first project, set location and visibility, and learn to use repos and CI/CD pipelines for DevSecOps.
+L256: 
+L257:   * Importing a GitHub repo inside of our project (Hands-On Lab)3:41
+L258: Import a GitHub repository into an Azure DevOps project, explore CI/CD pipelines in YAML, and deploy an Azure OpenAI powered chatbot via containerized web apps and infrastructure templates.
+L259: 
+L260:   * Creating a Virtual Machine in Azure Portal (Hands-On Lab)8:33
+L261: 
+L262: Create a virtual machine in the Azure portal to act as an agent for Azure DevOps, enable virtualization, connect via RDP, run containerized apps, and join an agent pool.
+L263: 
+L264:   * Setting up our VM for pipeline execution (Hands-On Lab)9:11
+L265: Install Azure CLI, Python, and Docker Desktop on a VM to enable containerized pipeline execution for an Azure DevOps agent in an agent pool, with virtualization considerations.
+L266: 
+L267:   * Registering our Virtual Machine as an Agent in our project (Hands-On Lab)11:04
+L268: 
+L269: Register and onboard a self-hosted virtual machine as an Azure DevOps agent in a dedicated agent pool, using a personal access token to configure and launch the agent online.
+L270: 
+L271:   * Running our CI (Continuous Integration) pipeline (Hands-On Lab)25:40
+L272: Launch a CI pipeline to build a container image, push to Azure Container Registry, and deploy via a CD pipeline to an Azure Web App for real-time AI testing.
+L273: 
+L274:   * Running our CD (Continuous Deployment) pipeline (Hands-On Lab)11:48
+L275: 
+L276: Run the continuous deployment pipeline to deploy a containerized AI app from the Azure Container Registry to an Azure web app, using Bicep to set the resource group and permissions.
+L277: 
+L278:   * Testing Our Azure Web App via Postman (Hands-On Lab)5:24
+L279: Query an Azure web app hosted in a Linux West Europe environment using Postman, sending a post request with a query to its chat endpoint to test a GPT engine.
+L280: 
+L281:   * Connecting our organisation with Defender for Cloud (Hands-On Lab)4:45
+L282: 
+L283: Connect your Azure DevOps organization to Defender for Cloud and configure an Azure DevOps connector to enable automatic resource discovery and security alerts across environments.
+L284: 
+L285:   * Running pipelines with Microsoft Security Extension (Hands-On Lab)16:49
+L286: Learn to run security analysis on Azure DevOps pipelines using the Microsoft Security for DevOps extension, connect DevOps to Defender for Cloud, and view IaC findings in the scans tab.
+L287: 
+L288:   * Viewing Cloud Workload Protection Platform (CWPP) Recommedations (Hands-On Lab)9:49
+L289: 
+L290: Learn how defender for cloud delivers CWPP protections for Azure workloads, with vulnerability scans, remediation steps, and just-in-time access.
+L291: 
+L292:   * Exploring Cloud Security Explorer for Governance (Hands-On Lab)9:33
+L293: Explore cloud security explorer in defender for cloud for proactive threat hunting, governance, and discovery across multi-cloud Azure, AWS, and GCP resources via low-code, visual queries.
+L294: ### Defender for Cloud Apps 18 lectures • 3hr 3min
+L295: 
+L296:   * Defender for Cloud Apps: Zero Trust Architecture 17:33
+L297: 
+L298: Explore Defender for Cloud Apps within a zero trust framework, securing SaaS applications like Microsoft 365 and others through explicit verification, least privilege, and data protection using Purview.
+L299: 
+L300:   * Cloud App Security for M365 v/s Defender for Cloud Apps 5:57
+L301: Explain how defender for cloud apps offers broad cloud app protection, while Microsoft 365 cloud app security is a subset for 365 apps via an app connector.
+L302: 
+L303:   * Licensing!!!!!5:50
+L304: 
+L305: Identify licenses covering Defender for cloud apps, including Microsoft 365 E5 and related suites, and note Entra P1 or P2 for conditional access policies.
+L306: 
+L307:   * Walkthrough of Defender for Cloud Apps Portal (Hands-On Lab)4:01
+L308: Explore the defender XDA portal on security.microsoft.com to view cloud apps, exposure management, alerts, incidents, investigations, and policy templates for cloud apps governance.
+L309: 
+L310:   * Creating a Virtual Machine (endpoint) in Azure (Hands-On Lab)6:48
+L311: 
+L312: Create a Windows 11 pro Azure virtual machine, apply app-blocking policies to block generative AI and social apps, and onboard the virtual machine to Defender XDR for asset visibility.
+L313: 
+L314:   * Onboarding an endpoint to Tenant Org (Hands-On Lab)4:58
+L315: Onboard your virtual machine to Defender for Endpoint using the local onboarding script, then verify the endpoint appears in the Defender XDR portal under assets > devices.
+L316: 
+L317:   * Un-sanctioning/Blocking a Gen AI app (Hands-On Lab)14:25
+L318: 
+L319: Block access to unsanctioned generative AI apps with Defender XDR and Defender for Endpoint via the cloud app catalog, using custom network indicators to enforce app access.
+L320: 
+L321:   * File Discoverability and Governance Theory 10:39
+L322: Discover and classify data across cloud apps using Defender for Cloud Apps, apply sensitivity labels with Microsoft Purview, and govern and monitor data to manage external collaborators and policy compliance.
+L323: 
+L324:   * Creating a File Governance and Information Protection Policy (Hands-On Lab)15:05
+L325: 
+L326: Learn to create a file governance policy with Defender for Cloud Apps, enable file monitoring, connect Microsoft 365 via the app connector, and apply Purview sensitivity labels to unlabeled files.
+L327:   * Introduction to Threat Detection Policies 6:16
+L328: 
+L329: Explore threat detection policies in defender for cloud apps, enabling proactive detection of unusual locations, impossible travel, and data exfiltration, with customizable policies and severity-based incident triage.
+L330: 
+L331:   * Creating a Threat Detection Policy (Hands-On Lab)12:42
+L332: 
+L333: Create threat detection policies in the Defender XDR portal using activity policies, filters, and governance actions to detect file uploads to OneDrive or Copilot for M365.
+L334:   * Defender for Cloud Apps With Sentinel 9:31
+L335: 
+L336: Explore how defender for cloud apps integrates with Microsoft Sentinel to centralize alerts and incidents from Defender XDR, enabling Siem, security information and event management, and automated playbooks.
+L337: 
+L338:   * Connecting Sentinel Workspace With Defender Portal (Hands-On Lab)12:03
+L339: Connect Sentinel workspace with Defender portal by configuring Defender XDR data connectors in Sentinel, ingesting endpoint and cloud app logs, then view and investigate incidents in a unified security view.
+L340: 
+L341:   * Creating Conditional Access Policies (Hands-On Lab)8:22
+L342: 
+L343: Configure conditional access policies in the admin center to require multi-factor authentication for cloud apps like Exchange Online, and test access via Outlook.com and portal.office.com.
+L344:   * Introduction to Conditional Access App Control Policies for DLP 12:44
+L345: 
+L346: Learn how conditional access app control, powered by Defender for Cloud Apps, provides real-time data loss prevention and session controls through a reverse proxy to secure cloud apps.
+L347: 
+L348:   * Creating a Conditional Access App Control for DLP policy (Hands-On Lab)17:38
+L349: Create a conditional access app control policy in Defender for Cloud Apps to enforce a data loss prevention policy for Microsoft 365 apps, blocking copy-paste from unmanaged devices.
+L350: 
+L351:   * Governing OAuth Apps Theory 10:27
+L352: 
+L353: Discover how OAuth apps use the open authorization standard to grant token-based, limited access to resources like your calendar and files, with governance from Defender for Cloud Apps.
+L354: 
+L355:   * Creating OAuth Apps Policies (Hands-On Lab)8:18
+L356: Govern OAuth applications with policy-driven governance in Microsoft cloud security, analyzing app permissions, governance actions, and revoking or blocking risky OAuth apps using Defender for Cloud Apps.
+L357: ### Defender for Office 365 16 lectures • 2hr 26min
+L358: 
+L359:   * Zero Trust for Defender for O365 19:17
+L360: 
+L361: Explore defender for Office 365 to protect email, OneDrive, and the Office portal from phishing and malware, using Exchange Online Protection and zero trust with automated investigation and response.
+L362: 
+L363:   * Difference between EOP and Defender Plan 1 and Defender Plan 2 8:07
+L364: Learn the differences between exchange online protection and defender for office 365 plan 1 and plan 2, including email threat protection, phishing defenses, and automated investigation and response.
+L365: 
+L366:   * Understanding Security Approach with Defender for O365 and AI 13:57
+L367: 
+L368: Explore Defender for Office 365 and Exchange Online Protection to guard mail flow with anti-phishing, anti-spoofing, anti-malware, safe links, attachments, and zap policy under zero-trust.
+L369:   * Understanding Default, Preset and Custom Security Policies 4:12
+L370: 
+L371: Explore default, preset, and custom security policies in Defender for Office 365, detailing their baseline protection, priority, and the ability to tailor rules for specific user groups.
+L372: 
+L373:   * Configuring Default and Preset Policies (Hands-On Lab)8:32
+L374: Configure Defender for Office 365 with default protection and standard or strict preset policies, targeting specific user groups while balancing security and productivity, and customize protection settings.
+L375: 
+L376:   * Understanding the need for email authentication 22:46
+L377: 
+L378: Explore why email authentication matters for Exchange Online Protection, and learn how SPF, DKIM, DMARC, and ARC work together to reduce spoofing, phishing, and false positives while preserving legitimate mail.
+L379:   * Email Authentication: Setting up SPF (Hands-On Lab)6:50
+L380: 
+L381: Configure SPF for your Microsoft 365 tenant by connecting DNS, generating SPF txt records, and authorizing mail servers to enable email authentication and prevent spoofing.
+L382: 
+L383:   * Email Authentication: Setting up DKIM (Hands-On Lab)11:35
+L384: 
+L385: Set up DKIM in Microsoft Defender for Office 365 by configuring DNS CNAME records, adding selector1._domainkey entries, and enabling the policy for email authentication.
+L386:   * Email Authentication: Setting up DMARC (Hands-On Lab)7:06
+L387: 
+L388: Configure dmarc for your organization using a dmarc generator, create a dns txt record, and enforce a 100% reject policy for emails failing spf or dkim, with aggregate reports.
+L389: 
+L390:   * Email Authentication: Setting up ARC (Hands-On Lab)5:50
+L391: 
+L392: Configure ARC in Defender for Office 365 to authenticate relayed emails with ARC sealer and trusted domains, ensuring messages pass ARC checks even when SPF and DKIM fail.
+L393:   * Email Message Headers Analyser: Some Really Cool Stuff!!!!!4:53
+L394: 
+L395: Explore email security by using the message headers analyzer to inspect SPF, DKIM, and DMARC results, view authentication data, and understand header details like origin, signatures, and RSA SHA-256 encryption.
+L396: 
+L397:   * Understanding Threat Management policies 7:58
+L398: Protect data and users by applying threat protection policies in Defender for Office 365, stopping phishing and malware at the gate with safe attachments, URL detonation, and anti-spam measures.
+L399: 
+L400:   * Creating Custom Threat Management Policy (Hands-On Lab)6:58
+L401: 
+L402: Create a safe attachments policy in Defender for Office 365, specify targets, and choose actions like quarantine or block, using sandbox scanning to assess attachments.
+L403: 
+L404:   * Understanding User Activity Policies 4:29
+L405: Track and detect user activity with defender for office 365 by defining policies that flag sign-ins, file uploads, and privilege changes, raising alerts to identify compromised identities and insider risks.
+L406: 
+L407:   * Creating Custom User Activity Policies (Hands-On Lab)5:05
+L408: 
+L409: Create a custom user activity policy in Defender for Office 365 by selecting activities such as file, folder, and synchronization events, applying it to users, and configuring email alerts.
+L410:   * Connecting Defender for 0365 with Microsoft Sentinel (Hands-On Lab)8:54
+L411: 
+L412: Connect Defender for Office 365 to Microsoft Sentinel with the Defender XDR data connector to create a unified SIEM and SOAR view, and synchronize incidents across portals.
+L413: ### Microsoft Intune + Defender for Endpoint (MDE)14 lectures • 2hr 52min
+L414: 
+L415:   * What is Microsoft Intune (MDM + MAM)28:28
+L416: 
+L417: Explore how Microsoft Intune unifies mobile device and application management to secure endpoints, with BYOD and corporate devices, and integrates Defender for Endpoint for pre and post breach protection.
+L418: 
+L419:   * Intune + MDE: Zero Trust Architecture 7:35
+L420: Explore how Intune and Microsoft Defender for Endpoint implement zero trust through explicit verification, least privilege access, and breach-aware controls, using device compliance, app protection policies, and real-time threat remediation.
+L421: 
+L422:   * Device Enrollment in Intune 14:13
+L423: 
+L424: Enroll corporate owned devices (cods) and BYOD into Microsoft Intune, using Autopilot for zero-touch deployment and the Company Portal for policy, app protection, and data governance.
+L425:   * Creating a VM in Azure as an endpoint (Hands-On Lab)9:28
+L426: 
+L427: Create an Azure virtual machine as an endpoint for onboarding to Microsoft Intune and Defender for Endpoint. Learn trusted launch security features and prepare the VM for lab enrollments.
+L428: 
+L429:   * Lab1: Managing Device Enrollment with Microsoft Intune (Hands-On Lab)9:14
+L430: Enroll a Windows VM in Microsoft Intune by enabling automatic enrollment, configuring device limits and platform restrictions, and using device enrollment managers for mass onboarding in pre-deployment.
+L431: 
+L432:   * Lab2: Onboarding an endpoint to Intune MDM and Entra join (Hands-On Lab)15:56
+L433: 
+L434: This hands-on lab guides onboarding a Windows VM to Entra join and auto enrollment into Microsoft Intune MDM, including managing via static and dynamic groups and KQL queries.
+L435:   * Lab3: Creating Compliance Policies (Hands-On Lab)8:48
+L436: 
+L437: Create a Windows 10 and later compliance policy in Microsoft Intune, set a minimum OS version, and assign it to the Udemy demo group, then sync to verify compliance.
+L438: 
+L439:   * Lab4: Creating Device Configuration Policies (Hands-On Lab)14:14
+L440: 
+L441: Learn to create and apply Intune configuration policies to Windows endpoints, blocking gaming and start options, graying out UI areas, and managing Windows Defender exclusions on a VM.
+L442:   * Lab5: Onboarding/Provisioning Managed Cloud Apps with Intune (Hands-On Lab)8:41
+L443: 
+L444: Showcases deploying Microsoft 365 apps to Intune-managed devices via the company portal, configuring the Office apps suite, and marking them as required to install on the VM after policy sync.
+L445: 
+L446:   * Lab6: Creating Application Protection Policies (APP) (Hands-On Lab)8:12
+L447: Create app protection policies for cloud apps on managed iOS devices, enabling data loss prevention by blocking cut, copy, paste and backups to iCloud from Outlook.
+L448: 
+L449:   * Lab7: Creating Conditional Access Policies (Hands-On Lab)10:19
+L450: 
+L451: Learn to create conditional access policies in the Intune admin center that grant Office.com access only from compliant devices, using all users and testing with compliant vs noncompliant devices.
+L452: 
+L453:   * Lab8: Endpoint Security with BitLocker Disk Encryption (Hands-On Lab)11:46
+L454: Explore configuring endpoint security policies in Microsoft Intune to enable BitLocker disk encryption on Windows devices, leveraging TPM, startup PIN, and recovery key storage to protect corporate data.
+L455: 
+L456:   * Lab9: Onboarding Device to MDE (Defender for Endpoint) (Hands-On Lab)13:17
+L457: 
+L458: Connect Microsoft Intune with Defender for Endpoint, onboard devices to MDE via a Defender for Endpoint connector, and monitor onboarding, compliance policies, and exposure in security.microsoft.com and Defender portal.
+L459:   * Lab10: Connecting MDE to Sentinel (Hands-On Lab)11:56
+L460: 
+L461: Demonstrates connecting Defender for Endpoint to a Microsoft Sentinel workspace via the Defender XDR connector to feed endpoint data and alerts for a unified SIEM with hunting queries.
+L462: 
+L463: 2 more sections
+L464: ## Requirements
+L465: 
+L466:   * Intermediate experience with Microsoft Azure required
+L467: 
+L468:   * Intermediate experience with Microsoft Cloud , Office 365 etc. required
+L469: ## Description
+L470: 
+L471: With the ever increasing experimentation with AI applications like Copilot, ChatGPT and Google Gemini, securing your organization from the threats of these AI workloads has become the need of the hour.
+L472: In this course we will deep dive into how you can improve your CSPM (Cloud Security Posture Management) and Cloud Security Hygiene with various Microsoft security solutions like Purview for Information Protection and Governance, Defender for Extended Detection and Response, Sentinel for SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation and Response), Microsoft Entra ID for Identity and Access Management etc.
+L473: The following Microsoft security solutions will be covered in this course:
+L474: 1) Microsoft Entra ID - Cloud-based identity and access management service for secure resource access.
+L475: 
+L476: 2)Microsoft Entra Conditional Access - Centralized policy control for authentication conditions and data/application security.
+L477: 
+L478: 3)Microsoft Defender for Identity - Detects on-premises identity attacks using behavioral analysis and specific threat detections.
+

@@ -1,0 +1,186 @@
+MCP: Model Context Protocol for AI Governance & Security (https://www.udemy.com/course/model-context-protocol-mcp/)
+citeturn156view0 [wordlim: 200] Crawled: 3 days ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/model-context-protocol-mcp/","lineno":null}); Total lines: 196
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L7: 
+L8: [Input: Search for anything]
+L9: 
+L10: cite2†Udemy Business L11: 
+L12:   * cite3†Compare Plans L13:   * cite2†Request Demo L14: 
+L15: cite4†Teach on Udemy L16: 
+L17: Turn what you know into an opportunity and reach millions around the world.
+L18: 
+L19: cite4†Learn More L20: 
+L21: Your cart is empty.
+L22: 
+L23: cite5†Keep shopping L24: 
+L25: cite6†Log in L26: 
+L27: cite7†Sign up L28: 
+L29: MCP: Model Context Protocol for AI Governance & Security
+L30: 
+L31: Role Play
+L32: 
+L33: Hot & New
+L34: Rating: 4.5 out of 5 4.5cite8†(29 ratings) L35: 
+L36: 100 students
+L37: 
+L38: cite0†Image†img-c.udemycdn.com Preview this course
+L39: # MCP: Model Context Protocol for AI Governance & Security
+L40: 
+L41: Master MCP primitives, security model, OAuth 2.1, audit design, and regulatory compliance under EU AI Act and ISO 42001
+L42: 
+L43: Created bycite9†Data Universe L44: 
+L45: Last updated 9/2026
+L46: 
+L47: English
+L48: 
+L49: English [Auto],
+L50: 
+L51: cite0†Image†img-c.udemycdn.com Preview this course
+L52: ## What you'll learn
+L53: 
+L54:   * Understand why MCP exists, what problem it solves, and how it replaces the n×m integration problem with a single open standard.
+L55: 
+L56:   * Explain the three MCP roles precisely: Host, Client, and Server, and why this distinction defines every security boundary.
+L57: 
+L58:   * Describe how an MCP session begins, how capabilities are negotiated, and how dynamic capability updates change the security picture.
+L59:   * Identify the four core MCP primitives: Tools, Resources, Prompts, and Roots, and understand the governance implications of each.
+L60: 
+L61:   * Apply MCP's security model: host-owned consent and credentials, OAuth 2.1 with PKCE, and the forbidden patterns to avoid.
+L62: 
+L63:   * Recognize prompt injection via tool descriptions as an attack vector and apply the controls that mitigate it in production.
+L64:   * Distinguish MCP from A2A, native function calling, and other connectivity protocols using a clear decision framework.
+L65: 
+L66:   * Design audit trails for MCP traffic that reconstruct what crossed, who called what, and whose credentials were used.
+L67: 
+L68:   * Navigate MCP obligations under the EU AI Act, ISO 42001, and the NIST AI Risk Management Framework for deployers.
+L69: 
+L70:   * Avoid the five most common organizational mistakes with MCP and assess your readiness using a structured maturity checklist.
+L71: ## Course content
+L72: 
+L73: 10 sections • 35 lectures • 2h 34m total length
+L74: 
+L75: Expand all sections
+L76: 
+L77: ### Why MCP Exists 3 lectures • 12min
+L78: 
+L79:   * The n×m integration problem: why AI apps needed custom wiring for every tool Preview 4:09
+L80: 
+L81:   * What MCP is, who created it, and the official SDK ecosystem 3:57
+L82: 
+L83:   * The three roles: Host, Client, and Server, and why they matter Preview 3:57
+L84: ### Architecture and the Session 5 lectures • 20min
+L85: 
+L86:   * How a session begins: initialization and capability negotiation 5:14
+L87: 
+L88:   * Transports: stdio, Streamable HTTP, and deprecated transports 5:15
+L89: 
+L90:   * Notifications and dynamic capabilities during a session 4:41
+L91: 
+L92:   * The ecosystem: reference servers, the Inspector, and registries 5:00
+L93: 
+L94:   * MCP Session Anatomy 0:04
+L95: ### The Primitives 6 lectures • 27min
+L96: 
+L97:   * Tools: typed actions, inputSchema, and safety annotations 5:27
+L98: 
+L99:   * Resources: read-only data, URIs, and subscriptions 5:26
+L100: 
+L101:   * Prompts: reusable templates provided by the server 5:03
+L102: 
+L103:   * Reverse primitives: sampling and elicitation from the client 5:54
+L104: 
+L105:   * Roots: where the security boundary lives 4:41
+L106: 
+L107:   * The Primitives on the Wire 0:04
+L108: ### Security and Authorization 6 lectures • 31min
+L109: 
+L110:   * The MCP security model: consent, credentials, and allowlists Preview 6:00
+L111: 
+L112:   * HTTP authorization: OAuth 2.1, PKCE, and Resource Indicators 6:30
+L113: 
+L114:   * Tool safety: prompt injection through tool descriptions 6:16
+L115: 
+L116:   * Forbidden patterns: token passthrough and over-privileged servers 6:27
+L117: 
+L118:   * Approving a server: vetting, signatures, and Inspector checks 5:53
+L119: 
+L120:   * OAuth 2.1 for MCP: The Complete Flow 0:04
+L121: 
+L122: ### Practice test 1 0
+L123: 
+L124:   * Practice test 1
+L125: ### MCP and the Other Protocols: When to Use What 5 lectures • 21min
+L126: 
+L127:   * Native function calling, APIs, and when MCP is unnecessary 5:39
+L128: 
+L129:   * MCP vs A2A: agent-to-tool vs agent-to-agent Preview 5:28
+L130: 
+L131:   * AG-UI, payment protocols, and the wider ecosystem 5:03
+L132: 
+L133:   * Choosing the right connector for each use case 5:13
+L134: 
+L135:   * One Action, Three Wire Formats 0:04
+L136: ### Enterprise Governance and the Regulatory Lens 7 lectures • 30min
+L137: 
+L138:   * Deployment: local stdio, remote servers, and enterprise gateways 5:50
+L139: 
+L140:   * The registry problem: trust, vetting, and versioning at scale 5:17
+L141: 
+L142:   * Auditing MCP traffic: requests, users, and data flow 5:52
+L143: 
+L144:   * MCP under the EU AI Act: logging and deployer obligations 6:19
+L145: 
+L146:   * ISO 42001 and the NIST AI RMF for MCP governance 6:43
+L147: 
+L148:   * Enterprise MCP Architecture Blueprints 0:04
+L149: 
+L150:   * MCP Governance & Compliance Reference 0:04
+L151: ### Closing 3 lectures • 12min
+L152: 
+L153:   * The 2026-07-28 release: stateless core, Tasks, MCP Apps, and roadmap 5:15
+L154: 
+L155:   * The five MCP mistakes organizations make and how to avoid them 7:07
+L156: 
+L157:   * Slides 0:02
+L158: 
+L159: ### Practice test 2 0
+L160: 
+L161:   * Practice test 2
+L162: 
+L163: ### Role Play - Hold the new tool 1 lecture0
+L164: 
+L165:   * Hold the new tool
+L166: ## Requirements
+L167: 
+L168:   * No programming or engineering background required — this course is designed for governance, security, and business professionals.
+L169: 
+L170:   * Familiarity with basic AI concepts is helpful but not required — all foundational MCP concepts are introduced from scratch
+L171: 
+L172:   * All you need is a role involving AI governance, security, compliance, or architecture and a need to understand MCP in depth.
+L173: ## Description
+L174: 
+L175: Every AI application has the same hidden problem. The model can reason, write, and plan, but it cannot touch anything on its own. It cannot read a file, query a database, check a calendar, or search the web. Everything it does in the world happens through connections to external systems, and until recently, every one of those connections had to be built by hand, with custom authentication, custom permissions, and custom logging invented separately every time.
+L176: The Model Context Protocol exists to fix that. MCP is the open standard that defines how any AI application connects to any external tool, data source, or system. One protocol, implemented once on each side, replacing an unmanageable web of private, inconsistent, invisible integrations with a single language that can be secured, audited, and governed in one place.
+L177: This course gives you a complete, non-technical understanding of MCP and the governance frameworks you need to deploy it responsibly. No programming required. No engineering background needed. Just clear, structured knowledge for the professionals whose job is to ensure AI systems connect to enterprise data safely, with full accountability and regulatory compliance.
+L178: You will learn how MCP is organized through its three roles of Host, Client, and Server, and why that distinction defines every security boundary in the protocol. You will explore the four core primitives of Tools, Resources, Prompts, and Roots, and understand the governance implications of each. You will learn how sessions are established, how capabilities are negotiated, and how dynamic updates change the security picture.
+L179: The course goes deep on security: MCP's consent and credential model, OAuth 2.1 with PKCE, the forbidden patterns that create systemic risk, prompt injection via tool descriptions as an attack vector, and the procedures for vetting and approving servers before they reach production.
+L180: You will learn how MCP compares to A2A, native function calling, and other connectivity protocols, and develop a clear decision framework for choosing the right connector for each job. The final sections cover deployment architectures, audit trail design, registry governance, and the full regulatory landscape including the EU AI Act, ISO 42001, and the NIST AI Risk Management Framework as they apply to MCP deployments.
+L181: No technical background required. Just the responsibility of governing AI systems that are connecting to more enterprise data, more tools, and more sensitive systems every month.
+L182: ## Who this course is for:
+L183:   * AI governance and compliance professionals responsible for overseeing how AI applications connect to enterprise tools and data.
+L184:   * CISOs and security professionals assessing authentication, consent, prompt injection, and data exposure risks in MCP deployments.
+L185:   * Data Protection Officers navigating GDPR and EU AI Act obligations when AI systems connect to sensitive enterprise data sources.
+L186:   * Enterprise and solution architects designing AI integration layers and evaluating MCP against alternative connectivity options.
+L187:   * Risk managers and internal auditors building audit trails and control frameworks for AI tool integrations in production.
+L188:   * Legal and regulatory affairs professionals mapping MCP deployments to EU AI Act deployer duties and high-risk system requirements.
+L189:   * Technology leaders and CTOs evaluating MCP adoption decisions and vendor claims about protocol-compliant AI integrations.
+L190:   * AI ethics and responsible AI teams developing policies for how AI systems access tools, data, and external services at scale.
+L191:   * Consultants and advisors helping organizations govern, secure, and audit AI connectivity infrastructure across industries.
+L192:   * Any professional involved in AI oversight who wants to understand MCP before it becomes standard enterprise infrastructure.
+L193: Show more Show less
+L194: 
+L195: cite10†Report abuse 

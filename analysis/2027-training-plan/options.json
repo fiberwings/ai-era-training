@@ -1,0 +1,2366 @@
+[
+  {
+    "id": "option-1",
+    "name": "2027 Option 1 — Maximum scored coverage",
+    "assumptions": "Per-layer mixed-integer optimisation with original audience eligibility, known full-course durations and 4/8/24/4-hour budgets. Coverage only, then fewer hours and fewer resources. No quality weighting. Conditional optima, not a global workforce optimum. Internal learner time is separately budgeted: 3h foundation, 6h Practitioner, 12h technical Expert, 8h governance Expert, 6h leadership and 4h per applicable specialty. No scored coverage credit for internal proposals. Planning duration corrections: TR-158 1h30 means 1.5h; TR-155 official four-module path totals 9h26m (566/60 hours), superseding the catalogue 8h metadata for planning only. TR-159 combines several lab collections and has no total duration, so exclude from auto-selection until scoped. These do not alter assessment scores. Explicit minute durations for INT-271, INT-275, INT-276, INT-340, INT-452, INT-476 and INT-1473 are retained using overrides because the app parser currently treats their parenthesised lecture counts as ambiguous; no content-based score changes. Global curriculum: nationally framed guidance is not assigned as common training. TR-125, TR-128 and TR-129 are excluded; globally applicable technical frameworks are retained. Jurisdiction-specific obligations belong in relevant local-role supplements, with separate time allowances.",
+    "internal": {
+      "all": [
+        {
+          "title": "B1 Bank AI essentials and safe-use check",
+          "owner": "AI adoption lead with IDP and each domain head",
+          "hours": 3,
+          "requirements": [
+            "N1.1",
+            "N1.2",
+            "N1.3",
+            "N2.1",
+            "N2.2",
+            "N2.3",
+            "N2.4",
+            "N2.5",
+            "N2.6",
+            "N2.7",
+            "N3.1",
+            "N3.2",
+            "N3.3",
+            "N3.4",
+            "N3.5",
+            "N3.6",
+            "N3.7",
+            "N4.1",
+            "N4.2",
+            "N4.3",
+            "N4.4",
+            "N4.5",
+            "N4.6",
+            "N4.7",
+            "N5.1",
+            "N5.2",
+            "N5.3",
+            "N5.4",
+            "N5.5",
+            "N5.6",
+            "N5.7",
+            "N6.1",
+            "N6.2",
+            "N6.3",
+            "N6.4",
+            "N6.5",
+            "N6.6",
+            "N6.7",
+            "N6.8"
+          ],
+          "outcomes": "Map two domain use cases and how individual work changes; explain the actual approved enterprise-agent architecture, connector permissions, data boundaries and stop/escalation controls; handle a planted error, unsafe request and spoofed message. Proposed 1h briefing, 1h coached case, 1h assessment and feedback.",
+          "status": "Proposed"
+        }
+      ],
+      "practitioner": [
+        {
+          "title": "B2/B3 Supervision, Skill and evaluation practicum",
+          "owner": "Domain Expert and tool owner",
+          "hours": 6,
+          "requirements": [
+            "N4.1",
+            "N4.2",
+            "N4.3",
+            "N4.4",
+            "N4.5",
+            "N4.6",
+            "N4.7",
+            "N7.1",
+            "N7.2",
+            "N7.3",
+            "N7.4",
+            "N7.5",
+            "N8.1",
+            "N8.2",
+            "N8.3",
+            "N8.4",
+            "N8.5",
+            "N9.1",
+            "N9.2",
+            "N9.3",
+            "N9.4",
+            "N9.5"
+          ],
+          "outcomes": "Two 2h labs plus 2h observed sign-off: least privilege, inspect independent traces, reject injected or incorrect output, stop/revoke/rollback, hand over, document a Skill with owner and lifecycle, run a small known-answer eval set. Authorisation is per action class; reassess after material changes.",
+          "status": "Proposed"
+        }
+      ],
+      "technical": [
+        {
+          "title": "B3/B5 Build, evaluate and secure one agent",
+          "owner": "AI engineering lead and independent security assessor",
+          "hours": 12,
+          "requirements": [
+            "N10.1",
+            "N10.2",
+            "N10.3",
+            "N10.4",
+            "N10.5",
+            "N10.6",
+            "N10.7",
+            "N10.8",
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N12.1",
+            "N12.2",
+            "N12.3",
+            "N12.4",
+            "N12.5",
+            "N12.6",
+            "N12.7",
+            "N12.8",
+            "N12.9",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7",
+            "N5.7"
+          ],
+          "outcomes": "8h scoped build/evaluation project, 2h attack and recovery test, 2h independent challenge and assessor calibration. Include versioned cases, human-labelled judge checks, external enforcement, safe-stop evidence, cost/drift controls and ownership. Completion does not authorise every agent design. Maintain an assigned AI threat-source watch and brief changes that affect the role.",
+          "status": "Proposed"
+        }
+      ],
+      "governance": [
+        {
+          "title": "B4-GRC/B5 Evidence-based AI risk and assurance case",
+          "owner": "AI risk lead with BISO and assurance",
+          "hours": 8,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7",
+            "N5.7"
+          ],
+          "outcomes": "Prepare one inventory/risk/vendor dossier and action-class policy, challenge the claimed controls using test evidence, calibrate reviewer decisions and record residual risk and accountability. Maintain an assigned AI threat-source watch and brief changes that affect the role.",
+          "status": "Proposed"
+        }
+      ],
+      "leadership": [
+        {
+          "title": "B6 Leadership decision exercise and quarterly forums",
+          "owner": "CIO/CISO with functional heads",
+          "hours": 6,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7",
+            "N5.7"
+          ],
+          "outcomes": "2h benchmark and autonomy decision exercise plus four 1h forums on value, risk, human capacity, junior skill retention and adoption. No technical or operational authority follows from attendance. Maintain an assigned AI threat-source watch and brief changes that affect the role.",
+          "status": "Proposed"
+        }
+      ],
+      "cdc": [
+        {
+          "title": "Agent incident response drill",
+          "owner": "CDC incident response lead",
+          "hours": 4,
+          "requirements": [
+            "R1.1.1",
+            "R1.1.2",
+            "R1.1.3",
+            "R1.1.4",
+            "R1.1.5",
+            "R1.1.6"
+          ],
+          "outcomes": "Suspend an agent, preserve independent logs, revoke access, recover safely and work manually.",
+          "status": "Proposed"
+        }
+      ],
+      "forensics": [
+        {
+          "title": "Agent evidence reconstruction exercise",
+          "owner": "DFIR lead",
+          "hours": 4,
+          "requirements": [
+            "R1.1.1",
+            "R1.1.2",
+            "R1.1.3",
+            "R1.1.4",
+            "R1.1.5",
+            "R1.1.6",
+            "R1.2.1",
+            "R1.2.2",
+            "R1.2.3"
+          ],
+          "outcomes": "Reconstruct an agent trajectory from independent evidence, preserve chain of custody and distinguish generated summaries from original artefacts.",
+          "status": "Proposed"
+        }
+      ],
+      "idp": [
+        {
+          "title": "DLP and classification control case",
+          "owner": "IDP lead",
+          "hours": 4,
+          "requirements": [
+            "N4.1",
+            "N4.2",
+            "N4.3",
+            "N4.4",
+            "N4.5",
+            "N4.6",
+            "N4.7",
+            "N7.1",
+            "N7.2",
+            "N7.3",
+            "N7.4",
+            "N7.5",
+            "N8.1",
+            "N8.2",
+            "N8.3",
+            "N8.4",
+            "N8.5",
+            "N9.1",
+            "N9.2",
+            "N9.3",
+            "N9.4",
+            "N9.5",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6"
+          ],
+          "outcomes": "Assess agent data flows, confidential-data leakage and classification errors; N13 only for nominated AI risk assessors.",
+          "status": "Proposed"
+        }
+      ],
+      "biso": [
+        {
+          "title": "Agent assurance evidence challenge",
+          "owner": "BISO assurance lead",
+          "hours": 4,
+          "requirements": [
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "R6.1.1",
+            "R6.1.2"
+          ],
+          "outcomes": "Test controls at the enforcement point and validate the AI used to generate assurance evidence.",
+          "status": "Proposed"
+        }
+      ],
+      "testing": [
+        {
+          "title": "Contained agent testing exercise",
+          "owner": "Application Security testing lead",
+          "hours": 4,
+          "requirements": [
+            "R3.1.1",
+            "R3.1.2",
+            "R3.1.3",
+            "R3.1.4",
+            "R3.1.5",
+            "R3.2.1",
+            "R3.2.2",
+            "R3.2.3",
+            "R3.2.4",
+            "R3.2.5"
+          ],
+          "outcomes": "Test own agents in an isolated sandbox; enforce scope and stop from outside the model, reproduce findings and manage collateral discoveries.",
+          "status": "Proposed"
+        }
+      ],
+      "redteam": [
+        {
+          "title": "Specialist agent red-team validation",
+          "owner": "Red-team lead",
+          "hours": 4,
+          "requirements": [
+            "R3.1.1",
+            "R3.1.2",
+            "R3.1.3",
+            "R3.1.4",
+            "R3.1.5",
+            "R3.2.1",
+            "R3.2.2",
+            "R3.2.3",
+            "R3.2.4",
+            "R3.2.5"
+          ],
+          "outcomes": "Run an authorised multi-step attack and validate the full trajectory, boundaries and reproducible evidence.",
+          "status": "Proposed"
+        }
+      ],
+      "exposure": [
+        {
+          "title": "Agent and connector inventory exercise",
+          "owner": "Exposure management lead",
+          "hours": 4,
+          "requirements": [
+            "R4.1.1",
+            "R4.1.2",
+            "R4.1.3",
+            "R4.1.4",
+            "R4.1.5",
+            "R4.1.6"
+          ],
+          "outcomes": "Discover MCP/Skills, record sponsor/version/permissions, verify content hashes and scan changes.",
+          "status": "Proposed"
+        }
+      ],
+      "harness": [
+        {
+          "title": "Code-analysis harness validation",
+          "owner": "Application Security code analysis lead",
+          "hours": 4,
+          "requirements": [
+            "R4.1.1",
+            "R4.1.2",
+            "R4.1.3",
+            "R4.1.4",
+            "R4.1.5",
+            "R4.1.6",
+            "R4.2.1",
+            "R4.2.2",
+            "R4.2.3",
+            "R4.2.4",
+            "R4.2.5",
+            "R4.2.6",
+            "R4.2.7"
+          ],
+          "outcomes": "Evaluate on a known-vulnerability corpus; include patched/unpatched tests, repeatability, deduplication and cost limits.",
+          "status": "Proposed"
+        }
+      ],
+      "architecture": [
+        {
+          "title": "Agent control-plane design review",
+          "owner": "Security architecture lead",
+          "hours": 4,
+          "requirements": [
+            "N12.1",
+            "N12.2",
+            "N12.3",
+            "N12.4",
+            "N12.5",
+            "N12.6",
+            "N12.7",
+            "N12.8",
+            "N12.9",
+            "R5.1.1",
+            "R5.1.2",
+            "R5.1.3",
+            "R5.1.4",
+            "R5.1.5",
+            "R5.1.6"
+          ],
+          "outcomes": "Specify action tiers, external authorisation, immutable evidence, stop levers, tenancy and usable oversight.",
+          "status": "Proposed"
+        }
+      ],
+      "iam": [
+        {
+          "title": "Agent joiner mover leaver and revocation drill",
+          "owner": "IAM operations lead",
+          "hours": 4,
+          "requirements": [
+            "R9.1.1",
+            "R9.1.2",
+            "R9.1.3",
+            "R9.1.4",
+            "R9.1.5",
+            "R9.1.6",
+            "R9.1.7",
+            "R9.1.8",
+            "R9.1.9",
+            "R9.1.10"
+          ],
+          "outcomes": "Register sponsor and purpose, scope delegation, recertify access and verify session revocation.",
+          "status": "Proposed"
+        }
+      ],
+      "iam-expert": [
+        {
+          "title": "Agent identity integration and break-glass test",
+          "owner": "IAM engineering lead",
+          "hours": 4,
+          "requirements": [
+            "R9.1.1",
+            "R9.1.2",
+            "R9.1.3",
+            "R9.1.4",
+            "R9.1.5",
+            "R9.1.6",
+            "R9.1.7",
+            "R9.1.8",
+            "R9.1.9",
+            "R9.1.10"
+          ],
+          "outcomes": "Test IGA/PAM/SIEM integration, delegated identity, JIT grants, expiry and independently verified revocation.",
+          "status": "Proposed"
+        }
+      ],
+      "cio": [
+        {
+          "title": "Vendor decision and adoption review",
+          "owner": "CIO delegate",
+          "hours": 4,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7"
+          ],
+          "outcomes": "Compare vendor claims against a common bank test set and sign a risk/value adoption decision; no invented role extra.",
+          "status": "Proposed"
+        }
+      ]
+    },
+    "overrides": {
+      "TR-158": 1.5,
+      "TR-155": 9.433333333333334,
+      "INT-271": 0.9166666666666666,
+      "INT-275": 0.9833333333333333,
+      "INT-276": 0.9333333333333333,
+      "INT-340": 0.8833333333333333,
+      "INT-452": 0.65,
+      "INT-476": 0.5833333333333334,
+      "INT-1473": 0.9833333333333333
+    },
+    "excluded": [
+      "TR-125",
+      "TR-128",
+      "TR-129",
+      "TR-159"
+    ]
+  },
+  {
+    "id": "option-2",
+    "name": "2027 Option 2 — Quality and distinct learning outcomes",
+    "selected": {
+      "all": [
+        "INT-437",
+        "INT-2787"
+      ],
+      "practitioner": [
+        "TR-100"
+      ],
+      "technical": [
+        "TR-003",
+        "INT-194",
+        "TR-063",
+        "INT-2478",
+        "TR-094"
+      ],
+      "governance": [
+        "INT-397",
+        "INT-2478",
+        "TR-063",
+        "TR-118",
+        "TR-133"
+      ],
+      "leadership": [
+        "INT-397",
+        "INT-2478",
+        "TR-063",
+        "TR-133"
+      ],
+      "cdc": [],
+      "forensics": [
+        "TR-064"
+      ],
+      "idp": [
+        "INT-397"
+      ],
+      "biso": [
+        "TR-112"
+      ],
+      "testing": [
+        "TR-114"
+      ],
+      "redteam": [
+        "TR-114"
+      ],
+      "exposure": [
+        "INT-2269",
+        "TR-162"
+      ],
+      "harness": [
+        "INT-2269"
+      ],
+      "architecture": [
+        "TR-112"
+      ],
+      "iam": [
+        "TR-111"
+      ],
+      "iam-expert": [
+        "TR-064",
+        "TR-113"
+      ],
+      "cio": []
+    },
+    "allow": {
+      "allLayers": [
+        "INT-194",
+        "INT-2269",
+        "INT-2478",
+        "INT-2787",
+        "INT-397",
+        "INT-437",
+        "TR-003",
+        "TR-063",
+        "TR-064",
+        "TR-094",
+        "TR-100",
+        "TR-111",
+        "TR-112",
+        "TR-113",
+        "TR-114",
+        "TR-118",
+        "TR-133",
+        "TR-162"
+      ]
+    },
+    "overrides": {
+      "TR-118": 6,
+      "TR-158": 1.5,
+      "TR-155": 9.433333333333334,
+      "INT-271": 0.9166666666666666,
+      "INT-275": 0.9833333333333333,
+      "INT-276": 0.9333333333333333,
+      "INT-340": 0.8833333333333333,
+      "INT-452": 0.65,
+      "INT-476": 0.5833333333333334,
+      "INT-1473": 0.9833333333333333
+    },
+    "internal": {
+      "all": [
+        {
+          "title": "B1 Bank AI essentials and safe-use check",
+          "owner": "AI adoption lead with IDP and each domain head",
+          "hours": 3,
+          "requirements": [
+            "N1.1",
+            "N1.2",
+            "N1.3",
+            "N2.1",
+            "N2.2",
+            "N2.3",
+            "N2.4",
+            "N2.5",
+            "N2.6",
+            "N2.7",
+            "N3.1",
+            "N3.2",
+            "N3.3",
+            "N3.4",
+            "N3.5",
+            "N3.6",
+            "N3.7",
+            "N4.1",
+            "N4.2",
+            "N4.3",
+            "N4.4",
+            "N4.5",
+            "N4.6",
+            "N4.7",
+            "N5.1",
+            "N5.2",
+            "N5.3",
+            "N5.4",
+            "N5.5",
+            "N5.6",
+            "N5.7",
+            "N6.1",
+            "N6.2",
+            "N6.3",
+            "N6.4",
+            "N6.5",
+            "N6.6",
+            "N6.7",
+            "N6.8"
+          ],
+          "outcomes": "Map two domain use cases and how individual work changes; explain the actual approved enterprise-agent architecture, connector permissions, data boundaries and stop/escalation controls; handle a planted error, unsafe request and spoofed message. Proposed 1h briefing, 1h coached case, 1h assessment and feedback.",
+          "status": "Proposed"
+        }
+      ],
+      "practitioner": [
+        {
+          "title": "B2/B3 Supervision, Skill and evaluation practicum",
+          "owner": "Domain Expert and tool owner",
+          "hours": 6,
+          "requirements": [
+            "N4.1",
+            "N4.2",
+            "N4.3",
+            "N4.4",
+            "N4.5",
+            "N4.6",
+            "N4.7",
+            "N7.1",
+            "N7.2",
+            "N7.3",
+            "N7.4",
+            "N7.5",
+            "N8.1",
+            "N8.2",
+            "N8.3",
+            "N8.4",
+            "N8.5",
+            "N9.1",
+            "N9.2",
+            "N9.3",
+            "N9.4",
+            "N9.5"
+          ],
+          "outcomes": "Two 2h labs plus 2h observed sign-off: least privilege, inspect independent traces, reject injected or incorrect output, stop/revoke/rollback, hand over, document a Skill with owner and lifecycle, run a small known-answer eval set. Authorisation is per action class; reassess after material changes.",
+          "status": "Proposed"
+        }
+      ],
+      "technical": [
+        {
+          "title": "B3/B5 Build, evaluate and secure one agent",
+          "owner": "AI engineering lead and independent security assessor",
+          "hours": 12,
+          "requirements": [
+            "N10.1",
+            "N10.2",
+            "N10.3",
+            "N10.4",
+            "N10.5",
+            "N10.6",
+            "N10.7",
+            "N10.8",
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N12.1",
+            "N12.2",
+            "N12.3",
+            "N12.4",
+            "N12.5",
+            "N12.6",
+            "N12.7",
+            "N12.8",
+            "N12.9",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7",
+            "N5.7"
+          ],
+          "outcomes": "8h scoped build/evaluation project, 2h attack and recovery test, 2h independent challenge and assessor calibration. Include versioned cases, human-labelled judge checks, external enforcement, safe-stop evidence, cost/drift controls and ownership. Completion does not authorise every agent design. Maintain an assigned AI threat-source watch and brief changes that affect the role.",
+          "status": "Proposed"
+        }
+      ],
+      "governance": [
+        {
+          "title": "B4-GRC/B5 Evidence-based AI risk and assurance case",
+          "owner": "AI risk lead with BISO and assurance",
+          "hours": 8,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7",
+            "N5.7"
+          ],
+          "outcomes": "Prepare one inventory/risk/vendor dossier and action-class policy, challenge the claimed controls using test evidence, calibrate reviewer decisions and record residual risk and accountability. Maintain an assigned AI threat-source watch and brief changes that affect the role.",
+          "status": "Proposed"
+        }
+      ],
+      "leadership": [
+        {
+          "title": "B6 Leadership decision exercise and quarterly forums",
+          "owner": "CIO/CISO with functional heads",
+          "hours": 6,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7",
+            "N5.7"
+          ],
+          "outcomes": "2h benchmark and autonomy decision exercise plus four 1h forums on value, risk, human capacity, junior skill retention and adoption. No technical or operational authority follows from attendance. Maintain an assigned AI threat-source watch and brief changes that affect the role.",
+          "status": "Proposed"
+        }
+      ],
+      "cdc": [
+        {
+          "title": "Agent incident response drill",
+          "owner": "CDC incident response lead",
+          "hours": 4,
+          "requirements": [
+            "R1.1.1",
+            "R1.1.2",
+            "R1.1.3",
+            "R1.1.4",
+            "R1.1.5",
+            "R1.1.6"
+          ],
+          "outcomes": "Suspend an agent, preserve independent logs, revoke access, recover safely and work manually.",
+          "status": "Proposed"
+        }
+      ],
+      "forensics": [
+        {
+          "title": "Agent evidence reconstruction exercise",
+          "owner": "DFIR lead",
+          "hours": 4,
+          "requirements": [
+            "R1.1.1",
+            "R1.1.2",
+            "R1.1.3",
+            "R1.1.4",
+            "R1.1.5",
+            "R1.1.6",
+            "R1.2.1",
+            "R1.2.2",
+            "R1.2.3"
+          ],
+          "outcomes": "Reconstruct an agent trajectory from independent evidence, preserve chain of custody and distinguish generated summaries from original artefacts.",
+          "status": "Proposed"
+        }
+      ],
+      "idp": [
+        {
+          "title": "DLP and classification control case",
+          "owner": "IDP lead",
+          "hours": 4,
+          "requirements": [
+            "N4.1",
+            "N4.2",
+            "N4.3",
+            "N4.4",
+            "N4.5",
+            "N4.6",
+            "N4.7",
+            "N7.1",
+            "N7.2",
+            "N7.3",
+            "N7.4",
+            "N7.5",
+            "N8.1",
+            "N8.2",
+            "N8.3",
+            "N8.4",
+            "N8.5",
+            "N9.1",
+            "N9.2",
+            "N9.3",
+            "N9.4",
+            "N9.5",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6"
+          ],
+          "outcomes": "Assess agent data flows, confidential-data leakage and classification errors; N13 only for nominated AI risk assessors.",
+          "status": "Proposed"
+        }
+      ],
+      "biso": [
+        {
+          "title": "Agent assurance evidence challenge",
+          "owner": "BISO assurance lead",
+          "hours": 4,
+          "requirements": [
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "R6.1.1",
+            "R6.1.2"
+          ],
+          "outcomes": "Test controls at the enforcement point and validate the AI used to generate assurance evidence.",
+          "status": "Proposed"
+        }
+      ],
+      "testing": [
+        {
+          "title": "Contained agent testing exercise",
+          "owner": "Application Security testing lead",
+          "hours": 4,
+          "requirements": [
+            "R3.1.1",
+            "R3.1.2",
+            "R3.1.3",
+            "R3.1.4",
+            "R3.1.5",
+            "R3.2.1",
+            "R3.2.2",
+            "R3.2.3",
+            "R3.2.4",
+            "R3.2.5"
+          ],
+          "outcomes": "Test own agents in an isolated sandbox; enforce scope and stop from outside the model, reproduce findings and manage collateral discoveries.",
+          "status": "Proposed"
+        }
+      ],
+      "redteam": [
+        {
+          "title": "Specialist agent red-team validation",
+          "owner": "Red-team lead",
+          "hours": 4,
+          "requirements": [
+            "R3.1.1",
+            "R3.1.2",
+            "R3.1.3",
+            "R3.1.4",
+            "R3.1.5",
+            "R3.2.1",
+            "R3.2.2",
+            "R3.2.3",
+            "R3.2.4",
+            "R3.2.5"
+          ],
+          "outcomes": "Run an authorised multi-step attack and validate the full trajectory, boundaries and reproducible evidence.",
+          "status": "Proposed"
+        }
+      ],
+      "exposure": [
+        {
+          "title": "Agent and connector inventory exercise",
+          "owner": "Exposure management lead",
+          "hours": 4,
+          "requirements": [
+            "R4.1.1",
+            "R4.1.2",
+            "R4.1.3",
+            "R4.1.4",
+            "R4.1.5",
+            "R4.1.6"
+          ],
+          "outcomes": "Discover MCP/Skills, record sponsor/version/permissions, verify content hashes and scan changes.",
+          "status": "Proposed"
+        }
+      ],
+      "harness": [
+        {
+          "title": "Code-analysis harness validation",
+          "owner": "Application Security code analysis lead",
+          "hours": 4,
+          "requirements": [
+            "R4.1.1",
+            "R4.1.2",
+            "R4.1.3",
+            "R4.1.4",
+            "R4.1.5",
+            "R4.1.6",
+            "R4.2.1",
+            "R4.2.2",
+            "R4.2.3",
+            "R4.2.4",
+            "R4.2.5",
+            "R4.2.6",
+            "R4.2.7"
+          ],
+          "outcomes": "Evaluate on a known-vulnerability corpus; include patched/unpatched tests, repeatability, deduplication and cost limits.",
+          "status": "Proposed"
+        }
+      ],
+      "architecture": [
+        {
+          "title": "Agent control-plane design review",
+          "owner": "Security architecture lead",
+          "hours": 4,
+          "requirements": [
+            "N12.1",
+            "N12.2",
+            "N12.3",
+            "N12.4",
+            "N12.5",
+            "N12.6",
+            "N12.7",
+            "N12.8",
+            "N12.9",
+            "R5.1.1",
+            "R5.1.2",
+            "R5.1.3",
+            "R5.1.4",
+            "R5.1.5",
+            "R5.1.6"
+          ],
+          "outcomes": "Specify action tiers, external authorisation, immutable evidence, stop levers, tenancy and usable oversight.",
+          "status": "Proposed"
+        }
+      ],
+      "iam": [
+        {
+          "title": "Agent joiner mover leaver and revocation drill",
+          "owner": "IAM operations lead",
+          "hours": 4,
+          "requirements": [
+            "R9.1.1",
+            "R9.1.2",
+            "R9.1.3",
+            "R9.1.4",
+            "R9.1.5",
+            "R9.1.6",
+            "R9.1.7",
+            "R9.1.8",
+            "R9.1.9",
+            "R9.1.10"
+          ],
+          "outcomes": "Register sponsor and purpose, scope delegation, recertify access and verify session revocation.",
+          "status": "Proposed"
+        }
+      ],
+      "iam-expert": [
+        {
+          "title": "Agent identity integration and break-glass test",
+          "owner": "IAM engineering lead",
+          "hours": 4,
+          "requirements": [
+            "R9.1.1",
+            "R9.1.2",
+            "R9.1.3",
+            "R9.1.4",
+            "R9.1.5",
+            "R9.1.6",
+            "R9.1.7",
+            "R9.1.8",
+            "R9.1.9",
+            "R9.1.10"
+          ],
+          "outcomes": "Test IGA/PAM/SIEM integration, delegated identity, JIT grants, expiry and independently verified revocation.",
+          "status": "Proposed"
+        }
+      ],
+      "cio": [
+        {
+          "title": "Vendor decision and adoption review",
+          "owner": "CIO delegate",
+          "hours": 4,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7"
+          ],
+          "outcomes": "Compare vendor claims against a common bank test set and sign a risk/value adoption decision; no invented role extra.",
+          "status": "Proposed"
+        }
+      ]
+    },
+    "assumptions": "Curated proposal, not an optimisation claim. Original v8 scores unchanged. Full-course study times; TR-118 full RMF/Playbook/Profile bundle has an open-ended 4h+ duration, so 6h is a labelled planner estimate subject to pilot. Internal hours are learner estimates and do not increase assessed coverage. Primary Practitioner labs need basic Python or coached support. Quality means syllabus/assessment evidence and role fit, not proven learner effectiveness. Full-catalogue access remains available; recommendation exclusions enforce this shortlist until a head changes them. Planning duration corrections: TR-158 1h30 means 1.5h; TR-155 official four-module path totals 9h26m (566/60 hours), superseding the catalogue 8h metadata for planning only. TR-159 combines several lab collections and has no total duration, so exclude from auto-selection until scoped. These do not alter assessment scores. Explicit minute durations for INT-271, INT-275, INT-276, INT-340, INT-452, INT-476 and INT-1473 are retained using overrides because the app parser currently treats their parenthesised lecture counts as ambiguous; no content-based score changes. MCP server construction is an Expert addition. Broad all-Practitioner core is Evaluating AI Agents plus CSA agentic controls, with bank Skill/connector practice. Generic governance, guardrail and coding-awareness supplements are optional rather than mandatory where they add no scored need coverage. Global curriculum: nationally framed guidance is not assigned as common training. TR-125, TR-128 and TR-129 are excluded; globally applicable technical frameworks are retained. Jurisdiction-specific obligations belong in relevant local-role supplements, with separate time allowances.",
+    "excluded": [
+      "TR-125",
+      "TR-128",
+      "TR-129",
+      "TR-159"
+    ]
+  },
+  {
+    "id": "option-3",
+    "name": "2027 Option 3 — Reputable sources only",
+    "selected": {
+      "all": [
+        "TR-090",
+        "TR-163"
+      ],
+      "practitioner": [
+        "TR-100"
+      ],
+      "technical": [
+        "TR-003",
+        "TR-063",
+        "TR-094"
+      ],
+      "governance": [
+        "TR-118",
+        "TR-113",
+        "TR-133",
+        "TR-063"
+      ],
+      "leadership": [
+        "TR-118",
+        "TR-113",
+        "TR-133",
+        "TR-063"
+      ],
+      "cdc": [],
+      "forensics": [
+        "TR-064"
+      ],
+      "idp": [
+        "TR-113",
+        "TR-167"
+      ],
+      "biso": [
+        "TR-112"
+      ],
+      "testing": [
+        "TR-114"
+      ],
+      "redteam": [
+        "TR-114"
+      ],
+      "exposure": [
+        "TR-109",
+        "TR-162"
+      ],
+      "harness": [
+        "TR-162"
+      ],
+      "architecture": [
+        "TR-112"
+      ],
+      "iam": [
+        "TR-111"
+      ],
+      "iam-expert": [
+        "TR-064",
+        "TR-113"
+      ],
+      "cio": []
+    },
+    "allow": {
+      "allLayers": [
+        "TR-003",
+        "TR-063",
+        "TR-064",
+        "TR-090",
+        "TR-094",
+        "TR-100",
+        "TR-109",
+        "TR-111",
+        "TR-112",
+        "TR-113",
+        "TR-114",
+        "TR-118",
+        "TR-133",
+        "TR-162",
+        "TR-163",
+        "TR-167"
+      ]
+    },
+    "overrides": {
+      "TR-118": 6,
+      "TR-158": 1.5,
+      "TR-155": 9.433333333333334,
+      "INT-271": 0.9166666666666666,
+      "INT-275": 0.9833333333333333,
+      "INT-276": 0.9333333333333333,
+      "INT-340": 0.8833333333333333,
+      "INT-452": 0.65,
+      "INT-476": 0.5833333333333334,
+      "INT-1473": 0.9833333333333333
+    },
+    "internal": {
+      "all": [
+        {
+          "title": "B1 Bank AI essentials and safe-use check",
+          "owner": "AI adoption lead with IDP and each domain head",
+          "hours": 3,
+          "requirements": [
+            "N1.1",
+            "N1.2",
+            "N1.3",
+            "N2.1",
+            "N2.2",
+            "N2.3",
+            "N2.4",
+            "N2.5",
+            "N2.6",
+            "N2.7",
+            "N3.1",
+            "N3.2",
+            "N3.3",
+            "N3.4",
+            "N3.5",
+            "N3.6",
+            "N3.7",
+            "N4.1",
+            "N4.2",
+            "N4.3",
+            "N4.4",
+            "N4.5",
+            "N4.6",
+            "N4.7",
+            "N5.1",
+            "N5.2",
+            "N5.3",
+            "N5.4",
+            "N5.5",
+            "N5.6",
+            "N5.7",
+            "N6.1",
+            "N6.2",
+            "N6.3",
+            "N6.4",
+            "N6.5",
+            "N6.6",
+            "N6.7",
+            "N6.8"
+          ],
+          "outcomes": "Map two domain use cases and how individual work changes; explain the actual approved enterprise-agent architecture, connector permissions, data boundaries and stop/escalation controls; handle a planted error, unsafe request and spoofed message. Proposed 1h briefing, 1h coached case, 1h assessment and feedback.",
+          "status": "Proposed"
+        }
+      ],
+      "practitioner": [
+        {
+          "title": "B2/B3 Supervision, Skill and evaluation practicum",
+          "owner": "Domain Expert and tool owner",
+          "hours": 6,
+          "requirements": [
+            "N4.1",
+            "N4.2",
+            "N4.3",
+            "N4.4",
+            "N4.5",
+            "N4.6",
+            "N4.7",
+            "N7.1",
+            "N7.2",
+            "N7.3",
+            "N7.4",
+            "N7.5",
+            "N8.1",
+            "N8.2",
+            "N8.3",
+            "N8.4",
+            "N8.5",
+            "N9.1",
+            "N9.2",
+            "N9.3",
+            "N9.4",
+            "N9.5"
+          ],
+          "outcomes": "Two 2h labs plus 2h observed sign-off: least privilege, inspect independent traces, reject injected or incorrect output, stop/revoke/rollback, hand over, document a Skill with owner and lifecycle, run a small known-answer eval set. Authorisation is per action class; reassess after material changes.",
+          "status": "Proposed"
+        }
+      ],
+      "technical": [
+        {
+          "title": "B3/B5 Build, evaluate and secure one agent",
+          "owner": "AI engineering lead and independent security assessor",
+          "hours": 12,
+          "requirements": [
+            "N10.1",
+            "N10.2",
+            "N10.3",
+            "N10.4",
+            "N10.5",
+            "N10.6",
+            "N10.7",
+            "N10.8",
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N12.1",
+            "N12.2",
+            "N12.3",
+            "N12.4",
+            "N12.5",
+            "N12.6",
+            "N12.7",
+            "N12.8",
+            "N12.9",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7",
+            "N5.7"
+          ],
+          "outcomes": "8h scoped build/evaluation project, 2h attack and recovery test, 2h independent challenge and assessor calibration. Include versioned cases, human-labelled judge checks, external enforcement, safe-stop evidence, cost/drift controls and ownership. Completion does not authorise every agent design. Maintain an assigned AI threat-source watch and brief changes that affect the role.",
+          "status": "Proposed"
+        }
+      ],
+      "governance": [
+        {
+          "title": "B4-GRC/B5 Evidence-based AI risk and assurance case",
+          "owner": "AI risk lead with BISO and assurance",
+          "hours": 8,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7",
+            "N5.7"
+          ],
+          "outcomes": "Prepare one inventory/risk/vendor dossier and action-class policy, challenge the claimed controls using test evidence, calibrate reviewer decisions and record residual risk and accountability. Maintain an assigned AI threat-source watch and brief changes that affect the role.",
+          "status": "Proposed"
+        }
+      ],
+      "leadership": [
+        {
+          "title": "B6 Leadership decision exercise and quarterly forums",
+          "owner": "CIO/CISO with functional heads",
+          "hours": 6,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7",
+            "N5.7"
+          ],
+          "outcomes": "2h benchmark and autonomy decision exercise plus four 1h forums on value, risk, human capacity, junior skill retention and adoption. No technical or operational authority follows from attendance. Maintain an assigned AI threat-source watch and brief changes that affect the role.",
+          "status": "Proposed"
+        }
+      ],
+      "cdc": [
+        {
+          "title": "Agent incident response drill",
+          "owner": "CDC incident response lead",
+          "hours": 4,
+          "requirements": [
+            "R1.1.1",
+            "R1.1.2",
+            "R1.1.3",
+            "R1.1.4",
+            "R1.1.5",
+            "R1.1.6"
+          ],
+          "outcomes": "Suspend an agent, preserve independent logs, revoke access, recover safely and work manually.",
+          "status": "Proposed"
+        }
+      ],
+      "forensics": [
+        {
+          "title": "Agent evidence reconstruction exercise",
+          "owner": "DFIR lead",
+          "hours": 4,
+          "requirements": [
+            "R1.1.1",
+            "R1.1.2",
+            "R1.1.3",
+            "R1.1.4",
+            "R1.1.5",
+            "R1.1.6",
+            "R1.2.1",
+            "R1.2.2",
+            "R1.2.3"
+          ],
+          "outcomes": "Reconstruct an agent trajectory from independent evidence, preserve chain of custody and distinguish generated summaries from original artefacts.",
+          "status": "Proposed"
+        }
+      ],
+      "idp": [
+        {
+          "title": "DLP and classification control case",
+          "owner": "IDP lead",
+          "hours": 4,
+          "requirements": [
+            "N4.1",
+            "N4.2",
+            "N4.3",
+            "N4.4",
+            "N4.5",
+            "N4.6",
+            "N4.7",
+            "N7.1",
+            "N7.2",
+            "N7.3",
+            "N7.4",
+            "N7.5",
+            "N8.1",
+            "N8.2",
+            "N8.3",
+            "N8.4",
+            "N8.5",
+            "N9.1",
+            "N9.2",
+            "N9.3",
+            "N9.4",
+            "N9.5",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6"
+          ],
+          "outcomes": "Assess agent data flows, confidential-data leakage and classification errors; N13 only for nominated AI risk assessors.",
+          "status": "Proposed"
+        }
+      ],
+      "biso": [
+        {
+          "title": "Agent assurance evidence challenge",
+          "owner": "BISO assurance lead",
+          "hours": 4,
+          "requirements": [
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "R6.1.1",
+            "R6.1.2"
+          ],
+          "outcomes": "Test controls at the enforcement point and validate the AI used to generate assurance evidence.",
+          "status": "Proposed"
+        }
+      ],
+      "testing": [
+        {
+          "title": "Contained agent testing exercise",
+          "owner": "Application Security testing lead",
+          "hours": 4,
+          "requirements": [
+            "R3.1.1",
+            "R3.1.2",
+            "R3.1.3",
+            "R3.1.4",
+            "R3.1.5",
+            "R3.2.1",
+            "R3.2.2",
+            "R3.2.3",
+            "R3.2.4",
+            "R3.2.5"
+          ],
+          "outcomes": "Test own agents in an isolated sandbox; enforce scope and stop from outside the model, reproduce findings and manage collateral discoveries.",
+          "status": "Proposed"
+        }
+      ],
+      "redteam": [
+        {
+          "title": "Specialist agent red-team validation",
+          "owner": "Red-team lead",
+          "hours": 4,
+          "requirements": [
+            "R3.1.1",
+            "R3.1.2",
+            "R3.1.3",
+            "R3.1.4",
+            "R3.1.5",
+            "R3.2.1",
+            "R3.2.2",
+            "R3.2.3",
+            "R3.2.4",
+            "R3.2.5"
+          ],
+          "outcomes": "Run an authorised multi-step attack and validate the full trajectory, boundaries and reproducible evidence.",
+          "status": "Proposed"
+        }
+      ],
+      "exposure": [
+        {
+          "title": "Agent and connector inventory exercise",
+          "owner": "Exposure management lead",
+          "hours": 4,
+          "requirements": [
+            "R4.1.1",
+            "R4.1.2",
+            "R4.1.3",
+            "R4.1.4",
+            "R4.1.5",
+            "R4.1.6"
+          ],
+          "outcomes": "Discover MCP/Skills, record sponsor/version/permissions, verify content hashes and scan changes.",
+          "status": "Proposed"
+        }
+      ],
+      "harness": [
+        {
+          "title": "Code-analysis harness validation",
+          "owner": "Application Security code analysis lead",
+          "hours": 4,
+          "requirements": [
+            "R4.1.1",
+            "R4.1.2",
+            "R4.1.3",
+            "R4.1.4",
+            "R4.1.5",
+            "R4.1.6",
+            "R4.2.1",
+            "R4.2.2",
+            "R4.2.3",
+            "R4.2.4",
+            "R4.2.5",
+            "R4.2.6",
+            "R4.2.7"
+          ],
+          "outcomes": "Evaluate on a known-vulnerability corpus; include patched/unpatched tests, repeatability, deduplication and cost limits.",
+          "status": "Proposed"
+        }
+      ],
+      "architecture": [
+        {
+          "title": "Agent control-plane design review",
+          "owner": "Security architecture lead",
+          "hours": 4,
+          "requirements": [
+            "N12.1",
+            "N12.2",
+            "N12.3",
+            "N12.4",
+            "N12.5",
+            "N12.6",
+            "N12.7",
+            "N12.8",
+            "N12.9",
+            "R5.1.1",
+            "R5.1.2",
+            "R5.1.3",
+            "R5.1.4",
+            "R5.1.5",
+            "R5.1.6"
+          ],
+          "outcomes": "Specify action tiers, external authorisation, immutable evidence, stop levers, tenancy and usable oversight.",
+          "status": "Proposed"
+        }
+      ],
+      "iam": [
+        {
+          "title": "Agent joiner mover leaver and revocation drill",
+          "owner": "IAM operations lead",
+          "hours": 4,
+          "requirements": [
+            "R9.1.1",
+            "R9.1.2",
+            "R9.1.3",
+            "R9.1.4",
+            "R9.1.5",
+            "R9.1.6",
+            "R9.1.7",
+            "R9.1.8",
+            "R9.1.9",
+            "R9.1.10"
+          ],
+          "outcomes": "Register sponsor and purpose, scope delegation, recertify access and verify session revocation.",
+          "status": "Proposed"
+        }
+      ],
+      "iam-expert": [
+        {
+          "title": "Agent identity integration and break-glass test",
+          "owner": "IAM engineering lead",
+          "hours": 4,
+          "requirements": [
+            "R9.1.1",
+            "R9.1.2",
+            "R9.1.3",
+            "R9.1.4",
+            "R9.1.5",
+            "R9.1.6",
+            "R9.1.7",
+            "R9.1.8",
+            "R9.1.9",
+            "R9.1.10"
+          ],
+          "outcomes": "Test IGA/PAM/SIEM integration, delegated identity, JIT grants, expiry and independently verified revocation.",
+          "status": "Proposed"
+        }
+      ],
+      "cio": [
+        {
+          "title": "Vendor decision and adoption review",
+          "owner": "CIO delegate",
+          "hours": 4,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7"
+          ],
+          "outcomes": "Compare vendor claims against a common bank test set and sign a risk/value adoption decision; no invented role extra.",
+          "status": "Proposed"
+        }
+      ]
+    },
+    "assumptions": "Curated proposal, not an optimisation claim. Original v8 scores unchanged. Full-course study times; TR-118 full RMF/Playbook/Profile bundle has an open-ended 4h+ duration, so 6h is a labelled planner estimate subject to pilot. Internal hours are learner estimates and do not increase assessed coverage. Primary Practitioner labs need basic Python or coached support. Quality means syllabus/assessment evidence and role fit, not proven learner effectiveness. Full-catalogue access remains available; recommendation exclusions enforce this shortlist until a head changes them. Planning duration corrections: TR-158 1h30 means 1.5h; TR-155 official four-module path totals 9h26m (566/60 hours), superseding the catalogue 8h metadata for planning only. TR-159 combines several lab collections and has no total duration, so exclude from auto-selection until scoped. These do not alter assessment scores. Explicit minute durations for INT-271, INT-275, INT-276, INT-340, INT-452, INT-476 and INT-1473 are retained using overrides because the app parser currently treats their parenthesised lecture counts as ambiguous; no content-based score changes. MCP server construction is an Expert addition. Broad all-Practitioner core is Evaluating AI Agents plus CSA agentic controls, with bank Skill/connector practice. Generic governance, guardrail and coding-awareness supplements are optional rather than mandatory where they add no scored need coverage. ANSSI TR-125 is optional reference material rather than mandatory technical training because it adds no scored coverage after the other selected resources. Global curriculum: nationally framed guidance is not assigned as common training. TR-125, TR-128 and TR-129 are excluded; globally applicable technical frameworks are retained. Jurisdiction-specific obligations belong in relevant local-role supplements, with separate time allowances.",
+    "excluded": [
+      "TR-125",
+      "TR-128",
+      "TR-129",
+      "TR-159"
+    ]
+  },
+  {
+    "id": "option-4",
+    "name": "2027 Option 4 — Quality core and in-house capability",
+    "selected": {
+      "all": [
+        "INT-437",
+        "INT-2787"
+      ],
+      "practitioner": [
+        "TR-100"
+      ],
+      "technical": [
+        "TR-003",
+        "INT-194",
+        "TR-063",
+        "TR-094"
+      ],
+      "governance": [
+        "INT-397",
+        "TR-063",
+        "TR-118",
+        "TR-133"
+      ],
+      "leadership": [
+        "INT-397",
+        "TR-063",
+        "TR-133"
+      ],
+      "cdc": [],
+      "forensics": [
+        "TR-064"
+      ],
+      "idp": [
+        "INT-397"
+      ],
+      "biso": [
+        "TR-112"
+      ],
+      "testing": [
+        "TR-114"
+      ],
+      "redteam": [
+        "TR-114"
+      ],
+      "exposure": [
+        "INT-2269",
+        "TR-162"
+      ],
+      "harness": [
+        "INT-2269"
+      ],
+      "architecture": [
+        "TR-112"
+      ],
+      "iam": [
+        "TR-111"
+      ],
+      "iam-expert": [
+        "TR-064",
+        "TR-113"
+      ],
+      "cio": []
+    },
+    "allow": {
+      "allLayers": [
+        "INT-194",
+        "INT-2269",
+        "INT-2787",
+        "INT-397",
+        "INT-437",
+        "TR-003",
+        "TR-063",
+        "TR-064",
+        "TR-094",
+        "TR-100",
+        "TR-111",
+        "TR-112",
+        "TR-113",
+        "TR-114",
+        "TR-118",
+        "TR-133",
+        "TR-162"
+      ]
+    },
+    "overrides": {
+      "TR-118": 6,
+      "TR-158": 1.5,
+      "TR-155": 9.433333333333334,
+      "INT-271": 0.9166666666666666,
+      "INT-275": 0.9833333333333333,
+      "INT-276": 0.9333333333333333,
+      "INT-340": 0.8833333333333333,
+      "INT-452": 0.65,
+      "INT-476": 0.5833333333333334,
+      "INT-1473": 0.9833333333333333
+    },
+    "internal": {
+      "all": [
+        {
+          "title": "IH-01 · What our people are doing with AI",
+          "owner": "Cyber AI adoption lead + champions from all six functions",
+          "hours": 1.5,
+          "requirements": [
+            "N1.1",
+            "N1.2",
+            "N1.3"
+          ],
+          "outcomes": "10m orientation; 35m two colleague-led case demonstrations including a failure and its correction; 15m an emerging or restricted-pilot demonstration; 15m domain application; 15m knowledge check and reflection. Use a short case gallery to represent all six functions without six separate lectures. Evidence: N1.1: explain one own-domain and one neighbouring-domain use case, including limitations. N1.2: distinguish production, restricted pilot and horizon examples. N1.3: propose two or three changes to own work and identify retained human accountability.",
+          "status": "Proposed"
+        },
+        {
+          "title": "IH-02 · Our approved tools, agent architecture and boundaries",
+          "owner": "AI platform owner + IAM + IDP + security architecture",
+          "hours": 1.5,
+          "requirements": [
+            "N2.1",
+            "N2.2",
+            "N2.3",
+            "N2.4",
+            "N2.5",
+            "N2.6",
+            "N2.7",
+            "N4.1",
+            "N4.2",
+            "N4.4",
+            "N4.6",
+            "N6.5",
+            "N6.6",
+            "N6.7"
+          ],
+          "outcomes": "25m model, modality and agent walkthrough; 25m approved platforms, data flow and connector permissions; 20m approval, logs and stop controls; 20m access/data-boundary decisions. Use one real approved architecture with a simplified diagram. Evidence: Label model, harness, tools and controls; select the permitted platform for a data class; distinguish available access from a pilot; locate the correct approval, stop and escalation route.",
+          "status": "Proposed"
+        },
+        {
+          "title": "IH-03 · Safe use in my job — coached case and Gate 1",
+          "owner": "Domain training lead + IDP/policy reviewer",
+          "hours": 1,
+          "requirements": [
+            "N3.1",
+            "N3.5",
+            "N3.6",
+            "N3.7",
+            "N4.1",
+            "N4.2",
+            "N4.6",
+            "N6.1",
+            "N6.2",
+            "N6.3",
+            "N6.4",
+            "N6.8"
+          ],
+          "outcomes": "15m coached case; 30m individual safe-use scenario; 15m feedback. Use approved or synthetic data and a task representative of the learner’s function. Evidence: Reject an unsafe data/tool choice, detect a planted unsupported claim or injection, verify the output and record accountability. Safety-critical decisions must pass.",
+          "status": "Proposed"
+        }
+      ],
+      "practitioner": [
+        {
+          "title": "IH-04 · Supervise and recover an agent on our platform",
+          "owner": "Domain operations owner + AI platform team",
+          "hours": 2,
+          "requirements": [
+            "N7.1",
+            "N7.2",
+            "N7.3",
+            "N7.4",
+            "N7.5",
+            "N4.7",
+            "N8.4"
+          ],
+          "outcomes": "30m workflow and permissions; 60m trace-review and planted-error lab; 30m stop, revoke, rollback and manual-fallback exercise. Evidence: Delegate within an approved action class, inspect permissions and changes, identify planted failures, stop/revoke safely and produce an accountable handover.",
+          "status": "Proposed"
+        },
+        {
+          "title": "IH-05 · Create, own and retire a shared Skill",
+          "owner": "Domain automation champion + Skill-library owner + IAM",
+          "hours": 2,
+          "requirements": [
+            "N8.1",
+            "N8.2",
+            "N8.3",
+            "N8.4",
+            "N8.5",
+            "N9.4"
+          ],
+          "outcomes": "30m worked example and third-party vetting; 60m create a focused Skill and safe connector specification; 30m peer review, ownership, monthly review and deprecation. Evidence: Submit a trigger, steps, expected output, failure modes and tests; name an owner and review/deprecation rule; justify connector permissions and provenance.",
+          "status": "Proposed"
+        },
+        {
+          "title": "IH-06 · Domain test cases and release checks",
+          "owner": "Domain evaluation lead",
+          "hours": 2,
+          "requirements": [
+            "N9.1",
+            "N9.2",
+            "N9.3",
+            "N9.4",
+            "N9.5"
+          ],
+          "outcomes": "30m independent answers and known faults; 60m build and run five representative cases with pass/fail checks; 30m simulate a model/Skill change and submit results to the domain evaluation process. Evidence: Versioned cases, known faults and acceptance checks; rerun record; contribution to the shared domain evidence store.",
+          "status": "Proposed"
+        },
+        {
+          "title": "IH-07 · Agent-supervisor observed sign-off",
+          "owner": "Domain Expert assessor + tool owner",
+          "hours": 2,
+          "requirements": [
+            "N7.1",
+            "N7.2",
+            "N7.3",
+            "N7.4",
+            "N7.5",
+            "N8.1",
+            "N8.2",
+            "N8.3",
+            "N8.4",
+            "N8.5",
+            "N9.1",
+            "N9.2",
+            "N9.3",
+            "N9.4",
+            "N9.5",
+            "N4.7"
+          ],
+          "outcomes": "75m observed task with injected faults and a connector change; 30m independent challenge; 15m feedback and scope-of-authority record. Evidence: Pass each safety-critical action and justify an evidence-based release decision. Record permitted action classes and any remediation.",
+          "status": "Proposed"
+        }
+      ],
+      "technical": [
+        {
+          "title": "IH-08T · Workflow and supervision design studio",
+          "owner": "Process owner + technical lead + operational supervisor",
+          "hours": 3,
+          "requirements": [
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7"
+          ],
+          "outcomes": "45m map current work; 60m redesign tasks and approval points; 45m review evaluation evidence and supervision load; 30m agree measures and ownership. Evidence: An approved before/after workflow, human/agent task split, supervision ratio hypothesis, autonomy limits supported by evaluation, value baseline, owner and refresh plan.",
+          "status": "Proposed"
+        },
+        {
+          "title": "IH-09T · Build, evaluate and secure a scoped agent",
+          "owner": "AI engineering + AppSec + domain evaluation lead",
+          "hours": 7,
+          "requirements": [
+            "N10.1",
+            "N10.2",
+            "N10.3",
+            "N10.4",
+            "N10.5",
+            "N10.6",
+            "N10.7",
+            "N10.8",
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N12.1",
+            "N12.2",
+            "N12.3",
+            "N12.4",
+            "N12.5",
+            "N12.6",
+            "N12.7",
+            "N12.8",
+            "N12.9",
+            "N5.7"
+          ],
+          "outcomes": "2h configure an existing approved scaffold; 2h tests and human-label calibration; 2h attack, recovery and production-monitoring rehearsal; 1h evidence dossier. Reuse one project across the pathway. Evidence: Versioned implementation and test cases, human-checked judge results, working controls, attack/recovery trace, monitoring and ownership record.",
+          "status": "Proposed"
+        },
+        {
+          "title": "IH-10T · Independent technical challenge",
+          "owner": "Independent technical assessor",
+          "hours": 2,
+          "requirements": [
+            "N10.1",
+            "N10.2",
+            "N10.3",
+            "N10.4",
+            "N10.5",
+            "N10.6",
+            "N10.7",
+            "N10.8",
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N12.1",
+            "N12.2",
+            "N12.3",
+            "N12.4",
+            "N12.5",
+            "N12.6",
+            "N12.7",
+            "N12.8",
+            "N12.9",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7",
+            "N5.7"
+          ],
+          "outcomes": "75m reproduce an unseen failure and recovery; 30m design/evidence challenge; 15m feedback and permitted-scope record. Evidence: Reproducible test evidence and pass on all critical controls within the authorised action class.",
+          "status": "Proposed"
+        }
+      ],
+      "governance": [
+        {
+          "title": "IH-08G · Workflow, supervision and accountability studio",
+          "owner": "Process owner + AI risk lead",
+          "hours": 2,
+          "requirements": [
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7"
+          ],
+          "outcomes": "30m current workflow; 45m autonomy/approval design; 30m value and oversight measures; 15m ownership agreement. Evidence: An approved before/after workflow, human/agent task split, supervision ratio hypothesis, autonomy limits supported by evaluation, value baseline, owner and refresh plan.",
+          "status": "Proposed"
+        },
+        {
+          "title": "IH-09G · Bank AI-risk and assurance evidence case",
+          "owner": "AI risk lead + assurance lead + domain evaluator",
+          "hours": 4,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N5.7"
+          ],
+          "outcomes": "1h inventory and risk scenario; 1h control/vendor dossier; 1h independent-test and judge-evidence review; 1h risk decision and escalation. Map local obligations only for the role and jurisdictions concerned. Evidence: Traceable risk decision, control evidence, vendor challenge, human-labelled evaluation sample and named residual-risk owner.",
+          "status": "Proposed"
+        },
+        {
+          "title": "IH-10G · Independent governance challenge",
+          "owner": "Independent risk/assurance assessor",
+          "hours": 2,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7"
+          ],
+          "outcomes": "75m evidence challenge; 30m reviewer calibration; 15m feedback and decision-rights record. Evidence: Defend the risk decision with test evidence, recognise weak automated evaluation and specify unresolved conditions.",
+          "status": "Proposed"
+        }
+      ],
+      "leadership": [
+        {
+          "title": "IH-08L · Operating-model and tool-selection decision studio",
+          "owner": "CIO strategy lead + process owners + AI risk lead",
+          "hours": 2,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7"
+          ],
+          "outcomes": "30m workflow/value baseline; 45m vendor and autonomy decision; 30m supervision capacity and junior-skill retention; 15m ownership and next evidence request. Evidence: An approved before/after workflow, human/agent task split, supervision ratio hypothesis, autonomy limits supported by evaluation, value baseline, owner and refresh plan. Challenge at least one vendor claim and one weak evaluation result.",
+          "status": "Proposed"
+        },
+        {
+          "title": "IH-09L · Quarterly evidence and adoption forums",
+          "owner": "CIO + domain heads + evaluation lead",
+          "hours": 4,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7"
+          ],
+          "outcomes": "Four 1h forums: baseline and test-set quality; autonomy and judge validation; production drift/value; refresh and accountability. Include a short coached lesson before the decision. Evidence: Four decision records connecting evaluation results to adoption, supervision capacity, permissions and investment.",
+          "status": "Proposed"
+        }
+      ],
+      "cdc": [
+        {
+          "title": "Agent incident response drill",
+          "owner": "CDC incident response lead",
+          "hours": 4,
+          "requirements": [
+            "R1.1.1",
+            "R1.1.2",
+            "R1.1.3",
+            "R1.1.4",
+            "R1.1.5",
+            "R1.1.6"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Suspend an agent, preserve independent logs, revoke access, recover safely and work manually.",
+          "status": "Proposed"
+        }
+      ],
+      "forensics": [
+        {
+          "title": "Agent evidence reconstruction exercise",
+          "owner": "DFIR lead",
+          "hours": 4,
+          "requirements": [
+            "R1.1.1",
+            "R1.1.2",
+            "R1.1.3",
+            "R1.1.4",
+            "R1.1.5",
+            "R1.1.6",
+            "R1.2.1",
+            "R1.2.2",
+            "R1.2.3"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Reconstruct an agent trajectory from independent evidence, preserve chain of custody and distinguish generated summaries from original artefacts.",
+          "status": "Proposed"
+        }
+      ],
+      "idp": [
+        {
+          "title": "DLP and classification control case",
+          "owner": "IDP lead",
+          "hours": 4,
+          "requirements": [
+            "N4.1",
+            "N4.2",
+            "N4.3",
+            "N4.4",
+            "N4.5",
+            "N4.6",
+            "N4.7",
+            "N7.1",
+            "N7.2",
+            "N7.3",
+            "N7.4",
+            "N7.5",
+            "N8.1",
+            "N8.2",
+            "N8.3",
+            "N8.4",
+            "N8.5",
+            "N9.1",
+            "N9.2",
+            "N9.3",
+            "N9.4",
+            "N9.5",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Assess agent data flows, confidential-data leakage and classification errors; N13 only for nominated AI risk assessors.",
+          "status": "Proposed"
+        }
+      ],
+      "biso": [
+        {
+          "title": "Agent assurance evidence challenge",
+          "owner": "BISO assurance lead",
+          "hours": 4,
+          "requirements": [
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "R6.1.1",
+            "R6.1.2"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Test controls at the enforcement point and validate the AI used to generate assurance evidence.",
+          "status": "Proposed"
+        }
+      ],
+      "testing": [
+        {
+          "title": "Contained agent testing exercise",
+          "owner": "Application Security testing lead",
+          "hours": 4,
+          "requirements": [
+            "R3.1.1",
+            "R3.1.2",
+            "R3.1.3",
+            "R3.1.4",
+            "R3.1.5",
+            "R3.2.1",
+            "R3.2.2",
+            "R3.2.3",
+            "R3.2.4",
+            "R3.2.5"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Test own agents in an isolated sandbox; enforce scope and stop from outside the model, reproduce findings and manage collateral discoveries.",
+          "status": "Proposed"
+        }
+      ],
+      "redteam": [
+        {
+          "title": "Specialist agent red-team validation",
+          "owner": "Red-team lead",
+          "hours": 4,
+          "requirements": [
+            "R3.1.1",
+            "R3.1.2",
+            "R3.1.3",
+            "R3.1.4",
+            "R3.1.5",
+            "R3.2.1",
+            "R3.2.2",
+            "R3.2.3",
+            "R3.2.4",
+            "R3.2.5"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Run an authorised multi-step attack and validate the full trajectory, boundaries and reproducible evidence.",
+          "status": "Proposed"
+        }
+      ],
+      "exposure": [
+        {
+          "title": "Agent and connector inventory exercise",
+          "owner": "Exposure management lead",
+          "hours": 4,
+          "requirements": [
+            "R4.1.1",
+            "R4.1.2",
+            "R4.1.3",
+            "R4.1.4",
+            "R4.1.5",
+            "R4.1.6"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Discover MCP/Skills, record sponsor/version/permissions, verify content hashes and scan changes.",
+          "status": "Proposed"
+        }
+      ],
+      "harness": [
+        {
+          "title": "Code-analysis harness validation",
+          "owner": "Application Security code analysis lead",
+          "hours": 4,
+          "requirements": [
+            "R4.1.1",
+            "R4.1.2",
+            "R4.1.3",
+            "R4.1.4",
+            "R4.1.5",
+            "R4.1.6",
+            "R4.2.1",
+            "R4.2.2",
+            "R4.2.3",
+            "R4.2.4",
+            "R4.2.5",
+            "R4.2.6",
+            "R4.2.7"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Evaluate on a known-vulnerability corpus; include patched/unpatched tests, repeatability, deduplication and cost limits.",
+          "status": "Proposed"
+        }
+      ],
+      "architecture": [
+        {
+          "title": "Agent control-plane design review",
+          "owner": "Security architecture lead",
+          "hours": 4,
+          "requirements": [
+            "N12.1",
+            "N12.2",
+            "N12.3",
+            "N12.4",
+            "N12.5",
+            "N12.6",
+            "N12.7",
+            "N12.8",
+            "N12.9",
+            "R5.1.1",
+            "R5.1.2",
+            "R5.1.3",
+            "R5.1.4",
+            "R5.1.5",
+            "R5.1.6"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Specify action tiers, external authorisation, immutable evidence, stop levers, tenancy and usable oversight.",
+          "status": "Proposed"
+        }
+      ],
+      "iam": [
+        {
+          "title": "Agent joiner mover leaver and revocation drill",
+          "owner": "IAM operations lead",
+          "hours": 4,
+          "requirements": [
+            "R9.1.1",
+            "R9.1.2",
+            "R9.1.3",
+            "R9.1.4",
+            "R9.1.5",
+            "R9.1.6",
+            "R9.1.7",
+            "R9.1.8",
+            "R9.1.9",
+            "R9.1.10"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Register sponsor and purpose, scope delegation, recertify access and verify session revocation.",
+          "status": "Proposed"
+        }
+      ],
+      "iam-expert": [
+        {
+          "title": "Agent identity integration and break-glass test",
+          "owner": "IAM engineering lead",
+          "hours": 4,
+          "requirements": [
+            "R9.1.1",
+            "R9.1.2",
+            "R9.1.3",
+            "R9.1.4",
+            "R9.1.5",
+            "R9.1.6",
+            "R9.1.7",
+            "R9.1.8",
+            "R9.1.9",
+            "R9.1.10"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Test IGA/PAM/SIEM integration, delegated identity, JIT grants, expiry and independently verified revocation.",
+          "status": "Proposed"
+        }
+      ],
+      "cio": [
+        {
+          "title": "Vendor decision and adoption review",
+          "owner": "CIO delegate",
+          "hours": 4,
+          "requirements": [
+            "N11.1",
+            "N11.2",
+            "N11.3",
+            "N11.4",
+            "N11.5",
+            "N11.6",
+            "N13.1",
+            "N13.2",
+            "N13.3",
+            "N13.4",
+            "N13.5",
+            "N13.6",
+            "N14.1",
+            "N14.2",
+            "N14.3",
+            "N14.4",
+            "N14.5",
+            "N14.6",
+            "N14.7"
+          ],
+          "outcomes": "1h internal runbook/control walkthrough; 2h coached role-specific exercise; 1h observed challenge and feedback. Compare vendor claims against a common bank test set and sign a risk/value adoption decision; no invented role extra.",
+          "status": "Proposed"
+        }
+      ]
+    },
+    "assumptions": "Curated proposal, not an optimisation claim. Original v8 scores unchanged. Full-course study times; TR-118 full RMF/Playbook/Profile bundle has an open-ended 4h+ duration, so 6h is a labelled planner estimate subject to pilot. Internal hours are learner estimates and do not increase assessed coverage. Primary Practitioner labs need basic Python or coached support. Quality means syllabus/assessment evidence and role fit, not proven learner effectiveness. Full-catalogue access remains available; recommendation exclusions enforce this shortlist until a head changes them. Planning duration corrections: TR-158 1h30 means 1.5h; TR-155 official four-module path totals 9h26m (566/60 hours), superseding the catalogue 8h metadata for planning only. TR-159 combines several lab collections and has no total duration, so exclude from auto-selection until scoped. These do not alter assessment scores. Explicit minute durations for INT-271, INT-275, INT-276, INT-340, INT-452, INT-476 and INT-1473 are retained using overrides because the app parser currently treats their parenthesised lecture counts as ambiguous; no content-based score changes. MCP server construction is an Expert addition. Broad all-Practitioner core is Evaluating AI Agents plus CSA agentic controls, with bank Skill/connector practice. Generic governance, guardrail and coding-awareness supplements are optional rather than mandatory where they add no scored need coverage. Global curriculum: nationally framed guidance is not assigned as common training. TR-125, TR-128 and TR-129 are excluded; globally applicable technical frameworks are retained. Jurisdiction-specific obligations belong in relevant local-role supplements, with separate time allowances. Targeted in-house modules teach the actual work, platforms, controls and operating model. The N14 workflow workshop replaces INT-2478 in the Expert and leadership paths. Planned internal coverage is unassessed; it never adds points to course coverage. Foundation internal learning is 4h; Practitioner internal learning is 8h; Technical Expert 12h; Governance Expert 8h; Leadership 6h; specialists 4h. Expert pathways are alternatives. Development effort is separate from learner time.",
+    "excluded": [
+      "INT-2478",
+      "TR-125",
+      "TR-128",
+      "TR-129",
+      "TR-159"
+    ],
+    "rationale": {
+      "technical": "Use specialist external teaching, with an internal workshop for actual workflow allocation, autonomy, supervision and adoption. INT-2478 is replaced; its assessed coverage is not transferred.",
+      "governance": "Use specialist external teaching, with an internal workshop for actual workflow allocation, autonomy, supervision and adoption. INT-2478 is replaced; its assessed coverage is not transferred.",
+      "leadership": "Use specialist external teaching, with an internal workshop for actual workflow allocation, autonomy, supervision and adoption. INT-2478 is replaced; its assessed coverage is not transferred."
+    }
+  }
+]

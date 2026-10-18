@@ -1,0 +1,146 @@
+AI Fundamentals for the Workplace: A Beginner’s Guide to AI (https://www.udemy.com/course/a-beginners-guide-to-using-ai-at-work/)
+citeturn42view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/a-beginners-guide-to-using-ai-at-work/","lineno":null}); Total lines: 160
+L0: cite0†Image†img-c.udemycdn.com L1: 
+L2: cite1†Skip to content L3: 
+L4: Explore
+L5: 
+L6:   * Explore by goal
+L7: 
+L8:     * cite2†Prepare for a certification L9: 
+L10:     * Learn AI
+L11: 
+L12:     * cite3†Launch a new career L13: 
+L14:     * cite4†Practice with Role Play L15: 
+L16:     * cite5†Udemy Communities L17: 
+L18:     *     *     *     *     *     *     *     *     *     *     *     *     * [Input: Search for anything]
+L19: 
+L20: [Input: Search for anything]
+L21: 
+L22: cite6†Udemy Business L23: 
+L24:   * cite7†Compare Plans L25:   * cite6†Request Demo L26: 
+L27: cite8†Teach on Udemy L28: Turn what you know into an opportunity and reach millions around the world.
+L29: 
+L30: cite8†Learn More L31: 
+L32: Your cart is empty.
+L33: 
+L34: cite9†Keep shopping L35: 
+L36: cite10†Log in L37: 
+L38: cite11†Sign up L39: 
+L40: AI Fundamentals for the Workplace: A Beginner’s Guide to AI
+L41: 
+L42: Rating: 4.5 out of 5 4.5cite12†(4,372 ratings) L43: 
+L44: 18,334 students
+L45: 
+L46: cite0†Image†img-c.udemycdn.com Preview this course
+L47: # AI Fundamentals for the Workplace: A Beginner’s Guide to AI
+L48: 
+L49: Practical Skills to Save Time, Boost Productivity, and Use AI Safely (In 30 mins or less!)
+L50: 
+L51: Created bycite13†Diane Flynn L52: 
+L53: Last updated 3/2026
+L54: 
+L55: English
+L56: 
+L57: Danish [Auto],English [Auto], 11 more
+L58: 
+L59: cite0†Image†img-c.udemycdn.com Preview this course
+L60: ## What you'll learn
+L61: 
+L62:   * Explain in plain language what AI is and why it matters in the workplace
+L63: 
+L64:   * Identify practical, everyday ways AI can boost productivity
+L65: 
+L66:   * Use popular AI tools to summarize, draft, brainstorm, and organize work
+L67: 
+L68:   * Apply effective prompting techniques to get clear, accurate, and useful results
+L69: 
+L70:   * Recognize the limits and risks of AI, and use it responsibly and ethically
+L71: 
+L72:   * Reframe AI as a partner that frees you up for higher-value, human work
+L73: ## Course content
+L74: 
+L75: 4 sections • 10 lectures • 36m total length
+L76: 
+L77: Expand all sections
+L78: ### Understanding AI 4 lectures • 14min
+L79: 
+L80:   * Introduction Preview 1:27
+L81: 
+L82: Explore simple, practical ways to make AI your trusted ally at work, with thoughtful, safe, ethical use and hands-on demos to save time and boost creativity.
+L83: 
+L84:   * What Is AI & Why It Matters Preview 5:14
+L85: 
+L86: Explore what AI is, why it matters, and how beginners can use generative AI to boost efficiency, creativity, and impact at work.
+L87: 
+L88:   * Everyday AI Uses Preview 3:14
+L89: Showcases everyday ai applications for work, from drafting concise emails and solving tech issues to planning offsite themes, trips, and safe injury exercises.
+L90: 
+L91:   * How AI Works (Without the Jargon)Preview 3:43
+L92: 
+L93: Learn how ai works through simple concepts like models, prompts, context, and training data, and see how outputs are generated via pattern recognition and refined with feedback.
+L94: ### Getting Started with AI Tools 2 lectures • 8min
+L95: 
+L96:   * Getting Hands-On with AI Tools 3:42
+L97: 
+L98: Discover how to start using AI tools in daily work by organizing tasks, drafting emails, and building checklists with platforms like ChatGPT, Copilot, Google Workspace, and Perplexity.
+L99: 
+L100:   * Prompting Basics 4:18
+L101: 
+L102: Master prompting basics by giving clear direction and context, providing feedback, and iterating to produce faster, better, more relevant AI outputs for leadership-focused tasks.
+L103: ### Using AI Responsibly 3 lectures • 11min
+L104: 
+L105:   * What AI Can’t Do (Yet)2:59
+L106: 
+L107: Recognize AI's limitations, including lack of true understanding and potential hallucinations. Use AI as a support tool, review outputs for accuracy, fairness, inclusivity, and download the AI safety checklist.
+L108: 
+L109:   * Responsible and Ethical AI Use 5:11
+L110: Navigate responsible and ethical AI use at work by protecting data privacy, avoiding bias, verifying outputs, and aligning AI-driven work with your organization's policies and brand.
+L111: 
+L112:   * AI as your Partner 2:58
+L113: 
+L114: See AI as your partner, pairing speed with judgment. Use AI for first drafts and repeatable tasks, then refine tone and align content with values and empathy.
+L115: ### Staying Current & Wrap-Up 1 lecture • 4min
+L116: 
+L117:   * Staying Current and Wrap-Up 3:49
+L118: 
+L119: Stay curious and experiment with AI to spot opportunities as it embeds in email, docs, calendars, and meetings. Start small to enhance your strengths and share what you learn.
+L120: 
+L121: ## Requirements
+L122: 
+L123:   * No prior knowledge of Artificial Intelligence is required
+L124: 
+L125:   * Access to the internet and a computer or mobile device to try out examples
+L126: 
+L127:   * Curiosity and a willingness to experiment with new tools
+L128: ## Description
+L129: 
+L130: Artificial Intelligence is no longer just for technologists. It is rapidly becoming a core workplace skill. From writing emails and reports to preparing presentations and analyzing information, AI tools are changing how professionals work every day. Whether you use ChatGPT, Claude, Gemini, Co-Pilot, or another tool, this course has practical tips for you.
+L131: AI Fundamentals for the Workplace is a short, practical course (about 30 mins) designed to help business professionals understand what AI is and how to begin using it confidently at work. In about 30 minutes, you will learn the essential concepts behind artificial intelligence and see real examples of how AI tools can help you save time and improve productivity.
+L132: This course avoids technical jargon and focuses on what professionals actually need to know. You will learn how AI works at a high level, where it is already being used across industries, and how it can support common workplace tasks such as writing, summarizing information, brainstorming ideas, and organizing projects.
+L133: You will also practice one of the most important new skills in the modern workplace: prompting. Prompting is the ability to ask AI the right questions so you receive clearer, faster, and more useful responses. Along the way, you will learn how to avoid common mistakes, use AI responsibly, and think about AI as a partner that can help free up your time for the work that requires human judgment, creativity, and relationships.
+L134: By the end of this course, you will not only understand the fundamentals of artificial intelligence, you will have experimented with it yourself on real workplace tasks. The goal is simple: to give you the confidence and foundation you need to start using AI tools effectively as they continue to evolve.
+L135: 
+L136: Continue Your Learning Journey
+L137: This course is part of the Future-Ready Professional Series, a collection designed to help professionals build the four capabilities that matter most in today's workplace: mindset, communication, AI literacy, and AI productivity.
+L138: 
+L139: To continue your learning, visit my instructor page (Diane Flynn) on Udemy to explore the complete series:
+L140: 
+L141: • Growth Mindset: The Key to Confidence, Impact & Fulfillment
+L142: Build resilience, confidence, and adaptability.
+L143: • Communication Skills: Speak with Confidence and Influence
+L144: Strengthen your communication skills and increase your influence.
+L145: 
+L146: • AI Fundamentals for the Workplace
+L147: Build a solid foundation in AI and understand how it is transforming the workplace.
+L148: 
+L149: • AI For Work: 12 Ways to Do Better Work, Faster
+L150: Apply AI to save time, improve the quality of your work, and boost your productivity.
+L151: ## Who this course is for:
+L152: 
+L153:   * Professionals who want to understand how AI can make their work faster, easier, and more effective
+L154:   * Beginners who are curious about AI but don’t have a technical background
+L155:   * Lifelong learners who want to stay current with workplace technology and build confidence using AI
+L156: 
+L157: Show more Show less
+L158: 
+L159: cite14†Report abuse 

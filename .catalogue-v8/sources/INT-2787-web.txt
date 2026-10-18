@@ -1,0 +1,184 @@
+Social Engineering With Generative AI - Learn How To Defend | Udemy (https://www.udemy.com/course/social-engineering-with-genai-generative-ai/)
+citeturn174view0 [wordlim: 200] Crawled: 11 months ago; Content type: text/html; Source: open({"ref_id":"https://www.udemy.com/course/social-engineering-with-genai-generative-ai/","lineno":null}); Total lines: 237
+L0: 
+L1: Skip to contentcite248†Image: Udemy L2: 
+L3: Categories
+L4: 
+L5:   *
+L6: 
+L7:   *
+L8: 
+L9:   *
+L10: 
+L11:   *
+L12: 
+L13:   *
+L14: 
+L15:   *
+L16: 
+L17:   *
+L18: 
+L19:   *
+L20: 
+L21:   *
+L22: 
+L23:   *
+L24: 
+L25:   *
+L26: 
+L27:   *
+L28: 
+L29:   *
+L30: 
+L31: Search for anything
+L32: 
+L33: cite0†Development L34: 
+L35: cite1†Web Development cite2†Data Science cite3†Mobile Development cite4†Programming Languages cite5†Game Development cite6†Database Design & Development cite7†Software Testing cite8†Software Engineering cite9†Software Development Tools cite10†No-Code Development L36: 
+L37: cite11†Business L38: cite12†Entrepreneurship cite13†Communication cite14†Management cite15†Sales cite16†Business Strategy cite17†Operations cite18†Project Management cite19†Business Law cite20†Business Analytics & Intelligence cite21†Human Resources cite22†Industry cite23†E-Commerce cite24†Media cite25†Real Estate cite26†Other Business L39: 
+L40: cite27†Finance & Accounting L41: cite28†Accounting & Bookkeeping cite29†Compliance cite30†Cryptocurrency & Blockchain cite31†Economics cite32†Finance cite33†Finance Cert & Exam Prep cite34†Financial Modeling & Analysis cite35†Investing & Trading cite36†Money Management Tools cite37†Taxes cite38†Other Finance & Accounting L42: 
+L43: cite39†IT & Software L44: 
+L45: cite40†IT Certifications cite41†Network & Security cite42†Hardware cite43†Operating Systems & Servers cite44†Other IT & Software L46: 
+L47: cite45†Office Productivity L48: cite46†Microsoft cite47†Apple cite48†Google cite49†SAP cite50†Oracle cite51†Other Office Productivity L49: 
+L50: cite52†Personal Development L51: 
+L52: cite53†Personal Transformation cite54†Personal Productivity cite55†Leadership cite56†Career Development cite57†Parenting & Relationships cite58†Happiness cite59†Esoteric Practices cite60†Religion & Spirituality cite61†Personal Brand Building cite62†Creativity cite63†Influence cite64†Self Esteem & Confidence cite65†Stress Management cite66†Memory & Study Skills cite67†Motivation cite68†Other Personal Development L53: cite69†Design L54: 
+L55: cite70†Web Design cite71†Graphic Design & Illustration cite72†Design Tools cite73†User Experience Design cite74†Game Design cite75†3D & Animation cite76†Fashion Design cite77†Architectural Design cite78†Interior Design cite79†Other Design L56: 
+L57: cite80†Marketing L58: cite81†Digital Marketing cite82†Search Engine Optimization cite83†Social Media Marketing cite84†Branding cite85†Marketing Fundamentals cite86†Marketing Analytics & Automation cite87†Public Relations cite88†Paid Advertising cite89†Video & Mobile Marketing cite90†Content Marketing cite91†Growth Hacking cite92†Affiliate Marketing cite93†Product Marketing cite94†Other Marketing L59: 
+L60: cite95†Lifestyle L61: cite96†Arts & Crafts cite97†Beauty & Makeup cite59†Esoteric Practices cite98†Food & Beverage cite99†Gaming cite100†Home Improvement & Gardening cite101†Pet Care & Training cite102†Travel cite103†Other Lifestyle L62: 
+L63: cite104†Photography & Video L64: 
+L65: cite105†Digital Photography cite106†Photography cite107†Portrait Photography cite108†Photography Tools cite109†Commercial Photography cite110†Video Design cite111†Other Photography & Video L66: 
+L67: cite112†Health & Fitness L68: cite113†Fitness cite114†General Health cite115†Sports cite116†Nutrition & Diet cite117†Yoga cite118†Mental Health cite119†Martial Arts & Self Defense cite120†Safety & First Aid cite121†Dance cite122†Meditation cite123†Other Health & Fitness L69: 
+L70: cite124†Music L71: 
+L72: cite125†Instruments cite126†Music Production cite127†Music Fundamentals cite128†Vocal cite129†Music Techniques cite130†Music Software cite131†Other Music L73: 
+L74: cite132†Teaching & Academics L75: cite133†Engineering cite134†Humanities cite135†Math cite136†Science cite137†Online Education cite138†Social Science cite139†Language Learning cite140†Teacher Training cite141†Test Prep cite142†Other Teaching & Academics L76: 
+L77: cite143†Web Development cite144†JavaScript cite145†React JS cite146†Angular cite147†Node.Js cite148†Next.js cite149†ASP.NET Core cite150†Typescript cite151†CSS L78: cite152†AWS Certified Solutions Architect - Associate cite153†AWS Certified Cloud Practitioner cite154†CompTIA Security+ cite155†CompTIA A+ cite156†Amazon AWS cite157†Cisco Certified Network Associate (CCNA) cite158†CompTIA Network+ cite159†AWS Certified AI Practitioner cite160†Information Security L79: 
+L80: cite161†Microsoft Power BI cite162†SQL cite163†Data Modeling cite164†Data Analysis cite165†Business Analysis cite166†Tableau cite167†Business Intelligence (BI) cite168†Generative AI (GenAI) cite169†Data Warehouse L81: cite170†Unreal Engine cite171†Unity cite172†Game Development Fundamentals cite173†3D Game Development cite174†C# (programming language) cite175†Godot cite176†C++ (programming language) cite177†2D Game Development cite178†Unreal Engine Blueprints L82: 
+L83: cite179†Google Flutter cite180†React Native cite181†iOS Development cite182†Dart (programming language) cite183†Android Development cite184†Swift cite185†SwiftUI cite186†Mobile App Development cite187†Kotlin L84: cite188†Stock Options cite189†Financial Accounting cite190†Accounting cite191†Financial Modeling cite192†Fintech cite193†Finance Fundamentals cite194†Forex Trading L85: 
+L86: cite195†Graphic Design cite196†Adobe Photoshop cite197†Drawing cite198†Adobe Illustrator cite199†Canva cite200†Adobe InDesign cite201†Procreate Digital Illustration App cite202†Digital Painting cite203†Design Theory L87: cite204†Life Coach Training cite205†Personal Development cite206†Neuro-Linguistic Programming (NLP) cite207†Personal Transformation cite208†Sound Therapy cite209†Coaching cite210†Manifestation and Law of Attraction cite211†Mindfulness cite212†Emotional Intelligence L88: 
+L89: cite213†Business Fundamentals cite214†Truck Dispatching cite215†Entrepreneurship Fundamentals cite216†Online Business cite217†Freelancing cite218†Business Strategy cite219†Large Language Models (LLM) cite220†Business Plan cite221†Passive Income L90: cite222†Digital Marketing cite223†Social Media Marketing cite224†Marketing Strategy cite225†Internet Marketing cite226†ChatGPT cite227†Google Analytics cite228†Sales Funnel cite229†Facebook Ads cite230†Copywriting L91: 
+L92: cite39†IT & Software cite41†Network & Security cite231†Cybersecurity Social Engineering L93: 
+L94: cite249†Image†www.udemy.com Preview this course
+L95: # Social Engineering With Generative AI - Learn How To Defend
+L96: 
+L97: Learn How GenAI can be used for social engineering and how to defend from social engineering attacks created by GenAI
+L98: 
+L99: Rating: 4.8 out of 5 4.8 (29 ratings)
+L100: 
+L101: 457 students
+L102: 
+L103: Created by Taimur Ijlal | Award winning cybersecurity leader and instructor
+L104: 
+L105: Last updated 5/2025
+L106: 
+L107: English
+L108: 
+L109: English [Auto]
+L110: 
+L111: cite250†Image†www.udemy.com Preview this course
+L112: ## What you'll learn
+L113: 
+L114:   * Understand the Basics of Social Engineering With GenAI
+L115: 
+L116:   * Understand How The Threat Landscape Has Changed Due to GenAI
+L117: 
+L118:   * Create a GenAI Social Engineering Awareness Program
+L119: 
+L120:   * Identify and Analyze GenAI Driven Social Engineering Attacks like DeepFakes
+L121: 
+L122: ## Requirements
+L123: 
+L124:   * Basic understanding of Technology
+L125: 
+L126:   * Basic Understanding of Risk and Security
+L127: 
+L128:   * No prior understanding of AI needed
+L129: ## Description
+L130: 
+L131: Generative AI is rapidly becoming an essential concept in artificial intelligence, offering incredible capabilities to simulate creativity and content generation. Tools like ChatGPT and MidJourney are changing the way industries operate. The "Social Engineering with GenAI " course is designed to provide a deep understanding of how generative AI technologies can be exploited for social engineering attacks and the strategies needed to defend against these sophisticated threats.
+L132: This course covers the principles, components, and best practices for identifying, analyzing, and mitigating social engineering attacks driven by Generative AI.
+L133: 
+L134: What You Will Learn
+L135: 
+L136:   * Fundamental principles and components of Social Engineering and GenAI: Understand the basics of social engineering and how Generative AI can be used in these attacks.
+L137:   * Identifying GenAI-driven social engineering attacks: Learn to recognize and analyze attacks facilitated by GenAI, supported by real-world examples and case studies.
+L138: 
+L139:   * Defensive strategies against GenAI social engineering: Implement effective defense mechanisms, best practices, and training programs to enhance resilience against these threats.
+L140: 
+L141: Course Outline
+L142: 
+L143: Introduction to Social Engineering and GenAI
+L144: 
+L145:   * What is Social Engineering?
+L146:   * How Generative AI is revolutionizing social engineering tactics
+L147: 
+L148:   * Importance of defending against GenAI-driven social engineering attacks
+L149: 
+L150: Identifying and Analyzing GenAI-Driven Social Engineering Attacks
+L151: 
+L152:   * Overview of social engineering techniques
+L153: 
+L154:   * Detailed analysis of GenAI-facilitated attacks
+L155: 
+L156: Defensive Strategies Against GenAI Social Engineering
+L157: 
+L158:   * Security best practices and tools
+L159: 
+L160:   * Developing policies and training programs
+L161: 
+L162:   * Enhancing awareness and resilience
+L163: Who Should Take This Course
+L164: 
+L165: This course is designed for individuals interested in understanding and defending against social engineering attacks facilitated by Generative AI, including:
+L166: 
+L167:   * Cybersecurity professionals
+L168: 
+L169:   * IT Managers
+L170: 
+L171:   * AI practitioners
+L172: 
+L173:   * Security Analysts
+L174: 
+L175:   * Anyone interested in learning about GenAI and its implications in social engineering
+L176: 
+L177: Prerequisites
+L178: This course assumes a basic understanding of AI and cybersecurity, but no prior knowledge of Generative AI or social engineering is required.
+L179: 
+L180: Instructor
+L181: Taimur Ijlal is a multi-award-winning information security leader with over 20+ years of international experience in cyber-security and IT risk management in the fin-tech industry. Winner of major industry awards such as CISO of the Year, CISO Top 30, CISO Top 50, and Most Outstanding Security Team. Taimur's courses on Cybersecurity and AI have thousands of students from all over the world.
+L182: He has also been published in leading publications like ISACA Journal, CIO Magazine Middle East, and has published two books on AI Security and Cloud Computing (ranked #1 new release on Amazon).
+L183: ## Who this course is for:
+L184: 
+L185:   * Cybersecurity professionals
+L186:   * CISOs , CTOs and CROs
+L187:   * Risk Management Professionals
+L188:   * Anti-Fraud Professionals
+L189:   * AI Professionals
+L190:   * Anyone interested in GenAI
+L191: 
+L192: Show more Show less
+L193: ## Instructor
+L194: 
+L195: cite232†Taimur Ijlal | Award winning cybersecurity leader and instructor L196: 
+L197: Cloud Security executive | Professional speaker and trainer
+L198: 
+L199: cite251†Image†www.udemy.com L200: 
+L201:   * 4.4 Instructor Rating
+L202: 
+L203:   * 22,787 Reviews
+L204: 
+L205:   * 65,409 Students
+L206: 
+L207:   * 20 Courses
+L208: A multi-award winning, information security leader with over 20+ years of international experience in cyber-security and IT risk management in the fin-tech industry. Winner of major industry awards such as CISO of the year, CISO top 30, CISO top 50 and Most Outstanding Security team.
+L209: Taimur's courses on Cybersecurity and AI have thousands of students from all over the world. He has also been published in leading publications like ISACA journal, CIO Magazine Middle East and published two books on AI Security and Cloud Computing ( ranked #1 new release on Amazon )
+L210: 
+L211: Show more Show less
+L212: 
+L213: Top companies choose cite233†Udemy Business to build in-demand career skills.
+L214: cite252†Image: Nasdaq†www.udemy.com cite253†Image: Volkswagen†www.udemy.com cite254†Image: NetApp†www.udemy.com cite255†Image: Eventbrite†www.udemy.com L215: 
+L216: English
+L217: 
+L218:   * cite234†Udemy Business L219:   * cite235†Teach on Udemy L220:   * cite236†Get the app L221:   * cite237†About us†about.udemy.com L222:   * cite238†Contact us†about.udemy.com L223: 
+L224:   * cite239†Careers†about.udemy.com L225:   * cite240†Blog†blog.udemy.com L226:   * cite241†Help and Support L227:   * cite242†Affiliate L228:   * cite243†Investors†investors.udemy.com L229:   * cite244†Terms L230:   * cite245†Privacy policy L231:   * cite246†Sitemap L232:   * cite247†Accessibility statement†about.udemy.com L233: 
+L234: cite256†Image: Udemy L235: 
+L236: © 2025 Udemy, Inc.
+
