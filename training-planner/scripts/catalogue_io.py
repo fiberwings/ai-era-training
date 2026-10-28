@@ -136,6 +136,9 @@ def read_catalogue(path):
             if r['Status'] != 'Active': continue
             requirements.append(dict(id=r['Req ID'], need=r['Need code'], level=r.get('Level'), rank=r['Level rank'],
                 core=r['Core']=='Yes', title=r['Requirement'], description=r['What a training must cover'], source=reference('Rubric',i)))
+            note=r.get('Notes') or ''
+            if note.startswith('Applicability: '):
+                requirements[-1]['coreCondition']=note.removeprefix('Applicability: ').split('. Must-have')[0]
         active = {r['id'] for r in requirements}
         seen, dates = set(), []
         for i, r in records(workbook, 'Scores', ('Offer ID', 'Req ID', 'Score', 'Evidence (module, lab, timestamp)', 'Assessor', 'Date')):
@@ -148,7 +151,7 @@ def read_catalogue(path):
             if dt: dates.append(dt)
             item = dict(evidence=r['Evidence (module, lab, timestamp)'] or '', assessor=r['Assessor'], date=dt,
                         source=reference('Scores',i), status=r.get('Assessment status') or ('Unassessed' if value is None else 'Assessed'))
-            for key, name in [('Prior score (v7)','priorScore'),('Source entry (full list in Offers)','sourceUrl'),('V8 change','change')]:
+            for key, name in [('Prior score (v7)','priorScore'),('Source entry (full list in Offers)','sourceUrl'),('V8 change','change'),('Assessment change','change')]:
                 if key in r: item[name] = r[key]
             require(item['status'] in ('Assessed', 'Unassessed'), f'Scores row {i}: unknown assessment status')
             if value is None:

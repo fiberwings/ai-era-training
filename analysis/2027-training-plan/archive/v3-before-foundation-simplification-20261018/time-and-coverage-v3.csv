@@ -1,0 +1,93 @@
+﻿Scenario,Cohort,Agentic level,Role specialisms,Own outcomes,Course budget h,Own course h,Own internal h,Cumulative course h,Cumulative internal h,Cumulative learner h,Own-layer coverage %,Cumulative coverage %,Own critical zeros,Cumulative critical zeros
+2027 recommended training plan — v3,Foundation — common knowledge,0,,29,4,3.8,4.75,3.8,4.75,8.55,27.936507936507937,27.936507936507937,5,5
+2027 recommended training plan — v3,L1 Entry — Work with AI assistance,1,,8,2,1,2,4.8,6.75,11.55,41.66666666666667,31.812169312169313,0,5
+2027 recommended training plan — v3,L2 Practitioner — Supervise agents,2,,16,8,6.916666666666666,8,11.716666666666667,14.75,26.46666666666667,56.666666666666664,47.47354497354498,0,3
+2027 recommended training plan — v3,L3 Expert — Build and evaluate agents,3,,11,24,16.71666666666667,9,28.433333333333337,23.75,52.18333333333334,47.22222222222222,52.51803751803753,0,2
+2027 recommended training plan — v3,GRC — agent supervision,2,ai-governance,6,4,3.6833333333333336,6,15.4,20.75,36.15,66.66666666666666,50.821428571428584,0,2
+2027 recommended training plan — v3,GRC — agent building,3,ai-governance,6,4,3.6833333333333336,6,32.116666666666674,29.75,61.866666666666674,66.66666666666666,54.88756613756615,0,1
+2027 recommended training plan — v3,Leadership — AI-assisted work,1,leadership; vendor-evaluation,10,4,1,6,5.8,12.75,18.55,31.746031746031743,32.31922398589065,2,6
+2027 recommended training plan — v3,Agent incident response,2,incident-response,6,4,0,4,11.716666666666667,18.75,30.46666666666667,11.11111111111111,43.83730158730159,2,5
+2027 recommended training plan — v3,Agent forensics and investigation,2,incident-response; agent-forensics,9,4,2,4,13.716666666666667,18.75,32.46666666666667,16.666666666666664,43.17099567099568,3,6
+2027 recommended training plan — v3,Threat intelligence & detection — AI threat landscape,2,threat-intelligence,1,4,2,2,13.716666666666667,16.75,30.46666666666667,66.66666666666666,47.91446208112875,0,3
+2027 recommended training plan — v3,"DLP, classification & AI risk",2,ai-governance,6,4,3.6833333333333336,6,15.4,20.75,36.15,66.66666666666666,50.821428571428584,0,2
+2027 recommended training plan — v3,Governance & assurance,2,ai-governance; agent-assurance,8,5,4.683333333333334,4,16.4,18.75,35.15,47.22222222222222,48.72655122655123,1,3
+2027 recommended training plan — v3,Agent testing and containment,2,agent-testing,7,4,3,4,14.716666666666667,18.75,33.46666666666667,33.33333333333333,44.90259740259741,3,6
+2027 recommended training plan — v3,Advanced agent red-teaming,2,agent-testing; advanced-redteam,10,4,3,4,14.716666666666667,18.75,33.46666666666667,30.0,44.29653679653679,3,6
+2027 recommended training plan — v3,Agent exposure management,2,exposure-management,6,4,3.05,4,14.766666666666666,18.75,33.516666666666666,50.0,48.67857142857142,1,4
+2027 recommended training plan — v3,AI code-analysis engineering,3,code-analysis,7,4,1.0666666666666667,4,29.500000000000004,27.75,57.25,28.57142857142857,51.4484126984127,2,4
+2027 recommended training plan — v3,Agent security architecture,3,ai-security; agent-architecture,15,4.25,4.183333333333334,4,32.616666666666674,27.75,60.366666666666674,60.18518518518518,54.063899063899065,0,2
+2027 recommended training plan — v3,Security architecture & engineering — agent infrastructure,3,agent-engineering,3,4,1.9666666666666668,4,30.400000000000006,27.75,58.150000000000006,77.77777777777779,53.275613275613274,0,2
+2027 recommended training plan — v3,AI security design and remediation,2,ai-security,8,4,2.183333333333333,4,13.9,18.75,32.65,62.5,49.452380952380956,0,3
+2027 recommended training plan — v3,Workflow transformation and adoption,2,workflow-transformation,5,4,0,4,11.716666666666667,18.75,30.46666666666667,13.333333333333334,44.05952380952382,3,6
+2027 recommended training plan — v3,Agent identity operations — AI-assisted work,1,identity-operations,6,4,3,4,7.8,10.75,18.55,38.88888888888889,41.32653061224489,0,3
+2027 recommended training plan — v3,Agent identity integration and design,1,identity-operations; identity-integration,10,4,3,6,7.8,12.75,20.55,30.0,41.64399092970522,0,3
+2027 recommended training plan — v3,Strategy & tool selection,1,leadership; vendor-evaluation,10,4,1,6,5.8,12.75,18.55,31.746031746031743,32.31922398589065,2,6
+2027 code-ready adaptation — v3,Foundation — common knowledge,0,,29,4,3.8,4.75,3.8,4.75,8.55,27.936507936507937,27.936507936507937,5,5
+2027 code-ready adaptation — v3,L1 Entry — Work with AI assistance,1,,8,2,2,2,5.8,6.75,12.55,62.5,39.25264550264551,0,4
+2027 code-ready adaptation — v3,L2 Practitioner — Supervise agents,2,,16,8,6.916666666666666,8,12.716666666666667,14.75,27.46666666666667,56.666666666666664,49.85449735449736,0,3
+2027 code-ready adaptation — v3,L3 Expert — Build and evaluate agents,3,,11,24,16.71666666666667,9,29.433333333333337,23.75,53.18333333333334,47.22222222222222,53.70851370851371,0,2
+2027 code-ready adaptation — v3,GRC — agent supervision,2,ai-governance,6,4,3.6833333333333336,6,16.4,20.75,37.15,66.66666666666666,52.96428571428572,0,2
+2027 code-ready adaptation — v3,GRC — agent building,3,ai-governance,6,4,3.6833333333333336,6,33.116666666666674,29.75,62.866666666666674,66.66666666666666,55.97883597883598,0,1
+2027 code-ready adaptation — v3,Leadership — AI-assisted work,1,leadership; vendor-evaluation,10,4,1,6,6.8,12.75,19.55,31.746031746031743,37.27954144620811,2,5
+2027 code-ready adaptation — v3,Agent incident response,2,incident-response,6,4,0,4,12.716666666666667,18.75,31.46666666666667,11.11111111111111,45.980158730158735,2,5
+2027 code-ready adaptation — v3,Agent forensics and investigation,2,incident-response; agent-forensics,9,4,2,4,14.716666666666667,18.75,33.46666666666667,16.666666666666664,44.25324675324674,3,6
+2027 code-ready adaptation — v3,Threat intelligence & detection — AI threat landscape,2,threat-intelligence,1,4,2,2,14.716666666666667,16.75,31.46666666666667,66.66666666666666,49.7663139329806,0,3
+2027 code-ready adaptation — v3,"DLP, classification & AI risk",2,ai-governance,6,4,3.6833333333333336,6,16.4,20.75,37.15,66.66666666666666,52.96428571428572,0,2
+2027 code-ready adaptation — v3,Governance & assurance,2,ai-governance; agent-assurance,8,5,4.683333333333334,4,17.4,18.75,36.15,47.22222222222222,50.67460317460317,1,3
+2027 code-ready adaptation — v3,Agent testing and containment,2,agent-testing,7,4,3,4,15.716666666666667,18.75,34.46666666666667,33.33333333333333,46.85064935064936,3,6
+2027 code-ready adaptation — v3,Advanced agent red-teaming,2,agent-testing; advanced-redteam,10,4,3,4,15.716666666666667,18.75,34.46666666666667,30.0,46.24458874458875,3,6
+2027 code-ready adaptation — v3,Agent exposure management,2,exposure-management,6,4,3.05,4,15.766666666666666,18.75,34.516666666666666,50.0,50.34523809523809,1,4
+2027 code-ready adaptation — v3,AI code-analysis engineering,3,code-analysis,7,4,1.0666666666666667,4,30.500000000000004,27.75,58.25,28.57142857142857,52.539682539682545,2,4
+2027 code-ready adaptation — v3,Agent security architecture,3,ai-security; agent-architecture,15,4.25,4.183333333333334,4,33.616666666666674,27.75,61.366666666666674,60.18518518518518,55.07122507122507,0,2
+2027 code-ready adaptation — v3,Security architecture & engineering — agent infrastructure,3,agent-engineering,3,4,1.9666666666666668,4,31.400000000000006,27.75,59.150000000000006,77.77777777777779,54.466089466089464,0,2
+2027 code-ready adaptation — v3,AI security design and remediation,2,ai-security,8,4,2.183333333333333,4,14.9,18.75,33.65,62.5,51.595238095238095,0,3
+2027 code-ready adaptation — v3,Workflow transformation and adoption,2,workflow-transformation,5,4,0,4,12.716666666666667,18.75,31.46666666666667,13.333333333333334,46.20238095238096,3,6
+2027 code-ready adaptation — v3,Agent identity operations — AI-assisted work,1,identity-operations,6,4,3,4,8.8,10.75,19.55,38.88888888888889,44.30272108843537,0,3
+2027 code-ready adaptation — v3,Agent identity integration and design,1,identity-operations; identity-integration,10,4,3,6,8.8,12.75,21.55,30.0,44.62018140589569,0,3
+2027 code-ready adaptation — v3,Strategy & tool selection,1,leadership; vendor-evaluation,10,4,1,6,6.8,12.75,19.55,31.746031746031743,37.27954144620811,2,5
+2027 coached no-code adaptation — v3,Foundation — common knowledge,0,,29,4,3.8,4.75,3.8,4.75,8.55,27.936507936507937,27.936507936507937,5,5
+2027 coached no-code adaptation — v3,L1 Entry — Work with AI assistance,1,,8,2,1,2,4.8,6.75,11.55,41.66666666666667,31.812169312169313,0,5
+2027 coached no-code adaptation — v3,L2 Practitioner — Supervise agents,2,,16,8,4.316666666666666,11,9.116666666666667,17.75,26.866666666666667,41.666666666666664,40.8068783068783,4,7
+2027 coached no-code adaptation — v3,L3 Expert — Build and evaluate agents,3,,11,24,0,16,9.116666666666667,33.75,42.86666666666667,6.666666666666667,34.599567099567096,5,12
+2027 coached no-code adaptation — v3,GRC — agent supervision,2,ai-governance,6,4,3.6833333333333336,6,12.8,23.75,36.55,66.66666666666666,45.48809523809524,0,5
+2027 coached no-code adaptation — v3,GRC — agent building,3,ai-governance,6,4,3.6833333333333336,6,12.8,39.75,52.55,66.66666666666666,39.48082010582011,0,10
+2027 coached no-code adaptation — v3,Leadership — AI-assisted work,1,leadership; vendor-evaluation,10,4,1,6,5.8,12.75,18.55,31.746031746031743,32.31922398589065,2,6
+2027 coached no-code adaptation — v3,Agent incident response,2,incident-response,6,4,0,4,9.116666666666667,21.75,30.866666666666667,11.11111111111111,37.83730158730159,2,9
+2027 coached no-code adaptation — v3,Agent forensics and investigation,2,incident-response; agent-forensics,9,4,2,4,11.116666666666667,21.75,32.86666666666667,16.666666666666664,37.71645021645021,3,10
+2027 coached no-code adaptation — v3,Threat intelligence & detection — AI threat landscape,2,threat-intelligence,1,4,2,2,11.116666666666667,19.75,30.866666666666667,66.66666666666666,41.24779541446208,0,7
+2027 coached no-code adaptation — v3,"DLP, classification & AI risk",2,ai-governance,6,4,3.6833333333333336,6,12.8,23.75,36.55,66.66666666666666,45.48809523809524,0,5
+2027 coached no-code adaptation — v3,Governance & assurance,2,ai-governance; agent-assurance,8,5,4.683333333333334,4,13.8,21.75,35.55,47.22222222222222,43.87806637806638,1,6
+2027 coached no-code adaptation — v3,Agent testing and containment,2,agent-testing,7,4,3,4,12.116666666666667,21.75,33.86666666666667,33.33333333333333,43.08441558441559,3,7
+2027 coached no-code adaptation — v3,Advanced agent red-teaming,2,agent-testing; advanced-redteam,10,4,3,4,12.116666666666667,21.75,33.86666666666667,30.0,38.84199134199134,3,10
+2027 coached no-code adaptation — v3,Agent exposure management,2,exposure-management,6,4,3.05,4,12.166666666666666,21.75,33.916666666666664,50.0,42.67857142857142,1,8
+2027 coached no-code adaptation — v3,AI code-analysis engineering,3,code-analysis,7,4,1.0666666666666667,4,10.183333333333334,37.75,47.93333333333334,28.57142857142857,36.74272486772487,2,13
+2027 coached no-code adaptation — v3,Agent security architecture,3,ai-security; agent-architecture,15,4.25,4.183333333333334,4,13.3,37.75,51.05,60.18518518518518,39.41493691493691,0,11
+2027 coached no-code adaptation — v3,Security architecture & engineering — agent infrastructure,3,agent-engineering,3,4,1.9666666666666668,4,11.083333333333334,37.75,48.833333333333336,77.77777777777779,37.55411255411255,0,11
+2027 coached no-code adaptation — v3,AI security design and remediation,2,ai-security,8,4,2.183333333333333,4,11.3,21.75,33.05,62.5,44.11904761904763,0,6
+2027 coached no-code adaptation — v3,Workflow transformation and adoption,2,workflow-transformation,5,4,0,4,9.116666666666667,21.75,30.866666666666667,13.333333333333334,38.05952380952381,3,10
+2027 coached no-code adaptation — v3,Agent identity operations — AI-assisted work,1,identity-operations,6,4,3,4,7.8,10.75,18.55,38.88888888888889,41.32653061224489,0,3
+2027 coached no-code adaptation — v3,Agent identity integration and design,1,identity-operations; identity-integration,10,4,3,6,7.8,12.75,20.55,30.0,41.64399092970522,0,3
+2027 coached no-code adaptation — v3,Strategy & tool selection,1,leadership; vendor-evaluation,10,4,1,6,5.8,12.75,18.55,31.746031746031743,32.31922398589065,2,6
+2027 coverage benchmark — v3,Foundation — common knowledge,0,,29,4,3.6833333333333336,4.75,3.6833333333333336,4.75,8.433333333333334,43.33333333333334,43.33333333333334,1,1
+2027 coverage benchmark — v3,L1 Entry — Work with AI assistance,1,,8,2,2,2,5.683333333333334,6.75,12.433333333333334,66.66666666666666,51.1904761904762,0,1
+2027 coverage benchmark — v3,L2 Practitioner — Supervise agents,2,,16,8,7.8999999999999995,8,13.583333333333332,14.75,28.333333333333332,58.333333333333336,56.08465608465608,0,0
+2027 coverage benchmark — v3,L3 Expert — Build and evaluate agents,3,,11,24,5.85,9,19.43333333333333,23.75,43.18333333333333,68.33333333333333,59.98917748917748,0,0
+2027 coverage benchmark — v3,GRC — agent supervision,2,ai-governance,6,4,3.6833333333333336,6,17.266666666666666,20.75,38.016666666666666,66.66666666666666,57.14285714285714,0,0
+2027 coverage benchmark — v3,GRC — agent building,3,ai-governance,6,4,3.6833333333333336,6,23.116666666666664,29.75,52.86666666666666,66.66666666666666,60.54563492063492,0,0
+2027 coverage benchmark — v3,Leadership — AI-assisted work,1,leadership; vendor-evaluation,10,4,3.8333333333333335,6,9.516666666666667,12.75,22.266666666666666,49.20634920634921,51.05820105820107,0,1
+2027 coverage benchmark — v3,Agent incident response,2,incident-response,6,4,0,4,13.583333333333332,18.75,32.33333333333333,11.11111111111111,51.58730158730158,2,2
+2027 coverage benchmark — v3,Agent forensics and investigation,2,incident-response; agent-forensics,9,4,2,4,15.583333333333332,18.75,34.33333333333333,16.666666666666664,48.917748917748916,3,3
+2027 coverage benchmark — v3,Threat intelligence & detection — AI threat landscape,2,threat-intelligence,1,4,2,2,15.583333333333332,16.75,32.33333333333333,66.66666666666666,56.261022927689595,0,0
+2027 coverage benchmark — v3,"DLP, classification & AI risk",2,ai-governance,6,4,3.6833333333333336,6,17.266666666666666,20.75,38.016666666666666,66.66666666666666,57.14285714285714,0,0
+2027 coverage benchmark — v3,Governance & assurance,2,ai-governance; agent-assurance,8,5,4.683333333333334,4,18.266666666666666,18.75,37.016666666666666,47.22222222222222,54.47330447330446,1,1
+2027 coverage benchmark — v3,Agent testing and containment,2,agent-testing,7,4,0.5833333333333334,4,14.166666666666666,18.75,32.916666666666664,33.33333333333333,51.948051948051955,3,3
+2027 coverage benchmark — v3,Advanced agent red-teaming,2,agent-testing; advanced-redteam,10,4,3,4,16.583333333333332,18.75,35.33333333333333,30.0,51.34199134199133,3,3
+2027 coverage benchmark — v3,Agent exposure management,2,exposure-management,6,4,3.05,4,16.633333333333333,18.75,35.38333333333333,50.0,55.47619047619048,1,1
+2027 coverage benchmark — v3,AI code-analysis engineering,3,code-analysis,7,4,1.0666666666666667,4,20.499999999999996,27.75,48.25,28.57142857142857,58.296957671957664,2,2
+2027 coverage benchmark — v3,Agent security architecture,3,ai-security; agent-architecture,15,4.25,4.183333333333334,4,23.616666666666664,27.75,51.36666666666666,62.037037037037045,61.40313390313389,0,0
+2027 coverage benchmark — v3,Security architecture & engineering — agent infrastructure,3,agent-engineering,3,4,1.9666666666666668,4,21.4,27.75,49.15,77.77777777777779,59.686147186147174,0,0
+2027 coverage benchmark — v3,AI security design and remediation,2,ai-security,8,4,2.6666666666666665,4,16.249999999999996,18.75,35,66.66666666666666,58.57142857142856,0,0
+2027 coverage benchmark — v3,Workflow transformation and adoption,2,workflow-transformation,5,4,1.8333333333333335,4,15.416666666666666,18.75,34.166666666666664,73.33333333333333,57.80952380952381,0,0
+2027 coverage benchmark — v3,Agent identity operations — AI-assisted work,1,identity-operations,6,4,3,4,8.683333333333334,10.75,19.433333333333334,38.88888888888889,49.43310657596372,0,1
+2027 coverage benchmark — v3,Agent identity integration and design,1,identity-operations; identity-integration,10,4,3.25,6,8.933333333333334,12.75,21.683333333333334,33.33333333333333,50.79365079365079,0,0
+2027 coverage benchmark — v3,Strategy & tool selection,1,leadership; vendor-evaluation,10,4,3.8333333333333335,6,9.516666666666667,12.75,22.266666666666666,49.20634920634921,51.05820105820107,0,1

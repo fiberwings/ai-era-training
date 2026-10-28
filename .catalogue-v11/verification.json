@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "unmodifiedNativeParts": 28,
+  "unchangedInputCells": 622408,
+  "existingFormulasPreserved": true,
+  "formulaCount": 461493,
+  "formulaErrors": [],
+  "resources": 528,
+  "activeOutcomes": 140,
+  "retiredOutcomes": [
+    "N5.2"
+  ],
+  "assessedScores": 57260,
+  "unassessedRows": 280,
+  "courseNeedResultsReconciled": 9453,
+  "N8AndN5_4Unchanged": true,
+  "unchangedOutcomeEvidencePreserved": true,
+  "reassessments": 1644,
+  "workbookSha256": "bcd2a5400a708d32fec79cf22c97840c5d131de1405e7a6c2ce97cec2e686e09",
+  "catalogueVersion": "6f245643cc5bf083",
+  "nativeRecalculation": {
+    "engine": "LibreOffice from uncached copy; only caches transferred into native workbook",
+    "formulas": 461493,
+    "errors": []
+  }
+}

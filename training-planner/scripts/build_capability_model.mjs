@@ -1,7 +1,7 @@
-// Generate the readable model and its complete crosswalk from the unchanged
+// Generate the readable model and its complete crosswalk from the versioned
 // assessed outcomes plus the versioned applicability overlay.
 import {readFile,writeFile} from 'node:fs/promises';
-import {MODEL_VERSION,LEVELS,SPECIALISMS,NEED_TITLES,crosswalk,requirementPlacement} from '../public/capability-model.js';
+import {MODEL_VERSION,MODEL_REVISION,RETIRED_OUTCOMES,LEVELS,SPECIALISMS,NEED_TITLES,crosswalk,requirementPlacement} from '../public/capability-model.js';
 import {ROLE_FAMILIES,ROLE_NUMBERING_NOTE,TOOL_TRAINING_EXAMPLES,NEED_DOMAINS} from '../public/model-explanation.js';
 const data=JSON.parse(await readFile(new URL('../public/data/catalogue.json',import.meta.url)));
 const rows=crosswalk(data), ids=new Set(rows.map(r=>r.id));
@@ -12,7 +12,7 @@ const cell=s=>String(s??'').replaceAll('|','\\|').replaceAll('\n',' ');
 const table=(headers,rs)=>[headers,headers.map(()=>'---'),...rs].map(r=>'| '+r.map(cell).join(' | ')+' |').join('\n');
 const onePage=`# Agentic-Era Workforce Capability Model
 
-**Version ${MODEL_VERSION} · Updated 18 October 2026**
+**Version ${MODEL_VERSION}, revision ${MODEL_REVISION} · Updated 18 October 2026**
 
 ## The model in one page
 
@@ -133,31 +133,43 @@ Tool resources can be selected manually, including unassessed resources. Product
 
 ### Evidence and planning rules
 
-The detailed outcome wording, IDs, must-have flags, original need groups, source references and course assessments are retained. The new names and applicability are a separate overlay. Foundation replaces Base; roles replaces macro roles; role specialisms replaces role extras; shared agentic capabilities includes both knowledge and practice; tool training replaces tool track in the explanation. Historical workbook sheet names and source labels remain available for traceability.
+The approved must-have review is recorded in catalogue v11. N5.1 merges social engineering and deepfakes; N5.2 is retired with a crosswalk to N5.1; N5.8 adds a separate cyber risk overview. N5.4 retains its bank-specific attack examples. N6.4 is Accountability and N8 retains Skill terminology. Substantively changed outcomes are reassessed; unchanged outcomes retain their evidence. The 23 need groups retain equal weight. Foundation replaces Base; roles replaces macro roles; role specialisms replaces role extras; shared agentic capabilities includes both knowledge and practice; tool training replaces tool track in the explanation. Historical workbook sheet names and source labels remain available for traceability.
 
 Each outcome uses the highest recorded score across selected resources (0–3), with no duplicate coverage credit. Each original need keeps equal weight in the cohort score. Full means every applicable outcome scores 3; Strong requires at least 70% and no must-have outcome at zero; Partial starts at 30%; otherwise coverage is Weak. Missing assessment remains distinct from an explicit zero. Planned internal work adds time but does not create assessed course coverage.
 
 Course coverage is syllabus evidence, not demonstrated competence or operational permission. Shared courses and internal items are counted once across inherited learning. Changes to profile applicability require fresh coverage calculations and review of course selections. Historical plans retain their original applicability until a new profile-based plan is explicitly created.
 
-The planner's new starter budgets are provisional: Foundation 2h + L1 2h preserve the previous combined 4h; L2 adds 8h, L3 adds 24h and each role cohort has a 4h addition budget. These are editable planning constraints, not claims about the time needed to become competent. Tool time and internal practice must also be planned.
+A blank workshop draft starts with provisional budgets of Foundation 2h, L1 2h, L2 8h, L3 24h and 4h per role addition. The published annual recommendation uses its separately configured budgets, including Foundation 2h. These are editable planning constraints, not claims about the time needed to become competent. Tool time and internal practice must also be planned.
+
+### Essential outcomes and depth
+
+A must-have is essential to achieving the learning objective safely and effectively, at the depth appropriate to the person's work. Foundation learners recognise risks, explain examples and know the precaution or escalation. Practitioners apply precautions, check results and intervene. Builders and relevant specialists design, test and improve controls. N2 agent anatomy and safety components are conceptual at Foundation.
+
+N3 explains AI limitations; N4 provides responsible-use training suitable for any bank employee; N5 provides cyber-focused security risk and threat awareness; N12 provides specialist security design and threat modelling. N5.8 is the overall risk map, N5.4 shows attacks on the bank's AI, and N12.1 develops detailed threat modelling. Deepfakes are a brief impersonation example within N5.1, not a standalone deep-dive objective. For cyber staff, a short awareness segment on recognising social engineering, independent verification and escalation is sufficient at Foundation; a full social-engineering course is excessive. The annual plan allocates 10 minutes within the existing bank session. Trainer references for N5.8 include the [OWASP LLM risk overview](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) and [OWASP agentic application risks](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/); the learner outcome is recognition and an appropriate response, not memorisation of the lists.
+
+N11.3 is must-have when automated judges are used. R6.1.2 is must-have when assurance itself uses AI. These activities are explicit profile choices in the planner; the outcomes remain available for broader learning. R3.1.3 belongs to multi-agent testing, N14.7 to leadership, and R9.1.2 delegated-token depth to identity integration rather than routine identity operations. The workbook's generic course coverage includes conditional must-haves when assessing the full need; profile planning applies the actual responsibility and activity choices.
+
+The Strong band requires at least 70% coverage and no applicable must-have at zero. A mention can clear that zero gate; it does not demonstrate competence. Outcomes below 3 remain completion gaps. Internal exercises earn no coverage until assessed.
 
 ## Detailed learning needs and outcomes
 
-The statements below preserve the assessed source outcomes. Their **placement** is the new applicability, not the source workbook's historical level. Product and implementation terminology in an outcome describes its content, not a separate level or permission. Unchanged wording retains its existing evidence; a future substantive rewrite must be reassessed.
+The statements below are the current assessed outcomes from catalogue v11. Their **placement** is the new applicability, not the source workbook's historical level. Product and implementation terminology in an outcome describes its content, not a separate level or permission. Unchanged wording retains its existing evidence; a future substantive rewrite must be reassessed.
 `;
 const details=data.needs.map(n=>`\n### ${n.id} — ${NEED_TITLES[n.id]||n.title}\n\n**Content category: ${NEED_DOMAINS[n.id].kind}.** ${NEED_DOMAINS[n.id].reason}\n\n${table(['Outcome ID','Learning outcome','Placement'],rows.filter(r=>r.need===n.id).map(r=>[r.id+(r.core?' · must-have':''),`**${r.title}.** ${r.description}`,requirementPlacement(r)]))}\n`).join('');
 const appendix=`
 ## Crosswalk and compatibility
 
+Retired outcome **N5.2 — Deepfakes** is merged into **N5.1 — AI-enabled social engineering and impersonation**. Original assessments are historical evidence, not automatically valid scores for the merged outcome.
+
 All ${rows.length} active outcomes across ${data.needs.length} scored needs are mapped below. Existing need IDs continue to determine scoring groups. Source levels are retained only as historical metadata; they no longer gate role applicability.
 
 ${table(['Outcome ID','Original need','Original level','New component','Shared level','Role specialisms'],rows.map(r=>[r.id,r.need,r.sourceLevel,r.component,r.agenticLevel===null?'—':r.agenticLevel===0?'Foundation':'L'+r.agenticLevel,r.specialisms.map(id=>SPECIALISMS.find(s=>s.id===id).name).join('; ')||'—']))}
 
-Machine-readable crosswalk: [JSON](training-planner/public/data/capability-crosswalk.json) · [CSV](Capability_Model_Crosswalk.csv). Previous model: [Version 1](model-history/Agentic-Era_Workforce_Capability_Model-v1.md). Assessment source: ${data.filename}, snapshot ${data.version}. Assessment wording and evidence remain unchanged; the workbook's role-number labels follow the current model. Archived versions retain their historical numbering.
+Machine-readable crosswalk: [JSON](training-planner/public/data/capability-crosswalk.json) · [CSV](Capability_Model_Crosswalk.csv). Previous model: [Version 1](model-history/Agentic-Era_Workforce_Capability_Model-v1.md). Assessment source: ${data.filename}, snapshot ${data.version}. Catalogue v11 records the approved revisions and fresh assessments. Retired N5.2 maps to revised N5.1; historical scores remain in the archived catalogue and retired workbook rows. The workbook's role-number labels follow the current model. Archived versions retain their historical numbering.
 `;
 await writeFile(new URL('../../Agentic-Era_Workforce_Capability_Model.md',import.meta.url),onePage+guidance+details+appendix);
-await writeFile(new URL('../public/data/capability-crosswalk.json',import.meta.url),JSON.stringify({modelVersion:MODEL_VERSION,catalogueVersion:data.version,requirements:rows},null,2)+'\n');
+await writeFile(new URL('../public/data/capability-crosswalk.json',import.meta.url),JSON.stringify({modelVersion:MODEL_VERSION,modelRevision:MODEL_REVISION,catalogueVersion:data.version,retiredOutcomes:RETIRED_OUTCOMES,requirements:rows},null,2)+'\n');
 const csvCell=s=>'"'+String(s??'').replaceAll('"','""')+'"';
-const csv=[['Outcome ID','Original need','Original level','Original rank','New component','Shared level','Role specialisms','Title','Description','Must-have','Source sheet','Source row'],...rows.map(r=>[r.id,r.need,r.sourceLevel,r.sourceRank,r.component,r.agenticLevel===null?'':r.agenticLevel===0?'Foundation':'L'+r.agenticLevel,r.specialisms.join('; '),r.title,r.description,r.core,r.source.sheet,r.source.row])].map(r=>r.map(csvCell).join(',')).join('\r\n');
+const csv=[['Outcome ID','Original need','Original level','Original rank','New component','Shared level','Role specialisms','Title','Description','Must-have','Essential when','Source sheet','Source row'],...rows.map(r=>[r.id,r.need,r.sourceLevel,r.sourceRank,r.component,r.agenticLevel===null?'':r.agenticLevel===0?'Foundation':'L'+r.agenticLevel,r.specialisms.join('; '),r.title,r.description,r.core,r.core?(r.coreCondition||'Always when assigned'):'',r.source.sheet,r.source.row])].map(r=>r.map(csvCell).join(',')).join('\r\n');
 await writeFile(new URL('../../Capability_Model_Crosswalk.csv',import.meta.url),'\uFEFF'+csv+'\r\n');
 console.log(`Model v${MODEL_VERSION}: ${rows.length} outcomes, ${data.needs.length} unchanged scoring groups, ${SPECIALISMS.length} responsibility packages.`);

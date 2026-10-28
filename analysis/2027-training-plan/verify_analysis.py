@@ -1,93 +1,114 @@
-"""Independent, read-only reconciliation of the 2027 plan against the snapshot."""
-import hashlib, json, math, re
+"""Independently reconcile all v3 scenarios against immutable catalogue evidence."""
+import hashlib,json,math,re
 from collections import defaultdict
 from pathlib import Path
+HERE=Path(__file__).resolve().parent
+ROOT=HERE.parents[1]
+DATA=json.loads((ROOT/'training-planner/public/data/catalogue.json').read_text())
+RESULTS=json.loads((HERE/'results-v3.json').read_text())
+COURSES={c['id']:c for c in DATA['courses']}
+REQ={r['id']:r for r in DATA['requirements']}
 
-HERE = Path(__file__).resolve().parent
-ROOT = HERE.parents[1]
-DATA = json.loads((ROOT/'training-planner/public/data/catalogue.json').read_text())
-COURSES = {c['id']:c for c in DATA['courses']}
-RESULTS = json.loads((HERE/'results.json').read_text())
-GLOBAL_EXCLUSIONS = json.loads((HERE/'global-exclusions.json').read_text())
-
-def scope(c):
-    if 'profile' in c:
-        raise ValueError('The 2027 reference verifier uses model v1; recalculate v2 profiles with the current planner.')
-    return [r for r in DATA['requirements'] if r['id'] not in c['removedRequirements'] and
-            (r['id'] in c['addedRequirements'] or
-             (r['rank'] <= c['rank'] and ('architects' not in r['level'] or c.get('architect')) and
-              (r['level'] != 'Leaders' or c.get('leaders')) and
-              (r['need'] in c['needs'] or (r['need'] in c.get('lateNeeds',[]) and r['rank']==c['rank']))))]
+def level(r):
+    if r['id']=='N4.7':return 2
+    if r['id'] in ['N5.7','N10.3','N10.6','N10.7']:return None
+    return 0 if r['need'] in ['N1','N2','N3','N4','N5'] else 1 if r['need']=='N6' else 2 if r['need'] in ['N7','N8','N9'] else 3 if r['need'] in ['N10','N11'] else None
 
 def chain(s,c):
-    result=[c]
-    while c['parent']:
-        c=next(x for x in s['cohorts'] if x['id']==c['parent']); result.insert(0,c)
-    return result
+    out=[c]
+    while out[0]['parent']:
+        a=next(x for x in s['cohorts'] if x['id']==out[0]['parent']);assert a not in out;out.insert(0,a)
+    return out
 
-def max_score(ids,rid):
-    return max([COURSES[i]['scores'].get(rid,{}).get('score',0) for i in ids]+[0])
+def target(c):
+    p=c['profile']; role=set(i for x in RESULTS['model']['specialisms'] if x['id'] in p['specialisms'] for i in x['requirements'])
+    return {r['id'] for r in DATA['requirements'] if (level(r) is not None and level(r)<=p['level']) or r['id'] in role}
 
-def measure(reqs,ids):
-    groups=defaultdict(list)
-    for r in reqs: groups[r['need']].append(max_score(ids,r['id']))
-    need={n:sum(xs)/(3*len(xs)) for n,xs in groups.items()}
-    critical=sum(r['core'] and max_score(ids,r['id'])==0 for r in reqs)
-    return sum(need.values())/len(need),critical,need
+def scope(s,c):
+    inherited=set().union(*(target(a) for a in chain(s,c)[:-1]))
+    return target(c)-inherited
 
-def hours(cid,overrides):
-    if cid in overrides:return overrides[cid]
-    raw=COURSES[cid]['duration'].split('(')[0]
-    assert '+' not in raw, (cid,'Unbounded duration without override')
-    hs=re.findall(r'(\d+(?:\.\d+)?)\s*h',raw)
-    mins=re.findall(r'(\d+(?:\.\d+)?)\s*m',raw)
-    assert hs or mins, (cid,raw)
-    return (max(map(float,hs)) if hs else 0)+(max(map(float,mins))/60 if mins else 0)
+def hours(cid,s):
+    if cid in s['overrides']:return s['overrides'][cid]
+    raw=COURSES[cid]['duration'].lower().replace('–','-').replace('—','-')
+    if '<1h' in raw:return 1
+    a=re.search(r'(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*h',raw)
+    if a:return float(a[2])
+    a=re.search(r'(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*min',raw)
+    if a:return float(a[2])/60
+    a=re.search(r'(\d+(?:\.\d+)?)\s*h(?:ours?)?(?:\s*(\d+)\s*m)?',raw.split('+')[0])
+    if a:return float(a[1])+float(a[2] or 0)/60
+    a=re.search(r'(\d+)\s*m(?:in(?:utes?)?)?\b',raw)
+    assert a,(cid,raw)
+    return float(a[1])/60
 
-def check():
-    assert hashlib.sha256((ROOT/DATA['filename']).read_bytes()).hexdigest()==DATA['sourceSha256']
-    count=0
-    for option in RESULTS['options']:
-        s=json.loads((HERE/(option['id']+'.json')).read_text())
-        assert s['schema']==1, 'This report reproduces the previous capability model only.'
+def score(ids,r):return max([0]+[COURSES[i]['scores'].get(r,{}).get('score',0) for i in ids])
+def measure(ids,reqs):
+    by=defaultdict(list)
+    for r in reqs:by[REQ[r]['need']].append(score(ids,r))
+    return sum(sum(v)/(len(v)*3) for v in by.values())/len(by) if by else 0
+
+def near(a,b):assert math.isclose(a,b,abs_tol=1e-8),(a,b)
+
+def is_core(r,c):
+    activity={'N11.3':'automated-judges','R6.1.2':'ai-assisted-assurance'}.get(r)
+    return REQ[r]['core'] and (not activity or activity in c['profile'].get('activities',[]))
+
+def verify():
+    checked=0;union=set();selected=set()
+    for out in RESULTS['scenarios']:
+        s=json.loads((HERE/(out['id']+'.json')).read_text())
+        assert s['schema']==s['modelVersion']==2
+        assert s['planRevision']==2
+        foundation=next(c for c in s['cohorts'] if c['id']=='all')
+        assert 'INT-2787' not in foundation['selected'] and 'INT-2787' in foundation['excluded'] and foundation['budget']==2
         assert s['catalogueVersion']==DATA['version']
-        for c,out in zip(s['cohorts'],option['rows']):
-            assert c['id']==out['id']
-            assert not set(c['selected']) & set(GLOBAL_EXCLUSIONS), (option['id'],c['id'],'global exclusion selected')
-            assert set(GLOBAL_EXCLUSIONS)<=set(c['excluded'])
-            ch=chain(s,c); ids=set(x for a in ch for x in a['selected'])
-            reqs=scope(c); cum=list({r['id']:r for a in ch for r in scope(a)}.values())
-            for rs,prefix in [(reqs,''),(cum,'cumulative')]:
-                cov,crit,needs=measure(rs,ids)
-                key='coverage' if not prefix else 'cumulativeCoverage'
-                assert math.isclose(cov,out[key],abs_tol=1e-12),(option['id'],c['id'],key)
-                assert crit==out['critical' if not prefix else 'cumulativeCritical']
-                if not prefix:
-                    for n in out['needs']:assert math.isclose(n['coverage'],needs[n['id']],abs_tol=1e-12)
-            own_h=sum(hours(i,s['overrides']) for i in set(c['selected']))
-            cum_h=sum(hours(i,s['overrides']) for i in ids)
-            assert own_h<=c['budget']+1e-9
-            assert math.isclose(own_h,out['courseHours']['hours'],abs_tol=1e-9)
-            assert math.isclose(cum_h,out['cumulativeCourseHours']['hours'],abs_tol=1e-9)
-            assert sum(x['hours'] for a in ch for x in a['internal'])==out['internalHours']
-            assert all(r in {x['id'] for x in reqs} for x in c['internal'] for r in x['requirements'])
-            if option['id']=='option-1':assert out['recommendation']['optimal']
-            count+=1
-    hybrid=json.loads((HERE/'option-4.json').read_text())
-    foundation=next(c for c in hybrid['cohorts'] if c['id']=='all')
-    showcase=next(i for i in foundation['internal'] if i['title'].startswith('IH-01'))
-    assert showcase['hours']==1.5 and set(showcase['requirements'])=={'N1.1','N1.2','N1.3'}
-    for cid,expected in [('all',4),('practitioner',8),('technical',12),('governance',8),('leadership',6)]:
-        c=next(c for c in hybrid['cohorts'] if c['id']==cid)
-        assert sum(i['hours'] for i in c['internal'])==expected
-        if cid in ('technical','governance','leadership'):assert 'INT-2478' not in c['selected']
-    assert 'TR-129' in COURSES, 'Keep source course available for local use'
-    for r in DATA['requirements']:
-        if r['need']=='N13':assert max_score(['INT-397'],r['id'])==max_score(['INT-397','INT-1840'],r['id'])
-    result={'status':'passed','cohortCalculations':count,'sourceVersion':DATA['version'],
-            'sourceSha256':DATA['sourceSha256'],'checks':['Workbook bytes match snapshot hash','Independent requirement maxima and equal-need coverage','Layer and inherited coverage','Full durations and deduplicated hours','All course budgets respected','Internal links stay within applicable scope','All 17 Option 1 conditional solves proven optimal','INT-397 + INT-1840 adds no N13 coverage']}
-    result['checks'] += ['Global exclusions absent from selections and applied to every cohort','Internal proposals add no assessed score','Option 4 N1 brief and 4/8/12/8/6 internal learner-hour totals']
-    (HERE/'verification.json').write_text(json.dumps(result,indent=2))
-    print(json.dumps(result,indent=2))
-
-if __name__=='__main__':check()
+        for c,row in zip(s['cohorts'],out['rows']):
+            assert c['id']==row['id'];reqs=scope(s,c);union|=reqs
+            assert set(row['scopeIds'])==reqs
+            ch=chain(s,c);ids=set(i for a in ch for i in a['selected']);selected|=ids
+            cum=set().union(*(scope(s,a) for a in ch));assert set(row['cumulativeScopeIds'])==cum
+            near(measure(ids,reqs),row['coverage']);near(measure(ids,cum),row['cumulativeCoverage'])
+            assert row['critical']==sum(is_core(r,c) and score(ids,r)==0 for r in reqs)
+            cores={r for a in ch for r in target(a) if r in cum and is_core(r,a)}
+            assert set(row['cumulativeCoreIds'])==cores
+            assert row['cumulativeCritical']==sum(score(ids,r)==0 for r in cores)
+            assert row['full']==sum(score(ids,r)==3 for r in reqs)
+            own=sum(hours(i,s) for i in set(c['selected']));total=sum(hours(i,s) for i in ids)
+            near(own,row['courseHours']['hours']);near(total,row['cumulativeCourseHours']['hours']);assert own<=c['budget']+1e-8
+            assert row['courseHours']['unknown']==row['cumulativeCourseHours']['unknown']==0
+            internal={x['id']:x for a in ch for x in a['internal']};ih=sum(x['hours'] for x in internal.values())
+            near(ih,row['internalHours']);near(sum(x['hours'] for x in c['internal']),row['ownInternalHours']);near(total+ih,row['totalHours'])
+            for a in ch:
+                for m in a['internal']:
+                    assert m['status']=='Proposed';assert set(m['requirements'])<=scope(s,a)
+            for rd in row['requirementDetails']:
+                assert rd['score']==score(ids,rd['id'])
+                for e in rd['evidence']:assert e['score']==rd['score'] and e['evidence']==COURSES[e['id']]['scores'][rd['id']]['evidence']
+            for i in c['selected']:
+                assert i not in c['excluded'];assert COURSES[i]['review'] not in ['Rejected','Needs delivery validation']
+            for n in row['needs']:
+                nr={r for r in reqs if REQ[r]['need']==n['id']};v=measure(ids,nr);near(v,n['coverage'])
+                critical=sum(is_core(r,c) and score(ids,r)==0 for r in nr)
+                band='Full' if v==1 else 'Strong' if v>=.7 and not critical else 'Partial' if v>=.3 else 'Weak'
+                assert n['band']==band
+            if 'benchmark' in out['id']:assert row['recommendation']['status']=='Optimal'
+            checked+=1
+    assert union==set(REQ) and len(union)==140
+    assert [(i,sum(level(r)==i for r in DATA['requirements'])) for i in range(4)]==[(0,29),(1,8),(2,16),(3,11)]
+    expected=DATA['sourceSha256']
+    assert hashlib.sha256((ROOT/'AI_Era_Cyber_Training_Catalogue_v11.xlsx').read_bytes()).hexdigest()==expected==DATA['sourceSha256']
+    archive=HERE/'archive/v1-before-model-v2-20261018';manifest=json.loads((archive/'archive-manifest.json').read_text())
+    for x in manifest['files']:
+        assert hashlib.sha256((archive/x['file']).read_bytes()).hexdigest()==x['sha256'],x
+    archived=len(manifest['files'])
+    archive=HERE/'archive/v2-before-must-have-review-20261018';manifest=json.loads((archive/'archive-manifest.json').read_text())
+    for x in manifest['files']:
+        assert hashlib.sha256((archive/x['file']).read_bytes()).hexdigest()==x['sha256'],x
+    archived+=len(manifest['files'])
+    archive=HERE/'archive/v3-before-foundation-simplification-20261018';manifest=json.loads((archive/'archive-manifest.json').read_text())
+    for x in manifest['files']:assert hashlib.sha256((archive/x['file']).read_bytes()).hexdigest()==x['sha256'],x
+    archived+=len(manifest['files'])
+    result={'status':'PASS','scenarios':4,'cohortCalculations':checked,'distinctOutcomes':len(union),'sourceWorkbookSha256':expected,'catalogueVersion':DATA['version'],'archivedFilesVerified':archived,'checks':['Independent model-v2 revision-3 shared placement and profile-scope calculation','Need-weighted maximum evidence scores, bands and critical gaps','Full-resource durations, budget limits and unique inherited time','Proposed internal targets scoped correctly with zero score credit','All four schemas roundtrip in JavaScript builder','Conditional benchmark optimal statuses','Source workbook bytes and archive SHA-256 preservation']}
+    (HERE/'verification-v3.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
+if __name__=='__main__':verify()

@@ -1,7 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {createHash} from 'node:crypto';
 import highsLoader from 'highs';
 import {SPECIALISMS,sharedLevel,profileRequirements,crosswalk} from '../public/capability-model.js';
 import {scope,targetScope,cumulativeScope,selectedIds,recommendationCohort,invalidateRecommendations,syncNeeds} from '../public/cohorts.js';
@@ -12,11 +11,18 @@ const raw=readFileSync(new URL('../public/data/catalogue.json',import.meta.url))
 const data=JSON.parse(raw),course=id=>data.courses.find(c=>c.id===id),ids=rs=>rs.map(r=>r.id),get=(s,id)=>s.cohorts.find(c=>c.id===id);
 const legacy=JSON.parse(readFileSync(new URL('../scenario-history/default-scenario-v1.json',import.meta.url)));
 
-test('all 140 unchanged source outcomes have a complete crosswalk; source evidence is untouched',()=>{
- // Role ordering and source-file identity can change without changing assessment evidence.
- // This digest is pinned to the evidence before the authorised 18 October role-label edit.
- const evidence={requirements:data.requirements,courses:data.courses,thresholds:data.thresholds,needs:data.needs.map(({group,...need})=>need)};
- assert.equal(createHash('sha256').update(JSON.stringify(evidence)).digest('hex'),'d50387dd7372a3e3d7db7a50bdcaf0b6a00a9325baae5ad89941be45d6f7909f');
+test('approved v11 revisions retain every unaffected score and a complete 140-outcome crosswalk',()=>{
+ const prior=JSON.parse(readFileSync(new URL('../catalogue-history/d2604d12cdfe9509.json',import.meta.url)));
+ assert.deepEqual(data.thresholds,prior.thresholds);
+ const changed=new Set(['N5.1','N5.2','N5.8','R3.1.2','R4.1.3']);
+ for(const old of prior.courses){const current=course(old.id);assert.ok(current,old.id);
+  for(const [id,score] of Object.entries(old.scores))if(!changed.has(id))assert.deepEqual(current.scores[id],score,`${old.id}/${id}`);
+  for(const [id,score] of Object.entries(old.unassessed))if(!changed.has(id))assert.deepEqual(current.unassessed[id],score,`${old.id}/${id}`);
+ }
+ assert.ok(!data.requirements.some(r=>r.id==='N5.2'));
+ assert.ok(data.requirements.find(r=>r.id==='N5.8').core);
+ assert.equal(data.requirements.find(r=>r.id==='N6.4').title,'Accountability');
+ for(const r of prior.requirements.filter(r=>r.need==='N8'||r.id==='N5.4'))assert.deepEqual(data.requirements.find(x=>x.id===r.id),r);
  const rows=crosswalk(data),published=JSON.parse(readFileSync(new URL('../public/data/capability-crosswalk.json',import.meta.url)));
  assert.equal(rows.length,140);assert.deepEqual(published.requirements,rows);
  const known=new Set(ids(data.requirements));
@@ -32,6 +38,26 @@ test('foundation and levels have distinct additive scope, with safe building ret
  assert.ok(ids(l3).includes('N10.8'));assert.ok(ids(l3).includes('N11.1'));
  for(const id of ['N5.7','N10.3','N10.6','N10.7','N12.1','N13.1','N14.1'])assert.ok(!ids(cumulativeScope(data,s,get(s,'technical'))).includes(id),id);
  assert.equal(new Set([...foundation,...entry,...l2,...l3].map(r=>r.id)).size,64);
+});
+
+test('conditional essentials follow activities; delegated-token depth follows integration',()=>{
+ const s=createScenario(data),builder=get(s,'technical'),biso=get(s,'biso');
+ assert.equal(scope(data,builder,s).find(r=>r.id==='N11.3').core,false);
+ builder.profile.activities=['automated-judges'];
+ assert.equal(scope(data,builder,s).find(r=>r.id==='N11.3').core,true);
+ assert.equal(scope(data,biso,s).find(r=>r.id==='R6.1.2').core,false);
+ biso.profile.activities=['ai-assisted-assurance'];
+ assert.equal(scope(data,biso,s).find(r=>r.id==='R6.1.2').core,true);
+ assert.ok(!ids(targetScope(data,get(s,'iam'))).includes('R9.1.2'));
+ assert.ok(ids(targetScope(data,get(s,'iam-integration'))).includes('R9.1.2'));
+ assert.ok(scope(data,get(s,'iam'),s).find(r=>r.id==='R9.1.3').core);
+ assert.ok(ids(scope(data,get(s,'all'),s)).includes('N5.4'));
+ assert.ok(ids(scope(data,get(s,'all'),s)).includes('N5.8'));
+ const grc=get(s,'grc-builder');builder.profile.activities=[];grc.profile.activities=['automated-judges'];
+ assert.ok(cumulativeScope(data,s,grc).find(r=>r.id==='N11.3').core);
+ assert.equal(ids(cumulativeScope(data,s,grc)).filter(id=>id==='N11.3').length,1);
+ const old=structuredClone(s);delete old.modelRevision;assert.ok(validateScenario(old,data).some(x=>x.includes('Must-have applicability')));
+ assert.deepEqual(validateScenario(s,data),[]);
 });
 
 test('every role package is available independently at L1, L2 and L3',()=>{
@@ -95,16 +121,30 @@ test('v2 roundtrips; v1 imports and duplicates retain all original scope and sel
  assert.ok(ids(scope(data,get(imported,'technical'),imported)).includes('N12.1'));
 });
 
-test('the recalculated starter covers the full model without stale or unresolved selections',()=>{
+test('annual v3 recommendation is the published starter with valid scope, time and evidence',()=>{
  const s=JSON.parse(readFileSync(new URL('../public/data/default-scenario.json',import.meta.url)));
- assert.equal(s.schema,2);assert.deepEqual(validateScenario(s,data),[]);assert.equal(s.cohorts.length,23);
+ const annual=JSON.parse(readFileSync(new URL('../../analysis/2027-training-plan/2027-recommended-v3.json',import.meta.url)));
+ assert.deepEqual(s,annual);assert.equal(s.planVersion,3);assert.equal(s.modelVersion,2);assert.equal(s.catalogueVersion,data.version);
+ assert.equal(s.cohorts.length,23);assert.deepEqual(validateScenario(s,data),[]);
+ assert.deepEqual(deserialize(serialize(s),data).scenario,s);
  assert.equal(new Set(s.cohorts.flatMap(c=>ids(scope(data,c,s)))).size,140);
  for(const c of s.cohorts){
-  assert.ok(c.recommendation);assert.equal(c.needsReview,false);
-  const inherited=new Set(selectedIds(s,c,false)),own=c.selected.filter(id=>!inherited.has(id)).map(course);
-  assert.ok(timeTotal(own,s.overrides).hours<=c.budget+1e-7,c.id);
-  for(const id of c.selected){assert.ok(!['TR-125','TR-128','TR-129'].includes(id));assert.equal(eligibility(course(id),recommendationCohort(data,s,c),s.overrides),null,id);}
+  assert.equal(c.recommendation,undefined);assert.equal(c.needsReview,false);
+  const applicable=new Set(ids(scope(data,c,s)));
+  for(const item of c.internal){assert.equal(item.status,'Proposed');assert.ok(item.requirements.every(id=>applicable.has(id)));}
+  const time=timeTotal(c.selected.map(course),s.overrides);assert.equal(time.unknown,0);assert.ok(time.hours<=c.budget+1e-8);
+  for(const id of c.selected){assert.ok(!['TR-125','TR-128','TR-129','TR-279'].includes(id));assert.equal(eligibility(course(id),recommendationCohort(data,s,c),s.overrides),null,id);}
  }
+ assert.deepEqual(get(s,'all').selected,['INT-437']);
+ assert.equal(get(s,'all').budget,2);
+ assert.equal(s.planRevision,2);
+ assert.ok(get(s,'all').excluded.includes('INT-2787'));
+ assert.match(eligibility(course('INT-2787'),{...get(s,'all'),excluded:[],filters:{audience:false,types:[]}},{}),/Too specialised for Foundation/);
+ assert.equal(eligibility(course('INT-2787'),{...get(s,'entry'),excluded:[],filters:{audience:false,types:[]}},{}),null);
+ const prior=structuredClone(s);get(prior,'all').selected.push('INT-2787');assert.ok(validateScenario(prior,data).some(w=>w.includes('remove INT-2787')));
+ assert.ok(get(s,'practitioner').selected.includes('TR-191'));
+ assert.ok(get(s,'harness').selected.includes('TR-179'));
+ assert.equal(get(s,'leadership').profile.level,1);assert.equal(get(s,'iam-integration').profile.level,1);
 });
 
 test('invalid profiles, future versions and incompatible inherited paths are rejected',()=>{

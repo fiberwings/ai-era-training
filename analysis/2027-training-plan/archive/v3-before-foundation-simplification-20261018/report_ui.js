@@ -1,0 +1,32 @@
+'use strict';
+const report=JSON.parse(document.querySelector('#report-data').textContent);
+const downloads=JSON.parse(document.querySelector('#download-data').textContent);
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pct=n=>(100*n).toFixed(1)+'%';
+const hrs=n=>{const m=Math.round(n*60);return `${Math.floor(m/60)}h${m%60?' '+String(m%60).padStart(2,'0')+'m':''}`;};
+const table=(head,body)=>`<div class="tablewrap"><table><thead><tr>${head.map(x=>`<th scope="col">${esc(x)}</th>`).join('')}</tr></thead><tbody>${body.map(r=>'<tr>'+r.map(x=>`<td>${x}</td>`).join('')+'</tr>').join('')}</tbody></table></div>`;
+const link=(url,label)=>/^https?:\/\//i.test(url)?`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`:esc(label);
+const scenario=document.querySelector('#scenario'),cohort=document.querySelector('#cohort');
+scenario.innerHTML=report.scenarios.map(s=>`<option value="${esc(s.id)}">${esc(s.name)}</option>`).join('');
+function chooseScenario(){
+ const previous=cohort.value,s=report.scenarios.find(s=>s.id===scenario.value);
+ cohort.innerHTML=s.rows.map(c=>`<option value="${esc(c.id)}">${esc(c.group)} · ${esc(c.name)}</option>`).join('');
+ if(s.rows.some(c=>c.id===previous))cohort.value=previous;render();
+}
+function render(){
+ const s=report.scenarios.find(s=>s.id===scenario.value),r=s.rows.find(r=>r.id===cohort.value);
+ const inherited=r.inherited.map(id=>esc(`${id} · ${report.courseNames[id]}`)).join('<br>')||'None';
+ const cards=r.details.map(c=>`<details><summary>${esc(c.id)} · ${esc(c.title)} · ${hrs(c.hours)}</summary><p>${esc(c.description)}</p><p><strong>Fit and limitations:</strong> ${esc(c.limitations)}</p><p>${link(c.url,'Open course or resource')} · ${esc(c.provider)} · ${esc(c.type)}</p><p><strong>Source duration:</strong> ${esc(c.duration)} · ${esc(c.durationBasis)}. <strong>Cost metadata:</strong> ${esc(c.cost)}; reconfirm access and price before delivery.</p><small>Evidence level: ${esc(c.evidence)} · Catalogue ${esc(c.source.sheet)} row ${c.source.row}. Verification: ${esc(c.verification)}. Removing this course changes this layer's coverage by ${c.uniquePoints.toFixed(1)} percentage points; overlap may still serve learning sequence or other outcomes.</small></details>`).join('')||'<p>No additional external resource is assigned to this layer.</p>';
+ const reqs=r.requirementDetails.map(q=>`<details><summary><span class="badge ${q.core&&q.score===0?'critical':''}">${q.score}/3${q.core?' · Critical':''}</span> ${esc(q.id)} · ${esc(q.title)}</summary><p>${esc(q.description)}</p><p><strong>Assessment:</strong> ${esc(q.status)} · Catalogue maximum ${q.ceiling}/3 · ${esc(q.gap)}</p>${q.evidence.map(w=>`<div class="evidence"><strong>${esc(w.id)} · ${esc(w.title)}</strong><p>${esc(w.evidence)}</p><small>Catalogue ${esc(w.source.sheet)} row ${w.source.row}</small></div>`).join('')||'<p>No positive assessed teaching in the selected resources.</p>'}<p><strong>Proposed internal targets:</strong> ${q.internal.length?q.internal.map(x=>esc(x.id+' · '+x.title)).join('; '):'None'}. No score credit is included.</p>${q.improvements.length?`<p><strong>Alternative evidence to investigate:</strong> ${q.improvements.slice(0,6).map(x=>esc(x.id+' · '+x.title+' ('+x.score+'/3)')).join('; ')}${q.improvements.length>6?' …':''}. These are not screened recommendations for this audience or budget.</p>`:''}<small>Rubric source: ${esc(q.source.sheet)} row ${q.source.row}</small></details>`).join('');
+ document.querySelector('#explorer').innerHTML=`<h3>${esc(r.name)}</h3><p>${esc(r.audience)}</p><p>${esc(r.rationale)}</p><div class="metrics"><div class="metric"><strong>${pct(r.coverage)}</strong>own-layer evidence coverage<br><small>${r.scopeIds.length} outcomes · ${r.critical} critical zeros</small></div><div class="metric"><strong>${pct(r.cumulativeCoverage)}</strong>cumulative evidence coverage<br><small>${r.cumulativeRequirements} unique outcomes · ${r.cumulativeCritical} critical zeros</small></div><div class="metric"><strong>${hrs(r.totalHours)}</strong>cumulative learner time<br><small>${hrs(r.cumulativeCourseHours.hours)} courses + ${hrs(r.internalHours)} proposed internal</small></div><div class="metric"><strong>${hrs(r.courseHours.hours)}</strong>own courses / ${hrs(r.budget)} budget<br><small>Plus ${hrs(r.ownInternalHours)} own internal learning</small></div></div><p><strong>Role specialisms:</strong> ${esc(r.profile.specialisms.map(id=>report.model.specialisms.find(x=>x.id===id).name).join('; ')||'Shared learning only')}.</p><p><strong>Recorded activities:</strong> ${esc(report.model.activities.filter(a=>(r.profile.activities||[]).includes(a.id)).map(a=>a.name).join('; ')||'None recorded')}.</p><details><summary>Inherited external learning · ${r.inherited.length} unique resources</summary><p>${inherited}</p></details><h3>Need coverage in this layer</h3>${table(['Need','Outcomes','Coverage','Band','Critical zeros'],r.needs.map(n=>[esc(n.id+' · '+n.title),String(n.count),pct(n.coverage),esc(n.band),String(n.critical)]))}<h3>Assigned resources and suitability</h3>${cards}<h3>Proposed internal commitments</h3>${r.internalItems.length?table(['Module','Hours','Owner'],r.internalItems.map(i=>[esc(i.id+' · '+i.title),hrs(i.hours),esc(i.owner)])):'<p>No additional internal commitment.</p>'}<h3>Requirement-level evidence and gaps</h3>${reqs}`;
+}
+scenario.addEventListener('change',chooseScenario);cohort.addEventListener('change',render);chooseScenario();
+function download(name){
+ const binary=atob(downloads[name]);const bytes=Uint8Array.from(binary,c=>c.charCodeAt(0));
+ const type=name.endsWith('.csv')?'text/csv;charset=utf-8':name.endsWith('.json')?'application/json':'text/plain;charset=utf-8';
+ const url=URL.createObjectURL(new Blob([bytes],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+document.querySelectorAll('[data-download]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();download(a.dataset.download);}));
+const select=document.querySelector('#fileSelect');select.innerHTML=Object.keys(downloads).map(n=>`<option>${esc(n)}</option>`).join('');
+select.value=report.recommendedId+'.json';document.querySelector('#downloadFile').addEventListener('click',()=>download(select.value));
+document.querySelector('#printReport').addEventListener('click',()=>window.print());

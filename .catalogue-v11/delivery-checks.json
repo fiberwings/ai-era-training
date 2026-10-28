@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "plannerRelease": "1.1.0",
+  "catalogueVersion": "6f245643cc5bf083",
+  "modelVersion": 2,
+  "modelRevision": 3,
+  "planVersion": 3,
+  "javascriptTests": 28,
+  "pythonTests": 13,
+  "browserChecks": [
+    "Saved prior plan displays revision warning",
+    "Current default is annual v3",
+    "Foundation 27.9% coverage and 4.75h internal time",
+    "Model view shows N5.8 separately from N5.4",
+    "IAM/delegation role mapping and automated-judge checkbox",
+    "No browser warnings or errors"
+  ],
+  "standaloneCatalogueAndScenarioExact": true,
+  "crosswalkRows": 140,
+  "reportEmbeddedExportsExact": 17,
+  "deliveryZipContentsMatchPublishedFiles": true,
+  "directFileOpening": "Not tested by browser automation; self-contained packaging validated",
+  "artifacts": {
+    "training-planner/Training-Planner.html": "1d612e384a0260f1782c6f492ba84492e1975d40f1da8d242fd6736257524462",
+    "Agentic-Era_Workforce_Capability_Model.md": "21b3a030eda78bd75e08bc1224d6dc4879e636cb567ccded89e35131e8f4bc31",
+    "analysis/2027-training-plan/2027-Training-Plan-v3.html": "17e555ae37857fa21fa5457b437e8d56c441bb32bf439063ba848e611377f0d9",
+    "analysis/2027-training-plan/2027-Training-Plan-v3-Pack.zip": "5080ccc4e48258953b395cf1303bd06be84650c59bbe1fa6e311c808afa262fc"
+  }
+}

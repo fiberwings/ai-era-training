@@ -1,8 +1,18 @@
-// Model v2 is an applicability overlay. The source rubric, need IDs and scores
-// retain their original meaning, including the historical level metadata.
+// Model v2 is an applicability overlay on the versioned source rubric.
+// Retired outcome mappings preserve traceability; source level metadata is historical.
 export const MODEL_VERSION = 2;
+export const MODEL_REVISION = 3;
+export const ACTIVITIES = [
+  {id:'automated-judges',name:'Use automated judges for evaluation',requirement:'N11.3'},
+  {id:'ai-assisted-assurance',name:'Use AI to perform assurance work',requirement:'R6.1.2'}
+];
+export const RETIRED_OUTCOMES = [{id:'N5.2',replacement:'N5.1',reason:'Deepfakes merged into AI-enabled social engineering and impersonation; reassessed in catalogue v11.'}];
+export function effectiveRequirement(r,profile) {
+  const activity=ACTIVITIES.find(a=>a.requirement===r.id);
+  return activity ? {...r,core:r.core&&(profile?.activities||[]).includes(activity.id)} : r;
+}
 export const NEED_TITLES = {
-  N1:'AI in cyber',N2:'AI systems and agents',N3:'AI limitations',N4:'Responsible AI use',N5:'AI-enabled threats',
+  N1:'AI in cyber',N2:'AI systems and agents',N3:'AI limitations',N4:'Responsible AI use',N5:'AI security risks and threats',
   N6:'Working with AI',N7:'Supervising agents',N8:'Reusable instructions and connectors',N9:'Testing your AI tasks',
   N10:'Building agents',N11:'Evaluating agents and AI systems',N12:'Securing AI',N13:'AI governance and risk',N14:'Transforming work and leading adoption',
   'R1.1':'Agent incident response','R1.2':'Agent forensics and evidence','R3.1':'Agent red-teaming','R3.2':'Testing-agent containment',
@@ -31,8 +41,8 @@ export const SPECIALISMS = [
   {id:'code-analysis', name:'AI code-analysis engineering', requirements:ids('R4.2',1,7)},
   {id:'agent-architecture', name:'Agent security architecture', requirements:['N12.9',...ids('R5.1',1,6)]},
   {id:'agent-assurance', name:'Agent assurance', requirements:ids('R6.1',1,2)},
-  {id:'identity-operations', name:'Agent identity operations', requirements:ids('R9.1',1,7)},
-  {id:'identity-integration', name:'Agent identity integration and design', requirements:ids('R9.1',8,10)}
+  {id:'identity-operations', name:'Agent identity operations', requirements:ids('R9.1',1,7).filter(id=>id!=='R9.1.2')},
+  {id:'identity-integration', name:'Agent identity integration and design', requirements:['R9.1.2',...ids('R9.1',8,10)]}
 ];
 export function sharedLevel(requirement) {
   const {id,need} = requirement;
@@ -46,7 +56,7 @@ export function sharedLevel(requirement) {
 export function specialismsFor(id) {return SPECIALISMS.filter(s=>s.requirements.includes(id));}
 export function requirementPlacement(r) {
   const level=sharedLevel(r), roles=specialismsFor(r.id).map(s=>s.name);
-  return [level===null?null:LEVELS[level].name,...roles].filter(Boolean).join(' · ');
+  return [level===null?null:LEVELS[level].name,...roles,r.coreCondition?`Essential: ${r.coreCondition.toLowerCase()}`:null].filter(Boolean).join(' · ');
 }
 export function profileRequirements(data,profile) {
   const roleIds=new Set(SPECIALISMS.filter(s=>profile.specialisms.includes(s.id)).flatMap(s=>s.requirements));
@@ -63,5 +73,5 @@ export function crosswalk(data) {
   return data.requirements.map(r=>({id:r.id,need:r.need,title:r.title,description:r.description,core:r.core,
     component:sharedLevel(r)===null?'Role specialism':sharedLevel(r)===0?'Foundation':'Agentic level',
     agenticLevel:sharedLevel(r),specialisms:specialismsFor(r.id).map(s=>s.id),
-    sourceLevel:r.level,sourceRank:r.rank,source:r.source}));
+    coreCondition:r.coreCondition||null,sourceLevel:r.level,sourceRank:r.rank,source:r.source}));
 }

@@ -1,0 +1,46 @@
+benchmark all Optimal
+benchmark entry Optimal
+benchmark practitioner Optimal
+benchmark technical Optimal
+benchmark governance Optimal
+benchmark grc-builder Optimal
+benchmark leadership Optimal
+benchmark cdc Optimal
+benchmark forensics Optimal
+benchmark threat-intelligence Optimal
+benchmark idp Optimal
+benchmark biso Optimal
+benchmark testing Optimal
+benchmark redteam Optimal
+benchmark exposure Optimal
+benchmark harness Optimal
+benchmark architecture Optimal
+benchmark engineering Optimal
+benchmark security Optimal
+benchmark transformation Optimal
+benchmark iam Optimal
+benchmark iam-integration Optimal
+benchmark cio Optimal
+all 30.2% 3.80h courses 4h internal 7.80h cumulative
+entry 41.7% 1.00h courses 2h internal 10.80h cumulative
+practitioner 56.7% 6.92h courses 8h internal 25.72h cumulative
+technical 47.2% 16.72h courses 9h internal 51.43h cumulative
+governance 66.7% 3.68h courses 6h internal 35.40h cumulative
+grc-builder 66.7% 3.68h courses 6h internal 61.12h cumulative
+leadership 31.7% 1.00h courses 6h internal 17.80h cumulative
+cdc 11.1% 0.00h courses 4h internal 29.72h cumulative
+forensics 16.7% 2.00h courses 4h internal 31.72h cumulative
+threat-intelligence 66.7% 2.00h courses 2h internal 29.72h cumulative
+idp 66.7% 3.68h courses 6h internal 35.40h cumulative
+biso 47.2% 4.68h courses 4h internal 34.40h cumulative
+testing 33.3% 3.00h courses 4h internal 32.72h cumulative
+redteam 30.0% 3.00h courses 4h internal 32.72h cumulative
+exposure 50.0% 3.05h courses 4h internal 32.77h cumulative
+harness 28.6% 1.07h courses 4h internal 56.50h cumulative
+architecture 60.2% 4.18h courses 4h internal 59.62h cumulative
+engineering 77.8% 1.97h courses 4h internal 57.40h cumulative
+security 62.5% 2.18h courses 4h internal 31.90h cumulative
+transformation 13.3% 0.00h courses 4h internal 29.72h cumulative
+iam 38.1% 3.00h courses 4h internal 17.80h cumulative
+iam-integration 30.0% 3.00h courses 6h internal 19.80h cumulative
+cio 31.7% 1.00h courses 6h internal 17.80h cumulative

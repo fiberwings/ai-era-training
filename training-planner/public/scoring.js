@@ -12,9 +12,10 @@ export function gapType(current,best){if(current===3)return 'Complete';if(best<=
 export function timeTotal(courses,overrides={}){let hours=0,unknown=0;for(const c of new Map(courses.map(c=>[c.id,c])).values()){const d=duration(c,overrides);if(d.hours===null)unknown++;else hours+=d.hours;}return {hours,unknown};}
 const levelRank={Base:0,Entry:1,Practitioner:2,Expert:3};
 export function eligibility(course,cohort,overrides={}){
+ if(cohort.profile?.level===0&&course.id==='INT-2787')return 'Too specialised for Foundation; use brief awareness teaching';
  if(cohort.excluded.includes(course.id)) return 'Excluded by planner';
  if(!Object.keys(course.scores).length) return 'Insufficient assessment';
- if(course.evidence==='Not found'||/coming soon/i.test(course.title)||course.review==='Rejected')return 'Unavailable / needs validation';
+ if(course.evidence==='Not found'||/coming soon/i.test(course.title)||course.review==='Rejected'||course.review==='Needs delivery validation')return 'Unavailable / needs validation';
  if(course.type==='Practice tests'||(/exam/i.test(course.duration)&&!course.duration.includes('+'))||course.type==='Certification')return 'Exam / certification record; select learning separately';
  const specialistFit=cohort.profile&&(cohort.specialistRequirements||[]).some(id=>(course.scores[id]?.score||0)>=2);
  if(cohort.filters.audience && !specialistFit && (levelRank[course.level]===undefined||levelRank[course.level]>cohort.rank))return 'Outside audience filter';

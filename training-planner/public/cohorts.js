@@ -1,4 +1,4 @@
-import {profileRequirements,specialismsFor} from './capability-model.js';
+import {profileRequirements,specialismsFor,effectiveRequirement} from './capability-model.js';
 const layer=(id,name,budget,parent,level,specialisms=[],extra={})=>({id,name,budget,parent,rank:level,
   profile:{level,specialisms,tools:[]},needs:[],selected:[],pinned:[],excluded:[],internal:[],rationale:'',
   removedRequirements:[],addedRequirements:[],filters:{audience:true,types:[]},...extra});
@@ -31,7 +31,7 @@ export function initialCohorts(){return [
 export function targetScope(data,c) {
   if(c.profile){
     const active=new Set(profileRequirements(data,c.profile).map(r=>r.id));
-    return data.requirements.filter(r=>!c.removedRequirements.includes(r.id)&&(active.has(r.id)||c.addedRequirements.includes(r.id)));
+    return data.requirements.filter(r=>!c.removedRequirements.includes(r.id)&&(active.has(r.id)||c.addedRequirements.includes(r.id))).map(r=>effectiveRequirement(r,c.profile));
   }
   // Version-one scenarios retain their original scope; never infer a v2 profile.
   return data.requirements.filter(r=>{
@@ -51,7 +51,12 @@ export function scope(data,c,s) {
 }
 export function ancestors(s,c){const out=[],seen=new Set([c.id]);while(c.parent){c=s.cohorts.find(x=>x.id===c.parent);if(!c||seen.has(c.id))throw Error('Invalid cohort inheritance');seen.add(c.id);out.unshift(c);}return out;}
 export function selectedIds(s,c,includeSelf=true){return [...new Set([...ancestors(s,c),...(includeSelf?[c]:[])].flatMap(x=>x.selected))];}
-export function cumulativeScope(data,s,c){return [...new Map([...ancestors(s,c),c].flatMap(x=>scope(data,x,s)).map(r=>[r.id,r])).values()];}
+export function cumulativeScope(data,s,c){
+ const chain=[...ancestors(s,c),c], rows=new Map(chain.flatMap(x=>scope(data,x,s)).map(r=>[r.id,r]));
+ // A responsibility can make an inherited outcome essential without repeating its teaching.
+ for(const item of chain)for(const r of targetScope(data,item))if(rows.has(r.id)&&r.core)rows.set(r.id,{...rows.get(r.id),core:true});
+ return [...rows.values()];
+}
 export function syncNeeds(data,s){for(const c of s.cohorts)if(c.profile)c.needs=[...new Set(scope(data,c,s).map(r=>r.need))];return s;}
 export function recommendationCohort(data,s,c){
   // A source course's historic level must not block specialist teaching.

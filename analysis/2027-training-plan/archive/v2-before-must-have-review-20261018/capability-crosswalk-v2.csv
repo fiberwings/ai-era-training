@@ -1,0 +1,141 @@
+﻿ID,Need,Title,Component,Shared agentic level,Role specialisms,Critical,Historical source level
+N1.1,N1,What AI does today in cyber,Foundation,0,,True,Base
+N1.2,N1,What is emerging,Foundation,0,,False,Base
+N1.3,N1,How one's own work changes,Foundation,0,,True,Base
+N2.1,N2,Models,Foundation,0,,False,Base
+N2.2,N2,Modalities,Foundation,0,,False,Base
+N2.3,N2,Ways of using AI,Foundation,0,,False,Base
+N2.4,N2,Anatomy of an agent,Foundation,0,,True,Base
+N2.5,N2,Connecting and extending,Foundation,0,,False,Base
+N2.6,N2,Safety components,Foundation,0,,True,Base
+N2.7,N2,Where it runs,Foundation,0,,False,Base
+N3.1,N3,Hallucination,Foundation,0,,True,Base
+N3.2,N3,Sycophancy,Foundation,0,,False,Base
+N3.3,N3,Context loss,Foundation,0,,False,Base
+N3.4,N3,Non-determinism,Foundation,0,,False,Base
+N3.5,N3,Prompt injection,Foundation,0,,True,Base
+N3.6,N3,Automation bias,Foundation,0,,False,Base
+N3.7,N3,Counter-habits,Foundation,0,,True,Base
+N4.1,N4,Data leaving the bank,Foundation,0,,True,Base
+N4.2,N4,Confidentiality and client data,Foundation,0,,False,Base
+N4.3,N4,Intellectual property,Foundation,0,,False,Base
+N4.4,N4,AI supply chain,Foundation,0,,False,Base
+N4.5,N4,Regulation,Foundation,0,,False,Base
+N4.6,N4,The bank's rules,Foundation,0,,True,Base
+N4.7,N4,Vetting third-party Skills and connectors,Agentic level,2,,False,Practitioner
+N5.1,N5,AI-enabled social engineering,Foundation,0,,True,Base
+N5.2,N5,Deepfakes,Foundation,0,,True,Base
+N5.3,N5,AI-enabled intrusion,Foundation,0,,False,Base
+N5.4,N5,Attacks on the bank's AI,Foundation,0,,False,Base
+N5.5,N5,What changes for defence,Foundation,0,,True,Base
+N5.6,N5,Recognising AI-enabled attacks,Foundation,0,,False,Base
+N5.7,N5,Tracking the threat landscape,Role specialism,,threat-intelligence,False,Expert
+N6.1,N6,Delegation,Agentic level,1,,True,Entry
+N6.2,N6,Context,Agentic level,1,,True,Entry
+N6.3,N6,Discernment,Agentic level,1,,True,Entry
+N6.4,N6,Diligence,Agentic level,1,,False,Entry
+N6.5,N6,Choosing a model,Agentic level,1,,False,Entry
+N6.6,N6,Context window and memory,Agentic level,1,,False,Entry
+N6.7,N6,Platform for the data,Agentic level,1,,False,Entry
+N6.8,N6,Own work with AI,Agentic level,1,,False,Entry
+N7.1,N7,Delegate,Agentic level,2,,False,Practitioner
+N7.2,N7,Monitor,Agentic level,2,,True,Practitioner
+N7.3,N7,Verify,Agentic level,2,,True,Practitioner
+N7.4,N7,Intervene,Agentic level,2,,True,Practitioner
+N7.5,N7,Account,Agentic level,2,,False,Practitioner
+N8.1,N8,Writing a Skill,Agentic level,2,,True,Practitioner
+N8.2,N8,Maintaining Skills,Agentic level,2,,False,Practitioner
+N8.3,N8,Shared library,Agentic level,2,,False,Practitioner
+N8.4,N8,Using connectors safely,Agentic level,2,,True,Practitioner
+N8.5,N8,Vetting before installing,Agentic level,2,,False,Practitioner
+N9.1,N9,Benchmark cases,Agentic level,2,,True,Practitioner
+N9.2,N9,Known faults,Agentic level,2,,False,Practitioner
+N9.3,N9,Pass or fail checks,Agentic level,2,,True,Practitioner
+N9.4,N9,Rerun on change,Agentic level,2,,False,Practitioner
+N9.5,N9,Feeding the domain system,Agentic level,2,,False,Practitioner
+N10.1,N10,Agent design patterns,Agentic level,3,,True,Expert
+N10.2,N10,Multi-agent design,Agentic level,3,,False,Expert
+N10.3,N10,Harness and context engineering,Role specialism,,agent-engineering,True,Expert
+N10.4,N10,"Models, cost and latency",Agentic level,3,,False,Expert
+N10.5,N10,Hosting and residency,Agentic level,3,,False,Expert
+N10.6,N10,MCP servers,Role specialism,,agent-engineering,False,Expert
+N10.7,N10,Skills as infrastructure,Role specialism,,agent-engineering,False,Expert
+N10.8,N10,Safe deployment,Agentic level,3,,True,Expert
+N11.1,N11,Test-set design,Agentic level,3,,True,Expert
+N11.2,N11,Error analysis,Agentic level,3,,False,Expert
+N11.3,N11,Validating automated judges,Agentic level,3,,True,Expert
+N11.4,N11,Benchmarking vendor AI,Agentic level,3,vendor-evaluation,False,Expert
+N11.5,N11,Drift in production,Agentic level,3,,False,Expert
+N11.6,N11,Evidence for decisions,Agentic level,3,vendor-evaluation,False,Expert
+N12.1,N12,Threat modelling,Role specialism,,ai-security,True,Expert
+N12.2,N12,Agent identity,Role specialism,,ai-security,True,Expert
+N12.3,N12,Sandboxes,Role specialism,,ai-security,False,Expert
+N12.4,N12,Authorisation layers,Role specialism,,ai-security,True,Expert
+N12.5,N12,Guardrails,Role specialism,,ai-security,False,Expert
+N12.6,N12,"Logging, monitoring and kill switches",Role specialism,,ai-security,False,Expert
+N12.7,N12,AI supply chain,Role specialism,,ai-security,False,Expert
+N12.8,N12,Fixing findings,Role specialism,,ai-security,False,Expert
+N12.9,N12,Reference architectures,Role specialism,,agent-architecture,False,Expert (architects)
+N13.1,N13,AI inventory,Role specialism,,ai-governance,False,"Expert (GRC, BISOs, leaders)"
+N13.2,N13,AI risk assessment,Role specialism,,ai-governance,True,"Expert (GRC, BISOs, leaders)"
+N13.3,N13,Autonomy policy,Role specialism,,ai-governance; leadership,True,"Expert (GRC, BISOs, leaders)"
+N13.4,N13,Third-party AI risk,Role specialism,,ai-governance,False,"Expert (GRC, BISOs, leaders)"
+N13.5,N13,Regulatory mapping,Role specialism,,ai-governance,False,"Expert (GRC, BISOs, leaders)"
+N13.6,N13,Assurance evidence,Role specialism,,ai-governance,False,"Expert (GRC, BISOs, leaders)"
+N14.1,N14,Who does what,Role specialism,,workflow-transformation; leadership,True,"Expert (leaders, champions)"
+N14.2,N14,Workflow redesign,Role specialism,,workflow-transformation; leadership,True,"Expert (leaders, champions)"
+N14.3,N14,Supervision model,Role specialism,,workflow-transformation; leadership,True,"Expert (leaders, champions)"
+N14.4,N14,Measuring value,Role specialism,,workflow-transformation; leadership,False,"Expert (leaders, champions)"
+N14.5,N14,Running the change,Role specialism,,workflow-transformation; leadership,False,"Expert (leaders, champions)"
+N14.6,N14,Keeping skills alive,Role specialism,,leadership,False,Leaders
+N14.7,N14,Accountability,Role specialism,,leadership,False,Leaders
+R1.1.1,R1.1,Agent incident playbooks,Role specialism,,incident-response,False,Practitioner
+R1.1.2,R1.1,Ways to stop an agent,Role specialism,,incident-response,True,Practitioner
+R1.1.3,R1.1,Investigating a compromised agent,Role specialism,,incident-response,True,Practitioner
+R1.1.4,R1.1,Cleaning up,Role specialism,,incident-response,False,Practitioner
+R1.1.5,R1.1,Operating without the agent,Role specialism,,incident-response,False,Practitioner
+R1.1.6,R1.1,Reporting,Role specialism,,incident-response,False,Practitioner
+R1.2.1,R1.2,Recording the AI step,Role specialism,,agent-forensics,True,Expert
+R1.2.2,R1.2,Forensic readiness for agents,Role specialism,,agent-forensics,True,Expert
+R1.2.3,R1.2,Investigating an agent as suspect,Role specialism,,agent-forensics,False,Expert
+R3.1.1,R3.1,AI attack classes,Role specialism,,agent-testing,True,Practitioner
+R3.1.2,R3.1,Published methods,Role specialism,,agent-testing,True,Practitioner
+R3.1.3,R3.1,Attacks across agents,Role specialism,,advanced-redteam,True,Expert
+R3.1.4,R3.1,Attacks on model and platform,Role specialism,,advanced-redteam,False,Expert
+R3.1.5,R3.1,Automated red-team programme,Role specialism,,advanced-redteam,False,Expert
+R3.2.1,R3.2,Containment before a run,Role specialism,,agent-testing,True,Practitioner
+R3.2.2,R3.2,Monitoring during a run,Role specialism,,agent-testing,False,Practitioner
+R3.2.3,R3.2,Escape patterns,Role specialism,,agent-testing,False,Practitioner
+R3.2.4,R3.2,Trajectory-level validation,Role specialism,,agent-testing,True,Practitioner
+R3.2.5,R3.2,Collateral findings,Role specialism,,agent-testing,False,Practitioner
+R4.1.1,R4.1,Discovery,Role specialism,,exposure-management,True,Practitioner
+R4.1.2,R4.1,Inventory,Role specialism,,exposure-management,False,Practitioner
+R4.1.3,R4.1,Content-bound approval,Role specialism,,exposure-management,True,Practitioner
+R4.1.4,R4.1,Scanning,Role specialism,,exposure-management,False,Practitioner
+R4.1.5,R4.1,AI bill of materials,Role specialism,,exposure-management,False,Practitioner
+R4.1.6,R4.1,Vetting third parties,Role specialism,,exposure-management,False,Practitioner
+R4.2.1,R4.2,Why set-up is the skill,Role specialism,,code-analysis,False,Expert
+R4.2.2,R4.2,Giving the model context,Role specialism,,code-analysis,True,Expert
+R4.2.3,R4.2,"Framework, model and method",Role specialism,,code-analysis,False,Expert
+R4.2.4,R4.2,Confirming before reporting,Role specialism,,code-analysis,True,Expert
+R4.2.5,R4.2,Reliability by vulnerability class,Role specialism,,code-analysis,False,Expert
+R4.2.6,R4.2,Deduplication and cost,Role specialism,,code-analysis,False,Expert
+R4.2.7,R4.2,Measuring the harness,Role specialism,,code-analysis,False,Expert
+R5.1.1,R5.1,Classifying agent actions,Role specialism,,agent-architecture,True,Expert
+R5.1.2,R5.1,Enforcement outside the model,Role specialism,,agent-architecture,True,Expert
+R5.1.3,R5.1,The stop mechanism,Role specialism,,agent-architecture,True,Expert
+R5.1.4,R5.1,The audit trail,Role specialism,,agent-architecture,False,Expert
+R5.1.5,R5.1,The oversight interface,Role specialism,,agent-architecture,False,Expert
+R5.1.6,R5.1,Reference architectures,Role specialism,,agent-architecture,False,Expert
+R6.1.1,R6.1,Agent control catalogue,Role specialism,,agent-assurance,True,Expert
+R6.1.2,R6.1,Assuring assurance's own AI,Role specialism,,agent-assurance,False,Expert
+R9.1.1,R9.1,Registering an agent,Role specialism,,identity-operations,True,Practitioner
+R9.1.2,R9.1,Delegated authority,Role specialism,,identity-operations,True,Practitioner
+R9.1.3,R9.1,Connector and MCP scopes,Role specialism,,identity-operations,False,Practitioner
+R9.1.4,R9.1,Just-in-time access,Role specialism,,identity-operations,False,Practitioner
+R9.1.5,R9.1,Short-lived sub-agents,Role specialism,,identity-operations,False,Practitioner
+R9.1.6,R9.1,Recertification,Role specialism,,identity-operations,False,Practitioner
+R9.1.7,R9.1,Revocation drills,Role specialism,,identity-operations,True,Practitioner
+R9.1.8,R9.1,"Integration with IGA, PAM, SIEM",Role specialism,,identity-integration,False,Expert
+R9.1.9,R9.1,Privileged access and break-glass,Role specialism,,identity-integration,False,Expert
+R9.1.10,R9.1,Audit trail and standards,Role specialism,,identity-integration,False,Expert

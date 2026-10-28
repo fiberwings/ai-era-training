@@ -14,3 +14,23 @@ venv/
 .env.*
 !.env.example
 !.env.sample
+
+# Local research, rendering and packaging workspaces
+/.catalogue-v10/
+/.chart-data-*/
+/.foundation-revision/
+/.presentation-build/
+/outputs/.validated-*/
+
+# Intermediate workbook copies; retain the v11 review evidence and scripts
+/.catalogue-v11/before.json
+/.catalogue-v11/*.xlsx
+/.catalogue-v11/*.inspect.ndjson
+/.catalogue-v11/*.png
+/.catalogue-v11/recalc-in/
+/.catalogue-v11/recalc-out/
+
+# Duplicate copies of archived workbooks and distribution packages
+/AI_Era_Cyber_Training_Catalogue_v10.xlsx
+/outputs/Training-Planner.zip
+/outputs/Training-Planner-Windows-Update-Kit.zip

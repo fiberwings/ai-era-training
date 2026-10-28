@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "date": "2026-10-18",
+  "planVersion": 2,
+  "modelVersion": 2,
+  "catalogueVersion": "d2604d12cdfe9509",
+  "independentCohortCalculations": 92,
+  "distinctOutcomes": 140,
+  "recommendedResources": 23,
+  "recommendedDeepLearningAICourses": 8,
+  "archivedFilesVerified": 34,
+  "javascriptTests": {
+    "passed": 27,
+    "annualProfileTestsRerunAfterFinalPlanChange": 12
+  },
+  "pythonTests": {
+    "passed": 13,
+    "note": "Loopback server test rerun with local-server permission; all pass."
+  },
+  "portableReport": {
+    "embeddedFilesMatched": 16,
+    "zipMembersMatched": true,
+    "canonicalAliasMatchesVersionedReport": true,
+    "publishedDefaultMatchesRecommendation": true
+  },
+  "browserChecks": [
+    "Desktop report layout visually inspected",
+    "Recommended, coding, coached and benchmark selectors render their calculated metrics",
+    "N8.2 evidence opens with TR-191 source and unscored internal completion targets",
+    "Embedded JSON download control invoked without console error; embedded bytes independently matched to source",
+    "No browser console errors observed"
+  ],
+  "artifacts": [
+    {
+      "file": "2027-Training-Plan-v2.html",
+      "sha256": "0bd4319e4ef4cdfa788bac504ddd69195a09754cb4a48872eaf6f9032bfdd117",
+      "bytes": 7799372
+    },
+    {
+      "file": "2027-Training-Plan-v2-Pack.zip",
+      "sha256": "ef3281c4d928b0339004700311ac35eb8d12d69506d44323706648d6fd7a25d2",
+      "bytes": 1766835
+    },
+    {
+      "file": "2027-recommended-v2.json",
+      "sha256": "1936a265888bae50c6b839cf754207b3d725a174aa3d6c93eed7b49a685fe5ee",
+      "bytes": 43591
+    },
+    {
+      "file": "results-v2.json",
+      "sha256": "bbe1340478db16e7e720c7a19b73d36e226cf82ff297c090b390eee894fa82c1",
+      "bytes": 3486499
+    },
+    {
+      "file": "verification-v2.json",
+      "sha256": "53f855c1bc36cc5cba0229fe56850e4f102096fd6f673211dbaa1981ee4f4b19",
+      "bytes": 735
+    }
+  ]
+}

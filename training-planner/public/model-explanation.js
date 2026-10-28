@@ -7,7 +7,7 @@ export const ROLE_FAMILIES = [
   {id:4,name:'Vulnerability & exposure management',ecsf:'No direct profile; closest: Implementer and Risk Manager',needs:'R4.1 agent exposure management; R4.2 AI code-analysis engineering, including application-security harnesses.'},
   {id:5,name:'Security architecture & engineering',ecsf:'Architect; Implementer',needs:'N12 AI security; R5.1 agent security architecture; agent infrastructure needs in N10.3 (engineering at scale), N10.6 (MCP servers) and N10.7 (shared Skills infrastructure), where required by the responsibility.'},
   {id:6,name:'Governance, risk, compliance & assurance',ecsf:'Legal, Policy & Compliance Officer; Risk Manager; Auditor',needs:'N13 AI governance and risk; R6.1 agent assurance; relevant vendor-evaluation outcomes in N11.'},
-  {id:7,name:'Security awareness & culture',ecsf:'Educator',needs:'N5 AI-enabled threats; shared capabilities and tool training. No separate R-coded need.'},
+  {id:7,name:'Security awareness & culture',ecsf:'Educator',needs:'N5 AI security risks and threats; shared capabilities and tool training. No separate R-coded need.'},
   {id:8,name:'Identity & access management (IAM)',ecsf:'No direct profile; closest: Implementer and Architect',needs:'R9.1 agent identity lifecycle, with operations and integration/design responsibilities selected separately.'},
   {id:9,name:'Leadership',ecsf:'CISO',needs:'N14 transformation and adoption; N13.3 autonomy policy and other relevant governance outcomes; N11.4 and N11.6 vendor evaluation.'}
 ];
@@ -26,7 +26,7 @@ export const NEED_DOMAINS = {
   N2:{kind:'Generic',reason:'Models, agent components, connectors, safety components and hosting are relevant across functions; adapt the platform examples to the organisation.'},
   N3:{kind:'Generic',reason:'AI limitations, prompt-injection awareness and habits for checking outputs apply to any AI user.'},
   N4:{kind:'Generic',reason:'Responsible use, data handling, supply-chain awareness and approved-use rules apply across functions; local policy and regulation provide context.'},
-  N5:{kind:'Cyber-specific',reason:'The subject is AI-enabled attacks and defence. Basic awareness can serve all staff; N5.7 threat tracking and control adjustment require specialist depth.'},
+  N5:{kind:'Cyber-specific',reason:'Cyber-focused risk awareness for all cyber staff: N5.8 provides the risk overview, N5.4 retains examples of attacks on the bank’s AI, and N5.1 includes deepfake impersonation. N5.7 threat tracking and control adjustment require specialist depth.'},
   N6:{kind:'Generic',reason:'Providing context, judging outputs and owning AI-assisted work apply in any function.'},
   N7:{kind:'Generic',reason:'Delegating, monitoring, verifying, intervening and accounting for agent work apply to anyone supervising agents; use domain-specific exercises.'},
   N8:{kind:'Generic',reason:'Reusable task instructions and safe connector use apply across functions.'},
