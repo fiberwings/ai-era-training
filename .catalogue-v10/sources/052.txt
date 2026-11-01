@@ -1,0 +1,167 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h48m
+Orchestrating Workflows for GenAI Applications
+Instructors
+:
+Kenten Danas, Tamara Fingerlin
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Intermediate
+1h48m
+11 Video Lessons
+7 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Kenten Danas, Tamara Fingerlin
+Astronomer
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Orchestrate a RAG prototype using Airflow: transform your code into pipelines consisting of modular tasks and schedule them using time-based and data-aware scheduling.
+Apply dynamic task mapping to run tasks efficiently in parallel and automatically adapt to new data sources.
+Build robust pipelines by adding automatic retries and failure notifications to handle errors gracefully.
+About this course
+Learn to build and orchestrate a RAG pipeline in
+Orchestrating Workflows for GenAI Applications
+, built in partnership with Astronomer and taught by Kenten Danas (DevRel Senior Manager) and Tamara Fingerlin (Developer Advocate).
+When building generative AI applications, it’s common to start in a Jupyter notebook or a Python script but to move into production, your AI workflows need to run reliably, adapt to changing data, and gracefully recover from failures.
+In this course, you’ll learn how to turn a Retrieval Augmented Generation (RAG) prototype into a robust, automated pipeline using Airflow 3.0, a leading open-source orchestration tool.
+You’ll build two workflows for a typical RAG application: one that ingests and embeds book description texts into a vector database, and another that queries that database to recommend books.
+Along the way, you’ll learn how to break workflows into discrete tasks, schedule pipelines using both time-based and data-aware triggers, and process tasks in parallel with dynamic task mapping. You’ll also add retries, alerts, and backfills to handle failure scenarios. Lastly, you’ll explore how you can apply these best practices to other real-world GenAI applications such as batch inference. All of this is done using Airflow dags, which are pipelines, made up of tasks that run in a specific order, each with clear code logic and task dependencies.
+In detail, you’ll:
+Apply the best practices to transform a GenAI prototype into automated and maintainable pipelines using Apache Airflow 3.0.
+Build and run a RAG prototype for book recommendation, inside a Jupyter notebook, which ingests and embeds book description texts, and recommends books based on user’s queries.
+Explore the underlying architecture of Airflow 3.0, build your first dags or pipelines, and track their status in the airflow UI.
+Convert your notebook-based RAG system into two standalone Airflow dags, one that ingests, embeds, and loads book descriptions to your vector database, and the other that queries the database.
+Schedule your first dag using time-based scheduling so that it runs automatically at a regular cadence, and your second dag using event-based triggers so that it runs when new data becomes available in the database.
+Use dynamic task mapping to create parallel task instances, making your pipeline more efficient and easier to troubleshoot.
+Add automatic retries to tasks to protect against transient failures (such as API rate limits) and learn how to add notifications in case a dag or task fails.
+Apply GenAI orchestration principles from real-world applications to scale your pipelines and improve performance over time.
+By the end of this course, you’ll be able to design, build, and automate GenAI workflows using Airflow 3.0, ready for production.
+Who should join?
+This course is for AI builders who want to automate and deploy their GenAI prototypes more reliably. No Airflow experience is required, just familiarity with Python and an interest in moving to production-ready workflows.
+Course Outline
+11
+Lessons・
+7
+Code Examples
+Introduction
+Video
+・
+3m
+From Notebook To Pipeline
+Video
+・
+9m
+Your RAG Prototype
+Video with Code Example
+・
+8m
+Building a Simple Pipeline
+Video with Code Example
+・
+11m
+Turning your Prototype into a Pipeline
+Video with Code Example
+・
+9m
+Scheduling and Dag Parameters
+Video with Code Example
+・
+10m
+Make the Pipeline Adaptable
+Video with Code Example
+・
+11m
+Prepare to Fail
+Video with Code Example
+・
+11m
+GenAI pipelines in Real Life
+Video
+・
+6m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Optional: How to Set up a Local Airflow Environment
+Video
+・
+3m
+Appendix - Resources, Help, and Downloads
+Code Example
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Kenten Danas
+Senior Manager, Developer Relations at
+Astronomer
+Tamara Fingerlin
+Developer Advocate at
+Astronomer
+Orchestrating Workflows for GenAI Applications
+Intermediate
+1h48m
+11 Video Lessons
+7 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Kenten Danas, Tamara Fingerlin
+Astronomer
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

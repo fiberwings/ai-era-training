@@ -1,0 +1,171 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+5h1m
+Generative AI for Everyoneㅤ
+Instructor
+:
+Andrew Ng
+DeepLearning.AI
+Earn
+a certificate
+with
+PRO
+· Updated Oct 8, 2026
+Enroll Now
+Also available on
+Coursera
+Beginner
+5h1m
+32 Video Lessons
+2 Code Examples
+6 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Oct 8, 2026
+Instructor: Andrew Ng
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+What you'll learn
+Learn directly from Andrew Ng about the technology of generative AI, how it works, and what it can (and can’t) do
+Get an overview of AI tools, and learn from real-world examples of generative AI in use today
+Understand the impacts of generative AI on business and society to develop effective AI strategies and approaches
+Instructed by AI pioneer Andrew Ng, Generative AI for Everyone offers his unique perspective on empowering you and your work with generative AI. Andrew will guide you through how generative AI works and what it can (and can’t) do. It includes hands-on exercises where you’ll learn to use generative AI to help in day-to-day work and receive tips on effective prompt engineering, as well as learning how to go beyond prompting for more advanced uses of AI.
+You’ll delve into real-world applications and learn common use cases, and get hands-on time with generative AI tools to put your knowledge into action, and gain insight into AI’s impact on both business and society.
+This course was created to ensure everyone can be a participant in our AI-powered future.
+Skills you will gain
+Generative AI Tools
+AI Strategy for Work and Business
+AI Strategy
+How Generative AI Works
+AI Productivity
+AI Beyond Prompting
+Instructor
+Andrew Ng
+Founder, DeepLearning.AI; Co-founder, Coursera
+Who is this course for?
+**Generative AI for Everyone** is for anyone who’s interested in learning about the uses, impacts, and underlying technologies of generative AI, today and in the future. It doesn’t require any coding skills or prior knowledge of AI.
+For business leaders
+For professionals
+For everyone
+Learner reviews from other DeepLearning.AI courses
+Selami A.
+What I loved about the “AI for Everyone” course was the comprehensive coverage of essential AI topics, guided by the expertise of Andrew Ng. The course provided a clear roadmap for initiating and managing AI projects, from project selection to implementation. It also offered insights into building AI teams and introduced the technical tools necessary for AI success
+View More
+Chris C.
+Simple enough to make it easy to understand in spite of being a complex topic, inspiring speaker. Time well spent, and a good fit with “lifelong learning” approach.
+Adeel B.
+What stood out to me about this course was the clarity and simplicity with which complex AI concepts were explained. The real-life examples and case studies helped me grasp the practical implications of AI in different sectors. The interactive nature of the course made learning engaging and enjoyable.
+View More
+Krystal L.
+I am an educator and looking to incorporate AI into my career and help my colleagues to do the same. The course did a great job explaining AI concepts to people like myself who are just learning about any of this for the first time.
+View More
+John S.
+I took this course purely out of curiosity. After becoming aware of ChatGPT and Midjourney and then taking a short course on engineering the prompts to get the desired result, I became more intrigued with the topic of AI. I found this most helpful with regards to getting an idea about what AI actually is as opposed to what Hollywood conditioned me to believe it might be.
+View More
+Muhammad S.
+Loved the content. It brought simplicity to the complex topic of AI, separated signal from noise, presented a great flow and covered the most relevant topics.
+Andrew’s knowledge and passion about the subject of AI was amazing. It was inspiring to listen to him, even via recorded videos. Its really great to be in this era of technology, as it makes it possible to get access to the wealth of knowledge so easily.
+View More
+Previous slide
+Next slide
+Learner Reviews
+close
+Course Outline
+Generative AI for Everyoneㅤ
+Week 1: Introduction to Generative AI
+What is Generative AI?
+Join the DeepLearning.AI Forum to ask questions, get support, or share amazing ideas!
+Reading
+・
+1m
+Generative AI Applications
+Resources
+Lecture Notes (Optional)
+Week 2: Generative AI Projects
+Software applications
+Advanced technologies: Beyond prompting
+Lecture Notes (Optional)
+Week 3: Generative AI in Business and Society
+Generative AI and business
+Generative AI and society
+Resources
+Lecture Notes (Optional)
+Acknowledgements
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Course Slides
+You can download the annotated version of the course slides below.
+Download The Course Slides
+*Note: The slides might not reflect the latest course video slides. Please refer to the lecture videos for the most up-to-date information. We encourage you to make your own notes.
+Download The Course Slides
+close
+Frequently Asked Questions
+How does this course differ from AI for Everyone?
+The world of AI has changed rapidly in the past 18 months. Large language models (LLMs) and other generative AI applications have taken the world by storm, and continue to evolve. Our new course teaches the most up-to-date information regarding these revolutionary tools and technologies.
+Who is this course for?
+This course is designed to provide value to anyone interested in learning about generative AI, its impacts, and how to use it. Business leaders will learn how generative AI can impact business, and how to develop a generative AI strategy to increase productivity, professionals will gain practical experience using AI in the workplace, and AI tools and techniques to apply at work. Developers working outside the world of AI will get a foundational knowledge of the current state of AI that will help in upskilling or reskilling in the realm of AI.
+AI is a transformative technology that will impact everyone. Understanding how it works and how to use it puts you in the driver’s seat.
+Do I need prior experience?
+No, this course doesn’t require any prior knowledge of AI or coding skills.
+Who is Andrew Ng?
+Dr. Andrew Ng is a globally recognized leader in AI (Artificial Intelligence). He is the founder of DeepLearning.AI, Founder & CEO of Landing AI, General Partner at AI Fund, Chairman & Co-Founder of Coursera and an Adjunct Professor at Stanford University’s Computer Science Department.
+What exercises will be done in this course?
+Learn how to utilize prompt engineering with the GPT-3.5 language model to classify and summarize restaurant reviews efficiently.
+How long does the course take to complete?
+3 weeks of study, 1-2 hours/week
+Generative AI for Everyoneㅤ
+Beginner
+5h1m
+32 Video Lessons
+2 Code Examples
+6 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Oct 8, 2026
+Instructor: Andrew Ng
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+Stay up to date with AI news!
+Keep learning with updates on curated news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll Now
+Also available on
+Coursera
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

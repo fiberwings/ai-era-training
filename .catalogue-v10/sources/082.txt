@@ -1,0 +1,137 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h
+Embedding Models: from Architecture to Implementation
+Instructor
+:
+Ofer Mendelevitch
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Beginner
+1h
+7 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Ofer Mendelevitch
+Vectara
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Gain an in-depth understanding of the architecture behind embedding models; and learn how to train and use them.
+Learn how to use different embedding models such as Word2Vec and BERT in various semantic search systems.
+Learn how to build and train dual encoder models using contrastive loss, enhancing the accuracy of question-answer retrieval applications.
+About this course
+Join our new short course, Embedding Models: From Architecture to Implementation! Learn from Ofer Mendelevitch, Head of Developer Relations at Vectara.
+This course goes into the details of the architecture and capabilities of embedding models, which are used in many AI applications to capture the meaning of words and sentences.
+You will learn about the evolution of embedding models, from word to sentence embeddings, and build and train a simple dual encoder model. This hands-on approach will help you understand the technical concepts behind embedding models and how to use them effectively.
+In detail, you’ll:
+Learn about word embedding, sentence embedding, and cross-encoder models; and how they can be used in RAG
+Understand how transformer models, specifically BERT (Bi-directional Encoder Representations from Transformers), are trained and used in semantic search systems
+Gain knowledge of the evolution of sentence embedding and understand how the dual encoder architecture was formed
+Use a contrastive loss to train a dual encoder model, with one encoder trained for questions and another for the responses
+Utilize separate encoders for question and answer in a RAG pipeline and see how it affects the retrieval compared to using a single encoder model.
+By the end of this course, you will understand word, sentence, and cross-encoder embedding models, and how transformer-based models like BERT are trained and used in semantic search. You will also learn how to train dual encoder models with contrastive loss and evaluate their impact on retrieval in a RAG pipeline.
+Who should join?
+This course is ideal for data scientists, machine learning engineers, NLP enthusiasts, and anyone who wants to learn about the creation and implementation of embedding models, which are crucial for building semantic retrieval systems. Whether you’re familiar with generative AI applications or new to the concept, if you have basic Python knowledge, this course offers a deep dive into how these models are built and capture the semantic meaning of words and sentences.
+Course Outline
+7
+Lessons・
+4
+Code Examples
+Introduction
+Video
+・
+4m
+Introduction to embedding models
+Video
+・
+4m
+Contextualized token embeddings
+Video with Code Example
+・
+10m
+Token vs. sentence embedding
+Video with Code Example
+・
+10m
+Training a dual encoder
+Video with Code Example
+・
+13m
+Using embeddings in RAG
+Video with Code Example
+・
+5m
+Conclusion
+Video
+・
+2m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Ofer Mendelevitch
+Head of Developer Relations at
+Vectara
+Embedding Models: from Architecture to Implementation
+Beginner
+1h
+7 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Ofer Mendelevitch
+Vectara
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

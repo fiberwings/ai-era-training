@@ -1,0 +1,163 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+3h8m
+Agentic Knowledge Graph Construction
+Instructor
+:
+Andreas Kollegger
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Intermediate
+3h8m
+12 Video Lessons
+8 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Andreas Kollegger
+Neo4j
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Design specialized agents that identify the user’s goal, and suggest what nodes and relationships to extract from relevant structured and unstructured data.
+Implement the multi-agent system using Google’s ADK to orchestrate the specialized agents and output the graph schemas for structured and unstructured data.
+Construct the graphs based on the proposed schemas and connect them to obtain the complete knowledge graph.
+About this course
+Learn to automate the construction of knowledge graphs using agents in
+Agentic Knowledge Graph Construction
+, taught by Andreas Kollegger, Developer Evangelist for Generative AI at Neo4j.
+In traditional RAG systems, documents are split into chunks stored in a vector database. In a knowledge graph, chunks are additionally placed in a graph that better represents relationships within your data. For example, a chunk representing a product review can be connected in a graph to another node representing the product that was mentioned in the review. Manually constructing knowledge graphs can be a lot of work. In this course, you’ll learn how to use collaborative agents to generate the construction plan for your knowledge graph.
+You’ll implement an agentic system using Google’s Agent Development Kit (ADK), to build a knowledge graph that helps you find the root cause of product issues. You’ll work with structured data consisting of product and supplier information, and unstructured data consisting of product reviews.
+You’ll design agents that suggest how to transform your structured and unstructured data into graphs. For example, from each CSV file, you can either extract a node representing a product, a part of a product or a supplier, or you can extract a relationship: a product contains this part, a part is provided by this supplier. From each review chunk, you can extract what product and issues were mentioned. Finally, you will construct the graphs based on the plans provided by the agents and connect them in a complete knowledge graph.
+In detail, you’ll:
+Understand what a knowledge graph is and how it captures relationships from data.
+Explore the architecture of the multi-agent system made up of a conversational agent that identifies the user’s goal, and three sub-agentic workflows, to process structured and unstructured data and build the knowledge graph.
+Use Google’s Agent Development Kit (ADK) to build and coordinate multiple agents that have access to a shared context.
+Build a user intent agent that collaborates with the user to define the goal of the knowledge graph, and saves the approved goal in the shared state.
+Build a file-suggestion agent that identifies relevant data files based on the user’s goal, samples their contents, and saves the approved list in the shared state.
+Set up a loop of sub-agents to propose and refine a graph schema (type of nodes and edges) based on your structured data.
+Design a sequential workflow of two sub-agents to propose a graph schema based on your unstructured text data, i.e., extract the type of nodes/entities and relevant relationships from the text files.
+Construct the graphs based on the suggested schemas from the structured and unstructured data, and connect the two graphs into one knowledge graph.
+By the end of this course, you’ll know how to use agents to model and construct knowledge graphs that can enhance the accuracy of your retrieval systems.
+Who should join?
+If you’ve worked with RAG systems and want to go a step further, or if you’re curious about agentic design and knowledge graph databases, this course is for you. You must be familiar with Python. Knowledge of basic Cypher queries can be helpful, but not required.
+Course Outline
+12
+Lessons・
+8
+Code Examples
+Introduction
+Video
+・
+3m
+What is a Knowledge Graph?
+Video
+・
+10m
+Architecture of the Multi-Agent System
+Video
+・
+9m
+Introduction to Google's ADK - Part I
+Video with Code Example
+・
+22m
+Introduction to Google's ADK – Part II
+Video with Code Example
+・
+20m
+Understanding User Intent
+Video with Code Example
+・
+17m
+File Suggestions
+Video with Code Example
+・
+12m
+Schema Proposal for Structured Data
+Video with Code Example
+・
+29m
+Schema Proposal for UnStructured Data
+Video with Code Example
+・
+16m
+Knowledge Graph Construction - Part I
+Video with Code Example
+・
+13m
+Knowledge Graph Construction – Part II
+Video with Code Example
+・
+33m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Andreas Kollegger
+Lead for GenAI Innovation at
+Neo4j
+Agentic Knowledge Graph Construction
+Intermediate
+3h8m
+12 Video Lessons
+8 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Andreas Kollegger
+Neo4j
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -1,0 +1,146 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h35m
+Building AI Applications With Haystack
+Instructor
+:
+Tuana Çelik
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Intermediate
+1h35m
+8 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Tuana Çelik
+Haystack
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn how Haystack components, pipelines, and document stores can be used to build custom AI applications.
+Build a RAG pipeline and extend its ability by creating custom components.
+Use conditional branching, self-reflecting agents, and function calling to build complex pipelines and apps.
+About this course
+In
+Building AI Applications with Haystack
+you will learn a high-level orchestration framework that helps ensure your applications are flexible, extendible, and maintainable, even as the technology stack changes, user needs arise, and new features are added.
+Using a framework can provide common features out of the box that significantly speeds up the development process. Haystack offers robust and flexible architecture and framework for building AI applications. It manages complexity and helps you focus more on developing your application at a higher level of abstraction.
+Throughout the course, you will develop several projects, including a RAG app, a news summarization app, a chat agent with function calling, and a self-reflecting agent with loops.
+What you’ll do:
+Learn about the core abstractions and unique building blocks of the Haystack framework and see how these elements can be combined for various AI use cases.
+Build a RAG pipeline by using Haystack components, pipelines, and document stores.
+Create custom components in your pipeline by building a Hacker News summarizer that extends your app’s ability to access APIs.
+Use conditional routing to create a branching pipeline with a fall back to web-search when the LLM does not have the context needed to fully respond to the user’s query.
+Build a self-reflecting agent for named entity recognition with a Haystack pipeline that is able to loop using an output validator custom component.
+Create a chat agent using OpenAI’s function-calling capabilities which allow you to provide Haystack pipelines as tools to the LLM, enhancing that agent’s capabilities.
+Start building exciting LLM applications and optimizing your development workflow using Haystack.
+Who should join?
+Anyone who has basic Python knowledge and wants to learn to build and customize complex apps using Haystack!
+Course Outline
+8
+Lessons・
+6
+Code Examples
+Introduction
+Video
+・
+4m
+Haystack Building Blocks
+Video with Code Example
+・
+14m
+Build Customized RAG
+Video with Code Example
+・
+12m
+Custom Components -- News Summarizer
+Video with Code Example
+・
+14m
+Fallbacks with Branching Pipelines
+Video with Code Example
+・
+13m
+Self-Reflecting Agents with Loops
+Video with Code Example
+・
+11m
+Chat Agent with Function Calling
+Video with Code Example
+・
+13m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Tuana Çelik
+Developer Relations Lead at
+Haystack
+by
+Deepset
+Building AI Applications With Haystack
+Intermediate
+1h35m
+8 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Tuana Çelik
+Haystack
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

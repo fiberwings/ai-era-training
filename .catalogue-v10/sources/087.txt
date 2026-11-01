@@ -1,0 +1,147 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h57m
+Carbon Aware Computing for GenAI developers
+Instructor
+:
+Nikita Namjoshi
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Beginner
+1h57m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Nikita Namjoshi
+Google Cloud
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Retrieve real-time data on global energy mixes and carbon intensity from the ElectricityMaps API. Identify power grids that produce electricity from low-carbon sources, such as hydro, nuclear, wind, and solar power.
+Run a machine learning training job using low-carbon electricity by re-directing training tasks to cloud server locations selected based on their average and real-time carbon intensity measurements.
+Analyze the carbon footprint of sample Google Cloud usage data, including machine learning training, inference, storage, and other API activities.
+About this course
+Learn how to perform model training and inference jobs with cleaner, low-carbon energy in the cloud!
+Learn from Nikita Namjoshi, developer advocate at Google Cloud and Google Fellow on the Permafrost Discovery Gateway, and explore how to measure the environmental impact of your machine learning jobs, and also how to optimize their use of clean electricity.
+Query real-time electricity grid data
+: Explore the world map, and based on latitude and longitude coordinates, get the power breakdown of a region (e.g. wind, hydro, coal etc.) and the carbon intensity (CO2 equivalent emissions per kWh of energy consumed).
+Train a model with low-carbon energy
+: Select a region that has a low average carbon intensity to upload your training job and data. Optimize even further by selecting the lowest carbon intensity region using real-time grid data from ElectricityMaps.
+Retrieve measurements of the carbon footprint
+for ongoing cloud jobs.
+Use the Google Cloud Carbon Footprint tool
+, which provides a comprehensive measure of your carbon footprint by estimating greenhouse gas emissions from your usage of Google Cloud.
+Throughout the course, you’ll work with ElectricityMaps, a free API for querying electricity grid information globally. You’ll also use Google Cloud to run a model training job in a cloud data center that is powered by low-carbon energy.
+Get started, and learn how to make more carbon-aware decisions as a developer!
+Who should join?
+Familiarity with Python will help with the coding parts of the lesson, although the concepts covered can help anyone gain an understanding of the environmental impact of machine learning workflows.
+Course Outline
+8
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+3m
+The Carbon Footprint of Machine Learning
+Video
+・
+14m
+Exploring Carbon Intensity on the Grid
+Video with Code Example
+・
+13m
+Training Models in Low Carbon Regions
+Video with Code Example
+・
+18m
+Using Real-Time Energy Data for Low-Carbon Training
+Video with Code Example
+・
+19m
+Understanding your Google Cloud Footprint
+Video with Code Example
+・
+20m
+Next steps
+Video
+・
+5m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Google Cloud Setup
+Code Example
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Nikita Namjoshi
+Developer Advocate at
+Google Cloud
+Carbon Aware Computing for GenAI developers
+Beginner
+1h57m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Nikita Namjoshi
+Google Cloud
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -1,0 +1,19 @@
+{
+  "unchangedNativeParts": 34,
+  "allExistingScoreAndCoverageRowsUnchanged": true,
+  "otherExistingCourseCellsUnchanged": true,
+  "formulaCount": 459022,
+  "formulaErrors": [],
+  "resources": 528,
+  "newCourses": 104,
+  "reviewedOfferings": 131,
+  "checkedCoverageRows": 9453,
+  "numericScores": 57260,
+  "unassessedRows": 280,
+  "nativeRecalculation": {
+    "compared": 459022,
+    "mismatches": [],
+    "totalMismatches": 0,
+    "method": "LibreOffice recalculation from a copy with every formula cache removed; published native workbook preserved."
+  }
+}

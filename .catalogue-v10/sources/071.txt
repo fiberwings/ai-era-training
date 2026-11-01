@@ -1,0 +1,148 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+57m
+Collaborative Writing and Coding with OpenAI Canvas
+Instructor
+:
+Karina Nguyen
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Beginner
+57m
+7 Video Lessons
+1 Code Example
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Karina Nguyen
+OpenAI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn to write and code more effectively with OpenAI Canvas, using features like targeted editing, in-line feedback, changing the reading level, final polish, reviewing code, and fixing bugs.
+Learn how to build practical use cases like creating a game app, generating Python code from plot screenshots, and creating SQL databases from architecture images.
+Gain knowledge of how GPT-4o was trained to bring the OpenAI Canvas features and functionalities to life.
+About this course
+Explore a new way to write and code with
+OpenAI Canvas
+, a user-friendly interface that allows you to brainstorm, draft, and refine text and code in collaboration with ChatGPT. In the short course
+Collaborative Writing and Coding with OpenAI Canvas
+, taught by Karina Nguyen, research lead at OpenAI, you’ll learn how to use this tool to enhance your writing and coding.
+Canvas provides a side-by-side workspace where you and ChatGPT can collaboratively edit and refine text or code. This makes brainstorming, drafting, and iterating on the text feel more natural and effective.
+For instance, after writing the first version of your code, Canvas can review it and give suggestions for improvement. It can also help with debugging by adding logs, identifying problems to fix, and writing comments for your code.
+This course will teach you how to make the most of the new interactive Canvas workspace and tools to make your writing more flexible, more efficient, and a lot more fun as you go behind the scenes with examples of the different use cases and learn what it takes to train the model to powers Canvas’s features and functionalities.
+In this video-only short course, you’ll:
+Learn how to ask for in-line feedback and control the iteration of your creative work by directly editing selected areas of your text or code from the model’s output.
+Learn how to access quick automation tools in a shortcut menu that allows you to modify your writing tone and length, enhance your code, and restore previous versions of your work.
+Learn how to use Canvas as a research assistant tool with an example of asking the model to reason through the screenshot of a plot to write a research report, in which you can ask questions within the report.
+Extend its use case by asking the model to write Python code to replicate the graph seen on a screenshot image.
+Go behind the scenes of how you can create a video game such as Space Battleship from scratch, edit it, and display it in one self-contained HTML file.
+Get a real-world application example of creating a SQL database from the image of its architecture.
+Understand the model training and design processes that power Canvas.
+By the end of this course, you’ll learn about all the possibilities that the new Canvas interface can bring to your writing and coding workflow.
+Who should join?
+Anyone who wants to learn how to use the new OpenAI Canvas interface to write and code better.
+Course Outline
+7
+Lessons・
+1
+Code Examples
+Introduction
+Video
+・
+2m
+Collaborative Writing
+Video
+・
+11m
+Collaborative Coding
+Video
+・
+5m
+Build a Spaceship Game
+Video
+・
+5m
+Create SQL Database from Architecture Image
+Video
+・
+4m
+Training the Canvas
+Video
+・
+8m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Free Canvas Access and Prompt Copies
+Code Example
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Karina Nguyen
+Research Lead at
+OpenAI
+Collaborative Writing and Coding with OpenAI Canvas
+Beginner
+57m
+7 Video Lessons
+1 Code Example
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Karina Nguyen
+OpenAI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

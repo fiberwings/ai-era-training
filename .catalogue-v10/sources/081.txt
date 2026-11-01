@@ -1,0 +1,352 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+11h30m
+AI Python for Beginners
+Instructor
+:
+Andrew Ng
+DeepLearning.AI
+Earn
+a certificate
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Beginner
+11h30m
+35 Video Lessons
+27 Code Examples
+8 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Andrew Ng
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn Python programming fundamentals and how to integrate AI tools for data manipulation, analysis, and visualization.
+Discover how Python can be applied in various domains such as business, marketing, and journalism to solve real-world problems and enhance efficiency through practical applications.
+Leverage AI assistants to debug code, explain concepts, and enhance your learning, mirroring real-world software development practices.
+About this course
+AI Python for Beginners
+is designed to help you leverage the power of Python programming, even if your goal isn’t to become a software developer or AI engineer. This four-part course teaches you to code practical AI applications from day one, whether you’re an experienced programmer, or writing “Hello, World!” for the first time. You’ll learn with support from an AI chatbot that can provide you with immediate feedback, answer your questions, quickly identify and work through bugs, and keep you on track while learning new skills.
+You’ll gain a foundational understanding of Python while using it to build AI-powered tools like custom recipe generators, smart to-do lists, and vacation planners, learning essential programming concepts such as variables, functions, loops, and data structures along the way. As you progress, you’ll work with your own data, extracting valuable insights from text files and structured data, including planning a dream vacation by having AI analyze travel blogs and generate personalized itineraries!
+By the end of this course series, you’ll be able to write Python scripts that interact with large language models, automate tasks, and analyze your own data. You’ll even learn how to extend Python’s capabilities using popular third-party packages for data analysis and visualization, and how to access real-time information through APIs. These are skills that are increasingly valuable across industries from tech and finance to healthcare and creative fields.
+Hands-on projects
+Throughout this course, you’ll engage in practical, hands-on exercises that reinforce your learning and demonstrate the wide range of possibilities for what you can create with Python and AI. Here are some of the projects you’ll work on:
+Custom Recipe Generator:
+Create an AI-powered tool that generates unique recipes based on available ingredients. You’ll use variables, f-strings, and AI prompts to craft personalized culinary creations.
+Smart To-Do List:
+Build an intelligent task manager that not only stores your to-do items but also prioritizes them using AI. You’ll apply your knowledge of lists, dictionaries, and decision-making code to enhance productivity.
+Travel Blog Analyzer:
+Develop a program that reads travel blog entries and uses AI to extract key information like restaurant names and popular dishes. This exercise showcases your ability to work with files and leverage AI for text analysis.
+Dream Vacation Planner:
+Create a sophisticated itinerary generator that takes a multi-city trip plan and uses AI to suggest daily activities, including restaurant recommendations. You’ll work with CSV files, dictionaries, and AI prompts to build this comprehensive travel tool.
+Data Visualization Project:
+Using popular Python libraries like matplotlib, you’ll create visual representations of data. This could involve plotting price trends of used cars or visualizing travel statistics from your vacation planner.
+Web Data Extraction: Use the BeautifulSoup library to scrape web pages and extract useful information, opening up a world of data for your projects.
+Real-time Data Application:
+Build a program that interacts with web APIs to fetch and process real-time data, such as current weather information or live currency exchange rates.
+These hands-on projects not only reinforce your Python skills but also demonstrate how AI and programming can be applied to solve real-world problems and enhance everyday tasks. By the end of the course, you’ll have a portfolio of practical AI-powered applications that you’ve built from scratch!
+You’ll learn directly from Andrew Ng, a globally recognized AI leader known for his engaging teaching style. Andrew has educated around 8 million people worldwide through his online courses, helping them build foundational skills in AI and machine learning.
+Accelerated learning with AI
+Experience a new kind of learning with AI chatbot integration. This intelligent assistant helps you write, test, and debug code, providing instant feedback and personalized guidance, making sure you’re never coding alone. With the rise of AI tools, the effort and time required to learn helpful coding skills have significantly decreased, making it more accessible and beneficial for everyone. You’ll be amazed at how quickly you can go from writing your first line of code to creating AI-powered applications that can process and analyze real-world data.
+Who should join?
+This course is for anyone curious about AI and programming with Python, from complete beginners learning to code for the first time to professionals seeking to boost productivity and learn how to properly integrate AI into their coding process. Ideal for students, career changers, knowledge workers, lifelong learners, and educators. If traditional coding courses haven’t worked or have felt intimidating, our hands-on, AI-focused approach will help you in your journey.
+Whether you want to automate repetitive tasks, extract insights from large datasets, or create AI-powered tools to enhance your work or personal projects, this course will give you the skills to get started. By the end, you’ll not only understand Python basics but also know how to leverage powerful data analysis libraries, interact with web APIs, and set up Python on your own computer to continue your learning journey.
+Skills you will gain
+Python Programming
+AI-Assisted Coding
+Effective LLM Prompts
+Data Structures
+Function Creation
+Variable Management
+Debugging
+File Handling
+API Interaction
+Course Outline
+AI Python for Beginners
+Module 1: Basics of AI Python Coding
+Introduction
+Video
+・
+3m
+What is computer programming?
+Video
+・
+5m
+Writing code with chatbots
+Video
+・
+6m
+Navigating the learning platform
+Video
+・
+3m
+Join the DeepLearning.AI Forum to ask questions, get support, or share amazing ideas!
+Reading
+・
+1m
+Running your first program
+Video with Code Example
+・
+8m
+How to succeed in coding
+Video
+・
+2m
+Data in Python
+Video with Code Example
+・
+10m
+Combining text and calculations
+Video with Code Example
+・
+7m
+Variables
+Video with Code Example
+・
+7m
+Building LLM prompts with variables
+Video with Code Example
+・
+4m
+Functions: Actions on Data
+Video with Code Example
+・
+7m
+Quiz 1
+Graded
+・Quiz
+・
+10m
+Working with a Virtual Library
+Graded
+・Code Assignment
+・
+1h30m
+Lecture Notes M1
+Reading
+・
+1m
+Module 2: Automating Tasks with Python
+Introduction
+Video
+・
+3m
+Completing a task list with AI
+Video with Code Example
+・
+13m
+Repeating tasks with for loops
+Video with Code Example
+・
+12m
+Prioritizing tasks with dictionaries and AI
+Video with Code Example
+・
+14m
+Customizing recipes with lists, dictionaries and AI
+Video with Code Example
+・
+6m
+Comparing data in Python
+Video with Code Example
+・
+11m
+Helping AI make decisions
+Video with Code Example
+・
+10m
+Quiz 2
+Graded
+・Quiz
+・
+10m
+Next course preview: working with files
+Video with Code Example
+・
+4m
+Book Tracker
+Graded
+・Code Assignment
+・
+1h30m
+Lecture Notes M2
+Reading
+・
+1m
+Module 3: Working with Your Own Data and Documents in Python
+Introduction
+Video
+・
+4m
+Using files in Python
+Video with Code Example
+・
+5m
+Loading and using your own data
+Video with Code Example
+・
+6m
+Reading journals from food critics
+Video with Code Example
+・
+7m
+Extracting restaurant information from journal entries
+Video with Code Example
+・
+8m
+Vacation planning using CSV files
+Video with Code Example
+・
+7m
+Turning code blocks into reusable functions
+Video with Code Example
+・
+8m
+Creating detailed itineraries for multiple cities
+Video with Code Example
+・
+8m
+Share Your Learning Project!
+Resource
+・
+10m
+Quiz 3
+Graded
+・Quiz
+・
+10m
+Pluto's Poetic Journey
+Graded
+・Code Assignment
+・
+1h30m
+Lecture Notes M3
+Reading
+・
+1m
+Module 4: Extending Python with Packages and APIs
+Introduction
+Video
+・
+3m
+Using functions from a local file
+Video with Code Example
+・
+7m
+Built-in packages
+Video with Code Example
+・
+8m
+Using third-party packages
+Video with Code Example
+・
+8m
+Installing packages
+Video with Code Example
+・
+8m
+APIs to get data from the web
+Video with Code Example
+・
+7m
+APIs to use AI models
+Video with Code Example
+・
+9m
+Install Python on your computer
+Code Example
+・
+10m
+Conclusion
+Video
+・
+3m
+Quiz 4
+Graded
+・Quiz
+・
+10m
+Share Your Learning Project!
+Resource
+・
+10m
+Candy Analysis
+Graded
+・Code Assignment
+・
+1h30m
+Lecture Notes M4
+Reading
+・
+1m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Frequently Asked Questions
+Do I need to take the courses in a specific order?
+We recommend taking the courses in the prescribed order for a logical and consistent learning experience.
+Who is this course for?
+This course is for anyone curious about AI and programming with Python, from complete beginners to professionals seeking to boost productivity.
+Do I need prior coding experience?
+No prior coding experience is required. This course is designed to be accessible to complete beginners while also providing valuable insights for those with some coding background.
+How will AI tools assist me in this course?
+The integrated chatbot will help you write, test, and debug code, offering real-time feedback and personalized guidance to enhance your learning experience.
+What kind of support will I have during the course?
+You will have access to a community of learners and professionals, as well as continuous guidance and feedback from your AI companions.
+Instructor
+Andrew Ng
+Founder, DeepLearning.AI; Co-founder, Coursera
+AI Python for Beginners
+Beginner
+11h30m
+35 Video Lessons
+27 Code Examples
+8 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Andrew Ng
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "changedCourses": [
+    "TR-089",
+    "TR-145"
+  ],
+  "otherCoursesUnchanged": 526,
+  "requirementsUnchanged": 140,
+  "courseNeedRowsReconciled": 9453,
+  "nativeFormulasPreserved": 461493,
+  "unchangedInputCells": 636416,
+  "unmodifiedNativeParts": 29,
+  "formulaErrors": [],
+  "catalogueVersion": "6db669ed065cab54",
+  "sourceSha256": "6abef4de79f652a227984bdb67624cebd81ff96a656d33d8414c099ff49ef87c",
+  "recalculation": {
+    "engine": "LibreOffice recalculation of affected dependency closure; unchanged lookup caches retained, native formulas and other workbook features preserved",
+    "formulaCount": 19694,
+    "errors": []
+  }
+}

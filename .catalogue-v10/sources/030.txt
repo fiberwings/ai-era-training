@@ -1,0 +1,147 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h14m
+Jupyter AI: AI Coding in Notebooks
+Instructors
+:
+Andrew Ng, Brian Granger
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 29, 2026
+Enroll for Free
+Beginner
+1h14m
+5 Video Lessons
+3 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 29, 2026
+Instructors: Andrew Ng, Brian Granger
+Project Jupyter
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Use Jupyter AI to generate code, debug errors, and get explanations—all without leaving your notebook environment.
+Build AI applications from scratch, including a book research assistant and a stock data analysis workflow, using Jupyter AI.
+Apply AI coding best practices to guide Jupyter AI with the right context to successfully build your projects.
+About this course
+Learn to use Jupyter AI as your notebook coding partner in this short course, taught by Andrew Ng and Brian Granger, co-founder of Project Jupyter.
+Coding practices are shifting from manual coding to AI-assisted development, and Jupyter AI allows you to integrate AI coding into all your notebook development workflows. Many AI coding assistants struggle to function well within the notebook environment, the Project Jupyter team has introduced Jupyter AI, which is an open-source framework that deeply integrates AI coding and collaboration into Jupyter notebooks and JupyterLab.
+Jupyter AI provides a chat interface that you can use to generate new cells in your notebook. You can also drag existing cells into the chat for debugging, attach files for context, and save chat histories to reuse later as additional context for your work.
+In this course, you’ll build a book research assistant using the Open Library API, and create a stock market data analysis workflow, all with the help of Jupyter AI. You’ll learn how to provide API documentation as context so the LLM generates accurate syntax for code that wasn’t part of its pretraining.
+In detail, you’ll use Jupyter AI to:
+Generate, refactor and explain code, including making API calls to services like OpenAI and performing statistical data analysis.
+Build a book research assistant using the Open Library API by providing Jupyter AI with the API documentation as context.
+Create a stock market data analysis workflow that you can use to perform analysis and visualization of financial data.
+This course offers an early look at how Jupyter AI is reshaping coding in notebooks—and how you can start using it today!
+Whether you’re a data scientist, AI developer, educator, or new to coding and you want to leverage AI coding assistance, this course gives you hands-on experience with a framework designed specifically for working with Jupyter notebooks.
+Who should join?
+Any AI builder who wants to learn AI-assisted coding in Jupyter notebooks. No prior experience with AI coding tools required. Basic familiarity with Python is helpful.
+Course Outline
+5
+Lessons・
+3
+Code Examples
+Introduction
+Video
+・
+4m
+Coding with Jupyter AI
+Video
+・
+7m
+Exercise 1
+Code Example
+・
+10m
+Building an AI Book Research Assistant
+Video
+・
+9m
+Exercise 2
+Code Example
+・
+10m
+Exploring Stock Market Data
+Video
+・
+8m
+Exercise 3
+Code Example
+・
+10m
+How to Set Up Jupyter AI Locally
+Reading
+・
+3m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+9m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Andrew Ng
+Founder, DeepLearning.AI; Co-founder, Coursera
+Brian Granger
+Co-founder of
+Project Jupyter
+Jupyter AI: AI Coding in Notebooks
+Beginner
+1h14m
+5 Video Lessons
+3 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 29, 2026
+Instructors: Andrew Ng, Brian Granger
+Project Jupyter
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

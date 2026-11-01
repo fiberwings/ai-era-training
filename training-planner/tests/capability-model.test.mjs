@@ -13,9 +13,10 @@ const legacy=JSON.parse(readFileSync(new URL('../scenario-history/default-scenar
 
 test('approved v11 revisions retain every unaffected score and a complete 140-outcome crosswalk',()=>{
  const prior=JSON.parse(readFileSync(new URL('../catalogue-history/d2604d12cdfe9509.json',import.meta.url)));
+ const v11=JSON.parse(readFileSync(new URL('../catalogue-history/6f245643cc5bf083.json',import.meta.url)));
  assert.deepEqual(data.thresholds,prior.thresholds);
  const changed=new Set(['N5.1','N5.2','N5.8','R3.1.2','R4.1.3']);
- for(const old of prior.courses){const current=course(old.id);assert.ok(current,old.id);
+ for(const old of prior.courses){const current=v11.courses.find(c=>c.id===old.id);assert.ok(current,old.id);
   for(const [id,score] of Object.entries(old.scores))if(!changed.has(id))assert.deepEqual(current.scores[id],score,`${old.id}/${id}`);
   for(const [id,score] of Object.entries(old.unassessed))if(!changed.has(id))assert.deepEqual(current.unassessed[id],score,`${old.id}/${id}`);
  }
@@ -109,8 +110,17 @@ test('tool training affects recorded practice/time but supplies no invented outc
 test('profile edits invalidate affected recommendations without discarding choices',()=>{
  const s=createScenario(data),c=get(s,'entry');for(const item of s.cohorts){item.selected=['INT-437'];item.recommendation={status:'Optimal'};}
  const selected=serialize(s.cohorts.map(c=>c.selected));invalidateRecommendations(s,c);
- assert.ok(!get(s,'all').needsReview);assert.ok(get(s,'governance').needsReview);assert.equal(get(s,'technical').recommendation,undefined);assert.equal(serialize(s.cohorts.map(c=>c.selected)),selected);
- assert.ok(validateScenario(s,data).some(x=>x.includes('Planning inputs changed')));
+ assert.ok(get(s,'all').recommendation);assert.equal(get(s,'governance').recommendation,undefined);assert.equal(get(s,'technical').recommendation,undefined);assert.equal(serialize(s.cohorts.map(c=>c.selected)),selected);
+ assert.ok(s.cohorts.every(c=>!Object.hasOwn(c,'needsReview')));
+ s.status='Finalised';assert.deepEqual(validateScenario(s,data),[]);
+});
+
+test('legacy saved review flags no longer warn or block finalisation',()=>{
+ const s=createScenario(data);
+ for(const c of s.cohorts){c.needsReview=true;c.review={date:'2026-10-30T00:00:00.000Z',note:'Earlier review'};}
+ invalidateRecommendations(s,get(s,'all'));s.status='Finalised';
+ const text=serialize(s),restored=deserialize(text,data);
+ assert.deepEqual(restored.warnings,[]);assert.equal(serialize(restored.scenario),text);
 });
 
 test('v2 roundtrips; v1 imports and duplicates retain all original scope and selections',()=>{
@@ -121,10 +131,12 @@ test('v2 roundtrips; v1 imports and duplicates retain all original scope and sel
  assert.ok(ids(scope(data,get(imported,'technical'),imported)).includes('N12.1'));
 });
 
-test('annual v3 recommendation is the published starter with valid scope, time and evidence',()=>{
+test('published starter retains annual v3 decisions with refreshed catalogue evidence',()=>{
  const s=JSON.parse(readFileSync(new URL('../public/data/default-scenario.json',import.meta.url)));
  const annual=JSON.parse(readFileSync(new URL('../../analysis/2027-training-plan/2027-recommended-v3.json',import.meta.url)));
- assert.deepEqual(s,annual);assert.equal(s.planVersion,3);assert.equal(s.modelVersion,2);assert.equal(s.catalogueVersion,data.version);
+ assert.deepEqual({...s,catalogueVersion:annual.catalogueVersion,assumptions:annual.assumptions},annual);
+ assert.ok(s.assumptions.startsWith(annual.assumptions));
+ assert.equal(s.planVersion,3);assert.equal(s.modelVersion,2);assert.equal(s.catalogueVersion,data.version);
  assert.equal(s.cohorts.length,23);assert.deepEqual(validateScenario(s,data),[]);
  assert.deepEqual(deserialize(serialize(s),data).scenario,s);
  assert.equal(new Set(s.cohorts.flatMap(c=>ids(scope(data,c,s)))).size,140);

@@ -1,0 +1,1494 @@
+{
+  "needs": {
+    "N1": {
+      "id": "N1",
+      "title": "AI in cyber",
+      "outcomes": [
+        "N1.1",
+        "N1.2",
+        "N1.3"
+      ],
+      "category": "Cyber-specific"
+    },
+    "N2": {
+      "id": "N2",
+      "title": "AI systems and agents",
+      "outcomes": [
+        "N2.1",
+        "N2.2",
+        "N2.3",
+        "N2.4",
+        "N2.5",
+        "N2.6",
+        "N2.7"
+      ],
+      "category": "Generic"
+    },
+    "N3": {
+      "id": "N3",
+      "title": "AI limitations",
+      "outcomes": [
+        "N3.1",
+        "N3.2",
+        "N3.3",
+        "N3.4",
+        "N3.5",
+        "N3.6",
+        "N3.7"
+      ],
+      "category": "Generic"
+    },
+    "N4": {
+      "id": "N4",
+      "title": "Responsible AI use",
+      "outcomes": [
+        "N4.1",
+        "N4.2",
+        "N4.3",
+        "N4.4",
+        "N4.5",
+        "N4.6",
+        "N4.7"
+      ],
+      "category": "Generic"
+    },
+    "N5": {
+      "id": "N5",
+      "title": "AI-enabled threats",
+      "outcomes": [
+        "N5.1",
+        "N5.2",
+        "N5.3",
+        "N5.4",
+        "N5.5",
+        "N5.6",
+        "N5.7"
+      ],
+      "category": "Cyber-specific"
+    },
+    "N6": {
+      "id": "N6",
+      "title": "Working with AI",
+      "outcomes": [
+        "N6.1",
+        "N6.2",
+        "N6.3",
+        "N6.4",
+        "N6.5",
+        "N6.6",
+        "N6.7",
+        "N6.8"
+      ],
+      "category": "Generic"
+    },
+    "N7": {
+      "id": "N7",
+      "title": "Supervising agents",
+      "outcomes": [
+        "N7.1",
+        "N7.2",
+        "N7.3",
+        "N7.4",
+        "N7.5"
+      ],
+      "category": "Generic"
+    },
+    "N8": {
+      "id": "N8",
+      "title": "Reusable instructions and connectors",
+      "outcomes": [
+        "N8.1",
+        "N8.2",
+        "N8.3",
+        "N8.4",
+        "N8.5"
+      ],
+      "category": "Generic"
+    },
+    "N9": {
+      "id": "N9",
+      "title": "Testing your AI tasks",
+      "outcomes": [
+        "N9.1",
+        "N9.2",
+        "N9.3",
+        "N9.4",
+        "N9.5"
+      ],
+      "category": "Generic"
+    },
+    "N10": {
+      "id": "N10",
+      "title": "Building agents",
+      "outcomes": [
+        "N10.1",
+        "N10.2",
+        "N10.3",
+        "N10.4",
+        "N10.5",
+        "N10.6",
+        "N10.7",
+        "N10.8"
+      ],
+      "category": "Generic"
+    },
+    "N11": {
+      "id": "N11",
+      "title": "Evaluating agents and AI systems",
+      "outcomes": [
+        "N11.1",
+        "N11.2",
+        "N11.3",
+        "N11.4",
+        "N11.5",
+        "N11.6"
+      ],
+      "category": "Generic"
+    },
+    "N12": {
+      "id": "N12",
+      "title": "Securing AI",
+      "outcomes": [
+        "N12.1",
+        "N12.2",
+        "N12.3",
+        "N12.4",
+        "N12.5",
+        "N12.6",
+        "N12.7",
+        "N12.8",
+        "N12.9"
+      ],
+      "category": "Cyber-specific"
+    },
+    "N13": {
+      "id": "N13",
+      "title": "AI governance and risk",
+      "outcomes": [
+        "N13.1",
+        "N13.2",
+        "N13.3",
+        "N13.4",
+        "N13.5",
+        "N13.6"
+      ],
+      "category": "Generic"
+    },
+    "N14": {
+      "id": "N14",
+      "title": "Transforming work and leading adoption",
+      "outcomes": [
+        "N14.1",
+        "N14.2",
+        "N14.3",
+        "N14.4",
+        "N14.5",
+        "N14.6",
+        "N14.7"
+      ],
+      "category": "Generic"
+    },
+    "R1.1": {
+      "id": "R1.1",
+      "title": "Agent incident response",
+      "outcomes": [
+        "R1.1.1",
+        "R1.1.2",
+        "R1.1.3",
+        "R1.1.4",
+        "R1.1.5",
+        "R1.1.6"
+      ],
+      "category": "Cyber-specific"
+    },
+    "R1.2": {
+      "id": "R1.2",
+      "title": "Agent forensics and evidence",
+      "outcomes": [
+        "R1.2.1",
+        "R1.2.2",
+        "R1.2.3"
+      ],
+      "category": "Cyber-specific"
+    },
+    "R3.1": {
+      "id": "R3.1",
+      "title": "Agent red-teaming",
+      "outcomes": [
+        "R3.1.1",
+        "R3.1.2",
+        "R3.1.3",
+        "R3.1.4",
+        "R3.1.5"
+      ],
+      "category": "Cyber-specific"
+    },
+    "R3.2": {
+      "id": "R3.2",
+      "title": "Testing-agent containment",
+      "outcomes": [
+        "R3.2.1",
+        "R3.2.2",
+        "R3.2.3",
+        "R3.2.4",
+        "R3.2.5"
+      ],
+      "category": "Cyber-specific"
+    },
+    "R4.1": {
+      "id": "R4.1",
+      "title": "Agent exposure management",
+      "outcomes": [
+        "R4.1.1",
+        "R4.1.2",
+        "R4.1.3",
+        "R4.1.4",
+        "R4.1.5",
+        "R4.1.6"
+      ],
+      "category": "Cyber-specific"
+    },
+    "R4.2": {
+      "id": "R4.2",
+      "title": "AI code-analysis engineering",
+      "outcomes": [
+        "R4.2.1",
+        "R4.2.2",
+        "R4.2.3",
+        "R4.2.4",
+        "R4.2.5",
+        "R4.2.6",
+        "R4.2.7"
+      ],
+      "category": "Cyber-specific"
+    },
+    "R5.1": {
+      "id": "R5.1",
+      "title": "Agent security architecture",
+      "outcomes": [
+        "R5.1.1",
+        "R5.1.2",
+        "R5.1.3",
+        "R5.1.4",
+        "R5.1.5",
+        "R5.1.6"
+      ],
+      "category": "Cyber-specific"
+    },
+    "R6.1": {
+      "id": "R6.1",
+      "title": "Agent assurance",
+      "outcomes": [
+        "R6.1.1",
+        "R6.1.2"
+      ],
+      "category": "Cyber-specific"
+    },
+    "R9.1": {
+      "id": "R9.1",
+      "title": "Agent identity lifecycle",
+      "outcomes": [
+        "R9.1.1",
+        "R9.1.2",
+        "R9.1.3",
+        "R9.1.4",
+        "R9.1.5",
+        "R9.1.6",
+        "R9.1.7",
+        "R9.1.8",
+        "R9.1.9",
+        "R9.1.10"
+      ],
+      "category": "Cyber-specific"
+    }
+  },
+  "outcomes": {
+    "N1.1": {
+      "id": "N1.1",
+      "need": "N1",
+      "label": "What AI does today in cyber",
+      "definition": "Describe what AI and agents already do well in one's own domain and the neighbouring ones: triage and enrichment, log and code analysis, drafting and summarising, policy mapping, test generation",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N1.2": {
+      "id": "N1.2",
+      "need": "N1",
+      "label": "What is emerging",
+      "definition": "Describe what is emerging in AI for cyber, beyond what is in production today",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N1.3": {
+      "id": "N1.3",
+      "need": "N1",
+      "label": "How one's own work changes",
+      "definition": "Name two or three ways one's own work could change. The purpose is to open the mind to a new way of working, not to teach a tool",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N2.1": {
+      "id": "N2.1",
+      "need": "N2",
+      "label": "Models",
+      "definition": "Different providers make different models, varying in capability, cost, speed and how much they reason; some are open source and can be hosted by the bank; work is measured in tokens",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N2.2": {
+      "id": "N2.2",
+      "need": "N2",
+      "label": "Modalities",
+      "definition": "AI handles text, code, images, voice, documents and screens, and can act across them",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N2.3": {
+      "id": "N2.3",
+      "need": "N2",
+      "label": "Ways of using AI",
+      "definition": "Four patterns: assistant (chat), agent (acts, uses tools, loops until done), teams of agents, and humans and agents working in a shared space",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N2.4": {
+      "id": "N2.4",
+      "need": "N2",
+      "label": "Anatomy of an agent",
+      "definition": "An agent is a model wrapped in a harness: instructions, memory, tools and a loop; the harness is what people configure",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N2.5": {
+      "id": "N2.5",
+      "need": "N2",
+      "label": "Connecting and extending",
+      "definition": "Three ways to extend AI: connectors to tools and data (MCP), reusable playbooks (Skills), and APIs for building",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N2.6": {
+      "id": "N2.6",
+      "need": "N2",
+      "label": "Safety components",
+      "definition": "Every safe deployment has an identity and permissions for the agent, a sandbox it runs in, an authorisation layer that decides what it may do, guardrails on input and output, logs of what it did, and a stop button",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N2.7": {
+      "id": "N2.7",
+      "need": "N2",
+      "label": "Where it runs",
+      "definition": "The bank's approved platforms versus public tools, and what leaves the bank with each",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N3.1": {
+      "id": "N3.1",
+      "need": "N3",
+      "label": "Hallucination",
+      "definition": "Hallucination and confident wrong answers: explain them and recognise them in one's own tools",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N3.2": {
+      "id": "N3.2",
+      "need": "N3",
+      "label": "Sycophancy",
+      "definition": "The model agreeing with the user; recognising it in one's own tools",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N3.3": {
+      "id": "N3.3",
+      "need": "N3",
+      "label": "Context loss",
+      "definition": "Loss of context in long sessions",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N3.4": {
+      "id": "N3.4",
+      "need": "N3",
+      "label": "Non-determinism",
+      "definition": "Non-deterministic output: the same input can give different answers",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N3.5": {
+      "id": "N3.5",
+      "need": "N3",
+      "label": "Prompt injection",
+      "definition": "Prompt injection as a behaviour of the model: content it reads can steer it",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N3.6": {
+      "id": "N3.6",
+      "need": "N3",
+      "label": "Automation bias",
+      "definition": "Automation bias: the human tendency to over-trust the machine",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N3.7": {
+      "id": "N3.7",
+      "need": "N3",
+      "label": "Counter-habits",
+      "definition": "The habits that counter these failures: check against sources, record one's own view before reading the AI's, sample rather than trust",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N4.1": {
+      "id": "N4.1",
+      "need": "N4",
+      "label": "Data leaving the bank",
+      "definition": "Data leaving the bank through public tools",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N4.2": {
+      "id": "N4.2",
+      "need": "N4",
+      "label": "Confidentiality and client data",
+      "definition": "Confidentiality and client data when using AI",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N4.3": {
+      "id": "N4.3",
+      "need": "N4",
+      "label": "Intellectual property",
+      "definition": "Intellectual property risks of AI use",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N4.4": {
+      "id": "N4.4",
+      "need": "N4",
+      "label": "AI supply chain",
+      "definition": "Third-party models, Skills and connectors as a supply chain",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N4.5": {
+      "id": "N4.5",
+      "need": "N4",
+      "label": "Regulation",
+      "definition": "Regulation: the AI Act's literacy duty and the regional regulators' expectations",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N4.6": {
+      "id": "N4.6",
+      "need": "N4",
+      "label": "The bank's rules",
+      "definition": "Applying the bank's rules on approved tools, and knowing what may and may not be handed to an agent",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N4.7": {
+      "id": "N4.7",
+      "need": "N4",
+      "label": "Vetting third-party Skills and connectors",
+      "definition": "Vetting a third-party Skill or connector before using it",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": false
+    },
+    "N5.1": {
+      "id": "N5.1",
+      "need": "N5",
+      "label": "AI-enabled social engineering",
+      "definition": "Phishing and social engineering at scale using AI",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N5.2": {
+      "id": "N5.2",
+      "need": "N5",
+      "label": "Deepfakes",
+      "definition": "Voice and video deepfakes",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N5.3": {
+      "id": "N5.3",
+      "need": "N5",
+      "label": "AI-enabled intrusion",
+      "definition": "Vulnerability discovery, malware generation and automated intrusion using AI",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N5.4": {
+      "id": "N5.4",
+      "need": "N5",
+      "label": "Attacks on the bank's AI",
+      "definition": "Attacks on the bank's own AI systems",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N5.5": {
+      "id": "N5.5",
+      "need": "N5",
+      "label": "What changes for defence",
+      "definition": "Speed, volume, and the need to verify identity rather than trust a voice or a message",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": true
+    },
+    "N5.6": {
+      "id": "N5.6",
+      "need": "N5",
+      "label": "Recognising AI-enabled attacks",
+      "definition": "Recognising AI-enabled attacks in one's own domain",
+      "placement": "Foundation \u2014 common knowledge",
+      "mustHave": false
+    },
+    "N5.7": {
+      "id": "N5.7",
+      "need": "N5",
+      "label": "Tracking the threat landscape",
+      "definition": "Tracking the AI threat landscape and adjusting controls",
+      "placement": "Threat intelligence & detection \u2014 AI threat landscape",
+      "mustHave": false
+    },
+    "N6.1": {
+      "id": "N6.1",
+      "need": "N6",
+      "label": "Delegation",
+      "definition": "Deciding what to hand to AI and what to keep, with a clear definition of success",
+      "placement": "L1 Entry \u2014 Work with AI assistance",
+      "mustHave": true
+    },
+    "N6.2": {
+      "id": "N6.2",
+      "need": "N6",
+      "label": "Context",
+      "definition": "Giving the AI the right information, examples and constraints; this has replaced prompt-writing as the core skill",
+      "placement": "L1 Entry \u2014 Work with AI assistance",
+      "mustHave": true
+    },
+    "N6.3": {
+      "id": "N6.3",
+      "need": "N6",
+      "label": "Discernment",
+      "definition": "Judging the output, the reasoning and the behaviour",
+      "placement": "L1 Entry \u2014 Work with AI assistance",
+      "mustHave": true
+    },
+    "N6.4": {
+      "id": "N6.4",
+      "need": "N6",
+      "label": "Diligence",
+      "definition": "Owning the result and being transparent about AI's part in it",
+      "placement": "L1 Entry \u2014 Work with AI assistance",
+      "mustHave": false
+    },
+    "N6.5": {
+      "id": "N6.5",
+      "need": "N6",
+      "label": "Choosing a model",
+      "definition": "Choosing a model and effort level for a task",
+      "placement": "L1 Entry \u2014 Work with AI assistance",
+      "mustHave": false
+    },
+    "N6.6": {
+      "id": "N6.6",
+      "need": "N6",
+      "label": "Context window and memory",
+      "definition": "Why long sessions degrade as the context window fills, and managing memory",
+      "placement": "L1 Entry \u2014 Work with AI assistance",
+      "mustHave": false
+    },
+    "N6.7": {
+      "id": "N6.7",
+      "need": "N6",
+      "label": "Platform for the data",
+      "definition": "Which approved platform suits which data classification",
+      "placement": "L1 Entry \u2014 Work with AI assistance",
+      "mustHave": false
+    },
+    "N6.8": {
+      "id": "N6.8",
+      "need": "N6",
+      "label": "Own work with AI",
+      "definition": "Using assistants and personal agents for one's own work within the base rules, practised daily",
+      "placement": "L1 Entry \u2014 Work with AI assistance",
+      "mustHave": false
+    },
+    "N7.1": {
+      "id": "N7.1",
+      "need": "N7",
+      "label": "Delegate",
+      "definition": "Scope the task, set boundaries and permissions for the action classes one is signed off on, and check the agent's permissions before handing over",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": false
+    },
+    "N7.2": {
+      "id": "N7.2",
+      "need": "N7",
+      "label": "Monitor",
+      "definition": "Read the agent's trace (plan, tool calls, result), know which permissions it holds and what it has changed, find its logs, notice drift and approval overload",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": true
+    },
+    "N7.3": {
+      "id": "N7.3",
+      "need": "N7",
+      "label": "Verify",
+      "definition": "Sample outputs, trace the evidence, catch planted errors at the target rate",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": true
+    },
+    "N7.4": {
+      "id": "N7.4",
+      "need": "N7",
+      "label": "Intervene",
+      "definition": "Stop, override, roll back and take over mid-task, including when the agent is compromised; keep working when agents are down",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": true
+    },
+    "N7.5": {
+      "id": "N7.5",
+      "need": "N7",
+      "label": "Account",
+      "definition": "Sign off with a record an auditor can follow, own the outcome, feed corrections back",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": false
+    },
+    "N8.1": {
+      "id": "N8.1",
+      "need": "N8",
+      "label": "Writing a Skill",
+      "definition": "Turning a repeated task or runbook into a Skill: an explicit trigger so the agent selects it, numbered steps, an example of the expected output, a section on where the model goes wrong, and its own test cases (N9)",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": true
+    },
+    "N8.2": {
+      "id": "N8.2",
+      "need": "N8",
+      "label": "Maintaining Skills",
+      "definition": "Keeping Skills focused (one task each), reviewing them monthly and retesting them when models or tools change",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": false
+    },
+    "N8.3": {
+      "id": "N8.3",
+      "need": "N8",
+      "label": "Shared library",
+      "definition": "Contributing to a shared Skills library with named owners and a deprecation rule",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": false
+    },
+    "N8.4": {
+      "id": "N8.4",
+      "need": "N8",
+      "label": "Using connectors safely",
+      "definition": "Using connectors (MCP) knowing what each exposes and which permissions it grants, and applying least privilege",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": true
+    },
+    "N8.5": {
+      "id": "N8.5",
+      "need": "N8",
+      "label": "Vetting before installing",
+      "definition": "Vetting third-party Skills and connectors before installing them, since both run with the agent's permissions",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": false
+    },
+    "N9.1": {
+      "id": "N9.1",
+      "need": "N9",
+      "label": "Benchmark cases",
+      "definition": "A set of benchmark cases with known good answers for one's own use cases",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": true
+    },
+    "N9.2": {
+      "id": "N9.2",
+      "need": "N9",
+      "label": "Known faults",
+      "definition": "A catalogue of known faults the AI has made",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": false
+    },
+    "N9.3": {
+      "id": "N9.3",
+      "need": "N9",
+      "label": "Pass or fail checks",
+      "definition": "A pass or fail check for each case and fault",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": true
+    },
+    "N9.4": {
+      "id": "N9.4",
+      "need": "N9",
+      "label": "Rerun on change",
+      "definition": "Rerunning the evals whenever the model, tool or Skill changes; every Skill ships with its test cases",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": false
+    },
+    "N9.5": {
+      "id": "N9.5",
+      "need": "N9",
+      "label": "Feeding the domain system",
+      "definition": "Contributing results to the domain's evaluation system (N11)",
+      "placement": "L2 Practitioner \u2014 Supervise agents",
+      "mustHave": false
+    },
+    "N10.1": {
+      "id": "N10.1",
+      "need": "N10",
+      "label": "Agent design patterns",
+      "definition": "The agent loop, tool definition, planning and reflection patterns",
+      "placement": "L3 Expert \u2014 Build and evaluate agents",
+      "mustHave": true
+    },
+    "N10.2": {
+      "id": "N10.2",
+      "need": "N10",
+      "label": "Multi-agent design",
+      "definition": "When to split work across several agents and how they communicate",
+      "placement": "L3 Expert \u2014 Build and evaluate agents",
+      "mustHave": false
+    },
+    "N10.3": {
+      "id": "N10.3",
+      "need": "N10",
+      "label": "Harness and context engineering",
+      "definition": "Harness design and context engineering at scale",
+      "placement": "Security architecture & engineering \u2014 agent infrastructure",
+      "mustHave": true
+    },
+    "N10.4": {
+      "id": "N10.4",
+      "need": "N10",
+      "label": "Models, cost and latency",
+      "definition": "Model selection and routing, cost and latency",
+      "placement": "L3 Expert \u2014 Build and evaluate agents",
+      "mustHave": false
+    },
+    "N10.5": {
+      "id": "N10.5",
+      "need": "N10",
+      "label": "Hosting and residency",
+      "definition": "Hosting options (vendor, cloud, on-premises) and data residency",
+      "placement": "L3 Expert \u2014 Build and evaluate agents",
+      "mustHave": false
+    },
+    "N10.6": {
+      "id": "N10.6",
+      "need": "N10",
+      "label": "MCP servers",
+      "definition": "Building MCP servers",
+      "placement": "Security architecture & engineering \u2014 agent infrastructure",
+      "mustHave": false
+    },
+    "N10.7": {
+      "id": "N10.7",
+      "need": "N10",
+      "label": "Skills as infrastructure",
+      "definition": "Running the Skills library as infrastructure and packaging Skills into domain plugins",
+      "placement": "Security architecture & engineering \u2014 agent infrastructure",
+      "mustHave": false
+    },
+    "N10.8": {
+      "id": "N10.8",
+      "need": "N10",
+      "label": "Safe deployment",
+      "definition": "Deploying with the safety components of N2 in place, to the standards set in N12 and the evaluation discipline of N11",
+      "placement": "L3 Expert \u2014 Build and evaluate agents",
+      "mustHave": true
+    },
+    "N11.1": {
+      "id": "N11.1",
+      "need": "N11",
+      "label": "Test-set design",
+      "definition": "Designing test sets for a domain or a vendor product",
+      "placement": "L3 Expert \u2014 Build and evaluate agents",
+      "mustHave": true
+    },
+    "N11.2": {
+      "id": "N11.2",
+      "need": "N11",
+      "label": "Error analysis",
+      "definition": "Error analysis across many practitioners' results (N9)",
+      "placement": "L3 Expert \u2014 Build and evaluate agents",
+      "mustHave": false
+    },
+    "N11.3": {
+      "id": "N11.3",
+      "need": "N11",
+      "label": "Validating automated judges",
+      "definition": "Validating automated judges against human labels",
+      "placement": "L3 Expert \u2014 Build and evaluate agents",
+      "mustHave": true
+    },
+    "N11.4": {
+      "id": "N11.4",
+      "need": "N11",
+      "label": "Benchmarking vendor AI",
+      "definition": "Benchmarking vendor AI before purchase",
+      "placement": "L3 Expert \u2014 Build and evaluate agents \u00b7 Vendor evaluation and tool selection",
+      "mustHave": false
+    },
+    "N11.5": {
+      "id": "N11.5",
+      "need": "N11",
+      "label": "Drift in production",
+      "definition": "Measuring drift in production",
+      "placement": "L3 Expert \u2014 Build and evaluate agents",
+      "mustHave": false
+    },
+    "N11.6": {
+      "id": "N11.6",
+      "need": "N11",
+      "label": "Evidence for decisions",
+      "definition": "Feeding results into the evidence on which autonomy is proposed (N14) and vendor claims are judged",
+      "placement": "L3 Expert \u2014 Build and evaluate agents \u00b7 Vendor evaluation and tool selection",
+      "mustHave": false
+    },
+    "N12.1": {
+      "id": "N12.1",
+      "need": "N12",
+      "label": "Threat modelling",
+      "definition": "Threat-modelling AI systems and agents using the OWASP LLM and agentic Top 10s and MITRE ATLAS",
+      "placement": "AI security design and remediation",
+      "mustHave": true
+    },
+    "N12.2": {
+      "id": "N12.2",
+      "need": "N12",
+      "label": "Agent identity",
+      "definition": "Agent identity standards and delegated authorisation, and the threats against them",
+      "placement": "AI security design and remediation",
+      "mustHave": true
+    },
+    "N12.3": {
+      "id": "N12.3",
+      "need": "N12",
+      "label": "Sandboxes",
+      "definition": "Sandbox design, and the threats against it",
+      "placement": "AI security design and remediation",
+      "mustHave": false
+    },
+    "N12.4": {
+      "id": "N12.4",
+      "need": "N12",
+      "label": "Authorisation layers",
+      "definition": "Authorisation layers and policy engines, and the threats against them",
+      "placement": "AI security design and remediation",
+      "mustHave": true
+    },
+    "N12.5": {
+      "id": "N12.5",
+      "need": "N12",
+      "label": "Guardrails",
+      "definition": "Guardrail design, and the threats against it",
+      "placement": "AI security design and remediation",
+      "mustHave": false
+    },
+    "N12.6": {
+      "id": "N12.6",
+      "need": "N12",
+      "label": "Logging, monitoring and kill switches",
+      "definition": "Logging and observability, monitoring and kill switches, and the threats against them",
+      "placement": "AI security design and remediation",
+      "mustHave": false
+    },
+    "N12.7": {
+      "id": "N12.7",
+      "need": "N12",
+      "label": "AI supply chain",
+      "definition": "Securing the Skills and connector supply chain and MCP servers",
+      "placement": "AI security design and remediation",
+      "mustHave": false
+    },
+    "N12.8": {
+      "id": "N12.8",
+      "need": "N12",
+      "label": "Fixing findings",
+      "definition": "Fixing what red-teamers and incident responders find",
+      "placement": "AI security design and remediation",
+      "mustHave": false
+    },
+    "N12.9": {
+      "id": "N12.9",
+      "need": "N12",
+      "label": "Reference architectures",
+      "definition": "Reference architectures, isolation patterns, platform tenancy and the controls for each hosting option",
+      "placement": "Agent security architecture",
+      "mustHave": false
+    },
+    "N13.1": {
+      "id": "N13.1",
+      "need": "N13",
+      "label": "AI inventory",
+      "definition": "Maintaining the inventory of AI systems, agents, Skills and connectors",
+      "placement": "AI governance and risk",
+      "mustHave": false
+    },
+    "N13.2": {
+      "id": "N13.2",
+      "need": "N13",
+      "label": "AI risk assessment",
+      "definition": "Running AI risk assessment with thresholds and treatment",
+      "placement": "AI governance and risk",
+      "mustHave": true
+    },
+    "N13.3": {
+      "id": "N13.3",
+      "need": "N13",
+      "label": "Autonomy policy",
+      "definition": "Setting the autonomy policy per action class and the accountability that goes with it",
+      "placement": "AI governance and risk \u00b7 Leadership and accountability",
+      "mustHave": true
+    },
+    "N13.4": {
+      "id": "N13.4",
+      "need": "N13",
+      "label": "Third-party AI risk",
+      "definition": "Managing third-party AI risk",
+      "placement": "AI governance and risk",
+      "mustHave": false
+    },
+    "N13.5": {
+      "id": "N13.5",
+      "need": "N13",
+      "label": "Regulatory mapping",
+      "definition": "Mapping the AI Act and the regional regulators' requirements to controls",
+      "placement": "AI governance and risk",
+      "mustHave": false
+    },
+    "N13.6": {
+      "id": "N13.6",
+      "need": "N13",
+      "label": "Assurance evidence",
+      "definition": "Producing the assurance evidence auditors and regulators ask for",
+      "placement": "AI governance and risk",
+      "mustHave": false
+    },
+    "N14.1": {
+      "id": "N14.1",
+      "need": "N14",
+      "label": "Who does what",
+      "definition": "Deciding, workflow by workflow, what agents do and what people do, and how many agents a person supervises",
+      "placement": "Workflow transformation and adoption \u00b7 Leadership and accountability",
+      "mustHave": true
+    },
+    "N14.2": {
+      "id": "N14.2",
+      "need": "N14",
+      "label": "Workflow redesign",
+      "definition": "Redesigning the workflow rather than bolting AI onto it",
+      "placement": "Workflow transformation and adoption \u00b7 Leadership and accountability",
+      "mustHave": true
+    },
+    "N14.3": {
+      "id": "N14.3",
+      "need": "N14",
+      "label": "Supervision model",
+      "definition": "Designing the supervision model that N7 practises: approval gates, how output is presented for review, and the autonomy proposed for each action class on evidence from N11",
+      "placement": "Workflow transformation and adoption \u00b7 Leadership and accountability",
+      "mustHave": true
+    },
+    "N14.4": {
+      "id": "N14.4",
+      "need": "N14",
+      "label": "Measuring value",
+      "definition": "Measuring the value on evidence",
+      "placement": "Workflow transformation and adoption \u00b7 Leadership and accountability",
+      "mustHave": false
+    },
+    "N14.5": {
+      "id": "N14.5",
+      "need": "N14",
+      "label": "Running the change",
+      "definition": "Running the change: a sandbox and protected time to experiment, a network of champions, Skills shared across teams, and a refresh cycle as tools change",
+      "placement": "Workflow transformation and adoption \u00b7 Leadership and accountability",
+      "mustHave": false
+    },
+    "N14.6": {
+      "id": "N14.6",
+      "need": "N14",
+      "label": "Keeping skills alive",
+      "definition": "Keeping core skills alive and protecting the junior pipeline",
+      "placement": "Leadership and accountability",
+      "mustHave": false
+    },
+    "N14.7": {
+      "id": "N14.7",
+      "need": "N14",
+      "label": "Accountability",
+      "definition": "Setting who is accountable for each agent's outcomes",
+      "placement": "Leadership and accountability",
+      "mustHave": false
+    },
+    "R1.1.1": {
+      "id": "R1.1.1",
+      "need": "R1.1",
+      "label": "Agent incident playbooks",
+      "definition": "Writing incident playbooks for three agent scenarios: the agent is wrong (it acted on a false conclusion, closed real alerts, changed the wrong thing); the agent is stopped (its identity expired, the provider is down, it ran out of compute) and its work must continue by hand; the agent is compromised (an attacker steered it through content it read). Plans name who can stop the agent (NCSC)",
+      "placement": "Agent incident response",
+      "mustHave": false
+    },
+    "R1.1.2": {
+      "id": "R1.1.2",
+      "need": "R1.1",
+      "label": "Ways to stop an agent",
+      "definition": "The ways to stop an agent and when to use each: revoke its identity or session token so it can no longer call any tool; disable only the tools or connectors it misuses while the rest keeps running; put it in observe-only mode, where it may analyse and recommend but is barred from acting; roll back what it changed using its action log",
+      "placement": "Agent incident response",
+      "mustHave": true
+    },
+    "R1.1.3": {
+      "id": "R1.1.3",
+      "need": "R1.1",
+      "label": "Investigating a compromised agent",
+      "definition": "Where the attack comes from: content the agent reads (logs, alerts, tickets, documents, emails, web pages) can carry instructions aimed at it, so the investigator looks for injection in those sources and cuts any that is poisoned. What the agent did: knowing, for each of the bank's agents, which records exist that the agent cannot write to and how to pull them fast (the platform's audit log of tool calls with arguments and times, gateway and network logs, logs of the systems it touched), then building the timeline from them, because a compromised agent's own summary can omit or misstate what it did",
+      "placement": "Agent incident response",
+      "mustHave": true
+    },
+    "R1.1.4": {
+      "id": "R1.1.4",
+      "need": "R1.1",
+      "label": "Cleaning up",
+      "definition": "Cleaning up after a manipulated agent: finding the injected content it acted on and removing it from the sources the agent reads; clearing anything it stored in its memory as a result; re-running the same injection against the agent before putting it back in service",
+      "placement": "Agent incident response",
+      "mustHave": false
+    },
+    "R1.1.5": {
+      "id": "R1.1.5",
+      "need": "R1.1",
+      "label": "Operating without the agent",
+      "definition": "The manual fallback for what the agent handled (triage queue, enrichment, first response), the staffing to sustain it for days, and the regular drill that proves it still works",
+      "placement": "Agent incident response",
+      "mustHave": false
+    },
+    "R1.1.6": {
+      "id": "R1.1.6",
+      "need": "R1.1",
+      "label": "Reporting",
+      "definition": "What regulators expect in an incident report when an agent caused or worsened the incident (DORA, HKMA, MAS), and which evidence to preserve for it",
+      "placement": "Agent incident response",
+      "mustHave": false
+    },
+    "R1.2.1": {
+      "id": "R1.2.1",
+      "need": "R1.2",
+      "label": "Recording the AI step",
+      "definition": "Recording any AI step applied to evidence so it can be repeated and defended: the tool, model and version, the exact prompt and settings, the output, and who verified it. The original artefact stays the evidence; AI output is a derived analysis, never a substitute",
+      "placement": "Agent forensics and evidence",
+      "mustHave": true
+    },
+    "R1.2.2": {
+      "id": "R1.2.2",
+      "need": "R1.2",
+      "label": "Forensic readiness for agents",
+      "definition": "Defining what every agent must log (prompt and response, each tool call with its arguments, data retrieved, memory writes, approvals given), stored where the agent cannot alter it, time-synchronised and integrity-protected, retained long enough for an investigation (vendors default to 7 to 30 days), and tested by reconstructing a past incident from it",
+      "placement": "Agent forensics and evidence",
+      "mustHave": true
+    },
+    "R1.2.3": {
+      "id": "R1.2.3",
+      "need": "R1.2",
+      "label": "Investigating an agent as suspect",
+      "definition": "Rebuilding the agent's actions from its traces, finding the input that steered it, and attributing each action to the human it acted for or to the attacker",
+      "placement": "Agent forensics and evidence",
+      "mustHave": false
+    },
+    "R3.1.1": {
+      "id": "R3.1.1",
+      "need": "R3.1",
+      "label": "AI attack classes",
+      "definition": "Direct prompt injection; indirect injection through content the agent reads (documents, web pages, tool results, emails); jailbreaks and guardrail evasion; data exfiltration through the agent's own tools; making the agent exceed its intended authority; tool poisoning (a malicious tool description) and rug pulls (a tool that changes after it was approved)",
+      "placement": "Agent testing and containment",
+      "mustHave": true
+    },
+    "R3.1.2": {
+      "id": "R3.1.2",
+      "need": "R3.1",
+      "label": "Published methods",
+      "definition": "The OWASP GenAI Red Teaming Guide, the Cloud Security Alliance's Agentic AI Red Teaming Guide (12 categories) and MITRE ATLAS techniques",
+      "placement": "Agent testing and containment",
+      "mustHave": true
+    },
+    "R3.1.3": {
+      "id": "R3.1.3",
+      "need": "R3.1",
+      "label": "Attacks across agents",
+      "definition": "Compromising one agent to steer others, injecting into an orchestrator's plan, tampering with messages between agents",
+      "placement": "Advanced agent red-teaming",
+      "mustHave": true
+    },
+    "R3.1.4": {
+      "id": "R3.1.4",
+      "need": "R3.1",
+      "label": "Attacks on model and platform",
+      "definition": "Extracting the model or its instructions, poisoning the agent's memory, escaping the sandbox, timing side channels",
+      "placement": "Advanced agent red-teaming",
+      "mustHave": false
+    },
+    "R3.1.5": {
+      "id": "R3.1.5",
+      "need": "R3.1",
+      "label": "Automated red-team programme",
+      "definition": "Building and running automated red-team harnesses (PyRIT-class tooling) and a continuous programme that re-tests every agent when its model, tools or prompts change",
+      "placement": "Advanced agent red-teaming",
+      "mustHave": false
+    },
+    "R3.2.1": {
+      "id": "R3.2.1",
+      "need": "R3.2",
+      "label": "Containment before a run",
+      "definition": "A network segment from which the agent can reach only in-scope targets; egress allow-lists verified by test, not assumed; a fresh sandbox per run; credentials scoped to the engagement and expiring with it",
+      "placement": "Agent testing and containment",
+      "mustHave": true
+    },
+    "R3.2.2": {
+      "id": "R3.2.2",
+      "need": "R3.2",
+      "label": "Monitoring during a run",
+      "definition": "Watching the agent's actions out of band (not its reports); a named person with the authority and the means to kill the run within minutes; the triggers for doing so (an action outside scope, contact with a third party, a credential used elsewhere)",
+      "placement": "Agent testing and containment",
+      "mustHave": false
+    },
+    "R3.2.3": {
+      "id": "R3.2.3",
+      "need": "R3.2",
+      "label": "Escape patterns",
+      "definition": "The escape patterns seen in practice: attacking something else when the assigned target proves impossible, reading an ambiguous message as approval, creating accounts or identities, carrying on after the window closes, contacting real people",
+      "placement": "Agent testing and containment",
+      "mustHave": false
+    },
+    "R3.2.4": {
+      "id": "R3.2.4",
+      "need": "R3.2",
+      "label": "Trajectory-level validation",
+      "definition": "Validating findings from the transcript, not the summary: check that the evidence the agent cites exists (a 'successful login' that was a redirect, credentials that do not work), reproduce the exploit by hand before reporting, and treat the agent's self-assessment as untrusted",
+      "placement": "Agent testing and containment",
+      "mustHave": true
+    },
+    "R3.2.5": {
+      "id": "R3.2.5",
+      "need": "R3.2",
+      "label": "Collateral findings",
+      "definition": "A disclosure lane for what to do when the agent finds something outside the engagement",
+      "placement": "Agent testing and containment",
+      "mustHave": false
+    },
+    "R4.1.1": {
+      "id": "R4.1.1",
+      "need": "R4.1",
+      "label": "Discovery",
+      "definition": "Finding every MCP server and agent connector in the estate, including those developers run on their own workstations, by searching configuration files and by recognising the MCP protocol in network traffic",
+      "placement": "Agent exposure management",
+      "mustHave": true
+    },
+    "R4.1.2": {
+      "id": "R4.1.2",
+      "need": "R4.1",
+      "label": "Inventory",
+      "definition": "For each agent and tool server: its owner, version, the tools it exposes, the permissions it holds, the systems it reaches, and the guardrails around it",
+      "placement": "Agent exposure management",
+      "mustHave": false
+    },
+    "R4.1.3": {
+      "id": "R4.1.3",
+      "need": "R4.1",
+      "label": "Content-bound approval",
+      "definition": "Approving a tool by the hash of its description and code, and checking each session that it has not been silently redefined since (the rug pull)",
+      "placement": "Agent exposure management",
+      "mustHave": true
+    },
+    "R4.1.4": {
+      "id": "R4.1.4",
+      "need": "R4.1",
+      "label": "Scanning",
+      "definition": "Running MCP and Skill scanners in the build pipeline and on a schedule for tool poisoning, instructions hidden in tool descriptions, servers exposed without authentication and credentials stored in plain text",
+      "placement": "Agent exposure management",
+      "mustHave": false
+    },
+    "R4.1.5": {
+      "id": "R4.1.5",
+      "need": "R4.1",
+      "label": "AI bill of materials",
+      "definition": "A bill of materials for AI components: which models, tools and Skills a system uses and where each came from",
+      "placement": "Agent exposure management",
+      "mustHave": false
+    },
+    "R4.1.6": {
+      "id": "R4.1.6",
+      "need": "R4.1",
+      "label": "Vetting third parties",
+      "definition": "Vetting third-party Skills and connectors before they are allowed in",
+      "placement": "Agent exposure management",
+      "mustHave": false
+    },
+    "R4.2.1": {
+      "id": "R4.2.1",
+      "need": "R4.2",
+      "label": "Why set-up is the skill",
+      "definition": "The same model finds under a tenth or over half of the vulnerabilities in a codebase depending on how it is given context and driven, and filters a third or almost all of a static analyser's false positives for the same reason",
+      "placement": "AI code-analysis engineering",
+      "mustHave": false
+    },
+    "R4.2.2": {
+      "id": "R4.2.2",
+      "need": "R4.2",
+      "label": "Giving the model context",
+      "definition": "Supplying the functions a target calls, type definitions, the data-flow path to the input and build information, using static and dynamic analysis tools to supply that context automatically",
+      "placement": "AI code-analysis engineering",
+      "mustHave": true
+    },
+    "R4.2.3": {
+      "id": "R4.2.3",
+      "need": "R4.2",
+      "label": "Framework, model and method",
+      "definition": "Choosing the agent framework and the model for the task, and driving the model through a structured method rather than letting it explore freely",
+      "placement": "AI code-analysis engineering",
+      "mustHave": false
+    },
+    "R4.2.4": {
+      "id": "R4.2.4",
+      "need": "R4.2",
+      "label": "Confirming before reporting",
+      "definition": "A proof of vulnerability (an input or exploit that demonstrates it in a sandbox), the same test against the patched and unpatched versions, and several runs with a majority verdict",
+      "placement": "AI code-analysis engineering",
+      "mustHave": true
+    },
+    "R4.2.5": {
+      "id": "R4.2.5",
+      "need": "R4.2",
+      "label": "Reliability by vulnerability class",
+      "definition": "Which classes models find well (memory safety, anything a fuzzer can reach) and which they over-report (documented behaviour reported as a bug, inflated severity, duplicates), and setting thresholds per class",
+      "placement": "AI code-analysis engineering",
+      "mustHave": false
+    },
+    "R4.2.6": {
+      "id": "R4.2.6",
+      "need": "R4.2",
+      "label": "Deduplication and cost",
+      "definition": "Removing duplicates (by stack trace or sanitiser signature) and keeping cost under control at scale",
+      "placement": "AI code-analysis engineering",
+      "mustHave": false
+    },
+    "R4.2.7": {
+      "id": "R4.2.7",
+      "need": "R4.2",
+      "label": "Measuring the harness",
+      "definition": "Measuring the harness on a corpus of known vulnerabilities before trusting it",
+      "placement": "AI code-analysis engineering",
+      "mustHave": false
+    },
+    "R5.1.1": {
+      "id": "R5.1.1",
+      "need": "R5.1",
+      "label": "Classifying agent actions",
+      "definition": "For each action an agent can take in a process (a payment, a data deletion, an email to a client, a firewall change), rating its impact and whether it can be undone, and assigning a tier: autonomous, autonomous with logging, human approval, two-person approval, prohibited",
+      "placement": "Agent security architecture",
+      "mustHave": true
+    },
+    "R5.1.2": {
+      "id": "R5.1.2",
+      "need": "R5.1",
+      "label": "Enforcement outside the model",
+      "definition": "An authorisation point between the agent's plan and its execution that checks every action against its tier and the agent's permissions, so the decision never depends on the model obeying its instructions",
+      "placement": "Agent security architecture",
+      "mustHave": true
+    },
+    "R5.1.3": {
+      "id": "R5.1.3",
+      "need": "R5.1",
+      "label": "The stop mechanism",
+      "definition": "No standard defines a kill switch, so it is designed as a set of levers (interrupt the task, revoke credentials, cut tool access, quarantine the agent, roll back its changes), each with who may trigger it, how fast it takes effect and how it is tested",
+      "placement": "Agent security architecture",
+      "mustHave": true
+    },
+    "R5.1.4": {
+      "id": "R5.1.4",
+      "need": "R5.1",
+      "label": "The audit trail",
+      "definition": "What is recorded (reasoning artefacts, each tool call with its arguments, data accessed, messages between agents, approvals), where (a store the agent cannot write to), for how long, and how each action is tied to the person the agent acted for",
+      "placement": "Agent security architecture",
+      "mustHave": false
+    },
+    "R5.1.5": {
+      "id": "R5.1.5",
+      "need": "R5.1",
+      "label": "The oversight interface",
+      "definition": "How an approval request is shown so a person can judge it (what will happen, in plain language, with the risk and the agent's confidence), limiting the volume of requests so approvers do not click through them, and what overseers must be trained on",
+      "placement": "Agent security architecture",
+      "mustHave": false
+    },
+    "R5.1.6": {
+      "id": "R5.1.6",
+      "need": "R5.1",
+      "label": "Reference architectures",
+      "definition": "Reference architectures for the bank's agent platforms and how the above is implemented on each",
+      "placement": "Agent security architecture",
+      "mustHave": false
+    },
+    "R6.1.1": {
+      "id": "R6.1.1",
+      "need": "R6.1",
+      "label": "Agent control catalogue",
+      "definition": "The control catalogue for agents and how to test each control: a distinct identity and permissions per agent, tool allow-lists, logging that the agent cannot alter, approval gates for high-impact actions, change control on prompts, tools and models",
+      "placement": "Agent assurance",
+      "mustHave": true
+    },
+    "R6.1.2": {
+      "id": "R6.1.2",
+      "need": "R6.1",
+      "label": "Assuring assurance's own AI",
+      "definition": "Documenting, validating and monitoring the AI used to produce assessments and gather evidence",
+      "placement": "Agent assurance",
+      "mustHave": false
+    },
+    "R9.1.1": {
+      "id": "R9.1.1",
+      "need": "R9.1",
+      "label": "Registering an agent",
+      "definition": "Its own identity (never a shared or human credential), a human sponsor recorded in the directory who is accountable for it, a stated purpose and a declared list of what it may do",
+      "placement": "Agent identity operations",
+      "mustHave": true
+    },
+    "R9.1.2": {
+      "id": "R9.1.2",
+      "need": "R9.1",
+      "label": "Delegated authority",
+      "definition": "Issuing and reading tokens in which the subject is the person and the actor is the agent (token exchange, on-behalf-of flows), with the person's consent recorded, and what the agent may then do in that person's name",
+      "placement": "Agent identity operations",
+      "mustHave": true
+    },
+    "R9.1.3": {
+      "id": "R9.1.3",
+      "need": "R9.1",
+      "label": "Connector and MCP scopes",
+      "definition": "Reading what a scope actually permits in the bank's applications and tool servers, granting the minimum, and reviewing grants",
+      "placement": "Agent identity operations",
+      "mustHave": false
+    },
+    "R9.1.4": {
+      "id": "R9.1.4",
+      "need": "R9.1",
+      "label": "Just-in-time access",
+      "definition": "Privilege granted for a task and a time window with no standing privilege, and the conditions that require a human to approve the grant",
+      "placement": "Agent identity operations",
+      "mustHave": false
+    },
+    "R9.1.5": {
+      "id": "R9.1.5",
+      "need": "R9.1",
+      "label": "Short-lived sub-agents",
+      "definition": "Identities that exist for seconds, with a time to live and no more rights than the parent",
+      "placement": "Agent identity operations",
+      "mustHave": false
+    },
+    "R9.1.6": {
+      "id": "R9.1.6",
+      "need": "R9.1",
+      "label": "Recertification",
+      "definition": "Quarterly for agents and monthly for high-privilege ones, with de-provisioning triggered when the sponsor leaves or the purpose lapses",
+      "placement": "Agent identity operations",
+      "mustHave": false
+    },
+    "R9.1.7": {
+      "id": "R9.1.7",
+      "need": "R9.1",
+      "label": "Revocation drills",
+      "definition": "Revoking an agent's identity and its live sessions within minutes, and verifying that it worked",
+      "placement": "Agent identity operations",
+      "mustHave": true
+    },
+    "R9.1.8": {
+      "id": "R9.1.8",
+      "need": "R9.1",
+      "label": "Integration with IGA, PAM, SIEM",
+      "definition": "Integrating the agent authorisation point with identity governance, privileged access and the SIEM: registration, scoped issuance, just-in-time grants, recertification and revocation signals flowing between them",
+      "placement": "Agent identity integration and design",
+      "mustHave": false
+    },
+    "R9.1.9": {
+      "id": "R9.1.9",
+      "need": "R9.1",
+      "label": "Privileged access and break-glass",
+      "definition": "Privileged access and break-glass for agents inside the existing privileged-access model",
+      "placement": "Agent identity integration and design",
+      "mustHave": false
+    },
+    "R9.1.10": {
+      "id": "R9.1.10",
+      "need": "R9.1",
+      "label": "Audit trail and standards",
+      "definition": "The audit trail regulators ask for (which agent, on whose behalf, which tools, what data, what reasoning) and the standards still being written (IETF agent identity, OpenID AuthZEN, MCP authorisation), so the design does not lock into one vendor's delegation model",
+      "placement": "Agent identity integration and design",
+      "mustHave": false
+    }
+  },
+  "shared": [
+    "N1.1",
+    "N1.2",
+    "N1.3",
+    "N2.1",
+    "N2.2",
+    "N2.3",
+    "N2.4",
+    "N2.5",
+    "N2.6",
+    "N2.7",
+    "N3.1",
+    "N3.2",
+    "N3.3",
+    "N3.4",
+    "N3.5",
+    "N3.6",
+    "N3.7",
+    "N4.1",
+    "N4.2",
+    "N4.3",
+    "N4.4",
+    "N4.5",
+    "N4.6",
+    "N4.7",
+    "N5.1",
+    "N5.2",
+    "N5.3",
+    "N5.4",
+    "N5.5",
+    "N5.6",
+    "N6.1",
+    "N6.2",
+    "N6.3",
+    "N6.4",
+    "N6.5",
+    "N6.6",
+    "N6.7",
+    "N6.8",
+    "N7.1",
+    "N7.2",
+    "N7.3",
+    "N7.4",
+    "N7.5",
+    "N8.1",
+    "N8.2",
+    "N8.3",
+    "N8.4",
+    "N8.5",
+    "N9.1",
+    "N9.2",
+    "N9.3",
+    "N9.4",
+    "N9.5",
+    "N10.1",
+    "N10.2",
+    "N10.4",
+    "N10.5",
+    "N10.8",
+    "N11.1",
+    "N11.2",
+    "N11.3",
+    "N11.4",
+    "N11.5",
+    "N11.6"
+  ],
+  "source": "Agentic-Era_Workforce_Capability_Model.md, version 2, updated 18 October 2026"
+}

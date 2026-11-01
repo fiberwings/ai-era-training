@@ -1,0 +1,151 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h50m
+Pydantic for LLM Workflows
+Instructor
+:
+Ryan Keenan
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 13, 2026
+Enroll for Free
+Intermediate
+1h50m
+8 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 13, 2026
+Instructor: Ryan Keenan
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Use Pydantic to generate structured outputs from LLMs, ensuring the responses follow a specific format that your application can reliably process.
+Learn data validation skills to handle a wide variety of data formatting and structuring needs in any software system.
+Build a system with data validation at every stage, using Pydantic models to validate everything from user input and LLM responses to defining the parameters for tool-calling.
+About this course
+In Pydantic for LLM Workflows, taught by Ryan Keenan, Director of the Learning Experience Lab at DeepLearning.AI, you’ll learn to bring structure, reliability, and validation to the data in your LLM-powered applications using Pydantic, a Python library for data validation.
+LLMs naturally provide free-form text responses, which works for unstructured generation, such as article summaries or brainstorming exercises. However, when you’re building an LLM into a larger software system, in which you want to pass data from an LLM response to the next component of the system in a predictable way, that’s when structured output can be a big help.
+In this course, you’ll learn to move beyond free-form LLM responses and generate structured outputs that are easier to process and connect to other tools.
+You’ll begin by understanding what structured output is and why it matters when building applications that use LLMs. Through the example of a customer support assistant, you’ll learn different methods of using Pydantic to ensure an LLM gives you the expected data and format you need in your application. These methods ensure that the LLM’s responses are complete, correctly formatted, and ready to use, whether that means creating support tickets, triggering tools, or routing requests.
+Throughout the course, you’ll gain core data validation skills that can be helpful in any software system you build, where you want to pass data from one component to the next. You’ll also learn how modern frameworks and LLM providers support structured outputs and function calls using Pydantic under the hood.
+In detail, you’ll:
+Learn the basics of Pydantic, and practice different approaches for getting structured data from Pydantic models.
+Validate user input, catching issues like badly formatted emails or missing fields before they cause problems.
+Use Pydantic data models directly in your API calls to different LLM providers and agent frameworks as a reliable way to get a structured response.
+Combine structured outputs and tool-calling with Pydantic models in your application.
+Pydantic is one of the most popular data validation frameworks out there. It sees over 300 million downloads a month, making it also one of the most popular Python packages, and that’s because data validation is at the core of any application.
+By the end of the course, you’ll be able to build LLM-powered applications where every step is structured, validated, and ready to plug into your workflow.
+Who should join?
+If you’re comfortable with basic Python and curious about how real-world AI systems pass data between components, this course will help you get started with one of the most important tools in the modern AI stack.
+Course Outline
+8
+Lessons・
+6
+Code Examples
+Welcome to Pydantic for LLM workflows
+Video
+・
+3m
+Introduction to Pydantic for LLM workflows
+Video
+・
+10m
+Pydantic model basics
+Video with Code Example
+・
+13m
+Validating LLM responses
+Video with Code Example
+・
+15m
+Passing a Pydantic model in your API call
+Video with Code Example
+・
+9m
+Tool calling
+Video with Code Example
+・
+19m
+Hands-On Project Introduction Video
+Video
+・
+5m
+Hands-On Project
+Code Example
+・
+15m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+7m
+Appendix – Tips, Help, and Download
+Code Example
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Ryan Keenan
+Director of the Learning Experience Lab at
+DeepLearning.AI
+Pydantic for LLM Workflows
+Intermediate
+1h50m
+8 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 13, 2026
+Instructor: Ryan Keenan
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -1,0 +1,154 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h21m
+Building Coding Agents with Tool Execution
+Instructors
+:
+Tereza Tizkova, Francesco Zuppichini
+Earn
+an accomplishment
+with
+PRO
+· Updated Apr 22, 2026
+Enroll for Free
+Intermediate
+1h21m
+9 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Apr 22, 2026
+Instructors: Tereza Tizkova, Francesco Zuppichini
+E2B
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Build coding agents that write and execute Python code, manage files, and handle errors through iterative feedback loops.
+Run agent code safely in isolated E2B cloud sandboxes and understand the tradeoffs between local, containerized, and cloud execution environments.
+Create specialized agents: a data analyst that explores datasets and visualizes insights, and a full-stack agent that builds complete web applications.
+About this course
+Join our new short course, Building Coding Agents with Tool Execution! Learn from Tereza Tizkova, Growth, and Francesco Zuppichini, Machine Learning Engineer at E2B.
+In this course, you’ll build agents that write and execute code to accomplish tasks, going far beyond predefined function calls. Instead of limiting your agent to a fixed set of tools, you’ll let it access Python’s entire ecosystem, and write multi-step code sequences. Plus, you’ll learn to run this generated code safely in sandboxed cloud environments, protecting your systems from potentially harmful operations.
+In detail, you’ll:
+Understand coding agents and build your first one
+– Learn what makes coding agents different from other AI agents, then build an agent that executes Python code, manages files, and handles errors through feedback loops.
+Choose and configure safe execution environments
+– Compare local execution, containers, and sandboxed microVMs, then run your agent’s code in secure E2B cloud environments with built-in isolation and resource controls.
+Build a data analyst agent
+– Create an agent that explores CSV datasets, generates summaries and visualizations with Pandas, and answers questions through a Gradio chat interface.
+Deploy a full-stack coding agent
+– Build an agent that edits multiple files and generates complete Next.js web applications in a sandbox, while managing long contexts through runtime summarization.
+Start building agents that can code their way through complex tasks safely and efficiently.
+Who should join?
+AI builders familiar with Python and LLMs who want to build agents that can write and execute code. Basic understanding of AI agents is helpful but not required.
+Course Outline
+9
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+3m
+Inside a Coding Agent
+Video
+・
+8m
+Your First Coding Agent
+Video with Code Example
+・
+10m
+Tool Execution Environments
+Video
+・
+5m
+Running Code in the Cloud
+Video with Code Example
+・
+7m
+Data Analyst Agent
+Video with Code Example
+・
+4m
+Full Stack Agent
+Video with Code Example
+・
+8m
+Hands-On Project Introduction Video
+Video
+・
+6m
+Hands-On Project
+Code Example
+・
+15m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+12m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Tereza Tizkova
+Growth at
+E2B
+Francesco Zuppichini
+Machine Learning Engineer at
+E2B
+Building Coding Agents with Tool Execution
+Intermediate
+1h21m
+9 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Apr 22, 2026
+Instructors: Tereza Tizkova, Francesco Zuppichini
+E2B
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Additional learning features, such as quizzes and projects, are included with DeepLearning.AI Pro. Explore it today
+Enroll Now
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

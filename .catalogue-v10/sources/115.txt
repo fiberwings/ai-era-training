@@ -1,0 +1,139 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h54m
+Functions, Tools and Agents with LangChain
+Instructor
+:
+Harrison Chase
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Intermediate
+1h54m
+8 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Harrison Chase
+LangChain
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn about the most recent advancements in LLM APIs.
+Use LangChain Expression Language (LCEL), a new syntax to compose and customize chains and agents faster.
+Apply these new capabilities by building up a conversational agent.
+About this course
+The landscape of LLMs and the libraries that support them has evolved rapidly in recent months. This course is designed to keep you ahead of these changes.
+You’ll explore new advancements like ChatGPT’s function calling capability, and build a conversational agent using a new syntax called LangChain Expression Language (LCEL) for tasks like tagging, extraction, tool selection, and routing.
+After taking this course, you’ll know how to:
+Generate structured output, including function calls, using LLMs;
+Use LCEL, which simplifies the customization of chains and agents, to build applications;
+Apply function calling to tasks like tagging and data extraction;
+Understand tool selection and routing using LangChain tools and LLM function calling – and much more.
+Start applying these new capabilities to build and improve your applications today.
+Who should join?
+Anyone who’s interested in learning about the latest tools to build LLM-based applications. Basic Python knowledge and a familiarity with writing prompts for LLMs is recommended.
+Course Outline
+8
+Lessons・
+6
+Code Examples
+Introduction
+Video
+・
+2m
+OpenAI Function Calling
+Video with Code Example
+・
+13m
+LangChain Expression Language (LCEL)
+Video with Code Example
+・
+16m
+OpenAI Function Calling in LangChain
+Video with Code Example
+・
+12m
+Tagging and Extraction
+Video with Code Example
+・
+24m
+Tools and Routing
+Video with Code Example
+・
+17m
+Conversational Agent
+Video with Code Example
+・
+16m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Harrison Chase
+Co-Founder and CEO of
+LangChain
+Functions, Tools and Agents with LangChain
+Intermediate
+1h54m
+8 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Harrison Chase
+LangChain
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

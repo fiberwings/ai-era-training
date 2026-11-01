@@ -1,0 +1,132 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+2h5m
+Building and Evaluating Advanced RAG
+Instructors
+:
+Jerry Liu, Anupam Datta
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Beginner
+2h5m
+6 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructors: Jerry Liu, Anupam Datta
+TruEra and LlamaIndex
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn methods like sentence-window retrieval and auto-merging retrieval, improving your RAG pipeline’s performance beyond the baseline.
+Learn evaluation best practices to streamline your process, and iteratively build a robust system.
+Dive into the RAG triad for evaluating the relevance and truthfulness of an LLM’s response:Context Relevance, Groundedness, and Answer Relevance.
+About this course
+Retrieval Augmented Generation (RAG) stands out as one of the most popular use cases of large language models (LLMs). This method facilitates the integration of an LLM with an organization’s proprietary data.
+To successfully implement RAG, it is essential to enhance retrieval techniques for obtaining coherent contexts and employ effective evaluation metrics.
+In this course, we’ll explore:
+Two advanced retrieval methods: Sentence-window retrieval and auto-merging retrieval that perform better compared to the baseline RAG pipeline.
+Evaluation and experiment tracking: A way evaluate and iteratively improve your RAG pipeline’s performance.
+The RAG triad: Context Relevance, Groundedness, and Answer Relevance, which are methods to evaluate the relevance and truthfulness of your LLM’s response.
+Who should join?
+Anyone with basic Python knowledge interested in how to effectively employ the latest methods in Retrieval Augmented Generation (RAG).
+Course Outline
+6
+Lessons・
+4
+Code Examples
+Introduction
+Video
+・
+4m
+Advanced RAG Pipeline
+Video with Code Example
+・
+15m
+RAG Triad of metrics
+Video with Code Example
+・
+42m
+Sentence-window retrieval
+Video with Code Example
+・
+29m
+Auto-merging retrieval
+Video with Code Example
+・
+21m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Jerry Liu
+Co-founder and CEO of
+LlamaIndex
+Anupam Datta
+AI Research Lead at
+Snowflake
+Building and Evaluating Advanced RAG
+Beginner
+2h5m
+6 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructors: Jerry Liu, Anupam Datta
+TruEra and LlamaIndex
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

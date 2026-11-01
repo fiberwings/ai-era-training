@@ -1,0 +1,17 @@
+{
+  "totals": {
+    "resources": 528,
+    "learning": 411,
+    "tool": 117,
+    "udemy": 250,
+    "udemyLearning": 174,
+    "udemyTool": 76,
+    "assessed": 409,
+    "needs": 23,
+    "outcomes": 140
+  },
+  "cohortCount": 23,
+  "sourceWorkbook": "AI_Era_Cyber_Training_Catalogue_v10.xlsx",
+  "sourceSha256": "99e0e8947444068999a2bb9f9196a4f237250bb2ed7b6f73eb808a997a9a743b",
+  "snapshot": "d2604d12cdfe9509"
+}

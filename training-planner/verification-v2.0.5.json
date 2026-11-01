@@ -1,0 +1,23 @@
+{
+  "release": "2.0.5",
+  "date": "2026-10-31",
+  "change": "Remove changed-input review flags, warnings, recording steps and finalisation requirements in component and legacy workspaces.",
+  "checks": {
+    "planner_javascript_tests": 53,
+    "planner_python_tests": 14,
+    "learner_javascript_tests": 65,
+    "browser": [
+      "Standalone release 2.0.5 opens with no changed-input warning or selection-review controls.",
+      "Changing a Foundation budget and applying a solver recommendation updates all dependent audience coverage and learner time without review-required badges.",
+      "The edited component plan finalises directly without recording any component or audience reviews.",
+      "A legacy schema-2 plan with needsReview=true imports, persists across reload, and opens its cohort path without a warning or review button.",
+      "The flagged legacy plan finalises directly without a recorded review.",
+      "No browser console warnings or errors."
+    ],
+    "screenshot": "review-removal-preview.png"
+  },
+  "compatibility": "Existing review metadata is ignored and retained on JSON roundtrip. Coverage, recommendation invalidation, catalogue/model identity and reference validation remain active.",
+  "limitations": [
+    "Direct file:// opening and native print/PDF layout were not checked."
+  ]
+}

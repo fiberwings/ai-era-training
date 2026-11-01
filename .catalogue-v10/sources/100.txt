@@ -1,0 +1,139 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h22m
+Preprocessing Unstructured Data for LLM Applications
+Instructor
+:
+Matt Robinson
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Beginner
+1h22m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Matt Robinson
+Unstructured
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn to extract and normalize content from a wide variety of document types, such as PDFs, PowerPoints, Word, and HTML files, tables, and images to expand the information accessible to your LLM.
+Enrich your content with metadata, enhancing retrieval augmented generation (RAG) results and supporting more nuanced search capabilities.
+Explore document image analysis techniques like layout detection and vision and table transformers, and learn how to apply these methods to preprocess PDFs, images, and tables.
+About this course
+Enhancing a RAG system’s performance depends on efficiently processing diverse unstructured data sources.
+In this course, you’ll learn techniques for representing all sorts of unstructured data, like text, images, and tables, from many different sources and implement them to extend your LLM RAG pipeline to include Excel, Word, PowerPoint, PDF, and EPUB files.
+Join this course and learn:
+How to preprocess data for your LLM application development, focusing on how to work with different document types.
+How to extract and normalize various documents into a common JSON format and enrich it with metadata to improve search results.
+Techniques for document image analysis, including layout detection and vision transformers, to extract and understand PDFs, images, and tables.
+How to build a RAG bot that is able to ingest different documents like PDFs, PowerPoints, and Markdown files.
+Apply the skills you’ll learn in this course to real-world scenarios, enhancing your RAG application and expanding its versatility.
+Who should join?
+Anyone who is interested in learning how to effectively process and use diverse data types and formats to build high-performing LLM RAG systems.
+Course Outline
+8
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+4m
+Overview of LLM Data Preprocessing
+Video
+・
+3m
+Normalizing the Content
+Video with Code Example
+・
+14m
+Metadata Extraction and Chunking
+Video with Code Example
+・
+21m
+Preprocessing PDFs and Images
+Video with Code Example
+・
+10m
+Extracting Tables
+Video with Code Example
+・
+8m
+Build Your Own RAG Bot
+Video with Code Example
+・
+9m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Matt Robinson
+Head of Product at
+Unstructured
+Preprocessing Unstructured Data for LLM Applications
+Beginner
+1h22m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Matt Robinson
+Unstructured
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -1,0 +1,11 @@
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {FileBlob,PresentationFile} from '@oai/artifact-tool';
+const build='/Users/cyberk/projects/ai-era-training/.presentation-build/capability-model-credit-20261018';
+const deck=await PresentationFile.importPptx(await FileBlob.load(path.join(build,'source.pptx')));
+const shape=deck.slides.items[0].shapes.items.find(s=>s.name==='prepared-by');
+assert(shape);
+shape.text='Marco Ceci - GBIS Asia CISO';
+shape.text.style={typeface:'IBM Plex Sans',fontSize:17,color:'#B4C2CD',alignment:'left',verticalAlignment:'top',insets:0,wrap:'none',autoFit:'none'};
+await (await PresentationFile.exportPptx(deck)).save(path.join(build,'authored.pptx'));
+console.log('Updated selected credit text.');

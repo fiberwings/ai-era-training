@@ -1,0 +1,19 @@
+{
+  "release": "2.0.3",
+  "date": "2026-10-31",
+  "change": "Catalogue search matches course names, providers and descriptions, keeps input focus and provides a wider responsive search field.",
+  "checks": {
+    "javascript_tests": 47,
+    "standalone_packaging_tests": 5,
+    "browser": [
+      "Anthropic returns 18 results in both workspaces.",
+      "Uppercase and surrounding spaces return the same 18 component results.",
+      "Description-only search multiplayer returns Building effective human\u2013agent teams (beta).",
+      "Opening Full catalogue after Options for N1.1 restores all 528 resources.",
+      "Search keeps focus during results refresh.",
+      "Search input widths at the tested desktop viewport: component 834px, legacy 580px.",
+      "Isolated standalone v2.0.3 returns 18 Anthropic results, with no console warnings or errors."
+    ],
+    "screenshot": "catalogue-search-preview.png"
+  }
+}

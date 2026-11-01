@@ -12,13 +12,27 @@ export const ROLE_FAMILIES = [
   {id:9,name:'Leadership',ecsf:'CISO',needs:'N14 transformation and adoption; N13.3 autonomy policy and other relevant governance outcomes; N11.4 and N11.6 vendor evaluation.'}
 ];
 
+// Responsibility package IDs are stable assessment/applicability identifiers.
+// A package may belong to several roles; selecting a role never selects all of it.
+export const ROLE_RESPONSIBILITIES = {
+  1:['incident-response','agent-forensics'],
+  2:['threat-intelligence'],
+  3:['agent-testing','advanced-redteam'],
+  4:['exposure-management','code-analysis'],
+  5:['ai-security','agent-architecture','agent-engineering'],
+  6:['ai-governance','agent-assurance','vendor-evaluation'],
+  7:[],
+  8:['identity-operations','identity-integration'],
+  9:['leadership','workflow-transformation','vendor-evaluation','ai-governance']
+};
+
 export const ROLE_NUMBERING_NOTE = 'Role 8 is IAM; role 9 is Leadership (CISO). Assessment identifiers remain stable: R9.1 and R9.1.1–R9.1.10 identify IAM learning under role 8. Historical leadership tags M-R8.x/R8.x remain legacy identifiers. Role numbers describe the current role list; assessment IDs preserve evidence and saved-plan links.';
 
 export const TOOL_TRAINING_EXAMPLES = [
   ['Users with access to Microsoft Copilot Cowork or Anthropic Claude Code','Learn how to use the specific product for assigned work: provide context, work with its permissions and approvals, review outputs and recover from errors. Training can span functions or cover everyone if the tool is deployed to everyone.'],
   ['Incident responders using agentic tools for defenders','Practise triage, investigation and response in the deployed tool; inspect evidence, supervise its actions and take over when needed. Add the relevant incident-response outcomes for incidents involving agents themselves.'],
-  ['Application-security practitioners using Claude Code Security or an in-house analysis harness','Operate the existing tool or harness to identify vulnerabilities: configure the permitted scope and context, validate findings, recognise false positives and run task checks.'],
-  ['Application-security experts building a vulnerability-finding harness or agent','Learn the chosen development tools and framework, build the harness or agent, and maintain evaluations of detection quality, missed vulnerabilities, false positives and performance as it changes. This combines L3 building and evaluation (N10–N11) with the R4.2 specialism.']
+  ['Application-security staff using Claude Code Security or an in-house analysis harness','Operate the existing tool or harness to identify vulnerabilities: configure the permitted scope and context, validate findings, recognise false positives and run task checks.'],
+  ['L3 Expert application-security staff building a vulnerability-finding harness or agent','Learn the chosen development tools and framework, build the harness or agent, and maintain evaluations of detection quality, missed vulnerabilities, false positives and performance as it changes. This combines L3 building and evaluation (N10–N11) with the R4.2 specialism.']
 ];
 
 export const NEED_DOMAINS = {

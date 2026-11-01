@@ -1,0 +1,1079 @@
+{
+  "schema": 3,
+  "modelVersion": 2,
+  "modelRevision": 3,
+  "id": "blank-component-curriculum-v1",
+  "name": "Blank component curriculum",
+  "status": "Draft",
+  "catalogueVersion": "6db669ed065cab54",
+  "catalogueIdentity": {
+    "version": "6db669ed065cab54",
+    "filename": "AI_Era_Cyber_Training_Catalogue_v12.xlsx",
+    "sourceSha256": "6abef4de79f652a227984bdb67624cebd81ff96a656d33d8414c099ff49ef87c",
+    "assessmentDate": "2026-10-31"
+  },
+  "created": "2026-10-31T00:00:00.000Z",
+  "assumptions": "Blank curriculum. Foundation and cumulative L1/L2/L3 learning combine with selected responsibilities and approved tooling. Budgets are provisional and exclude internal practice. Evidence describes syllabus coverage, not learner competence or permission.",
+  "overrides": {},
+  "components": [
+    {
+      "id": "foundation",
+      "name": "Foundation",
+      "category": "Foundation",
+      "budget": 2,
+      "requirements": [
+        "N1.1",
+        "N1.2",
+        "N1.3",
+        "N2.1",
+        "N2.2",
+        "N2.3",
+        "N2.4",
+        "N2.5",
+        "N2.6",
+        "N2.7",
+        "N3.1",
+        "N3.2",
+        "N3.3",
+        "N3.4",
+        "N3.5",
+        "N3.6",
+        "N3.7",
+        "N4.1",
+        "N4.2",
+        "N4.3",
+        "N4.4",
+        "N4.5",
+        "N4.6",
+        "N5.1",
+        "N5.3",
+        "N5.4",
+        "N5.5",
+        "N5.6",
+        "N5.8"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159",
+        "INT-2787"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "level": 0,
+      "activities": []
+    },
+    {
+      "id": "l1",
+      "name": "L1 Entry",
+      "category": "L1 Entry",
+      "budget": 2,
+      "requirements": [
+        "N6.1",
+        "N6.2",
+        "N6.3",
+        "N6.4",
+        "N6.5",
+        "N6.6",
+        "N6.7",
+        "N6.8"
+      ],
+      "dependencies": [
+        "foundation"
+      ],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "level": 1,
+      "activities": []
+    },
+    {
+      "id": "l2",
+      "name": "L2 Practitioner",
+      "category": "L2 Practitioner",
+      "budget": 8,
+      "requirements": [
+        "N4.7",
+        "N7.1",
+        "N7.2",
+        "N7.3",
+        "N7.4",
+        "N7.5",
+        "N8.1",
+        "N8.2",
+        "N8.3",
+        "N8.4",
+        "N8.5",
+        "N9.1",
+        "N9.2",
+        "N9.3",
+        "N9.4",
+        "N9.5"
+      ],
+      "dependencies": [
+        "foundation",
+        "l1"
+      ],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "level": 2,
+      "activities": []
+    },
+    {
+      "id": "l3",
+      "name": "L3 Expert",
+      "category": "L3 Expert",
+      "budget": 24,
+      "requirements": [
+        "N10.1",
+        "N10.2",
+        "N10.4",
+        "N10.5",
+        "N10.8",
+        "N11.1",
+        "N11.2",
+        "N11.3",
+        "N11.4",
+        "N11.5",
+        "N11.6"
+      ],
+      "dependencies": [
+        "foundation",
+        "l1",
+        "l2"
+      ],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "level": 3,
+      "activities": [
+        "automated-judges"
+      ]
+    },
+    {
+      "id": "specialism-agent-engineering",
+      "name": "Security architecture & engineering — agent infrastructure",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "N10.3",
+        "N10.6",
+        "N10.7"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "agent-engineering"
+    },
+    {
+      "id": "specialism-ai-security",
+      "name": "AI security design and remediation",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "N12.1",
+        "N12.2",
+        "N12.3",
+        "N12.4",
+        "N12.5",
+        "N12.6",
+        "N12.7",
+        "N12.8"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "ai-security"
+    },
+    {
+      "id": "specialism-ai-governance",
+      "name": "AI governance and risk",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "N13.1",
+        "N13.2",
+        "N13.3",
+        "N13.4",
+        "N13.5",
+        "N13.6"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "ai-governance"
+    },
+    {
+      "id": "specialism-workflow-transformation",
+      "name": "Workflow transformation and adoption",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "N14.1",
+        "N14.2",
+        "N14.3",
+        "N14.4",
+        "N14.5"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "workflow-transformation"
+    },
+    {
+      "id": "specialism-leadership",
+      "name": "Leadership and accountability",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "N14.1",
+        "N14.2",
+        "N14.3",
+        "N14.4",
+        "N14.5",
+        "N14.6",
+        "N14.7",
+        "N13.3"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "leadership"
+    },
+    {
+      "id": "specialism-vendor-evaluation",
+      "name": "Vendor evaluation and tool selection",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "N11.4",
+        "N11.6"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "vendor-evaluation"
+    },
+    {
+      "id": "specialism-threat-intelligence",
+      "name": "Threat intelligence & detection — AI threat landscape",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "N5.7"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "threat-intelligence"
+    },
+    {
+      "id": "specialism-incident-response",
+      "name": "Agent incident response",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "R1.1.1",
+        "R1.1.2",
+        "R1.1.3",
+        "R1.1.4",
+        "R1.1.5",
+        "R1.1.6"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "incident-response"
+    },
+    {
+      "id": "specialism-agent-forensics",
+      "name": "Agent forensics and evidence",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "R1.2.1",
+        "R1.2.2",
+        "R1.2.3"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "agent-forensics"
+    },
+    {
+      "id": "specialism-agent-testing",
+      "name": "Agent testing and containment",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "R3.1.1",
+        "R3.1.2",
+        "R3.2.1",
+        "R3.2.2",
+        "R3.2.3",
+        "R3.2.4",
+        "R3.2.5"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "agent-testing"
+    },
+    {
+      "id": "specialism-advanced-redteam",
+      "name": "Advanced agent red-teaming",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "R3.1.3",
+        "R3.1.4",
+        "R3.1.5"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "advanced-redteam"
+    },
+    {
+      "id": "specialism-exposure-management",
+      "name": "Agent exposure management",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "R4.1.1",
+        "R4.1.2",
+        "R4.1.3",
+        "R4.1.4",
+        "R4.1.5",
+        "R4.1.6"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "exposure-management"
+    },
+    {
+      "id": "specialism-code-analysis",
+      "name": "AI code-analysis engineering",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "R4.2.1",
+        "R4.2.2",
+        "R4.2.3",
+        "R4.2.4",
+        "R4.2.5",
+        "R4.2.6",
+        "R4.2.7"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "code-analysis"
+    },
+    {
+      "id": "specialism-agent-architecture",
+      "name": "Agent security architecture",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "N12.9",
+        "R5.1.1",
+        "R5.1.2",
+        "R5.1.3",
+        "R5.1.4",
+        "R5.1.5",
+        "R5.1.6"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "agent-architecture"
+    },
+    {
+      "id": "specialism-agent-assurance",
+      "name": "Agent assurance",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "R6.1.1",
+        "R6.1.2"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "agent-assurance"
+    },
+    {
+      "id": "specialism-identity-operations",
+      "name": "Agent identity operations",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "R9.1.1",
+        "R9.1.3",
+        "R9.1.4",
+        "R9.1.5",
+        "R9.1.6",
+        "R9.1.7"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "identity-operations"
+    },
+    {
+      "id": "specialism-identity-integration",
+      "name": "Agent identity integration and design",
+      "category": "Specialisms",
+      "budget": 4,
+      "requirements": [
+        "R9.1.2",
+        "R9.1.8",
+        "R9.1.9",
+        "R9.1.10"
+      ],
+      "dependencies": [],
+      "selected": [],
+      "pinned": [],
+      "excluded": [
+        "TR-125",
+        "TR-128",
+        "TR-129",
+        "TR-159"
+      ],
+      "internal": [],
+      "addedRequirements": [],
+      "removedRequirements": [],
+      "filters": {
+        "audience": true,
+        "types": []
+      },
+      "rationale": "",
+      "specialism": "identity-integration"
+    }
+  ],
+  "audiences": [
+    {
+      "id": "governance",
+      "name": "GRC — agent supervision",
+      "level": 2,
+      "specialisms": [
+        "ai-governance"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-ai-governance"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Governance & leadership"
+    },
+    {
+      "id": "grc-builder",
+      "name": "GRC — agent building",
+      "level": 3,
+      "specialisms": [
+        "ai-governance"
+      ],
+      "activities": [
+        "automated-judges"
+      ],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "l3",
+        "specialism-ai-governance"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Governance & leadership"
+    },
+    {
+      "id": "leadership",
+      "name": "Leadership — AI-assisted work",
+      "level": 1,
+      "specialisms": [
+        "leadership",
+        "vendor-evaluation"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "specialism-leadership",
+        "specialism-vendor-evaluation"
+      ],
+      "rationale": "Leaders making AI adoption and accountability decisions; the default is L1. Increase the agentic level only for actual supervisory or builder work.",
+      "sourceGroup": "Governance & leadership"
+    },
+    {
+      "id": "cdc",
+      "name": "Agent incident response",
+      "level": 2,
+      "specialisms": [
+        "incident-response"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-incident-response"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Cyber Defence Centre"
+    },
+    {
+      "id": "forensics",
+      "name": "Agent forensics and investigation",
+      "level": 2,
+      "specialisms": [
+        "incident-response",
+        "agent-forensics"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-incident-response",
+        "specialism-agent-forensics"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Cyber Defence Centre"
+    },
+    {
+      "id": "threat-intelligence",
+      "name": "Threat intelligence & detection — AI threat landscape",
+      "level": 2,
+      "specialisms": [
+        "threat-intelligence"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-threat-intelligence"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Cyber Defence Centre"
+    },
+    {
+      "id": "idp",
+      "name": "DLP, classification & AI risk",
+      "level": 2,
+      "specialisms": [
+        "ai-governance"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-ai-governance"
+      ],
+      "rationale": "Data-protection staff with AI risk-assessment responsibility. Tailor this branch for staff focused only on DLP/classification.",
+      "sourceGroup": "Information Data Protection"
+    },
+    {
+      "id": "biso",
+      "name": "Governance & assurance",
+      "level": 2,
+      "specialisms": [
+        "ai-governance",
+        "agent-assurance"
+      ],
+      "activities": [
+        "ai-assisted-assurance"
+      ],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-ai-governance",
+        "specialism-agent-assurance"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "BISO"
+    },
+    {
+      "id": "testing",
+      "name": "Agent testing and containment",
+      "level": 2,
+      "specialisms": [
+        "agent-testing"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-agent-testing"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Application Security"
+    },
+    {
+      "id": "redteam",
+      "name": "Advanced agent red-teaming",
+      "level": 2,
+      "specialisms": [
+        "agent-testing",
+        "advanced-redteam"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-agent-testing",
+        "specialism-advanced-redteam"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Application Security"
+    },
+    {
+      "id": "exposure",
+      "name": "Agent exposure management",
+      "level": 2,
+      "specialisms": [
+        "exposure-management"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-exposure-management"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Application Security"
+    },
+    {
+      "id": "harness",
+      "name": "AI code-analysis engineering",
+      "level": 3,
+      "specialisms": [
+        "code-analysis"
+      ],
+      "activities": [
+        "automated-judges"
+      ],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "l3",
+        "specialism-code-analysis"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Application Security"
+    },
+    {
+      "id": "architecture",
+      "name": "Agent security architecture",
+      "level": 3,
+      "specialisms": [
+        "ai-security",
+        "agent-architecture"
+      ],
+      "activities": [
+        "automated-judges"
+      ],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "l3",
+        "specialism-ai-security",
+        "specialism-agent-architecture"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Application Security"
+    },
+    {
+      "id": "engineering",
+      "name": "Security architecture & engineering — agent infrastructure",
+      "level": 3,
+      "specialisms": [
+        "agent-engineering"
+      ],
+      "activities": [
+        "automated-judges"
+      ],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "l3",
+        "specialism-agent-engineering"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Security architecture & engineering"
+    },
+    {
+      "id": "security",
+      "name": "AI security design and remediation",
+      "level": 2,
+      "specialisms": [
+        "ai-security"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-ai-security"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Engineering & transformation"
+    },
+    {
+      "id": "transformation",
+      "name": "Workflow transformation and adoption",
+      "level": 2,
+      "specialisms": [
+        "workflow-transformation"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "l2",
+        "specialism-workflow-transformation"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "Engineering & transformation"
+    },
+    {
+      "id": "iam",
+      "name": "Agent identity operations — AI-assisted work",
+      "level": 1,
+      "specialisms": [
+        "identity-operations"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "specialism-identity-operations"
+      ],
+      "rationale": "IAM operations staff using AI assistance; IAM expertise is independent of agentic level.",
+      "sourceGroup": "Identity & Access Management"
+    },
+    {
+      "id": "iam-integration",
+      "name": "Agent identity integration and design",
+      "level": 1,
+      "specialisms": [
+        "identity-operations",
+        "identity-integration"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "specialism-identity-operations",
+        "specialism-identity-integration"
+      ],
+      "rationale": "Identity integration specialists using AI assistance; change their agentic level only if their work also involves supervising or building agents.",
+      "sourceGroup": "Identity & Access Management"
+    },
+    {
+      "id": "cio",
+      "name": "Strategy & tool selection",
+      "level": 1,
+      "specialisms": [
+        "leadership",
+        "vendor-evaluation"
+      ],
+      "activities": [],
+      "components": [
+        "foundation",
+        "l1",
+        "specialism-leadership",
+        "specialism-vendor-evaluation"
+      ],
+      "rationale": "Assign only where the profile reflects actual work; approved tools and operational permissions are separate decisions.",
+      "sourceGroup": "CIO"
+    }
+  ]
+}

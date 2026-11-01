@@ -1,0 +1,140 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h26m
+How Business Thinkers Can Start Building AI Plugins With Semantic Kernel
+Instructor
+:
+John Maeda
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Beginner
+1h26m
+9 Video Lessons
+7 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: John Maeda
+Microsoft
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn Microsoft’s open source orchestrator, the Semantic Kernel
+Develop your business planning and analysis skills while leveraging AI tools
+Advance your skills in LLMs by using memories, connectors, chains, and more
+About this course
+Large Language Models (LLMs) are enabling coders and non-coders to build new kinds of applications that harness the power of AI. In this course, you’ll learn how to use and create with Microsoft’s open source orchestrator, Semantic Kernel. Along the way you’ll gain skills in getting the most out of LLMs developing prompts, semantic functions, vector databases and using an LLM for planning.
+After completing this course you will be able to:
+Develop sophisticated business applications using LLMs
+Leverage common LLM building blocks such as memories, connectors, chains and planners
+Utilize the open source orchestrator, the Semantic Kernel, in your applications
+Using an orchestration SDK such as Semantic Kernel means you can avoid having to learn APIs for each individual AI service, and build integrations that can always stay up to date with the latest advances in AI research rather than solutions that quickly get outdated. Through this course, you’ll have all you need to take full advantage of this powerful open source tool.
+Who should join?
+Everyone who wants to learn Semantic Kernel. Recommended skills are basic Python, and an understanding of an Application Programming Interface (API). Familiarity with what a Software Design Kit (SDK) is will be helpful, but not required.
+Course Outline
+9
+Lessons・
+7
+Code Examples
+Introduction
+Video
+・
+6m
+Semantic Kernel is Like Your AI Cooking Kitchen
+Video with Code Example
+・
+6m
+Cooking Up Flavorful SWOTs with the Kernel
+Video with Code Example
+・
+11m
+Organizing The Tools You Make for Later Reuse
+Video with Code Example
+・
+10m
+Frozen Dinner The Design Thinking Meal
+Video with Code Example
+・
+13m
+Dont Forget to Save the Generated Dripping or The Gravy
+Video with Code Example
+・
+9m
+A Kitchen That Responds to Your I'm Hungry is More Than Feasible
+Video with Code Example
+・
+13m
+There's a Fully-Outfitted Professional-Grade Kitchen Ready For You
+Video with Code Example
+・
+5m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+John Maeda
+VP of Design and Artificial Intelligence at Microsoft
+How Business Thinkers Can Start Building AI Plugins With Semantic Kernel
+Beginner
+1h26m
+9 Video Lessons
+7 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: John Maeda
+Microsoft
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about generative AI?
+Keep learning with updates on curated AI news, courses, events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -1,0 +1,1043 @@
+{
+  "source": "Agentic-Era_Workforce_Capability_Model.md, version 2, updated 18 October 2026",
+  "needs": 23,
+  "outcomes": 140,
+  "categories": {
+    "generic": 11,
+    "cyberSpecific": 12
+  },
+  "drawn": [
+    {
+      "id": "N1.1",
+      "slide": 9,
+      "category": "Cyber-specific",
+      "need": "N1",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N1.2",
+      "slide": 9,
+      "category": "Cyber-specific",
+      "need": "N1",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N1.3",
+      "slide": 9,
+      "category": "Cyber-specific",
+      "need": "N1",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N2.1",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N2",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N2.2",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N2",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N2.3",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N2",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N2.4",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N2",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N2.5",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N2",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N2.6",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N2",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N2.7",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N2",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N3.1",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N3",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N3.2",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N3",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N3.3",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N3",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N3.4",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N3",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N3.5",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N3",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N3.6",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N3",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N3.7",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N3",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N4.1",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N4",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N4.2",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N4",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N4.3",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N4",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N4.4",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N4",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N4.5",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N4",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N4.6",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N4",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N5.1",
+      "slide": 9,
+      "category": "Cyber-specific",
+      "need": "N5",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N5.2",
+      "slide": 9,
+      "category": "Cyber-specific",
+      "need": "N5",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N5.3",
+      "slide": 9,
+      "category": "Cyber-specific",
+      "need": "N5",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N5.4",
+      "slide": 9,
+      "category": "Cyber-specific",
+      "need": "N5",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N5.5",
+      "slide": 9,
+      "category": "Cyber-specific",
+      "need": "N5",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N5.6",
+      "slide": 9,
+      "category": "Cyber-specific",
+      "need": "N5",
+      "placement": "Foundation — common knowledge"
+    },
+    {
+      "id": "N6.1",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N6",
+      "placement": "L1 Entry — Work with AI assistance"
+    },
+    {
+      "id": "N6.2",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N6",
+      "placement": "L1 Entry — Work with AI assistance"
+    },
+    {
+      "id": "N6.3",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N6",
+      "placement": "L1 Entry — Work with AI assistance"
+    },
+    {
+      "id": "N6.4",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N6",
+      "placement": "L1 Entry — Work with AI assistance"
+    },
+    {
+      "id": "N6.5",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N6",
+      "placement": "L1 Entry — Work with AI assistance"
+    },
+    {
+      "id": "N6.6",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N6",
+      "placement": "L1 Entry — Work with AI assistance"
+    },
+    {
+      "id": "N6.7",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N6",
+      "placement": "L1 Entry — Work with AI assistance"
+    },
+    {
+      "id": "N6.8",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N6",
+      "placement": "L1 Entry — Work with AI assistance"
+    },
+    {
+      "id": "N7.1",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N7",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N7.2",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N7",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N7.3",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N7",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N7.4",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N7",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N7.5",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N7",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N8.1",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N8",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N8.2",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N8",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N8.3",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N8",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N8.4",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N8",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N8.5",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N8",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N9.1",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N9",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N9.2",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N9",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N9.3",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N9",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N9.4",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N9",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N9.5",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N9",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N4.7",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N4",
+      "placement": "L2 Practitioner — Supervise agents"
+    },
+    {
+      "id": "N10.1",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N10",
+      "placement": "L3 Expert — Build and evaluate agents"
+    },
+    {
+      "id": "N10.2",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N10",
+      "placement": "L3 Expert — Build and evaluate agents"
+    },
+    {
+      "id": "N10.4",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N10",
+      "placement": "L3 Expert — Build and evaluate agents"
+    },
+    {
+      "id": "N10.5",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N10",
+      "placement": "L3 Expert — Build and evaluate agents"
+    },
+    {
+      "id": "N10.8",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N10",
+      "placement": "L3 Expert — Build and evaluate agents"
+    },
+    {
+      "id": "N11.1",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N11",
+      "placement": "L3 Expert — Build and evaluate agents"
+    },
+    {
+      "id": "N11.2",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N11",
+      "placement": "L3 Expert — Build and evaluate agents"
+    },
+    {
+      "id": "N11.3",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N11",
+      "placement": "L3 Expert — Build and evaluate agents"
+    },
+    {
+      "id": "N11.4",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N11",
+      "placement": "L3 Expert — Build and evaluate agents · Vendor evaluation and tool selection"
+    },
+    {
+      "id": "N11.5",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N11",
+      "placement": "L3 Expert — Build and evaluate agents"
+    },
+    {
+      "id": "N11.6",
+      "slide": 9,
+      "category": "Generic",
+      "need": "N11",
+      "placement": "L3 Expert — Build and evaluate agents · Vendor evaluation and tool selection"
+    },
+    {
+      "id": "R1.1.1",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R1.1",
+      "placement": "Agent incident response"
+    },
+    {
+      "id": "R1.1.2",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R1.1",
+      "placement": "Agent incident response"
+    },
+    {
+      "id": "R1.1.3",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R1.1",
+      "placement": "Agent incident response"
+    },
+    {
+      "id": "R1.1.4",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R1.1",
+      "placement": "Agent incident response"
+    },
+    {
+      "id": "R1.1.5",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R1.1",
+      "placement": "Agent incident response"
+    },
+    {
+      "id": "R1.1.6",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R1.1",
+      "placement": "Agent incident response"
+    },
+    {
+      "id": "R1.2.1",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R1.2",
+      "placement": "Agent forensics and evidence"
+    },
+    {
+      "id": "R1.2.2",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R1.2",
+      "placement": "Agent forensics and evidence"
+    },
+    {
+      "id": "R1.2.3",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R1.2",
+      "placement": "Agent forensics and evidence"
+    },
+    {
+      "id": "N5.7",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "N5",
+      "placement": "Threat intelligence & detection — AI threat landscape"
+    },
+    {
+      "id": "R3.1.1",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R3.1",
+      "placement": "Agent testing and containment"
+    },
+    {
+      "id": "R3.1.2",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R3.1",
+      "placement": "Agent testing and containment"
+    },
+    {
+      "id": "R3.1.3",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R3.1",
+      "placement": "Advanced agent red-teaming"
+    },
+    {
+      "id": "R3.1.4",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R3.1",
+      "placement": "Advanced agent red-teaming"
+    },
+    {
+      "id": "R3.1.5",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R3.1",
+      "placement": "Advanced agent red-teaming"
+    },
+    {
+      "id": "R3.2.1",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R3.2",
+      "placement": "Agent testing and containment"
+    },
+    {
+      "id": "R3.2.2",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R3.2",
+      "placement": "Agent testing and containment"
+    },
+    {
+      "id": "R3.2.3",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R3.2",
+      "placement": "Agent testing and containment"
+    },
+    {
+      "id": "R3.2.4",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R3.2",
+      "placement": "Agent testing and containment"
+    },
+    {
+      "id": "R3.2.5",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R3.2",
+      "placement": "Agent testing and containment"
+    },
+    {
+      "id": "N14.1",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N14",
+      "placement": "Workflow transformation and adoption · Leadership and accountability"
+    },
+    {
+      "id": "N14.2",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N14",
+      "placement": "Workflow transformation and adoption · Leadership and accountability"
+    },
+    {
+      "id": "N14.3",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N14",
+      "placement": "Workflow transformation and adoption · Leadership and accountability"
+    },
+    {
+      "id": "N14.4",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N14",
+      "placement": "Workflow transformation and adoption · Leadership and accountability"
+    },
+    {
+      "id": "N14.5",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N14",
+      "placement": "Workflow transformation and adoption · Leadership and accountability"
+    },
+    {
+      "id": "N14.6",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N14",
+      "placement": "Leadership and accountability"
+    },
+    {
+      "id": "N14.7",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N14",
+      "placement": "Leadership and accountability"
+    },
+    {
+      "id": "R4.1.1",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.1",
+      "placement": "Agent exposure management"
+    },
+    {
+      "id": "R4.1.2",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.1",
+      "placement": "Agent exposure management"
+    },
+    {
+      "id": "R4.1.3",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.1",
+      "placement": "Agent exposure management"
+    },
+    {
+      "id": "R4.1.4",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.1",
+      "placement": "Agent exposure management"
+    },
+    {
+      "id": "R4.1.5",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.1",
+      "placement": "Agent exposure management"
+    },
+    {
+      "id": "R4.1.6",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.1",
+      "placement": "Agent exposure management"
+    },
+    {
+      "id": "R4.2.1",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.2",
+      "placement": "AI code-analysis engineering"
+    },
+    {
+      "id": "R4.2.2",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.2",
+      "placement": "AI code-analysis engineering"
+    },
+    {
+      "id": "R4.2.3",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.2",
+      "placement": "AI code-analysis engineering"
+    },
+    {
+      "id": "R4.2.4",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.2",
+      "placement": "AI code-analysis engineering"
+    },
+    {
+      "id": "R4.2.5",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.2",
+      "placement": "AI code-analysis engineering"
+    },
+    {
+      "id": "R4.2.6",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.2",
+      "placement": "AI code-analysis engineering"
+    },
+    {
+      "id": "R4.2.7",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R4.2",
+      "placement": "AI code-analysis engineering"
+    },
+    {
+      "id": "N10.3",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N10",
+      "placement": "Security architecture & engineering — agent infrastructure"
+    },
+    {
+      "id": "N10.6",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N10",
+      "placement": "Security architecture & engineering — agent infrastructure"
+    },
+    {
+      "id": "N10.7",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N10",
+      "placement": "Security architecture & engineering — agent infrastructure"
+    },
+    {
+      "id": "N12.1",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "N12",
+      "placement": "AI security design and remediation"
+    },
+    {
+      "id": "N12.2",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "N12",
+      "placement": "AI security design and remediation"
+    },
+    {
+      "id": "N12.3",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "N12",
+      "placement": "AI security design and remediation"
+    },
+    {
+      "id": "N12.4",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "N12",
+      "placement": "AI security design and remediation"
+    },
+    {
+      "id": "N12.5",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "N12",
+      "placement": "AI security design and remediation"
+    },
+    {
+      "id": "N12.6",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "N12",
+      "placement": "AI security design and remediation"
+    },
+    {
+      "id": "N12.7",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "N12",
+      "placement": "AI security design and remediation"
+    },
+    {
+      "id": "N12.8",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "N12",
+      "placement": "AI security design and remediation"
+    },
+    {
+      "id": "N12.9",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "N12",
+      "placement": "Agent security architecture"
+    },
+    {
+      "id": "R5.1.1",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R5.1",
+      "placement": "Agent security architecture"
+    },
+    {
+      "id": "R5.1.2",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R5.1",
+      "placement": "Agent security architecture"
+    },
+    {
+      "id": "R5.1.3",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R5.1",
+      "placement": "Agent security architecture"
+    },
+    {
+      "id": "R5.1.4",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R5.1",
+      "placement": "Agent security architecture"
+    },
+    {
+      "id": "R5.1.5",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R5.1",
+      "placement": "Agent security architecture"
+    },
+    {
+      "id": "R5.1.6",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R5.1",
+      "placement": "Agent security architecture"
+    },
+    {
+      "id": "N13.1",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N13",
+      "placement": "AI governance and risk"
+    },
+    {
+      "id": "N13.2",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N13",
+      "placement": "AI governance and risk"
+    },
+    {
+      "id": "N13.3",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N13",
+      "placement": "AI governance and risk · Leadership and accountability"
+    },
+    {
+      "id": "N13.4",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N13",
+      "placement": "AI governance and risk"
+    },
+    {
+      "id": "N13.5",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N13",
+      "placement": "AI governance and risk"
+    },
+    {
+      "id": "N13.6",
+      "slide": 10,
+      "category": "Generic",
+      "need": "N13",
+      "placement": "AI governance and risk"
+    },
+    {
+      "id": "R6.1.1",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R6.1",
+      "placement": "Agent assurance"
+    },
+    {
+      "id": "R6.1.2",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R6.1",
+      "placement": "Agent assurance"
+    },
+    {
+      "id": "R9.1.1",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R9.1",
+      "placement": "Agent identity operations"
+    },
+    {
+      "id": "R9.1.2",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R9.1",
+      "placement": "Agent identity operations"
+    },
+    {
+      "id": "R9.1.3",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R9.1",
+      "placement": "Agent identity operations"
+    },
+    {
+      "id": "R9.1.4",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R9.1",
+      "placement": "Agent identity operations"
+    },
+    {
+      "id": "R9.1.5",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R9.1",
+      "placement": "Agent identity operations"
+    },
+    {
+      "id": "R9.1.6",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R9.1",
+      "placement": "Agent identity operations"
+    },
+    {
+      "id": "R9.1.7",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R9.1",
+      "placement": "Agent identity operations"
+    },
+    {
+      "id": "R9.1.8",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R9.1",
+      "placement": "Agent identity integration and design"
+    },
+    {
+      "id": "R9.1.9",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R9.1",
+      "placement": "Agent identity integration and design"
+    },
+    {
+      "id": "R9.1.10",
+      "slide": 10,
+      "category": "Cyber-specific",
+      "need": "R9.1",
+      "placement": "Agent identity integration and design"
+    }
+  ],
+  "metrics": [
+    {
+      "slide": 9,
+      "column": 1,
+      "bottom": 576.3999999999999
+    },
+    {
+      "slide": 9,
+      "column": 2,
+      "bottom": 465.9999999999999
+    },
+    {
+      "slide": 9,
+      "column": 3,
+      "bottom": 529.4399999999999
+    },
+    {
+      "slide": 9,
+      "column": 4,
+      "bottom": 516.8799999999999
+    },
+    {
+      "slide": 9,
+      "column": 5,
+      "bottom": 465.5999999999999
+    },
+    {
+      "slide": 10,
+      "column": 1,
+      "bottom": 565.5999999999999
+    },
+    {
+      "slide": 10,
+      "column": 2,
+      "bottom": 637.0400000000003
+    },
+    {
+      "slide": 10,
+      "column": 3,
+      "bottom": 621.84
+    },
+    {
+      "slide": 10,
+      "column": 4,
+      "bottom": 637.9200000000003
+    },
+    {
+      "slide": 10,
+      "column": 5,
+      "bottom": 622.6800000000003
+    }
+  ]
+}

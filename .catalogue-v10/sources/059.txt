@@ -1,0 +1,147 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h21m
+Getting Structured LLM Output
+Instructors
+:
+Will Kurt, Cameron Pfiffer
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 23, 2026
+Enroll for Free
+Intermediate
+1h21m
+7 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 23, 2026
+Instructors: Will Kurt, Cameron Pfiffer
+DotTxt
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Get an overview of structured output generation, its importance, and the different approaches to generating them.
+Build a social media agent using structured output and learn how to use re-prompting libraries like instructor.
+Understand the concepts behind constrained decoding and how the LLM logits are modified to get a particular output structure.
+About this course
+Welcome to
+Getting Structured LLM Output
+, built in partnership with DotTxt, and taught by Will Kurt, Founding Engineer, and Cameron Pfiffer, Developer Relations Engineer at DotTxt.
+When building production-ready software, it’s challenging to parse through and rely on freeform text outputs. Structured outputs—like JSON—solve this by converting natural language into consistent, clear, and programmable data that a machine can read and process.
+In this course, you’ll learn how to generate structured outputs while building several use cases, including a social media analysis agent.
+You’ll gain a fundamental understanding of structured outputs and learn efficient ways to generate outputs in your defined schema or format. You’ll begin by using structured output APIs, then follow it up by utilizing re-prompting libraries like “instructor” to generate structured output. Afterward, you’ll learn how constrained decoding works, in which constraints are applied on each subsequent token generated, blocking any tokens that don’t fit your defined schema.
+In detail, you’ll:
+Learn why structured outputs are important, how they allow for scalable software development, and the different approaches to generate them, including vendor-provided APIs, re-prompting libraries, and structured generation.
+Build a simple social media agent using OpenAI’s structured output API, learn how to define a model’s desired structured output using Pydantic, and perform basic programming with your outputs, such as importing structured data into a data frame using pandas.
+Learn how to use the open-source library “
+instructor,
+” which checks the structured output of the model and re-prompts the model until it validates the desired output, and explore the limitations of this approach.
+Understand how structured generation by “
+outlines”
+works by modifying LLM logits, per token generated based on instruction, to give a particular output structure.
+Learn how regular expressions, which power outlines, are represented as finite-state machine, and how they can be used to develop a range of structured output beyond JSON.
+By the end of this course, you’ll have broadened your knowledge of the approaches you can use to get structured outputs from your LLM applications.
+Who should join?
+It’s helpful to be familiar with Python, the basics of LLM prompting, and LLM application development.
+Course Outline
+7
+Lessons・
+4
+Code Examples
+Introduction
+Video
+・
+3m
+Introduction to Structured Output Generation
+Video
+・
+13m
+How To Use Structured Outputs
+Video with Code Example
+・
+11m
+Retry-based Structured Output
+Video with Code Example
+・
+11m
+Structured Generation with Outlines
+Video with Code Example
+・
+13m
+Structured Generation: Beyond JSON
+Video with Code Example
+・
+16m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Will Kurt
+Founding Engineer of
+DotText
+Cameron Pfiffer
+Developer Relations Engineer at
+DotTxt
+Getting Structured LLM Output
+Intermediate
+1h21m
+7 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 23, 2026
+Instructors: Will Kurt, Cameron Pfiffer
+DotTxt
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

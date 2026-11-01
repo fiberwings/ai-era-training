@@ -1,0 +1,53 @@
+{
+  "release": "2.0.0",
+  "date": "2026-10-31",
+  "catalogue": {
+    "filename": "AI_Era_Cyber_Training_Catalogue_v11.xlsx",
+    "version": "6f245643cc5bf083",
+    "sourceSha256": "bcd2a5400a708d32fec79cf22c97840c5d131de1405e7a6c2ce97cec2e686e09",
+    "assessmentDate": "2026-10-18"
+  },
+  "workbookReconciliation": {
+    "coverageRows": 9453,
+    "changedCourses": 0
+  },
+  "counts": {
+    "courses": 528,
+    "outcomes": 140,
+    "scoredNeeds": 23,
+    "blankComponents": 21,
+    "audienceTemplates": 19
+  },
+  "tests": {
+    "plannerJavaScript": 42,
+    "learnerCompatibilityJavaScript": 65,
+    "plannerPython": 14
+  },
+  "browserVerified": [
+    "legacy workspace startup without changing saved plans",
+    "component library and canonical categories",
+    "Foundation outcome coverage and must-have filtering",
+    "component recommendation proposal and explicit apply",
+    "outcome-specific ranked suggestions",
+    "product/task tooling and unassessed addition preview",
+    "audience tooling assignment and unresolved time",
+    "internal teaching adds time without coverage credit",
+    "standalone solver with no companion files",
+    "scenario JSON export/import and persisted reload",
+    "Foundation detailed CSV scope",
+    "finalisation with incomplete evidence permitted",
+    "standalone browser console has no warnings or errors"
+  ],
+  "manualChecksRemaining": [
+    "Direct file opening and local-file autosave: browser test environment blocks file:// navigation",
+    "Native print/PDF layout on the destination work machine"
+  ],
+  "unchangedInputs": [
+    "v11 workbook",
+    "active catalogue JSON",
+    "legacy default-scenario JSON",
+    "annual reports and archives",
+    "learner companion source and distribution"
+  ],
+  "standaloneSha256": "73cf072ab69c9d24a79faf9b0251e6a44d2d2e2cce608b3e1273b04dfd5949d3"
+}

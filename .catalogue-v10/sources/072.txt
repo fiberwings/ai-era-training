@@ -1,0 +1,137 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h6m
+Building an AI-Powered Game
+Instructors
+:
+Niki Birkner, Nick Walton
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Beginner
+1h6m
+6 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Niki Birkner, Nick Walton
+Together AI, AI Dungeon
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn LLM app development by designing and developing a text-based AI game, creating immersive game worlds, characters, and storylines through hierarchical content generation.
+Learn to implement game mechanics using AI to convert text data into structured JSON outputs, enabling features like an inventory detection system.
+Learn to enforce safety and compliance for AI content creation, and create custom policies using Llama Guard.
+About this course
+Join our new short course,
+Building an AI-Powered Game,
+with Together AI and AI Dungeon! Learn from Niki Birkner, Senior Product Manager at Together AI, and Nick Walton, CEO and Co-Founder of Latitude.
+This course teaches you how to build a LLM-based application by creating your own AI-powered text-based game. You’ll create a world with hierarchical content generation based on a prompt, setting up its core mechanics, and giving it a simple Gradio user interface.
+By the end of this course, you’ll have a playable text-based game to share with your friends, built from scratch using LLMs. You will be guided through the building blocks of app development using LLMs, including incorporating safeguards using Llama Guard.
+What you’ll do:
+Use prompt engineering to create a world with hierarchical content generation so your narrative is consistent and the AI can flesh out your game.
+Build the first version of your game with a user interface, load the world, and define the core action loop of the game, so you can have a game to play and interact with.
+Implement safe user-dependent and context-dependent guardrails into your game application with Llama Guard and custom content policy.
+Learn LLM tool calling by adding story and state components that improve your game’s memory, track inventory, and show progress.
+With these techniques, you’ll hone your AI skills by building your own sharable game!
+Who should join?
+Anyone who has basic Python knowledge and wants to learn how to build with LLMs in a hands-on, fun way!
+Course Outline
+6
+Lessons・
+4
+Code Examples
+Introduction
+Video
+・
+2m
+Hierarchical Content Generation
+Video with Code Example
+・
+12m
+Interactive AI Applications
+Video with Code Example
+・
+7m
+Moderation & Safety
+Video with Code Example
+・
+11m
+Implementing Game Mechanics
+Video with Code Example
+・
+12m
+Conclusion
+Video
+・
+9m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Niki Birkner
+Product Manager at
+Together AI
+Nick Walton
+CEO and Co-Founder of
+Latitude
+Building an AI-Powered Game
+Beginner
+1h6m
+6 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Niki Birkner, Nick Walton
+Together AI, AI Dungeon
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

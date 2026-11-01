@@ -1,0 +1,132 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+54m
+Building Agentic RAG with Llamaindex
+Instructor
+:
+Jerry Liu
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Beginner
+54m
+6 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Jerry Liu
+LlamaIndex
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn how to build an agent that can reason over your documents and answer complex questions.
+Build a router agent that can help you with Q&A and summarization tasks, and extend it to handle passing arguments to this agent.
+Design a research agent that handles multi-documents and learn about different ways to debug and control this agent.
+About this course
+Join our new short course and learn from Jerry Liu, co-founder and CEO at LlamaIndex to start using agentic RAG, a framework designed to build research agents skilled in tool use, reasoning, and decision-making with your data.
+In this course:
+Build the simplest form of agentic RAG – a router. Given a query, the router will pick one of two query engines, Q&A or summarization, to execute a query over a single document.
+Add tool calling to your router agent where you will use an LLM to not only pick a function to execute but also infer an argument to pass to the function.
+Build a research assistant agent. Instead of tool calling in a single-shot setting, an agent is able to reason over tools in multiple steps.
+Build a multi-document agent where you will learn how to extend the research agent to handle multiple documents.
+Unlike the standard RAG pipeline—suitable for simple queries across a few documents—this intelligent approach adapts based on initial findings to enhance further data retrieval. You’ll learn to develop an autonomous research agent, enhancing your ability to engage with and analyze your data comprehensively.
+You’ll practice building agents capable of intelligently navigating, summarizing, and comparing information across multiple research papers from arXiv. Additionally, you’ll learn how to debug these agents, ensuring you can guide their actions effectively.
+Explore one of the most rapidly advancing applications of agentic AI!
+Who should join?
+Anyone who has basic Python knowledge and wants to learn how to quickly build agents that can reason over their own documents.
+Course Outline
+6
+Lessons・
+4
+Code Examples
+Introduction
+Video
+・
+2m
+Router Query Engine
+Video with Code Example
+・
+9m
+Tool Calling
+Video with Code Example
+・
+10m
+Building an Agent Reasoning Loop
+Video with Code Example
+・
+11m
+Building a Multi-Document Agent
+Video with Code Example
+・
+10m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Jerry Liu
+Co-founder and CEO of
+LlamaIndex
+Building Agentic RAG with Llamaindex
+Beginner
+54m
+6 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Jerry Liu
+LlamaIndex
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

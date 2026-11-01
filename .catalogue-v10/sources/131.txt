@@ -1,0 +1,319 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+111h51m
+Natural Language Processing Specialization
+Instructors
+:
+Younes Bensouda Mourri, Łukasz Kaiser
+DeepLearning.AI
+Earn
+a certificate
+with
+PRO
+· Updated Sep 22, 2026
+Enroll Now
+Also available on
+Coursera
+Intermediate
+111h51m
+180 Video Lessons
+40 Code Examples
+20 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Sep 22, 2026
+Instructors: Younes Bensouda Mourri, Łukasz Kaiser
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+What you'll learn
+Use logistic regression, naïve Bayes, and word vectors to implement sentiment analysis, complete analogies, translate words, and use locality-sensitive hashing to approximate nearest neighbors.
+Use dynamic programming, hidden Markov models, and word embeddings to autocorrect misspelled words, autocomplete partial sentences, and identify part-of-speech tags for words.
+Use dense and recurrent neural networks, LSTMs, GRUs, and Siamese networks in TensorFlow to perform advanced sentiment analysis, text generation, named entity recognition, and to identify duplicate questions.
+Use encoder-decoder, causal, and self-attention to perform advanced machine translation of complete sentences, text summarization, and question-answering. Learn models like T5, BERT, and more with Hugging Face Transformers!
+Skills you will gain
+Sentiment Analysis
+Transformers
+Attention Models
+Machine Translation
+Word2vec
+Word Embeddings
+Locality-Sensitive Hashing
+Vector Space Models
+Parts-of-Speech Tagging
+N-gram Language Models
+Autocorrect
+Sentiment with Neural Networks
+Siamese Networks
+Natural Language Generation
+Named Entity Recognition (NER)
+Neural Machine Translation
+T5 + BERT Models
+Natural language processing is a subfield of linguistics, computer science, and artificial intelligence that uses algorithms to interpret and manipulate human language.
+In the Natural Language Processing (NLP) Specialization, you will learn how to design NLP applications that perform question-answering and sentiment analysis, create tools to translate languages, and summarize text. These and other NLP applications will be at the forefront of the coming transformation to an AI-powered future.
+NLP is one of the most broadly applied areas of machine learning and is critical in effectively analyzing massive quantities of unstructured, text-heavy data. As AI continues to expand, so will the demand for professionals skilled at building models that analyze speech and language, uncover contextual patterns, and produce insights from text and audio.
+Course Outline
+Course
+1
+Course
+2
+Course
+3
+Course
+4
+Natural Language Processing with Classification and Vector Spaces
+Week 1: Sentiment Analysis with Logistic Regression
+Lecture: Logistic Regression
+Lecture Notes (Optional)
+Practice Quiz
+Assignment: Sentiment Analysis with Logistic Regression
+Heroes of NLP: Chris Manning (Optional)
+Week 2: Sentiment Analysis with Naïve Bayes
+Lecture: Naive Bayes
+Lecture Notes (Optional)
+Practice Quiz
+Assignment: Naive Bayes
+Week 3: Vector Space Models
+Lecture: Vector Space Models
+Lecture Notes (Optional)
+Practice Quiz
+Assignment: Vector Space Models
+Week 4: Machine Translation and Document Search
+Lecture: Machine Translation
+Lecture Notes (Optional)
+Practice Quiz
+End of access to Lab Notebooks
+Assignment: Machine Translation
+Acknowledgments and Bibliography
+Heroes of NLP: Kathleen McKeown
+Natural Language Processing with Probabilistic Models
+Week 1: Autocorrect
+Lecture: Autocorrect and Minimum Edit Distance
+Lecture Notes (Optional)
+Quiz: Auto-correct and Minimum Edit Distance
+Assignment: Autocorrect
+Week 2: Part of Speech Tagging and Hidden Markov Models
+Lecture: Part of Speech Tagging
+Lecture Notes (Optional)
+Practice Quiz
+Assignment: Part of Speech Tagging
+Week 3: Autocomplete and Language Models
+Lecture: Autocomplete
+Lecture Notes (Optional)
+Practice Quiz
+Assignment: Autocomplete
+Week 4: Word embeddings with neural networks
+Lecture: Word Embeddings
+Lecture Notes (Optional)
+Practice Quiz
+End of access to Lab Notebooks
+Assignment: Word Embeddings
+Acknowledgments
+Natural Language Processing with Sequence Models
+Week 1: Recurrent Neural Networks for Language Modeling
+Introduction to Neural Networks and TensorFlow
+Practice Assignment: Classification Using Deep Neural Networks
+N-grams vs. Sequence Models
+Lecture Notes (Optional)
+Practice Quiz
+Assignment: Deep N-grams
+Week 2: LSTMs and Named Entity Recognition
+LSTMs and Named Entity Recognition
+Lecture Notes (Optional)
+Practice Quiz
+Assignment: Named Entity Recognition (NER)
+Week 3: Siamese Networks
+Siamese Networks
+Lecture Notes (Optional)
+Practice Quiz
+Assignment: Question Duplicates
+Acknowledgments
+Natural Language Processing with Attention Models
+Week 1: Neural Machine Translation
+Neural Machine Translation
+Lecture Notes (Notes)
+Practice Quiz
+Assignment
+Heroes of NLP: Oren Etzioni
+Week 2: Text Summarization
+Text Summarization
+Lecture Notes (Optional)
+Practice Quiz
+Assignment
+Week 3: Question Answering
+Question Answering
+Hugging Face
+Lecture Notes (Optional)
+Practice Quiz
+Assignment
+Heroes of NLP: Quoc Le
+Acknowledgments & Course Resources
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Younes Bensouda Mourri
+Instructor of AI, Stanford University
+Łukasz Kaiser
+Staff Research Scientist, Google Brain; Chargé de Recherche, CNRS
+Course Slides
+You can download the annotated version of the course slides below.
+Download The Course Slides
+*Note: The slides might not reflect the latest course video slides. Please refer to the lecture videos for the most up-to-date information. We encourage you to make your own notes.
+Download The Course Slides
+close
+Frequently Asked Questions
+What is Natural Language Processing (NLP)?
+Natural language processing is a subfield of linguistics, computer science, and artificial intelligence that uses algorithms to interpret and manipulate human language.
+What is the Natural Language Processing Specialization about?
+In the Natural Language Processing (NLP) Specialization, you will learn how to design NLP applications that perform question-answering and sentiment analysis, create tools to translate languages, and summarize text. These and other NLP applications will be at the forefront of the coming transformation to an AI-powered future.
+NLP is one of the most broadly applied areas of machine learning and is critical in effectively analyzing massive quantities of unstructured, text-heavy data. As AI continues to expand, so will the demand for professionals skilled at building models that analyze speech and language, uncover contextual patterns, and produce insights from text and audio.
+What will I be able to do after completing the Natural Language Processing Specialization?
+This Specialization will equip you with both the machine learning basics as well as the state-of-the-art deep learning techniques needed to build cutting-edge NLP systems:
+Use logistic regression, naïve Bayes, and word vectors to implement sentiment analysis, complete analogies, translate words, and use locality-sensitive hashing to approximate nearest neighbors.
+Use dynamic programming, hidden Markov models, and word embeddings to autocorrect misspelled words, autocomplete partial sentences, and identify part-of-speech tags for words.
+Use dense and recurrent neural networks, LSTMs, GRUs, and Siamese networks in TensorFlow to perform advanced sentiment analysis, text generation, named entity recognition, and to identify duplicate questions.
+Use encoder-decoder, causal, and self-attention to perform advanced machine translation of complete sentences, text summarization and question-answering. Models covered include T5, BERT, and more!
+What makes this Specialization so different?
+The Natural Language Processing Specialization is one-of-a-kind.
+It teaches cutting-edge techniques drawn from recent academic papers, some of which were only first published in 2019.
+It covers practical methods for handling common NLP use cases (autocorrect, autocomplete), as well as advanced deep learning techniques for chatbots and question-answering.
+It starts with the foundations and takes you to a stage where you can build state-of-the-art attention models that allow for parallel computing.
+You will not only use packages but also learn how to build these models from scratch. We walk you through all the steps, from data processing to the finished products you can use in your own projects.
+You will complete one project every week to make sure you understand the concepts for a total of 16 programming assignments.
+What background knowledge is necessary for the Natural Language Processing Specialization?
+Working knowledge of machine learning, intermediate Python experience including DL frameworks & proficiency in calculus, linear algebra, & statistics
+Who is this Specialization for?
+This Specialization is for students of machine learning or artificial intelligence and software engineers looking for a deeper understanding of how NLP models work and how to apply them.
+How long does it take to complete the Natural Language Processing Specialization?
+This Specialization consists of four Courses. At the rate of 5 hours a week, it typically takes 4 weeks to complete each Course.
+Who created the Natural Language Processing Specialization?
+Younes Bensouda Mourri and Lukasz Kaiser created the Natural Language Processing Specialization.
+Younes Bensouda Mourri
+completed his Bachelor’s in Applied Math and CS and Master’s in Statistics from Stanford University. Younes helped create 3 AI courses at Stanford – Applied Machine Learning, Deep Learning, and Teaching AI – and taught two for a few years. Currently, he is an adjunct lecturer of computer science at Stanford University.
+Lukasz Kaiser
+is a Staff Research Scientist at Google Brain and the co-author of Tensorflow, the Tensor2Tensor and Trax libraries, and the “Attention is all you need” Transformer paper.
+The Natural Language Processing Specialization was updated in October 2021. What is different in the new version?
+Please read this for a complete list of updates:
+In Course 1: NLP with Classification and Vector Spaces,
+All the programming assignments and ungraded labs have been refactored
+All programming assignments have new automatic graders
+In Course 2: NLP with Probabilistic Models,
+All the programming assignments and ungraded labs have been refactored
+All programming assignments have new automatic graders
+In Course 3: NLP with Sequence Models,
+A new section on visualizing embeddings from the trained model has been added to the Week 1 assignment
+Corrections have been made to the evaluation section of the Week 2 assignment
+Week 3 assignment has been refactored
+The following lectures have been updated to new versions:
+Trax: Neural Networks
+Trax: Layers (Now Classes, subclasses, and inheritance)
+Dense and ReLU layers
+Serial Layer
+Math in Simple RNNs
+Gated Recurrent Units
+RNNs and Vanishing Gradients
+Introduction to LSTMs
+LSTM Architecture
+Triplets
+The following ungraded labs have been updated to new versions:
+Hidden State Activation
+GRU
+Perplexity
+Vanishing and Exploding gradients
+In Course 4: NLP with Attention Models,
+Two new ungraded labs concerned with how attention is implemented in deep learning models have been added
+The following lectures have been updated to new versions or modified (excluding HuggingFace content):
+Seq2seq model for NMT
+Seq2seq model with Attention
+Queries, Keys, Values, and Attention
+Setup for Machine Translation
+Teacher Forcing
+NMT with Attention
+Evaluation: BLEU Score
+Evaluation: ROUGE Score
+Sampling and Decoding
+Beam Search
+Minimum Bayes Risk (MBR)
+Transformers vs. RNNs
+Transformers overview
+Scaled dot-product Attention
+Masked Self-Attention
+Multi-Head Attention
+Four new lectures on Hugging Face have been added:
+Introduction from the Hugging Face team
+Introduction to Hugging Face
+Using Transformers
+Fine-tuning a pre-trained model
+Two new ungraded labs on Hugging Face have been added:
+Use of pipelines for Question & Answering
+Fine-Tuning a pre-trained model for Question & Answering
+I’m currently enrolled in one or more courses in the Natural Language Processing Specialization. What does this mean for me?
+Your certificates will carry over for any courses you’ve already completed.
+If your subscription is currently active, you can access the updated labs and submit assignments without paying for the month again.
+If you go to the Specialization, you will see the original version of the lecture videos and assignments. You can complete the original version if so desired (this is not recommended).
+If you would like to update to the new material,
+reset your deadlines
+. If you’re in the middle of a course,
+you will lose your progress when you reset your deadlines.
+Please save any notebook assignments you’ve submitted by downloading your existing notebooks before switching to the new version.
+If you do not see the option to reset deadlines, contact Coursera via the
+Learner Help Center
+.
+I’ve already completed one or more courses in the Natural Language Processing Specialization but don’t have an active subscription. What does this mean for me?
+Your certificates will carry over for any courses you’ve already completed.
+If your subscription is currently inactive, you will need to pay again to access the labs and submit assignments for those courses.
+Natural Language Processing Specialization
+Intermediate
+111h51m
+180 Video Lessons
+40 Code Examples
+20 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Sep 22, 2026
+Instructors: Younes Bensouda Mourri, Łukasz Kaiser
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+Sign Up
+Be notified of new courses
+Enroll Now
+Also available on
+Coursera
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

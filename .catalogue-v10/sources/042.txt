@@ -1,0 +1,143 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h14m
+Knowledge Graphs for AI Agent API Discovery
+Instructors
+:
+Pavithra G K, Lars Heling
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Intermediate
+1h14m
+7 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Pavithra G K, Lars Heling
+SAP
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Construct a knowledge graph: Transform API specifications into a structured graph, then connect previously isolated APIs through business process data.
+Improve API discovery: Do semantic retrieval, and then use business process information from the knowledge graph to discover missing prerequisite APIs and their proper calling sequence.
+Build the agent: Create an agent that uses the knowledge graph to discover and execute APIs to carry out real tasks while following the correct process sequence.
+About this course
+Learn how to help AI agents find and execute the right APIs in the right order using a knowledge graph in “
+Knowledge Graphs for AI Agent API Discovery”
+, taught by Pavithra G K (Head of Business Knowledge Graphs) and Lars Heling (Senior Knowledge Engineer) at SAP Business AI.
+Large companies may have thousands of APIs, which makes it hard for agents to figure out which APIs to use and in what sequence. This course brings raw API specifications into a knowledge graph and extends it with process data so an agent knows when, and in which order, each API should be called.
+You’ll implement API discovery that starts with semantic retrieval to reduce the API selection space, then adds APIs connected by business-process edges. The result is a small, relevant subset of APIs that includes the information about the process sequence the agent should follow.
+Finally, you’ll build an agent with a discovery tool, a GET data tool, and a POST data tool. The agent retrieves API metadata (properties, navigations, process information) and executes tasks in the right sequence according to the business process.
+In detail, you’ll:
+Understand what knowledge graphs are and how they enable better API discovery and execution in AI applications.
+Construct your first knowledge graph from API services and endpoints and visualize it.
+Extend the knowledge graph with business process data, so APIs are connected via the process and their dependencies.
+Learn how knowledge graphs can be used for API discovery for AI agents; perform semantic retrieval, and then add business-process edges to get all the required APIs and their order.
+Build an agent that uses the knowledge graph to discover and execute APIs following the right process order.
+By the end of this course, you’ll have constructed a knowledge graph from API specifications and business process information and built an agent that can take business actions by discovering the right APIs and executing them in the right order.
+Who should join?
+This course is ideal for developers and AI builders working with large API ecosystems who need their agents to make smarter decisions about which services to call and when. Basic Python knowledge is required.
+Course Outline
+7
+Lessons・
+4
+Code Examples
+Introduction
+Video
+・
+3m
+Knowledge Graphs for AI Agents
+Video
+・
+9m
+API Knowledge Graph Construction
+Video with Code Example
+・
+18m
+Integration with Business Processes
+Video with Code Example
+・
+9m
+API Discovery with Knowledge Graphs
+Video with Code Example
+・
+11m
+Business Process Agent
+Video with Code Example
+・
+11m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+9m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Pavithra G K
+Head of Business Knowledge Graphs at
+SAP Business AI
+Lars Heling
+Senior Knowledge Engineer at
+SAP Business AI
+Knowledge Graphs for AI Agent API Discovery
+Intermediate
+1h14m
+7 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Pavithra G K, Lars Heling
+SAP
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -1,0 +1,150 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h
+Building AI Voice Agents for Production
+Instructors
+:
+Russ d’Sa, Shayne Parmelee, Nedelina Teneva
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Intermediate
+1h
+7 Video Lessons
+2 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Russ d’Sa, Shayne Parmelee, Nedelina Teneva
+LiveKit, RealAvatar
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Understand the core architecture of voice agents, including the trade-offs between modular pipelines and real-time APIs, and how components like STT, LLMs, and TTS work together.
+Build and deploy a voice agent that handles speech input, generates LLM responses, and replies using custom voices while managing latency and user interruptions.
+Measure and optimize latency across your voice pipeline, and apply strategies to make your agent feel more natural, responsive, and scalable in real-world settings.
+About this course
+Join
+Building AI Voice Agents for Production
+, created in collaboration with LiveKit and RealAvatar, and taught by Russ d’Sa (Co-founder & CEO of LiveKit), Shayne Parmelee (Developer Advocate, LiveKit), and Nedelina Teneva (Head of AI at RealAvatar, an AI Fund portfolio company). The course also incorporates voice technology from
+ElevenLabs
+, a supporting contributor to the project.
+Voice agents combine speech and reasoning capabilities to enable real-time, human-like conversations. They’re already being used to enhance learning, support customer service, and improve accessibility in healthcare and talk therapy.
+In this course, you’ll learn how to build voice agents that listen, reason, and respond naturally. You’ll follow the architecture used to create Andrew Avatar, a collaborative project between DeepLearning.AI and RealAvatar that responds to users in Andrew Ng’s voice. You’ll build a voice agent from scratch and deploy it to the cloud, enabling support for many simultaneous users.
+What you’ll learn:
+Understand the fundamentals of voice agents, including key components like speech-to-text (STT), text-to-speech (TTS), and LLMs, and how latency is introduced at each layer.
+Explore voice agent architectures and the trade-offs between modular pipelines and speech-to-speech APIs.
+Explore how platforms like LiveKit mitigate latency issues with optimized networking infrastructure and low-latency communication protocols.
+Learn how to connect client devices to voice agents using WebRTC—and why it outperforms HTTP and WebSocket for low-latency audio streaming.
+Incorporate voice activity detection (VAD), end-of-turn detection, and context management to detect turns, handle interruptions, and manage conversational flow.
+Understand the trade-offs between latency, quality, and cost in an example in which you build a voice agent and change its voice.
+Equip your agent with metrics to measure latency at each stage of the voice pipeline and learn the key levers you can pull to make your agent faster and more responsive.
+By the end of this course, you’ll have learned the components of an AI voice agent pipeline, combined them into a system with low-latency communication, and deployed them on cloud infrastructure so it scales to many users.
+Start building your voice agent today with LiveKit.
+Who should join?
+Anyone who wants to build conversational voice applications using LLMs. You’ll get the most out of this course if you’re already familiar with basic Python and foundational AI workflows.
+Course Outline
+7
+Lessons・
+2
+Code Examples
+Introduction
+Video
+・
+3m
+Voice Agent Overview
+Video
+・
+13m
+End-to-end architecture - Part 1
+Video
+・
+12m
+End-to-end architecture - Part 2
+Video
+・
+8m
+Voice Agent Components
+Video with Code Example
+・
+5m
+Optimizing Latency
+Video with Code Example
+・
+7m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Russ d’Sa
+CEO of
+LiveKit
+Shayne Parmelee
+Developer Advocate at
+LiveKit
+Nedelina Teneva
+Head of AI at
+RealAvatar
+Building AI Voice Agents for Production
+Intermediate
+1h
+7 Video Lessons
+2 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Russ d’Sa, Shayne Parmelee, Nedelina Teneva
+LiveKit, RealAvatar
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

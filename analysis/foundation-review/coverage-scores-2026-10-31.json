@@ -1,0 +1,4304 @@
+{
+  "reviewDate": "2026-10-31",
+  "status": "Review-specific assessment; master catalogue unchanged",
+  "method": {
+    "scale": {
+      "0": "No explicit coverage evidenced",
+      "1": "Mentioned/introduction",
+      "2": "Partial teaching, or missing sufficient skill practice",
+      "3": "Full outcome taught; skill practice evidenced"
+    },
+    "needCoverage": "100 × sum(outcome scores) / (3 × number of outcomes in the need)",
+    "optionOutcome": "Maximum single-course score; overlapping partial courses are not added",
+    "aggregate": "Equal weight for each need in the stated scope; outcomes equally weighted within each need",
+    "scope": "34 N2–N6 outcomes; N1 excluded; proposed internal work earns no credit",
+    "essentialOutcomeCount": 14,
+    "interpretation": "Weighted curriculum coverage index, not completion time, quality, or measured competence"
+  },
+  "requirements": [
+    {
+      "id": "N2.1",
+      "need": "N2",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Models",
+      "description": "Different providers make different models, varying in capability, cost, speed and how much they reason; some are open source and can be hosted by the bank; work is measured in tokens",
+      "source": {
+        "sheet": "Rubric",
+        "row": 5
+      }
+    },
+    {
+      "id": "N2.2",
+      "need": "N2",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Modalities",
+      "description": "AI handles text, code, images, voice, documents and screens, and can act across them",
+      "source": {
+        "sheet": "Rubric",
+        "row": 6
+      }
+    },
+    {
+      "id": "N2.3",
+      "need": "N2",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Ways of using AI",
+      "description": "Four patterns: assistant (chat), agent (acts, uses tools, loops until done), teams of agents, and humans and agents working in a shared space",
+      "source": {
+        "sheet": "Rubric",
+        "row": 7
+      }
+    },
+    {
+      "id": "N2.4",
+      "need": "N2",
+      "level": "Base",
+      "rank": 0,
+      "core": true,
+      "title": "Anatomy of an agent",
+      "description": "An agent is a model wrapped in a harness: instructions, memory, tools and a loop; the harness is what people configure",
+      "source": {
+        "sheet": "Rubric",
+        "row": 8
+      }
+    },
+    {
+      "id": "N2.5",
+      "need": "N2",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Connecting and extending",
+      "description": "Three ways to extend AI: connectors to tools and data (MCP), reusable playbooks (Skills), and APIs for building",
+      "source": {
+        "sheet": "Rubric",
+        "row": 9
+      }
+    },
+    {
+      "id": "N2.6",
+      "need": "N2",
+      "level": "Base",
+      "rank": 0,
+      "core": true,
+      "title": "Safety components",
+      "description": "Every safe deployment has an identity and permissions for the agent, a sandbox it runs in, an authorisation layer that decides what it may do, guardrails on input and output, logs of what it did, and a stop button",
+      "source": {
+        "sheet": "Rubric",
+        "row": 10
+      }
+    },
+    {
+      "id": "N2.7",
+      "need": "N2",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Where it runs",
+      "description": "The bank's approved platforms versus public tools, and what leaves the bank with each",
+      "source": {
+        "sheet": "Rubric",
+        "row": 11
+      }
+    },
+    {
+      "id": "N3.1",
+      "need": "N3",
+      "level": "Base",
+      "rank": 0,
+      "core": true,
+      "title": "Hallucination",
+      "description": "Hallucination and confident wrong answers: explain them and recognise them in one's own tools",
+      "source": {
+        "sheet": "Rubric",
+        "row": 12
+      }
+    },
+    {
+      "id": "N3.2",
+      "need": "N3",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Sycophancy",
+      "description": "The model agreeing with the user; recognising it in one's own tools",
+      "source": {
+        "sheet": "Rubric",
+        "row": 13
+      }
+    },
+    {
+      "id": "N3.3",
+      "need": "N3",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Context loss",
+      "description": "Loss of context in long sessions",
+      "source": {
+        "sheet": "Rubric",
+        "row": 14
+      }
+    },
+    {
+      "id": "N3.4",
+      "need": "N3",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Non-determinism",
+      "description": "Non-deterministic output: the same input can give different answers",
+      "source": {
+        "sheet": "Rubric",
+        "row": 15
+      }
+    },
+    {
+      "id": "N3.5",
+      "need": "N3",
+      "level": "Base",
+      "rank": 0,
+      "core": true,
+      "title": "Prompt injection",
+      "description": "Prompt injection as a behaviour of the model: content it reads can steer it",
+      "source": {
+        "sheet": "Rubric",
+        "row": 16
+      }
+    },
+    {
+      "id": "N3.6",
+      "need": "N3",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Automation bias",
+      "description": "Automation bias: the human tendency to over-trust the machine",
+      "source": {
+        "sheet": "Rubric",
+        "row": 17
+      }
+    },
+    {
+      "id": "N3.7",
+      "need": "N3",
+      "level": "Base",
+      "rank": 0,
+      "core": true,
+      "title": "Counter-habits",
+      "description": "The habits that counter these failures: check against sources, record one's own view before reading the AI's, sample rather than trust",
+      "source": {
+        "sheet": "Rubric",
+        "row": 18
+      }
+    },
+    {
+      "id": "N4.1",
+      "need": "N4",
+      "level": "Base",
+      "rank": 0,
+      "core": true,
+      "title": "Data leaving the bank",
+      "description": "Data leaving the bank through public tools",
+      "source": {
+        "sheet": "Rubric",
+        "row": 19
+      }
+    },
+    {
+      "id": "N4.2",
+      "need": "N4",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Confidentiality and client data",
+      "description": "Confidentiality and client data when using AI",
+      "source": {
+        "sheet": "Rubric",
+        "row": 20
+      }
+    },
+    {
+      "id": "N4.3",
+      "need": "N4",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Intellectual property",
+      "description": "Intellectual property risks of AI use",
+      "source": {
+        "sheet": "Rubric",
+        "row": 21
+      }
+    },
+    {
+      "id": "N4.4",
+      "need": "N4",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "AI supply chain",
+      "description": "Third-party models, Skills and connectors as a supply chain",
+      "source": {
+        "sheet": "Rubric",
+        "row": 22
+      }
+    },
+    {
+      "id": "N4.5",
+      "need": "N4",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Regulation",
+      "description": "Regulation: the AI Act's literacy duty and the regional regulators' expectations",
+      "source": {
+        "sheet": "Rubric",
+        "row": 23
+      }
+    },
+    {
+      "id": "N4.6",
+      "need": "N4",
+      "level": "Base",
+      "rank": 0,
+      "core": true,
+      "title": "The bank's rules",
+      "description": "Applying the bank's rules on approved tools, and knowing what may and may not be handed to an agent",
+      "source": {
+        "sheet": "Rubric",
+        "row": 24
+      }
+    },
+    {
+      "id": "N5.1",
+      "need": "N5",
+      "level": "Base",
+      "rank": 0,
+      "core": true,
+      "title": "AI-enabled social engineering and impersonation",
+      "description": "Explain how AI enables phishing and tailored social engineering at scale, including voice and video deepfakes used for impersonation. Recognise illustrative examples and explain why identity should be verified through an independent trusted channel. Deepfakes are an example of deception; production techniques are not required.",
+      "source": {
+        "sheet": "Rubric",
+        "row": 26
+      }
+    },
+    {
+      "id": "N5.3",
+      "need": "N5",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "AI-enabled intrusion",
+      "description": "Vulnerability discovery, malware generation and automated intrusion using AI",
+      "source": {
+        "sheet": "Rubric",
+        "row": 28
+      }
+    },
+    {
+      "id": "N5.4",
+      "need": "N5",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Attacks on the bank's AI",
+      "description": "Attacks on the bank's own AI systems",
+      "source": {
+        "sheet": "Rubric",
+        "row": 29
+      }
+    },
+    {
+      "id": "N5.5",
+      "need": "N5",
+      "level": "Base",
+      "rank": 0,
+      "core": true,
+      "title": "What changes for defence",
+      "description": "Speed, volume, and the need to verify identity rather than trust a voice or a message",
+      "source": {
+        "sheet": "Rubric",
+        "row": 30
+      }
+    },
+    {
+      "id": "N5.6",
+      "need": "N5",
+      "level": "Base",
+      "rank": 0,
+      "core": false,
+      "title": "Recognising AI-enabled attacks",
+      "description": "Recognising AI-enabled attacks in one's own domain",
+      "source": {
+        "sheet": "Rubric",
+        "row": 31
+      }
+    },
+    {
+      "id": "N5.8",
+      "need": "N5",
+      "level": "Base",
+      "rank": 0,
+      "core": true,
+      "title": "Overview of AI security risks",
+      "description": "Recognise the main categories of security risk affecting AI systems and agents, informed by OWASP's LLM and agentic risk frameworks: instruction manipulation, sensitive-information disclosure, unsafe output handling, excessive permissions or actions, compromised components or information sources, and service disruption or uncontrolled resource consumption. Explain a simple example of each and identify an appropriate precaution or escalation route. Foundation awareness does not require threat modelling or memorising framework identifiers.",
+      "source": {
+        "sheet": "Rubric",
+        "row": 142
+      }
+    },
+    {
+      "id": "N6.1",
+      "need": "N6",
+      "level": "Entry",
+      "rank": 1,
+      "core": true,
+      "title": "Delegation",
+      "description": "Deciding what to hand to AI and what to keep, with a clear definition of success",
+      "source": {
+        "sheet": "Rubric",
+        "row": 33
+      }
+    },
+    {
+      "id": "N6.2",
+      "need": "N6",
+      "level": "Entry",
+      "rank": 1,
+      "core": true,
+      "title": "Context",
+      "description": "Giving the AI the right information, examples and constraints; this has replaced prompt-writing as the core skill",
+      "source": {
+        "sheet": "Rubric",
+        "row": 34
+      }
+    },
+    {
+      "id": "N6.3",
+      "need": "N6",
+      "level": "Entry",
+      "rank": 1,
+      "core": true,
+      "title": "Discernment",
+      "description": "Judging the output, the reasoning and the behaviour",
+      "source": {
+        "sheet": "Rubric",
+        "row": 35
+      }
+    },
+    {
+      "id": "N6.4",
+      "need": "N6",
+      "level": "Entry",
+      "rank": 1,
+      "core": true,
+      "title": "Accountability",
+      "description": "Owning the result and being transparent about AI's part in it",
+      "source": {
+        "sheet": "Rubric",
+        "row": 36
+      }
+    },
+    {
+      "id": "N6.5",
+      "need": "N6",
+      "level": "Entry",
+      "rank": 1,
+      "core": false,
+      "title": "Choosing a model",
+      "description": "Choosing a model and effort level for a task",
+      "source": {
+        "sheet": "Rubric",
+        "row": 37
+      }
+    },
+    {
+      "id": "N6.6",
+      "need": "N6",
+      "level": "Entry",
+      "rank": 1,
+      "core": false,
+      "title": "Context window and memory",
+      "description": "Why long sessions degrade as the context window fills, and managing memory",
+      "source": {
+        "sheet": "Rubric",
+        "row": 38
+      }
+    },
+    {
+      "id": "N6.7",
+      "need": "N6",
+      "level": "Entry",
+      "rank": 1,
+      "core": false,
+      "title": "Platform for the data",
+      "description": "Which approved platform suits which data classification",
+      "source": {
+        "sheet": "Rubric",
+        "row": 39
+      }
+    },
+    {
+      "id": "N6.8",
+      "need": "N6",
+      "level": "Entry",
+      "rank": 1,
+      "core": false,
+      "title": "Own work with AI",
+      "description": "Using assistants and personal agents for one's own work within the base rules, practised daily",
+      "source": {
+        "sheet": "Rubric",
+        "row": 40
+      }
+    }
+  ],
+  "courses": {
+    "TR-089": {
+      "title": "Anthropic — AI Fluency: Framework and foundations",
+      "url": "https://academy.claude.com/courses/ai-fluency-framework-foundations",
+      "scores": {
+        "N2.1": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "'Generative AI fundamentals' lesson; model variety, cost and tokens not confirmed [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 1
+        },
+        "N2.2": {
+          "score": 1,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "The inspected capabilities lesson names text, images and code; the complete modality range is not taught.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N2.3": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Objective: distinguish Automation, Augmentation and Agency (overlaps assistant vs agent patterns) [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 2
+        },
+        "N2.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N2.5": {
+          "score": 1,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "External-tool connection is named, without the required MCP/Skills/API distinction.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N2.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N2.7": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "'Platform Awareness' under Delegation; not bank-approved vs public platforms [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 1
+        },
+        "N3.1": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Inspected lesson explicitly explains hallucinations and capability limits; complete recognition in the learner’s own tools is not established.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations"
+          ],
+          "priorScore": 1
+        },
+        "N3.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not evident [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N3.3": {
+          "score": 1,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Context-window constraints are explicitly introduced; recovery and recognition in a long session are not established.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N3.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not evident [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N3.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N3.6": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Diligence/Discernment imply not over-trusting output; automation bias not named [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 1
+        },
+        "N3.7": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Discernment and the Description-Discernment loop teach checking and refining output; no source-checking or sampling routine [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 2
+        },
+        "N4.1": {
+          "score": 1,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Diligence reflection mentions the information shared with AI; it does not explain bank data exits or public-tool flows.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-diligence"
+          ],
+          "priorScore": 0
+        },
+        "N4.2": {
+          "score": 1,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Diligence reflection raises privacy/security considerations; handling confidential client data is not taught in depth.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-diligence"
+          ],
+          "priorScore": 0
+        },
+        "N4.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N4.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N4.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N4.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N5.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N5.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N5.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N5.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N5.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N5.8": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N6.1": {
+          "score": 3,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Delegation exercise defines a good result, decomposes the work and allocates human/AI tasks; a continuing project applies the decisions.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-delegation",
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/project-planning-and-delegation"
+          ],
+          "priorScore": 2
+        },
+        "N6.2": {
+          "score": 3,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Teaching explicitly covers background information, examples and constraints; the description exercise and continuing project provide practice.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/effective-prompting-techniques",
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-description",
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/the-description-discernment-loop"
+          ],
+          "priorScore": 2
+        },
+        "N6.3": {
+          "score": 3,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Inspected exercise evaluates output accuracy, the presented reasoning and interaction behaviour, then refines the answer.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-discernment"
+          ],
+          "priorScore": 2
+        },
+        "N6.4": {
+          "score": 3,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Inspected diligence-statement exercise records AI contribution, verification and ownership of the result.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-diligence"
+          ],
+          "priorScore": 2
+        },
+        "N6.5": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "'Platform Awareness' named under Delegation; no model or effort-level choice taught [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 1
+        },
+        "N6.6": {
+          "score": 1,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Context windows are introduced but practical long-session and persistent-memory management are missing.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/generative-ai-fundamentals",
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N6.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered (no data-classification mapping) [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+          ],
+          "priorScore": 0
+        },
+        "N6.8": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "A continuing course project practices AI-assisted work, but daily bank use within local rules remains outside the course.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-fluency-framework-foundations/project-planning-and-delegation"
+          ],
+          "priorScore": 1
+        }
+      },
+      "metrics": {
+        "needs": {
+          "N2": 28.57142857142857,
+          "N3": 28.57142857142857,
+          "N4": 11.11111111111111,
+          "N5": 0.0,
+          "N6": 66.66666666666666
+        },
+        "priority_N2_N4": 22.75132275132275,
+        "foundation_N2_N5": 17.063492063492063,
+        "combined_N2_N6": 26.98412698412698,
+        "fullOutcomes": 4,
+        "outcomeCounts": {
+          "0": 16,
+          "1": 10,
+          "2": 4,
+          "3": 4
+        },
+        "fullEssential": 4,
+        "zeroEssential": 7
+      }
+    },
+    "TR-145": {
+      "title": "Anthropic — AI capabilities and limitations",
+      "url": "https://academy.claude.com/courses/ai-capabilities-and-limitations",
+      "scores": {
+        "N2.1": {
+          "score": 1,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Model/training mechanics are introduced; provider, cost, speed, reasoning and hosting comparisons are not established.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N2.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N2.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N2.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N2.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N2.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N2.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N3.1": {
+          "score": 3,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Current public curriculum explains fabrication, confident errors and knowledge limitations, with knowledge/prediction diagnosis exercises.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations",
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations/knowledge"
+          ],
+          "priorScore": 1
+        },
+        "N3.2": {
+          "score": 3,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Current course names sycophancy and the inspected character lesson has framing-comparison exercises to recognise it.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations/how-ai-gets-its-character"
+          ],
+          "priorScore": 0
+        },
+        "N3.3": {
+          "score": 3,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Current curriculum explicitly explains context-window loss and practice in restoring information, placement and chunking.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations",
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory"
+          ],
+          "priorScore": 2
+        },
+        "N3.4": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "'Next Token Prediction' lesson; non-determinism not named [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 1
+        },
+        "N3.5": {
+          "score": 0,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Steerability is background knowledge, not evidence of teaching prompt injection through content the model reads. Removed the previous inferred mention credit.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 1
+        },
+        "N3.6": {
+          "score": 1,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Calibrated trust is named; the human automation-bias mechanism and habits are not taught explicitly enough for partial credit.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N3.7": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Targeted failure diagnosis, sources and fixes are taught; independent-first judgement and sampling are not all established.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 1
+        },
+        "N4.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N4.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N4.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N4.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N4.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N4.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N5.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N5.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N5.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N5.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N5.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N5.8": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N6.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not shown (in companion 4D course) [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N6.2": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Instruction rewriting and context placement are taught/practised; the whole information/examples/constraints outcome is not established.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 1
+        },
+        "N6.3": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Failure diagnosis and corrective action provide partial discernment practice; complete output/argument/behaviour review is not established.",
+          "sourceUrls": [
+            "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 1
+        },
+        "N6.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N6.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N6.6": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "'Working Memory' lesson with Try it out exercise [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 2
+        },
+        "N6.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 0
+        },
+        "N6.8": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "four short Try it out exercises with an AI tool [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://anthropic.skilljar.com/ai-capabilities-and-limitations"
+          ],
+          "priorScore": 1
+        }
+      },
+      "metrics": {
+        "needs": {
+          "N2": 4.761904761904762,
+          "N3": 61.904761904761905,
+          "N4": 0.0,
+          "N5": 0.0,
+          "N6": 29.166666666666668
+        },
+        "priority_N2_N4": 22.222222222222225,
+        "foundation_N2_N5": 16.666666666666668,
+        "combined_N2_N6": 19.166666666666664,
+        "fullOutcomes": 3,
+        "outcomeCounts": {
+          "0": 23,
+          "1": 4,
+          "2": 4,
+          "3": 3
+        },
+        "fullEssential": 1,
+        "zeroEssential": 10
+      }
+    },
+    "INT-437": {
+      "title": "Udemy — AI Literacy for the Modern Workplace · Anthony Alicea",
+      "url": "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/",
+      "scores": {
+        "N2.1": {
+          "score": 1,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "LLM concepts are introduced; full provider/model comparisons, cost, speed, reasoning and hosting are not taught in the reviewed outline.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N2.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N2.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N2.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N2.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N2.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N2.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N3.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Hallucinations' + Sec 2 'LLMs and Inference' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        },
+        "N3.2": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Sycophancy' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        },
+        "N3.3": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Current public drift description explicitly includes growing-context reliability and refreshing/splitting work; complete video depth remains unverified.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 1
+        },
+        "N3.4": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 'Conceptual Aside: Determinism' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        },
+        "N3.5": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Hidden Instructions (i.e. Prompt Injection)' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        },
+        "N3.6": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Over-Reliance' + 'Confirmation Bias' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        },
+        "N3.7": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Mitigating Risks' section and assignment; specific habits (own view first, sampling) not evidenced [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        },
+        "N4.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Privacy' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        },
+        "N4.2": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Privacy' touches confidential data [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 1
+        },
+        "N4.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N4.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N4.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N4.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N5.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N5.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N5.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N5.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N5.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N5.8": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). The reviewed syllabus teaches selected attack/risk families or precautions. Coverage of all six families with examples and a precaution/escalation response is not evidenced. No full overview credit is inferred from a framework name or a narrow lab. Reviewed syllabus: A compact course by Anthony Alicea: how LLMs are trained and run (determinism, inference, context), prompt anatomy and workplace uses with practice, a risk section on hallucinations, privacy, drift, over-reliance, confirmation bias, sycophancy and hidden instructions (prompt injection), and human-AI collaboration with a risk-value decision framework. Includes practice items, assignments and a Udemy role-play exercise; no quizzes.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        },
+        "N6.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 5 'Risk-Value Decision Framework' + Sec 3 'Planning and Task Decomposition' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        },
+        "N6.2": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 'Context and Prompting' + Sec 3 'Anatomy of An Effective Prompt' + 'Practice Leveraging AI' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        },
+        "N6.3": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 3 'Troubleshooting' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 1
+        },
+        "N6.4": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 5 keeping human judgment for key decisions [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 1
+        },
+        "N6.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N6.6": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 'Context and Prompting' / Sec 4 'Drift' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 1
+        },
+        "N6.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 0
+        },
+        "N6.8": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 'Practice Using an LLM' + Sec 3 workplace tasks (summarisation, writing, data analysis) + 'Designing AI-Enhanced Workflows' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-literacy-genai-modern-workplace/"
+          ],
+          "priorScore": 2
+        }
+      },
+      "metrics": {
+        "needs": {
+          "N2": 4.761904761904762,
+          "N3": 66.66666666666666,
+          "N4": 16.666666666666664,
+          "N5": 11.11111111111111,
+          "N6": 37.5
+        },
+        "priority_N2_N4": 29.365079365079364,
+        "foundation_N2_N5": 24.801587301587297,
+        "combined_N2_N6": 27.34126984126984,
+        "fullOutcomes": 0,
+        "outcomeCounts": {
+          "0": 17,
+          "1": 5,
+          "2": 12
+        },
+        "fullEssential": 0,
+        "zeroEssential": 5
+      }
+    },
+    "INT-200": {
+      "title": "Udemy — AI Agents and Agentic AI for Leaders · Luxmi Narayan",
+      "url": "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/",
+      "scores": {
+        "N2.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N2.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N2.3": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 1 'From AI tools to AI agents' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 1
+        },
+        "N2.4": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 'The Observe-Think-Act loop', Sec 4 'Inputs, tools, and environment for agents' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 2
+        },
+        "N2.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N2.6": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Designing with guardrails and human oversight' (4 min) [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 1
+        },
+        "N2.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N3.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Demo: Understanding Hallucination in AI Agents & Why it is so Risky' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 2
+        },
+        "N3.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N3.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N3.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N3.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N3.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N3.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N4.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N4.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N4.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N4.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N4.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N4.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N5.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N5.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N5.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N5.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N5.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N5.8": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). Security/privacy risks, safety constraints or controls are named in the retained public syllabus, but a coherent explanation of the revised security-risk overview is not established. Reviewed syllabus: Short non-technical course for business leaders: what agents are (observe-think-act loop), business use cases and when not to use agents, designing with guardrails and human oversight, a hallucination demo in Gemini, metrics and KPIs, pilot vs scaling, risks, ethics and governance, and a 90-day roadmap. Lectures of 3-7 minutes with four knowledge-check quizzes; no exercises. Not cyber-specific.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 1
+        },
+        "N6.1": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "V8 requirement review — Delegation: Leader introduction names when not to delegate, governance and oversight; short conceptual coverage only.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 1
+        },
+        "N6.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N6.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N6.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N6.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N6.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N6.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        },
+        "N6.8": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/"
+          ],
+          "priorScore": 0
+        }
+      },
+      "metrics": {
+        "needs": {
+          "N2": 19.047619047619047,
+          "N3": 9.523809523809524,
+          "N4": 0.0,
+          "N5": 5.555555555555555,
+          "N6": 4.166666666666666
+        },
+        "priority_N2_N4": 9.523809523809524,
+        "foundation_N2_N5": 8.531746031746032,
+        "combined_N2_N6": 7.658730158730158,
+        "fullOutcomes": 0,
+        "outcomeCounts": {
+          "0": 28,
+          "1": 4,
+          "2": 2
+        },
+        "fullEssential": 0,
+        "zeroEssential": 9
+      }
+    },
+    "INT-280": {
+      "title": "Udemy — AI Ethics/Responsible Use · Vani Aggarwal",
+      "url": "https://www.udemy.com/course/ai-ethicsresponsible-use/",
+      "scores": {
+        "N2.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N2.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N2.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N2.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N2.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N2.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N2.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N3.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N3.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N3.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N3.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N3.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N3.6": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "V8 requirement review — Automation bias: Agent-on-your-behalf lecture introduces limits and accountability; not a practised supervisory workflow.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 1
+        },
+        "N3.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N4.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 3 'Protecting Privacy When Using ChatGPT and AI Tools' + scenario 'The Oversharing Colleague' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 2
+        },
+        "N4.2": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 3 privacy lecture + Sec 5 GDPR/CCPA compliance essentials [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 2
+        },
+        "N4.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N4.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N4.5": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 3 'The EU AI Act: What Every Employee Must Know Now'; no APAC regulators [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 2
+        },
+        "N4.6": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 5 'Your Company's AI Governance Framework Explained' + scenario 'The Unapproved Tool' + 'Governing AI Agents: When AI Acts on Your Behalf'; generic company, not the bank's rules [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 2
+        },
+        "N5.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N5.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N5.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N5.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N5.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N5.8": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). Security/privacy risks, safety constraints or controls are named in the retained public syllabus, but a coherent explanation of the revised security-risk overview is not established. Reviewed syllabus: A compliance-style responsible-use module for all employees. It covers five ethical AI principles, a three-question risk check, protecting privacy when using ChatGPT, disclosing AI-assisted work, the EU AI Act for employees, bias, GDPR and CCPA, working within a company AI governance framework, and a lecture on governing AI agents that act on your behalf. Short scenarios (The Oversharing Colleague, The Biased Shortlist, The Unapproved Tool) and a capstone action plan are included. It is very widely used (28,800 students).",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 1
+        },
+        "N6.1": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "outcome 'when AI decisions need approval versus independent use' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 1
+        },
+        "N6.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N6.3": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "outcome 'verify AI outputs for accuracy, fairness'; no dedicated lecture [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 1
+        },
+        "N6.4": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 3 'Transparency and Disclosure in AI-Assisted Work' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 2
+        },
+        "N6.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N6.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N6.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 0
+        },
+        "N6.8": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 7 'Creating Your Personal AI Ethics Action Plan' + capstone [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-ethicsresponsible-use/"
+          ],
+          "priorScore": 1
+        }
+      },
+      "metrics": {
+        "needs": {
+          "N2": 0.0,
+          "N3": 4.761904761904762,
+          "N4": 44.44444444444444,
+          "N5": 5.555555555555555,
+          "N6": 20.833333333333336
+        },
+        "priority_N2_N4": 16.402116402116402,
+        "foundation_N2_N5": 13.69047619047619,
+        "combined_N2_N6": 15.11904761904762,
+        "fullOutcomes": 0,
+        "outcomeCounts": {
+          "0": 24,
+          "1": 5,
+          "2": 5
+        },
+        "fullEssential": 0,
+        "zeroEssential": 8
+      }
+    },
+    "TR-221": {
+      "title": "DeepLearning.AI — Generative AI for Everyone · Coursera",
+      "url": "https://www.coursera.org/learn/generative-ai-for-everyone",
+      "scores": {
+        "N2.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Models. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Selected model/token/performance concepts; not the whole provider, reasoning and hosting landscape.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N2.2": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Modalities. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Selected modalities; not all modalities in the requirement are evidenced.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N2.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N2.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N2.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N2.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N2.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Hallucination. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Relevant partial teaching is evidenced; the entire requirement and its practice conditions are not established.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N3.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.8": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). Security/privacy risks, safety constraints or controls are named in the retained public syllabus, but a coherent explanation of the revised security-risk overview is not established. Reviewed syllabus: 2026-10-18 public syllabus review. Course. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation. No technical background required.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 1
+        },
+        "N6.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Delegation. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Task scoping/selection is taught; complete workplace delegation judgment needs practice.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N6.2": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Context. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Useful context/prompting techniques; complete information, examples and constraints practice is not all evidenced.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N6.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N6.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N6.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N6.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N6.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N6.8": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Own work with AI. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Course exercises do not establish daily use within the bank's rules.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/generative-ai-for-everyone"
+          ],
+          "priorScore": 2
+        }
+      },
+      "metrics": {
+        "needs": {
+          "N2": 19.047619047619047,
+          "N3": 9.523809523809524,
+          "N4": 0.0,
+          "N5": 5.555555555555555,
+          "N6": 25.0
+        },
+        "priority_N2_N4": 9.523809523809524,
+        "foundation_N2_N5": 8.531746031746032,
+        "combined_N2_N6": 11.825396825396826,
+        "fullOutcomes": 0,
+        "outcomeCounts": {
+          "0": 27,
+          "1": 1,
+          "2": 6
+        },
+        "fullEssential": 0,
+        "zeroEssential": 10
+      }
+    },
+    "TR-186": {
+      "title": "DeepLearning.AI — AI Prompting for Everyone · Coursera",
+      "url": "https://www.coursera.org/learn/ai-prompting-for-everyone",
+      "scores": {
+        "N2.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Models. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Selected model/token/performance concepts; not the whole provider, reasoning and hosting landscape.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N2.2": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Modalities. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Selected modalities; not all modalities in the requirement are evidenced.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N2.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N2.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N2.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N2.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N2.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Hallucination. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Relevant partial teaching is evidenced; the entire requirement and its practice conditions are not established.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N3.2": {
+          "score": 3,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Sycophancy. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Whole requirement evidenced with sufficient knowledge depth.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 3
+        },
+        "N3.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N3.7": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Counter-habits. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Checking/critique is taught; independent-first judgment and sampling are not all evidenced.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N4.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N4.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N5.8": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N6.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Delegation. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Task scoping/selection is taught; complete workplace delegation judgment needs practice.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N6.2": {
+          "score": 3,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Context. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Whole requirement evidenced with explicit exercise/lab practice.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 3
+        },
+        "N6.3": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Discernment. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Review/debugging is taught; complete output, reasoning and behavior judgment is not established.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N6.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N6.5": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Choosing a model. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Some model/task tradeoffs; full choice and effort-setting practice is not evidenced.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 2
+        },
+        "N6.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N6.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 public-syllabus review: no explicit teaching or mention evidenced for this requirement. Zero describes the reviewed evidence, not proof of absence from gated course content.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 0
+        },
+        "N6.8": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V10 — Own work with AI. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Course exercises do not establish daily use within the bank's rules.",
+          "sourceUrls": [
+            "https://www.deeplearning.ai/courses/ai-prompting-for-everyone"
+          ],
+          "priorScore": 2
+        }
+      },
+      "metrics": {
+        "needs": {
+          "N2": 19.047619047619047,
+          "N3": 33.33333333333333,
+          "N4": 0.0,
+          "N5": 0.0,
+          "N6": 45.83333333333333
+        },
+        "priority_N2_N4": 17.46031746031746,
+        "foundation_N2_N5": 13.095238095238095,
+        "combined_N2_N6": 19.642857142857142,
+        "fullOutcomes": 2,
+        "outcomeCounts": {
+          "0": 24,
+          "2": 8,
+          "3": 2
+        },
+        "fullEssential": 1,
+        "zeroEssential": 9
+      }
+    },
+    "TR-072": {
+      "title": "Google — AI Essentials",
+      "url": "https://grow.google/ai-essentials/",
+      "scores": {
+        "N2.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N2.2": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Applied projects create text and image content; voice, documents, screens and the complete modality outcome are not evidenced.",
+          "sourceUrls": [
+            "https://www.coursera.org/specializations/ai-essentials-google"
+          ],
+          "priorScore": 0
+        },
+        "N2.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N2.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N2.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N2.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N2.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N3.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N3.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N3.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N3.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N3.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N3.6": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "V8 requirement review — Automation bias: Responsible-use module and human-oversight outcomes support basic diligence and awareness; no bank-specific handling rules.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 1
+        },
+        "N3.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N4.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N4.2": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "The current responsible-use syllabus explicitly teaches privacy/security risks; bank client-data handling remains outside the course.",
+          "sourceUrls": [
+            "https://www.coursera.org/learn/google-use-ai-responsibly"
+          ],
+          "priorScore": 1
+        },
+        "N4.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N4.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N4.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N4.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N5.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N5.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N5.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N5.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N5.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N5.8": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). Security/privacy risks, safety constraints or controls are named in the retained public syllabus, but a coherent explanation of the revised security-risk overview is not established. Reviewed syllabus: Beginner Coursera course in five short modules: introduction to AI (capabilities, limitations, human oversight), productivity with AI tools, prompting (clear prompts, few-shot), using AI responsibly (harms, bias, privacy and security repercussions) and keeping up with AI. Videos, readings, workplace-scenario activities and graded assessments, using Gemini-type assistants. Generic office productivity; nothing cyber-specific and nothing on agents.",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 1
+        },
+        "N6.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Module 2 objective: judge whether generative AI suits a task [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 2
+        },
+        "N6.2": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Module 3 prompting: clear, specific prompts, few-shot, with activities [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 2
+        },
+        "N6.3": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "The current applied-project description explicitly includes critically evaluating AI outputs; complete reasoning and behaviour review is not established.",
+          "sourceUrls": [
+            "https://www.coursera.org/specializations/ai-essentials-google"
+          ],
+          "priorScore": 1
+        },
+        "N6.4": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "V8 requirement review — Diligence: Responsible-use module and human-oversight outcomes support basic diligence and awareness; no bank-specific handling rules. V7 evidence (superseded score): Module 4 responsible-use best practices",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 2
+        },
+        "N6.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N6.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N6.7": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 0
+        },
+        "N6.8": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Modules 2-3 activities using AI to brainstorm, research, draft emails [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://grow.google/ai-essentials/"
+          ],
+          "priorScore": 2
+        }
+      },
+      "metrics": {
+        "needs": {
+          "N2": 9.523809523809524,
+          "N3": 4.761904761904762,
+          "N4": 11.11111111111111,
+          "N5": 5.555555555555555,
+          "N6": 41.66666666666667
+        },
+        "priority_N2_N4": 8.465608465608465,
+        "foundation_N2_N5": 7.738095238095238,
+        "combined_N2_N6": 14.523809523809524,
+        "fullOutcomes": 0,
+        "outcomeCounts": {
+          "0": 25,
+          "1": 2,
+          "2": 7
+        },
+        "fullEssential": 0,
+        "zeroEssential": 9
+      }
+    },
+    "INT-386": {
+      "title": "Udemy — AI Fundamentals: Safe AI Skills for Work",
+      "url": "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/",
+      "scores": {
+        "N2.1": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 'AI, a Probability Engine'; ChatGPT, Copilot, Claude used, no model comparison [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N2.2": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 'Multimodal AI: The Brain with Eyes, Ears, and a Voice' Parts 1-2 [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N2.3": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 3 'How Agents Are Different to LLMs', agent-mode demos; Sec 7 custom GPTs; no multi-agent/shared space [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N2.4": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 3 'How Agents Are Different to LLMs' (no harness anatomy seen) [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N2.5": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 7 custom GPTs, Sec 9 automation chains (n8n); no MCP/Skills [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N2.6": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Human-in-the-loop Safeguard' only [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N2.7": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'AI Security: Three-Tiered Framework', 'Tier 2: Enterprise, Your Go-To For Work' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N3.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 'Understanding AI Limitations: Hallucinations', 'Can Be Confidently Wrong', 'Why Smart AI Makes Stupid Mistakes' + quiz [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N3.2": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 0
+        },
+        "N3.3": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 'Understanding AI Limitations: Context...' (title only) [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N3.4": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 exercise 'AI, a Probability Engine' (implied) [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N3.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 0
+        },
+        "N3.6": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Dependency and Loss of Control' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N3.7": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Evaluating and Verifying AI Outputs', 'Human-in-the-loop Safeguard' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N4.1": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 three-tier tool framework + exercise 'Don't Leak Sensitive Data' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N4.2": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'What Not To Do With Sensitive Data' exercise [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N4.3": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Copyright, IP, Legal Considerations in AI' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N4.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 0
+        },
+        "N4.5": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'EU AI Act and the 4 Levels of AI Risk' + high/medium/low lectures; no regional regulators [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N4.6": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 'Navigating AI Safely: Essential Guidelines', Sec 4 'Responsible AI In Our Workplace': generic, not the bank's rules or agent delegation [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N5.1": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). No explicit teaching or mention of this revised outcome is evidenced in the retained public-syllabus description and requirement evidence. Zero describes the reviewed evidence, not absence from inaccessible lessons.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 0
+        },
+        "N5.3": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 0
+        },
+        "N5.4": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 0
+        },
+        "N5.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 0
+        },
+        "N5.6": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "No teaching or explicit mention of this requirement evidenced in the reviewed public course synopsis/source. Zero describes this evidence review, not proof that no such training exists.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 0
+        },
+        "N5.8": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "V11 reassessment (18 October 2026). Security/privacy risks, safety constraints or controls are named in the retained public syllabus, but a coherent explanation of the revised security-risk overview is not established. Reviewed syllabus: Broad workplace AI-literacy course: how LLMs work and fail (hallucination, confident errors), what agents are with ChatGPT/Claude agent demos, a long AI safety section (consumer vs enterprise tools, sensitive data, IP, human-in-the-loop, verification, EU AI Act), structured prompting, custom GPTs/Copilot agents, vibe coding, no-code automation (n8n) and Gemini/Office. 131 lectures with quizzes and nine short exercises (e.g. 'Don't Leak Sensitive Data', 'Prompt Before and After Challenge', 'Create Your First AI Agent'); three of 13 sections were not visible.",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N6.1": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 5 'How to Guide AI Through Complex Tasks' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N6.2": {
+          "score": 3,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 5 'Context: Why AI Needs Background Details', 'The Core Quadrants: Task, Role, Limits, Guidance', 'How Examples Improve AI Output' + 'Prompt Before and After Challenge' exercise + quiz [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 3
+        },
+        "N6.3": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Evaluating and Verifying AI Outputs', exercise 'Spot The Bias' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N6.4": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 'Ethics and Bias in AI: Accountability ... Human Review' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N6.5": {
+          "score": 0,
+          "basis": "Retained v11 assessment",
+          "evidence": "not covered [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 0
+        },
+        "N6.6": {
+          "score": 1,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 2 limitations lecture on context [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 1
+        },
+        "N6.7": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "Sec 4 three-tier framework (consumer vs enterprise tool for work data) [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        },
+        "N6.8": {
+          "score": 2,
+          "basis": "Retained v11 assessment",
+          "evidence": "exercises 'Your Personal AI Assistant Build', 'Gemini Task Sprint', 'Automate One Repetitive Workflow' [V8: retained after source/rubric review.]",
+          "sourceUrls": [
+            "https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/"
+          ],
+          "priorScore": 2
+        }
+      },
+      "metrics": {
+        "needs": {
+          "N2": 47.61904761904761,
+          "N3": 33.33333333333333,
+          "N4": 50.0,
+          "N5": 5.555555555555555,
+          "N6": 50.0
+        },
+        "priority_N2_N4": 43.650793650793645,
+        "foundation_N2_N5": 34.12698412698413,
+        "combined_N2_N6": 37.301587301587304,
+        "fullOutcomes": 1,
+        "outcomeCounts": {
+          "0": 9,
+          "1": 12,
+          "2": 12,
+          "3": 1
+        },
+        "fullEssential": 1,
+        "zeroEssential": 3
+      }
+    },
+    "MS": {
+      "title": "Microsoft — Introduction to generative AI and agents",
+      "url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/",
+      "scores": {
+        "N2.1": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Tokens and language models are explained in detail; provider/model trade-offs and open/local hosting are missing.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/3-language-models"
+          ],
+          "priorScore": null
+        },
+        "N2.2": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N2.3": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Assistant, acting agent and multi-agent concepts are explained; full shared human-agent workspace pattern is not established.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/7-agents"
+          ],
+          "priorScore": null
+        },
+        "N2.4": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Model, instructions and tools are explained; the full configurable harness, memory and repeated loop are missing.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/7-agents"
+          ],
+          "priorScore": null
+        },
+        "N2.5": {
+          "score": 1,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Tool connections are introduced; MCP, reusable Skills and APIs are not distinguished.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/7-agents"
+          ],
+          "priorScore": null
+        },
+        "N2.6": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N2.7": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N3.1": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N3.2": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N3.3": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N3.4": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N3.5": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N3.6": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N3.7": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N4.1": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N4.2": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N4.3": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N4.4": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N4.5": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N4.6": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N5.1": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N5.3": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N5.4": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N5.5": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N5.6": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N5.8": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N6.1": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N6.2": {
+          "score": 2,
+          "basis": "Review update from inspected public content, 2026-10-31",
+          "evidence": "Context, examples, constraints and introductory prompt exercise are evidenced; sufficient practice across the complete work-task outcome is not established.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/6-writing-prompts",
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/7a-exercise"
+          ],
+          "priorScore": null
+        },
+        "N6.3": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N6.4": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N6.5": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N6.6": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N6.7": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        },
+        "N6.8": {
+          "score": 0,
+          "basis": "New module assessment; no explicit outcome evidence identified",
+          "evidence": "No explicit outcome coverage established in reviewed content.",
+          "sourceUrls": [
+            "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/"
+          ],
+          "priorScore": null
+        }
+      },
+      "metrics": {
+        "needs": {
+          "N2": 33.33333333333333,
+          "N3": 0.0,
+          "N4": 0.0,
+          "N5": 0.0,
+          "N6": 8.333333333333332
+        },
+        "priority_N2_N4": 11.111111111111109,
+        "foundation_N2_N5": 8.333333333333332,
+        "combined_N2_N6": 8.333333333333332,
+        "fullOutcomes": 0,
+        "outcomeCounts": {
+          "0": 29,
+          "1": 1,
+          "2": 4
+        },
+        "fullEssential": 0,
+        "zeroEssential": 12
+      }
+    }
+  },
+  "options": {
+    "F": {
+      "title": "Anthropic fluency + Microsoft",
+      "courses": [
+        "TR-089",
+        "MS"
+      ],
+      "scores": {
+        "N2.1": 2,
+        "N2.2": 1,
+        "N2.3": 2,
+        "N2.4": 2,
+        "N2.5": 1,
+        "N2.6": 0,
+        "N2.7": 1,
+        "N3.1": 2,
+        "N3.2": 0,
+        "N3.3": 1,
+        "N3.4": 0,
+        "N3.5": 0,
+        "N3.6": 1,
+        "N3.7": 2,
+        "N4.1": 1,
+        "N4.2": 1,
+        "N4.3": 0,
+        "N4.4": 0,
+        "N4.5": 0,
+        "N4.6": 0,
+        "N5.1": 0,
+        "N5.3": 0,
+        "N5.4": 0,
+        "N5.5": 0,
+        "N5.6": 0,
+        "N5.8": 0,
+        "N6.1": 3,
+        "N6.2": 3,
+        "N6.3": 3,
+        "N6.4": 3,
+        "N6.5": 1,
+        "N6.6": 1,
+        "N6.7": 0,
+        "N6.8": 2
+      },
+      "metrics": {
+        "needs": {
+          "N2": 42.857142857142854,
+          "N3": 28.57142857142857,
+          "N4": 11.11111111111111,
+          "N5": 0.0,
+          "N6": 66.66666666666666
+        },
+        "priority_N2_N4": 27.51322751322751,
+        "foundation_N2_N5": 20.634920634920633,
+        "combined_N2_N6": 29.84126984126984,
+        "fullOutcomes": 4,
+        "outcomeCounts": {
+          "0": 15,
+          "1": 9,
+          "2": 6,
+          "3": 4
+        },
+        "fullEssential": 4,
+        "zeroEssential": 6
+      }
+    },
+    "A": {
+      "title": "Udemy + Microsoft",
+      "courses": [
+        "INT-437",
+        "MS"
+      ],
+      "scores": {
+        "N2.1": 2,
+        "N2.2": 0,
+        "N2.3": 2,
+        "N2.4": 2,
+        "N2.5": 1,
+        "N2.6": 0,
+        "N2.7": 0,
+        "N3.1": 2,
+        "N3.2": 2,
+        "N3.3": 2,
+        "N3.4": 2,
+        "N3.5": 2,
+        "N3.6": 2,
+        "N3.7": 2,
+        "N4.1": 2,
+        "N4.2": 1,
+        "N4.3": 0,
+        "N4.4": 0,
+        "N4.5": 0,
+        "N4.6": 0,
+        "N5.1": 0,
+        "N5.3": 0,
+        "N5.4": 0,
+        "N5.5": 0,
+        "N5.6": 0,
+        "N5.8": 2,
+        "N6.1": 2,
+        "N6.2": 2,
+        "N6.3": 1,
+        "N6.4": 1,
+        "N6.5": 0,
+        "N6.6": 1,
+        "N6.7": 0,
+        "N6.8": 2
+      },
+      "metrics": {
+        "needs": {
+          "N2": 33.33333333333333,
+          "N3": 66.66666666666666,
+          "N4": 16.666666666666664,
+          "N5": 11.11111111111111,
+          "N6": 37.5
+        },
+        "priority_N2_N4": 38.888888888888886,
+        "foundation_N2_N5": 31.94444444444444,
+        "combined_N2_N6": 33.05555555555556,
+        "fullOutcomes": 0,
+        "outcomeCounts": {
+          "0": 14,
+          "1": 5,
+          "2": 15
+        },
+        "fullEssential": 0,
+        "zeroEssential": 4
+      }
+    },
+    "B": {
+      "title": "Anthropic limitations + Microsoft",
+      "courses": [
+        "TR-145",
+        "MS"
+      ],
+      "scores": {
+        "N2.1": 2,
+        "N2.2": 0,
+        "N2.3": 2,
+        "N2.4": 2,
+        "N2.5": 1,
+        "N2.6": 0,
+        "N2.7": 0,
+        "N3.1": 3,
+        "N3.2": 3,
+        "N3.3": 3,
+        "N3.4": 1,
+        "N3.5": 0,
+        "N3.6": 1,
+        "N3.7": 2,
+        "N4.1": 0,
+        "N4.2": 0,
+        "N4.3": 0,
+        "N4.4": 0,
+        "N4.5": 0,
+        "N4.6": 0,
+        "N5.1": 0,
+        "N5.3": 0,
+        "N5.4": 0,
+        "N5.5": 0,
+        "N5.6": 0,
+        "N5.8": 0,
+        "N6.1": 0,
+        "N6.2": 2,
+        "N6.3": 2,
+        "N6.4": 0,
+        "N6.5": 0,
+        "N6.6": 2,
+        "N6.7": 0,
+        "N6.8": 1
+      },
+      "metrics": {
+        "needs": {
+          "N2": 33.33333333333333,
+          "N3": 61.904761904761905,
+          "N4": 0.0,
+          "N5": 0.0,
+          "N6": 29.166666666666668
+        },
+        "priority_N2_N4": 31.746031746031747,
+        "foundation_N2_N5": 23.80952380952381,
+        "combined_N2_N6": 24.88095238095238,
+        "fullOutcomes": 3,
+        "outcomeCounts": {
+          "0": 20,
+          "1": 4,
+          "2": 7,
+          "3": 3
+        },
+        "fullEssential": 1,
+        "zeroEssential": 9
+      }
+    },
+    "C": {
+      "title": "Three Udemy courses",
+      "courses": [
+        "INT-437",
+        "INT-200",
+        "INT-280"
+      ],
+      "scores": {
+        "N2.1": 1,
+        "N2.2": 0,
+        "N2.3": 1,
+        "N2.4": 2,
+        "N2.5": 0,
+        "N2.6": 1,
+        "N2.7": 0,
+        "N3.1": 2,
+        "N3.2": 2,
+        "N3.3": 2,
+        "N3.4": 2,
+        "N3.5": 2,
+        "N3.6": 2,
+        "N3.7": 2,
+        "N4.1": 2,
+        "N4.2": 2,
+        "N4.3": 0,
+        "N4.4": 0,
+        "N4.5": 2,
+        "N4.6": 2,
+        "N5.1": 0,
+        "N5.3": 0,
+        "N5.4": 0,
+        "N5.5": 0,
+        "N5.6": 0,
+        "N5.8": 2,
+        "N6.1": 2,
+        "N6.2": 2,
+        "N6.3": 1,
+        "N6.4": 2,
+        "N6.5": 0,
+        "N6.6": 1,
+        "N6.7": 0,
+        "N6.8": 2
+      },
+      "metrics": {
+        "needs": {
+          "N2": 23.809523809523807,
+          "N3": 66.66666666666666,
+          "N4": 44.44444444444444,
+          "N5": 11.11111111111111,
+          "N6": 41.66666666666667
+        },
+        "priority_N2_N4": 44.97354497354497,
+        "foundation_N2_N5": 36.507936507936506,
+        "combined_N2_N6": 37.53968253968254,
+        "fullOutcomes": 0,
+        "outcomeCounts": {
+          "0": 12,
+          "1": 5,
+          "2": 17
+        },
+        "fullEssential": 0,
+        "zeroEssential": 2
+      }
+    },
+    "D": {
+      "title": "DeepLearning.AI introduction + Microsoft",
+      "courses": [
+        "TR-221",
+        "MS"
+      ],
+      "scores": {
+        "N2.1": 2,
+        "N2.2": 2,
+        "N2.3": 2,
+        "N2.4": 2,
+        "N2.5": 1,
+        "N2.6": 0,
+        "N2.7": 0,
+        "N3.1": 2,
+        "N3.2": 0,
+        "N3.3": 0,
+        "N3.4": 0,
+        "N3.5": 0,
+        "N3.6": 0,
+        "N3.7": 0,
+        "N4.1": 0,
+        "N4.2": 0,
+        "N4.3": 0,
+        "N4.4": 0,
+        "N4.5": 0,
+        "N4.6": 0,
+        "N5.1": 0,
+        "N5.3": 0,
+        "N5.4": 0,
+        "N5.5": 0,
+        "N5.6": 0,
+        "N5.8": 1,
+        "N6.1": 2,
+        "N6.2": 2,
+        "N6.3": 0,
+        "N6.4": 0,
+        "N6.5": 0,
+        "N6.6": 0,
+        "N6.7": 0,
+        "N6.8": 2
+      },
+      "metrics": {
+        "needs": {
+          "N2": 42.857142857142854,
+          "N3": 9.523809523809524,
+          "N4": 0.0,
+          "N5": 5.555555555555555,
+          "N6": 25.0
+        },
+        "priority_N2_N4": 17.46031746031746,
+        "foundation_N2_N5": 14.484126984126984,
+        "combined_N2_N6": 16.58730158730159,
+        "fullOutcomes": 0,
+        "outcomeCounts": {
+          "0": 24,
+          "1": 2,
+          "2": 8
+        },
+        "fullEssential": 0,
+        "zeroEssential": 9
+      }
+    },
+    "G": {
+      "title": "DeepLearning.AI practical course + Microsoft",
+      "courses": [
+        "TR-186",
+        "MS"
+      ],
+      "scores": {
+        "N2.1": 2,
+        "N2.2": 2,
+        "N2.3": 2,
+        "N2.4": 2,
+        "N2.5": 1,
+        "N2.6": 0,
+        "N2.7": 0,
+        "N3.1": 2,
+        "N3.2": 3,
+        "N3.3": 0,
+        "N3.4": 0,
+        "N3.5": 0,
+        "N3.6": 0,
+        "N3.7": 2,
+        "N4.1": 0,
+        "N4.2": 0,
+        "N4.3": 0,
+        "N4.4": 0,
+        "N4.5": 0,
+        "N4.6": 0,
+        "N5.1": 0,
+        "N5.3": 0,
+        "N5.4": 0,
+        "N5.5": 0,
+        "N5.6": 0,
+        "N5.8": 0,
+        "N6.1": 2,
+        "N6.2": 3,
+        "N6.3": 2,
+        "N6.4": 0,
+        "N6.5": 2,
+        "N6.6": 0,
+        "N6.7": 0,
+        "N6.8": 2
+      },
+      "metrics": {
+        "needs": {
+          "N2": 42.857142857142854,
+          "N3": 33.33333333333333,
+          "N4": 0.0,
+          "N5": 0.0,
+          "N6": 45.83333333333333
+        },
+        "priority_N2_N4": 25.396825396825392,
+        "foundation_N2_N5": 19.047619047619044,
+        "combined_N2_N6": 24.404761904761905,
+        "fullOutcomes": 2,
+        "outcomeCounts": {
+          "0": 21,
+          "1": 1,
+          "2": 10,
+          "3": 2
+        },
+        "fullEssential": 1,
+        "zeroEssential": 8
+      }
+    },
+    "E": {
+      "title": "Google + Microsoft",
+      "courses": [
+        "TR-072",
+        "MS"
+      ],
+      "scores": {
+        "N2.1": 2,
+        "N2.2": 2,
+        "N2.3": 2,
+        "N2.4": 2,
+        "N2.5": 1,
+        "N2.6": 0,
+        "N2.7": 0,
+        "N3.1": 0,
+        "N3.2": 0,
+        "N3.3": 0,
+        "N3.4": 0,
+        "N3.5": 0,
+        "N3.6": 1,
+        "N3.7": 0,
+        "N4.1": 0,
+        "N4.2": 2,
+        "N4.3": 0,
+        "N4.4": 0,
+        "N4.5": 0,
+        "N4.6": 0,
+        "N5.1": 0,
+        "N5.3": 0,
+        "N5.4": 0,
+        "N5.5": 0,
+        "N5.6": 0,
+        "N5.8": 1,
+        "N6.1": 2,
+        "N6.2": 2,
+        "N6.3": 2,
+        "N6.4": 2,
+        "N6.5": 0,
+        "N6.6": 0,
+        "N6.7": 0,
+        "N6.8": 2
+      },
+      "metrics": {
+        "needs": {
+          "N2": 42.857142857142854,
+          "N3": 4.761904761904762,
+          "N4": 11.11111111111111,
+          "N5": 5.555555555555555,
+          "N6": 41.66666666666667
+        },
+        "priority_N2_N4": 19.576719576719576,
+        "foundation_N2_N5": 16.07142857142857,
+        "combined_N2_N6": 21.19047619047619,
+        "fullOutcomes": 0,
+        "outcomeCounts": {
+          "0": 21,
+          "1": 3,
+          "2": 10
+        },
+        "fullEssential": 0,
+        "zeroEssential": 8
+      }
+    },
+    "H": {
+      "title": "Longer Udemy alternative",
+      "courses": [
+        "INT-386"
+      ],
+      "scores": {
+        "N2.1": 1,
+        "N2.2": 2,
+        "N2.3": 2,
+        "N2.4": 1,
+        "N2.5": 1,
+        "N2.6": 1,
+        "N2.7": 2,
+        "N3.1": 2,
+        "N3.2": 0,
+        "N3.3": 1,
+        "N3.4": 1,
+        "N3.5": 0,
+        "N3.6": 1,
+        "N3.7": 2,
+        "N4.1": 2,
+        "N4.2": 2,
+        "N4.3": 2,
+        "N4.4": 0,
+        "N4.5": 2,
+        "N4.6": 1,
+        "N5.1": 0,
+        "N5.3": 0,
+        "N5.4": 0,
+        "N5.5": 0,
+        "N5.6": 0,
+        "N5.8": 1,
+        "N6.1": 1,
+        "N6.2": 3,
+        "N6.3": 2,
+        "N6.4": 1,
+        "N6.5": 0,
+        "N6.6": 1,
+        "N6.7": 2,
+        "N6.8": 2
+      },
+      "metrics": {
+        "needs": {
+          "N2": 47.61904761904761,
+          "N3": 33.33333333333333,
+          "N4": 50.0,
+          "N5": 5.555555555555555,
+          "N6": 50.0
+        },
+        "priority_N2_N4": 43.650793650793645,
+        "foundation_N2_N5": 34.12698412698413,
+        "combined_N2_N6": 37.301587301587304,
+        "fullOutcomes": 1,
+        "outcomeCounts": {
+          "0": 9,
+          "1": 12,
+          "2": 12,
+          "3": 1
+        },
+        "fullEssential": 1,
+        "zeroEssential": 3
+      }
+    }
+  }
+}

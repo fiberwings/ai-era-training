@@ -1,0 +1,1000 @@
+{
+  "courseId": "TR-145",
+  "reviewDate": "2026-10-31",
+  "durationHours": 3.5,
+  "primaryCategory": "Foundation \u2014 AI limitations (N3)",
+  "secondaryCategory": "L1 \u2014 working with AI (N6)",
+  "sources": [
+    "https://academy.claude.com/courses/ai-capabilities-and-limitations",
+    "https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction",
+    "https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory",
+    "https://academy.claude.com/courses/ai-capabilities-and-limitations/knowledge",
+    "https://academy.claude.com/courses/ai-capabilities-and-limitations/how-ai-gets-its-character",
+    "https://academy.claude.com/courses/ai-capabilities-and-limitations/steerability",
+    "https://academy.claude.com/courses/ai-capabilities-and-limitations/next-steps",
+    "https://academy.claude.com/courses/ai-capabilities-and-limitations/intro-to-ai-capabilities-and-limitations",
+    "https://academy.claude.com/courses/ai-capabilities-and-limitations/when-properties-collide"
+  ],
+  "decisions": [
+    {
+      "requirement": "N1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N2.1",
+      "priorScore": 0,
+      "score": 2,
+      "evidence": "31 October 2026 public-lesson review: Token generation and model training are explained. Provider, cost, speed and hosting comparisons remain missing.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction"
+    },
+    {
+      "requirement": "N2.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N2.3",
+      "priorScore": 0,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: Assistant use and multi-agent workflows are named. The four usage patterns are not systematically taught.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory"
+    },
+    {
+      "requirement": "N2.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N2.5",
+      "priorScore": 0,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: Retrieval, MCPs and external tools are named. Reusable Skills and APIs are not distinguished.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/knowledge"
+    },
+    {
+      "requirement": "N2.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N2.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N3.1",
+      "priorScore": 1,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: Explains fabricated specifics and confidence. Learners check five facts independently and compare accuracy in their own domain.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction"
+    },
+    {
+      "requirement": "N3.2",
+      "priorScore": 0,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: Explains training-induced agreement. Learners test an incorrect premise, invite disagreement and compare responses on their own task.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/how-ai-gets-its-character"
+    },
+    {
+      "requirement": "N3.3",
+      "priorScore": 2,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: Explains finite context, truncation and lost middle information. Probes compare instruction placement and cross-session loss.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory"
+    },
+    {
+      "requirement": "N3.4",
+      "priorScore": 1,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: The sampling probe repeats an identical facts request in a fresh conversation and compares changed answers.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction"
+    },
+    {
+      "requirement": "N3.5",
+      "priorScore": 1,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: Instruction-following limitations do not establish prompt-injection teaching. No exercise on hostile instructions in read content is evidenced.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/steerability"
+    },
+    {
+      "requirement": "N3.6",
+      "priorScore": 0,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: Calibrated trust is introduced. The human automation-bias mechanism is not explained in sufficient depth.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/next-steps"
+    },
+    {
+      "requirement": "N3.7",
+      "priorScore": 1,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: Learners write independently checkable facts before prompting, verify returned specifics and repeat requests to sample output variability.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction"
+    },
+    {
+      "requirement": "N4.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N4.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N4.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N4.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N4.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N4.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N4.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N5.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N5.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N5.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N5.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N5.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N5.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N6.1",
+      "priorScore": 0,
+      "score": 2,
+      "evidence": "31 October 2026 public-lesson review: Learners judge task suitability and when to supply information or seek another source. Full human/AI division of work is not practised.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/knowledge"
+    },
+    {
+      "requirement": "N6.2",
+      "priorScore": 1,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: Before-and-after probes supply relevant information, prior examples and role constraints, define good output and compare results. Steering practice adds explicit goals.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory"
+    },
+    {
+      "requirement": "N6.3",
+      "priorScore": 1,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: Exercises check output against goals, review dependent reasoning steps and test agreement behaviour. Failure Diagnosis evaluates the model diagnosis and tests corrections.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/steerability"
+    },
+    {
+      "requirement": "N6.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N6.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N6.6",
+      "priorScore": 2,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: Teaches context limits, placement, chunking and fresh-session loss. Exercises practise context setup and compare sessions, with optional memory/project setup.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/working-memory"
+    },
+    {
+      "requirement": "N6.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N6.8",
+      "priorScore": 1,
+      "score": 2,
+      "evidence": "31 October 2026 public-lesson review: A personal task list is used throughout hands-on exercises and a weekly commitment. Daily bank practice under local rules is outside the course.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations/intro-to-ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N7.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N7.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N7.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N7.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N7.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N8.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N8.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N8.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N8.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N8.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N9.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N9.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N9.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N9.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N9.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N10.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N10.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N10.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N10.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N10.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N10.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N10.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N10.8",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N11.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N11.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N11.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N11.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N11.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N11.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N12.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N12.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N12.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N12.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N12.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N12.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N12.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N12.8",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N12.9",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N13.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N13.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N13.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N13.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N13.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N13.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N14.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N14.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N14.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N14.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N14.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N14.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N14.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R1.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R1.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R1.1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R1.1.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R1.1.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R1.1.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R1.2.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R1.2.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R1.2.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R3.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R3.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R3.1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R3.1.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R3.1.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R3.2.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R3.2.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R3.2.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R3.2.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R3.2.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.1.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.1.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.1.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.2.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.2.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.2.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.2.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.2.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.2.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R4.2.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R5.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R5.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R5.1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R5.1.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R5.1.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R5.1.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R6.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R6.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R9.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R9.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R9.1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R9.1.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R9.1.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R9.1.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R9.1.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R9.1.8",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R9.1.9",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "R9.1.10",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    },
+    {
+      "requirement": "N5.8",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-capabilities-and-limitations"
+    }
+  ]
+}

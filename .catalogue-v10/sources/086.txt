@@ -1,0 +1,145 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h49m
+Prompt Compression and Query Optimization
+Instructor
+:
+Richmond Alake
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 14, 2026
+Enroll for Free
+Intermediate
+1h49m
+7 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 14, 2026
+Instructor: Richmond Alake
+MongoDB
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Combine vector search capabilities with traditional database operations to build efficient and cost-effective RAG applications.
+Learn how to use pre-filtering, post-filtering, and projection techniques for faster query processing and optimized query output.
+Use prompt compression techniques to reduce the length of prompts that are expensive to process in large-scale applications.
+About this course
+This course focuses on integrating traditional database features with vector search capabilities to optimize the performance and cost-efficiency of large-scale Retrieval Augmented Generation (RAG) applications.
+You’ll learn how to apply these key techniques:
+Prefiltering and Postfiltering:
+These are techniques to filter results based on specific conditions. Prefiltering is done at the database index creation stage, while postfiltering is applied after the vector search is performed.
+Projection:
+This technique involves selecting a subset of the fields returned from a query to minimize the size of the output.
+Reranking:
+This involves reordering the results of a search based on other data fields to move the more desired results higher up the list.
+Prompt Compression:
+This technique is used to reduce the length of prompts, which can be expensive to process in large-scale applications.
+You’ll also learn with hands-on exercises how to:
+Implement vector search for RAG using MongoDB.
+Develop a multi-stage MongoDB aggregation pipeline.
+Use metadata to refine and limit the search results returned from database operations, enhancing efficiency and relevancy.
+Streamline the outputs from database operations by incorporating a projection stage into the MongoDB aggregation pipeline, reducing the amount of data returned and optimizing performance, memory usage, and security.
+Rerank documents to improve information retrieval relevance and quality, and use metadata values to determine reordering position.
+Implement prompt compression and gain an intuition of how to use it and the operational advantages it brings to LLM applications.
+Start optimizing the efficiency, security, query processing speed, and cost of your RAG applications with prompt compression and query optimization techniques.
+Who should join?
+This course is suitable for those who are familiar with Python and have a basic understanding of databases and vector search.
+Course Outline
+7
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+4m
+Vanilla Vector Search
+Video with Code Example
+・
+33m
+Filtering With Metadata
+Video with Code Example
+・
+19m
+Projections
+Video with Code Example
+・
+10m
+Boosting
+Video with Code Example
+・
+12m
+Prompt Compression
+Video with Code Example
+・
+17m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Richmond Alake
+Developer Advocate at
+MongoDB
+Prompt Compression and Query Optimization
+Intermediate
+1h49m
+7 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 14, 2026
+Instructor: Richmond Alake
+MongoDB
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

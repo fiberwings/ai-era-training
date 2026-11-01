@@ -1,0 +1,147 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h44m
+Understanding and Applying Text Embeddings
+Instructors
+:
+Nikita Namjoshi, Andrew Ng
+Earn
+an accomplishment
+with
+PRO
+· Updated Feb 13, 2026
+Enroll for Free
+Beginner
+1h44m
+8 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Feb 13, 2026
+Instructors: Nikita Namjoshi, Andrew Ng
+Google Cloud
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Use text embeddings to capture the meaning of sentences and paragraphs
+Apply text embeddings for tasks like text clustering, classification, and outlier detection
+Use Google Cloud’s Vertex AI to build a question answering system
+About this course
+The Vertex AI Text-Embeddings API enhances the process of generating text embeddings. These text embeddings, which are numerical representations of text, play a pivotal role in many tasks involving the identification of similar items, like Google searches, online shopping recommendations, and personalized music suggestions.
+During this course, you’ll use text embeddings for tasks like classification, outlier detection, text clustering and semantic search. You’ll combine semantic search with the text generation capabilities of an LLM to build a question-answering systems using Google Cloud’s Vertex AI.
+You’ll also explore:
+The properties of word and sentence embeddings
+How embeddings can be used to measure the semantic similarity between two pieces of text
+How to apply text embeddings for tasks such as classification, clustering, and outlier detection
+Modify the text generation behavior of an LLM by adjusting the parameters temperature, top-k, and top-p
+How to apply the open source ScaNN (Scalable Nearest Neighbors) library for efficient semantic search
+How to build a Q&A system by combining semantic search with an LLM
+Upon successful completion of this course, you will grasp the underlying concepts of using text embeddings, and will also gain proficiency in generating embeddings and integrating them into common LLM applications.
+Who should join?
+Anyone with basic Python knowledge who wants to learn about text embeddings and how to apply them to common NLP tasks.
+Course Outline
+8
+Lessons・
+6
+Code Examples
+Introduction
+Video
+・
+2m
+Getting Started With Text Embeddings
+Video with Code Example
+・
+12m
+Understanding Text Embeddings
+Video
+・
+8m
+Visualizing Embeddings
+Video with Code Example
+・
+9m
+Applications of Embeddings
+Video with Code Example
+・
+16m
+Text Generation with Vertex AI
+Video with Code Example
+・
+15m
+Building a Q&A System Using Semantic Search
+Video with Code Example
+・
+19m
+Optional - Google Cloud Setup
+Code Example
+・
+10m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Nikita Namjoshi
+Developer Advocate at
+Google Cloud
+Andrew Ng
+Founder, DeepLearning.AI; Co-founder, Coursera
+Understanding and Applying Text Embeddings
+Beginner
+1h44m
+8 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Feb 13, 2026
+Instructors: Nikita Namjoshi, Andrew Ng
+Google Cloud
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

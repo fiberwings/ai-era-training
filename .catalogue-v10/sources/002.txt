@@ -1,0 +1,153 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h4m
+Building AI Assistants with On-Device Memory
+Instructor
+:
+Dylan Couzon
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 15, 2026
+Enroll Now
+Intermediate
+1h4m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 15, 2026
+Instructor: Dylan Couzon
+Qdrant
+Learn more about
+Membership PRO Plan
+Enroll Now
+What you'll learn
+Build on-device memory systems that store, retrieve, filter, and forget experiences locally using vector search.
+Create a multimodal, offline assistant that can recall information from text notes, voice recordings, and images.
+Teach the assistant to recognize something new from a few photos, without retraining a model.
+About this course
+Introducing “Building AI Assistants with On-Device Memory,” built in partnership with Qdrant and taught by Dylan Couzon, Developer Experience Engineer at Qdrant.
+A cloud-based assistant can remember what it sees, hears, and is told, but only by staying connected and sending that data to a remote server. An assistant that runs on the device builds that memory locally instead. Every note, photo, or recording becomes a vector you can search by meaning, tag with context, and delete on command, all without leaving the device.
+Keeping memory on the device lets it work without depending on a network connection. You’ll build this memory system yourself, filter and delete memories on demand, then extend it to voice and images so it can answer questions about your day and learn to recognize objects from a handful of examples. The same approach runs on any device, including a Mac or Windows PC, with no specialized hardware required.
+In detail, you'll:
+Learn how on-device memory flow works from capturing, to storing, recalling, and forgetting experiences using local vector memory.
+Learn how the hardware architecture of the on-device assistant works, and how the same assistant can run on different devices.
+Build a local memory system that stores, retrieves, filters, and forgets text and image memories.
+Build an offline assistant that stores and recalls experiences across text, voice, and images.
+Teach an AI application to recognize new objects from stored examples and calibrate a similarity threshold for recognition.
+Learn how you can run the on-device AI assistant on a local machine, including Mac, Windows, and Linux.
+By the end, you’ll know how to give a device a memory of its own experiences, one you can extend in the field by adding examples instead of retraining a model.
+Who should join?
+Anyone building AI applications who wants them to work offline and keep user data on the device. Familiarity with Python is recommended to make the most of the hands-on labs.
+Course Outline
+8
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+2m
+Overview of On-Device AI Memory
+Video
+・
+4m
+Inside the AI Assistant Device
+Video
+・
+5m
+Building the Memory
+Video with Code Example
+・
+6m
+Building the Voice Assistant
+Video with Code Example
+・
+4m
+Learning Through Memory
+Video with Code Example
+・
+5m
+Running on a Local Computer
+Video
+・
+4m
+Practice on AI Coding Lab
+Code Example
+・
+10m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+[Optional] A Hybrid of On-Device and Cloud Memory
+Code Example
+・
+10m
+[Optional] Glossary
+Reading
+・
+1m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Dylan Couzon
+Developer Experience Engineer at Qdrant
+Building AI Assistants with On-Device Memory
+Intermediate
+1h4m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 15, 2026
+Instructor: Dylan Couzon
+Qdrant
+Learn more about
+Membership PRO Plan
+Enroll Now
+Additional learning features, such as quizzes and projects, are included with DeepLearning.AI Pro. Explore it today
+Enroll Now
+Want to learn more about AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew Ng’s thoughts from DeepLearning.AI!
+Enroll Now
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

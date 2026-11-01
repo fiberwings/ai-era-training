@@ -74,6 +74,17 @@ def build_html(root=ROOT):
     data = read_json(public / 'data/catalogue.json')
     validate_snapshot(data)
     seed = read_json(public / 'data/default-scenario.json')
+    starter = read_json(public / 'data/component-starter.json')
+    crosswalk = read_json(public / 'data/capability-crosswalk.json')
+    for name, value in [('legacy starter', seed), ('component starter', starter), ('crosswalk', crosswalk)]:
+        if value.get('catalogueVersion') != data['version']:
+            raise ValueError(f'{name} catalogue version differs from the active catalogue')
+        if (value.get('modelVersion'), value.get('modelRevision')) != (crosswalk.get('modelVersion'), crosswalk.get('modelRevision')):
+            raise ValueError(f'{name} capability model version differs from the crosswalk')
+    if starter.get('schema') != 3:
+        raise ValueError('Component starter must use scenario format 3')
+    if {r['id'] for r in crosswalk['requirements']} != {r['id'] for r in data['requirements']}:
+        raise ValueError('Crosswalk outcomes differ from the active catalogue')
     wasm = base64.b64encode((public / 'vendor/highs.wasm').read_bytes()).decode('ascii')
     worker = ((public / 'vendor/highs.js').read_text(encoding='utf-8') + '\n' +
               bundle_modules(public, 'optimisation.js') + '\n' +
@@ -92,7 +103,7 @@ def build_html(root=ROOT):
            "style-src 'unsafe-inline'; worker-src blob:; child-src blob:; "
            "connect-src 'none'; img-src data:; base-uri 'none'; form-action 'none'")
     html = html.replace(style_tag, '<meta http-equiv="Content-Security-Policy" content="' + csp + '">\n<style>' + bundle_css(public, 'styles.css') + '</style>')
-    payloads = {'catalogue': data, 'default-scenario': seed, 'worker': worker,
+    payloads = {'catalogue': data, 'default-scenario': seed, 'component-starter': starter, 'worker': worker,
                 'solver-license': (public / 'vendor/LICENSE').read_text(encoding='utf-8')}
     embedded = '\n'.join('<script type="application/json" id="embedded-' + key + '">' +
                          script_json(value) + '</script>' for key, value in payloads.items())

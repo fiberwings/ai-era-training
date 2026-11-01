@@ -1,0 +1,139 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h39m
+Red Teaming LLM Applications
+Instructors
+:
+Matteo Dora, Luca Martial
+Earn
+an accomplishment
+with
+PRO
+· Updated Sep 28, 2026
+Enroll for Free
+Beginner
+1h39m
+7 Video Lessons
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Sep 28, 2026
+Instructors: Matteo Dora, Luca Martial
+Giskard
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn to identify and evaluate vulnerabilities in large language model (LLM) applications.
+Apply red teaming techniques from cybersecurity to ensure the safety and reliability of your LLM application.
+Use an open source library from Giskard to help automate LLM red-teaming methods.
+About this course
+Learn how to test and find vulnerabilities in your LLM applications to make them safer. In this course, you’ll attack various chatbot applications using prompt injections to see how the system reacts and understand security failures. LLM failures can lead to legal liability, reputational damage, and costly service disruptions. This course helps you mitigate these risks proactively. Learn industry-proven red teaming techniques to proactively test, attack, and improve the robustness of your LLM applications.
+In this course:
+Explore the nuances of LLM performance evaluation, and understand the differences between benchmarking foundation models and testing LLM applications.
+Get an overview of fundamental LLM application vulnerabilities and how they affect real-world deployments.
+Gain hands-on experience with both manual and automated LLM red-teaming methods.
+See a full demonstration of red-teaming assessment, and apply the concepts and techniques covered throughout the course.
+After completing this course, you will have a fundamental understanding of how to experiment with LLM vulnerability identification and evaluation on your own applications.
+Who should join?
+Red Teaming LLM Applications is a beginner-friendly course. Basic Python knowledge is recommended to get the most out of this course.
+Course Outline
+7
+Lessons・
+0
+Code Examples
+Important Note on This Course
+Reading
+・
+10m
+Introduction
+Video
+・
+4m
+Overview of LLM Vulnerabilities
+Video
+・
+18m
+Red Teaming LLMs
+Video
+・
+13m
+Red Teaming at Scale
+Video
+・
+17m
+Red Teaming LLMs with LLMs
+Video
+・
+10m
+A Full Red Teaming Assessment
+Video
+・
+15m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Matteo Dora
+Lead LLM Safety Researcher at
+Giskard
+Luca Martial
+Product Lead at
+Giskard
+Red Teaming LLM Applications
+Beginner
+1h39m
+7 Video Lessons
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Sep 28, 2026
+Instructors: Matteo Dora, Luca Martial
+Giskard
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

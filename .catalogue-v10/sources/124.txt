@@ -1,0 +1,159 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h55m
+Building Systems with the ChatGPT API
+Instructors
+:
+Isa Fulford, Andrew Ng
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 14, 2025
+Enroll for free
+Beginner
+1h55m
+11 Video Lessons
+9 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 14, 2025
+Instructors: Isa Fulford, Andrew Ng
+OpenAI
+Learn more about
+Membership PRO Plan
+Enroll for free
+What you'll learn
+Efficiently build multi-step systems using large language models.
+Learn to split complex tasks into a pipeline of subtasks using multistage prompts.
+Evaluate your LLM inputs and outputs for safety, accuracy, and relevance.
+About this course
+In
+Building Systems with the ChatGPT API,
+you will learn how to automate complex workflows using chain calls to a large language model. Unlock new development capabilities and improve your efficiency in this brand new short course.
+You’ll build:
+Chains of prompts that interact with the completions of prior prompts.
+Systems where Python code interacts with both completions and new prompts.
+A customer service chatbot using all the techniques from this course.
+You’ll learn how to apply these skills to practical scenarios, including classifying user queries to a chat agent’s response, evaluating user queries for safety, and processing tasks for chain-of-thought, multi-step reasoning.
+This one-hour course, taught by Isa Fulford (OpenAI) and Andrew Ng (DeepLearning.AI), builds on the lessons taught in the popular
+ChatGPT Prompt Engineering for Developers
+, though it is not a prerequisite.
+Hands-on examples make each concept easy to understand. Built-in Jupyter notebooks allow you to seamlessly experiment with the code and prompts presented in the course.
+In collaboration with OpenAI
+We are thrilled to offer this course with OpenAI to support developers wanting to grow their skills using generative AI tools. This course reflects the latest understanding of best practices for getting the best performance out of LLM models, and doing so in a responsible way.
+Who should join?
+Building Systems With The ChatGPT API
+is beginner-friendly. You only need a basic understanding of Python to be able to complete the course. This course is also suitable for intermediate or advanced machine learning engineers who want to learn cutting-edge prompt engineering skills for LLMs.
+Course Outline
+11
+Lessons・
+9
+Code Examples
+Introduction
+Video
+・
+2m
+Language Models, the Chat Format and Tokens
+Video with Code Example
+・
+19m
+Classification
+Video with Code Example
+・
+4m
+Moderation
+Video with Code Example
+・
+8m
+Chain of Thought Reasoning
+Video with Code Example
+・
+10m
+Chaining Prompts
+Video with Code Example
+・
+19m
+Check Outputs
+Video with Code Example
+・
+6m
+Evaluation
+Video with Code Example
+・
+5m
+Evaluation Part I
+Video with Code Example
+・
+19m
+Evaluation Part II
+Video with Code Example
+・
+9m
+Summary
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Isa Fulford
+Member of Technical Staff, OpenAI
+Andrew Ng
+Founder, DeepLearning.AI; Co-founder, Coursera
+Building Systems with the ChatGPT API
+Beginner
+1h55m
+11 Video Lessons
+9 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 14, 2025
+Instructors: Isa Fulford, Andrew Ng
+OpenAI
+Learn more about
+Membership PRO Plan
+Enroll for free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Learn for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

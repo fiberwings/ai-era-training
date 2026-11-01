@@ -1,0 +1,150 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h40m
+ChatGPT Prompt Engineering for Developers
+Instructors
+:
+Isa Fulford, Andrew Ng
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 12, 2026
+Learn for Free
+Beginner
+1h40m
+9 Video Lessons
+7 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 12, 2026
+Instructors: Isa Fulford, Andrew Ng
+OpenAI
+Learn more about
+Membership PRO Plan
+Learn for Free
+What you'll learn
+Learn prompt engineering best practices for application development
+Discover new ways to use LLMs, including how to build your own custom chatbot
+Gain hands-on practice writing and iterating on prompts yourself using the OpenAI API
+About this course
+In
+ChatGPT Prompt Engineering for Developers,
+you will learn how to use a large language model (LLM) to quickly build new and powerful applications. Using the OpenAI API, you’ll be able to quickly build capabilities that learn to innovate and create value in ways that were cost-prohibitive, highly technical, or simply impossible before now. This short course taught by Isa Fulford (OpenAI) and Andrew Ng (DeepLearning.AI) will describe how LLMs work, provide best practices for prompt engineering, and show how LLM APIs can be used in applications for a variety of tasks, including:
+Summarizing (e.g., summarizing user reviews for brevity)
+Inferring (e.g., sentiment classification, topic extraction)
+Transforming text (e.g., translation, spelling & grammar correction)
+Expanding (e.g., automatically writing emails)
+In addition, you’ll learn two key principles for writing effective prompts, how to systematically engineer good prompts, and also learn to build a custom chatbot. All concepts are illustrated with numerous examples, which you can play with directly in our Jupyter notebook environment to get hands-on experience with prompt engineering
+In partnership with OpenAI
+We are excited to collaborate with OpenAI in offering this course, designed to help developers effectively utilize LLMs. This course reflects the latest understanding of best practices for using prompts for the latest LLM models.
+Who should join?
+ChatGPT Prompt Engineering for Developers
+is beginner-friendly. Only a basic understanding of Python is needed. But it is also suitable for advanced machine learning engineers wanting to approach the cutting-edge of prompt engineering and use LLMs.
+Course Outline
+9
+Lessons・
+7
+Code Examples
+Introduction
+Video
+・
+6m
+Guidelines
+Video with Code Example
+・
+17m
+Iterative
+Video with Code Example
+・
+13m
+Summarizing
+Video with Code Example
+・
+7m
+Inferring
+Video with Code Example
+・
+11m
+Transforming
+Video with Code Example
+・
+12m
+Expanding
+Video with Code Example
+・
+6m
+Chatbot
+Video with Code Example
+・
+12m
+Conclusion
+Video
+・
+2m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Isa Fulford
+Member of Technical Staff, OpenAI
+Andrew Ng
+Founder, DeepLearning.AI; Co-founder, Coursera
+Generative AI offers many opportunities for AI engineers to build, in minutes or hours, powerful applications that previously would have taken days or weeks. I’m excited about sharing these best practices to enable many more people to take advantage of these revolutionary new capabilities.
+–
+Andrew Ng
+ChatGPT Prompt Engineering for Developers
+Beginner
+1h40m
+9 Video Lessons
+7 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 12, 2026
+Instructors: Isa Fulford, Andrew Ng
+OpenAI
+Learn more about
+Membership PRO Plan
+Learn for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Learn for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, events, as well as Andrew’s thoughts from DeepLearning.AI!
+Learn for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -1,0 +1,197 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+3h1m
+Multi AI Agent Systems with crewAI
+Instructor
+:
+João Moura
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 12, 2026
+Enroll for Free
+Beginner
+3h1m
+18 Video Lessons
+7 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 12, 2026
+Instructor: João Moura
+crewAI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Exceed the performance of prompting a single LLM by designing and prompting a team of AI agents through natural language.
+Use an open source library, crewAI, to automate repeatable, multi-step tasks like tailoring a resume to a job description; and automate business processes that are typically done by a group of people, like event planning.
+By creating a team of AI agents, you can define a specific role, goal, and backstory for each agent, which breaks down complex multi-step tasks and assigns them to agents that are customized to perform those tasks.
+About this course
+Learn key principles of designing effective AI agents, and organizing a team of AI agents to perform complex, multi-step tasks. Apply these concepts to automate 6 common business processes.
+Learn from João Moura, founder and CEO of crewAI, and explore key components of multi-agent systems:
+Role-playing:
+Assign specialized roles to agents
+Memory:
+Provide agents with short-term, long-term, and shared memory
+Tools:
+Assign pre-built and custom tools to each agent (e.g. for web search)
+Focus:
+Break down the tasks, goals, and tools and assign to multiple AI agents for better performance
+Guardrails:
+Effectively handle errors, hallucinations, and infinite loops
+Cooperation:
+Perform tasks in series, in parallel, and hierarchically
+Throughout the course, you’ll work with crewAI, an open source library designed for building multi-agent systems. You’ll learn to build agent crews that execute common business processes, such as:
+Tailor resumes and interview prep for job applications
+Research, write and edit technical articles
+Automate customer support inquiries
+Conduct customer outreach campaigns
+Plan and execute events
+Perform financial analysis
+By the end of the course, you will have designed several multi-agent systems to assist you in common business processes, and also studied the key principles of AI agent systems.
+Who should join?
+If you’ve taken some prompt engineering courses, have some familiarity with basic coding, and want to incorporate LLMs in your professional work, then this course is designed for you!
+Course Outline
+18
+Lessons・
+7
+Code Examples
+Introduction
+Video
+・
+3m
+Overview
+Video
+・
+11m
+AI Agents
+Video
+・
+8m
+Create agents to research and write an article
+Video with Code Example
+・
+15m
+Key elements of AI agents
+Video
+・
+11m
+Multi agent customer support automation
+Video with Code Example
+・
+18m
+Mental framework for agent creation
+Video
+・
+3m
+Key elements of agent tools
+Video
+・
+7m
+Tools for a customer outreach campaign
+Video with Code Example
+・
+16m
+Recap of tools
+Video
+・
+1m
+Key elements of well defined tasks
+Video
+・
+4m
+Automate event planning
+Video with Code Example
+・
+15m
+Recap on tasks
+Video
+・
+1m
+Multi agent collaboration
+Video
+・
+5m
+Mutli agent collaboration for financial analysis
+Video with Code Example
+・
+12m
+Build a crew to tailor job applications
+Video with Code Example
+・
+17m
+Next steps with AI agent systems
+Video
+・
+5m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Next Step: Build Advanced Multi AI Agent
+Code Example
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+João Moura
+Founder and CEO of
+CrewAI
+Multi AI Agent Systems with crewAI
+Beginner
+3h1m
+18 Video Lessons
+7 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 12, 2026
+Instructor: João Moura
+crewAI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

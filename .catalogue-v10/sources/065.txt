@@ -1,0 +1,182 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+2h36m
+Evaluating AI Agents
+Instructors
+:
+John Gilhuly, Aman Khan
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 16, 2026
+Enroll for Free
+Beginner
+2h36m
+15 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 16, 2026
+Instructors: John Gilhuly, Aman Khan
+Arize AI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn how to add observability to your agent to gain insights into its steps and know how to debug it.
+Learn how to set up evaluations for the agent components by preparing testing examples, choosing the appropriate evaluator (code-based or LLM-as-a-Judge), and identifying the right metrics.
+Learn how to structure your evaluation into experiments to iterate on and improve the output quality and the path taken by your agent.
+About this course
+Learn how to systematically assess and improve your AI agent’s performance in
+Evaluating AI Agents
+, a short course built in partnership with Arize AI and taught by John Gilhuly, Head of Developer Relations, and Aman Khan, Director of Product.
+When you’re building an AI Agent, an important part of the development process is evaluations or evals. Whether you’re building a shopping assistant, coding agent, or research assistant, having a structured evaluation process helps you refine its performance systematically—rather than relying on trial and error.
+With a systematic approach, you structure your evaluations to assess the performance of each component of the agent, as well as its end-to-end performance. For each component, you select the appropriate evaluators, testing examples, and metrics. This process helps you identify any areas of improvement so you can iterate on your agent during development and in production.
+In this course, you’ll build an AI agent, add observability to visualize and debug its steps, and evaluate its performance component-wise.
+In detail, you’ll:
+Distinguish between evaluating LLM-based systems and traditional software testing.
+Explore the basic structure of AI agents – routers, skills, and memory – and implement an AI agent from scratch.
+Add observability to the agent by collecting traces of the steps taken by the agent and visualizing the traces.
+Choose the appropriate evaluator – code-based, LLM-as-a-Judge, and human annotations – for each component of the agent.
+Set up evaluations for the skills and router decisions of the agent example using code-based and LLM-as-a-judge evaluators, by creating testing examples from collected traces and preparing detailed prompts for the LLM-as-a-judge.
+Compute a convergence score to evaluate if the example agent can respond to a query in an efficient number of steps.
+Run structured experiments to improve the performance of the agent by exploring changes to the prompt, LLM model, or the agent’s logic.
+Understand how to deploy these evaluation techniques to monitor the agent’s performance in production.
+By the end of this course, you’ll know how to trace AI agents, systematically evaluate them, and improve their performance.
+Who should join?
+Anyone who has basic Python knowledge and wants to learn to evaluate, troubleshoot, and improve AI agents effectively—both during development and in production. Familiarity with prompting an LLM model would be helpful but not required.
+Course Outline
+15
+Lessons・
+6
+Code Examples
+Introduction
+Video
+・
+3m
+Evaluation in the time of LLMs
+Video
+・
+7m
+Decomposing agents
+Video
+・
+6m
+Lab 1: Building your agent
+Video with Code Example
+・
+16m
+Tracing agents
+Video
+・
+4m
+Lab 2: Tracing your agent
+Video with Code Example
+・
+16m
+Adding router and skill evaluations
+Video
+・
+12m
+Lab 3: Adding router and skill evaluations
+Video with Code Example
+・
+17m
+Adding trajectory evaluations
+Video
+・
+5m
+Lab 4: Adding trajectory evaluations
+Video with Code Example
+・
+9m
+Adding structure to your evaluations
+Video
+・
+7m
+Lab 5: Adding structure to your evaluations
+Video with Code Example
+・
+15m
+Improving your LLM-as-a-judge
+Video
+・
+4m
+Monitoring agents
+Video
+・
+6m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Appendix - Resources, Tips and Help
+Code Example
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+John Gilhuly
+Head of Developer Relations at
+Arize AI
+Aman Khan
+Director of Product at
+Arize AI
+Evaluating AI Agents
+Beginner
+2h36m
+15 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 16, 2026
+Instructors: John Gilhuly, Aman Khan
+Arize AI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

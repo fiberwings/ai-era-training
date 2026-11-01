@@ -1,6 +1,6 @@
 # Agentic-Era Workforce Capability Model
 
-**Version 2, revision 3 · Updated 18 October 2026**
+**Version 2, revision 3 · Presentation updated 31 October 2026; applicability unchanged**
 
 ## The model in one page
 
@@ -57,8 +57,8 @@ Select the relevant outcomes for the actual responsibilities; a person can work 
 | --- | --- |
 | Users with access to Microsoft Copilot Cowork or Anthropic Claude Code | Learn how to use the specific product for assigned work: provide context, work with its permissions and approvals, review outputs and recover from errors. Training can span functions or cover everyone if the tool is deployed to everyone. |
 | Incident responders using agentic tools for defenders | Practise triage, investigation and response in the deployed tool; inspect evidence, supervise its actions and take over when needed. Add the relevant incident-response outcomes for incidents involving agents themselves. |
-| Application-security practitioners using Claude Code Security or an in-house analysis harness | Operate the existing tool or harness to identify vulnerabilities: configure the permitted scope and context, validate findings, recognise false positives and run task checks. |
-| Application-security experts building a vulnerability-finding harness or agent | Learn the chosen development tools and framework, build the harness or agent, and maintain evaluations of detection quality, missed vulnerabilities, false positives and performance as it changes. This combines L3 building and evaluation (N10–N11) with the R4.2 specialism. |
+| Application-security staff using Claude Code Security or an in-house analysis harness | Operate the existing tool or harness to identify vulnerabilities: configure the permitted scope and context, validate findings, recognise false positives and run task checks. |
+| L3 Expert application-security staff building a vulnerability-finding harness or agent | Learn the chosen development tools and framework, build the harness or agent, and maintain evaluations of detection quality, missed vulnerabilities, false positives and performance as it changes. This combines L3 building and evaluation (N10–N11) with the R4.2 specialism. |
 
 The named examples use Microsoft Copilot Cowork, Anthropic Claude Code and Claude Code Security. They illustrate training needs where the products are approved and access is provided; they do not imply that these tools are already deployed in the bank.
 
@@ -70,7 +70,7 @@ The existing cyber curriculum (N0, core craft) remains a prerequisite. This mode
 
 The model defines a person's **target capability profile**. The next step is to translate that profile into **learning needs**: the topics they need to learn, such as supervising agents or assessing AI risk. Each need contains **learning outcomes**: specific statements of what someone must know or do. These outcomes connect the model to training selection and assessment.
 
-For example, a GRC practitioner supervising assessment agents needs the Foundation, shared capabilities through L2, relevant governance outcomes and practice on the approved tools. N7 (Supervising agents) includes verifying outputs and tracing evidence (N7.3), and stopping or taking over a task (N7.4). Their governance responsibilities may also require AI risk assessment (N13.2). A practical exercise in their assessment tool can address these outcomes together.
+For example, a GRC L2 Practitioner supervising assessment agents needs the Foundation, shared capabilities through L2, relevant governance outcomes and practice on the approved tools. N7 (Supervising agents) includes verifying outputs and tracing evidence (N7.3), and stopping or taking over a task (N7.4). Their governance responsibilities may also require AI risk assessment (N13.2). A practical exercise in their assessment tool can address these outcomes together.
 
 Need IDs such as N7 and R9.1 identify topics; outcome IDs such as N7.3 and R9.1.1 identify the detailed requirements underneath them. They keep the learning traceable to the existing evidence. Select applicable outcomes, including where a need spans more than one component of the model.
 
@@ -148,7 +148,7 @@ The model defines the target capabilities; the learning needs and outcomes speci
 
 Safe deployment remains common L3 learning through N10.8, supported by the foundation and safe-use outcomes. Detailed security design belongs to the relevant specialism. N10.5 covers understanding hosting and residency choices, not building the hosting platform.
 
-The following packages collect learning needs within the defined roles. They are editable starting points based on responsibilities, not job grades or mandatory assignments for everyone in a function. **Agent infrastructure belongs within Security architecture & engineering:** N10.3 covers harness and context engineering at scale, N10.6 covers building MCP servers, and N10.7 covers shared Skills infrastructure. These existing outcomes remain part of N10 for assessment; they do not introduce another role or scored need. Role prerequisites must be checked independently of agentic level. Identity operations and identity integration, for example, represent different responsibilities rather than L2 and L3 gates. A specialist outcome can apply at L1 even when its historical rubric label was Expert.
+The following packages collect learning needs within the defined roles. They are editable starting points based on responsibilities, not job grades or mandatory assignments for everyone in a function. **Agent infrastructure belongs within Security architecture & engineering:** N10.3 covers harness and context engineering at scale, N10.6 covers building MCP servers, and N10.7 covers shared Skills infrastructure. These existing outcomes remain part of N10 for assessment; they do not introduce another role or scored need. Role prerequisites must be checked independently of agentic level. Identity operations and identity integration, for example, represent different responsibilities rather than L2 and L3 gates. A specialist outcome can apply at L1 even when its historical rubric label was L3 Expert.
 
 **AI threat tracking belongs within Threat intelligence & detection:** N5.7 covers tracking the AI threat landscape and adjusting controls. It remains an outcome within N5 for assessment, selected for that role's responsibilities. The other N5 outcomes provide shared foundation awareness; N5.7 adds the specialist depth. It is a role learning need, not an additional model component.
 
@@ -188,13 +188,13 @@ The approved must-have review is recorded in catalogue v11. N5.1 merges social e
 
 Each outcome uses the highest recorded score across selected resources (0–3), with no duplicate coverage credit. Each original need keeps equal weight in the cohort score. Full means every applicable outcome scores 3; Strong requires at least 70% and no must-have outcome at zero; Partial starts at 30%; otherwise coverage is Weak. Missing assessment remains distinct from an explicit zero. Planned internal work adds time but does not create assessed course coverage.
 
-Course coverage is syllabus evidence, not demonstrated competence or operational permission. Shared courses and internal items are counted once across inherited learning. Changes to profile applicability require fresh coverage calculations and review of course selections. Historical plans retain their original applicability until a new profile-based plan is explicitly created.
+Course coverage is syllabus evidence, not demonstrated competence or operational permission. Shared courses and internal items are counted once across inherited learning. Changes to profile applicability recalculate coverage across the affected learning paths. Historical plans retain their original applicability until a new profile-based plan is explicitly created.
 
 A blank workshop draft starts with provisional budgets of Foundation 2h, L1 2h, L2 8h, L3 24h and 4h per role addition. The published annual recommendation uses its separately configured budgets, including Foundation 2h. These are editable planning constraints, not claims about the time needed to become competent. Tool time and internal practice must also be planned.
 
 ### Essential outcomes and depth
 
-A must-have is essential to achieving the learning objective safely and effectively, at the depth appropriate to the person's work. Foundation learners recognise risks, explain examples and know the precaution or escalation. Practitioners apply precautions, check results and intervene. Builders and relevant specialists design, test and improve controls. N2 agent anatomy and safety components are conceptual at Foundation.
+A must-have is essential to achieving the learning objective safely and effectively, at the depth appropriate to the person's work. Foundation learners recognise risks, explain examples and know the precaution or escalation. L2 Practitioners apply precautions, check results and intervene. Builders and relevant specialists design, test and improve controls. N2 agent anatomy and safety components are conceptual at Foundation.
 
 N3 explains AI limitations; N4 provides responsible-use training suitable for any bank employee; N5 provides cyber-focused security risk and threat awareness; N12 provides specialist security design and threat modelling. N5.8 is the overall risk map, N5.4 shows attacks on the bank's AI, and N12.1 develops detailed threat modelling. Deepfakes are a brief impersonation example within N5.1, not a standalone deep-dive objective. For cyber staff, a short awareness segment on recognising social engineering, independent verification and escalation is sufficient at Foundation; a full social-engineering course is excessive. The annual plan allocates 10 minutes within the existing bank session. Trainer references for N5.8 include the [OWASP LLM risk overview](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) and [OWASP agentic application risks](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/); the learner outcome is recognition and an appropriate response, not memorisation of the lists.
 
@@ -204,9 +204,15 @@ The Strong band requires at least 70% coverage and no applicable must-have at ze
 
 ## Detailed learning needs and outcomes
 
+Outcomes are grouped by Foundation, L1 Entry, L2 Practitioner, L3 Expert, Specialisms and Tooling. A shared outcome may appear under both its level and specialist responsibility; its stable ID is counted once in path coverage.
+
 The statements below are the current assessed outcomes from catalogue v11. Their **placement** is the new applicability, not the source workbook's historical level. Product and implementation terminology in an outcome describes its content, not a separate level or permission. Unchanged wording retains its existing evidence; a future substantive rewrite must be reassessed.
 
-### N1 — AI in cyber
+### Foundation
+
+#### N1 — AI in cyber
+
+What AI and agents already do in each cyber domain, what is coming, and how one's own work changes
 
 **Content category: Cyber-specific.** AI use cases, emerging capabilities and changes to work are explicitly taught in cybersecurity domains.
 
@@ -215,8 +221,9 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N1.1 · must-have | **What AI does today in cyber.** Describe what AI and agents already do well in one's own domain and the neighbouring ones: triage and enrichment, log and code analysis, drafting and summarising, policy mapping, test generation | Foundation — common knowledge |
 | N1.2 | **What is emerging.** Describe what is emerging in AI for cyber, beyond what is in production today | Foundation — common knowledge |
 | N1.3 · must-have | **How one's own work changes.** Name two or three ways one's own work could change. The purpose is to open the mind to a new way of working, not to teach a tool | Foundation — common knowledge |
+#### N2 — AI systems and agents
 
-### N2 — AI systems and agents
+The components of an AI system and the components that keep it safe
 
 **Content category: Generic.** Models, agent components, connectors, safety components and hosting are relevant across functions; adapt the platform examples to the organisation.
 
@@ -229,8 +236,9 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N2.5 | **Connecting and extending.** Three ways to extend AI: connectors to tools and data (MCP), reusable playbooks (Skills), and APIs for building | Foundation — common knowledge |
 | N2.6 · must-have | **Safety components.** Every safe deployment has an identity and permissions for the agent, a sandbox it runs in, an authorisation layer that decides what it may do, guardrails on input and output, logs of what it did, and a stop button | Foundation — common knowledge |
 | N2.7 | **Where it runs.** The bank's approved platforms versus public tools, and what leaves the bank with each | Foundation — common knowledge |
+#### N3 — AI limitations
 
-### N3 — AI limitations
+How AI fails and how people fail with it, and the habits that counter it
 
 **Content category: Generic.** AI limitations, prompt-injection awareness and habits for checking outputs apply to any AI user.
 
@@ -243,8 +251,9 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N3.5 · must-have | **Prompt injection.** Prompt injection as a behaviour of the model: content it reads can steer it | Foundation — common knowledge |
 | N3.6 | **Automation bias.** Automation bias: the human tendency to over-trust the machine | Foundation — common knowledge |
 | N3.7 · must-have | **Counter-habits.** The habits that counter these failures: check against sources, record one's own view before reading the AI's, sample rather than trust | Foundation — common knowledge |
+#### N4 — Responsible AI use
 
-### N4 — Responsible AI use
+Risks beyond the model's own limits, and the bank's rules on what may be used and delegated
 
 **Content category: Generic.** Responsible use, data handling, supply-chain awareness and approved-use rules apply across functions; local policy and regulation provide context.
 
@@ -256,9 +265,9 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N4.4 | **AI supply chain.** Third-party models, Skills and connectors as a supply chain | Foundation — common knowledge |
 | N4.5 | **Regulation.** Regulation: the AI Act's literacy duty and the regional regulators' expectations | Foundation — common knowledge |
 | N4.6 · must-have | **The bank's rules.** Applying the bank's rules on approved tools, and knowing what may and may not be handed to an agent | Foundation — common knowledge |
-| N4.7 | **Vetting third-party Skills and connectors.** Vetting a third-party Skill or connector before using it | L2 Practitioner — Supervise agents |
+#### N5 — AI security risks and threats
 
-### N5 — AI security risks and threats
+Cyber risk overview, AI-enabled social engineering and intrusion, examples of attacks on the bank's AI, and defensive implications. N5.7 adds specialist threat tracking.
 
 **Content category: Cyber-specific.** Cyber-focused risk awareness for all cyber staff: N5.8 provides the risk overview, N5.4 retains examples of attacks on the bank’s AI, and N5.1 includes deepfake impersonation. N5.7 threat tracking and control adjustment require specialist depth.
 
@@ -269,10 +278,14 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N5.4 | **Attacks on the bank's AI.** Attacks on the bank's own AI systems | Foundation — common knowledge |
 | N5.5 · must-have | **What changes for defence.** Speed, volume, and the need to verify identity rather than trust a voice or a message | Foundation — common knowledge |
 | N5.6 | **Recognising AI-enabled attacks.** Recognising AI-enabled attacks in one's own domain | Foundation — common knowledge |
-| N5.7 | **Tracking the threat landscape.** Tracking the AI threat landscape and adjusting controls | Threat intelligence & detection — AI threat landscape |
 | N5.8 · must-have | **Overview of AI security risks.** Recognise the main categories of security risk affecting AI systems and agents, informed by OWASP's LLM and agentic risk frameworks: instruction manipulation, sensitive-information disclosure, unsafe output handling, excessive permissions or actions, compromised components or information sources, and service disruption or uncontrolled resource consumption. Explain a simple example of each and identify an appropriate precaution or escalation route. Foundation awareness does not require threat modelling or memorising framework identifiers. | Foundation — common knowledge |
 
-### N6 — Working with AI
+
+### L1 Entry
+
+#### N6 — Working with AI
+
+Delegating, giving context, judging output, owning the result, and the working knowledge behind them
 
 **Content category: Generic.** Providing context, judging outputs and owning AI-assisted work apply in any function.
 
@@ -287,7 +300,21 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N6.7 | **Platform for the data.** Which approved platform suits which data classification | L1 Entry — Work with AI assistance |
 | N6.8 | **Own work with AI.** Using assistants and personal agents for one's own work within the base rules, practised daily | L1 Entry — Work with AI assistance |
 
-### N7 — Supervising agents
+
+### L2 Practitioner
+
+#### N4 — Responsible AI use
+
+Risks beyond the model's own limits, and the bank's rules on what may be used and delegated
+
+**Content category: Generic.** Responsible use, data handling, supply-chain awareness and approved-use rules apply across functions; local policy and regulation provide context.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| N4.7 | **Vetting third-party Skills and connectors.** Vetting a third-party Skill or connector before using it | L2 Practitioner — Supervise agents |
+#### N7 — Supervising agents
+
+Delegate, monitor, verify, intervene and sign off on agents that act on bank systems
 
 **Content category: Generic.** Delegating, monitoring, verifying, intervening and accounting for agent work apply to anyone supervising agents; use domain-specific exercises.
 
@@ -298,8 +325,9 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N7.3 · must-have | **Verify.** Sample outputs, trace the evidence, catch planted errors at the target rate | L2 Practitioner — Supervise agents |
 | N7.4 · must-have | **Intervene.** Stop, override, roll back and take over mid-task, including when the agent is compromised; keep working when agents are down | L2 Practitioner — Supervise agents |
 | N7.5 | **Account.** Sign off with a record an auditor can follow, own the outcome, feed corrections back | L2 Practitioner — Supervise agents |
+#### N8 — Reusable instructions and connectors
 
-### N8 — Reusable instructions and connectors
+Turning one's own work into reusable Skills and connecting AI to tools and data safely
 
 **Content category: Generic.** Reusable task instructions and safe connector use apply across functions.
 
@@ -310,8 +338,9 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N8.3 | **Shared library.** Contributing to a shared Skills library with named owners and a deprecation rule | L2 Practitioner — Supervise agents |
 | N8.4 · must-have | **Using connectors safely.** Using connectors (MCP) knowing what each exposes and which permissions it grants, and applying least privilege | L2 Practitioner — Supervise agents |
 | N8.5 | **Vetting before installing.** Vetting third-party Skills and connectors before installing them, since both run with the agent's permissions | L2 Practitioner — Supervise agents |
+#### N9 — Testing your AI tasks
 
-### N9 — Testing your AI tasks
+Building evals for one's own use cases
 
 **Content category: Generic.** Task checks, known faults and retesting after changes apply to any recurring AI-assisted task.
 
@@ -323,7 +352,12 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N9.4 · must-have | **Rerun on change.** Rerunning the evals whenever the model, tool or Skill changes; every Skill ships with its test cases | L2 Practitioner — Supervise agents |
 | N9.5 | **Feeding the domain system.** Contributing results to the domain's evaluation system (N11) | L2 Practitioner — Supervise agents |
 
-### N10 — Building agents
+
+### L3 Expert
+
+#### N10 — Building agents
+
+Designing and building the domain's agents and what they run on
 
 **Content category: Generic.** Agent design, engineering and safe deployment apply across domains. Technical depth and platform responsibilities still determine who needs each outcome.
 
@@ -331,14 +365,12 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | --- | --- | --- |
 | N10.1 · must-have | **Agent design patterns.** The agent loop, tool definition, planning and reflection patterns | L3 Expert — Build and evaluate agents |
 | N10.2 | **Multi-agent design.** When to split work across several agents and how they communicate | L3 Expert — Build and evaluate agents |
-| N10.3 · must-have | **Harness and context engineering.** Harness design and context engineering at scale | Security architecture & engineering — agent infrastructure |
 | N10.4 | **Models, cost and latency.** Model selection and routing, cost and latency | L3 Expert — Build and evaluate agents |
 | N10.5 | **Hosting and residency.** Hosting options (vendor, cloud, on-premises) and data residency | L3 Expert — Build and evaluate agents |
-| N10.6 | **MCP servers.** Building MCP servers | Security architecture & engineering — agent infrastructure |
-| N10.7 | **Skills as infrastructure.** Running the Skills library as infrastructure and packaging Skills into domain plugins | Security architecture & engineering — agent infrastructure |
 | N10.8 · must-have | **Safe deployment.** Deploying with the safety components of N2 in place, to the standards set in N12 and the evaluation discipline of N11 | L3 Expert — Build and evaluate agents |
+#### N11 — Evaluating agents and AI systems
 
-### N11 — Evaluating agents and AI systems
+Designing the evaluation system for a domain or a vendor product
 
 **Content category: Generic.** Evaluation design, error analysis, vendor benchmarking and drift measurement apply across domains; test cases reflect the target work.
 
@@ -351,7 +383,126 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N11.5 | **Drift in production.** Measuring drift in production | L3 Expert — Build and evaluate agents |
 | N11.6 | **Evidence for decisions.** Feeding results into the evidence on which autonomy is proposed (N14) and vendor claims are judged | L3 Expert — Build and evaluate agents · Vendor evaluation and tool selection |
 
-### N12 — Securing AI
+
+### Specialisms
+
+#### Role 1: Security operations & response
+
+#### R1.1 — Agent incident response
+
+Playbooks for an agent that is wrong, stopped or compromised; stopping, investigating and cleaning up; operating without it
+
+**Content category: Cyber-specific.** Responding to agent incidents, investigating compromise, containment, recovery and incident evidence are cyber operations responsibilities.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| R1.1.1 · must-have | **Agent incident playbooks.** Writing incident playbooks for three agent scenarios: the agent is wrong (it acted on a false conclusion, closed real alerts, changed the wrong thing); the agent is stopped (its identity expired, the provider is down, it ran out of compute) and its work must continue by hand; the agent is compromised (an attacker steered it through content it read). Plans name who can stop the agent (NCSC) | Agent incident response |
+| R1.1.2 · must-have | **Ways to stop an agent.** The ways to stop an agent and when to use each: revoke its identity or session token so it can no longer call any tool; disable only the tools or connectors it misuses while the rest keeps running; put it in observe-only mode, where it may analyse and recommend but is barred from acting; roll back what it changed using its action log | Agent incident response |
+| R1.1.3 · must-have | **Investigating a compromised agent.** Where the attack comes from: content the agent reads (logs, alerts, tickets, documents, emails, web pages) can carry instructions aimed at it, so the investigator looks for injection in those sources and cuts any that is poisoned. What the agent did: knowing, for each of the bank's agents, which records exist that the agent cannot write to and how to pull them fast (the platform's audit log of tool calls with arguments and times, gateway and network logs, logs of the systems it touched), then building the timeline from them, because a compromised agent's own summary can omit or misstate what it did | Agent incident response |
+| R1.1.4 | **Cleaning up.** Cleaning up after a manipulated agent: finding the injected content it acted on and removing it from the sources the agent reads; clearing anything it stored in its memory as a result; re-running the same injection against the agent before putting it back in service | Agent incident response |
+| R1.1.5 | **Operating without the agent.** The manual fallback for what the agent handled (triage queue, enrichment, first response), the staffing to sustain it for days, and the regular drill that proves it still works | Agent incident response |
+| R1.1.6 | **Reporting.** What regulators expect in an incident report when an agent caused or worsened the incident (DORA, HKMA, MAS), and which evidence to preserve for it | Agent incident response |
+#### R1.2 — Agent forensics and evidence
+
+Defensible AI use on evidence and forensic readiness for agents
+
+**Content category: Cyber-specific.** Forensic integrity, agent trace reconstruction and evidence handling require digital-forensics practice.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| R1.2.1 · must-have | **Recording the AI step.** Recording any AI step applied to evidence so it can be repeated and defended: the tool, model and version, the exact prompt and settings, the output, and who verified it. The original artefact stays the evidence; AI output is a derived analysis, never a substitute | Agent forensics and evidence |
+| R1.2.2 · must-have | **Forensic readiness for agents.** Defining what every agent must log (prompt and response, each tool call with its arguments, data retrieved, memory writes, approvals given), stored where the agent cannot alter it, time-synchronised and integrity-protected, retained long enough for an investigation (vendors default to 7 to 30 days), and tested by reconstructing a past incident from it | Agent forensics and evidence |
+| R1.2.3 | **Investigating an agent as suspect.** Rebuilding the agent's actions from its traces, finding the input that steered it, and attributing each action to the human it acted for or to the attacker | Agent forensics and evidence |
+
+#### Role 2: Threat intelligence & detection
+
+#### N5 — AI security risks and threats
+
+Cyber risk overview, AI-enabled social engineering and intrusion, examples of attacks on the bank's AI, and defensive implications. N5.7 adds specialist threat tracking.
+
+**Content category: Cyber-specific.** Cyber-focused risk awareness for all cyber staff: N5.8 provides the risk overview, N5.4 retains examples of attacks on the bank’s AI, and N5.1 includes deepfake impersonation. N5.7 threat tracking and control adjustment require specialist depth.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| N5.7 | **Tracking the threat landscape.** Tracking the AI threat landscape and adjusting controls | Threat intelligence & detection — AI threat landscape |
+
+#### Role 3: Offensive security & testing
+
+#### R3.1 — Agent red-teaming
+
+Attacking AI systems and agents with published methods and statistical measurement
+
+**Content category: Cyber-specific.** Adversarial testing of agents, attack methods and red-team programmes require security-testing expertise.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| R3.1.1 · must-have | **AI attack classes.** Direct prompt injection; indirect injection through content the agent reads (documents, web pages, tool results, emails); jailbreaks and guardrail evasion; data exfiltration through the agent's own tools; making the agent exceed its intended authority; tool poisoning (a malicious tool description) and rug pulls (a tool that changes after it was approved) | Agent testing and containment |
+| R3.1.2 · must-have | **Applying a structured testing method.** Apply a structured method to test an AI system or agent: define the scope and attack surface, choose relevant attack cases, execute repeatable tests, record evidence and report findings. Use suitable guidance such as the OWASP GenAI Red Teaming Guide, the CSA Agentic AI Red Teaming Guide or MITRE ATLAS; familiarity with every named publication is not required. | Agent testing and containment |
+| R3.1.3 · must-have | **Attacks across agents.** Compromising one agent to steer others, injecting into an orchestrator's plan, tampering with messages between agents | Advanced agent red-teaming · Essential: for multi-agent testing responsibilities |
+| R3.1.4 | **Attacks on model and platform.** Extracting the model or its instructions, poisoning the agent's memory, escaping the sandbox, timing side channels | Advanced agent red-teaming |
+| R3.1.5 | **Automated red-team programme.** Building and running automated red-team harnesses (PyRIT-class tooling) and a continuous programme that re-tests every agent when its model, tools or prompts change | Advanced agent red-teaming |
+#### R3.2 — Testing-agent containment
+
+Technical containment of testing agents and validation of their findings from transcripts
+
+**Content category: Cyber-specific.** Containing offensive testing agents and validating exploit evidence are security-testing responsibilities.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| R3.2.1 · must-have | **Containment before a run.** A network segment from which the agent can reach only in-scope targets; egress allow-lists verified by test, not assumed; a fresh sandbox per run; credentials scoped to the engagement and expiring with it | Agent testing and containment |
+| R3.2.2 · must-have | **Monitoring during a run.** Watching the agent's actions out of band (not its reports); a named person with the authority and the means to kill the run within minutes; the triggers for doing so (an action outside scope, contact with a third party, a credential used elsewhere) | Agent testing and containment |
+| R3.2.3 | **Escape patterns.** The escape patterns seen in practice: attacking something else when the assigned target proves impossible, reading an ambiguous message as approval, creating accounts or identities, carrying on after the window closes, contacting real people | Agent testing and containment |
+| R3.2.4 · must-have | **Trajectory-level validation.** Validating findings from the transcript, not the summary: check that the evidence the agent cites exists (a 'successful login' that was a redirect, credentials that do not work), reproduce the exploit by hand before reporting, and treat the agent's self-assessment as untrusted | Agent testing and containment |
+| R3.2.5 | **Collateral findings.** A disclosure lane for what to do when the agent finds something outside the engagement | Agent testing and containment |
+
+#### Role 4: Vulnerability & exposure management
+
+#### R4.1 — Agent exposure management
+
+Discovery, inventory, approval, scanning and vetting of the agent tool estate
+
+**Content category: Cyber-specific.** Discovering and managing agent, connector and MCP exposures is vulnerability and exposure management.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| R4.1.1 · must-have | **Discovery.** Finding every MCP server and agent connector in the estate, including those developers run on their own workstations, by searching configuration files and by recognising the MCP protocol in network traffic | Agent exposure management |
+| R4.1.2 · must-have | **Inventory.** For each agent and tool server: its owner, version, the tools it exposes, the permissions it holds, the systems it reaches, and the guardrails around it | Agent exposure management |
+| R4.1.3 · must-have | **Verifying approved components and detecting changes.** Verify that an agent uses the approved versions of its tools, Skills and connectors, detect changes to their code or descriptions, and require review before changed components are trusted. Use suitable integrity and change-control mechanisms, such as version pinning, signatures or hashes; a particular hashing implementation is not required. | Agent exposure management |
+| R4.1.4 | **Scanning.** Running MCP and Skill scanners in the build pipeline and on a schedule for tool poisoning, instructions hidden in tool descriptions, servers exposed without authentication and credentials stored in plain text | Agent exposure management |
+| R4.1.5 | **AI bill of materials.** A bill of materials for AI components: which models, tools and Skills a system uses and where each came from | Agent exposure management |
+| R4.1.6 | **Vetting third parties.** Vetting third-party Skills and connectors before they are allowed in | Agent exposure management |
+#### R4.2 — AI code-analysis engineering
+
+Building, confirming and measuring the bank's own AI code analysis
+
+**Content category: Cyber-specific.** Building and validating vulnerability-finding code-analysis harnesses requires application-security knowledge as well as generic agent engineering.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| R4.2.1 | **Why set-up is the skill.** The same model finds under a tenth or over half of the vulnerabilities in a codebase depending on how it is given context and driven, and filters a third or almost all of a static analyser's false positives for the same reason | AI code-analysis engineering |
+| R4.2.2 · must-have | **Giving the model context.** Supplying the functions a target calls, type definitions, the data-flow path to the input and build information, using static and dynamic analysis tools to supply that context automatically | AI code-analysis engineering |
+| R4.2.3 | **Framework, model and method.** Choosing the agent framework and the model for the task, and driving the model through a structured method rather than letting it explore freely | AI code-analysis engineering |
+| R4.2.4 · must-have | **Confirming before reporting.** A proof of vulnerability (an input or exploit that demonstrates it in a sandbox), the same test against the patched and unpatched versions, and several runs with a majority verdict | AI code-analysis engineering |
+| R4.2.5 | **Reliability by vulnerability class.** Which classes models find well (memory safety, anything a fuzzer can reach) and which they over-report (documented behaviour reported as a bug, inflated severity, duplicates), and setting thresholds per class | AI code-analysis engineering |
+| R4.2.6 | **Deduplication and cost.** Removing duplicates (by stack trace or sanitiser signature) and keeping cost under control at scale | AI code-analysis engineering |
+| R4.2.7 · must-have | **Measuring the harness.** Measuring the harness on a corpus of known vulnerabilities before trusting it | AI code-analysis engineering |
+
+#### Role 5: Security architecture & engineering
+
+#### N10 — Building agents
+
+Designing and building the domain's agents and what they run on
+
+**Content category: Generic.** Agent design, engineering and safe deployment apply across domains. Technical depth and platform responsibilities still determine who needs each outcome.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| N10.3 · must-have | **Harness and context engineering.** Harness design and context engineering at scale | Security architecture & engineering — agent infrastructure |
+| N10.6 | **MCP servers.** Building MCP servers | Security architecture & engineering — agent infrastructure |
+| N10.7 | **Skills as infrastructure.** Running the Skills library as infrastructure and packaging Skills into domain plugins | Security architecture & engineering — agent infrastructure |
+#### N12 — Securing AI
+
+Threat-modelling and securing AI systems and agents, including AI security architecture
 
 **Content category: Cyber-specific.** Threat modelling and designing, securing or remediating AI controls require cybersecurity expertise.
 
@@ -366,109 +517,9 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | N12.7 | **AI supply chain.** Securing the Skills and connector supply chain and MCP servers | AI security design and remediation |
 | N12.8 | **Fixing findings.** Fixing what red-teamers and incident responders find | AI security design and remediation |
 | N12.9 | **Reference architectures.** Reference architectures, isolation patterns, platform tenancy and the controls for each hosting option | Agent security architecture |
+#### R5.1 — Agent security architecture
 
-### N13 — AI governance and risk
-
-**Content category: Generic.** AI inventories, risk assessment, autonomy policy, third-party risk and assurance obligations apply across functions. Cyber control assurance is developed further in R6.1.
-
-| Outcome ID | Learning outcome | Placement |
-| --- | --- | --- |
-| N13.1 · must-have | **AI inventory.** Maintaining the inventory of AI systems, agents, Skills and connectors | AI governance and risk |
-| N13.2 · must-have | **AI risk assessment.** Running AI risk assessment with thresholds and treatment | AI governance and risk |
-| N13.3 · must-have | **Autonomy policy.** Setting the autonomy policy per action class and the accountability that goes with it | AI governance and risk · Leadership and accountability |
-| N13.4 | **Third-party AI risk.** Managing third-party AI risk | AI governance and risk |
-| N13.5 | **Regulatory mapping.** Mapping the AI Act and the regional regulators' requirements to controls | AI governance and risk |
-| N13.6 | **Assurance evidence.** Producing the assurance evidence auditors and regulators ask for | AI governance and risk |
-
-### N14 — Transforming work and leading adoption
-
-**Content category: Generic.** Workflow redesign, supervision, value measurement, adoption and accountability apply to leaders and change roles in any function.
-
-| Outcome ID | Learning outcome | Placement |
-| --- | --- | --- |
-| N14.1 · must-have | **Who does what.** Deciding, workflow by workflow, what agents do and what people do, and how many agents a person supervises | Workflow transformation and adoption · Leadership and accountability |
-| N14.2 · must-have | **Workflow redesign.** Redesigning the workflow rather than bolting AI onto it | Workflow transformation and adoption · Leadership and accountability |
-| N14.3 · must-have | **Supervision model.** Designing the supervision model that N7 practises: approval gates, how output is presented for review, and the autonomy proposed for each action class on evidence from N11 | Workflow transformation and adoption · Leadership and accountability |
-| N14.4 · must-have | **Measuring value.** Measuring the value on evidence | Workflow transformation and adoption · Leadership and accountability |
-| N14.5 | **Running the change.** Running the change: a sandbox and protected time to experiment, a network of champions, Skills shared across teams, and a refresh cycle as tools change | Workflow transformation and adoption · Leadership and accountability |
-| N14.6 | **Keeping skills alive.** Keeping core skills alive and protecting the junior pipeline | Leadership and accountability |
-| N14.7 · must-have | **Accountability.** Setting who is accountable for each agent's outcomes | Leadership and accountability · Essential: for leadership responsibilities |
-
-### R1.1 — Agent incident response
-
-**Content category: Cyber-specific.** Responding to agent incidents, investigating compromise, containment, recovery and incident evidence are cyber operations responsibilities.
-
-| Outcome ID | Learning outcome | Placement |
-| --- | --- | --- |
-| R1.1.1 · must-have | **Agent incident playbooks.** Writing incident playbooks for three agent scenarios: the agent is wrong (it acted on a false conclusion, closed real alerts, changed the wrong thing); the agent is stopped (its identity expired, the provider is down, it ran out of compute) and its work must continue by hand; the agent is compromised (an attacker steered it through content it read). Plans name who can stop the agent (NCSC) | Agent incident response |
-| R1.1.2 · must-have | **Ways to stop an agent.** The ways to stop an agent and when to use each: revoke its identity or session token so it can no longer call any tool; disable only the tools or connectors it misuses while the rest keeps running; put it in observe-only mode, where it may analyse and recommend but is barred from acting; roll back what it changed using its action log | Agent incident response |
-| R1.1.3 · must-have | **Investigating a compromised agent.** Where the attack comes from: content the agent reads (logs, alerts, tickets, documents, emails, web pages) can carry instructions aimed at it, so the investigator looks for injection in those sources and cuts any that is poisoned. What the agent did: knowing, for each of the bank's agents, which records exist that the agent cannot write to and how to pull them fast (the platform's audit log of tool calls with arguments and times, gateway and network logs, logs of the systems it touched), then building the timeline from them, because a compromised agent's own summary can omit or misstate what it did | Agent incident response |
-| R1.1.4 | **Cleaning up.** Cleaning up after a manipulated agent: finding the injected content it acted on and removing it from the sources the agent reads; clearing anything it stored in its memory as a result; re-running the same injection against the agent before putting it back in service | Agent incident response |
-| R1.1.5 | **Operating without the agent.** The manual fallback for what the agent handled (triage queue, enrichment, first response), the staffing to sustain it for days, and the regular drill that proves it still works | Agent incident response |
-| R1.1.6 | **Reporting.** What regulators expect in an incident report when an agent caused or worsened the incident (DORA, HKMA, MAS), and which evidence to preserve for it | Agent incident response |
-
-### R1.2 — Agent forensics and evidence
-
-**Content category: Cyber-specific.** Forensic integrity, agent trace reconstruction and evidence handling require digital-forensics practice.
-
-| Outcome ID | Learning outcome | Placement |
-| --- | --- | --- |
-| R1.2.1 · must-have | **Recording the AI step.** Recording any AI step applied to evidence so it can be repeated and defended: the tool, model and version, the exact prompt and settings, the output, and who verified it. The original artefact stays the evidence; AI output is a derived analysis, never a substitute | Agent forensics and evidence |
-| R1.2.2 · must-have | **Forensic readiness for agents.** Defining what every agent must log (prompt and response, each tool call with its arguments, data retrieved, memory writes, approvals given), stored where the agent cannot alter it, time-synchronised and integrity-protected, retained long enough for an investigation (vendors default to 7 to 30 days), and tested by reconstructing a past incident from it | Agent forensics and evidence |
-| R1.2.3 | **Investigating an agent as suspect.** Rebuilding the agent's actions from its traces, finding the input that steered it, and attributing each action to the human it acted for or to the attacker | Agent forensics and evidence |
-
-### R3.1 — Agent red-teaming
-
-**Content category: Cyber-specific.** Adversarial testing of agents, attack methods and red-team programmes require security-testing expertise.
-
-| Outcome ID | Learning outcome | Placement |
-| --- | --- | --- |
-| R3.1.1 · must-have | **AI attack classes.** Direct prompt injection; indirect injection through content the agent reads (documents, web pages, tool results, emails); jailbreaks and guardrail evasion; data exfiltration through the agent's own tools; making the agent exceed its intended authority; tool poisoning (a malicious tool description) and rug pulls (a tool that changes after it was approved) | Agent testing and containment |
-| R3.1.2 · must-have | **Applying a structured testing method.** Apply a structured method to test an AI system or agent: define the scope and attack surface, choose relevant attack cases, execute repeatable tests, record evidence and report findings. Use suitable guidance such as the OWASP GenAI Red Teaming Guide, the CSA Agentic AI Red Teaming Guide or MITRE ATLAS; familiarity with every named publication is not required. | Agent testing and containment |
-| R3.1.3 · must-have | **Attacks across agents.** Compromising one agent to steer others, injecting into an orchestrator's plan, tampering with messages between agents | Advanced agent red-teaming · Essential: for multi-agent testing responsibilities |
-| R3.1.4 | **Attacks on model and platform.** Extracting the model or its instructions, poisoning the agent's memory, escaping the sandbox, timing side channels | Advanced agent red-teaming |
-| R3.1.5 | **Automated red-team programme.** Building and running automated red-team harnesses (PyRIT-class tooling) and a continuous programme that re-tests every agent when its model, tools or prompts change | Advanced agent red-teaming |
-
-### R3.2 — Testing-agent containment
-
-**Content category: Cyber-specific.** Containing offensive testing agents and validating exploit evidence are security-testing responsibilities.
-
-| Outcome ID | Learning outcome | Placement |
-| --- | --- | --- |
-| R3.2.1 · must-have | **Containment before a run.** A network segment from which the agent can reach only in-scope targets; egress allow-lists verified by test, not assumed; a fresh sandbox per run; credentials scoped to the engagement and expiring with it | Agent testing and containment |
-| R3.2.2 · must-have | **Monitoring during a run.** Watching the agent's actions out of band (not its reports); a named person with the authority and the means to kill the run within minutes; the triggers for doing so (an action outside scope, contact with a third party, a credential used elsewhere) | Agent testing and containment |
-| R3.2.3 | **Escape patterns.** The escape patterns seen in practice: attacking something else when the assigned target proves impossible, reading an ambiguous message as approval, creating accounts or identities, carrying on after the window closes, contacting real people | Agent testing and containment |
-| R3.2.4 · must-have | **Trajectory-level validation.** Validating findings from the transcript, not the summary: check that the evidence the agent cites exists (a 'successful login' that was a redirect, credentials that do not work), reproduce the exploit by hand before reporting, and treat the agent's self-assessment as untrusted | Agent testing and containment |
-| R3.2.5 | **Collateral findings.** A disclosure lane for what to do when the agent finds something outside the engagement | Agent testing and containment |
-
-### R4.1 — Agent exposure management
-
-**Content category: Cyber-specific.** Discovering and managing agent, connector and MCP exposures is vulnerability and exposure management.
-
-| Outcome ID | Learning outcome | Placement |
-| --- | --- | --- |
-| R4.1.1 · must-have | **Discovery.** Finding every MCP server and agent connector in the estate, including those developers run on their own workstations, by searching configuration files and by recognising the MCP protocol in network traffic | Agent exposure management |
-| R4.1.2 · must-have | **Inventory.** For each agent and tool server: its owner, version, the tools it exposes, the permissions it holds, the systems it reaches, and the guardrails around it | Agent exposure management |
-| R4.1.3 · must-have | **Verifying approved components and detecting changes.** Verify that an agent uses the approved versions of its tools, Skills and connectors, detect changes to their code or descriptions, and require review before changed components are trusted. Use suitable integrity and change-control mechanisms, such as version pinning, signatures or hashes; a particular hashing implementation is not required. | Agent exposure management |
-| R4.1.4 | **Scanning.** Running MCP and Skill scanners in the build pipeline and on a schedule for tool poisoning, instructions hidden in tool descriptions, servers exposed without authentication and credentials stored in plain text | Agent exposure management |
-| R4.1.5 | **AI bill of materials.** A bill of materials for AI components: which models, tools and Skills a system uses and where each came from | Agent exposure management |
-| R4.1.6 | **Vetting third parties.** Vetting third-party Skills and connectors before they are allowed in | Agent exposure management |
-
-### R4.2 — AI code-analysis engineering
-
-**Content category: Cyber-specific.** Building and validating vulnerability-finding code-analysis harnesses requires application-security knowledge as well as generic agent engineering.
-
-| Outcome ID | Learning outcome | Placement |
-| --- | --- | --- |
-| R4.2.1 | **Why set-up is the skill.** The same model finds under a tenth or over half of the vulnerabilities in a codebase depending on how it is given context and driven, and filters a third or almost all of a static analyser's false positives for the same reason | AI code-analysis engineering |
-| R4.2.2 · must-have | **Giving the model context.** Supplying the functions a target calls, type definitions, the data-flow path to the input and build information, using static and dynamic analysis tools to supply that context automatically | AI code-analysis engineering |
-| R4.2.3 | **Framework, model and method.** Choosing the agent framework and the model for the task, and driving the model through a structured method rather than letting it explore freely | AI code-analysis engineering |
-| R4.2.4 · must-have | **Confirming before reporting.** A proof of vulnerability (an input or exploit that demonstrates it in a sandbox), the same test against the patched and unpatched versions, and several runs with a majority verdict | AI code-analysis engineering |
-| R4.2.5 | **Reliability by vulnerability class.** Which classes models find well (memory safety, anything a fuzzer can reach) and which they over-report (documented behaviour reported as a bug, inflated severity, duplicates), and setting thresholds per class | AI code-analysis engineering |
-| R4.2.6 | **Deduplication and cost.** Removing duplicates (by stack trace or sanitiser signature) and keeping cost under control at scale | AI code-analysis engineering |
-| R4.2.7 · must-have | **Measuring the harness.** Measuring the harness on a corpus of known vulnerabilities before trusting it | AI code-analysis engineering |
-
-### R5.1 — Agent security architecture
+Action tiers, enforcement outside the model, the stop mechanism, the audit trail and the oversight interface
 
 **Content category: Cyber-specific.** Designing enforceable agent controls, protected audit trails and security reference architectures is security architecture work.
 
@@ -481,7 +532,35 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | R5.1.5 | **The oversight interface.** How an approval request is shown so a person can judge it (what will happen, in plain language, with the risk and the agent's confidence), limiting the volume of requests so approvers do not click through them, and what overseers must be trained on | Agent security architecture |
 | R5.1.6 | **Reference architectures.** Reference architectures for the bank's agent platforms and how the above is implemented on each | Agent security architecture |
 
-### R6.1 — Agent assurance
+#### Role 6: Governance, risk, compliance & assurance
+
+#### N11 — Evaluating agents and AI systems
+
+Designing the evaluation system for a domain or a vendor product
+
+**Content category: Generic.** Evaluation design, error analysis, vendor benchmarking and drift measurement apply across domains; test cases reflect the target work.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| N11.4 | **Benchmarking vendor AI.** Benchmarking vendor AI before purchase | L3 Expert — Build and evaluate agents · Vendor evaluation and tool selection |
+| N11.6 | **Evidence for decisions.** Feeding results into the evidence on which autonomy is proposed (N14) and vendor claims are judged | L3 Expert — Build and evaluate agents · Vendor evaluation and tool selection |
+#### N13 — AI governance and risk
+
+AI risk policy, assessment, third-party AI, regulation, assurance
+
+**Content category: Generic.** AI inventories, risk assessment, autonomy policy, third-party risk and assurance obligations apply across functions. Cyber control assurance is developed further in R6.1.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| N13.1 · must-have | **AI inventory.** Maintaining the inventory of AI systems, agents, Skills and connectors | AI governance and risk |
+| N13.2 · must-have | **AI risk assessment.** Running AI risk assessment with thresholds and treatment | AI governance and risk |
+| N13.3 · must-have | **Autonomy policy.** Setting the autonomy policy per action class and the accountability that goes with it | AI governance and risk · Leadership and accountability |
+| N13.4 | **Third-party AI risk.** Managing third-party AI risk | AI governance and risk |
+| N13.5 | **Regulatory mapping.** Mapping the AI Act and the regional regulators' requirements to controls | AI governance and risk |
+| N13.6 | **Assurance evidence.** Producing the assurance evidence auditors and regulators ask for | AI governance and risk |
+#### R6.1 — Agent assurance
+
+An audit opinion over controls that cannot be sampled
 
 **Content category: Cyber-specific.** Testing agent security controls and assuring the AI used for assessments requires cyber assurance expertise.
 
@@ -490,7 +569,14 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | R6.1.1 · must-have | **Agent control catalogue.** The control catalogue for agents and how to test each control: a distinct identity and permissions per agent, tool allow-lists, logging that the agent cannot alter, approval gates for high-impact actions, change control on prompts, tools and models | Agent assurance |
 | R6.1.2 · must-have | **Assuring assurance's own AI.** Documenting, validating and monitoring the AI used to produce assessments and gather evidence | Agent assurance · Essential: when assurance work itself uses ai |
 
-### R9.1 — Agent identity lifecycle
+#### Role 7: Security awareness & culture
+
+Reuses shared awareness and tooling; no separate responsibility package.
+#### Role 8: Identity & access management (IAM)
+
+#### R9.1 — Agent identity lifecycle
+
+From registration to revocation; Experts integrate it with IGA, PAM and SIEM and design break-glass
 
 **Content category: Cyber-specific.** Agent identity, delegated authority, access lifecycle, revocation and IGA/PAM/SIEM integration are IAM responsibilities.
 
@@ -506,6 +592,54 @@ The statements below are the current assessed outcomes from catalogue v11. Their
 | R9.1.8 | **Integration with IGA, PAM, SIEM.** Integrating the agent authorisation point with identity governance, privileged access and the SIEM: registration, scoped issuance, just-in-time grants, recertification and revocation signals flowing between them | Agent identity integration and design |
 | R9.1.9 | **Privileged access and break-glass.** Privileged access and break-glass for agents inside the existing privileged-access model | Agent identity integration and design |
 | R9.1.10 | **Audit trail and standards.** The audit trail regulators ask for (which agent, on whose behalf, which tools, what data, what reasoning) and the standards still being written (IETF agent identity, OpenID AuthZEN, MCP authorisation), so the design does not lock into one vendor's delegation model | Agent identity integration and design |
+
+#### Role 9: Leadership
+
+#### N11 — Evaluating agents and AI systems
+
+Designing the evaluation system for a domain or a vendor product
+
+**Content category: Generic.** Evaluation design, error analysis, vendor benchmarking and drift measurement apply across domains; test cases reflect the target work.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| N11.4 | **Benchmarking vendor AI.** Benchmarking vendor AI before purchase | L3 Expert — Build and evaluate agents · Vendor evaluation and tool selection |
+| N11.6 | **Evidence for decisions.** Feeding results into the evidence on which autonomy is proposed (N14) and vendor claims are judged | L3 Expert — Build and evaluate agents · Vendor evaluation and tool selection |
+#### N13 — AI governance and risk
+
+AI risk policy, assessment, third-party AI, regulation, assurance
+
+**Content category: Generic.** AI inventories, risk assessment, autonomy policy, third-party risk and assurance obligations apply across functions. Cyber control assurance is developed further in R6.1.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| N13.1 · must-have | **AI inventory.** Maintaining the inventory of AI systems, agents, Skills and connectors | AI governance and risk |
+| N13.2 · must-have | **AI risk assessment.** Running AI risk assessment with thresholds and treatment | AI governance and risk |
+| N13.3 · must-have | **Autonomy policy.** Setting the autonomy policy per action class and the accountability that goes with it | AI governance and risk · Leadership and accountability |
+| N13.4 | **Third-party AI risk.** Managing third-party AI risk | AI governance and risk |
+| N13.5 | **Regulatory mapping.** Mapping the AI Act and the regional regulators' requirements to controls | AI governance and risk |
+| N13.6 | **Assurance evidence.** Producing the assurance evidence auditors and regulators ask for | AI governance and risk |
+#### N14 — Transforming work and leading adoption
+
+Deciding what agents and people do, designing supervision, measuring value, leading the change
+
+**Content category: Generic.** Workflow redesign, supervision, value measurement, adoption and accountability apply to leaders and change roles in any function.
+
+| Outcome ID | Learning outcome | Placement |
+| --- | --- | --- |
+| N14.1 · must-have | **Who does what.** Deciding, workflow by workflow, what agents do and what people do, and how many agents a person supervises | Workflow transformation and adoption · Leadership and accountability |
+| N14.2 · must-have | **Workflow redesign.** Redesigning the workflow rather than bolting AI onto it | Workflow transformation and adoption · Leadership and accountability |
+| N14.3 · must-have | **Supervision model.** Designing the supervision model that N7 practises: approval gates, how output is presented for review, and the autonomy proposed for each action class on evidence from N11 | Workflow transformation and adoption · Leadership and accountability |
+| N14.4 · must-have | **Measuring value.** Measuring the value on evidence | Workflow transformation and adoption · Leadership and accountability |
+| N14.5 | **Running the change.** Running the change: a sandbox and protected time to experiment, a network of champions, Skills shared across teams, and a refresh cycle as tools change | Workflow transformation and adoption · Leadership and accountability |
+| N14.6 | **Keeping skills alive.** Keeping core skills alive and protecting the junior pipeline | Leadership and accountability |
+| N14.7 · must-have | **Accountability.** Setting who is accountable for each agent's outcomes | Leadership and accountability · Essential: for leadership responsibilities |
+
+
+
+### Tooling
+
+Tooling is configured by approved product and intended task: use, supervise, build or administer. Catalogue metadata does not create assessed outcome scores.
 
 ## Crosswalk and compatibility
 

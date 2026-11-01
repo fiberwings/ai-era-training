@@ -1,0 +1,164 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h25m
+Building Live Voice Agents with Google’s ADK
+Instructors
+:
+Lavi Nigam, Sita Lakshmi Sangameswaran
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Intermediate
+1h25m
+10 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Lavi Nigam, Sita Lakshmi Sangameswaran
+Google
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Build real-time voice agents with Google’s Agent Development Kit (ADK) that can carry natural, real-time conversations while connecting to external tools and data.
+Design multi-agent systems that use memory, tools, and orchestration patterns to coordinate specialized agents like planners, researchers, and writers.
+Take agents to production by adding guardrails, persistent memory, automated evaluations, and review methods for deploying on Google Cloud’s Vertex AI Agent Engine.
+About this course
+Join our new short course,
+Building Live Voice Agents with Google’s ADK
+! Learn from Lavi Nigam and Sita Lakshmi Sangameswaran, Machine Learning Engineers at Google.
+You’ll learn how to build and deploy AI agents with Google’s open source Agent Development Kit (ADK). ADK provides modular components such as models, tools, memory, and orchestration, that make it easier to create both simple and complex systems.
+You’ll start by building a voice agent that takes speech input, reasons with an LLM, and responds with voice output. Then you’ll work with sessions, state, and memory, and extend your agents with tools and APIs to perform real-world tasks.
+Next, you’ll add callbacks and guardrails for reliability and orchestrate specialized agents like planners and researchers. You’ll build a podcast agent that researches a topic, drafts a conversational script, and produces multi-speaker audio with Gemini text-to-speech models. Then, you’ll build in guardrails to secure and optimize your agents before reviewing methods for deploying them into production.
+In detail, you’ll:
+Build your first agent with ADK, connect it to Google Search, and test live voice interactions in the ADK Web UI.
+Use sessions, state, and memory to manage conversations, share context between tools, and give agents short-term tracking and long-term recall across interactions.
+Add custom tools and API, integrate them with ADK, and refine agent instructions so they follow defined workflows effectively.
+Generate structured research reports by defining schemas, rewriting agent instructions to act as a coordinator, and saving results as markdown files for downstream use.
+Add guardrails with callbacks to filter unsafe sources, enforce rules, and log tool activity, making your agents safer, more predictable, and production-ready.
+Build a podcast agent by combining schemas, callbacks, and a dedicated audio agent, and generate multi-speaker episodes with Gemini text-to-speech in a scalable workflow.
+Learn how to productionize your agents by giving them persistent memory, testing their reliability, deploying on Vertex AI, and adding security and monitoring for safe scaling.
+Who should join?
+This course is ideal for AI builders seeking to develop agents that extend beyond text. If you’re interested in building voice-based applications like a podcast, adding voice feedback to an agent, coordinating multiple agents, or building production-ready systems, this course will give you the hands-on foundation you need.
+Course Outline
+10
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+4m
+Running Voice Agents on DeepLearning.AI
+Reading
+・
+3m
+Build your first agent
+Video with Code Example
+・
+9m
+ADK primitives - Session, State, and Memory
+Video
+・
+3m
+Tools for your agent
+Video with Code Example
+・
+7m
+Adding a research agent
+Video with Code Example
+・
+5m
+Instruction tuning and guardrails
+Video with Code Example
+・
+11m
+Multi-agent orchestration
+Video with Code Example
+・
+8m
+Productionize your agent
+Video
+・
+13m
+Conclusion
+Video
+・
+1m
+Extra resources
+Reading
+・
+10m
+Quiz
+Graded
+・Quiz
+・
+8m
+Multi-agent orchestration
+Video
+・
+8m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Lavi Nigam
+Machine Learning Engineer at
+Google
+Sita Lakshmi Sangameswaran
+Machine Learning Engineer at
+Google
+Building Live Voice Agents with Google’s ADK
+Intermediate
+1h25m
+10 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Lavi Nigam, Sita Lakshmi Sangameswaran
+Google
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

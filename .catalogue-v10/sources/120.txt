@@ -1,0 +1,142 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h32m
+Large Language Models with Semantic Search
+Instructors
+:
+Jay Alammar, Luis Serrano
+Earn
+an accomplishment
+with
+PRO
+· Updated Aug 27, 2026
+Enroll for Free
+Beginner
+1h32m
+7 Video Lessons
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Aug 27, 2026
+Instructors: Jay Alammar, Luis Serrano
+Cohere
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Enhance keyword search using Cohere Rerank
+Use embeddings to leverage dense retrieval, a powerful NLP tool
+Evaluate your effectiveness for further optimization
+About this course
+Keyword search has been a common method for search for many years. But for content-rich websites like news media sites or online shopping platforms, the keyword search capability can be limiting. Incorporating large language models (LLMs) into your search can significantly enhance the user experience by allowing them to ask questions and find information in a much easier way.
+This course teaches the techniques needed to leverage LLMs into search.
+Throughout the lessons, you’ll explore key concepts like dense retrieval, which elevates the relevance of retrieved information, leading to improved search results beyond traditional keyword search, and reranking, which injects the intelligence of LLMs into your search system, making it faster and more effective.
+After completing the course, you will:
+Know how to implement basic keyword search, the underpinnings of many search systems before language models became accessible.
+Enhance keyword search with the rerank method, which ranks the best responses by relevance with the query.
+Implement dense retrieval through the use of embeddings, a powerful NLP tool, which uses the actual semantic meaning of the text to carry out search, and vastly improves results.
+Gain hands-on practice by working with large amounts of data and overcome challenges like varying search results and accuracy.
+Implement language model-powered search into your website or project.
+Who should join?
+Anyone who has basic familiarity with Python and wants to get a deeper understanding of key technical foundations of LLMs, and learn to use semantic search.
+Course Outline
+7
+Lessons・
+0
+Code Examples
+Important Note
+Reading
+・
+10m
+Introduction
+Video
+・
+4m
+Keyword Search
+Video
+・
+14m
+Embeddings
+Video
+・
+9m
+Dense Retrieval
+Video
+・
+20m
+ReRank
+Video
+・
+10m
+Generating Answers
+Video
+・
+12m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Jay Alammar
+Director and Engineering Fellow at
+Cohere
+and co-author of
+Hands-On Large Language Models
+Luis Serrano
+Lead of Developer Relations at Cohere
+Large Language Models with Semantic Search
+Beginner
+1h32m
+7 Video Lessons
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Aug 27, 2026
+Instructors: Jay Alammar, Luis Serrano
+Cohere
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about generative AI?
+Keep learning with updates on curated AI news, courses, events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

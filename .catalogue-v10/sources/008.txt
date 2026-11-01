@@ -1,0 +1,145 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h38m
+Fast & Efficient LLM Inference with vLLM
+Instructor
+:
+Cedric Clyburn
+Earn
+an accomplishment
+with
+PRO
+· Updated Jun 5, 2026
+Enroll Now
+Intermediate
+1h38m
+9 Video Lessons
+3 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jun 5, 2026
+Instructor: Cedric Clyburn
+Red Hat
+Learn more about
+Membership PRO Plan
+Enroll Now
+What you'll learn
+Apply quantization to shrink a model's memory footprint, then measure the accuracy tradeoff.
+Serve a model with vLLM and see how efficiently it handles many concurrent requests using techniques like continuous batching and PagedAttention.
+Benchmark your deployment and measure model quality so you can make informed tradeoffs between speed, cost, and accuracy.
+About this course
+Introducing Fast & Efficient LLM Inference with vLLM, a short course built in partnership with Red Hat and taught by Cedric Clyburn, Senior Developer Advocate at Red Hat.
+Serving open-source LLMs efficiently, for many users at low latency and reasonable cost, comes down mostly to memory management. Two things compete for that memory: the model weights and the KV cache. A 70-billion-parameter model takes around 140 GB of memory just for the weights, while the KV cache grows with every request you serve. In this course, you'll learn to shrink the weights through quantization, and serve the model with vLLM, the widely adopted open-source serving system, taking advantage of the memory management techniques it provides like PagedAttention and prefix caching.
+You'll run the full optimize-deploy-benchmark workflow on a real model: compressing an open-source Qwen model with LLM Compressor, serving it with vLLM, and benchmarking your deployment under realistic traffic using GuideLLM and lm-eval.
+In detail, you'll:
+Understand why efficient LLM deployment matters, what happens during inference, what the KV cache is, and how the GPU memory hierarchy shapes performance.
+Explore LLM optimization fundamentals and how compression techniques like weight and activation quantization enhance a model’s throughput and latency while preserving accuracy.
+Use LLM Compressor to quantize a full-precision model, compare its size before and after, and use perplexity to measure whether the compressed model still performs well.
+Learn the three core techniques behind modern LLM serving: continuous batching to keep the GPU busy, PagedAttention to manage the KV cache without waste, and prefix caching to skip recomputation when requests share content.
+Connect to a vLLM inference server, send requests through the OpenAI-compatible API, and watch vLLM’s memory management techniques  working live in the metrics.
+Benchmark your deployment under load with GuideLLM and evaluate model quality with lm-eval.
+By the end, you'll have run the full optimize-deploy-benchmark workflow on a real model and built the intuition to navigate the tradeoffs between accuracy, speed, and cost.
+Who should join?
+ML engineers, platform engineers, and developers who need to deploy open-source LLMs efficiently. Familiarity with Python and basic LLM concepts (tokens, inference, GPU usage) is recommended.
+Course Outline
+9
+Lessons・
+3
+Code Examples
+Introduction
+Video
+・
+3m
+Why Efficient LLM Deployment Matters
+Video
+・
+6m
+Inference & Memory Fundamentals
+Video
+・
+14m
+LLM Optimization Fundamentals
+Video
+・
+14m
+Optimizing a Model with LLM Compressor
+Video with Code Example
+・
+10m
+Serving LLMs Efficiently with vLLM - Part I
+Video
+・
+10m
+Serving LLMs Efficiently with vLLM – Part II
+Video with Code Example
+・
+7m
+Measuring What Matters: Benchmarking and Evaluation
+Video with Code Example
+・
+15m
+Conclusion: Putting it All Together
+Video
+・
+4m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Cedric Clyburn
+Senior Developer Advocate at Red Hat
+Fast & Efficient LLM Inference with vLLM
+Intermediate
+1h38m
+9 Video Lessons
+3 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jun 5, 2026
+Instructor: Cedric Clyburn
+Red Hat
+Learn more about
+Membership PRO Plan
+Enroll Now
+Additional learning features, such as quizzes and projects, are included with DeepLearning.AI Pro. Explore it today
+Enroll Now
+Want to learn more about AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew Ng’s thoughts from DeepLearning.AI!
+Enroll Now
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

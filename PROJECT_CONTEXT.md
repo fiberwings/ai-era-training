@@ -1,6 +1,18 @@
 # AI era cyber training planner project context
 
-Last updated: 18 October 2026. This is the local project handover and record of the user's agreed scope. The working app and operational instructions are in [training-planner/README.md](training-planner/README.md).
+Last updated: 31 October 2026. This is the local project handover and record of the user's agreed scope. The working planner and operational instructions are in [training-planner/README.md](training-planner/README.md); the learner companion is documented in [learning-path/README.md](learning-path/README.md).
+
+## Learner companion — 30 October 2026
+
+The user approved a separate self-contained HTML learner application suitable for GitHub Pages. The delivered source and distribution are in `learning-path/`; `index.html` is the only runtime file. Planner behavior and catalog evidence are unchanged; the learner app adds shared role-to-responsibility metadata. The app imports shared applicability, scoring, duration and scenario-validation modules at build time, preserving all 528 offerings and every numeric score/evidence note in its embedded snapshot.
+
+User-facing language is **learning group**, not cohort. The main experience is four learning layers with central recommendations grouped by model role and responsibility, clearly distinguished personal additions, catalog search and comparison, commitments, progress and course ratings. Coverage is secondary: a collapsed side panel with Foundation, L1/L2/L3, specialist and tool rows, central/selected/completed modes, and need evidence details. A work goal and four practical checks suggest a starting level that the learner explicitly confirms; they do not waive essential learning or certify competence. The current central recommendation remains labelled Draft, and Proposed internal sessions remain unavailable for commitment.
+
+Learner data is browser-local with JSON backup/restore, CSV export and print. New central releases preserve personal choices and history and prompt review. Administration is a local utility for scenario previews and feedback review, not an authenticated central service. GitHub Pages hosting has not been enabled or changed by this implementation.
+
+The user confirmed that no Microsoft feedback form exists yet and requested a configurable connection. Administration accepts a prefilled Forms URL template; the learner enters feedback in the app, opens a prefilled form, and submits there. The app records local preparation and user-reported submission separately from verified receipt. Raw Forms exports can be imported as CSV or converted from XLSX with the included Python standard-library script. Administrators review response counts, difficulty, time and comments before producing a privacy-minimised aggregate or revising central selections in the existing builder. Feedback never overwrites syllabus scores or learner commitments. Real-tenant sign-in and final form delivery remain unverified until a form is connected.
+
+Build with `node learning-path/scripts/build.mjs`; test with `npm test` from `learning-path/` and `python3 -m unittest discover -s learning-path/tests -p 'test_*.py'`. See the learner guide for publishing inputs, setup instructions and feedback schemas.
 
 ## Purpose and business context
 
@@ -15,10 +27,10 @@ The agreed approach is to optimise course combinations for coverage under editab
 ## Source material and authority
 
 - [Agentic-Era_Workforce_Capability_Model.md](Agentic-Era_Workforce_Capability_Model.md): This is the authoritative source for the description of the model, all the other artifacts needs to stay coherent to this. Any discrepancy should be flagged for review and correction proposed.
-- [AI_Era_Cyber_Training_Catalogue_v11.xlsx](AI_Era_Cyber_Training_Catalogue_v11.xlsx): current catalogue, including the approved must-have review. [V10 is archived](catalogue-archive/AI_Era_Cyber_Training_Catalogue_v10.xlsx). It retains the 104 DeepLearning.AI additions and the corporate-scope exclusion of TR-127. Unchanged outcome evidence is preserved.
+- [AI_Era_Cyber_Training_Catalogue_v12.xlsx](AI_Era_Cyber_Training_Catalogue_v12.xlsx): current catalogue, including the approved must-have review and 31 October Anthropic course reassessments. V11 remains at its original root path for traceability. [V10 is archived](catalogue-archive/AI_Era_Cyber_Training_Catalogue_v10.xlsx). It retains the 104 DeepLearning.AI additions and the corporate-scope exclusion of TR-127. Unchanged outcome evidence is preserved.
 - Import the workbook's Offers, Tool track, Needs, Rubric, Scores, Scoring guide and Build items sheets. Preserve stable IDs, evidence notes, original duration text, links and sheet/row references.
 - Do not use the outdated Matrix as the curriculum authority. Preserve historical workbooks and unchanged assessment evidence. Substantive outcome revisions require documented reassessment. The capability model is v2 revision 3; prior documents are preserved in model-history/.
-- Current v11 snapshot: 528 resources (411 Offers and 117 Tool track entries), 140 active outcomes, 57,260 numeric scores and 280 explicitly unassessed rows. Version `6f245643cc5bf083`; workbook SHA-256 `bcd2a5400a708d32fec79cf22c97840c5d131de1405e7a6c2ce97cec2e686e09`. TR-017 and TR-045 remain unassessed. N5.2 is retained as a retired workbook record and mapped to N5.1; N5.8 is a new ID.
+- Current v12 snapshot: 528 resources (411 Offers and 117 Tool track entries), 140 active outcomes, 57,260 numeric scores and 280 explicitly unassessed rows. Version `6db669ed065cab54`; workbook SHA-256 `6abef4de79f652a227984bdb67624cebd81ff96a656d33d8414c099ff49ef87c`. TR-017 and TR-045 remain unassessed. N5.2 is retained as a retired workbook record and mapped to N5.1; N5.8 is a new ID.
 - Unassessed resources remain visible. Tool-track metadata must not be turned into invented requirement scores.
 
 ## Approved must-have review — current revision, 18 October 2026
@@ -225,7 +237,7 @@ Verification: JavaScript syntax and four standalone-packaging tests passed. An i
 
 ## Planner release identity — 18 October 2026
 
-The first numbered planner distribution was **1.0.0**. The current distribution is **1.1.1**, released **2026-10-18**, with catalogue v11 and annual plan v3. `training-planner/public/release.js` is the single source for both fields. For each future distributed change to the app, catalogue or default proposal, increment this release version and set the release date before running `python scripts/build_standalone.py`. Rebuilding unchanged content retains the same release identity. This version is independent of catalogue, capability model and scenario schema versions.
+The first numbered planner distribution was **1.0.0**. At this 18 October checkpoint the distribution was **1.1.1**, released **2026-10-18**, with catalogue v11 and annual plan v3. `training-planner/public/release.js` is the single source for both fields. For each future distributed change to the app, catalogue or default proposal, increment this release version and set the release date before running `python scripts/build_standalone.py`. Rebuilding unchanged content retains the same release identity. This version is independent of catalogue, capability model and scenario schema versions.
 
 Every view and presentation mode shows a release strip, the browser title includes the version, and the print header includes version/date. Offline copies explicitly ask users to compare with the latest shared release; no network update check or expiry is implied. The README documents the release process and scenario-backup instructions. Syntax and four packaging checks passed; browser verification confirmed the standalone release strip, title, print-header text and presentation visibility without console errors.
 
@@ -238,3 +250,67 @@ All 28 JavaScript and 13 Python checks pass. The v11 workbook has 461,493 recalc
 The user rejected a full social-engineering course for Foundation as excessive. INT-2787 is removed from Foundation in all recommended/adapted plans and excluded from automatic Foundation recommendations, including the diagnostic benchmark. The catalogue and its assessment evidence are unchanged; this is curriculum suitability, not a score change. Previously saved Foundation plans selecting it show a warning requiring removal before finalisation.
 
 Annual plan v3 now has planRevision 2; planner release is 1.1.1. Foundation assigns INT-437 alone (1h45) within a 2h course budget. IH-F03 includes a 10-minute social-engineering/deepfake awareness segment within its existing one hour, emphasising recognition, trusted-channel verification and escalation. N5.8 remains the separate risk overview and N5.4 bank attack examples. Foundation total is 6h30, down from 8h33: each recommended pathway saves 2h03 of inherited course time. Internal time is unchanged and unscored. Earlier v3 artifacts are preserved in `analysis/2027-training-plan/archive/v3-before-foundation-simplification-20261018/`; 119 annual archive hashes now verify. All 92 profile calculations are rebuilt.
+
+### Learner path layers and model roles (30 October 2026)
+
+The standalone companion is release 1.2.0. Learners compose Foundation + one confirmed L1/L2/L3 level + one or more of the model’s nine roles and selected responsibilities + one or more tools. ROLE_FAMILIES supplies the exact role names/order; ROLE_RESPONSIBILITIES in shared model-explanation.js maps all 17 stable package IDs. IAM is eighth and Leadership ninth. Selecting a role reveals responsibility checkboxes without assigning them all. Role 7 reuses shared AI-risk/tool learning without an invented package.
+
+Recommendations are grouped by role and responsibility. Matching-level central selections are preferred; relevant other-level specialist selections remain as “Central role option,” naming source/level and prompting prerequisite checks, without importing higher-level shared curriculum. Cross-level options are unchecked by default in the bulk-review dialog. Automated judges and AI-assisted assurance are explicit learner Yes/No answers controlling only the existing conditional essential outcomes.
+
+Saved profiles now use pathVersion 3, role IDs, per-role responsibilities, explicit activity answers, and the flat package list as a derived compatibility representation. Older profiles retain commitments and all completion/feedback context. Unambiguous mappings are preselected; ambiguous governance/vendor packages retain their full learning scope in a visible pending section until assigned to Governance and/or Leadership. The outer backup schema and storage key remain compatible. Catalog assessments, central plan selections, model substance, Foundation/level/tool behavior and Microsoft Forms configuration are unchanged.
+
+Verification: 51 learner-app JavaScript, 3 feedback-converter and 28 builder tests pass, including exact assessment parity, role/conditional scope, migration preservation and deduplication. Local HTTP browser QA checks migration, role editing, role recommendations, search, coverage, awareness-role reuse, onboarding and mobile/desktop presentation. Single-file HTML regenerated; no hosting publication or source-plan edits.
+
+
+### Learner capability alignment corrections (31 October 2026)
+
+Release 1.3.0 separates the target work level from quiz-based starting guidance: a novice targeting L3 keeps all L3 outcomes and central options, with earlier practice sequenced first. Existing confirmed levels remain unchanged; a different previously saved work goal prompts explicit review. Course step badges retain the central source level. Specialist reuse of shared IDs such as N11.4/N11.6 no longer incorrectly labels an L1 vendor-evaluation path as L3 in search, detail, comparison or coverage.
+
+Tools now require explicit per-product task choices (use, supervise, build, administer). Reviewed task metadata is separate from catalog assessments; uncertain offerings remain searchable without becoming tailored suggestions. Migrated profiles ask for these tasks without removing existing courses.
+
+Path version 4 adds toolUses, centralScope and targetReview. Central scope snapshots preserve effective outcome additions/removals from the assigned source, including ancestor customizations, without importing overrides from unrelated recommendation sources. Revisions are shown for explicit review; missing sources retain saved scope. The optional profile selector is collapsible. Scope choices append history; all commitments, dates, notes, completion context, ratings, feedback context and Forms configuration stay intact. Outer backup schema and storage key remain unchanged.
+
+Verification: 65 learner JavaScript tests, 3 feedback-converter tests and 28 builder tests. Browser QA covers older-profile migration with three saved learning items, novice L3 target vs L1 start, task-specific suggestions, custom central import and scope review, corrected specialist labels, and desktop/mobile layouts. Single-file HTML rebuilt; no source catalog assessment changes or publication.
+
+
+### Planner component paths — 31 October 2026
+
+Planner 2.0.0 adds schema-3 components/audiences while retaining schema-1/2 planning in a legacy workspace. New plans start blank: Foundation, three shared levels, 17 responsibility packages and 19 audience templates. Existing selections and internal commitments are not migrated or cleared. Tooling is explicitly configured by approved product and intended task. The old annual default JSON and learner companion remain unchanged.
+
+Planner 2.0.1 restores the previous visual design in the component workspace: numbered navigation, coverage cards and progress bars, course cards, compact scenario menu and presentation mode. The complete single-page capability-model explanation is shared by both workspaces through `public/capability-view.js`; preserve its full narrative as well as the grouped outcome reference. The standalone was rebuilt and browser-checked, with 42 JavaScript tests and five packaging checks passing. This follow-up changes presentation, not catalogue evidence or planning calculations.
+
+`components.js` owns composition, validation, dependency invalidation, variants and explainable suggestions; `component-ui.js` owns the new interface; `legacy-app.js` retains the previous interface. `presentation.js` and category names in capability-model.js provide the shared grouping used by the generated model and planner. The current worktree's ROLE_RESPONSIBILITIES additions are preserved. Detailed coverage exposes every outcome, evidence, internal brief and ceiling; exports include source identity. Category cross-references never add scoring weight. No coverage-based finalisation gate is added.
+
+Catalogue v11 remains 6f245643cc5bf083, with unchanged source hash bcd2a5400a708d32fec79cf22c97840c5d131de1405e7a6c2ce97cec2e686e09 and 9,453 independently reconciled workbook coverage rows. The component starter has a separate build script/data file so learner builds retain their existing default scenario. Schema-3 exports require the new planner and are not supported by the current learner companion. Annual reports and archives are not regenerated.
+
+
+## Internal training gap coverage — planner 2.0.2, 31 October 2026
+
+The user requested that custom/internal training contribute to gap coverage. Both workspaces now distinguish planned coverage from assessed catalogue coverage. Every linked internal outcome represents full intended teaching coverage and counts immediately, including Proposed/In development items; status remains delivery readiness. Add/edit/remove recalculates planned totals and remaining plan gaps, including dependent paths and need percentages, with shared outcomes counted once and equal-need weighting retained. Existing linked items count on load. Source catalogue scores and optimiser evidence calculations remain unchanged. Coverage exports include planned scores and gaps, and print includes planned totals. This supersedes earlier statements that internal training contributes only time when describing planned coverage; assessed coverage remains catalogue evidence only.
+
+
+## Catalogue search — planner 2.0.3, 31 October 2026
+
+Catalogue search now uses a shared case-insensitive word matcher over course title, provider, description, ID and tool metadata. Leading/trailing whitespace is ignored and multiple terms can span fields. Full catalogue navigation clears the previous gap restriction; full catalogue searches are not restricted to the selected tooling product. Component search replaces only the results so focus and typing remain stable. Both workspaces have an expanding search field. Anthropic returns 18 matching resources, including provider-only and description-only matches. The standalone is rebuilt as 2.0.3.
+
+
+## Internal outcome selection — planner 2.0.4, 31 October 2026
+
+The internal-learning brief now uses a shared grouped outcome picker in both workspaces. Outcomes are grouped under the 23 learning needs, with need-level checkboxes and partial-selection states. Text search matches need titles, outcome IDs/titles and descriptions. Scope filters show the current component/cohort (default), remaining plan gaps, all outcomes or selected outcomes. Bulk selection and clearing affect only shown rows; hidden selections are explicitly counted and retained on save. The saved internal-item format and coverage calculation are unchanged. Component brief metadata now uses a compact two-column layout.
+
+
+## Changed-input review removal — planner 2.0.5, 31 October 2026
+
+At the user’s request, both planner workspaces no longer create or act on changed-input review flags. The planning-input warning, audience review-required badges and selection-review recording dialogs are removed. Existing saved flags and notes are inert and do not block finalisation. Shared edits still recalculate coverage and learner time for every dependent path, and stale recommendation metadata is discarded. Catalogue/model identity and unresolved-reference checks remain. This supersedes earlier references to mandatory selection review after planning changes. The component starter and standalone HTML are regenerated; the source catalogue, annual scenarios and learner-specific target/scope review workflow are unchanged.
+
+
+## Anthropic catalogue review — 31 October 2026
+
+Catalogue v12 (31 October 2026) reassesses two Anthropic courses using public lessons and exercises. TR-145 is a 3.5h Foundation AI-limitations course with L1 practice (N3 76%, N6 54%). TR-089 is a 4h L1 AI-fluency course with supporting Foundation content (N6 67%); its four core N6 outcomes have full teaching and practice. These aggregate bands remain Partial. Other courses and the 140-outcome rubric are unchanged. Previous static analyses retain their original catalogue snapshots.
+
+Planner 2.0.6 and learner companion 1.3.1 embed v12. Only the catalogue, apps and their maintenance documentation are refreshed; prior static analyses and annual-report packs are unchanged. The bundled app scenario keeps its selected courses and budgets. Review decisions and native-workbook checks are in `.catalogue-v12/`.
+
+
+## Structured course details — planner 2.0.8, 31 October 2026
+
+Both planner workspaces now use `public/course-details.js`. Preserve the structured header, overview, commitment/access facts, current-scope fit, limitations, grouped outcome evidence and sources/history. Course evidence includes explicit zero scores and clearly distinguishes missing/unassessed records. Default evidence to the effective current component or legacy learning-group scope, including conditional must-have applicability; All outcomes retains every active outcome without assigning out-of-scope must-have flags. Additional coverage uses the existing assessed scorer; internal teaching remains separate. Budget totals use current full-course hours, overrides, unresolved-time checks and existing shared-course deduplication. Historical audits must be labelled as historical, with later outcome evidence taking precedence. The course dialog has a fixed header/footer and responsive evidence rows. Preview and estimate actions use the existing workspace handlers; finalised plans expose no editing actions. The standalone artifact embeds the shared module. This change does not alter the catalogue, scores, scenarios or learner app.

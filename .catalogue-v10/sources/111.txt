@@ -1,0 +1,133 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h32m
+Reinforcement Learning From Human Feedback
+Instructor
+:
+Nikita Namjoshi
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Intermediate
+1h32m
+6 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Nikita Namjoshi
+Google Cloud
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Get a conceptual understanding of Reinforcement Learning from Human Feedback (RLHF), as well as the datasets needed for this technique
+Fine-tune the Llama 2 model using RLHF with the open source Google Cloud Pipeline Components Library
+Evaluate tuned model performance against the base model with evaluation methods
+About this course
+Large language models (LLMs) are trained on human-generated text, but additional methods are needed to align an LLM with human values and preferences.
+Reinforcement Learning from Human Feedback (RLHF) is currently the main method for aligning LLMs with human values and preferences. RLHF is also used for further tuning a base LLM to align with values and preferences that are specific to your use case.
+In this course, you will gain a conceptual understanding of the RLHF training process, and then practice applying RLHF to tune an LLM. You will:
+Explore the two datasets that are used in RLHF training: the “preference” and “prompt” datasets.
+Use the open source Google Cloud Pipeline Components Library, to fine-tune the Llama 2 model with RLHF.
+Assess the tuned LLM against the original base model by comparing loss curves and using the “Side-by-Side (SxS)” method.
+Who should join?
+Anyone with intermediate Python knowledge who’s interested in learning about using the Reinforcement Learning from Human Feedback technique.
+Course Outline
+6
+Lessons・
+4
+Code Examples
+Introduction
+Video
+・
+4m
+How does RLHF work
+Video
+・
+11m
+Datasets for RL training
+Video with Code Example
+・
+9m
+Tune an LLM with RLHF
+Video with Code Example
+・
+24m
+Evaluate the tuned model
+Video with Code Example
+・
+22m
+Google Cloud Setup
+Code Example
+・
+10m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Nikita Namjoshi
+Developer Advocate at
+Google Cloud
+Reinforcement Learning From Human Feedback
+Intermediate
+1h32m
+6 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Nikita Namjoshi
+Google Cloud
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

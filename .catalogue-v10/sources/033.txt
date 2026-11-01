@@ -1,0 +1,444 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+13h18m
+Generative AI with Large Language Models
+Instructors
+:
+Antje Barth, Chris Fregly, Shelbee Eigenbrode, Mike Chambers
+Earn
+a certificate
+with
+PRO
+· Updated Jul 17, 2026
+Enroll now
+Also available on
+Coursera
+Intermediate
+13h18m
+47 Video Lessons
+3 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Antje Barth, Chris Fregly, Shelbee Eigenbrode, Mike Chambers
+AWS
+Learn more about
+Membership PRO Plan
+Enroll now
+Also available on
+Coursera
+What you’ll get from Generative AI with LLMs
+Gain foundational knowledge, practical skills, and a functional understanding of how generative AI works
+Dive into the latest research on Gen AI to understand how companies are creating value with cutting-edge technology
+Instruction from expert AWS AI practitioners who actively build and deploy AI in business use-cases today
+What you’ll do in Generative AI with LLMs
+Deeply understand generative AI, describing the key steps in a typical LLM-based generative AI lifecycle, from data gathering and model selection, to performance evaluation and deployment
+Describe in detail the transformer architecture that powers LLMs, how they’re trained, and how fine-tuning enables LLMs to be adapted to a variety of specific use cases
+Use empirical scaling laws to optimize the model’s objective function across dataset size, compute budget, and inference requirements
+Apply state-of-the art training, tuning, inference, tools, and deployment methods to maximize the performance of models within the specific constraints of your project
+Discuss the challenges and opportunities that generative AI creates for businesses after hearing stories from industry researchers and practitioners
+Receive a Coursera certificate demonstrating your skills upon completion of the course
+In partnership with
+We worked with AWS to develop a world-class AI course on large language models. Our instructors, with their extensive expertise in AI and machine learning, offer practical knowledge drawn from real-world experience that can be applied to your projects and career.
+Who should join?
+For data scientists: Gain deeper knowledge into the underlying structure and mechanisms of generative AI and explore avenues for further innovations in this field.
+For machine learning engineers: Learn how to better train, optimize and fine tune generative models while learning about different use cases and applications.
+For prompt engineers: Explore advanced prompting techniques and learn how to control your output using generative configuration parameters.
+For research engineers: Explore the state of art generative models and architectures in depth to build on top of with your own advanced techniques in generative AI.
+For anyone interested in generative AI: Get an extensive introduction to developing with generative AI and its fundamentals.
+Course Outline
+Generative AI with Large Language Models
+Week 1: Generative AI use cases, project lifecycle, and model pre-training
+Course Introduction
+Video
+・
+6m
+Contributor Acknowledgments
+Reading
+・
+10m
+Introduction - Week 1
+Video
+・
+5m
+Generative AI & LLMs
+Video
+・
+4m
+Join the DeepLearning.AI Forum to ask questions, get support, or share amazing ideas!
+Reading
+・
+10m
+LLM use cases and tasks
+Video
+・
+2m
+Text generation before transformers
+Video
+・
+2m
+Transformers architecture
+Video
+・
+7m
+Generating text with transformers
+Video
+・
+5m
+Transformers: Attention is all you need
+Reading
+・
+10m
+Prompting and prompt engineering
+Video
+・
+5m
+Generative configuration
+Video
+・
+7m
+Generative AI project lifecycle
+Video
+・
+4m
+[IMPORTANT] About the labs in this course
+Reading
+・
+5m
+Lab 1 walkthrough
+Video
+・
+13m
+Lab 1 - Generative AI Use Case: Summarize Dialogue
+Code Example
+・
+1h
+Pre-training large language models
+Video
+・
+9m
+Computational challenges of training LLMs
+Video
+・
+10m
+Optional video: Efficient multi-GPU compute strategies
+Video
+・
+8m
+Scaling laws and compute-optimal models
+Video
+・
+8m
+Pre-training for domain adaptation
+Video
+・
+5m
+Domain-specific training: BloombergGPT
+Reading
+・
+10m
+Week 1 quiz
+Graded
+・Quiz
+・
+1h
+Week 1 resources
+Reading
+・
+10m
+Lecture Notes Week 1
+Reading
+・
+1m
+Week 2: Fine-tuning and evaluating large language models
+Introduction - Week 2
+Video
+・
+4m
+Instruction fine-tuning
+Video
+・
+7m
+Fine-tuning on a single task
+Video
+・
+3m
+Multi-task instruction fine-tuning
+Video
+・
+8m
+Scaling instruct models
+Reading
+・
+10m
+Model evaluation
+Video
+・
+10m
+Benchmarks
+Video
+・
+5m
+Parameter efficient fine-tuning (PEFT)
+Video
+・
+4m
+PEFT techniques 1: LoRA
+Video
+・
+8m
+PEFT techniques 2: Soft prompts
+Video
+・
+7m
+Lab 2 walkthrough
+Video
+・
+15m
+Lab 2 - Fine-tune a generative AI model for dialogue summarization
+Code Example
+・
+1h
+Week 2 quiz
+Graded
+・Quiz
+・
+1h
+Week 2 Resources
+Reading
+・
+10m
+Lecture Notes Week 2
+Reading
+・
+1m
+Week 3: Reinforcement learning and LLM-powered applications
+Introduction - Week 3
+Video
+・
+4m
+Aligning models with human values
+Video
+・
+3m
+Reinforcement learning from human feedback (RLHF)
+Video
+・
+8m
+RLHF: Obtaining feedback from humans
+Video
+・
+6m
+RLHF: Reward model
+Video
+・
+2m
+RLHF: Fine-tuning with reinforcement learning
+Video
+・
+3m
+Optional video: Proximal policy optimization
+Video
+・
+13m
+RLHF: Reward hacking
+Video
+・
+6m
+KL divergence
+Reading
+・
+10m
+Scaling human feedback
+Video
+・
+5m
+Lab 3 walkthrough
+Video
+・
+18m
+[IMPORTANT] Reminder about end of access to Lab Notebooks
+Reading
+・
+2m
+Lab 3 - Fine-tune FLAN-T5 with reinforcement learning to generate more-positive summaries
+Code Example
+・
+1h
+Model optimizations for deployment
+Video
+・
+7m
+Generative AI Project Lifecycle Cheat Sheet
+Video
+・
+2m
+Using the LLM in applications
+Video
+・
+9m
+Interacting with external applications
+Video
+・
+4m
+Helping LLMs reason and plan with chain-of-thought
+Video
+・
+5m
+Program-aided language models (PAL)
+Video
+・
+7m
+ReAct: Combining reasoning and action
+Video
+・
+9m
+ReAct: Reasoning and action
+Reading
+・
+10m
+LLM application architectures
+Video
+・
+5m
+Optional video: AWS Sagemaker JumpStart
+Video
+・
+5m
+Week 3 Quiz
+Graded
+・Quiz
+・
+1h
+Week 3 resources
+Reading
+・
+10m
+Responsible AI
+Video
+・
+9m
+Course conclusion
+Video
+・
+3m
+Lecture Notes Week 3
+Reading
+・
+1m
+Acknowledgments
+Reading
+・
+1m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Antje Barth
+Principal Developer Advocate, Generative AI, Amazon Web Services (AWS)
+Chris Fregly
+Principal Solutions Architect, Generative AI, Amazon Web Services (AWS)
+Shelbee Eigenbrode
+Principal Solutions Architect, Generative AI, Amazon Web Services (AWS)
+Mike Chambers
+Developer Advocate for Generative AI at AWS, Co-instructor of Generative AI with Large Language Models
+What do I need to succeed in this course?
+This is an intermediate course, so you should have some experience coding in Python to get the most out of it. You should also be familiar with the basics of machine learning, such as supervised and unsupervised learning, loss functions, and splitting data into training, validation, and test sets. If you have taken the
+Machine Learning Specialization
+or
+Deep Learning Specialization
+, you’ll be ready to take this course and dive deeper into the fundamentals of generative AI.
+What Learners From Previous Courses Say About DeepLearning.AI
+Jan Zawadzki
+“Within a few minutes and a couple slides, I had the feeling that I could learn any concept. I felt like a superhero after this course. I didn’t know much about deep learning before, but I felt like I gained a strong foothold afterward.”
+View More
+Kritika Jalan
+“The whole specialization was like a one-stop-shop for me to decode neural networks and understand the math and logic behind every variation of it. I can say neural networks are less of a black box for a lot of us after taking the course.”
+View More
+Chris Morrow – Deep Learning Specialization
+“During my Amazon interview, I was able to describe, in detail, how a prediction model works, how to select the data, how to train the model, and the use cases in which this model could add value to the customer.”
+View More
+Previous slide
+Next slide
+Learner Reviews
+close
+Frequently Asked Questions
+Why should I take this course?
+Developers who have a good foundational understanding of how LLMs work, as well the best practices behind training and deploying them, will be able to make good decisions for their companies and more quickly build working prototypes. This course will support learners in building practical intuition about how to best utilize this exciting new technology.
+I don’t have any programming experience, can I take this course?
+We recommend starting with a beginner course such as Machine Learning Specialization.
+I already have Python experience, is this course for me?
+Yes! This course is perfect for anyone with a background in Python ready to dive deeper into large language models and generative AI.
+I have questions about my subscription of this course, whom can I ask?
+Please use the
+Learner Help Center
+for questions about your subscription.
+How much does the course cost?
+A Coursera subscription costs $49 / month.
+Can I apply for financial aid?
+Yes, Coursera provides financial aid to learners who cannot afford the fee.
+Can I preview the course?
+> Yes! You can preview the course for free by accessing the entire first module at no cost. This allows you to explore the learning experience before deciding if you’d like to continue. If you want full access to all modules, assessments, and the certificate of completion, you’ll need to upgrade to the paid version.
+Will I receive a certificate at the end of the course?
+You will receive a certificate at the end of each course if you pay for the course and complete the programming assignments. There is a limit of 180 days of certificate eligibility, after which you must re-purchase the course to obtain a certificate. If you audit the course for free, you will not receive a certificate.
+I want to purchase this course for my employees. How can I do that?
+Visit coursera.org/business for more information, to pick up a plan, and to contact Coursera. For each plan, you decide the number of courses every member can enroll in and the collection of courses they can choose from.
+How do I get a receipt to get this reimbursed by my employer?
+Go to your Coursera account.
+Click on My Purchases and find the relevant course or Specialization.
+Click Email Receipt and wait up to 24 hours to receive the receipt.
+You can read more about it
+here
+.
+Generative AI with Large Language Models
+Intermediate
+13h18m
+47 Video Lessons
+3 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Antje Barth, Chris Fregly, Shelbee Eigenbrode, Mike Chambers
+AWS
+Learn more about
+Membership PRO Plan
+Enroll now
+Also available on
+Coursera
+Join today and be on the forefront of the next generation of AI!
+Enroll Now
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll now
+Also available on
+Coursera
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

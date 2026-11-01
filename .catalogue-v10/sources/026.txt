@@ -1,0 +1,146 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h24m
+Semantic Caching for AI Agents
+Instructors
+:
+Tyler Hutcherson, Iliya Zhechev
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Intermediate
+1h24m
+7 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Tyler Hutcherson, Iliya Zhechev
+Redis
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Understand how semantic caching reduces inference cost and latency by reusing model responses based on meaning instead of exact text.
+Evaluate cache performance with metrics like hit rate, precision, and latency, and enhance it using techniques such as cross-encoders and LLM validation.
+Build a faster AI agent by integrating semantic caching, minimize redundant calls, and deliver faster responses as the cache warms up.
+About this course
+Join our new short course, Semantic Caching for AI Agents! Learn from Tyler Hutcherson, Applied AI Engineering Lead, and Iliya Zhechev, Senior Research Engineer at Redis.
+In this course, you’ll build a semantic cache that makes your AI agents faster and more cost-effective by recognizing when different questions mean the same thing. For example, when someone asks “How do I get a refund?” and another asks “I want my money back,” your cache will reuse the answer instead of making another API call, reducing the need for redundant model calls.
+In detail, you’ll learn to:
+Build your first semantic cache from scratch
+– Build a working cache to see how each component works, then implement it using Redis’ open source tools.
+Measure cache effectiveness with key metrics
+– Track cache hit rate, precision, recall, and latency to understand your cache’s real impact.
+Enhance cache accuracy with advanced techniques
+– Use threshold tuning, cross-encoders, LLM validation, and fuzzy matching to make your cache more effective.
+Build a fast AI agent with semantic caching
+– Integrate semantic caching into an AI agent that reuses results, skips redundant work, and gets faster over time.
+Start building AI agents that respond faster and cost less to run.
+Who should join?
+Developers and ML engineers familiar with Python, embeddings, and basic LLM applications who want to optimize their AI systems’ latency and cost. Experience with basic caching concepts is helpful but not required.
+Course Outline
+7
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+3m
+Overview of Semantic Caching
+Video
+・
+9m
+Build Your First Semantic Cache
+Video with Code Example
+・
+10m
+Measuring Cache Effectiveness
+Video with Code Example
+・
+13m
+Enhancing Cache Effectiveness
+Video with Code Example
+・
+12m
+Fast AI Agent with Semantic Cache
+Video with Code Example
+・
+16m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+9m
+OPTIONAL: Project
+Code Example
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Tyler Hutcherson
+Applied AI Engineering, Manager at
+Redis
+Iliya Zhechev
+Senior Research Engineer at
+Redis
+Semantic Caching for AI Agents
+Intermediate
+1h24m
+7 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Tyler Hutcherson, Iliya Zhechev
+Redis
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

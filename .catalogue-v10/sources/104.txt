@@ -1,0 +1,147 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+2h4m
+Knowledge Graphs for RAG
+Instructor
+:
+Andreas Kollegger
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Intermediate
+2h4m
+9 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Andreas Kollegger
+Neo4j
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Use Neo4j’s query language Cypher to manage and retrieve data stored in knowledge graphs.
+Write knowledge graph queries that find and format text data to provide more relevant context to LLMs for Retrieval Augmented Generation.
+Build a question-answering system using Neo4j and LangChain to chat with a knowledge graph of structured text documents.
+About this course
+Knowledge graphs are used in development to structure complex data relationships, drive intelligent search functionality, and build powerful AI applications that can reason over different data types. Knowledge graphs can connect data from both structured and unstructured sources (databases, documents, etc.), providing an intuitive and flexible way to model complex, real-world scenarios.
+Unlike tables or simple lists, knowledge graphs can capture the meaning and context behind the data, allowing you to uncover insights and connections that would be difficult to find with conventional databases. This rich, structured context is ideal for improving the output of large language models (LLMs), because you can build more relevant context for the model than with semantic search alone.
+This course will teach you how to leverage knowledge graphs within retrieval augmented generation (RAG) applications. You’ll learn to:
+Understand the basics of how knowledge graphs store data by using nodes to represent entities and edges to represent relationships between nodes.
+Use Neo4j’s query language, Cypher, to retrieve information from a fun graph of movie and actor data.
+Add a vector index to a knowledge graph to represent unstructured text data and find relevant texts using vector similarity search.
+Build a knowledge graph of text documents from scratch, using publicly available financial and investment documents as the demo use case
+Explore advanced techniques for connecting multiple knowledge graphs and using complex queries for comprehensive data retrieval.
+Write advanced Cypher queries to retrieve relevant information from the graph and format it for inclusion in your prompt to an LLM.
+After course completion, you’ll be well-equipped to use knowledge graphs to uncover deeper insights in your data, and enhance the performance of LLMs with structured, relevant context.
+Who should join?
+Anyone who wants to understand how knowledge graphs work, how to build with them, and create better RAG applications. We recommend familiarity with LangChain or taking
+LangChain: Chat with Your Data
+prior to this course.
+Course Outline
+9
+Lessons・
+6
+Code Examples
+Introduction
+Video
+・
+5m
+Knowledge Graph Fundamentals
+Video
+・
+6m
+Querying Knowledge Graphs
+Video with Code Example
+・
+19m
+Preparing Text for RAG
+Video with Code Example
+・
+7m
+Constructing a Knowledge Graph from Text Documents
+Video with Code Example
+・
+16m
+Adding Relationships to the SEC Knowledge Graph
+Video with Code Example
+・
+17m
+Expanding the SEC Knowledge Graph
+Video with Code Example
+・
+17m
+Chatting with the Knowledge Graph
+Video with Code Example
+・
+23m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Andreas Kollegger
+Lead for GenAI Innovation at
+Neo4j
+Knowledge Graphs for RAG
+Intermediate
+2h4m
+9 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Andreas Kollegger
+Neo4j
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

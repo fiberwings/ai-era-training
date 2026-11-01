@@ -1,0 +1,273 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+7h4m
+AI Prompting for Everyone
+Instructor
+:
+Andrew Ng
+DeepLearning.AI
+Earn
+a certificate
+with
+PRO
+· Updated Jul 24, 2026
+Enroll Now
+Beginner
+7h4m
+21 Video Lessons
+3 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 24, 2026
+Instructor: Andrew Ng
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Whatever your current skill level, this course will help you become an AI power user
+Find information: Get accurate, well-sourced answers using AI web search and deep research modes.
+Brainstorm & Write: Use AI as a thought partner to get honest feedback and write natural-sounding text.
+Create & Build: Generate images and build simple websites and apps with no coding required.
+Why Enroll
+How we prompt AI models today is very different from when ChatGPT first came out in 2022. As these tools have become more capable, the people who know how to use them well are getting significantly more done. Whatever your current skill level, these videos are designed to help you get a lot more out of AI in your daily work and life.
+Taught by AI pioneer Andrew Ng, you’ll learn how to effectively use modern AI for the main things people use it for: finding information, brainstorming and writing, and working with multimedia and code.
+Here’s what you’ll learn:
+Finding Information:
+The more you understand how AI models find and use information, the better you’ll get at knowing what to ask and how. You’ll learn what’s already baked into a model’s knowledge, when to use web search, and when deep research mode is the right tool for the job.
+AI as a Thought Partner:
+You’ll learn how to give AI the right context so it understands what you need, how to brainstorm more effectively, and how to get AI to push back honestly rather than just tell you what you want to hear. You’ll also learn how to write with AI efficiently, without the output sounding like a robot.
+Working with Multimedia and Code:
+You’ll explore using images in your prompts, generating visuals, and building simple games, websites, and apps with AI. No coding experience needed. Along the way you’ll encounter flying squirrels, a creativity test, some of Andrew’s old family photos, and fireworks.
+Who should join?
+Anyone who uses AI tools like ChatGPT, Claude or Gemini in their daily work or personal life and wants to get meaningfully better results. No technical background required.
+This course is a great next step if you’ve already taken
+Generative AI for Everyone
+or
+ChatGPT Prompt Engineering for Developers
+, but there are absolutely no prerequisites to jump right in.
+Course Outline
+AI Prompting for Everyone
+Module 1: Finding Information
+The AI novice and the AI power user
+Video
+・
+9m
+Pretrained knowledge
+Video
+・
+6m
+Web search
+Video
+・
+5m
+Web search sources
+Video
+・
+8m
+Using deep research
+Video
+・
+8m
+Lab overview: AI model prompt comparison
+Video
+・
+4m
+Join the DeepLearning.AI Forum!
+Reading
+・
+2m
+AI model prompt comparison
+Code Example
+・
+1h
+Module 1 Quiz
+Graded
+・Quiz
+・
+10m
+Module 1 Resources
+Reading
+・
+1m
+Module 2: AI as a Thought Partner
+Brainstorming with AI
+Video
+・
+9m
+Context
+Video
+・
+6m
+AI desktop apps
+Video
+・
+6m
+Reasoning with AI
+Video
+・
+7m
+Sycophancy
+Video
+・
+5m
+Writing with AI
+Video
+・
+7m
+AI critique
+Video
+・
+9m
+Lab overview: Brainstorming and critique with AI
+Video
+・
+4m
+Brainstorming and critique with AI
+Code Example
+・
+1h
+Module 2 Quiz
+Graded
+・Quiz
+・
+10m
+Module 2 Resources
+Reading
+・
+1m
+Module 3: Working with Multimedia & Code
+Working with multimedia data
+Video
+・
+10m
+Image understanding
+Video
+・
+4m
+Image generation
+Video
+・
+8m
+Building apps
+Video
+・
+5m
+Data analysis
+Video
+・
+8m
+Lab overview: Building with AI and final project
+Video
+・
+9m
+Building with AI
+Code Example
+・
+1h
+Final project
+Code Example
+・
+1h
+Module 3 Quiz
+Graded
+・Quiz
+・
+10m
+Module 3 Resources
+Reading
+・
+1m
+Conclusion
+Video
+・
+1m
+Acknowledgements
+Reading
+・
+1m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Andrew Ng
+Founder, DeepLearning.AI; Co-founder, Coursera
+What Learners From Previous Courses Say About DeepLearning.AI
+Jan Zawadzki
+“Within a few minutes and a couple slides, I had the feeling that I could learn any concept. I felt like a superhero after this course. I didn’t know much about deep learning before, but I felt like I gained a strong foothold afterward.”
+View More
+Kritika Jalan
+“The whole specialization was like a one-stop-shop for me to decode neural networks and understand the math and logic behind every variation of it. I can say neural networks are less of a black box for a lot of us after taking the course.”
+View More
+Chris Morrow – Deep Learning Specialization
+“During my Amazon interview, I was able to describe, in detail, how a prediction model works, how to select the data, how to train the model, and the use cases in which this model could add value to the customer.”
+View More
+Previous slide
+Next slide
+Learner Reviews
+close
+Frequently Asked Questions
+I don’t have any programming experience, can I take this course?
+Of course! This course is for anyone who wants to improve their prompting skills, regardless of their technical background.
+I have questions about my DeepLearning.AI Pro subscription, whom can I ask?
+Please send an email to
+[email protected]
+to receive assistance.
+How much does a Pro membership cost?
+The DeepLearning.AI Pro membership costs $25/mo billed annually and $30/mo billed monthly.
+More pricing details are available on the
+membership page
+.
+Important details:
+All prices are listed in USD
+Payments are processed securely via Stripe
+Taxes may apply depending on your location
+Will I receive a certificate at the end of the course?
+Yes! You’ll earn a certificate upon completing the course, recognizing your skills in AI prompting.
+AI Prompting for Everyone
+Beginner
+7h4m
+21 Video Lessons
+3 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 24, 2026
+Instructor: Andrew Ng
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Join today and be on the forefront of the next generation of AI!
+Enroll Now
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll Now
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

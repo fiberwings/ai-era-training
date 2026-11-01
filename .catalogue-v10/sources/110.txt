@@ -1,0 +1,133 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h2m
+Advanced Retrieval for AI with Chroma
+Instructor
+:
+Anton Troynikov
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Intermediate
+1h2m
+7 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Anton Troynikov
+Chroma
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn to recognize when queries are producing poor results.
+Learn to use a large language model (LLM) to improve your queries.
+Learn to fine-tune your embeddings with user feedback.
+About this course
+Information Retrieval (IR) and Retrieval Augmented Generation (RAG) are only effective if the information retrieved from a database as a result of a query is relevant to the query and its application.
+Too often, queries return semantically similar results but don’t answer the question posed. They may also return irrelevant material which can distract the LLM from the correct results.
+This course teaches advanced retrieval techniques to improve the relevancy of retrieved results.
+The techniques covered include:
+Query Expansion: Expanding user queries improves information retrieval by including related concepts and keywords. Utilizing an LLM makes this traditional technique even more effective. Another form of expansion has the LLM suggest a possible answer to the query which is then included in the query.
+Cross-encoder reranking: Reranking retrieval results to select the results most relevant to your query improves your results.
+Training and utilizing Embedding Adapters: Adding an adapter layer to reshape embeddings can improve retrieval by emphasizing elements relevant to your application.
+Who should join?
+Anyone who has intermediate Python knowledge and wants to learn advanced retrieval techniques for retrieving data from their vector database.
+Course Outline
+7
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+3m
+Overview of embeddings-based retrieval
+Video with Code Example
+・
+12m
+Pitfalls of retrieval - when simple vector search fails
+Video with Code Example
+・
+11m
+Query Expansion
+Video with Code Example
+・
+9m
+Cross-encoder re-ranking
+Video with Code Example
+・
+6m
+Embedding adaptors
+Video with Code Example
+・
+8m
+Other Techniques
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Anton Troynikov
+Co-founder, Chroma
+Advanced Retrieval for AI with Chroma
+Intermediate
+1h2m
+7 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Anton Troynikov
+Chroma
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

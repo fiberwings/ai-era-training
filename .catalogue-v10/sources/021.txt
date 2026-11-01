@@ -1,0 +1,182 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h
+Build with Andrew
+Instructor
+:
+Andrew Ng
+DeepLearning.AI
+Earn
+a certificate
+with
+PRO
+· Updated Jul 17, 2026
+Enroll Now
+Beginner
+1h
+5 Video Lessons
+2 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Andrew Ng
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+What you'll learn
+Build working web applications by prompting AI tools with no coding required
+Refine and improve your apps by working with AI to make changes and solve problems
+Apply the same framework to create any type of application, from games to work tools
+Why Enroll?
+If you’ve never written code before, this course is for you. In less than 30 minutes, you’ll learn to describe an idea in words and let AI transform it into an app for you.
+You’ll build a working web application in minutes: A funny interactive birthday message generator that runs in your browser and can be shared with friends. Then you’ll customize it by telling AI how you want it changed, tweaking it until it works exactly how you want. You’ll learn about best practices for building with AI, such as how to improve your app step-by-step and fix problems when they come up.
+In this course, you’ll learn to:
+Build web applications through prompting: Build interactive tools by describing what you want and collaborating with AI to create working applications—no coding experience required.
+Customize and troubleshoot AI-generated apps: Customize features like input fields, buttons, and color schemes through hands-on collaboration with AI, learning to troubleshoot and improve as you go.
+Learn a repeatable framework you can apply to any app idea by practicing with different examples—from fun projects like a ping pong game to practical tools like time-off request forms.
+This course assumes no prior knowledge of AI or coding. You’ll build a birthday card app, customize it with additional features, then use the same framework to build a table tennis game. By the end, you’ll be an AI builder with a framework for building any application you can imagine.
+If you’re already comfortable with AI or coding, you may recognize how powerful this shift is. And you might know people who don’t yet realize they can build things themselves,
+like your friends, parents, coworkers, or roommates
+who have ideas but think “building apps is too hard.”
+This course is for them. Feel free to share it!
+You’ll earn a certificate upon completing the course!
+Course Outline
+5
+Lessons・
+0
+Code Examples
+Creating an app with AI
+Video
+・
+2m
+Telling AI what you want
+Video
+・
+10m
+Telling AI what you want [chatbot]
+Reading with AI Assistant
+・
+5m
+Download and open your app
+Reading
+・
+2m
+Customize your app
+Video
+・
+6m
+Customize your app [chatbot]
+Reading with AI Assistant
+・
+5m
+Now you can build more apps
+Video
+・
+2m
+Now you can build more apps [chatbot]
+Reading with AI Assistant
+・
+5m
+You're a builder now!
+Video
+・
+3m
+Build your final project [chatbot]
+Reading with AI Assistant
+・
+15m
+Submit your final project
+Graded
+・Code Assignment
+・
+2m
+Course Quiz
+Graded
+・Quiz
+・
+10m
+More DLAI courses to try!
+Reading
+・
+2m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Andrew Ng
+Founder, DeepLearning.AI; Co-founder, Coursera
+Who this course is for
+Anyone who has never written code before but wants to build applications by partnering with AI.
+People intrigued by building with AI or vibe coding but unsure where to start.
+Hands-on learners who want to build something real and shareable within 30 minutes.
+Frequently Asked Questions
+What additional features do I get with the DeepLearning.AI Pro membership for this course?
+With a Pro membership, you’ll unlock features that support hands-on, practical learning:
+Access to quizzes and interactive labs within this course
+A certificate of completion upon finishing the course
+The ability to save your progress and resume anytime
+Access to related learning tracks in the professional certificate series
+Practice projects that help you apply what you’ve learned
+Community support and a global network of peers
+Weekly updates on new AI tools and techniques
+If you choose to audit the course for free, you’ll still be able to watch the course videos and participate in the community forum, but you won’t have access to assessments, certificates, or project tools.
+Can I take this course at my own pace?
+Yes, the course is designed to be self-paced.
+How much does the DeepLearning.AI Pro membership cost?
+The DeepLearning.AI Pro membership costs $25/mo billed annually and $30/mo billed monthly.
+More pricing details are available on the
+membership page
+.
+Important details:
+All prices are listed in USD
+Payments are processed securely via Stripe
+Taxes may apply depending on your location
+Will I receive a certificate when I complete the course?
+Yes, if you’re enrolled through the DeepLearning.AI Pro membership and complete the required assessments, you’ll receive a certificate upon completion. If you’re auditing the course for free, a certificate will not be provided.
+Build with Andrew
+Beginner
+1h
+5 Video Lessons
+2 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Andrew Ng
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Stay up to date with AI news!
+Keep learning with updates on curated news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll Now
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -1,0 +1,158 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h16m
+Attention in Transformers: Concepts and Code in PyTorch
+Instructor
+:
+Josh Starmer
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Beginner
+1h16m
+11 Video Lessons
+3 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Josh Starmer
+StatQuest
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn how the attention mechanism in LLMs helps convert base token embeddings into rich context-aware embeddings.
+Understand the Query, Key, and Value matrices, what they are for, how to produce them, and how to use them in attention.
+Learn the difference between self-attention, masked self-attention, and cross-attention, and how multi-head attention scales the algorithm.
+About this course
+This course
+clearly explains
+the ideas behind the attention mechanism. It walks through the algorithm itself and how to code it in Pytorch.
+Attention in Transformers: Concepts and Code in PyTorch
+, was built in collaboration with StatQuest, and taught by its Founder and CEO, Josh Starmer.
+The attention mechanism was a breakthrough that led to transformers, the architecture powering large language models like ChatGPT. Transformers, introduced in the 2017 paper “Attention is All You Need” by Ashish Vaswani and others, revolutionized AI with their scalable design.
+Learn how this foundational architecture works to improve your intuition about building reliable, functional, and scalable AI applications.
+What you’ll do:
+Understand the evolution of the attention mechanism, a key breakthrough that led to transformers.
+Learn the relationships between word embeddings, positional embeddings, and attention.
+Learn about the Query, Key, and Value matrices, how to produce them, and how to use them in attention.
+Go through the math required to calculate self-attention and masked self-attention to learn how and why the equation works the way it does.
+Understand the difference between self-attention and masked self-attention, and how one is used in the encoder to build context-aware embeddings and the other is used in the decoder for generative outputs.
+Learn the details of the encoder-decoder architecture, cross-attention, and multi-head attention, and how they are incorporated into a transformer.
+Use PyTorch to code a class that implements self-attention, masked self-attention, and multi-head attention.
+Who should join?
+Anyone who has basic Python knowledge and wants to learn how the attention mechanism in LLMs like ChatGPT works.
+Course Outline
+11
+Lessons・
+3
+Code Examples
+Introduction
+Video
+・
+6m
+The Main Ideas Behind Transformers and Attention
+Video
+・
+4m
+The Matrix Math for Calculating Self-Attention
+Video
+・
+11m
+Coding Self-Attention in PyTorch
+Video with Code Example
+・
+8m
+Self-Attention vs Masked Self-Attention
+Video
+・
+14m
+The Matrix Math for Calculating Masked Self-Attention
+Video
+・
+3m
+Coding Masked Self-Attention in PyTorch
+Video with Code Example
+・
+5m
+Encoder-Decoder Attention
+Video
+・
+4m
+Multi-Head Attention
+Video
+・
+2m
+Coding Encoder-Decoder Attention and Multi-Head Attention in PyTorch
+Video with Code Example
+・
+4m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Josh Starmer
+Founder and CEO of
+StatQuest
+Attention in Transformers: Concepts and Code in PyTorch
+Beginner
+1h16m
+11 Video Lessons
+3 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Josh Starmer
+StatQuest
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

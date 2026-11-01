@@ -1,0 +1,147 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h59m
+Building and Evaluating Data Agents
+Instructors
+:
+Anupam Datta, Josh Reini
+Earn
+an accomplishment
+with
+PRO
+· Updated Aug 31, 2026
+Enroll for Free
+Intermediate
+1h59m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Aug 31, 2026
+Instructors: Anupam Datta, Josh Reini
+Snowflake
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Build a data agent using a multi-agent workflow: design a planner, a plan executor, and specialized sub-agents to connect to data sources.
+Trace and evaluate: measure the quality of the agent’s final answer, and the alignment of the agent’s goal, plan, and action.
+Improve the agent’s performance: update the agent’s prompt, and add inline evaluations that the agent can use during runtime to adjust its plan.
+About this course
+Learn how to build and evaluate a data agent in “Building and Evaluating Data Agents,” a course created in collaboration with Snowflake, and taught by Anupam Datta, AI Research Lead, and Josha Reini, Developer Advocate at Snowflake.
+You’ll design a data agent that connects to data sources (databases, files) and performs web searches to respond to users’ queries. The agent will consist of sub-agents, each specialized in connecting to a particular data source, and other sub-agents that summarize or visualize the results. To answer a particular query, the agent will use a planner that identifies which sub-agents to call and in what order.
+You’ll add observability to the agent’s workflow and evaluate the quality of its output. Using an LLM-as-a-judge approach, you’ll assess whether the final answer is relevant to the user’s query and grounded in the collected data. You’ll also evaluate the process by determining whether the agent’s goal, plan, and actions (GPA) are all aligned.
+Finally, you’ll apply inline evaluations to evaluate the agent’s performance during runtime. At every retrieval step, you’ll evaluate if the collected data is relevant to the user’s query. The agent will use this evaluation score to decide if it needs to adjust its plan.
+What you’ll do, in detail:
+Understand what data agents are and how they can be trustworthy when their goal, plan, and actions are properly aligned.
+Build a data agent that plans, performs web searches ,and visualizes or summarizes the results, using a multi-agent workflow implemented in LangGraph.
+Expand the agent’s capabilities by adding a Cortex sub-agent that retrieves information from structured and unstructured data stored in Snowflake.
+Add tracing to the agent’s workflow to log the steps it takes to answer a query.
+Evaluate the context relevance of the retrieved results, the groundedness of the final answer, and its relevance to the user’s query.
+Measure the alignment of the agent’s goal, plan, and actions (GPA) by computing metrics such as plan quality, plan adherence, logical consistenc,y and execution efficiency.
+Improve the agent’s performance by adding inline evaluations and updating the agent’s prompt..
+By the end, you’ll know how to build, trace, and evaluate a multi-agent workflow that plans tasks, pulls context from structured and unstructured data, performs web search, and summarizes or visualizes the final results.
+Who should join?
+This course is ideal for AI builders who want to build and evaluate intelligent agents that can autonomously extract, analyze, and provide insights from various data sources. Basic knowledge of Python and object-oriented programming is recommended.
+Course Outline
+8
+Lessons・
+5
+Code Examples
+Building and Evaluating Data Agents
+Video
+・
+4m
+What is a Data Agent?
+Video
+・
+13m
+Construct a Multi-Agent Workflow
+Video with Code Example
+・
+22m
+Expand Data Agent Capabilities
+Video with Code Example
+・
+12m
+Observe Agent Performance
+Video with Code Example
+・
+16m
+Measure Agent’s GPA
+Video with Code Example
+・
+29m
+Improve Agent's GPA
+Video with Code Example
+・
+9m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Anupam Datta
+AI Research Lead at
+Snowflake
+Josh Reini
+Developer Advocate at
+Snowflake
+Building and Evaluating Data Agents
+Intermediate
+1h59m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Aug 31, 2026
+Instructors: Anupam Datta, Josh Reini
+Snowflake
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

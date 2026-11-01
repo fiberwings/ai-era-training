@@ -1,0 +1,136 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h1m
+Building Multimodal Data Pipelines
+Instructor
+:
+Gilberto Hernandez
+Earn
+an accomplishment
+with
+PRO
+· Updated May 5, 2026
+Enroll Now
+Intermediate
+1h1m
+7 Video Lessons
+3 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated May 5, 2026
+Instructor: Gilberto Hernandez
+Snowflake
+Learn more about
+Membership PRO Plan
+Enroll Now
+What you'll learn
+Extract structured, queryable information from unstructured images, audio, and video using OCR, Automatic Speech Recognition (ASR), and Vision Language Models (VLMs).
+Build a VLM-backed pipeline that reasons across video frames to generate timestamped scene descriptions and track events over time.
+Implement a multimodal RAG application on a real-world dataset, taking raw images, audio, and video into a fully queryable interface with grounded, cited answers.
+About this course
+Images, audio, and video make up a growing share of the data companies generate today, but most pipelines are still built for structured data alone. This course teaches you to build AI-powered pipelines that process multimodal data and turn it into LLM-ready text.
+You’ll start with the foundations: using ASR to extract transcripts from audio and turning images into LLM-ready text descriptions. From there, you’ll see how Vision Language Models generate descriptions from video segments, capturing not just what’s visible in a single frame, but what unfolds across a scene over time. You’ll then apply these skills to implement a multimodal RAG pipeline that searches across slides, audio, and video from meetings to answer questions about their content. By combining all three modalities, you give LLMs the rich context they need to deliver detailed answers across complex, real-world content.
+In detail, you’ll:
+Survey the multimodal data landscape, the unique challenges each data type presents, and the techniques that transform unstructured content into searchable text.
+Apply OCR and ASR to convert images and audio into structured text, then embed them into a unified vector space for cross-modal semantic search.
+Prompt Vision Language Models effectively, and choose the right frame sampling and embedding strategy for video.
+Run a Vision Language Model on meeting videos to generate timestamped segment descriptions, then embed them alongside audio and slides for unified semantic, and time-based search.
+Build a multimodal RAG system that retrieves across audio, slides, and video to generate grounded, cited answers from meeting recordings.
+Every technique you’ll learn serves the same goal data engineers have always had: take messy, unstructured data and turn it into something you can query, analyze, and build on.
+Who should join?
+Data engineers and ML practitioners who want to extend their pipelines beyond structured data to handle images, audio, and video. Familiarity with Python, SQL queries and basic data engineering concepts is recommended.
+Course Outline
+7
+Lessons・
+3
+Code Examples
+Introduction
+Video
+・
+2m
+Multimodal Data Overview
+Video
+・
+7m
+Automatic Transcription, OCR, and Semantic Search
+Video with Code Example
+・
+16m
+Processing Video with a VLM
+Video
+・
+7m
+Building a VLM‐Backed Pipeline
+Video with Code Example
+・
+8m
+Multimodal RAG System
+Video with Code Example
+・
+9m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Gilberto Hernandez
+Lead Developer Advocate at
+Snowflake
+Building Multimodal Data Pipelines
+Intermediate
+1h1m
+7 Video Lessons
+3 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated May 5, 2026
+Instructor: Gilberto Hernandez
+Snowflake
+Learn more about
+Membership PRO Plan
+Enroll Now
+Additional learning features, such as quizzes and projects, are included with DeepLearning.AI Pro. Explore it today
+Enroll Now
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll Now
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

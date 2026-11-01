@@ -1,0 +1,1796 @@
+[
+  {
+    "number": 1,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Data-pipeline and AWS engineering foundations belong to core professional craft (N0); no direct agentic workforce outcome justifies adding the full certificate.",
+    "id": ""
+  },
+  {
+    "number": 2,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N2.4": 2,
+      "N4.1": 2,
+      "N4.2": 2,
+      "N10.3": 2,
+      "N10.5": 2
+    },
+    "note": "Local-memory labs cover capture, retrieval, filtering and deletion across text, voice and images. Useful architecture elective; device-local storage does not establish the bank's approved platform or complete security controls.",
+    "id": "TR-176"
+  },
+  {
+    "number": 3,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N2.5": 2,
+      "N8.1": 2,
+      "N8.2": 2,
+      "N10.3": 2,
+      "N10.7": 2,
+      "R4.2.2": 2
+    },
+    "note": "Trajectory-to-skill learning includes human approval; code-graph labs retrieve imports, function calls and co-edits. Useful for Skills and code-context infrastructure; no complete Skill testing standard, owned library lifecycle or vulnerability-proof harness.",
+    "id": "TR-177"
+  },
+  {
+    "number": 4,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.1": 2,
+      "N2.3": 2,
+      "N2.4": 2,
+      "N4.1": 2,
+      "N6.1": 2,
+      "N6.2": 2,
+      "N6.5": 2,
+      "N10.2": 2,
+      "N10.4": 2,
+      "N10.5": 2
+    },
+    "note": "Rebuilds the same app with cloud, cheaper subagent, hybrid and local models and compares cost and speed. Video-led workflow demonstrations; Python and terminal experience required. Corporate platform approval and residency decisions remain internal.",
+    "id": "TR-178"
+  },
+  {
+    "number": 5,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N1.1": 2,
+      "N2.3": 2,
+      "N6.2": 2,
+      "N6.3": 2,
+      "N10.2": 2,
+      "N10.3": 2,
+      "R4.2.1": 2,
+      "R4.2.2": 2,
+      "R4.2.3": 2
+    },
+    "note": "Context-engine and specialized-review-agent labs compare repository-aware review with diff-only review and triage findings. Directly relevant to application-security harness builders; no exploit reproduction, patched/unpatched tests, per-class reliability or known-vulnerability benchmark is evidenced.",
+    "id": "TR-179"
+  },
+  {
+    "number": 6,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N2.5": 2,
+      "N10.1": 2,
+      "N10.2": 1,
+      "N10.4": 2
+    },
+    "note": "Inference hardware comparisons, latency-sensitive multi-tool labs and coding validation habits support builder performance choices. Cerebras implementation elective, not a complete model-routing or safety course.",
+    "id": "TR-180"
+  },
+  {
+    "number": 7,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N2.5": 2,
+      "N9.2": 2,
+      "N9.3": 2,
+      "N9.4": 2,
+      "N10.1": 2,
+      "N10.4": 2,
+      "N11.1": 2
+    },
+    "note": "Three voice integration labs and voice-call evaluation teach tool integration, failure detection and regression checks. Optional voice-agent specialism; outbound calling demonstrations do not establish bank permissions or customer-contact controls.",
+    "id": "TR-181"
+  },
+  {
+    "number": 8,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N10.4": 2,
+      "N10.5": 2,
+      "N11.1": 2,
+      "N11.4": 2
+    },
+    "note": "Quantize, serve and benchmark a model with vLLM, GuideLLM and lm-eval, measuring accuracy, throughput and latency. Platform-engineering elective; benchmark execution is partial evidence for procurement evaluation and does not teach data residency.",
+    "id": "TR-182"
+  },
+  {
+    "number": 9,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N2.4": 2,
+      "N6.2": 2,
+      "N8.1": 2,
+      "N9.3": 2,
+      "N10.1": 2,
+      "N11.3": 1
+    },
+    "note": "Image/video agents use generate-evaluate-iterate loops, similarity measures, judges and rubrics, then package a skill. Transferable evaluation and workflow example; media production is secondary, and judges are not shown validated against human labels.",
+    "id": "TR-183"
+  },
+  {
+    "number": 10,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N3.1": 2,
+      "N3.3": 2,
+      "N3.4": 3,
+      "N10.3": 2,
+      "N10.4": 2
+    },
+    "note": "Sampling visualizations explain variable output; grounding and production modules address hallucinations, context, caching and inference tradeoffs. Technical foundation for builders, with graded labs; not a full model-selection or agent-control course.",
+    "id": "TR-184"
+  },
+  {
+    "number": 11,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.3": 2,
+      "N2.5": 2,
+      "N10.1": 2,
+      "R5.1.5": 2
+    },
+    "note": "React/AG-UI labs create controlled, declarative and open interfaces plus a shared-state canvas and MCP Apps. Useful for human-agent interface builders; explicit risk presentation, approval fatigue and supervisory training are not covered in full.",
+    "id": "TR-185"
+  },
+  {
+    "number": 12,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.1": 2,
+      "N2.2": 2,
+      "N3.1": 2,
+      "N3.2": 3,
+      "N3.7": 2,
+      "N6.1": 2,
+      "N6.2": 3,
+      "N6.3": 2,
+      "N6.5": 2,
+      "N6.8": 2
+    },
+    "note": "Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion.",
+    "id": "TR-186"
+  },
+  {
+    "number": 13,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N6.2": 2,
+      "N10.3": 2
+    },
+    "note": "OCR/ASR, video description and meeting-recording RAG labs build multimodal context with citations. Relevant to knowledge and evidence retrieval; no forensic chain of custody or agent-governance competence inferred.",
+    "id": "TR-187"
+  },
+  {
+    "number": 14,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N3.3": 2,
+      "N6.1": 2,
+      "N6.2": 2,
+      "N6.3": 2,
+      "N6.6": 2,
+      "N6.8": 2,
+      "N7.1": 2,
+      "N8.1": 2
+    },
+    "note": "Constitution, feature specifications, plan-implement-validate loops and custom workflow Skills are shown in new and legacy codebases. Video-led practice guide; no separate code exercise is listed and no full delegation-permission or Skill-test standard is evidenced.",
+    "id": "TR-188"
+  },
+  {
+    "number": 15,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N10.3": 2,
+      "N10.4": 2
+    },
+    "note": "Implements KV caching, shared-prefix RadixAttention and inference optimizations. Relevant specialist performance elective; model routing, secure multi-tenancy and deployment authorisation are not established by caching labs.",
+    "id": "TR-189"
+  },
+  {
+    "number": 16,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 3,
+      "N3.3": 2,
+      "N6.6": 2,
+      "N10.1": 2,
+      "N10.3": 2
+    },
+    "note": "Memory-manager, semantic tool retrieval and write-back labs assemble a persistent agent with instructions, tools and reasoning loop. Infrastructure practice, not end-user memory hygiene or protection against malicious memory writes.",
+    "id": "TR-190"
+  },
+  {
+    "number": 17,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "JAX primitives and training a small language model from scratch are model-development craft; the programme targets using, supervising and building agent systems rather than pretraining base models.",
+    "id": ""
+  },
+  {
+    "number": 18,
+    "action": "EXISTING:TR-102",
+    "level": "Expert",
+    "scores": {},
+    "note": "Rechecked A2A server/client, multi-framework orchestration and brief security lesson. Existing requirement scores remain appropriate. Replace the generic directory link and unknown duration with this exact syllabus and its published learning time.",
+    "id": "TR-102"
+  },
+  {
+    "number": 19,
+    "action": "ADD",
+    "level": "Practitioner",
+    "scores": {
+      "N2.4": 2,
+      "N2.5": 3,
+      "N6.2": 2,
+      "N6.6": 2,
+      "N8.1": 2,
+      "N8.2": 2,
+      "N8.3": 1,
+      "N10.2": 2,
+      "N10.3": 2,
+      "N10.7": 2
+    },
+    "note": "Custom SKILL.md workflows, progressive disclosure, API/Code/SDK use and subagents are explicit. Best-fit Skills candidate; failure-mode sections, attached eval cases, monthly reviews and owned deprecation rules are not all evidenced, so no full N8 credit.",
+    "id": "TR-191"
+  },
+  {
+    "number": 20,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N6.2": 2,
+      "N10.1": 2,
+      "N10.3": 2,
+      "N10.5": 2
+    },
+    "note": "Six labs cover OCR, layout, visual grounding, schema extraction, RAG and event-triggered AWS pipelines. Useful document-agent architecture; extraction grounding is not forensic evidence handling or data-residency assurance.",
+    "id": "TR-192"
+  },
+  {
+    "number": 21,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.2": 2,
+      "N6.1": 2,
+      "N6.2": 2,
+      "N6.3": 2,
+      "N6.8": 2
+    },
+    "note": "No-code app prompting, iterative customization, troubleshooting and a final project. Accessible L1 entry point; creating a web app alone does not meet L3 agent-design or safe-deployment requirements.",
+    "id": "TR-193"
+  },
+  {
+    "number": 22,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N2.6": 2,
+      "N7.2": 2,
+      "N9.1": 3,
+      "N9.2": 2,
+      "N9.3": 2,
+      "N9.4": 2,
+      "N10.1": 2,
+      "N10.2": 2,
+      "N10.8": 2,
+      "N11.1": 2,
+      "N12.6": 2
+    },
+    "note": "NAT labs build tools, add Phoenix traces, combine frameworks and create gold-standard evaluation datasets; deployment covers authentication and rate limiting. Practical builder option; no complete bank security stack, judge validation or stop-and-recover drill.",
+    "id": "TR-194"
+  },
+  {
+    "number": 23,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N10.3": 2,
+      "N10.4": 2
+    },
+    "note": "ColBERT/ColPali, quantization, pooling and MUVERA labs build efficient visual-document RAG. Specialist retrieval elective; broader agent controls and model-routing decisions are outside the outline.",
+    "id": "TR-195"
+  },
+  {
+    "number": 24,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N2.6": 2,
+      "N3.3": 2,
+      "N10.1": 2,
+      "N10.3": 2,
+      "N10.5": 2,
+      "N10.8": 2,
+      "N12.3": 2,
+      "N12.9": 2
+    },
+    "note": "Code-execution loops, E2B microVMs, runtime summarization and data/full-stack agent projects explicitly cover execution isolation. Useful security-engineering bridge; no complete sandbox threat model, egress controls or bank-approved deployment pattern.",
+    "id": "TR-196"
+  },
+  {
+    "number": 25,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "TensorFlow neural-network, vision, NLP and time-series implementation is foundational ML craft, outside the direct agentic workforce outcomes. Certificate and component courses screened together to avoid duplication.",
+    "id": ""
+  },
+  {
+    "number": 26,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N10.3": 2,
+      "N10.4": 2,
+      "N9.3": 2,
+      "N11.1": 2
+    },
+    "note": "Builds and evaluates semantic caches using precision, recall, hit rate and latency before integrating an agent. Relevant optimization elective; cache security and a complete domain evaluation programme are not evidenced.",
+    "id": "TR-197"
+  },
+  {
+    "number": 27,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N1.1": 1,
+      "N2.3": 2,
+      "N2.4": 2,
+      "N2.5": 2,
+      "N2.6": 2,
+      "N7.2": 2,
+      "N9.3": 2,
+      "N9.4": 2,
+      "N10.1": 2,
+      "N10.2": 3,
+      "N10.3": 2,
+      "N10.8": 2,
+      "N11.3": 1,
+      "N12.5": 2,
+      "N12.6": 2,
+      "N14.1": 2,
+      "N14.2": 2
+    },
+    "note": "Four modules and automatic-code-review assignments cover agent memory, tools, guardrails, hooks, collaboration, communication, flows, observability and CI/CD. Deeper L3 option; full security controls and human-calibrated judges are not evidenced. Overlaps both shorter crewAI courses.",
+    "id": "TR-198"
+  },
+  {
+    "number": 28,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N1.1": 2,
+      "N2.3": 2,
+      "N3.3": 2,
+      "N6.1": 2,
+      "N6.2": 3,
+      "N6.3": 2,
+      "N6.6": 2,
+      "N6.8": 2
+    },
+    "note": "Pair-coding labs teach iterative prompting, roles, feedback, context windows, testing, debugging and dependency review across a software-development certificate. Useful engineering pathway; ordinary code tests are not automatically AI-evaluation or security-harness competence.",
+    "id": "TR-199"
+  },
+  {
+    "number": 29,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N9.1": 2,
+      "N9.2": 2,
+      "N11.1": 2,
+      "N11.2": 2,
+      "N11.5": 2,
+      "N14.4": 2
+    },
+    "note": "Production ML lifecycle covers baselines, data definition, concept drift, error analysis, monitoring and scoping with labs/final project. Transferable evaluation foundation; not agent-specific oversight, cross-practitioner aggregation or autonomy approval.",
+    "id": "TR-200"
+  },
+  {
+    "number": 30,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.5": 2,
+      "N6.2": 2,
+      "N6.3": 2,
+      "N6.8": 2
+    },
+    "note": "Notebook exercises use API documentation as context to generate, debug and explain code, then build research and analysis workflows. Useful AI-assisted analyst practice; product approval and daily workplace transfer remain internal.",
+    "id": "TR-201"
+  },
+  {
+    "number": 31,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N3.1": 2,
+      "N9.1": 2,
+      "N9.2": 2,
+      "N9.3": 2,
+      "N11.1": 2,
+      "N11.2": 2,
+      "N11.5": 2,
+      "N12.8": 2,
+      "R3.1.1": 1
+    },
+    "note": "Five post-training modules include eval datasets, reward hacking, error diagnosis, red teaming, go/no-go rules and monitoring, with graded labs. Optional model/platform specialist depth; training models is not a substitute for agent-control or regulatory assurance practice.",
+    "id": "TR-202"
+  },
+  {
+    "number": 32,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Broad PyTorch neural-network training and deployment certificate is core ML engineering craft, with no sufficiently direct agentic workforce focus for this catalogue.",
+    "id": ""
+  },
+  {
+    "number": 33,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N2.4": 2,
+      "N2.5": 2,
+      "N3.4": 2,
+      "N6.2": 2,
+      "N9.1": 2,
+      "N10.1": 2,
+      "N10.4": 2,
+      "N11.1": 2
+    },
+    "note": "Three modules and labs cover prompting, model configuration, tuning/evaluation, deployment optimization, ReAct and external tools. Technical LLM foundation; reward-model training is not validation of an automated judge against human labels.",
+    "id": "TR-203"
+  },
+  {
+    "number": 34,
+    "action": "EXISTING:TR-158",
+    "level": "Entry",
+    "scores": {},
+    "note": "Rechecked Databricks identity, least-privilege views, PII masking and MLflow tracing walkthroughs. Existing scores remain appropriate; refresh access metadata and retain the limitation that product demonstrations do not establish full bank governance.",
+    "id": "TR-158"
+  },
+  {
+    "number": 35,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N3.1": 2,
+      "N3.3": 2,
+      "N6.2": 2,
+      "N9.1": 2,
+      "N9.3": 2,
+      "N10.3": 2,
+      "N10.4": 2,
+      "N10.8": 1,
+      "N11.1": 2,
+      "N11.5": 2,
+      "N12.6": 2
+    },
+    "note": "Five modules and graded RAG projects cover retrieval, prompt augmentation, context limits, evaluation and production logging. Useful context-engineering pathway; no complete agent harness, security architecture or bank data controls.",
+    "id": "TR-204"
+  },
+  {
+    "number": 36,
+    "action": "EXISTING:TR-098",
+    "level": "Expert",
+    "scores": {},
+    "note": "Rechecked the five-module agent-design and evaluation syllabus. Retain the existing Coursera offering and its approximately 23-hour estimate; record DeepLearning.AI's 9h55m platform duration separately, since platform time accounting differs. No duplicate offering or score inflation.",
+    "id": "TR-098"
+  },
+  {
+    "number": 37,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N6.1": 2,
+      "N6.2": 2,
+      "N6.3": 2,
+      "N6.8": 2
+    },
+    "note": "Analytics certificate explicitly integrates LLM-assisted exploration, visualization, stakeholder work and statistics labs. Optional analyst pathway with substantial conventional analytics content and learner time; no agent-supervision or bank-control credit.",
+    "id": "TR-205"
+  },
+  {
+    "number": 38,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Linear algebra, calculus and statistics are prerequisite/core craft (N0), not direct agentic workforce teaching. The full mathematics certificate is outside this catalogue's assessed scope.",
+    "id": ""
+  },
+  {
+    "number": 39,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N2.4": 2,
+      "N2.6": 2,
+      "N9.3": 2,
+      "N10.1": 2,
+      "N10.2": 2,
+      "N10.3": 2,
+      "N10.8": 2,
+      "N12.5": 2,
+      "N12.6": 2
+    },
+    "note": "ADK labs build voice/tool agents, persistent state, research/podcast orchestration, guardrail callbacks and production evaluation. Optional voice builder pathway; no complete identity, residency or stop/recovery implementation.",
+    "id": "TR-206"
+  },
+  {
+    "number": 40,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N7.2": 2,
+      "N9.3": 2,
+      "N9.4": 2,
+      "N10.1": 2,
+      "N10.2": 3,
+      "N10.3": 2,
+      "N11.1": 2,
+      "N11.3": 1,
+      "N12.6": 2
+    },
+    "note": "LangGraph/Snowflake labs construct planner/executor/subagents and trace goal-plan-action alignment, groundedness and runtime evaluations. Strong architecture/evaluation example; LLM judges are used but human-label validation is not evidenced.",
+    "id": "TR-207"
+  },
+  {
+    "number": 41,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.3": 2,
+      "N2.5": 2,
+      "N8.4": 1,
+      "N10.1": 2,
+      "N10.2": 3
+    },
+    "note": "Invoice labs progress from local extraction to Box MCP and a three-agent A2A system with file, extraction and orchestration roles. Useful integration example; consuming an existing server is not building an MCP server or practising least-privilege approval.",
+    "id": "TR-208"
+  },
+  {
+    "number": 42,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.5": 2,
+      "N10.1": 2,
+      "N10.3": 2
+    },
+    "note": "Builds API knowledge graphs with process dependencies, semantic discovery and ordered execution. Relevant to large tool ecosystems; business-process order is not an authorisation layer.",
+    "id": "TR-209"
+  },
+  {
+    "number": 43,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.3": 2,
+      "N2.4": 2,
+      "N10.1": 2,
+      "N10.2": 3,
+      "N10.3": 2,
+      "R5.1.5": 2
+    },
+    "note": "ADK labs coordinate intent, file selection and schema-refinement agents with shared state and human-approved choices. Relevant multi-agent/context design; risk-tiered approvals and overload controls are not fully covered.",
+    "id": "TR-210"
+  },
+  {
+    "number": 44,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Public-health, climate and disaster ML projects are outside the cyber workforce domain. General project scoping overlaps more directly relevant offerings; no agentic or cyber capability pathway is evidenced.",
+    "id": ""
+  },
+  {
+    "number": 45,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.3": 2,
+      "N2.4": 2,
+      "N2.5": 2,
+      "N3.3": 2,
+      "N6.1": 2,
+      "N6.2": 3,
+      "N6.3": 2,
+      "N6.5": 2,
+      "N6.6": 3,
+      "N6.8": 2,
+      "N7.4": 2,
+      "N8.4": 1
+    },
+    "note": "Three coding projects teach CLAUDE.md, explicit file/image context, clear/compact commands, planning, testing, worktrees and MCP use. Useful product-led L1 practice; stop/recovery in compromised systems, connector vetting and workplace authorisation need internal completion. Distinct from Anthropic's Claude Code in Action.",
+    "id": "TR-211"
+  },
+  {
+    "number": 46,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.5": 2,
+      "N2.6": 2,
+      "N9.3": 2,
+      "N10.1": 2,
+      "N12.5": 2
+    },
+    "note": "Pydantic labs validate inputs, structured model responses and tool arguments. Useful deterministic boundary component; schema validity alone does not establish factual correctness, permission enforcement or adversarial resistance.",
+    "id": "TR-212"
+  },
+  {
+    "number": 47,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "SFT/DPO/GRPO implementation primarily teaches model weight adaptation. The more relevant post-training course with explicit production evaluation is included; this model-training elective is outside the direct workforce scope.",
+    "id": ""
+  },
+  {
+    "number": 48,
+    "action": "ADD",
+    "level": "Base",
+    "scores": {
+      "N1.3": 1,
+      "N2.1": 2,
+      "N6.1": 2,
+      "N14.1": 2,
+      "N14.2": 2,
+      "N14.4": 2,
+      "N14.5": 2
+    },
+    "note": "Nontechnical AI terminology, project selection, company strategy and societal impacts support leadership orientation. The published outline is broad and knowledge-led; no full agent-supervision design or assessed workforce-change practice is evidenced.",
+    "id": "TR-213"
+  },
+  {
+    "number": 49,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Regression, neural networks, clustering and recommender-system training are foundational ML craft (N0). Anomaly detection is not taught as the agentic cyber workforce capability defined in the rubric.",
+    "id": ""
+  },
+  {
+    "number": 50,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "The broad five-course neural-network specialization is an ML career foundation. Its evaluation content is indirect and more focused agent/LLM evaluation courses are included; no full programme added to this workforce catalogue.",
+    "id": ""
+  },
+  {
+    "number": 51,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N2.2": 2,
+      "N3.3": 2,
+      "N6.2": 2,
+      "N6.5": 2,
+      "N10.3": 2,
+      "N10.4": 1
+    },
+    "note": "Llama 4 labs cover model choices, image reasoning, long-context querying and prompt optimization. Optional model-specific implementation elective; public notes describe limited regional API access, so validate lab access before assignment.",
+    "id": "TR-214"
+  },
+  {
+    "number": 52,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N10.3": 2,
+      "N10.8": 2,
+      "N12.6": 2
+    },
+    "note": "Airflow labs convert RAG prototypes into scheduled/event-driven pipelines with dynamic mapping, retries and failure notifications. Useful operational engineering; pipeline reliability is only part of safe agent deployment.",
+    "id": "TR-215"
+  },
+  {
+    "number": 53,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N6.2": 2,
+      "N7.2": 2,
+      "N9.1": 2,
+      "N9.3": 2,
+      "N9.4": 2,
+      "N10.1": 2,
+      "N10.3": 2,
+      "N11.1": 2,
+      "N12.6": 2
+    },
+    "note": "DSPy modules, MLflow traces and dataset-driven prompt/few-shot optimization support reproducible agent evaluation. No complete domain assurance, judge calibration or safe-deployment controls are evidenced.",
+    "id": "TR-216"
+  },
+  {
+    "number": 54,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "GRPO reward engineering and fine-tuning are model-training craft. Using a judge for rewards does not meet the rubric's human-validation requirement; the broader post-training/evaluation option is included instead.",
+    "id": ""
+  },
+  {
+    "number": 55,
+    "action": "EXISTING:TR-094",
+    "level": "Practitioner",
+    "scores": {},
+    "note": "Rechecked MCP client/server, prompt/resource and deployment notebooks. Existing scores remain appropriate; authentication/authorisation remain roadmap mentions rather than taught implementation. Refresh current access and duration metadata.",
+    "id": "TR-094"
+  },
+  {
+    "number": 56,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N2.4": 2,
+      "N10.3": 2,
+      "N10.4": 2,
+      "N10.5": 2
+    },
+    "note": "Voice-agent architecture covers STT/LLM/TTS, turn-taking, context and latency measurement with cloud deployment. Optional voice infrastructure learning; the course does not establish bank privacy or customer-contact controls.",
+    "id": "TR-217"
+  },
+  {
+    "number": 57,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.3": 2,
+      "N2.4": 2,
+      "N2.6": 2,
+      "N7.2": 2,
+      "N9.3": 2,
+      "N10.1": 2,
+      "N10.2": 2,
+      "N10.8": 2,
+      "N12.3": 2,
+      "N12.6": 2
+    },
+    "note": "Code-agent labs compare tool calling, use constrained interpreters/E2B, trace behavior and build a research team. Useful builder/security bridge; no complete sandbox escape threat model or bank-approved containment drill.",
+    "id": "TR-218"
+  },
+  {
+    "number": 58,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N2.4": 2,
+      "N10.1": 2,
+      "N10.3": 2
+    },
+    "note": "Browser-agent labs cover scraping, multi-step tasks, self-critique and search-based planning. Relevant tool-loop architecture; form submission demonstrations do not teach authorised action boundaries or prompt-injection protection.",
+    "id": "TR-219"
+  },
+  {
+    "number": 59,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.5": 2,
+      "N2.6": 2,
+      "N9.3": 2,
+      "N10.1": 2,
+      "N12.5": 2
+    },
+    "note": "Structured-output labs compare schema APIs, retry validation and constrained decoding with finite-state machines. Useful output-control technique; does not establish semantic correctness or comprehensive guardrail security.",
+    "id": "TR-220"
+  },
+  {
+    "number": 60,
+    "action": "ADD",
+    "level": "Base",
+    "scores": {
+      "N1.3": 1,
+      "N2.1": 2,
+      "N2.2": 2,
+      "N3.1": 2,
+      "N6.1": 2,
+      "N6.2": 2,
+      "N6.8": 2,
+      "N14.1": 2,
+      "N14.2": 2,
+      "N14.4": 2
+    },
+    "note": "Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content.",
+    "id": "TR-221"
+  },
+  {
+    "number": 61,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.3": 2,
+      "N3.3": 2,
+      "N6.1": 2,
+      "N6.2": 3,
+      "N6.3": 2,
+      "N6.6": 2,
+      "N6.8": 2,
+      "N7.4": 2
+    },
+    "note": "Two app projects teach requirements, wireframes, context, focused tasks, fresh sessions, checkpoints and debugging. Suitable no/low-code entry practice; hosted prototype deployment is not secure enterprise agent deployment.",
+    "id": "TR-222"
+  },
+  {
+    "number": 62,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 3,
+      "N3.3": 2,
+      "N6.6": 2,
+      "N10.1": 2,
+      "N10.3": 2
+    },
+    "note": "Email-agent labs add semantic, episodic and procedural memory with feedback-driven updates. Useful memory architecture; personal email use case is an example, not approval to automate corporate email or a security-control lesson.",
+    "id": "TR-223"
+  },
+  {
+    "number": 63,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N2.4": 2,
+      "N7.4": 2,
+      "N10.1": 2,
+      "N10.3": 2,
+      "R5.1.5": 2
+    },
+    "note": "Event-driven document labs combine branching, looping, RAG, structured form filling and human feedback by text/voice. Useful human-in-loop pattern; does not establish compromised-agent recovery or risk-tiered approval design.",
+    "id": "TR-224"
+  },
+  {
+    "number": 64,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.2": 2,
+      "N2.3": 2,
+      "N2.4": 2,
+      "N6.1": 2,
+      "N6.2": 2,
+      "N6.3": 2,
+      "N6.8": 2,
+      "N7.4": 2,
+      "N10.3": 2
+    },
+    "note": "Coding demonstrations cover multi-file context, retrieval, test fixing, legacy refactoring and correction of unexpected actions. Product-led coding practice; no enterprise containment or complete security-harness evaluation.",
+    "id": "TR-225"
+  },
+  {
+    "number": 65,
+    "action": "EXISTING:TR-100",
+    "level": "Practitioner",
+    "scores": {},
+    "note": "Rechecked five agent/tracing/evaluation labs and judge-improvement/monitoring lessons. Existing scores remain appropriate; explicit validation of judges against a complete human-labelled reference is still not established. Refresh platform time and access metadata.",
+    "id": "TR-100"
+  },
+  {
+    "number": 66,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Attention matrix mathematics and PyTorch implementation are model-internals craft. The more applied transformer behavior course is included for model limitations and inference tradeoffs.",
+    "id": ""
+  },
+  {
+    "number": 67,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.1": 2,
+      "N3.3": 2,
+      "N10.4": 2
+    },
+    "note": "Tokenization, transformer architecture, caching and mixture-of-experts explanations build technical model intuition. Optional knowledge foundation; not an end-user safe-use or practical agent-building course.",
+    "id": "TR-226"
+  },
+  {
+    "number": 68,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N2.2": 2,
+      "N2.5": 2,
+      "N6.2": 3,
+      "N6.5": 2,
+      "N10.1": 2,
+      "N10.4": 2
+    },
+    "note": "API, multimodal prompts, examples/XML templates, caching and tool-use labs culminate in a computer-use demonstration. Useful implementation concepts; model examples are version-specific and no enterprise computer-use safeguards are evidenced.",
+    "id": "TR-227"
+  },
+  {
+    "number": 69,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N3.3": 2,
+      "N6.2": 2,
+      "N6.6": 2,
+      "N10.1": 2,
+      "N10.3": 2,
+      "N10.4": 2,
+      "N11.1": 2
+    },
+    "note": "Long-document prompting, tool calling, context metrics and RAG labs cover long-context engineering. Model-specific elective; longer context is not a guarantee of reliable memory or correct retrieval.",
+    "id": "TR-228"
+  },
+  {
+    "number": 70,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N2.2": 2,
+      "N6.2": 2,
+      "N6.5": 3,
+      "N9.1": 2,
+      "N9.3": 2,
+      "N9.4": 2,
+      "N10.1": 2,
+      "N10.2": 2,
+      "N10.4": 3
+    },
+    "note": "Hands-on model/task comparisons, planner/executor routing, cost/latency tradeoffs and evaluation-set-driven meta-prompting. Useful reasoning/model-selection methods; o1-era APIs and model comparisons need compatibility checks before delivery.",
+    "id": "TR-229"
+  },
+  {
+    "number": 71,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.2": 2,
+      "N2.3": 2,
+      "N6.2": 2,
+      "N6.3": 2,
+      "N6.8": 2,
+      "N7.4": 2
+    },
+    "note": "Video-only Canvas workflows demonstrate targeted editing, feedback, code review and version restoration. Useful collaboration-tool introduction; demonstrations do not earn full practice credit or compromised-agent recovery competence.",
+    "id": "TR-230"
+  },
+  {
+    "number": 72,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N2.6": 2,
+      "N6.2": 2,
+      "N10.1": 2,
+      "N10.3": 2,
+      "N12.5": 2
+    },
+    "note": "Game-building labs combine context hierarchy, state, tool calls and custom Llama Guard policies. Included for transferable guardrail/context practice; entertainment domain and content filtering do not establish full security controls.",
+    "id": "TR-231"
+  },
+  {
+    "number": 73,
+    "action": "EXISTING:TR-101",
+    "level": "Practitioner",
+    "scores": {},
+    "note": "Rechecked input/output, NLI hallucination, PII and topic-control labs. Existing scores remain appropriate; no comprehensive adversarial guardrail evaluation is evidenced. Refresh public time and access metadata.",
+    "id": "TR-101"
+  },
+  {
+    "number": 74,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 3,
+      "N3.3": 2,
+      "N6.6": 2,
+      "N10.1": 2,
+      "N10.2": 2,
+      "N10.3": 2,
+      "N10.4": 2
+    },
+    "note": "MemGPT/Letta labs teach core/archival memory, context swapping, tool-calling loops and shared-memory agent collaboration. Useful memory infrastructure; no tamper-resistant memory or incident recovery controls.",
+    "id": "TR-232"
+  },
+  {
+    "number": 75,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.3": 2,
+      "N2.4": 2,
+      "N2.5": 2,
+      "N2.6": 1,
+      "N9.3": 2,
+      "N10.1": 2,
+      "N10.2": 3,
+      "N10.4": 2,
+      "N10.8": 1
+    },
+    "note": "Practical crews implement parallel/sequential/hybrid workflows, external integrations, human-feedback testing and model selection. Useful L3 extension; safe deployment and enterprise oversight remain partial. Overlaps the longer crewAI course.",
+    "id": "TR-233"
+  },
+  {
+    "number": 76,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N2.2": 2,
+      "N2.5": 2,
+      "N6.2": 2,
+      "N10.1": 2
+    },
+    "note": "Llama 3.2 vision, prompt formats, tokenization and tool-calling labs provide model-specific implementation practice. Older model/API examples require compatibility checks; not a complete agent-design or security course.",
+    "id": "TR-234"
+  },
+  {
+    "number": 77,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N9.3": 2,
+      "N10.3": 2,
+      "N10.4": 2,
+      "N11.1": 2
+    },
+    "note": "Retrieval labs measure tokenization failures, relevance, HNSW tradeoffs and vector quantization. Useful context-quality engineering; not a complete domain test-set or vendor-assurance method.",
+    "id": "TR-235"
+  },
+  {
+    "number": 78,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N2.2": 2,
+      "N3.4": 2,
+      "N6.2": 3,
+      "N6.5": 2,
+      "N10.1": 2,
+      "N10.4": 2
+    },
+    "note": "Gemini labs cover task/model choice, parameter control, text-image-video prompting and function calls. Notebooks are download-only and require the learner's cloud setup; use current approved models and tools.",
+    "id": "TR-236"
+  },
+  {
+    "number": 79,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N2.5": 2,
+      "N9.3": 2,
+      "N10.1": 2,
+      "N10.3": 2,
+      "N12.5": 2
+    },
+    "note": "Haystack labs build RAG, API components, conditional fallback, reflection loops and output validation. Useful framework implementation; not all planning patterns or adversarial controls are covered.",
+    "id": "TR-237"
+  },
+  {
+    "number": 80,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N3.1": 2,
+      "N9.1": 3,
+      "N9.2": 2,
+      "N9.3": 3,
+      "N9.4": 2,
+      "N10.1": 2,
+      "N11.1": 2
+    },
+    "note": "SQL-agent exercises deliberately surface hallucinations and build test data, evaluation criteria and scores before iterative improvement. Useful practical evaluation; no multi-practitioner aggregation or human-validated judge programme.",
+    "id": "TR-238"
+  },
+  {
+    "number": 81,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.5": 2,
+      "N6.1": 2,
+      "N6.2": 2,
+      "N6.3": 2,
+      "N6.8": 2
+    },
+    "note": "AI-supported Python exercises use prompts, debugging, files, data and APIs to automate tasks. Accessible bridge for novice builders; programming fundamentals do not establish L3 agent architecture or safe deployment.",
+    "id": "TR-239"
+  },
+  {
+    "number": 82,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N10.3": 2,
+      "N11.1": 2
+    },
+    "note": "Dual-encoder and RAG experiments compare retrieval performance and embedding architectures. Specialist context-engineering elective; most model-training detail is prerequisite depth rather than workforce foundation.",
+    "id": "TR-240"
+  },
+  {
+    "number": 83,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N4.1": 2,
+      "N4.2": 2,
+      "N10.5": 2,
+      "N12.9": 2
+    },
+    "note": "Distinct second federated-learning course covers private-data LLM fine-tuning, training-data leakage, PEFT and differential privacy. Relevant privacy-engineering elective; federated processing does not by itself prove confidentiality or compliance. Uses corrected course-specific URL.",
+    "id": "TR-241"
+  },
+  {
+    "number": 84,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N4.1": 2,
+      "N4.2": 2,
+      "N10.4": 2,
+      "N10.5": 2,
+      "N12.9": 2
+    },
+    "note": "First federated-learning course teaches distributed training, central/local differential privacy and communication tradeoffs. Relevant architecture/privacy foundation; distinguish it from the private-data LLM fine-tuning sequel and avoid double-counting shared concepts.",
+    "id": "TR-242"
+  },
+  {
+    "number": 85,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Pretraining data, weight initialization and training runs are model-development craft. Benchmark references do not justify the full training-focused course for this agentic workforce programme.",
+    "id": ""
+  },
+  {
+    "number": 86,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N6.2": 2,
+      "N10.3": 2,
+      "N10.4": 2
+    },
+    "note": "MongoDB RAG exercises use filtering, projection, reranking and prompt compression to improve context and efficiency. Retrieval filtering is not evidence of corporate access-control enforcement.",
+    "id": "TR-243"
+  },
+  {
+    "number": 87,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Carbon-aware region selection and cloud emissions accounting are outside the 140 assessed workforce outcomes. No sustainability requirement is present in the current methodology.",
+    "id": ""
+  },
+  {
+    "number": 88,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N2.5": 2,
+      "N10.1": 2,
+      "N10.3": 2
+    },
+    "note": "Function-call, OpenAPI, structured extraction and dialogue-processing labs teach tool integration and context schemas. Version-specific model examples; no multi-agent communication or safe execution controls inferred from multiple function calls.",
+    "id": "TR-244"
+  },
+  {
+    "number": 89,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.5": 2,
+      "N10.1": 2,
+      "N10.3": 2,
+      "N12.4": 1
+    },
+    "note": "CSV/SQL agents use Azure OpenAI, LangChain, function calling and Assistants API. Useful database-agent pattern; prebuilt functions are only a limited control hint, not full authorisation. Validate older API compatibility before delivery.",
+    "id": "TR-245"
+  },
+  {
+    "number": 90,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 3,
+      "N6.6": 2,
+      "N7.4": 2,
+      "N10.1": 2,
+      "N10.3": 2,
+      "R5.1.5": 2
+    },
+    "note": "Builds agents from scratch and with LangGraph, adding persistence, streaming, agentic search and human intervention. Useful controllable-agent practice; bank approvals and compromised-agent fallback are not covered completely.",
+    "id": "TR-246"
+  },
+  {
+    "number": 91,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.3": 2,
+      "N2.4": 2,
+      "N10.1": 3,
+      "N10.2": 3,
+      "R5.1.5": 2
+    },
+    "note": "Explicit exercises cover reflection, tool use, planning and multi-agent communication, including human feedback and controlled group chats. Practical L3 design-pattern course; older AutoGen APIs need compatibility checks and security controls remain internal.",
+    "id": "TR-247"
+  },
+  {
+    "number": 92,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N4.1": 2,
+      "N4.2": 2,
+      "N10.4": 2,
+      "N10.5": 2,
+      "N12.9": 2
+    },
+    "note": "On-device labs cover conversion, hardware acceleration, accuracy tests and quantization. Relevant deployment architecture elective; local execution is not equivalent to approved residency or comprehensive isolation.",
+    "id": "TR-248"
+  },
+  {
+    "number": 93,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.3": 2,
+      "N2.4": 2,
+      "N2.5": 2,
+      "N2.6": 1,
+      "N6.1": 2,
+      "N6.2": 2,
+      "N10.1": 2,
+      "N10.2": 3,
+      "N14.1": 2,
+      "N14.2": 2
+    },
+    "note": "Six business-process crews teach roles, goals, memory, tools and sequential/parallel/hierarchical cooperation. Introductory L3 practice; guardrail mentions and business automation do not establish bank governance or redesign sign-off.",
+    "id": "TR-249"
+  },
+  {
+    "number": 94,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N6.2": 2,
+      "N10.3": 2
+    },
+    "note": "Multimodal embeddings, retrieval and invoice/flowchart exercises build RAG across images and text. Useful context-engineering elective; no chain-of-custody or security-control competence inferred.",
+    "id": "TR-250"
+  },
+  {
+    "number": 95,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N2.5": 2,
+      "N7.2": 2,
+      "N10.1": 2,
+      "N10.3": 2
+    },
+    "note": "Router, tool calling and multi-document research-agent labs teach reasoning loops and debugging. Multiple documents do not imply multi-agent design; no full security boundary or deployment procedure.",
+    "id": "TR-251"
+  },
+  {
+    "number": 96,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Implementing quantizers and bit packing is deep model-optimization craft. Broader inference/deployment courses with explicit speed-quality tradeoffs are included for the workforce's architecture needs.",
+    "id": ""
+  },
+  {
+    "number": 97,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.2": 2,
+      "N6.2": 2,
+      "N6.5": 2,
+      "N9.4": 1
+    },
+    "note": "Vision prompting and tracked experiments cover image segmentation, detection, generation and control parameters. Optional multimodal elective; image personalization does not teach deepfake threat detection or cyber defence.",
+    "id": "TR-252"
+  },
+  {
+    "number": 98,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N6.2": 2,
+      "N6.5": 3,
+      "N10.1": 2,
+      "N10.3": 2,
+      "N10.4": 2
+    },
+    "note": "Mistral exercises compare task complexity and speed needs, choose models, call functions and build RAG/chat. Practical model-choice example; older model/API versions need compatibility checks.",
+    "id": "TR-253"
+  },
+  {
+    "number": 99,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Standalone model compression and numeric formats are supporting ML craft; applied serving and on-device courses already address the directly relevant deployment tradeoffs.",
+    "id": ""
+  },
+  {
+    "number": 100,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N6.2": 2,
+      "N10.3": 2
+    },
+    "note": "Document-normalization, metadata, table/image extraction and RAG labs teach preparing heterogeneous context. No data-classification, permission or forensic integrity controls are evidenced.",
+    "id": "TR-254"
+  },
+  {
+    "number": 101,
+    "action": "EXISTING:TR-099",
+    "level": "Entry",
+    "scores": {},
+    "note": "Rechecked manual/automated Giskard chatbot red teaming and full-assessment demonstration. Existing scores remain appropriate; tool-agent authority attacks and complete agentic red-team categories are not evidenced. Refresh public time and access metadata.",
+    "id": "TR-099"
+  },
+  {
+    "number": 102,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.5": 2,
+      "N10.1": 2,
+      "N10.3": 2
+    },
+    "note": "JavaScript labs build document RAG, routing, persistent chat and a streaming React interface. Useful alternative language pathway; production interface techniques are not complete secure deployment.",
+    "id": "TR-255"
+  },
+  {
+    "number": 103,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N10.4": 2,
+      "N10.5": 2
+    },
+    "note": "Code labs benchmark caching, continuous batching, quantization and multi-LoRA serving. Specialist performance engineering; no full model-selection/routing policy or secure tenancy controls.",
+    "id": "TR-256"
+  },
+  {
+    "number": 104,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N6.2": 2,
+      "N10.3": 2
+    },
+    "note": "Neo4j/Cypher labs build financial-document knowledge graphs, relationships and retrieval context for QA. Useful knowledge architecture; financial source material does not establish banking regulatory expertise.",
+    "id": "TR-257"
+  },
+  {
+    "number": 105,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.1": 2,
+      "N2.2": 2,
+      "N6.5": 2,
+      "N10.5": 2
+    },
+    "note": "Open-model selection and labs span text, image, audio and visual QA, then cloud deployment. Practical model orientation; the full code/document/screen modality range, bank-approved platforms and secure deployment are not all evidenced.",
+    "id": "TR-258"
+  },
+  {
+    "number": 106,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.1": 2,
+      "N2.6": 2,
+      "N6.2": 3,
+      "N6.5": 2,
+      "N6.8": 2,
+      "N12.5": 2
+    },
+    "note": "Prompt, model-comparison, Code Llama and input/output Llama Guard exercises. Useful open-model prompting practice; harmful-content checks do not establish resistance to prompt injection or secure agent authority.",
+    "id": "TR-259"
+  },
+  {
+    "number": 107,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N1.1": 2,
+      "N2.2": 2,
+      "N10.3": 2
+    },
+    "note": "Six vector-database applications include RAG, hybrid retrieval and anomaly detection in network logs. Relevant to detection/knowledge builders; no AI-enabled attack recognition, forensic handling or agent-control credit inferred.",
+    "id": "TR-260"
+  },
+  {
+    "number": 108,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N3.1": 2,
+      "N3.4": 2,
+      "N9.1": 2,
+      "N9.2": 2,
+      "N9.3": 3,
+      "N9.4": 2,
+      "N11.1": 2,
+      "N11.3": 1,
+      "N11.5": 1
+    },
+    "note": "Rules-based/model-graded evaluations and CircleCI workflows test each application change. Useful repeatable-evaluation practice; not every Skill is shown shipping with tests, and judge use is not human-label validation.",
+    "id": "TR-261"
+  },
+  {
+    "number": 109,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.6": 2,
+      "N9.4": 2,
+      "N10.8": 2,
+      "N12.5": 2,
+      "N12.6": 2
+    },
+    "note": "Versioned data/model pipelines tune, deploy and monitor safety scores using BigQuery/Kubeflow/Google Cloud. Optional lifecycle engineering; content safety monitoring covers only part of agent security and deployment governance.",
+    "id": "TR-262"
+  },
+  {
+    "number": 110,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N6.2": 2,
+      "N10.3": 2,
+      "N11.1": 2
+    },
+    "note": "Poor-retrieval diagnosis, query expansion, reranking and feedback-trained adapters improve retrieved context. Focused RAG elective; no complete domain test-set programme or judge validation.",
+    "id": "TR-263"
+  },
+  {
+    "number": 111,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "RLHF tuning and preference datasets concern model alignment training. They are not the human-label validation of evaluation judges required by N11.3; no direct full-course workforce fit.",
+    "id": ""
+  },
+  {
+    "number": 112,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N3.1": 2,
+      "N9.1": 2,
+      "N9.3": 2,
+      "N9.4": 2,
+      "N10.3": 2,
+      "N11.1": 2,
+      "N11.3": 1
+    },
+    "note": "Sentence-window/auto-merging retrieval and relevance-groundedness-answer metrics support iterative RAG evaluation. Useful evaluator/builder elective; judge calibration and domain-wide evidence are not evidenced.",
+    "id": "TR-264"
+  },
+  {
+    "number": 113,
+    "action": "ADD",
+    "level": "Practitioner",
+    "scores": {
+      "N2.6": 2,
+      "N3.1": 2,
+      "N3.5": 2,
+      "N4.2": 2,
+      "N5.4": 2,
+      "N9.3": 2,
+      "N11.5": 2,
+      "N12.5": 2,
+      "N12.6": 2,
+      "R3.1.1": 2
+    },
+    "note": "Labs detect hallucinations, data leakage and jailbreak/prompt-injection signals and build passive/active monitoring. Direct security relevance; coverage is LLM-application focused, not complete agent attack taxonomy, kill switches or incident response.",
+    "id": "TR-265"
+  },
+  {
+    "number": 114,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N10.3": 2,
+      "N10.4": 2
+    },
+    "note": "Embeddings, approximate search and sparse/dense/hybrid retrieval labs support scalable knowledge retrieval. Technical context infrastructure; not a full agent or security course.",
+    "id": "TR-266"
+  },
+  {
+    "number": 115,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N2.5": 2,
+      "N10.1": 2,
+      "N10.3": 2
+    },
+    "note": "LCEL, structured extraction, tool selection/routing and conversational-agent exercises teach application orchestration. Older framework/API examples require compatibility checks; no full planning/reflection or safe-deployment coverage.",
+    "id": "TR-267"
+  },
+  {
+    "number": 116,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N6.2": 2,
+      "N6.3": 2,
+      "N6.8": 2
+    },
+    "note": "Pair-programming examples cover code explanation, testing, debugging and documentation. The syllabus references PaLM-era APIs; retain as a legacy concepts elective pending runtime verification, not a current-platform onboarding recommendation.",
+    "id": "TR-268"
+  },
+  {
+    "number": 117,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N3.4": 2,
+      "N10.3": 2,
+      "N10.4": 2
+    },
+    "note": "Embedding/search and Q&A labs include text-generation parameter controls and efficient semantic retrieval. Useful context engineering; model sampling is partial failure-awareness teaching, not a full counter-habits module.",
+    "id": "TR-269"
+  },
+  {
+    "number": 118,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N2.5": 2,
+      "N6.2": 2,
+      "N8.1": 1,
+      "N10.1": 2,
+      "N10.3": 2,
+      "N10.7": 1
+    },
+    "note": "Semantic Kernel labs combine prompts, reusable functions, memories, connectors and planners in business examples. Useful orchestration introduction; legacy plugins are not automatically compliant Skills or a governed library.",
+    "id": "TR-270"
+  },
+  {
+    "number": 119,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Introductory fine-tuning data preparation and weight updates are ML craft. More directly relevant evaluation and privacy-focused courses are included; no full agentic workforce course added here.",
+    "id": ""
+  },
+  {
+    "number": 120,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N6.2": 2,
+      "N10.3": 2,
+      "N11.1": 2
+    },
+    "note": "Keyword/dense retrieval, reranking and answer-generation exercises compare relevance on large datasets. Useful context-quality elective; not a complete domain evaluation or governance system.",
+    "id": "TR-271"
+  },
+  {
+    "number": 121,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N7.2": 2,
+      "N9.3": 2,
+      "N9.4": 2,
+      "N10.8": 1,
+      "N11.1": 2,
+      "N11.5": 2,
+      "N12.6": 2
+    },
+    "note": "Weights & Biases labs log experiments, version data/models and trace LLM prompts/responses. Useful evaluation observability; no integrity-protected audit trail, kill switches or bank assurance process.",
+    "id": "TR-272"
+  },
+  {
+    "number": 122,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.2": 2,
+      "N2.3": 2,
+      "N10.5": 2
+    },
+    "note": "Gradio labs create multimodal and chatbot interfaces and share them on Hugging Face Spaces. Useful prototyping elective; a shareable demo is not a secured production agent.",
+    "id": "TR-273"
+  },
+  {
+    "number": 123,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N6.2": 2,
+      "N6.6": 2,
+      "N10.3": 2
+    },
+    "note": "Document loading/splitting, vector retrieval, QA and chat labs teach context selection and conversation memory. Useful RAG groundwork; no approved-data boundaries or complete agent controls.",
+    "id": "TR-274"
+  },
+  {
+    "number": 124,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.1": 2,
+      "N2.4": 2,
+      "N2.6": 2,
+      "N6.2": 2,
+      "N9.1": 2,
+      "N9.3": 3,
+      "N10.1": 2,
+      "N12.5": 2
+    },
+    "note": "Notebook exercises build classification, moderation, chained prompts, output checks and evaluation for a customer-service system. Strong practical checks foundation; chaining is not a full autonomous-agent pattern or adversarial security architecture.",
+    "id": "TR-275"
+  },
+  {
+    "number": 125,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Training diffusion models and accelerating sampling are image-model development craft, outside the programme's agentic cyber workforce outcomes.",
+    "id": ""
+  },
+  {
+    "number": 126,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N2.4": 2,
+      "N3.3": 2,
+      "N6.2": 2,
+      "N6.6": 2,
+      "N9.3": 2,
+      "N10.1": 2,
+      "N10.3": 2
+    },
+    "note": "LangChain labs combine model calls, prompt parsers, conversation memory, chains, document QA, evaluation and agents. Useful builder foundation; validate older framework/API examples and add bank deployment controls internally.",
+    "id": "TR-276"
+  },
+  {
+    "number": 127,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.1": 2,
+      "N2.5": 2,
+      "N6.2": 3,
+      "N6.3": 2,
+      "N6.8": 2
+    },
+    "note": "Interactive notebooks teach clear instructions, context/examples, iterative refinement and application tasks such as summarization and transformation. Useful prompting foundation; not a complete safe-use, agent-supervision or governance course.",
+    "id": "TR-277"
+  },
+  {
+    "number": 128,
+    "action": "ADD",
+    "level": "Expert",
+    "scores": {
+      "N6.1": 2,
+      "N6.2": 2,
+      "N6.3": 2,
+      "N10.3": 2,
+      "N10.5": 2,
+      "N14.2": 2,
+      "N14.4": 2
+    },
+    "note": "Streamlit/Snowflake modules scope an MVP, build chatbot/RAG prototypes, gather feedback and iterate. Useful low-code builder/product workflow; trial/cloud access and corporate data approval must be checked, and prototype value is not an autonomy decision.",
+    "id": "TR-278"
+  },
+  {
+    "number": 129,
+    "action": "ADD",
+    "level": "Entry",
+    "scores": {
+      "N2.3": 2,
+      "N2.4": 2,
+      "N2.5": 2,
+      "N6.2": 2,
+      "N6.3": 2,
+      "N6.6": 2,
+      "N6.8": 2,
+      "N8.4": 1
+    },
+    "note": "Gemini CLI workflows use GEMINI.md context, MCP/extensions and coding/data projects. The outline explicitly includes a deprecation notice for Free/Pro/Ultra users; retain as a legacy concepts elective pending access verification and exclude from automatic recommendations.",
+    "id": "TR-279"
+  },
+  {
+    "number": 130,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Medical diagnosis, prognosis and treatment modelling are outside the cyber workforce domain; clinical evaluation does not establish the agentic capabilities specified by the rubric.",
+    "id": ""
+  },
+  {
+    "number": 131,
+    "action": "EXCLUDE",
+    "level": "-",
+    "scores": {},
+    "note": "Traditional NLP model implementation is core specialist craft (N0). The direct RAG, context and agent courses are included; the four-course NLP specialization is not added as agentic workforce training.",
+    "id": ""
+  }
+]

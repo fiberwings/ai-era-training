@@ -1,0 +1,146 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h20m
+Nvidia’s NeMo Agent Toolkit: Making Agents Reliable
+Instructor
+:
+Brian McBrayer
+Earn
+an accomplishment
+with
+PRO
+· Updated Apr 22, 2026
+Enroll for Free
+Intermediate
+1h20m
+9 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Apr 22, 2026
+Instructor: Brian McBrayer
+Nvidia
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Build production-ready agents using configuration-driven workflows with Nvidia’s open-source NeMo Agent Toolkit.
+Built-in observability and evaluation tools help debug agent reasoning, measure performance, and systematically improve reliability.
+Deploy multi-agent workflows with authentication, rate limiting, and professional interfaces that integrate agents from any framework.
+About this course
+Join this new short course on Nvidia’s NeMo Agent Toolkit, taught by Brian McBrayer, Solutions Architect in Generative AI at Nvidia.
+Many teams struggle to turn agent demos into reliable systems that are ready for production. Nvidia’s open-source NeMo Agent Toolkit (NAT) provides the building blocks you need to harden your agents for production, whether built in raw Python, LangGraph, CrewAI, or any other framework.
+NAT makes it easy to add observability, run systematic evaluations, and deploy with production features like authentication and rate limiting. In this course, you’ll build a climate data analysis agent using configuration-driven workflows, add OpenTelemetry tracing to debug agent reasoning, measure performance improvements, and deploy with a professional interface. You’ll also expand to multi-agent workflows where specialized agents built with different frameworks collaborate on complex tasks.
+In detail, you’ll:
+Build your first NAT workflow using configuration-driven development by creating a climate science chatbot, running it locally, and serving it as a REST API with minimal code.
+Add intelligent features by registering Python functions as tools for analyzing NOAA climate data, defining input schemas with Pydantic, and transforming your chatbot into a ReAct agent.
+Enable observability with Phoenix tracing to visualize agent reasoning, tool selection decisions, and identify performance bottlenecks for confident debugging.
+Integrate multiple agents from different frameworks by combining NAT agents with LangGraph subagents using NAT’s framework-agnostic orchestration.
+Evaluate and improve performance with NAT’s evaluation framework by creating gold-standard datasets, uncovering bugs, and making data-driven improvements through configuration experiments.
+Deploy to production with NAT UI by configuring authentication and rate limiting, enabling caching, and launching your workflow with REST APIs and a professional web interface.
+NAT works directly with frameworks you already use to make agents that are observable, measurable, and deployable. Start building agents that deliver reliable results.
+Who should join?
+AI builders who want to make their agents production-ready. Basic familiarity with Python and LLM application development is recommended to make the most of this course.
+Course Outline
+9
+Lessons・
+6
+Code Examples
+Introduction
+Video
+・
+3m
+Overview of NAT
+Video
+・
+10m
+Your First NAT Workflow
+Video with Code Example
+・
+9m
+Adding Intelligence with Tools
+Video with Code Example
+・
+16m
+Observability with Phoenix Tracing
+Video with Code Example
+・
+7m
+Multi-Agent Integration Adding Math
+Video with Code Example
+・
+10m
+Evaluation Finding and Fixing Bugs with NAT Eval
+Video with Code Example
+・
+7m
+Production Deployment with NAT UI
+Video with Code Example
+・
+4m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Brian McBrayer
+Solutions Architect in Generative AI at
+Nvidia
+Nvidia’s NeMo Agent Toolkit: Making Agents Reliable
+Intermediate
+1h20m
+9 Video Lessons
+6 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Apr 22, 2026
+Instructor: Brian McBrayer
+Nvidia
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Additional learning features, such as quizzes and projects, are included with DeepLearning.AI Pro. Explore it today
+Enroll Now
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -37,8 +37,8 @@ class StandaloneTests(unittest.TestCase):
         html = build_html().decode('utf-8')
         page = Page(html)
         self.assertFalse(page.external)
-        self.assertEqual(len(page.scripts), 5)
-        for name in ('catalogue', 'default-scenario'):
+        self.assertEqual(len(page.scripts), 6)
+        for name in ('catalogue', 'default-scenario', 'component-starter'):
             expected = json.loads((ROOT / 'public/data' / (name + '.json')).read_text())
             self.assertEqual(json.loads(page.scripts['embedded-' + name]), expected)
         worker = json.loads(page.scripts['embedded-worker'])
@@ -55,6 +55,17 @@ class StandaloneTests(unittest.TestCase):
         page = Page('<script id="data" type="application/json">' + script_json(value) + '</script>')
         self.assertEqual(list(page.scripts), ['data'])
         self.assertEqual(json.loads(page.scripts['data']), value)
+
+    def test_mismatched_starter_or_crosswalk_cannot_be_packaged(self):
+        from build_standalone import read_json
+        for target in ('component-starter.json', 'capability-crosswalk.json', 'default-scenario.json'):
+            def changed(path):
+                value = read_json(path)
+                if path.name == target: value['catalogueVersion'] = 'stale'
+                return value
+            with patch('build_standalone.read_json', side_effect=changed):
+                with self.assertRaisesRegex(ValueError, 'catalogue version differs'):
+                    build_html()
 
     def test_new_unsupported_import_fails_loudly(self):
         with tempfile.TemporaryDirectory() as folder:

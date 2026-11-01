@@ -1,0 +1,144 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+1h4m
+AI Code Review
+Instructor
+:
+Nnenna Ndukwe
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 30, 2026
+Enroll Now
+Intermediate
+1h4m
+8 Video Lessons
+3 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 30, 2026
+Instructor: Nnenna Ndukwe
+Qodo
+Learn more about
+Membership PRO Plan
+Enroll Now
+What you'll learn
+Apply the practices that make AI code review effective: reviewing before you open a pull request, giving richer task and repo context, and triaging findings by risk.
+Catch the issues a diff-only review misses by giving your reviewer full context about the codebase.
+Build your own AI code review agent, from a context engine that finds the right code to an ensemble of specialized reviewers.
+About this course
+Learn how to make AI code review effective and build your own review agent in this short course, "AI Code Review," built in collaboration with Qodo and taught by Nnenna Ndukwe.
+The quality of an AI code review depends more on the context the reviewer has than on the model behind it. As AI writes a bigger share of your team's code, that context is what keeps reviews reliable: a pull request can look reasonable while missing a requirement or hiding a security issue, and there's often too much of it to check by hand.
+You'll start with practical techniques for getting more out of AI review, like reviewing before you open a pull request, giving the reviewer task and repository context, and triaging findings by risk. Then you'll build a context-aware review system of your own, beginning with a context engine that retrieves the most relevant code and extending it into an ensemble of specialized agents.
+In detail, you'll:
+Understand what makes a good code review, and how AI review differs from human review.
+Apply the practices that make AI review more effective: run it before you open a pull request, use a reviewer that didn't write the code, and give it the task and repository context it needs.
+Triage findings by risk, and turn good feedback into reusable standards so each review sharpens the next.
+BSee why context-aware review catches what a diff-only review misses, then build a context engine with chunking, embeddings, and vector search.
+Combine specialized agents, like a security expert and a codebase-pattern expert, into an ensemble that outperforms a single general reviewer.
+By the end, you'll be able to catch the security holes, missed requirements, and pattern violations that slip through today, and build a reviewer that keeps finding them.
+Who should join?
+This course is for developers who use AI to write code and want AI to review it just as effectively. Since you'll build a context engine and review agents of your own, it helps to be comfortable with Python.
+Course Outline
+8
+Lessons・
+3
+Code Examples
+Introduction
+Video
+・
+2m
+Overview of AI Code Review
+Video
+・
+12m
+AI Code Review Best Practices – Part 1
+Video
+・
+9m
+AI Code Review Best Practices – Part 2
+Video
+・
+12m
+Why Context Matters
+Video with Code Example
+・
+6m
+Building a Context Engine
+Video with Code Example
+・
+6m
+Building Specialized Code Review Agents
+Video with Code Example
+・
+5m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+[Optional] Glossary
+Reading
+・
+1m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Nnenna Ndukwe
+AI Developer Relations Lead
+AI Code Review
+Intermediate
+1h4m
+8 Video Lessons
+3 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 30, 2026
+Instructor: Nnenna Ndukwe
+Qodo
+Learn more about
+Membership PRO Plan
+Enroll Now
+Additional learning features, such as quizzes and projects, are included with DeepLearning.AI Pro. Explore it today
+Enroll Now
+Want to learn more about AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew Ng’s thoughts from DeepLearning.AI!
+Enroll Now
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

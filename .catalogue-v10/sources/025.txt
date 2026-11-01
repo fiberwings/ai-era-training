@@ -1,0 +1,229 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+84h32m
+TensorFlow Developer Professional Certificate
+Instructor
+:
+Laurence Moroney
+DeepLearning.AI
+Earn
+a certificate
+with
+PRO
+· Updated Sep 2, 2026
+Enroll Now
+Also available on
+Coursera
+Intermediate
+84h32m
+142 Video Lessons
+15 Code Examples
+32 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Sep 2, 2026
+Instructor: Laurence Moroney
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+What you'll learn
+Best practices for TensorFlow, a popular open-source machine learning framework to train a neural network for computer vision applications.
+Handle real-world image data and explore strategies to prevent overfitting, including augmentation and dropout.
+Build natural language processing systems using TensorFlow.
+Apply RNNs, GRUs, and LSTMs as you train them using text repositories.
+Skills you will gain
+Computer Vision
+Convolutional Neural Network
+Machine Learning
+Natural Language Processing
+Tensorflow
+Transfer Learning
+Augmentation
+Dropouts
+Tokenization
+RNNs
+Forecasting
+Time Series
+The TensorFlow Developer Professional Certificate Specialization is aimed at developers who want to learn about TensorFlow to build AI applications: learn the basics on how to use TensorFlow to build, train, and optimize deep neural networks and dive deep into Computer Vision, Natural Language Processing, and Time Series Analysis.
+TensorFlow is one of the most in-demand and popular open-source deep learning frameworks available today. The
+DeepLearning.AI TensorFlow Developer Professional Certificate program
+teaches you applied machine learning skills with TensorFlow so you can build and train powerful models.
+In this hands-on, four-course Professional Certificate program, you’ll learn the necessary tools to build scalable AI-powered applications with TensorFlow. After finishing this program, you’ll be able to apply your new TensorFlow skills to a wide range of problems and projects. This program can help you prepare for the Google TensorFlow Certificate exam and bring you one step closer to achieving the Google TensorFlow Certificate.
+Who should join?
+This is a hands-on specialization for developers who want to learn TensorFlow to build AI applications. A high-school level of mathematics and prior experience with Python will help learners get the most out of this class. Prior machine learning or deep learning knowledge is helpful but not required.
+Enroll now and propel your career forward with cutting-edge skills and hands-on experience!
+Course Outline
+Course
+1
+Course
+2
+Course
+3
+Course
+4
+Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+Week 1: A New Programming Paradigm
+A new programming paradigm
+Lecture Notes (Optional)
+Weekly Assignment - Your First Neural Network
+Week 2: Introduction to Computer Vision
+Introduction to Computer Vision
+Lecture Notes (Optional)
+Weekly Assignment - Implement a Deep Neural Network to recognize handwritten digits
+Week 3: Enhancing Vision with Convolutional Neural Networks
+Enhancing Vision with Convolutional Neural Networks
+Lecture Notes (Optional)
+Weekly Assignment - Improving DNN Performance using Convolutions
+Week 4: Using Real-world Images
+Using Real-world Images
+Lecture Notes (Optional)
+End of Access to Lab Notebooks
+Weekly Assignment - Handling Complex Images
+Course 1 Wrap up
+Acknowledgments
+Convolutional Neural Networks in TensorFlow
+Week 1: Exploring a Larger Dataset
+Introduction
+Larger Dataset
+Lecture Notes (Optional)
+Weekly Assignment -  Attempt the cats vs. dogs Kaggle challenge!
+Week 2: Augmentation: A technique to avoid overfitting
+Augmentation
+Lecture Notes (Optional)
+Weekly Assignment - Full cats vs. dogs using augmentation
+Week 3: Transfer Learning
+Transfer Learning
+Lecture Notes (Optional)
+Weekly Assignment - Transfer Learning: Horses vs Humans
+Week 4: Multiclass Classifications
+Multiclass Classifications
+Lecture Notes (Optional)
+End of Access to Lab Notebooks
+Weekly Assignment - Multi-class Classification
+Course 2 Wrap up
+Acknowledgments
+Natural Language Processing in TensorFlow
+Week 1: Sentiment in text
+Introduction
+Sentiment in text
+Lecture Notes (Optional)
+Weekly Assignment - Explore the BBC News Archive
+Week 2: Word Embeddings
+Word Embeddings
+Lecture Notes (Optional)
+Weekly Assignment - More on the BBC News Archive
+Week 3: Sequence models
+Sequence models
+Lecture Notes (Optional)
+Weekly Assignment - Exploring overfitting in NLP
+Week 4: Sequence models and literature
+Sequence models and literature
+Lecture Notes (Optional)
+End of Access to Lab Notebooks
+Weekly Assignment - Generate Shakespeare-like text
+Course 3 Wrap up
+Acknowledgments
+Sequences, Time Series and Prediction
+Week 1: Sequences and Prediction
+Introduction
+Sequences and Prediction
+Lecture Notes (Optional)
+Weekly Assignment - Create and predict synthetic data
+Week 2: Deep Neural Networks for Time Series
+Deep Neural Networks for Time Series
+Lecture Notes (Optional)
+Weekly Assignment - Prediction with a DNN
+Week 3: Recurrent Neural Networks for Time Series
+Recurrent Neural Networks for time series
+Lecture Notes (Optional)
+Weekly Assignment  - Using layers for sequence processing
+Week 4: Real-world time series data
+Real-world time series data
+Lecture Notes (Optional)
+End of Access to Lab Notebooks
+Weekly Assignment - Adding Convolutions
+Course 4 Wrap up
+References and Acknowledgments
+TensorFlow in practice has come to an end
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Laurence Moroney
+Former AI Lead at Google
+Course Slides
+You can download the annotated version of the course slides below.
+Download The Course Slides
+*Note: The slides might not reflect the latest course video slides. Please refer to the lecture videos for the most up-to-date information. We encourage you to make your own notes.
+Download The Course Slides
+close
+Frequently Asked Questions
+I have questions about my DeepLearning.AI Pro subscription, whom can I ask?
+Please send an email to
+[email protected]
+to receive assistance.
+How much does a Pro membership cost?
+The DeepLearning.AI Pro membership costs $25/mo billed annually and $30/mo billed monthly.
+More pricing details are available on the
+membership page
+.
+Important details:
+All prices are listed in USD
+Payments are processed securely via Stripe
+Taxes may apply depending on your location
+Will I receive a certificate at the end of the Professional Certificate?
+Yes! You’ll earn a certificate upon completing the program.
+TensorFlow Developer Professional Certificate
+Intermediate
+84h32m
+142 Video Lessons
+15 Code Examples
+32 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Sep 2, 2026
+Instructor: Laurence Moroney
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+Sign Up
+Be notified of new courses
+Enroll Now
+Also available on
+Coursera
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

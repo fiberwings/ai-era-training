@@ -8,6 +8,13 @@ export function measure(reqs,courses,thresholds={strong:.7,partial:.3}){
  const needs=Object.entries(groups).map(([id,rs])=>{const coverage=rs.reduce((a,r)=>a+r.score,0)/(3*rs.length),critical=rs.filter(r=>r.core&&r.score===0).length;return {id,rows:rs,coverage,critical,full:rs.filter(r=>r.score===3).length,band:coverage===1?'Full':coverage>=thresholds.strong&&!critical?'Strong':coverage>=thresholds.partial?'Partial':'Weak'};});
  return {rows,needs,coverage:needs.length?needs.reduce((a,n)=>a+n.coverage,0)/needs.length:0,critical:rows.filter(r=>r.core&&r.score===0).length,full:rows.filter(r=>r.score===3).length};
 }
+// Linked outcomes express intended full teaching coverage, independently of
+// delivery readiness. Keep this plan separate from assessed catalogue evidence.
+export function measurePlan(reqs,courses,items,thresholds){
+ const linked=new Set(items.flatMap(i=>i.requirements));
+ const internal={scores:Object.fromEntries([...linked].map(id=>[id,{score:3}]))};
+ return {...measure(reqs,courses,thresholds),planned:measure(reqs,[...courses,internal],thresholds)};
+}
 export function gapType(current,best){if(current===3)return 'Complete';if(best<=1)return 'No assessed teaching found';if(best===3)return 'Can be completed through another assessed resource';if(best>current)return 'Can be improved, but needs internal completion';return 'Internal completion needed';}
 export function timeTotal(courses,overrides={}){let hours=0,unknown=0;for(const c of new Map(courses.map(c=>[c.id,c])).values()){const d=duration(c,overrides);if(d.hours===null)unknown++;else hours+=d.hours;}return {hours,unknown};}
 const levelRank={Base:0,Entry:1,Practitioner:2,Expert:3};

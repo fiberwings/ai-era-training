@@ -30,6 +30,15 @@ venv/
 /.catalogue-v11/recalc-in/
 /.catalogue-v11/recalc-out/
 
+# TR-145 catalogue review intermediates; retain review scripts and decisions
+/.catalogue-v12/before.json
+/.catalogue-v12/*.xlsx
+/.catalogue-v12/*.png
+/.catalogue-v12/*.log
+/.catalogue-v12/*.inspect.ndjson
+/.catalogue-v12/recalc-in/
+/.catalogue-v12/recalc-out/
+
 # Duplicate copies of archived workbooks and distribution packages
 /AI_Era_Cyber_Training_Catalogue_v10.xlsx
 /outputs/Training-Planner.zip

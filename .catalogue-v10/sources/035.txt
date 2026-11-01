@@ -1,0 +1,196 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+26h3m
+Retrieval Augmented Generation (RAG)
+Instructor
+:
+Zain Hasan
+DeepLearning.AI
+Earn
+a certificate
+with
+PRO
+· Updated Jul 23, 2026
+Enroll Now
+Also available on
+Coursera
+Intermediate
+26h3m
+49 Video Lessons
+9 Code Examples
+10 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 23, 2026
+Instructor: Zain Hasan
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+What you'll learn
+RAG for real-world applications
+: Learn how retrieval and generation work together, and how to design each component to build reliable, flexible RAG systems.
+Search techniques and vector databases:
+Use techniques like keyword search, semantic search, hybrid search, chunking, and query parsing to support RAG applications across domains like healthcare and e-commerce.
+Prompt design, evaluation, and deployment:
+Craft prompts that make the most of retrieved context, evaluate RAG system performance, and prepare your pipeline for production.
+The benefits of RAG
+RAG helps large language models generate more accurate and useful responses by retrieving relevant information from knowledge bases of information they weren’t trained on. These sources of information are often private, recent, or domain-specific, which gives an LLM more context to provide grounded answers. In this course, you’ll learn how to design and implement every part of a RAG system, from retrievers and vector databases to large language models, and evaluation platforms. You’ll understand fundamental principles and apply key techniques at both the component and system levels to effectively connect LLMs to relevant external data sources.
+Why Enroll?
+Large language models are powerful, but without access to the right information, they often make mistakes. RAG fixes that by grounding model responses in relevant, often private or up-to-date data. As LLMs move into real products and workflows, the ability to build robust, reliable RAG systems is becoming a must-have skill for engineers working in AI.
+This course, taught by AI engineer and educator Zain Hasan, gives you the
+hands-on experience and conceptual understanding to design, build, and evaluate production-ready RAG systems.
+You’ll learn to choose the right architecture for your use case, work with vector databases like Weaviate, experiment with prompt and retrieval strategies, and monitor performance using tools like Phoenix from Arize.
+Throughout the course,
+you’ll build progressively more advanced components of a RAG system
+, using real-world datasets from domains like e-commerce, media, and healthcare. You’ll also explore critical tradeoffs, like when to use hybrid retrieval, how to manage context window limits, and how to balance latency and cost, preparing you to make informed engineering decisions in practice.
+RAG is at the core of LLM systems that need to be accurate, grounded, and adaptable, whether for internal tools, customer-facing assistants, or specialized applications. This course helps you
+move beyond proof-of-concept demos into real-world deployment
+, equipping you with the skills to build, evaluate, and evolve RAG systems as the ecosystem grows.
+Start building RAG systems designed for real-world use.
+You’ll earn a certificate upon completing the course, recognizing your skills in building and evaluating RAG systems with real-world tools and techniques
+Instructor
+Zain Hasan
+Senior AI/ML Developer Relations Engineer at Together.ai, AI/ML Researcher and Lecturer at the University of Toronto
+Learn through real-world projects
+Across five modules, you’ll complete hands-on programming assignments that guide you through building each core part of a RAG system, from simple prototypes to production-ready components.
+
+Through hands-on labs, you’ll:
+Build your first RAG system
+by writing retrieval and prompt augmentation functions and passing structured input into an LLM.
+Implement and compare retrieval methods
+like semantic search, BM25, and Reciprocal Rank Fusion to see how each impacts LLM responses.
+Scale your RAG system
+using Weaviate and a real news dataset—chunking, indexing, and retrieving documents with a vector database.
+Develop a domain-specific chatbot
+for a fictional clothing store that answers FAQs and provides product suggestions based on a custom dataset.
+Improve chatbot reliability
+by handling real-world challenges like dynamic pricing and logging user interactions for monitoring and debugging.
+Develop a domain-specific chatbot using
+open-source LLMs hosted by Together AI
+for a fictional clothing store that answers FAQs and provides product suggestions based on a custom dataset.
+Course Outline
+Retrieval Augmented Generation (RAG)
+Module 1: RAG Overview
+RAG Overview
+Graded Assignments
+Module 1 Wrap Up
+Module 2: Information Retrieval and Search Foundations
+Information retrieval basics
+Lecture Notes (Optional)
+Graded Assignments
+Module 2 Wrap Up
+Module 3: Information Retrieval with Vector Databases
+Information Retrieval with Vector Databases
+Lecture Notes (Optional)
+Graded Assignments
+Module 3 Wrap Up
+Module 4: LLMs and Text Generation
+LLMs and Text Generation
+Lecture Notes (Optional)
+Graded Assignments
+Module 4 Wrap Up
+Module 5: RAG Systems in Production
+RAG Systems in Production
+Lecture Notes (Optional)
+Graded Assignment
+Module 5 Wrap Up
+Community Opportunities
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Recommended Background
+Intermediate Python skills required; basic knowledge of generative AI and high school–level math is helpful.
+Learner reviews from other DeepLearning.AI courses
+Selami A.
+What I loved about the “AI for Everyone” course was the comprehensive coverage of essential AI topics, guided by the expertise of Andrew Ng. The course provided a clear roadmap for initiating and managing AI projects, from project selection to implementation. It also offered insights into building AI teams and introduced the technical tools necessary for AI success
+View More
+Chris C.
+Simple enough to make it easy to understand in spite of being a complex topic, inspiring speaker. Time well spent, and a good fit with “lifelong learning” approach.
+Adeel B.
+What stood out to me about this course was the clarity and simplicity with which complex AI concepts were explained. The real-life examples and case studies helped me grasp the practical implications of AI in different sectors. The interactive nature of the course made learning engaging and enjoyable.
+View More
+Krystal L.
+I am an educator and looking to incorporate AI into my career and help my colleagues to do the same. The course did a great job explaining AI concepts to people like myself who are just learning about any of this for the first time.
+View More
+John S.
+I took this course purely out of curiosity. After becoming aware of ChatGPT and Midjourney and then taking a short course on engineering the prompts to get the desired result, I became more intrigued with the topic of AI. I found this most helpful with regards to getting an idea about what AI actually is as opposed to what Hollywood conditioned me to believe it might be.
+View More
+Muhammad S.
+Loved the content. It brought simplicity to the complex topic of AI, separated signal from noise, presented a great flow and covered the most relevant topics.
+Andrew’s knowledge and passion about the subject of AI was amazing. It was inspiring to listen to him, even via recorded videos. Its really great to be in this era of technology, as it makes it possible to get access to the wealth of knowledge so easily.
+View More
+Previous slide
+Next slide
+Learner Reviews
+close
+Frequently Asked Questions
+How long is the course?
+The course is designed to be completed in about a month, with an estimated commitment of 5 hours per week.
+Can I take this course at my own pace?
+Yes, the course is designed to be self-paced.
+What kind of support is available?
+Access to discussion forums, detailed documentation, and resources to support your learning.
+Is there a certificate upon completion?
+You will receive a certificate at the end of the course if you pay or receive financial aid for it and complete the assessments. There is a limit of 180 days of certificate eligibility, after which you must re-purchase the course to obtain a certificate. If you audit the course for free, you will not receive a certificate.
+I have questions about my subscription of this Professional Certificate, whom can I ask?
+Please use the
+Coursera Learner Help Center
+for questions about your subscription.
+Can I apply for financial aid?
+Yes, Coursera provides financial aid to learners who cannot afford the cost of a subscription.
+Can I preview this course?
+> Yes! You can preview the course for free by accessing the entire first module at no cost. This allows you to explore the learning experience before deciding if you’d like to continue. If you want full access to all modules, assessments, and the certificate of completion, you’ll need to upgrade to the paid version.
+Retrieval Augmented Generation (RAG)
+Intermediate
+26h3m
+49 Video Lessons
+9 Code Examples
+10 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 23, 2026
+Instructor: Zain Hasan
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+Stay up to date with AI news!
+Keep learning with updates on curated news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll Now
+Also available on
+Coursera
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

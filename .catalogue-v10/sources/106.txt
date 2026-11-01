@@ -1,0 +1,149 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+2h5m
+Prompt Engineering with Llama 2&3
+Instructor
+:
+Amit Sangani
+Earn
+an accomplishment
+with
+PRO
+· Updated Aug 11, 2026
+Enroll for Free
+Beginner
+2h5m
+10 Video Lessons
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Aug 11, 2026
+Instructor: Amit Sangani
+Meta
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn best practices specific to prompting Llama 2 & 3 models.
+Interact with Meta Llama 2 Chat, Code Llama, and Llama Guard models.
+See how you can build safe, responsible AI applications using the Llama Guard model.
+About this course
+Open up your prompt engineering to the Llama 2 & 3 collection of models! Learn best practices for prompting and building applications with these powerful open commercial license models.
+Interact with the Llama 2 and Llama 3 models with a simple API call, and explore the differences in output between models for a variety of tasks.
+What you’ll do:
+Learn best practices for prompting and selecting among the Llama 2 & 3 models by using them as a personal assistant to help you complete day-to-day tasks.
+Experiment with advanced prompt engineering techniques, like few-shot prompting to get Llama 2 to classify the sentiment of text messages, and chain-of-thought prompting to solve logic problems.
+Treat Code Llama as a pair programming partner to both learn to write and improve code.
+Promote safe and responsible use of LLMs by having Llama Guard check user prompts and model responses for harmful content.
+Llama 2 and Llama 3 models and model weights are free to download, including quantized model versions that can run on your local machine. Join a thriving community of open source developers that is building applications powered by Llama 2 and Llama 3.
+Who should join?
+Anyone who is interested in learning prompt engineering and wants to try out Meta Llama 2 and Llama 3 models.
+Course Outline
+10
+Lessons・
+0
+Code Examples
+Important Note on This Course
+Reading
+・
+2m
+Introduction
+Video
+・
+4m
+Overview of Llama Models
+Video
+・
+4m
+Getting Started with Llama 2 & 3
+Video
+・
+16m
+Multi-turn Conversations
+Video
+・
+11m
+Prompt Engineering Techniques
+Video
+・
+22m
+Comparing Different Llama 2 & 3 models
+Video
+・
+16m
+Code Llama
+Video
+・
+17m
+Llama Guard
+Video
+・
+15m
+Walkthrough of Llama Helper Function
+Video
+・
+3m
+Conclusion
+Video
+・
+2m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Amit Sangani
+Senior Director of Partner Engineering of
+Meta
+Prompt Engineering with Llama 2&3
+Beginner
+2h5m
+10 Video Lessons
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Aug 11, 2026
+Instructor: Amit Sangani
+Meta
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

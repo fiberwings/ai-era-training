@@ -1,0 +1,364 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+127h29m
+Deep Learning Specialization
+Instructor
+:
+Andrew Ng
+Earn
+a certificate
+with
+PRO
+· Updated Sep 29, 2026
+Enroll Now
+Also available on
+Coursera
+Intermediate
+127h29m
+194 Video Lessons
+1 Code Example
+43 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Sep 29, 2026
+Instructor: Andrew Ng
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+What you'll learn
+Build and train neural networks from the ground up, working toward the architectures behind modern AI: CNNs, RNNs, LSTMs, and Transformers.
+Learn to make models actually perform well: tune hyperparameters, diagnose bias and variance, and apply the optimization techniques used in industry.
+Put your skills to work on real problems in computer vision and NLP using Python and TensorFlow.
+About this Specialization
+The Deep Learning Specialization is DeepLearning.AI's foundational program, created and taught by Andrew Ng. Across five courses, you'll learn how neural networks work from the ground up, then build and train them yourself. You'll start with the foundations of deep learning, implement your first deep neural network, and move into the techniques that make models perform well in practice: initialization strategies, regularization, batch normalization, and modern optimization algorithms.
+From there, you'll build convolutional networks for computer vision and sequence models for language. You'll apply them to tasks like visual detection and recognition, neural style transfer, character-level language modeling, and NLP with word embeddings and transformers, implementing everything in Python and TensorFlow.
+You'll also learn something most university programs don't teach: how to run a machine learning project. One full course distills Andrew's experience building and shipping deep learning products, so you can diagnose errors in an ML system, prioritize what to fix, and make the decisions expected of a technical lead. More than 1 million learners have taken this program, and it's rated 4.9 out of 5 by over 120,000 reviewers, making it among the most popular programs of its kind on Coursera.
+Who should join?
+The Specialization is for anyone who wants a rigorous foundation in deep learning rather than a surface-level tour. It's a fit for software engineers moving into AI, data scientists who want to understand what's happening under the hood, and early-career or aspiring ML engineers building an industry portfolio. You should be comfortable with Python and basic linear algebra. Prior machine learning experience helps but isn't required.
+Learner reviews
+Sharob Sinha
+“After completing the Deep Learning Specialization, I got two promotions and an award and was able to work with the R&D team at work. I also got the opportunity to teach undergrad engineering students. These experiences, starting with DLS, have molded my career.”
+View More
+Jose Ramirez
+“I decided to try to understand this thing called AI that everyone was talking about and ended up doing the Deep Learning Specialization. I truly believe that this program should be given to senior students at universities as they’d get a valuable picture.”
+View More
+Wonjin Kim
+“The Deep Learning Specialization helped me build the fundamental knowledge as well as practical applications of deep learning. I think the Deep Learning Specialization is a great starting point if someone wants to get into the field.”
+View More
+Ludovic Alarie-Vezina
+“The introductions to Convolutional Neural Networks, Yolo, NLP, among others, really helped me hit the ground running when I got on the job market. As I developed more experience, I transitioned from being a multi-project consultant to being the lead scientist of a startup.”
+View More
+Sayak Pal
+“When my role as a software engineer at a big company started feeling claustrophobic, I quit without having another job in hand and enrolled in the Deep Learning Specialization. This fueled my knowledge appetite, and today, I work as a Machine Learning Engineer at Carted.”
+View More
+Samuel Cahyawijaya
+“After the Deep Learning Specialization, I realized that deep learning isn’t just for those with a math background and decided to become a machine learning engineer. The knowledge I’d gained helped me transition from analytics to an AI researcher role in an NLP research lab.”
+View More
+Krystof Chotas
+“The skills I acquired after completing the Deep Learning Specialization helped me get a better job. The insights it provided into the subject matter enabled me to develop new and innovative solutions to problems at work.”
+View More
+Jora De Jong
+“The Deep Learning Specialization allowed me to understand diverse approaches to solve problems and helped by providing deeper insight into the field. After completing the program, I understood foundational principles better and was able to feel much more in control.”
+View More
+Jan Zawadzki – Deep Learning Specialization
+“Within a few minutes and a couple slides, I had the feeling that I could learn any concept. I felt like a superhero after this course. I didn’t know much about deep learning before, but I felt like I gained a strong foothold afterward.”
+View More
+Kritika Jalan – Deep Learning Specialization
+“The whole specialization was like a one-stop-shop for me to decode neural networks and understand the math and logic behind every variation of it. I can say neural networks are less of a black box for a lot of us after taking the course.”
+View More
+Chris Morrow – Deep Learning Specialization
+“During my Amazon interview, I was able to describe, in detail, how a prediction model works, how to select the data, how to train the model, and the use cases in which this model could add value to the customer.”
+View More
+Previous slide
+Next slide
+Learner Reviews
+close
+Instructor
+Andrew Ng
+Founder, DeepLearning.AI; Co-founder, Coursera
+Skills you will gain
+Tensorflow
+Artificial Neural Networks
+Convolutional Neural Networks
+Recurrent Neural Networks
+Transformers
+Python Programming
+Deep Learning
+Backpropagation
+Optimization
+Hyperparameter Tuning
+Machine Learning
+Transfer Learning
+Multi-Task Learning
+Object Detection and Segmentation
+Facial Recognition System
+Gated Recurrent Unit (GRU)
+Long Short Term Memory (LSTM)
+Attention Models
+Natural Language Processing
+Course Outline
+Course
+1
+Course
+2
+Course
+3
+Course
+4
+Course
+5
+Neural Networks and Deep Learning
+Week 1: Introduction to Deep Learning
+Welcome to the Deep Learning Specialization
+Introduction to Deep Learning
+Lecture Notes (Optional)
+Quiz
+Heroes of Deep Learning (Optional)
+Week 2: Neural Networks Basics
+Logistic Regression as a Neural Network
+Python and Vectorization
+Lecture Notes (Optional)
+Quiz
+Programming Assignments
+Heroes of Deep Learning (Optional)
+Week 3: Shallow Neural Networks
+Shallow Neural Network
+Lecture Notes (Optional)
+Quiz
+Programming Assignment
+Heroes of Deep Learning (Optional)
+Week 4: Deep Neural Networks
+Deep Neural Network
+Lecture Notes (Optional)
+Quiz
+End of access to Lab Notebooks
+Programming Assignments
+References & Acknowledgments
+Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+Week 1: Practical Aspects of Deep Learning
+Setting up your Machine Learning Application
+Regularizing your Neural Network
+Setting Up your Optimization Problem
+Lecture Notes (Optional)
+Quiz
+Programming Assignments
+Heroes of Deep Learning (Optional)
+Week 2: Optimization Algorithms
+Optimization Algorithms
+Lecture Notes (Optional)
+Quiz
+Programming Assignment
+Heroes of Deep Learning (Optional)
+Week 3: Hyperparameter Tuning, Batch Normalization and Programming Frameworks
+Hyperparameter Tuning
+Batch Normalization
+Multi-class Classification
+Introduction to Programming Frameworks
+Lecture Notes (Optional)
+Quiz
+End of access to Lab Notebooks
+Programming Assignment
+References & Acknowledgments
+Structuring Machine Learning Projects
+Week 1: ML Strategy
+Introduction to ML Strategy
+Setting Up your Goal
+Comparing to Human-level Performance
+Lecture Notes (Optional)
+Machine Learning Flight Simulator (Quiz)
+Heroes of Deep Learning (Optional)
+Week 2: ML Strategy
+Error Analysis
+Mismatched Training and Dev/Test Set
+Learning from Multiple Tasks
+End-to-end Deep Learning
+Lecture Notes (Optional)
+Machine Learning Flight Simulator (Quiz)
+Heroes of Deep Learning (Optional)
+Acknowledgments
+Convolutional Neural Networks
+Week 1: Foundations of Convolutional Neural Networks
+Convolutional Neural Networks
+Lecture Notes (Optional)
+Quiz
+Programming Assignments
+Heroes of Deep Learning (Optional)
+Week 2: Deep Convolutional Models: Case Studies
+Case Studies
+Practical Advice for Using ConvNets
+Lecture Notes (Optional)
+Quiz
+Programming Assignments
+Week 3: Object Detection
+Detection Algorithms
+Lecture Notes (Optional)
+Quiz
+Programming Assignments
+Week 4: Special Applications: Face recognition & Neural Style Transfer
+Face Recognition
+Neural Style Transfer
+Lecture Notes (Optional)
+Quiz
+End of access to Lab Notebooks
+Programming Assignments
+References & Acknowledgments
+Sequence Models
+Week 1: Recurrent Neural Networks
+Recurrent Neural Networks
+Lecture Notes (Optional)
+Quiz
+Programming Assignments
+Week 2: Natural Language Processing & Word Embeddings
+Introduction to Word Embeddings
+Learning Word Embeddings: Word2vec & GloVe
+Applications Using Word Embeddings
+Lecture Notes (Optional)
+Quiz
+Programming Assignments
+Week 3: Sequence Models & Attention Mechanism
+Various Sequence To Sequence Architectures
+Speech Recognition - Audio Data
+Lecture Notes (Optional)
+Quiz
+Programming Assignments
+Week 4: Transformer Network
+Transformers
+Lecture Notes (Optional)
+Quiz
+End of access to Lab Notebooks
+Programming Assignment
+Transformer Applications - Ungraded Labs
+Conclusion
+References & Acknowledgments
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Course Slides
+You can download the annotated version of the course slides below.
+Download The Course Slides
+*Note: The slides might not reflect the latest course video slides. Please refer to the lecture videos for the most up-to-date information. We encourage you to make your own notes.
+Download The Course Slides
+close
+Frequently Asked Questions
+What is Deep Learning? Why is it relevant?
+Deep Learning is a subset of machine learning where artificial neural networks, algorithms based on the structure and functioning of the human brain, learn from large amounts of data to create patterns for decision-making. Neural networks with various (deep) layers enable learning through performing tasks repeatedly and tweaking them a little to improve the outcome.
+Over the last few years, the availability of computing power and the amount of data being generated have led to an increase in deep learning capabilities. Today, deep learning engineers are highly sought after, and deep learning has become one of the most in-demand technical skills as it provides you with the toolbox to build robust AI systems that just weren’t possible a few years ago. Mastering deep learning opens up numerous career opportunities.
+What is the Deep Learning Specialization about?
+The Deep Learning Specialization is a foundational program that will help you understand the capabilities, challenges, and consequences of deep learning and prepare you to participate in the development of leading-edge AI technology.
+In this Specialization, you will build and train neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learn how to make them better with strategies such as Dropout, BatchNorm, Xavier/He initialization, and more. Get ready to master theoretical concepts and their industry applications using Python and TensorFlow and tackle real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.
+AI is transforming many industries. The Deep Learning Specialization provides a pathway for you to take the definitive step in the world of AI by helping you gain the knowledge and skills to level up your career. Along the way, you will also get career advice from deep learning experts from industry and academia.
+What will I be able to do after completing the Deep Learning Specialization?
+By the end of the Deep Learning Specialization, you will be able to:
+Build and train deep neural networks, implement vectorized neural networks, identify architecture parameters, and apply DL to your applications.
+Use best practices to train and develop test sets and analyze bias/variance for building DL applications, use standard NN techniques, apply optimization algorithms, and implement a neural network in TensorFlow.
+Use strategies for reducing errors in ML systems, understand complex ML settings, and apply end-to-end, transfer, and multi-task learning.
+Build a Convolutional Neural Network, apply it to visual detection and recognition tasks, use neural style transfer to generate art, and apply these algorithms to image, video, and other 2D/3D data.
+Build and train Recurrent Neural Networks and its variants (GRUs, LSTMs), apply RNNs to character-level language modeling, work with NLP and Word Embeddings, and use HuggingFace tokenizers and transformers to perform Named Entity Recognition and Question Answering.
+What background knowledge is necessary for the Deep Learning Specialization?
+Expected:
+Learners should have intermediate Python experience (e.g., basic programming skills, understanding of for loops, if/else statements, data structures such as lists and dictionaries).
+Recommended:
+Learners should have a basic knowledge of linear algebra (matrix-vector operations and notation).
+Learners should have an understanding of machine learning concepts (how to represent data, what an ML model does, etc.)
+Who is the Deep Learning Specialization for?
+The Deep Learning Specialization is for early-career software engineers or technical professionals looking to master fundamental concepts and gain practical machine learning and deep learning skills.
+How long does it take to complete the Deep Learning Specialization?
+The Deep Learning Specialization consists of five courses. At the rate of 5 hours a week, it typically takes 5 weeks to complete each course except course 3, which takes about 4 weeks.
+Who is the Deep Learning Specialization by?
+The Deep Learning Specialization has been created by Andrew Ng, Kian Katanforoosh, and Younes Bensouda Mourri.
+Andrew Ng
+is Founder of DeepLearning.AI, General Partner at AI Fund, Chairman and Co-Founder of Coursera, and an Adjunct Professor at Stanford University. As a pioneer in machine learning and online education, Dr. Ng has changed countless lives through his work in AI, authoring or co-authoring over 100 research papers in machine learning, robotics, and related fields. Previously, he was chief scientist at Baidu, the founding lead of the Google Brain team, and the co-founder of Coursera – the world’s largest MOOC platform.
+Kian Katanforoosh
+is the co-founder and CEO of Workera and a lecturer in the Computer Science department at Stanford University. Workera allows data scientists, machine learning engineers, and software engineers to assess their skills against industry standards and receive a personalized learning path. Kian is also the recipient of Stanford’s Walter J. Gores award (Stanford’s highest teaching award) and the Centennial Award for Excellence in teaching.
+Younes Bensouda Mourri
+completed his Bachelor’s in Applied Mathematics and Computer Science and Master’s in Statistics from Stanford University. Younes helped create 3 AI courses at Stanford – Applied Machine Learning, Deep Learning, and Teaching AI – and taught two of them for a few years.
+The Deep Learning Specialization was updated in April 2021. What is different in the new version?
+All existing assignments and autograders have been refactored and updated to TensorFlow 2 across Courses 1, 2, 4, and 5.
+Three new network architectures are presented with new lectures and programming assignments:
+Course 4 includes MobileNet (transfer learning) and U-Net (semantic segmentation).
+Course 5, once updated, will include Transformers (Network Architecture, Named Entity Recognition, Question Answering).
+For a detailed list of changes, please check out the
+DLS Changelog
+.
+I’m currently enrolled in one or more courses in the Deep Learning Specialization. What does this mean for me?
+Your certificates will carry over for any courses you’ve already completed.
+If your subscription is currently active, you can access the updated labs and submit assignments without paying for the month again.
+If you go to the Specialization, you will see the original version of the lecture videos and assignments. You can complete the original version if so desired (this is not recommended).
+If you would like to update to the new material,
+reset your deadlines
+. If you’re in the middle of a course,
+you will lose your notebook work when you reset your deadlines.
+Please save your work by downloading your existing notebooks before switching to the new version.
+If you do not see the option to reset deadlines, contact Coursera via the
+Learner Help Center
+.
+Is this a standalone course or a Specialization?
+The Deep Learning Specialization is made up of 5 courses.
+Do I need to take the courses in a specific order?
+We recommend taking the courses in the prescribed order for a logical and thorough learning experience. Course 3 can also be taken as a standalone course.
+How much does the Specialization cost?
+The DeepLearning.AI Pro membership costs $25/mo billed annually and $30/mo billed monthly.
+More pricing details are available on the
+membership page
+.
+Important details:
+All prices are listed in USD
+Payments are processed securely via Stripe
+Taxes may apply depending on your location
+What Learners Are Saying
+Previous slide
+Next slide
+What Learners Are Saying
+close
+Deep Learning Specialization
+Intermediate
+127h29m
+194 Video Lessons
+1 Code Example
+43 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Sep 29, 2026
+Instructor: Andrew Ng
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+Enroll Now
+Also available on
+Coursera
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

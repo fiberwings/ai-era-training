@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "cohortCalculations": 23,
+  "requirementMaxima": 204,
+  "allLayerBudgetsRespected": true,
+  "allPrimaryCoverageOptimaProven": true,
+  "publishedPlansChanged": false,
+  "baseline": "a959067fd5d91eba",
+  "catalogue": "d2604d12cdfe9509"
+}

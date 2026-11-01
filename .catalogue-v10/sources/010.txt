@@ -1,0 +1,306 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+11h1m
+Transformers in Practice
+Instructor
+:
+Sharon Zhou
+Earn
+a certificate
+with
+PRO
+· Updated Jun 2, 2026
+Enroll Now
+Intermediate
+11h1m
+19 Video Lessons
+8 Code Examples
+6 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jun 2, 2026
+Instructor: Sharon Zhou
+AMD
+Learn more about
+Membership PRO Plan
+Enroll Now
+Understand what's actually happening inside your LLMs
+Understand text generation: see how transformers produce output one token at a time, and why that explains so much about their behavior.
+Look inside the model: build intuition for what attention is really doing, how positional encoding works, and how layers combine to make predictions.
+Optimize for production: learn how quantization, KV caching, and flash attention help transformers run efficiently on GPUs.
+Why Enroll
+If you’ve worked with LLMs, you’ve probably run into slow inference, out-of-memory errors, or hallucinations you couldn’t explain. There’s no shortage of resources on how transformers work, but most of them either ask you to build one from scratch or get lost in theory that doesn’t connect to the problems you’re actually facing.
+Transformers in Practice is different. Taught by Sharon Zhou, VP of Engineering & AI at AMD, this course gives you a complete practical view of how transformers work, from how they generate text to what’s happening inside the model to how it all gets optimized to run on real hardware. Interactive visualizations throughout let you see key concepts in action and build intuition that actually sticks.
+Here’s what you’ll learn:
+Model Behavior:
+You’ll learn how LLMs generate text through an autoregressive loop, selecting one token at a time from a probability distribution. You’ll see how sampling parameters like temperature shape the output, why hallucinations happen, and how techniques like RAG, constrained generation, and chain-of-thought reasoning all work within this same loop.
+Model Architecture and Attention:
+You’ll look inside the transformer to understand what attention is really doing, how positional encoding tracks token order, and how multiple layers and attention heads work together to turn an input sequence into a next-token prediction.
+Scaling and Deploying:
+You’ll learn why GPUs are well-suited for transformer inference and where the real bottlenecks are. You’ll build practical intuition for quantization, KV caching, flash attention, and speculative decoding, including the tradeoffs each one introduces for cost, speed, and output quality.
+You’ll earn a certificate upon completing the course, recognizing your skills in transformer-based language models.
+In partnership with
+We built this course with AMD to help engineers move beyond treating LLMs as black boxes. You’ll build practical intuition for how transformers generate text, process context, and run efficiently on GPUs, while learning techniques and concepts that apply across transformer-based models and hardware environments.
+Who should join?
+This course is designed for software engineers, ML engineers, and developers who work with LLMs and want to understand what’s actually happening under the hood.
+You don’t need to have built a model from scratch, but you should be comfortable using LLMs through an API or chat interface and have a basic understanding of neural network concepts like weights, layers, and training.
+Course Outline
+Transformers in Practice
+Module 1: Observed behavior
+Conversation between Sharon Zhou and Andrew Ng
+Video
+・
+4m
+Transformers in practice
+Video
+・
+2m
+The autoregressive loop
+Video
+・
+4m
+Visualization tutorial
+Video
+・
+3m
+Visualization: The autoregressive Loop
+Code Example
+・
+10m
+Token sampling
+Video
+・
+5m
+Visualization: Selecting the Next Token
+Code Example
+・
+10m
+Autoregressive dynamics
+Video
+・
+3m
+Visualization: How Sampling Shapes Output
+Code Example
+・
+10m
+Structured outputs
+Video
+・
+5m
+Visualization: Constrained Generation with Finite State Machines (FSM)
+Code Example
+・
+10m
+Grounding in context
+Video
+・
+7m
+Thinking and reasoning
+Video
+・
+5m
+Additional Readings for Module 1
+Reading
+・
+10m
+Module 1: Graded Lab
+Graded
+・Code Assignment
+・
+1h
+Module 1: Quiz
+Graded
+・Quiz
+・
+30m
+Join the DeepLearning.AI Forum to ask questions, get support, or share amazing ideas!
+Reading
+・
+1m
+Module 2: LLM internals and attention
+Attention
+Video
+・
+8m
+Visualization: Decoder-Only Transformers
+Code Example
+・
+10m
+Visualization: Interpretable Attention Heads
+Code Example
+・
+1h
+Positional encoding
+Video
+・
+4m
+Model layers
+Video
+・
+6m
+Decoding
+Video
+・
+4m
+Visualization: Decoding Intermediate Layers
+Code Example
+・
+1h
+Ungraded Lab
+Code Example
+・
+10m
+Additional Readings for Module 2
+Reading
+・
+10m
+Module 2: Graded Lab
+Graded
+・Code Assignment
+・
+1h
+Module 2: Quiz
+Graded
+・Quiz
+・
+30m
+Module 3: Scaling and deploying
+Putting the model in production
+Video
+・
+4m
+Quantization
+Video
+・
+5m
+KV cache
+Video
+・
+3m
+Ungraded Lab: KV Cache
+Code Example
+・
+10m
+Flash attention
+Video
+・
+6m
+Visualization: Flash Attention
+Code Example
+・
+10m
+Speculative decoding
+Video
+・
+6m
+Visualization: Speculative Decoding
+Code Example
+・
+1h
+Issues that arise in production
+Video
+・
+5m
+Additional Readings for Module 3
+Reading
+・
+10m
+Module 3: Graded Lab
+Graded
+・Code Assignment
+・
+1h
+Module 3: Quiz
+Graded
+・Quiz
+・
+30m
+Acknowledgements
+Reading
+・
+1m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Sharon Zhou
+VP of Engineering & AI at AMD
+What Learners From Previous Courses Say About DeepLearning.AI
+Jan Zawadzki
+“Within a few minutes and a couple slides, I had the feeling that I could learn any concept. I felt like a superhero after this course. I didn’t know much about deep learning before, but I felt like I gained a strong foothold afterward.”
+View More
+Kritika Jalan
+“The whole specialization was like a one-stop-shop for me to decode neural networks and understand the math and logic behind every variation of it. I can say neural networks are less of a black box for a lot of us after taking the course.”
+View More
+Chris Morrow – Deep Learning Specialization
+“During my Amazon interview, I was able to describe, in detail, how a prediction model works, how to select the data, how to train the model, and the use cases in which this model could add value to the customer.”
+View More
+Previous slide
+Next slide
+Learner Reviews
+close
+Frequently Asked Questions
+I have questions about my DeepLearning.AI Pro subscription, whom can I ask?
+Please send an email to
+[email protected]
+to receive assistance.
+How much does a Pro membership cost?
+The DeepLearning.AI Pro membership costs $25/mo billed annually and $30/mo billed monthly.
+More pricing details are available on the
+membership page
+.
+Important details:
+All prices are listed in USD
+Payments are processed securely via Stripe
+Taxes may apply depending on your location
+Will I receive a certificate at the end of the course?
+Yes! If you’re a DeepLearning.AI Pro member, you’ll earn a certificate upon completing the course, recognizing your skills in AI prompting.
+Transformers in Practice
+Intermediate
+11h1m
+19 Video Lessons
+8 Code Examples
+6 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jun 2, 2026
+Instructor: Sharon Zhou
+AMD
+Learn more about
+Membership PRO Plan
+Enroll Now
+Join today and be on the forefront of the next generation of AI!
+Enroll Now
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll Now
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

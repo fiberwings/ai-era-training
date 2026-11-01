@@ -1,0 +1,147 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h18m
+Intro to Federated Learning
+Instructors
+:
+Daniel J. Beutel, Nicholas Lane
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Beginner
+1h18m
+7 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Daniel J. Beutel, Nicholas Lane
+Flower Labs
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Explore the components of federated learning systems and learn to customize, tune, and orchestrate them for better model training.
+Leverage federated learning to enhance LLMs by effectively managing key privacy and efficiency challenges.
+Learn how techniques like parameter-efficient fine-tuning and differential privacy are crucial for making federated learning secure and efficient.
+About this course
+Join Federated Learning! In this two-part course series, you will use Flower, a popular open source framework, to build a federated learning system, and learn about federated fine-tuning of LLMs with private data in part two.
+Federated learning allows models to be trained across multiple devices or organizations without sharing data, improving privacy and security. Federated learning also has many practical uses, such as training next-word prediction models on mobile keyboards without transmitting sensitive keystrokes onto a central server.
+First, you’ll learn about the federated training process, how to tune and customize it, how to increase data privacy, and how to manage bandwidth usage in federated learning.
+Then, you’ll learn to apply federated learning to LLMs. You’ll explore challenges like data memorization and the computational resources required by LLMs, and explore techniques for efficiency and privacy enhancement, such as Parameter-Efficient Fine-Tuning (PEFT) and Differential Privacy (DP).
+This two-part course series is self-contained. If you already know what federated learning is, you can start directly with part two of the course.
+In detail, here’s what you’ll do in part one:
+Learn how federated learning is used to train a variety of models, ranging from those for processing speech and vision all the way to the large language models, across distributed data while offering key data privacy options to users and organizations.
+Learn how to train AI on distributed data by building, customizing, and tuning a federated learning project using Flower and PyTorch.
+Gain intuition on how to think about Private Enhancing Technologies (PETs) in the context of federated learning, and work through an example using Differential Privacy, which protects individual data points from being traced back to their source.
+Learn about two types of differential privacy – central and local – along with the dual approach of clipping and noising to protect private data.
+Explore the bandwidth requirements for federated learning and how you can optimize it by reducing the update size and communication frequency.
+In the second part, you’ll learn how to train powerful models with your own data in a federated way, called federated LLM fine-tuning:
+Understand the importance of safely training LLMs using private data.
+Learn about the limitations of current training data and how Federated LLM Fine-tuning can help overcome these challenges.
+Build an LLM that is fine-tuned with private medical data to answer complex questions, where you’ll see the benefits of federated methods when using private data.
+Learn how federated LLM fine-tuning works and how it simplifies access to private data, reduces bandwidth with Parameter-Efficient Fine-Tuning (PEFT), and increases privacy to training data with Differential Privacy.
+Understand how LLMs can leak training data, how federated LLMs can lower this risk.
+Who should join?
+Anyone who has a basic background in Python and machine learning, has an understanding of LLMs, and wants to learn how to build models, including large language models, on private distributed data using the Flower framework.
+Course Outline
+7
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+4m
+Why Federated Learning
+Video with Code Example
+・
+18m
+Federated Training Process
+Video with Code Example
+・
+15m
+Tuning
+Video with Code Example
+・
+10m
+Data Privacy
+Video with Code Example
+・
+9m
+Bandwidth
+Video with Code Example
+・
+9m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Daniel J. Beutel
+Co-Founder & CEO of
+Flower Labs
+Nicholas Lane
+Co-founder and Chief Scientific Officer of
+Flower Labs
+Intro to Federated Learning
+Beginner
+1h18m
+7 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Daniel J. Beutel, Nicholas Lane
+Flower Labs
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

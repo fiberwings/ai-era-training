@@ -1,0 +1,405 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Intermediate
+13h19m
+Fine-tuning & RL for LLMs: Intro to Post-training
+Instructor
+:
+Sharon Zhou
+Earn
+a certificate
+with
+PRO
+· Updated Jul 17, 2026
+Enroll Now
+Intermediate
+13h19m
+43 Video Lessons
+11 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Sharon Zhou
+AMD
+Learn more about
+Membership PRO Plan
+Enroll Now
+Turn pretrained LLMs into production-ready models through post-training
+Align a pretrained model for real tasks: use SFT and RLHF to improve instruction following, reasoning, and safer behavior.
+Use evaluation to guide improvements: build evals that reveal problems, choose data and rewards accordingly, and iterate.
+Get models ready for production, cost-aware: plan promotion and serving, monitor reliably, and account for compute and budget.
+Why Enroll
+Large language models are powerful, but raw pretrained models aren’t ready for production applications.
+Post-training is what adapts an LLM to follow instructions, show reasoning, and behave more safely.
+Many developers still assume “LLMs inherently hallucinate,” or “only experts can tune models.” Recent advances have changed what’s feasible. If you ship LLM features (e.g., developer copilots, customer support agents, internal assistants) or work on ML/AI platform teams,
+understanding post-training is becoming a must-have skill
+.
+This course, consisting of 5 modules and taught by Sharon Zhou (VP of AI at AMD and instructor to popular DeepLearning.AI courses), will guide you through various aspects of post-training:
+Post-training in the LLM lifecycle:
+Learn where post-training fits, key ideas in fine-tuning and RL, how models gain reasoning, and how these methods power products.
+Core techniques:
+Understand fine-tuning, RLHF, reward modeling, and RL algorithms (PPO, GRPO). Use LoRA for efficient fine-tuning.
+Evaluation and error analysis:
+Design evals, detect reward hacking, diagnose failures, and red team to test model robustness.
+Data for post-training:
+Prepare fine-tuning/LoRA datasets, combine fine-tuning + RLHF, create synthetic data, and balance data and rewards.
+From post-training to production:
+Learn industry-leading production pipelines, set go/no-go rules, and run data feeedback loops from your logs.
+In partnership with
+We built this course with AMD to bring post-training practices used in leading labs to working engineers. You’ll get hands-on labs powered by AMD GPUs, while the methods you learn remain hardware-agnostic.
+Who should join?
+This course is designed for developers, ML engineers, software engineers, data scientists, and students who want to apply post-training techniques to production LLM systems. It’s also valuable for product managers and technical leaders who need to make informed decisions about post-training strategies and lead cross-functional teams working on LLM products.
+To make the most of this course, we recommend strong familiarity with Python and a basic understanding of how LLMs work.
+Course Outline
+Fine-tuning & RL for LLMs: Intro to Post-training
+Module 1: Post-Training Overview
+Conversation between Sharon Zhou and Andrew Ng
+Video
+・
+10m
+Background
+Video
+・
+5m
+Where post-training (fine-tuning and RL) fits into LLM training
+Video
+・
+6m
+Intuitions behind fine-tuning and RL
+Video
+・
+4m
+Key components to making fine-tuning and RL work
+Video
+・
+10m
+Post-training example: Reasoning
+Video
+・
+5m
+Post-training example: Safety and security (RLAIF)
+Video
+・
+4m
+Post-training in the wild
+Video
+・
+4m
+Module 1: Quiz
+Graded
+・Quiz
+・
+30m
+Module 1: Graded Lab
+Graded
+・Code Assignment
+・
+1h
+Join the DeepLearning.AI Forum to ask questions, get support, or share amazing ideas!
+Reading
+・
+5m
+Module 1 Lecture Notes
+Reading
+・
+1m
+Module 2: Core techniques in Fine-Tuning and RL
+Data: What you need and how to prepare it
+Video
+・
+7m
+Data: Tokens for models to read/write Data
+Video
+・
+10m
+Fine-tuning math: Loss, gradients, weight updates (Part 1)
+Video
+・
+6m
+Fine-tuning math: Loss, gradients, weight updates (Part 2)
+Video
+・
+5m
+Fine-tuning: Hyperparameters & hyperparameter tuning (Part 1)
+Video
+・
+7m
+Fine-tuning: Hyperparameters & hyperparameter tuning (Part 2)
+Video
+・
+4m
+Module 2 Graded Lab: 1
+Graded
+・Code Assignment
+・
+1h
+Fine-tuning: Parameter efficient fine-tuning (PEFT)
+Video
+・
+9m
+RL: Rewards and preference learning
+Video
+・
+9m
+RL: Training objective and RLHF
+Video
+・
+8m
+RL: PPO and GRPO Algorithms
+Video
+・
+8m
+Module 2: Quiz
+Graded
+・Quiz
+・
+30m
+Module 2 Graded Lab: 2
+Graded
+・Code Assignment
+・
+1h
+Module 2 Lecture Notes
+Reading
+・
+1m
+Module 3: Evaluation as the North Star
+Why evals are the north star
+Video
+・
+2m
+Evals for post-training: Test sets and metrics
+Video
+・
+8m
+RL test environments and monitoring RL updates
+Video
+・
+5m
+Reward hacking
+Video
+・
+4m
+Error analysis: Why it matters
+Video
+・
+2m
+Error analysis: Diagnosing errors & interventions
+Video
+・
+4m
+Error analysis: errors → causes → fixes
+Reading
+・
+10m
+How to invest in good evals
+Video
+・
+5m
+Red Teaming: Real world failures
+Video
+・
+4m
+Module 3: Quiz
+Graded
+・Quiz
+・
+30m
+Module 3: Graded Lab
+Graded
+・Code Assignment
+・
+1h
+Module 3 Lecture Notes
+Reading
+・
+1m
+Module 4: Data Driven Post-Training
+How much data you need for post-training
+Video
+・
+7m
+Data for fine-tuning
+Video
+・
+6m
+Data for RL (Part 1)
+Video
+・
+7m
+Data for RL (Part 2)
+Video
+・
+4m
+Putting it together
+Video
+・
+2m
+Synthetic data pipelines
+Video
+・
+7m
+Template engineering
+Video
+・
+4m
+Constitutional AI, revisited
+Video
+・
+5m
+Balancing data and rewards
+Video
+・
+5m
+Module 4: Quiz
+Graded
+・Quiz
+・
+30m
+Module 4: Graded Lab
+Graded
+・Code Assignment
+・
+1h
+Module 4 Lecture Notes
+Reading
+・
+1m
+Module 5: Production Considerations
+A production post-training pipeline
+Video
+・
+7m
+Agents
+Video
+・
+9m
+RL promotion rules (go/no-go)
+Video
+・
+6m
+Data-feedback flywheel
+Video
+・
+5m
+Monitoring and observability
+Video
+・
+4m
+Infrastructure (Part 1)
+Video
+・
+4m
+Infrastructure (Part 2)
+Video
+・
+7m
+Production-ready checklist
+Video
+・
+3m
+Module 5: Quiz
+Graded
+・Quiz
+・
+30m
+Module 5: Graded Lab
+Graded
+・Code Assignment
+・
+1h
+Acknowledgments
+Reading
+・
+1m
+Module 5 Lecture Notes
+Reading
+・
+1m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Sharon Zhou
+VP of Engineering & AI at AMD
+What Learners From Previous Courses Say About DeepLearning.AI
+Jan Zawadzki
+“Within a few minutes and a couple slides, I had the feeling that I could learn any concept. I felt like a superhero after this course. I didn’t know much about deep learning before, but I felt like I gained a strong foothold afterward.”
+View More
+Kritika Jalan
+“The whole specialization was like a one-stop-shop for me to decode neural networks and understand the math and logic behind every variation of it. I can say neural networks are less of a black box for a lot of us after taking the course.”
+View More
+Chris Morrow – Deep Learning Specialization
+“During my Amazon interview, I was able to describe, in detail, how a prediction model works, how to select the data, how to train the model, and the use cases in which this model could add value to the customer.”
+View More
+Previous slide
+Next slide
+Learner Reviews
+close
+Frequently Asked Questions
+I don’t have any programming experience, can I take this course?
+We recommend starting with a beginner course such as the Machine Learning Specialization.
+I already have Python experience, is this course for me?
+Yes! This course is perfect for anyone with a background in Python ready to dive deeper into the post-training of large language models.
+I have questions about my DeepLearning.AI Pro subscription, whom can I ask?
+Please send an email to
+[email protected]
+to receive assistance.
+How much does a Pro membership cost?
+The DeepLearning.AI Pro membership costs $25/mo billed annually and $30/mo billed monthly.
+More pricing details are available on the
+membership page
+.
+Important details:
+All prices are listed in USD
+Payments are processed securely via Stripe
+Taxes may apply depending on your location
+Will I receive a certificate at the end of the course?
+Yes! You’ll earn a certificate upon completing the course, recognizing your skills in post-training large language models
+Fine-tuning & RL for LLMs: Intro to Post-training
+Intermediate
+13h19m
+43 Video Lessons
+11 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Sharon Zhou
+AMD
+Learn more about
+Membership PRO Plan
+Enroll Now
+Join today and be on the forefront of the next generation of AI!
+Enroll Now
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll Now
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

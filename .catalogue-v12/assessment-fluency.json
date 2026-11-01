@@ -1,0 +1,1003 @@
+{
+  "courseId": "TR-089",
+  "reviewDate": "2026-10-31",
+  "durationHours": 4,
+  "primaryCategory": "L1 \u2014 working with AI (N6)",
+  "secondaryCategory": "Foundation support",
+  "sources": [
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/generative-ai-fundamentals",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/the-4d-framework",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-delegation",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-discernment",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/the-description-discernment-loop",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-diligence",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/project-planning-and-delegation",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/effective-prompting-techniques",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-description",
+    "https://academy.claude.com/courses/ai-fluency-framework-foundations/additional-activities"
+  ],
+  "decisions": [
+    {
+      "requirement": "N1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N2.1",
+      "priorScore": 1,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: Introduces models and training. Provider, cost, speed, reasoning and hosting trade-offs are not taught.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/generative-ai-fundamentals"
+    },
+    {
+      "requirement": "N2.2",
+      "priorScore": 0,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: Names text, images and code. Does not cover the complete modality range.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations"
+    },
+    {
+      "requirement": "N2.3",
+      "priorScore": 2,
+      "score": 2,
+      "evidence": "31 October 2026 public-lesson review: Explains automation, augmentation and agency, with applied scenarios. Does not teach the complete four-pattern model including agent teams.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/the-4d-framework"
+    },
+    {
+      "requirement": "N2.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N2.5",
+      "priorScore": 0,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: External-tool connection is named. MCP, reusable Skills and APIs are not distinguished.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations"
+    },
+    {
+      "requirement": "N2.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N2.7",
+      "priorScore": 1,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: Introduces platform awareness. Bank-approved versus public deployment and data flows are not taught.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-delegation"
+    },
+    {
+      "requirement": "N3.1",
+      "priorScore": 1,
+      "score": 2,
+      "evidence": "31 October 2026 public-lesson review: Explains hallucinations and knowledge limits. Expert Discernment checks factual errors, but dedicated confident-error recognition in the learner tool is not fully established.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations"
+    },
+    {
+      "requirement": "N3.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N3.3",
+      "priorScore": 0,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: Introduces context-window constraints. Long-session loss and recovery are not taught in depth.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/capabilities-limitations"
+    },
+    {
+      "requirement": "N3.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N3.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N3.6",
+      "priorScore": 1,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: Emphasises human judgement and oversight. The human automation-bias mechanism is not taught explicitly.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-discernment"
+    },
+    {
+      "requirement": "N3.7",
+      "priorScore": 2,
+      "score": 2,
+      "evidence": "31 October 2026 public-lesson review: Teaches iterative output checking and corrective feedback. Independent-first judgement, external-source checking and repeated-input sampling are not all established.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/the-description-discernment-loop"
+    },
+    {
+      "requirement": "N4.1",
+      "priorScore": 0,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: The learner reflects on data shared with AI. Bank data exits and public-tool flows are not explained.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-diligence"
+    },
+    {
+      "requirement": "N4.2",
+      "priorScore": 0,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: The learner considers privacy and security in data and system choices. Confidential client-data handling is not taught in depth.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-diligence"
+    },
+    {
+      "requirement": "N4.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N4.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N4.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N4.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N4.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N5.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N5.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N5.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N5.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N5.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N5.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N6.1",
+      "priorScore": 2,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: Learners define success, break down a project and assign work between humans and AI, then retain the delegation plan for implementation.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/project-planning-and-delegation"
+    },
+    {
+      "requirement": "N6.2",
+      "priorScore": 2,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: Explicitly teaches context, examples and constraints. Bad Prompt Makeover and the continuing project practise clearer instructions and feedback.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/effective-prompting-techniques"
+    },
+    {
+      "requirement": "N6.3",
+      "priorScore": 2,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: The expert-domain exercise evaluates output accuracy, reasoning and interaction behaviour, then practises feedback and revision.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-discernment"
+    },
+    {
+      "requirement": "N6.4",
+      "priorScore": 2,
+      "score": 3,
+      "evidence": "31 October 2026 public-lesson review: Learners draft and attach a project diligence statement documenting AI contribution, verification and human responsibility.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-diligence"
+    },
+    {
+      "requirement": "N6.5",
+      "priorScore": 1,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: Platform awareness introduces selecting suitable systems. Model and effort-level selection is not practised.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/a-closer-look-at-delegation"
+    },
+    {
+      "requirement": "N6.6",
+      "priorScore": 0,
+      "score": 1,
+      "evidence": "31 October 2026 public-lesson review: Context windows are introduced. Practical long-session and persistent-memory management are not taught.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/generative-ai-fundamentals"
+    },
+    {
+      "requirement": "N6.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N6.8",
+      "priorScore": 1,
+      "score": 2,
+      "evidence": "31 October 2026 public-lesson review: The continuing project practises AI-assisted work; Additional Activities proposes a personal practice plan. Daily bank work within local rules remains outside the course.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations/the-description-discernment-loop"
+    },
+    {
+      "requirement": "N7.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N7.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N7.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N7.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N7.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N8.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N8.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N8.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N8.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N8.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N9.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N9.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N9.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N9.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N9.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N10.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N10.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N10.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N10.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N10.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N10.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N10.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N10.8",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N11.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N11.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N11.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N11.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N11.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N11.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N12.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N12.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N12.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N12.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N12.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N12.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N12.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N12.8",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N12.9",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N13.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N13.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N13.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N13.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N13.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N13.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N14.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N14.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N14.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N14.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N14.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N14.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N14.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R1.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R1.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R1.1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R1.1.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R1.1.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R1.1.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R1.2.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R1.2.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R1.2.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R3.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R3.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R3.1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R3.1.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R3.1.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R3.2.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R3.2.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R3.2.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R3.2.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R3.2.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.1.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.1.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.1.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.2.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.2.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.2.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.2.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.2.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.2.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R4.2.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R5.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R5.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R5.1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R5.1.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R5.1.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R5.1.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R6.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R6.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R9.1.1",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R9.1.2",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R9.1.3",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R9.1.4",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R9.1.5",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R9.1.6",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R9.1.7",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R9.1.8",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R9.1.9",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "R9.1.10",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    },
+    {
+      "requirement": "N5.8",
+      "priorScore": 0,
+      "score": 0,
+      "evidence": "31 October 2026 public-lesson review: No explicit teaching of this outcome was found in the reviewed public course and lesson text. This is an evidence limit, not a claim about inaccessible media.",
+      "sourceUrl": "https://academy.claude.com/courses/ai-fluency-framework-foundations"
+    }
+  ]
+}

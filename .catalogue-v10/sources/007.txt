@@ -1,0 +1,156 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h26m
+Voice for AI Agents and Applications
+Instructor
+:
+Ashwyn Sharma
+Earn
+an accomplishment
+with
+PRO
+· Updated Jun 22, 2026
+Enroll Now
+Beginner
+1h26m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jun 22, 2026
+Instructor: Ashwyn Sharma
+Vocal Bridge
+Learn more about
+Membership PRO Plan
+Enroll Now
+7-Day Voice AI Builder Challenge
+Missed it live? We're sharing the winning submissions soon.
+Join the waitlist for the next builder challenge!
+Save My Spot
+What you'll learn
+Implement three types of voice-enabled AI applications: a voice-interactive game, a voice-layered agent, and an agent that places outbound phone calls.
+Add voice to an existing agent with minimal code, without rewriting your prompts, RAG pipeline, or tools.
+Use voice evaluation to score your agent's calls, surface failure modes, and improve quality before reaching production.
+About this course
+Voice is one of the most natural human interfaces, but adding it to AI applications has historically forced a tradeoff: fast voice-to-voice models that sacrifice reliability, or accurate speech-to-text-to-LLM-to-speech pipelines that add latency.
+This course teaches you how to get both, using Vocal Bridge's architecture that pairs a real-time foreground agent with a reasoning background agent.
+Taught by Ashwyn Sharma, CEO and Co-Founder of Vocal Bridge (an AI Fund portfolio company), this course covers three practical integration patterns that meet you where you are: voice embedded in an application, voice layered onto an existing agent without touching its logic, and voice as a tool your LLM can call when it decides a conversation is the right modality.
+In detail, you'll:
+Survey the traditional voice stack and its tradeoffs, then explore three live integration patterns to understand when each one applies.
+Build a voice-interactive tic-tac-toe game where voice commands and mouse clicks work together over a single synchronized channel, then add a voice layer to an existing agent with minimal code, leaving your prompts, RAG pipeline, and tools untouched.
+Give your agent a make_phone_call tool so it can dial a real number, hold a conversation with a demo agent, and stream the transcript back live.
+Set up evaluation-driven development using Vocal Bridge's multimodal evaluator to score calls, catch regressions, and refine prompts before issues reach users.
+Hear from Scott Johnston, former CEO of Docker and Vocal Bridge board member, on what it actually takes to move voice agents from demos to production.
+By the end of this course, you’ll have implemented three hands-on voice AI patterns: adding voice to an interactive app, layering voice onto a text-based agent, and giving an agent the ability to place outbound calls. You’ll also know how to evaluate and improve voice interactions.
+Who should join?
+Developers and AI builders who want to add voice to their agents or applications. Basic familiarity with Python is recommended. No prior experience with voice APIs is required.
+Course Outline
+8
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+4m
+Overview of Voice UI
+Video
+・
+9m
+Voice in Your App
+Video with Code Example
+・
+10m
+Voice for Your Agent
+Video with Code Example
+・
+12m
+Voice as a Tool
+Video with Code Example
+・
+9m
+Voice AI Evals
+Video with Code Example
+・
+10m
+Voice Agents in Production
+Video
+・
+8m
+Conclusion
+Video
+・
+1m
+Glossary
+Reading
+・
+10m
+(Optional) Claim Vocal Bridge Credits
+Code Example
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Ashwyn Sharma
+CEO and Co-Founder, Vocal Bridge
+Voice for AI Agents and Applications
+Beginner
+1h26m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jun 22, 2026
+Instructor: Ashwyn Sharma
+Vocal Bridge
+Learn more about
+Membership PRO Plan
+Enroll Now
+7-Day Voice AI Builder Challenge
+Missed it live? We're sharing the winning submissions soon.
+Join the waitlist for the next builder challenge!
+Save My Spot
+Additional learning features, such as quizzes and projects, are included with DeepLearning.AI Pro. Explore it today
+Enroll Now
+Want to learn more about AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew Ng’s thoughts from DeepLearning.AI!
+Enroll Now
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

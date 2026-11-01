@@ -1,7 +1,7 @@
 {
   "modelVersion": 2,
   "modelRevision": 3,
-  "catalogueVersion": "6f245643cc5bf083",
+  "catalogueVersion": "6db669ed065cab54",
   "retiredOutcomes": [
     {
       "id": "N5.2",
@@ -19,6 +19,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -36,6 +39,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -53,6 +59,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -70,6 +79,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -87,6 +99,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -104,6 +119,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -121,6 +139,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -138,6 +159,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -155,6 +179,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -172,6 +199,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -189,6 +219,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -206,6 +239,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -223,6 +259,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -240,6 +279,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -257,6 +299,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -274,6 +319,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -291,6 +339,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -308,6 +359,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -325,6 +379,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -342,6 +399,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -359,6 +419,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -376,6 +439,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -393,6 +459,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -410,6 +479,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -427,6 +499,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -444,6 +519,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -461,6 +539,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -478,6 +559,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -495,6 +579,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,
@@ -514,6 +601,9 @@
       "specialisms": [
         "threat-intelligence"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -531,6 +621,9 @@
       "component": "Agentic level",
       "agenticLevel": 1,
       "specialisms": [],
+      "categories": [
+        "L1 Entry"
+      ],
       "coreCondition": null,
       "sourceLevel": "Entry",
       "sourceRank": 1,
@@ -548,6 +641,9 @@
       "component": "Agentic level",
       "agenticLevel": 1,
       "specialisms": [],
+      "categories": [
+        "L1 Entry"
+      ],
       "coreCondition": null,
       "sourceLevel": "Entry",
       "sourceRank": 1,
@@ -565,6 +661,9 @@
       "component": "Agentic level",
       "agenticLevel": 1,
       "specialisms": [],
+      "categories": [
+        "L1 Entry"
+      ],
       "coreCondition": null,
       "sourceLevel": "Entry",
       "sourceRank": 1,
@@ -582,6 +681,9 @@
       "component": "Agentic level",
       "agenticLevel": 1,
       "specialisms": [],
+      "categories": [
+        "L1 Entry"
+      ],
       "coreCondition": null,
       "sourceLevel": "Entry",
       "sourceRank": 1,
@@ -599,6 +701,9 @@
       "component": "Agentic level",
       "agenticLevel": 1,
       "specialisms": [],
+      "categories": [
+        "L1 Entry"
+      ],
       "coreCondition": null,
       "sourceLevel": "Entry",
       "sourceRank": 1,
@@ -616,6 +721,9 @@
       "component": "Agentic level",
       "agenticLevel": 1,
       "specialisms": [],
+      "categories": [
+        "L1 Entry"
+      ],
       "coreCondition": null,
       "sourceLevel": "Entry",
       "sourceRank": 1,
@@ -633,6 +741,9 @@
       "component": "Agentic level",
       "agenticLevel": 1,
       "specialisms": [],
+      "categories": [
+        "L1 Entry"
+      ],
       "coreCondition": null,
       "sourceLevel": "Entry",
       "sourceRank": 1,
@@ -650,6 +761,9 @@
       "component": "Agentic level",
       "agenticLevel": 1,
       "specialisms": [],
+      "categories": [
+        "L1 Entry"
+      ],
       "coreCondition": null,
       "sourceLevel": "Entry",
       "sourceRank": 1,
@@ -667,6 +781,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -684,6 +801,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -701,6 +821,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -718,6 +841,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -735,6 +861,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -752,6 +881,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -769,6 +901,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -786,6 +921,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -803,6 +941,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -820,6 +961,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -837,6 +981,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -854,6 +1001,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -871,6 +1021,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -888,6 +1041,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -905,6 +1061,9 @@
       "component": "Agentic level",
       "agenticLevel": 2,
       "specialisms": [],
+      "categories": [
+        "L2 Practitioner"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -922,6 +1081,9 @@
       "component": "Agentic level",
       "agenticLevel": 3,
       "specialisms": [],
+      "categories": [
+        "L3 Expert"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -939,6 +1101,9 @@
       "component": "Agentic level",
       "agenticLevel": 3,
       "specialisms": [],
+      "categories": [
+        "L3 Expert"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -958,6 +1123,9 @@
       "specialisms": [
         "agent-engineering"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -975,6 +1143,9 @@
       "component": "Agentic level",
       "agenticLevel": 3,
       "specialisms": [],
+      "categories": [
+        "L3 Expert"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -992,6 +1163,9 @@
       "component": "Agentic level",
       "agenticLevel": 3,
       "specialisms": [],
+      "categories": [
+        "L3 Expert"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1010,6 +1184,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-engineering"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -1030,6 +1207,9 @@
       "specialisms": [
         "agent-engineering"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1047,6 +1227,9 @@
       "component": "Agentic level",
       "agenticLevel": 3,
       "specialisms": [],
+      "categories": [
+        "L3 Expert"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1064,6 +1247,9 @@
       "component": "Agentic level",
       "agenticLevel": 3,
       "specialisms": [],
+      "categories": [
+        "L3 Expert"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1081,6 +1267,9 @@
       "component": "Agentic level",
       "agenticLevel": 3,
       "specialisms": [],
+      "categories": [
+        "L3 Expert"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1098,6 +1287,9 @@
       "component": "Agentic level",
       "agenticLevel": 3,
       "specialisms": [],
+      "categories": [
+        "L3 Expert"
+      ],
       "coreCondition": "When automated judges are used",
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1117,6 +1309,10 @@
       "specialisms": [
         "vendor-evaluation"
       ],
+      "categories": [
+        "L3 Expert",
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1134,6 +1330,9 @@
       "component": "Agentic level",
       "agenticLevel": 3,
       "specialisms": [],
+      "categories": [
+        "L3 Expert"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1152,6 +1351,10 @@
       "agenticLevel": 3,
       "specialisms": [
         "vendor-evaluation"
+      ],
+      "categories": [
+        "L3 Expert",
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -1172,6 +1375,9 @@
       "specialisms": [
         "ai-security"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1190,6 +1396,9 @@
       "agenticLevel": null,
       "specialisms": [
         "ai-security"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -1210,6 +1419,9 @@
       "specialisms": [
         "ai-security"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1228,6 +1440,9 @@
       "agenticLevel": null,
       "specialisms": [
         "ai-security"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -1248,6 +1463,9 @@
       "specialisms": [
         "ai-security"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1266,6 +1484,9 @@
       "agenticLevel": null,
       "specialisms": [
         "ai-security"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -1286,6 +1507,9 @@
       "specialisms": [
         "ai-security"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1304,6 +1528,9 @@
       "agenticLevel": null,
       "specialisms": [
         "ai-security"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -1324,6 +1551,9 @@
       "specialisms": [
         "agent-architecture"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert (architects)",
       "sourceRank": 3,
@@ -1343,6 +1573,9 @@
       "specialisms": [
         "ai-governance"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert (GRC, BISOs, leaders)",
       "sourceRank": 3,
@@ -1361,6 +1594,9 @@
       "agenticLevel": null,
       "specialisms": [
         "ai-governance"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert (GRC, BISOs, leaders)",
@@ -1382,6 +1618,9 @@
         "ai-governance",
         "leadership"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert (GRC, BISOs, leaders)",
       "sourceRank": 3,
@@ -1400,6 +1639,9 @@
       "agenticLevel": null,
       "specialisms": [
         "ai-governance"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert (GRC, BISOs, leaders)",
@@ -1420,6 +1662,9 @@
       "specialisms": [
         "ai-governance"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert (GRC, BISOs, leaders)",
       "sourceRank": 3,
@@ -1438,6 +1683,9 @@
       "agenticLevel": null,
       "specialisms": [
         "ai-governance"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert (GRC, BISOs, leaders)",
@@ -1459,6 +1707,9 @@
         "workflow-transformation",
         "leadership"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert (leaders, champions)",
       "sourceRank": 3,
@@ -1478,6 +1729,9 @@
       "specialisms": [
         "workflow-transformation",
         "leadership"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert (leaders, champions)",
@@ -1499,6 +1753,9 @@
         "workflow-transformation",
         "leadership"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert (leaders, champions)",
       "sourceRank": 3,
@@ -1518,6 +1775,9 @@
       "specialisms": [
         "workflow-transformation",
         "leadership"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert (leaders, champions)",
@@ -1539,6 +1799,9 @@
         "workflow-transformation",
         "leadership"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert (leaders, champions)",
       "sourceRank": 3,
@@ -1557,6 +1820,9 @@
       "agenticLevel": null,
       "specialisms": [
         "leadership"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Leaders",
@@ -1577,6 +1843,9 @@
       "specialisms": [
         "leadership"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": "For leadership responsibilities",
       "sourceLevel": "Leaders",
       "sourceRank": 3,
@@ -1595,6 +1864,9 @@
       "agenticLevel": null,
       "specialisms": [
         "incident-response"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -1615,6 +1887,9 @@
       "specialisms": [
         "incident-response"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -1633,6 +1908,9 @@
       "agenticLevel": null,
       "specialisms": [
         "incident-response"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -1653,6 +1931,9 @@
       "specialisms": [
         "incident-response"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -1671,6 +1952,9 @@
       "agenticLevel": null,
       "specialisms": [
         "incident-response"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -1691,6 +1975,9 @@
       "specialisms": [
         "incident-response"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -1709,6 +1996,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-forensics"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -1729,6 +2019,9 @@
       "specialisms": [
         "agent-forensics"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1747,6 +2040,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-forensics"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -1767,6 +2063,9 @@
       "specialisms": [
         "agent-testing"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -1785,6 +2084,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-testing"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -1805,6 +2107,9 @@
       "specialisms": [
         "advanced-redteam"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": "For multi-agent testing responsibilities",
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1823,6 +2128,9 @@
       "agenticLevel": null,
       "specialisms": [
         "advanced-redteam"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -1843,6 +2151,9 @@
       "specialisms": [
         "advanced-redteam"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -1861,6 +2172,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-testing"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -1881,6 +2195,9 @@
       "specialisms": [
         "agent-testing"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -1899,6 +2216,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-testing"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -1919,6 +2239,9 @@
       "specialisms": [
         "agent-testing"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -1937,6 +2260,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-testing"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -1957,6 +2283,9 @@
       "specialisms": [
         "exposure-management"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -1975,6 +2304,9 @@
       "agenticLevel": null,
       "specialisms": [
         "exposure-management"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -1995,6 +2327,9 @@
       "specialisms": [
         "exposure-management"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -2013,6 +2348,9 @@
       "agenticLevel": null,
       "specialisms": [
         "exposure-management"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -2033,6 +2371,9 @@
       "specialisms": [
         "exposure-management"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -2051,6 +2392,9 @@
       "agenticLevel": null,
       "specialisms": [
         "exposure-management"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -2071,6 +2415,9 @@
       "specialisms": [
         "code-analysis"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -2089,6 +2436,9 @@
       "agenticLevel": null,
       "specialisms": [
         "code-analysis"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -2109,6 +2459,9 @@
       "specialisms": [
         "code-analysis"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -2127,6 +2480,9 @@
       "agenticLevel": null,
       "specialisms": [
         "code-analysis"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -2147,6 +2503,9 @@
       "specialisms": [
         "code-analysis"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -2165,6 +2524,9 @@
       "agenticLevel": null,
       "specialisms": [
         "code-analysis"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -2185,6 +2547,9 @@
       "specialisms": [
         "code-analysis"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -2203,6 +2568,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-architecture"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -2223,6 +2591,9 @@
       "specialisms": [
         "agent-architecture"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -2241,6 +2612,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-architecture"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -2261,6 +2635,9 @@
       "specialisms": [
         "agent-architecture"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -2279,6 +2656,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-architecture"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -2299,6 +2679,9 @@
       "specialisms": [
         "agent-architecture"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -2317,6 +2700,9 @@
       "agenticLevel": null,
       "specialisms": [
         "agent-assurance"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -2337,6 +2723,9 @@
       "specialisms": [
         "agent-assurance"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": "When assurance work itself uses AI",
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -2355,6 +2744,9 @@
       "agenticLevel": null,
       "specialisms": [
         "identity-operations"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -2375,6 +2767,9 @@
       "specialisms": [
         "identity-integration"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": "For delegated-identity integration responsibilities",
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -2393,6 +2788,9 @@
       "agenticLevel": null,
       "specialisms": [
         "identity-operations"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -2413,6 +2811,9 @@
       "specialisms": [
         "identity-operations"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -2431,6 +2832,9 @@
       "agenticLevel": null,
       "specialisms": [
         "identity-operations"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -2451,6 +2855,9 @@
       "specialisms": [
         "identity-operations"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
       "sourceRank": 2,
@@ -2469,6 +2876,9 @@
       "agenticLevel": null,
       "specialisms": [
         "identity-operations"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Practitioner",
@@ -2489,6 +2899,9 @@
       "specialisms": [
         "identity-integration"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -2507,6 +2920,9 @@
       "agenticLevel": null,
       "specialisms": [
         "identity-integration"
+      ],
+      "categories": [
+        "Specialisms"
       ],
       "coreCondition": null,
       "sourceLevel": "Expert",
@@ -2527,6 +2943,9 @@
       "specialisms": [
         "identity-integration"
       ],
+      "categories": [
+        "Specialisms"
+      ],
       "coreCondition": null,
       "sourceLevel": "Expert",
       "sourceRank": 3,
@@ -2544,6 +2963,9 @@
       "component": "Foundation",
       "agenticLevel": 0,
       "specialisms": [],
+      "categories": [
+        "Foundation"
+      ],
       "coreCondition": null,
       "sourceLevel": "Base",
       "sourceRank": 0,

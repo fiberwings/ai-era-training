@@ -1,0 +1,38 @@
+{
+  "release": "2.0.7",
+  "date": "2026-10-31",
+  "change": "Coverage explorer shared by component and legacy workspaces",
+  "automated": {
+    "javascript": {
+      "passed": 61,
+      "failed": 0
+    },
+    "python": {
+      "passed": 14,
+      "failed": 0
+    }
+  },
+  "browser_verified": [
+    "Four mutually exclusive outcome status counts and priority shortcuts",
+    "Search retains focus; no-match state; reset; saved view when returning from catalogue",
+    "Must-have zero and partial filters; category filtering; ID sorting",
+    "Need summaries retain full-scope coverage, band and counts under filtering",
+    "Expandable detailed evidence and existing Explore options action",
+    "Component and legacy workspaces, and isolated standalone HTML",
+    "Internal teaching changes planned status while assessed score stays zero; temporary item removed",
+    "Filtered Foundation CSV retains all 29 outcomes plus header",
+    "Filtered 59-outcome audience retains all 59 unique outcomes in print DOM",
+    "390px mobile layout has no document horizontal overflow; expanded evidence stacks vertically",
+    "No browser console warnings or errors in standalone verification"
+  ],
+  "preserved": [
+    "Catalogue and model",
+    "Scoring and applicability",
+    "Saved plan decisions",
+    "Full CSV and print detail"
+  ],
+  "manual_limits": [
+    "Direct file:// opening and native print/PDF layout were not exercised"
+  ],
+  "preview": "coverage-explorer-preview.jpg"
+}

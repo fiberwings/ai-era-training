@@ -1,0 +1,151 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h47m
+Building toward Computer Use with Anthropic
+Instructor
+:
+Colt Steele
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Beginner
+1h47m
+9 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Colt Steele
+Anthropic
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn about Anthropic’s family of models, its approach to AI research, and the best way to prompt it, including multi-modal use cases.
+Learn effective prompting techniques, implement prompt caching to reduce costs and latency, and build AI applications that can call tools.
+See how you can combine multimodal capabilities, agentic workflows, and tool use to build an AI assistant that can navigate and interact with computer interfaces, executing tasks like web searches.
+About this course
+Building Towards Computer Use with Anthropic
+introduces an innovative capability from Anthropic that enables models to interact with and navigate computer interfaces.
+Taught by Colt Steele, Anthropic’s Head of Curriculum, this course covers Anthropic’s family of models and the building blocks that lead to the amazing new application –
+Computer Use
+.
+Computer Use utilizes the capabilities of the latest models including image reasoning and tool use to enable an LLM-based agent to use a computer. Like a human user, the model processes an image of the screen, analyzes it to understand what’s going on, and navigates the computer by issuing mouse clicks and generating keyboard strokes to get things done.
+In this course, you’ll learn the features that lead up to computer use from working with the Anthropic’s API, to multimodal prompting, prompt caching, and tool use, ending in a demo that combines these features to build an AI assistant that uses a computer.
+In detail, you’ll:
+Learn Anthropic’s approach to AI research, principles of AI safety, alignment, and interpretability while understanding the key differences between its models.
+Make API requests to Claude, format messages for better responses, and control API parameters like system prompts, temperature, and max tokens for optimal responses.
+Write multi-modal prompts that combine text and image content blocks and build with streaming responses.
+Learn effective prompting techniques such as using prompt templates, structuring prompts in XML, and providing examples to get consistent high-quality responses.
+Learn to implement prompt caching and see how it can reduce costs and latency.
+Understand tool-use workflows and build a chatbot that can call different tools in response to users’ queries.
+See all these concepts come together in a demo that uses Anthropic Computer Use to achieve a task on a computer.
+Start utilizing Anthropic’s family of models to build towards Computer Use applications.
+Who should join?
+Anyone who has basic Python knowledge, wants to learn how to use all of the features of the Anthropic family of models, and understand the capabilities of computer use applications.
+Course Outline
+9
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+3m
+Overview
+Video
+・
+7m
+Working with the API
+Video with Code Example
+・
+15m
+Multimodal Requests
+Video with Code Example
+・
+12m
+Real World Prompting
+Video with Code Example
+・
+17m
+Prompt Caching
+Video with Code Example
+・
+12m
+Tool Use
+Video with Code Example
+・
+17m
+Computer Use
+Video
+・
+10m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Colt Steele
+Head of Curriculum at
+Anthropic
+Building toward Computer Use with Anthropic
+Beginner
+1h47m
+9 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructor: Colt Steele
+Anthropic
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

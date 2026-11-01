@@ -1,0 +1,154 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h14m
+Build Long-Context AI Apps with Jamba
+Instructors
+:
+Chen Wang, Chen Almagor
+Earn
+an accomplishment
+with
+PRO
+· Updated Jul 17, 2026
+Enroll for Free
+Beginner
+1h14m
+9 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Chen Wang, Chen Almagor
+AI21 labs
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Learn how the Jamba model integrates transformers and the Mamba architecture to efficiently process long contexts while maintaining quality.
+Understand the training process for long context models, and the metrics used to evaluate their performance.
+Gain hands-on experience applying Jamba to tasks such as processing large documents, tool-calling, and building large context RAG apps.
+About this course
+Learn to use the Jamba model, a hybrid transformer-Mamba architecture trained to handle long contexts, in this new course,
+Build
+Long-Context AI Apps with Jamba
+, built in partnership with AI21 Labs and taught by Chen Wang and Chen Almagor.
+The transformer architecture is the foundation of most large language models but it is computationally expensive when handling very long input contexts.
+There’s an alternative to transformers called Mamba. Mamba is a selective state space model that can process very long contexts with a much lower computational cost. However, researchers found that the pure Mamba architecture underperforms in understanding the context, and the quality of the output can be lower even in tasks as simple as repeating the input in the output of the model.
+To overcome these challenges, AI21 Labs developed the Jamba model, which combines Mamba’s computational efficiency with the transformer’s attention mechanism to help with the output quality.
+In this course, you’ll learn about the Jamba architecture, how it works, and how it is trained. You’ll also learn how to prompt Jamba and use it to process long documents and build long-context RAG apps.
+In detail, you’ll:
+Learn key information about Jamba’s large context model and its unique, hybrid architecture that allows for high-quality outputs, high throughput, and low memory usage.
+Learn how Jamba combines transformers with Mamba, a selective state-space model to achieve high performance and quality.
+Use the AI21SDK, especially its document parameter, with an example of prompting a large over 200k-token annual report.
+Use Jamba for tool-calling with hands-on examples from calling simple arithmetic functions to a function that returns SEC 10-Q company quarterly report.
+Learn how the training for long context is done, and the metrics used for evaluating the performance.
+Create a RAG app using the AI21 Conversational RAG tool and build your own RAG pipeline that uses the Jamba model with LangChain.
+Start building AI apps that can handle context as long as all of your unread emails from the last 20 years!
+Who should join?
+Anyone who has basic Python knowledge and wants to learn more about how the Jamba model works and how it is used for building long-context AI apps.
+Course Outline
+9
+Lessons・
+4
+Code Examples
+Introduction
+Video
+・
+3m
+Overview
+Video
+・
+5m
+Transformer-Mamba Hybrid LLM Architecture
+Video
+・
+14m
+Jamba Prompting and Documents
+Video with Code Example
+・
+8m
+Tool Calling
+Video with Code Example
+・
+6m
+Expand the Context Window Size
+Video
+・
+13m
+Long Context Prompting
+Video with Code Example
+・
+3m
+Conversational RAG
+Video with Code Example
+・
+8m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Chen Wang
+Lead Alliance Solution Architect at
+AI21 labs
+Chen Almagor
+Algorithm Team Lead at
+AI21 labs
+Build Long-Context AI Apps with Jamba
+Beginner
+1h14m
+9 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Jul 17, 2026
+Instructors: Chen Wang, Chen Almagor
+AI21 labs
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

@@ -1,0 +1,148 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h32m
+Prompt Engineering for Vision Models
+Instructors
+:
+Abby Morgan, Jacques Verré, Caleb Kaiser
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Beginner
+1h32m
+7 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructors: Abby Morgan, Jacques Verré, Caleb Kaiser
+Comet
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Prompt vision models with text, coordinates, and bounding boxes, and tune hyper-parameters like guidance scale, strength, and number of inference steps.
+Replace parts of an image with generated content with in-painting, a technique that combines object detection, image segmentation, and image generation.
+Fine-tune a diffusion model to have even more control over your image generation to create specific images, including your own, rather than generically generated images.
+About this course
+Prompt engineering is used not only in text models but also in vision models. Depending on the vision model, they may use text prompts, but can also work with pixel coordinates, bounding boxes, or segmentation masks.
+In this course, you’ll learn to prompt different vision models like Meta’s Segment Anything Model (SAM), a universal image segmentation model, OWL-ViT, a zero-shot object detection model, and Stable Diffusion 2.0, a widely used diffusion model. You’ll also use a fine-tuning technique called DreamBooth to tune a diffusion model to associate a text label with an object of your preference.
+In detail, you’ll explore:
+Image Generation:
+Prompt with text and by adjusting hyperparameters like strength, guidance scale, and number of inference steps**.**
+Image Segmentation:
+Prompt with positive or negative coordinates, and with bounding box coordinates.
+Object detection:
+Prompt with natural language to produce a bounding box to isolate specific objects within images.
+In-painting:
+Combine the above techniques to replace objects within an image with generated content.
+Personalization with Fine-tuning:
+Generate custom images based on pictures of people or places that you provide, using a fine-tuning technique called DreamBooth.
+Iterating and Experiment Tracking:
+Prompting and hyperparameter tuning are iterative processes, and therefore experiment tracking can help to identify the most effective combinations. This course will use Comet, a library to track experiments and optimize visual prompt engineering workflows.
+Who should join?
+Prompt Engineering for Vision Models is a hands-on course that helps you get started with prompting vision models. Python experience is recommended.
+Course Outline
+7
+Lessons・
+4
+Code Examples
+Introduction
+Video
+・
+6m
+Overview
+Video
+・
+7m
+Image Segmentation
+Video with Code Example
+・
+12m
+Object Detection
+Video with Code Example
+・
+23m
+Image Generation
+Video with Code Example
+・
+11m
+Fine-tuning
+Video with Code Example
+・
+20m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructors
+Abby Morgan
+Machine Learning Engineer at
+Comet
+Jacques Verré
+Head of Product at
+Comet
+Caleb Kaiser
+Machine Learning Engineer at
+Comet
+Prompt Engineering for Vision Models
+Beginner
+1h32m
+7 Video Lessons
+4 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructors: Abby Morgan, Jacques Verré, Caleb Kaiser
+Comet
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

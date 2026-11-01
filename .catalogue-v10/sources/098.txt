@@ -1,0 +1,143 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+1h2m
+Getting Started with Mistral
+Instructor
+:
+Sophia Yang
+Earn
+an accomplishment
+with
+PRO
+· Updated Oct 7, 2025
+Enroll for Free
+Beginner
+1h2m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Sophia Yang
+Mistral AI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+What you'll learn
+Explore Mistral’s three open source models (Mistral 7B, Mixtral 8x7B, and the latest Mixtral 8x22B), and three commercial models (small, medium, and large), which Mistral provides access to via web interface and API calls.
+Leverage Mistral’s JSON mode to generate LLM responses in a structured JSON format, enabling integration of LLM outputs into larger software applications.
+Use Mistral’s API to call user-defined Python functions for tasks like web searches or retrieving text from databases, enhancing the LLM’s ability to find relevant information to answer user queries.
+About this course
+In this course, you’ll access Mistral AI’s collection of open source and commercial models, including the Mixtral 8x7B model, and the latest Mixtral 8x22B. You’ll learn about selecting the right model for your use case, and get hands-on with features like effective prompting techniques, function calling, JSON mode, and Retrieval Augmented Generation (RAG).
+In detail:
+Access and prompt Mistral models via API calls for tasks, and decide whether your task is either a simple task (classification), medium (email writing), or advanced (coding) level of complexity, and consider speed requirements to choose an appropriate model.
+Learn to use Mistral’s native function calling, in which you give an LLM tools it can call as needed to perform tasks that are better performed by traditional code, such as querying a database for numerical data.
+Build a basic RAG system from scratch with similarity search, properly chunk data, create embeddings, and implement this tool as a function in your chat system.
+Build a chat interface to interact with the Mistral models and ask questions about a document that you upload.
+By the end of this course, you’ll be equipped to leverage Mistral AI’s leading open source and commercial models.
+Who should join?
+Getting Started with Mistral
+is a beginner-friendly course and it’s suitable for anyone who wants to learn about and use Mistral AI’s collection of advanced open source and commercial LLMs. If you have taken
+ChatGPT Prompt Engineering for Developers
+or
+Prompt Engineering with Llama 2
+, this is a great next step!
+Course Outline
+8
+Lessons・
+5
+Code Examples
+Introduction
+Video
+・
+3m
+Overview
+Video
+・
+6m
+Prompting
+Video with Code Example
+・
+9m
+Model Selection
+Video with Code Example
+・
+6m
+Function Calling
+Video with Code Example
+・
+10m
+RAG from Scratch
+Video with Code Example
+・
+9m
+Chatbot
+Video with Code Example
+・
+5m
+Conclusion
+Video
+・
+1m
+Quiz
+Graded
+・Quiz
+・
+10m
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Instructor
+Sophia Yang
+Head of Developer Relations at
+Mistral AI
+Getting Started with Mistral
+Beginner
+1h2m
+8 Video Lessons
+5 Code Examples
+1 Graded Assignment
+PRO
+Earn
+an accomplishment
+with
+PRO
+Updated Oct 7, 2025
+Instructor: Sophia Yang
+Mistral AI
+Learn more about
+Membership PRO Plan
+Enroll for Free
+Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+Enroll for Free
+Want to learn more about Generative AI?
+Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll for Free
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

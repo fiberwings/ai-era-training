@@ -1,0 +1,591 @@
+✨ Join Andrew Ng at AI Dev in New York, Nov 30–Dec 1 →
+Get tickets
+Courses
+News
+The Batch
+Andrew's Letter
+Data Points
+ML Research
+Blog
+Community
+Forum
+Attend AI Dev
+Resources
+Membership
+For Business
+Overview
+Plans & Pricing
+Learning Tracks
+Contact Us
+Beginner
+31h32m
+Generative AI for Software Development
+Instructor
+:
+Laurence Moroney
+DeepLearning.AI
+Earn
+a certificate
+with
+PRO
+· Updated Sep 2, 2026
+Enroll Now
+Also available on
+Coursera
+Beginner
+31h32m
+80 Video Lessons
+8 Code Examples
+22 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Sep 2, 2026
+Instructor: Laurence Moroney
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+What you'll learn
+Integrate Generative AI in Development:
+Learn to use generative AI tools like GitHub Copilot and ChatGPT from initial design to deployment, enhancing coding efficiency and creativity.
+Optimize Your Code Quality:
+Improve your coding skills, whether you’re just starting out and need help with bug fixes or an experienced developer trying to break new ground.
+Develop Innovative Solutions:
+Create advanced software solutions using AI for testing, debugging, dependency management, and documentation.
+Why Enroll?
+In this Skill Certificate from DeepLearning.AI, you’ll learn from Laurence Moroney, former AI lead at Google, as he guides you through a comprehensive pathway to understand and apply generative AI technologies in real-world software development.
+Learn practical prompt engineering and pair programming with LLMs like ChatGPT to enhance your software development workflow. Through hands-on projects, you’ll gain techniques for using AI to help with common development tasks – from writing and testing code to creating documentation and managing dependencies. This program teaches you how to effectively prompt LLMs to assist with everything from basic coding tasks to implementing complex design patterns and database architectures.
+Designed for both individual developers wanting to boost their productivity and team members looking to integrate AI tools into their development process. You’ll learn specific skills for using LLMs as a coding partner while still maintaining control over code quality and design decisions.
+As AI-powered coding tools are set to transform the industry, with Gartner predicting 70% adoption by platform engineering teams by 2027, this course will support you in learning these technologies at all stages of your career. It will show you how to use LLMs to leverage your own experience and knowledge to become a faster, more productive worker. You will be introduced to a new paradigm for software development, where LLMs become invaluable members of your development team by acting as pair coding partners, software testers, security experts, and knowledgeable colleagues.
+When you complete the program, you’ll earn a Skill Certificate from DeepLearning.AI, demonstrating your aptitude with the latest GenAI skills and tools to help you advance in your career.
+What you'll learn in this course
+Configuration-Driven Development (CDD)
+: Understand and implement CDD principles in software design.
+Database Design and Implementation
+: Learn to design database schemas, implement CRUD operations, and optimize database performance.
+Design Patterns
+: Explore and apply Gang of Four design patterns, including Singleton, Factory, Template Method, and Strategy.
+API Integration
+: Work with external APIs like DALL-E for image generation.
+Data Serialization
+: Implement file serialization techniques using JSON and Pickle.
+LLM-Assisted Coding
+: Leverage Large Language Models as pair programming partners throughout the software development process.
+Key technologies and concepts you’ll use
+Python
+: The primary programming language used throughout the course
+SQLAlchemy
+: ORM for database operations
+SQLite
+: Lightweight database for prototyping
+JSON
+: Data format for configuration files
+Pickle
+: Serialization tool for complex Python objects
+DALL-E API
+: For image generation tasks
+Design Patterns
+: Singleton, Factory, Template Method, Strategy
+LLMs (e.g., GPT-4)
+: For code generation and problem-solving assistance
+Level up with hands-on projects
+Build a configurable image generation application using the DALL-E API, implementing CDD principles.
+Design and implement an e-commerce database system with full CRUD functionality.
+Develop a financial services application that demonstrates the use of various design patterns.
+Create and query a social network database as part of a graded exercise.
+These projects will allow you to apply concepts of software design, database management, and API integration while using an LLM as a coding assistant.
+Build foundational knowledge
+Pair-coding with an LLM to efficiently modify data structures for use in production and at big data scales.
+Work with an LLM as a skilled software tester to identify bugs, create edge case tests, and update code to correct errors.
+Implement a functioning local database from scratch, and partner with an LLM to think through software design issues and how to optimize for efficient, secure data access.
+Instructor
+Laurence Moroney
+Former AI Lead at Google
+Skills you will gain
+LLMs (Large Language Models)
+Generative AI
+Machine Learning
+Software Development
+Software Engineering
+Learner reviews from other DeepLearning.AI courses
+Selami A.
+What I loved about the “AI for Everyone” course was the comprehensive coverage of essential AI topics, guided by the expertise of Andrew Ng. The course provided a clear roadmap for initiating and managing AI projects, from project selection to implementation. It also offered insights into building AI teams and introduced the technical tools necessary for AI success
+View More
+Chris C.
+Simple enough to make it easy to understand in spite of being a complex topic, inspiring speaker. Time well spent, and a good fit with “lifelong learning” approach.
+Adeel B.
+What stood out to me about this course was the clarity and simplicity with which complex AI concepts were explained. The real-life examples and case studies helped me grasp the practical implications of AI in different sectors. The interactive nature of the course made learning engaging and enjoyable.
+View More
+Krystal L.
+I am an educator and looking to incorporate AI into my career and help my colleagues to do the same. The course did a great job explaining AI concepts to people like myself who are just learning about any of this for the first time.
+View More
+John S.
+I took this course purely out of curiosity. After becoming aware of ChatGPT and Midjourney and then taking a short course on engineering the prompts to get the desired result, I became more intrigued with the topic of AI. I found this most helpful with regards to getting an idea about what AI actually is as opposed to what Hollywood conditioned me to believe it might be.
+View More
+Muhammad S.
+Loved the content. It brought simplicity to the complex topic of AI, separated signal from noise, presented a great flow and covered the most relevant topics.
+Andrew’s knowledge and passion about the subject of AI was amazing. It was inspiring to listen to him, even via recorded videos. Its really great to be in this era of technology, as it makes it possible to get access to the wealth of knowledge so easily.
+View More
+Previous slide
+Next slide
+Learner Reviews
+close
+Course Outline
+Course
+1
+Course
+2
+Course
+3
+Introduction to Generative AI for Software Development
+Module 1: Introduction to Generative AI
+Course Introduction
+Introduction to Generative AI
+Module 2: Pair-coding with an LLM
+Transformers and code
+Video
+・
+3m
+ChatGPT environment - To be used alongside with the lectures
+Reading with AI Assistant
+・
+5m
+Python environment - To be used alongside with the lectures
+Code Example
+・
+5m
+Generating code with chatbots
+Video
+・
+8m
+Iterative prompting
+Video
+・
+4m
+Giving the LLM feedback
+Video
+・
+4m
+Quiz 1
+Graded
+・Quiz
+・
+15m
+Assigning the LLM a role
+Video
+・
+5m
+Leveling up with multiple roles
+Video
+・
+2m
+Expert roles for specialized knowledge
+Video
+・
+4m
+LLM best practices
+Video
+・
+4m
+Apply prompting best practices to improve a prompt
+Reading with AI Assistant
+・
+15m
+Quiz 2
+Graded
+・Quiz
+・
+15m
+LLM-Powered Coding Tools: Chat, IDE-Integrated, Agentic
+Video
+・
+5m
+LLM-Powered Coding Tools: Strengths and Weaknesses
+Video
+・
+5m
+The Context Window
+Video
+・
+6m
+LLM-Powered Coding Tools: Best Practices
+Video
+・
+4m
+Module 3: Leveraging an LLM for code analysis
+ChatGPT environment - To be used alongside with the lectures
+Reading with AI Assistant
+・
+5m
+Data structures in production
+Video
+・
+1m
+Arrays
+Video
+・
+4m
+Linked lists
+Video
+・
+7m
+Quiz 1
+Graded
+・Quiz
+・
+15m
+Self-paced exercise: Doubly-linked Lists
+Video
+・
+3m
+Building a Doubly Linked List Class with an LLM
+Code Example
+・
+1h
+GPT-4o Environment for Ungraded Lab (to use alongside the Ungraded Lab)
+Reading with AI Assistant
+・
+5m
+Trees
+Video
+・
+9m
+Graphs
+Video
+・
+6m
+Graded lab: Graph algorithms
+Video
+・
+1m
+Downloading your Notebook and Refreshing your Workspace
+Reading
+・
+10m
+IMPORTANT: Project Updates Coming January 28th
+Reading
+・
+2m
+Building a Travel & Flight Optimization App
+Graded
+・Code Assignment
+・
+10m
+GPT-4o Environment for Assignment (to use alongside the programming assignment)
+Reading with AI Assistant
+・
+5m
+Hash tables and maps
+Video
+・
+10m
+Quiz 2
+Graded
+・Quiz
+・
+15m
+Course conclusion
+Video
+・
+1m
+Acknowledgments
+Reading
+・
+5m
+Team Software Engineering with AI
+Module 1: Testing and Debugging
+Course Introduction
+Testing and Debugging
+Module 2: Documentation
+Module introduction
+Video
+・
+2m
+ChatGPT environment - To be used alongside with the lectures
+Reading with AI Assistant
+・
+5m
+Principles of good documentation
+Video
+・
+5m
+Inline comments
+Video
+・
+5m
+Documentation comments
+Video
+・
+5m
+Quiz 1
+Graded
+・Quiz
+・
+15m
+Automated documentation tools
+Video
+・
+4m
+Autodocs with Sphinx walkthrough
+Video
+・
+7m
+Documentation in other coding languages
+Video
+・
+4m
+Documentation for life in production
+Video
+・
+1m
+Quiz 2
+Graded
+・Quiz
+・
+15m
+Module 3: Dependency Management
+Module introduction
+Video
+・
+7m
+ChatGPT environment - To be used alongside with the lectures
+Reading with AI Assistant
+・
+5m
+Virtual environments
+Video
+・
+6m
+Researching dependencies
+Video
+・
+6m
+Quiz 1
+Graded
+・Quiz
+・
+15m
+Dependency conflicts
+Video
+・
+3m
+Dependencies and security
+Video
+・
+6m
+Dependency management and other programming languages
+Video
+・
+2m
+Quiz 2
+Graded
+・Quiz
+・
+15m
+Solving Versioning and Dependency conflicts with an LLM
+Graded
+・Code Assignment
+・
+3h
+Course conclusion
+Video
+・
+1m
+Acknowledgments
+Reading
+・
+5m
+AI-Powered Software and System Design
+Module 1: Data Serialization and Configuration-Driven Development
+Course Introduction
+Data Serialization and Configuration-Driven Development
+Module 2: Databases
+Module introduction
+Video
+・
+1m
+GPT-4o Environment for Assignment (to use alongside the programming assignment)
+Reading with AI Assistant
+・
+5m
+Setting up a  simple database
+Video
+・
+3m
+Design and implement a database schema
+Video
+・
+5m
+Implementing CRUD operations
+Video
+・
+8m
+Module exercise
+Video
+・
+1m
+Adding CRUD Operations to the Database
+Code Example
+・
+1h
+Quiz 1
+Graded
+・Quiz
+・
+15m
+Advanced querying
+Video
+・
+3m
+Databaset optimization
+Video
+・
+6m
+Debugging
+Video
+・
+6m
+Quiz 2
+Graded
+・Quiz
+・
+15m
+Graded lab:  Social Network Database
+Video
+・
+1m
+Downloading your Notebook and Refreshing your Workspace
+Reading
+・
+10m
+Social Network Database
+Graded
+・Code Assignment
+・
+3h
+GPT-4o Environment for Assignment (to use alongside the programming assignment)
+Reading with AI Assistant
+・
+1h
+Module 3: Software Design Patterns
+Module introduction
+Video
+・
+3m
+GPT-4o Environment for Assignment (to use alongside the programming assignment)
+Reading with AI Assistant
+・
+5m
+Gang of Four patterns overview
+Video
+・
+5m
+Singletons
+Video
+・
+6m
+Patterns advice from an LLM
+Video
+・
+6m
+Singleton for database connection manager
+Video
+・
+5m
+Factory Patterns
+Video
+・
+9m
+Factory Patterns
+Code Example
+・
+1h
+Quiz 1
+Graded
+・Quiz
+・
+15m
+Template Method Pattern
+Video
+・
+6m
+Strategy Pattern
+Video
+・
+4m
+Quiz 2
+Graded
+・Quiz
+・
+15m
+Course conclusion
+Video
+・
+3m
+Resources and Acknowledgments
+Elevate your learning experience with Pro
+Upgrade to Pro and gain unlimited accomplishments on your resume
+Learn More
+Frequently Asked Questions
+What is the focus of this course?
+The course focuses on integrating generative AI tools into software development, covering machine learning techniques, transformer models, iterative code refinement, and advanced data structures.
+Who should take this course?
+This course is designed for software developers, engineers, and aspiring professionals with intermediate knowledge of software development and a basic understanding of AI concepts. The course is particularly valuable for those looking to enhance their skills in software architecture, database management, and AI integration in development workflows.
+How long is the course?
+The course is designed to be completed in about a month, with an estimated commitment of 5 hours per week.
+What are the prerequisites?
+Basic knowledge of software development. Familiarity in one or more programming languages like Python, JavaScript, or C#.
+What kind of projects and exercises are included?
+Practical, hands-on exercises include implementing linked lists and trees, generating and refining code with AI, and optimizing data structures for performance and security.
+How will this course help in my career?
+Improve coding efficiency and creativity, tackle complex coding challenges, optimize performance, and ensure security, making you more competitive in the job market.
+Can I take this course at my own pace?
+Yes, the course is designed to be self-paced.
+I have questions about my DeepLearning.AI Pro subscription, whom can I ask?
+Please send an email to
+[email protected]
+.
+How much does the DeepLearning.AI Pro membership cost?
+The DeepLearning.AI Pro membership costs $25/mo billed annually and $30/mo billed monthly.
+More pricing details are available on the
+membership page
+.
+Important details:
+All prices are listed in USD
+Payments are processed securely via Stripe
+Taxes may apply depending on your location
+Generative AI for Software Development
+Beginner
+31h32m
+80 Video Lessons
+8 Code Examples
+22 Graded Assignments
+PRO
+Earn
+a certificate
+with
+PRO
+Updated Sep 2, 2026
+Instructor: Laurence Moroney
+DeepLearning.AI
+Learn more about
+Membership PRO Plan
+Enroll Now
+Also available on
+Coursera
+Stay up to date with AI news!
+Keep learning with updates on curated news, courses, and events, as well as Andrew’s thoughts from DeepLearning.AI!
+Enroll Now
+Also available on
+Coursera
+Choose Your Plan
+Planning for more users?
+Team Plan
+Learn More
+Keep Current Plan
+close

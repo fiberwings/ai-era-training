@@ -3,7 +3,7 @@ const layer=(id,name,budget,parent,level,specialisms=[],extra={})=>({id,name,bud
   profile:{level,specialisms,tools:[]},needs:[],selected:[],pinned:[],excluded:[],internal:[],rationale:'',
   removedRequirements:[],addedRequirements:[],filters:{audience:true,types:[]},...extra});
 export function initialCohorts(){return [
-  layer('all','Foundation — common knowledge',2,null,0,[],{group:'Shared learning',note:'Common knowledge for everyone. The former combined 4h Foundation / Entry budget is provisionally split 2h + 2h; adjust to actual needs.'}),
+  layer('all','Foundation — common knowledge',2,null,0,[],{group:'Shared learning',note:'Common knowledge for everyone. The former combined 4h Foundation / L1 Entry budget is provisionally split 2h + 2h; adjust to actual needs.'}),
   layer('entry','L1 Entry — Work with AI assistance',2,'all',1,[],{group:'Shared learning',note:'Primarily do the work yourself, with AI assistance. Practical use adds to the shared foundation.'}),
   layer('practitioner','L2 Practitioner — Supervise agents',8,'entry',2,[],{group:'Shared learning',note:'Supervise existing agents, adapt reusable task instructions and run task checks. Operational permission is a separate decision.'}),
   layer('technical','L3 Expert — Build and evaluate agents',24,'practitioner',3,[],{group:'Shared learning',note:'Design and evaluate agents, including no-code/low-code builds. Select infrastructure or security-design learning within Security architecture & engineering when the responsibility requires it.'}),
@@ -65,6 +65,5 @@ export function recommendationCohort(data,s,c){
 export function invalidateRecommendations(s,c){
   for(const item of s.cohorts)if(item.id===c.id||ancestors(s,item).some(a=>a.id===c.id)){
     delete item.recommendation;
-    if(item.profile)item.needsReview=true;
   }
 }

@@ -2,6 +2,7 @@
 // Retired outcome mappings preserve traceability; source level metadata is historical.
 export const MODEL_VERSION = 2;
 export const MODEL_REVISION = 3;
+export const CATEGORY_NAMES = ['Foundation','L1 Entry','L2 Practitioner','L3 Expert','Specialisms','Tooling'];
 export const ACTIVITIES = [
   {id:'automated-judges',name:'Use automated judges for evaluation',requirement:'N11.3'},
   {id:'ai-assisted-assurance',name:'Use AI to perform assurance work',requirement:'R6.1.2'}
@@ -66,12 +67,13 @@ export function profileRequirements(data,profile) {
   });
 }
 export function profileLabel(c) {
-  if (!c.profile) return 'Previous model · '+(c.rank===0?'Base':['','Entry','Practitioner','Expert'][c.rank]);
+  if (!c.profile) return 'Previous model · '+['Foundation','L1 Entry','L2 Practitioner','L3 Expert'][c.rank];
   return [LEVELS[c.profile.level].name,...SPECIALISMS.filter(s=>c.profile.specialisms.includes(s.id)).map(s=>s.name)].join(' + ');
 }
 export function crosswalk(data) {
   return data.requirements.map(r=>({id:r.id,need:r.need,title:r.title,description:r.description,core:r.core,
     component:sharedLevel(r)===null?'Role specialism':sharedLevel(r)===0?'Foundation':'Agentic level',
     agenticLevel:sharedLevel(r),specialisms:specialismsFor(r.id).map(s=>s.id),
+    categories:[...(sharedLevel(r)===null?[]:[CATEGORY_NAMES[sharedLevel(r)]]),...(specialismsFor(r.id).length?['Specialisms']:[])],
     coreCondition:r.coreCondition||null,sourceLevel:r.level,sourceRank:r.rank,source:r.source}));
 }

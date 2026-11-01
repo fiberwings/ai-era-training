@@ -1,0 +1,4060 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Foundation and L1 training options — numerical coverage</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+  :root{color-scheme:light;--ink:#172b3a;--muted:#556773;--line:#d9e3e8;--accent:#086d75}
+  html{background:#eef3f5;scroll-behavior:smooth}body{max-width:1220px;margin:24px auto;padding:38px 45px;background:white;color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-shadow:0 6px 28px #16313f12}
+  h1{font-size:30px;line-height:1.2;margin:0 0 18px}h2{font-size:24px;margin:38px 0 12px;padding-top:18px;border-top:3px solid var(--accent);scroll-margin-top:16px}h3{font-size:18px;margin:24px 0 10px}p{margin:0 0 14px}a{color:var(--accent);text-underline-offset:3px}strong{font-weight:650}
+  table{width:100%;border-collapse:collapse;margin:16px 0 22px;font-size:13px;line-height:1.45}th,td{padding:11px 12px;border:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}th{background:#e8f2f3;text-align:left;color:#104b55}tr:nth-child(even) td{background:#f7fafb}td ul{margin:0;padding-left:17px}td li{margin:0 0 7px}td li:last-child{margin-bottom:0}table:not(:first-of-type) th:first-child{width:23%}table:not(:first-of-type) th:nth-child(3){width:60%}
+  .score{display:inline-block;padding:1px 5px;margin-right:4px;border-radius:3px;background:#edf0f2;font-size:11px;font-weight:650;white-space:nowrap}.score-0{background:#f9e8e5;color:#8c2d22}.score-1{background:#fff0cc;color:#715100}.score-2{background:#e2effa;color:#214f73}.score-3{background:#dff1e7;color:#175637}.score-summary{font-size:12px;line-height:1.65;margin:12px 0 0;color:#405662}.numeric-comparison th,.numeric-comparison td{font-variant-numeric:tabular-nums}.numeric-comparison td:not(:first-child){text-align:center}
+  @media(max-width:760px){body{margin:0;padding:22px 13px;box-shadow:none}h1{font-size:25px}h2{font-size:21px}table{font-size:12px}th,td{padding:7px}td ul{padding-left:13px}}
+  @media print{html{background:white}body{margin:0;max-width:none;padding:0;box-shadow:none;font-size:10pt}h1{font-size:23pt}h2{font-size:16pt;break-after:avoid}h3{break-after:avoid}table{font-size:8.5pt}tr{break-inside:auto}li{break-inside:avoid}th,td{padding:6px}a{color:inherit}p{orphans:3;widows:3}}
+  </style>
+</head>
+<body>
+<h1 id="foundation-and-l1-training-options">Foundation and L1 training
+options</h1>
+<p>31 October 2026 · Whole courses and whole Microsoft modules only.
+Published course durations; internal work is untimed.</p>
+<p><strong>How to read:</strong> each course lists the specific outcome
+content evidenced in its syllabus or inspected exercises. The numerical
+score distinguishes a mention, partial teaching and full evidenced
+outcome coverage. “To build or complete” identifies the remaining
+teaching or local application. Udemy videos have not been fully
+reviewed.</p>
+<h2 id="decision-proposed">Compare the options</h2>
+<p><strong>Scoring:</strong> <strong>0 = no evidenced coverage; 1 =
+mention (⅓ credit); 2 = partial teaching (⅔ credit); 3 = full outcome
+(full credit).</strong> Skill outcomes require practice for 3. These use
+the catalogue’s existing 0–3 rubric.</p>
+<ul>
+<li><strong>Each need:</strong> sum of its outcome scores ÷ (3 × number
+of outcomes) × 100. Outcomes have equal weight within a need.</li>
+<li><strong>Each option:</strong> take the highest course score for each
+outcome, then calculate coverage. Overlap is counted once; two partial
+courses are not automatically treated as full coverage.</li>
+<li><strong>Priority N2–N4:</strong> average of N2, N3 and N4.
+<strong>Overall N2–N6:</strong> average of all five needs, including N5
+and N6. Needs have equal weight. <strong>N1 is excluded</strong> because
+it is reserved for the in-house showcase; proposed internal content
+earns no credit.</li>
+</ul>
+<p>Percentages are a <strong>weighted curriculum-coverage
+index</strong>, not measured competence, quality or time saved. Scores
+use retained catalogue evidence with documented public-content updates.
+Unlisted course outcomes score 0; that means coverage is not established
+by the reviewed evidence. Small differences should not decide the choice
+alone.</p>
+<table class="numeric-comparison">
+<thead>
+<tr>
+<th>
+Option
+</th>
+<th>
+N2<br>Systems
+</th>
+<th>
+N3<br>Limitations
+</th>
+<th>
+N4<br>Responsible use
+</th>
+<th>
+N5<br>Threats
+</th>
+<th>
+N6<br>L1 skills
+</th>
+<th>
+Priority<br>N2–N4
+</th>
+<th>
+Overall<br>N2–N6
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="#option-f">F — Anthropic fluency + Microsoft</a>
+</td>
+<td>
+43%
+</td>
+<td>
+29%
+</td>
+<td>
+11%
+</td>
+<td>
+0%
+</td>
+<td>
+67%
+</td>
+<td>
+<strong>28%</strong>
+</td>
+<td>
+<strong>30%</strong>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#option-a">A — Udemy + Microsoft</a>
+</td>
+<td>
+33%
+</td>
+<td>
+67%
+</td>
+<td>
+17%
+</td>
+<td>
+11%
+</td>
+<td>
+38%
+</td>
+<td>
+<strong>39%</strong>
+</td>
+<td>
+<strong>33%</strong>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#option-b">B — Anthropic limitations + Microsoft</a>
+</td>
+<td>
+33%
+</td>
+<td>
+62%
+</td>
+<td>
+0%
+</td>
+<td>
+0%
+</td>
+<td>
+29%
+</td>
+<td>
+<strong>32%</strong>
+</td>
+<td>
+<strong>25%</strong>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#option-c">C — Three Udemy courses</a>
+</td>
+<td>
+24%
+</td>
+<td>
+67%
+</td>
+<td>
+44%
+</td>
+<td>
+11%
+</td>
+<td>
+42%
+</td>
+<td>
+<strong>45%</strong>
+</td>
+<td>
+<strong>38%</strong>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#option-d">D — DeepLearning.AI introduction + Microsoft</a>
+</td>
+<td>
+43%
+</td>
+<td>
+10%
+</td>
+<td>
+0%
+</td>
+<td>
+6%
+</td>
+<td>
+25%
+</td>
+<td>
+<strong>17%</strong>
+</td>
+<td>
+<strong>17%</strong>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#option-g">G — DeepLearning.AI practical course + Microsoft</a>
+</td>
+<td>
+43%
+</td>
+<td>
+33%
+</td>
+<td>
+0%
+</td>
+<td>
+0%
+</td>
+<td>
+46%
+</td>
+<td>
+<strong>25%</strong>
+</td>
+<td>
+<strong>24%</strong>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#option-e">E — Google + Microsoft</a>
+</td>
+<td>
+43%
+</td>
+<td>
+5%
+</td>
+<td>
+11%
+</td>
+<td>
+6%
+</td>
+<td>
+42%
+</td>
+<td>
+<strong>20%</strong>
+</td>
+<td>
+<strong>21%</strong>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#option-h">H — Longer Udemy alternative</a>
+</td>
+<td>
+48%
+</td>
+<td>
+33%
+</td>
+<td>
+50%
+</td>
+<td>
+6%
+</td>
+<td>
+50%
+</td>
+<td>
+<strong>44%</strong>
+</td>
+<td>
+<strong>37%</strong>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Reading the results:</strong> C and H have the broadest
+weighted coverage; F has the strongest N6 score and full evidenced
+teaching/practice for N6.1–N6.4. A remains a concise N3-focused
+candidate. F is therefore an L1-led choice with substantial Foundation
+gaps, rather than the highest-coverage package. None completes
+Foundation or Foundation + L1. Keep course quality and published
+duration alongside these scores.</p>
+<h2 id="option-f">Option F — Anthropic fluency + Microsoft</h2>
+<p>Strongest evidenced N6 core; broader Foundation coverage still needs
+substantial completion.</p>
+<h3 id="existing-training">Existing training</h3>
+<table class="course-table">
+<thead>
+<tr>
+<th>
+Training and coverage index
+</th>
+<th>
+Vendor duration and basis
+</th>
+<th>
+Outcome coverage — score out of 3
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://academy.claude.com/courses/ai-fluency-framework-foundations">Anthropic
+— AI Fluency: Framework and foundations</a>
+<p class="score-summary">
+N2 29% · N3 29% · N4 11% · N5 0% · N6 67%<br>Priority N2–N4:
+<strong>23%</strong><br>Overall N2–N6: <strong>27%</strong>
+</p>
+</td>
+<td>
+4h — estimated learning time
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-1"
+title="&#39;Generative AI fundamentals&#39; lesson; model variety, cost and tokens not confirmed [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces generative models; not the complete
+model/provider landscape.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-1"
+title="The inspected capabilities lesson names text, images and code; the complete modality range is not taught.">1/3
+mention</span> Names text, images and code; the complete modality range
+is not taught.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span class="score score-2"
+title="Objective: distinguish Automation, Augmentation and Agency (overlaps assistant vs agent patterns) [V8: retained after source/rubric review.]">2/3
+partial</span> Explains automation, augmentation and agency.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1"
+title="External-tool connection is named, without the required MCP/Skills/API distinction.">1/3
+mention</span> Names external-tool connection; no MCP/Skills/API
+distinction.
+</li>
+<li>
+<strong>N2.7 Where it runs</strong> — <span class="score score-1"
+title="&#39;Platform Awareness&#39; under Delegation; not bank-approved vs public platforms [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces platform awareness; no bank platform mapping.
+</li>
+<li>
+<strong>N3.1 Hallucination</strong> — <span class="score score-2"
+title="Inspected lesson explicitly explains hallucinations and capability limits; complete recognition in the learner’s own tools is not established.">2/3
+partial</span> Explains hallucinations and capability limits; complete
+own-tool recognition is not established.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span class="score score-1"
+title="Context-window constraints are explicitly introduced; recovery and recognition in a long session are not established.">1/3
+mention</span> Introduces context-window constraints; practical
+long-session recovery is not established.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span class="score score-1"
+title="Diligence/Discernment imply not over-trusting output; automation bias not named [V8: retained after source/rubric review.]">1/3
+mention</span> Human judgement and diligence counter uncritical trust.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span class="score score-2"
+title="Discernment and the Description-Discernment loop teach checking and refining output; no source-checking or sampling routine [V8: retained after source/rubric review.]">2/3
+partial</span> Checking and refining outputs through the
+description–discernment loop.
+</li>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-1"
+title="Diligence reflection mentions the information shared with AI; it does not explain bank data exits or public-tool flows.">1/3
+mention</span> Diligence exercise asks learners to consider data shared
+with AI.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-1"
+title="Diligence reflection raises privacy/security considerations; handling confidential client data is not taught in depth.">1/3
+mention</span> Diligence exercise considers privacy/security in system
+and data choices.
+</li>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-3"
+title="Delegation exercise defines a good result, decomposes the work and allocates human/AI tasks; a continuing project applies the decisions.">3/3
+full</span> Practice: define success, divide work and create a
+delegation plan.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-3"
+title="Teaching explicitly covers background information, examples and constraints; the description exercise and continuing project provide practice.">3/3
+full</span> Practice: specify the desired output, approach and
+behaviour; improve instructions.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-3"
+title="Inspected exercise evaluates output accuracy, the presented reasoning and interaction behaviour, then refines the answer.">3/3
+full</span> Practice: evaluate output, argument and behaviour; give
+corrective feedback.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span class="score score-3"
+title="Inspected diligence-statement exercise records AI contribution, verification and ownership of the result.">3/3
+full</span> Practice: state AI’s contribution, checks performed and
+human responsibility.
+</li>
+<li>
+<strong>N6.5 Choosing a model</strong> — <span class="score score-1"
+title="&#39;Platform Awareness&#39; named under Delegation; no model or effort-level choice taught [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces platform awareness; no complete model/effort
+selection exercise.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-1"
+title="Context windows are introduced but practical long-session and persistent-memory management are missing.">1/3
+mention</span> Introduces context windows; practical memory management
+remains missing.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span class="score score-2"
+title="A continuing course project practices AI-assisted work, but daily bank use within local rules remains outside the course.">2/3
+partial</span> A continuing project applies the framework; daily bank
+use is not established.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/">Microsoft
+— Introduction to generative AI and agents</a>
+<p class="score-summary">
+N2 33% · N3 0% · N4 0% · N5 0% · N6 8%<br>Priority N2–N4:
+<strong>11%</strong><br>Overall N2–N6: <strong>8%</strong>
+</p>
+</td>
+<td>
+37m — sum of vendor unit learning-time estimates
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2"
+title="Tokens and language models are explained in detail; provider/model trade-offs and open/local hosting are missing.">2/3
+partial</span> LLMs and tokens.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span class="score score-2"
+title="Assistant, acting agent and multi-agent concepts are explained; full shared human-agent workspace pattern is not established.">2/3
+partial</span> Assistants, agents and multi-agent concepts.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span class="score score-2"
+title="Model, instructions and tools are explained; the full configurable harness, memory and repeated loop are missing.">2/3
+partial</span> Model, instructions and tools.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1"
+title="Tool connections are introduced; MCP, reusable Skills and APIs are not distinguished.">1/3
+mention</span> Tool connection concepts.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="Context, examples, constraints and introductory prompt exercise are evidenced; sufficient practice across the complete work-task outcome is not established.">2/3
+partial</span> Prompt/context basics and an introductory exercise.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Option scores:</strong> <strong>N2 43%</strong> · <strong>N3
+29%</strong> · <strong>N4 11%</strong> · <strong>N5 0%</strong> ·
+<strong>N6 67%</strong>. Priority N2–N4: <strong>28%</strong>;
+Foundation N2–N5: <strong>21%</strong>; combined N2–N6:
+<strong>30%</strong>.</p>
+<p><strong>Outcome counts (34 total):</strong> 4 full · 6 partial · 9
+mentions · 15 not evidenced. <strong>Essential outcomes:</strong> 4/14
+full; 6/14 have no evidenced coverage. Essential outcomes remain visible
+separately; their weight is not increased in the percentage.</p>
+<p><strong>Content summary:</strong> <strong>N2</strong> Model/agent
+basics; <strong>N3</strong> Judgement habits; failure gaps;
+<strong>N4</strong> General diligence/data reflection;
+<strong>N5</strong> No dedicated threat overview; <strong>N6</strong>
+Strongest 4D practice fit.</p>
+<h3 id="to-build-or-complete-for-this-option">To build or complete for
+this option</h3>
+<p>The score below is the <strong>best existing course score</strong>,
+before internal work. <strong>Build</strong> = 0;
+<strong>Complete</strong> = 1–2; <strong>Apply/check</strong> = 3, with
+local validation rather than a missing generic lesson. Proposed
+additions earn no credit and have no assumed duration.</p>
+<table>
+<thead>
+<tr>
+<th>
+Need
+</th>
+<th>
+Missing content or local application, one outcome per line
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>N1 — In-house showcase</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N1.1 What AI does today in cyber</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Build
+the agreed showcase using current cyber-domain use cases.
+</li>
+<li>
+<strong>N1.2 What is emerging</strong> — <span class="score">Excluded
+from index</span> Build agreed showcase: Add emerging cyber capabilities
+to the showcase.
+</li>
+<li>
+<strong>N1.3 How one’s own work changes</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Discuss
+two or three changes to each participant’s work.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N2 — AI systems and agents</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2">External
+2/3</span> Complete: Add provider/model trade-offs, cost/speed/reasoning
+and open/local hosting.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-1">External
+1/3</span> Complete: Demonstrate text, code, image, voice, documents and
+screens using approved examples.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Complete the
+four-pattern comparison, especially shared human–agent work.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add memory, repeated
+action loop and how the harness is configured.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1">External 1/3</span> Complete: Complete the
+distinction between MCP connectors, Skills and APIs.
+</li>
+<li>
+<strong>N2.6 Safety components</strong> — <span
+class="score score-0">External 0/3</span> Build: Show identity,
+permissions, sandbox, authorisation, input/output guardrails, logs and
+stop controls.
+</li>
+<li>
+<strong>N2.7 Where it runs</strong> — <span
+class="score score-1">External 1/3</span> Complete: Map approved versus
+public platforms and trace what data leaves the bank.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N3 — AI limitations</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N3.1 Hallucination</strong> — <span
+class="score score-2">External 2/3</span> Complete: Explain confident
+wrong answers; practise recognising and verifying one in an approved
+tool.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-0">External
+0/3</span> Build: Compare leading and neutral requests; recognise
+agreement that follows the user’s view.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span
+class="score score-1">External 1/3</span> Complete: Complete
+introductory context-window awareness with a lost-constraint and
+recovery example.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span
+class="score score-0">External 0/3</span> Build: Repeat the same request
+and explain why outputs differ.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span
+class="score score-0">External 0/3</span> Build: Demonstrate
+instructions hidden in a document and how to respond safely.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span
+class="score score-1">External 1/3</span> Complete: Demonstrate
+over-trust; require an independent human judgement.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add explicit source
+checks, independent-first judgement and output sampling.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N4 — Responsible AI use</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-1">External 1/3</span> Complete: Turn generic
+data-choice reflection into actual bank data-flow rules.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-1">External 1/3</span> Complete: Apply the bank’s
+client/confidential-data restrictions to the diligence exercise.
+</li>
+<li>
+<strong>N4.3 Intellectual property</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain permitted
+inputs, ownership/reuse risks and when to seek IP advice.
+</li>
+<li>
+<strong>N4.4 AI supply chain</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain risks from
+third-party models, Skills, connectors and their information sources.
+</li>
+<li>
+<strong>N4.5 Regulation</strong> — <span class="score score-0">External
+0/3</span> Build: Have Compliance explain applicable AI-literacy duties
+and regional regulatory expectations.
+</li>
+<li>
+<strong>N4.6 The bank's rules</strong> — <span
+class="score score-0">External 0/3</span> Build: Apply approved-tool
+rules, agent delegation limits, approval requirements and escalation.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N5 — AI security risks and threats</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N5.1 AI-enabled social engineering and impersonation</strong> —
+<span class="score score-0">External 0/3</span> Build: Ad hoc awareness:
+phishing, tailored deception and voice/video impersonation; verify
+identity independently.
+</li>
+<li>
+<strong>N5.3 AI-enabled intrusion</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain AI-assisted
+vulnerability discovery, malware generation and automated intrusion.
+</li>
+<li>
+<strong>N5.4 Attacks on the bank's AI</strong> — <span
+class="score score-0">External 0/3</span> Build: Provide attack examples
+involving the bank’s own AI systems.
+</li>
+<li>
+<strong>N5.5 What changes for defence</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain changes in
+attack speed/volume and the need for independent identity checks.
+</li>
+<li>
+<strong>N5.6 Recognising AI-enabled attacks</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise recognising an
+AI-enabled attack in the learner’s cyber domain.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-0">External 0/3</span> Build: Teach six categories
+with examples/precautions: instruction manipulation, disclosure, unsafe
+output handling, excessive actions/permissions, compromised
+components/sources and disruption/resource consumption.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N6 — Working with AI — L1</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-3">External
+3/3</span> Apply/check: Apply the existing delegation exercise to a
+suitable bank task; check success criteria.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-3">External
+3/3</span> Apply/check: Apply the existing description exercise using
+permitted information, examples and constraints.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-3">External
+3/3</span> Apply/check: Apply the existing discernment exercise to work
+outputs; verify the presented argument, not imagined internal reasoning.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span
+class="score score-3">External 3/3</span> Apply/check: Adapt the
+existing diligence statement to the bank’s disclosure and accountability
+expectations.
+</li>
+<li>
+<strong>N6.5 Choosing a model</strong> — <span
+class="score score-1">External 1/3</span> Complete: Practise choosing
+both an available model and an effort level for a task.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-1">External 1/3</span> Complete: Extend
+context-window awareness into practical long-session and
+persistent-memory management.
+</li>
+<li>
+<strong>N6.7 Platform for the data</strong> — <span
+class="score score-0">External 0/3</span> Build: Choose the actual
+approved platform for each bank data classification.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Support daily use on
+suitable work tasks within bank rules; review examples of practice.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-a">Option A — Udemy + Microsoft</h2>
+<p>Shorter Foundation candidate; complete-video quality review
+needed.</p>
+<h3 id="existing-training-1">Existing training</h3>
+<table class="course-table">
+<thead>
+<tr>
+<th>
+Training and coverage index
+</th>
+<th>
+Vendor duration and basis
+</th>
+<th>
+Outcome coverage — score out of 3
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://www.udemy.com/course/ai-literacy-genai-modern-workplace/">Udemy
+— AI Literacy for the Modern Workplace · Anthony Alicea</a>
+<p class="score-summary">
+N2 5% · N3 67% · N4 17% · N5 11% · N6 38%<br>Priority N2–N4:
+<strong>29%</strong><br>Overall N2–N6: <strong>27%</strong>
+</p>
+</td>
+<td>
+1h45m — video runtime
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-1"
+title="LLM concepts are introduced; full provider/model comparisons, cost, speed, reasoning and hosting are not taught in the reviewed outline.">1/3
+mention</span> Introduces LLM training/inference; not the full
+model/provider requirement.
+</li>
+<li>
+<strong>N3.1 Hallucination</strong> — <span class="score score-2"
+title="Sec 4 &#39;Hallucinations&#39; + Sec 2 &#39;LLMs and Inference&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Dedicated hallucination teaching and verification advice.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-2"
+title="Sec 4 &#39;Sycophancy&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Dedicated sycophancy teaching.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span class="score score-2"
+title="Current public drift description explicitly includes growing-context reliability and refreshing/splitting work; complete video depth remains unverified.">2/3
+partial</span> Drift, refreshing context and splitting tasks.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span class="score score-2"
+title="Sec 2 &#39;Conceptual Aside: Determinism&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Explains non-deterministic output.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span class="score score-2"
+title="Sec 4 &#39;Hidden Instructions (i.e. Prompt Injection)&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Hidden instructions / prompt-injection awareness.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span class="score score-2"
+title="Sec 4 &#39;Over-Reliance&#39; + &#39;Confirmation Bias&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Over-reliance and confirmation-bias teaching.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span class="score score-2"
+title="Sec 4 &#39;Mitigating Risks&#39; section and assignment; specific habits (own view first, sampling) not evidenced [V8: retained after source/rubric review.]">2/3
+partial</span> Source checks and risk mitigation; the full
+independent-first/sampling routine is not evidenced.
+</li>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-2"
+title="Sec 4 &#39;Privacy&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> General privacy and information-sharing risks.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-1"
+title="Sec 4 &#39;Privacy&#39; touches confidential data [V8: retained after source/rubric review.]">1/3
+mention</span> General protection of confidential information.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-2"
+title="V11 reassessment (18 October 2026). The reviewed syllabus teaches selected attack/risk families or precautions. Coverage of all six families with examples and a precaution/escalation response is not evidenced. No full overview credit is inferred from a framework name or a narrow lab. Reviewed syllabus: A compact course by Anthony Alicea: how LLMs are trained and run (determinism, inference, context), prompt anatomy and workplace uses with practice, a risk section on hallucinations, privacy, drift, over-reliance, confirmation bias, sycophancy and hidden instructions (prompt injection), and human-AI collaboration with a risk-value decision framework. Includes practice items, assignments and a Udemy role-play exercise; no quizzes.">2/3
+partial</span> Selected risks: injection and disclosure; not the
+six-category overview.
+</li>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-2"
+title="Sec 5 &#39;Risk-Value Decision Framework&#39; + Sec 3 &#39;Planning and Task Decomposition&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Risk/value decisions and task decomposition.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="Sec 2 &#39;Context and Prompting&#39; + Sec 3 &#39;Anatomy of An Effective Prompt&#39; + &#39;Practice Leveraging AI&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Context, role, task and examples, with practice.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-1"
+title="Sec 3 &#39;Troubleshooting&#39; [V8: retained after source/rubric review.]">1/3
+mention</span> Troubleshooting and output checking; limited full
+discernment practice.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span class="score score-1"
+title="Sec 5 keeping human judgment for key decisions [V8: retained after source/rubric review.]">1/3
+mention</span> Maintaining human judgement; limited explicit disclosure
+teaching.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-1"
+title="Sec 2 &#39;Context and Prompting&#39; / Sec 4 &#39;Drift&#39; [V8: retained after source/rubric review.]">1/3
+mention</span> Context/drift guidance; persistent-memory management is
+not established.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span class="score score-2"
+title="Sec 2 &#39;Practice Using an LLM&#39; + Sec 3 workplace tasks (summarisation, writing, data analysis) + &#39;Designing AI-Enhanced Workflows&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Practice in summarising, writing, analysis and workflow
+design.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/">Microsoft
+— Introduction to generative AI and agents</a>
+<p class="score-summary">
+N2 33% · N3 0% · N4 0% · N5 0% · N6 8%<br>Priority N2–N4:
+<strong>11%</strong><br>Overall N2–N6: <strong>8%</strong>
+</p>
+</td>
+<td>
+37m — sum of vendor unit learning-time estimates
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2"
+title="Tokens and language models are explained in detail; provider/model trade-offs and open/local hosting are missing.">2/3
+partial</span> LLMs and tokens.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span class="score score-2"
+title="Assistant, acting agent and multi-agent concepts are explained; full shared human-agent workspace pattern is not established.">2/3
+partial</span> Assistants, agents and multi-agent concepts.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span class="score score-2"
+title="Model, instructions and tools are explained; the full configurable harness, memory and repeated loop are missing.">2/3
+partial</span> Model, instructions and tools.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1"
+title="Tool connections are introduced; MCP, reusable Skills and APIs are not distinguished.">1/3
+mention</span> Tool connection concepts.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="Context, examples, constraints and introductory prompt exercise are evidenced; sufficient practice across the complete work-task outcome is not established.">2/3
+partial</span> Prompt/context basics and an introductory exercise.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Option scores:</strong> <strong>N2 33%</strong> · <strong>N3
+67%</strong> · <strong>N4 17%</strong> · <strong>N5 11%</strong> ·
+<strong>N6 38%</strong>. Priority N2–N4: <strong>39%</strong>;
+Foundation N2–N5: <strong>32%</strong>; combined N2–N6:
+<strong>33%</strong>.</p>
+<p><strong>Outcome counts (34 total):</strong> 0 full · 15 partial · 5
+mentions · 14 not evidenced. <strong>Essential outcomes:</strong> 0/14
+full; 4/14 have no evidenced coverage. Essential outcomes remain visible
+separately; their weight is not increased in the percentage.</p>
+<p><strong>Content summary:</strong> <strong>N2</strong> Model/agent
+basics; <strong>N3</strong> All seven topics; partial depth;
+<strong>N4</strong> General privacy; <strong>N5</strong> Selected risks
+only; <strong>N6</strong> Context and workplace practice.</p>
+<h3 id="to-build-or-complete-for-this-option-1">To build or complete for
+this option</h3>
+<p>The score below is the <strong>best existing course score</strong>,
+before internal work. <strong>Build</strong> = 0;
+<strong>Complete</strong> = 1–2; <strong>Apply/check</strong> = 3, with
+local validation rather than a missing generic lesson. Proposed
+additions earn no credit and have no assumed duration.</p>
+<table>
+<thead>
+<tr>
+<th>
+Need
+</th>
+<th>
+Missing content or local application, one outcome per line
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>N1 — In-house showcase</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N1.1 What AI does today in cyber</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Build
+the agreed showcase using current cyber-domain use cases.
+</li>
+<li>
+<strong>N1.2 What is emerging</strong> — <span class="score">Excluded
+from index</span> Build agreed showcase: Add emerging cyber capabilities
+to the showcase.
+</li>
+<li>
+<strong>N1.3 How one’s own work changes</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Discuss
+two or three changes to each participant’s work.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N2 — AI systems and agents</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2">External
+2/3</span> Complete: Add provider/model trade-offs, cost/speed/reasoning
+and open/local hosting.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-0">External
+0/3</span> Build: Demonstrate text, code, image, voice, documents and
+screens using approved examples.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Complete the
+four-pattern comparison, especially shared human–agent work.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add memory, repeated
+action loop and how the harness is configured.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1">External 1/3</span> Complete: Complete the
+distinction between MCP connectors, Skills and APIs.
+</li>
+<li>
+<strong>N2.6 Safety components</strong> — <span
+class="score score-0">External 0/3</span> Build: Show identity,
+permissions, sandbox, authorisation, input/output guardrails, logs and
+stop controls.
+</li>
+<li>
+<strong>N2.7 Where it runs</strong> — <span
+class="score score-0">External 0/3</span> Build: Map approved versus
+public platforms and trace what data leaves the bank.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N3 — AI limitations</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N3.1 Hallucination</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply the
+hallucination lesson in an approved tool and check the correction.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-2">External
+2/3</span> Complete: Apply the sycophancy lesson in an approved tool.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span
+class="score score-2">External 2/3</span> Complete: Check the drift
+teaching with a concrete lost-constraint example.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span
+class="score score-2">External 2/3</span> Complete: Reinforce the lesson
+with a repeated-request example.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply the injection
+lesson to a bank-relevant document scenario.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span
+class="score score-2">External 2/3</span> Complete: Reinforce
+independent judgement before seeing the AI answer.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add
+independent-first judgement and sampling to the source-checking
+guidance.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N4 — Responsible AI use</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply actual bank
+rules to public tools, uploads, search and connector data flows.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-1">External 1/3</span> Complete: Use
+client/confidential-data scenarios with the bank’s handling rules.
+</li>
+<li>
+<strong>N4.3 Intellectual property</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain permitted
+inputs, ownership/reuse risks and when to seek IP advice.
+</li>
+<li>
+<strong>N4.4 AI supply chain</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain risks from
+third-party models, Skills, connectors and their information sources.
+</li>
+<li>
+<strong>N4.5 Regulation</strong> — <span class="score score-0">External
+0/3</span> Build: Have Compliance explain applicable AI-literacy duties
+and regional regulatory expectations.
+</li>
+<li>
+<strong>N4.6 The bank's rules</strong> — <span
+class="score score-0">External 0/3</span> Build: Apply approved-tool
+rules, agent delegation limits, approval requirements and escalation.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N5 — AI security risks and threats</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N5.1 AI-enabled social engineering and impersonation</strong> —
+<span class="score score-0">External 0/3</span> Build: Ad hoc awareness:
+phishing, tailored deception and voice/video impersonation; verify
+identity independently.
+</li>
+<li>
+<strong>N5.3 AI-enabled intrusion</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain AI-assisted
+vulnerability discovery, malware generation and automated intrusion.
+</li>
+<li>
+<strong>N5.4 Attacks on the bank's AI</strong> — <span
+class="score score-0">External 0/3</span> Build: Provide attack examples
+involving the bank’s own AI systems.
+</li>
+<li>
+<strong>N5.5 What changes for defence</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain changes in
+attack speed/volume and the need for independent identity checks.
+</li>
+<li>
+<strong>N5.6 Recognising AI-enabled attacks</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise recognising an
+AI-enabled attack in the learner’s cyber domain.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-2">External 2/3</span> Complete: Teach six categories
+with examples/precautions: instruction manipulation, disclosure, unsafe
+output handling, excessive actions/permissions, compromised
+components/sources and disruption/resource consumption.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N6 — Working with AI — L1</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-2">External
+2/3</span> Complete: Complete task delegation with explicit success
+criteria and human decision boundaries.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2">External
+2/3</span> Complete: Apply course context/prompting practice to
+permitted work information and constraints.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-1">External
+1/3</span> Complete: Extend output checking to the presented argument
+and behaviour.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span
+class="score score-1">External 1/3</span> Complete: Add explicit
+ownership and disclosure of AI’s contribution.
+</li>
+<li>
+<strong>N6.5 Choosing a model</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise choosing both
+an available model and an effort level for a task.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-1">External 1/3</span> Complete: Extend context/drift
+guidance to persistent-memory management.
+</li>
+<li>
+<strong>N6.7 Platform for the data</strong> — <span
+class="score score-0">External 0/3</span> Build: Choose the actual
+approved platform for each bank data classification.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Support daily use on
+suitable work tasks within bank rules; review examples of practice.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-b">Option B — Anthropic limitations + Microsoft</h2>
+<p>Conceptual depth; less delegation/accountability practice than F.</p>
+<h3 id="existing-training-2">Existing training</h3>
+<table class="course-table">
+<thead>
+<tr>
+<th>
+Training and coverage index
+</th>
+<th>
+Vendor duration and basis
+</th>
+<th>
+Outcome coverage — score out of 3
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://academy.claude.com/courses/ai-capabilities-and-limitations">Anthropic
+— AI capabilities and limitations</a>
+<p class="score-summary">
+N2 5% · N3 62% · N4 0% · N5 0% · N6 29%<br>Priority N2–N4:
+<strong>22%</strong><br>Overall N2–N6: <strong>19%</strong>
+</p>
+</td>
+<td>
+3h30m — estimated learning time
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-1"
+title="Model/training mechanics are introduced; provider, cost, speed, reasoning and hosting comparisons are not established.">1/3
+mention</span> Explains next-token prediction and training; not the full
+model/provider comparison.
+</li>
+<li>
+<strong>N3.1 Hallucination</strong> — <span class="score score-3"
+title="Current public curriculum explains fabrication, confident errors and knowledge limitations, with knowledge/prediction diagnosis exercises.">3/3
+full</span> Explains fabrication and knowledge limits, with diagnostic
+exercises.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-3"
+title="Current course names sycophancy and the inspected character lesson has framing-comparison exercises to recognise it.">3/3
+full</span> Explains sycophancy; an inspected exercise compares
+differently framed requests.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span class="score score-3"
+title="Current curriculum explicitly explains context-window loss and practice in restoring information, placement and chunking.">3/3
+full</span> Teaches context limits and strategies for restoring relevant
+information.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span class="score score-1"
+title="&#39;Next Token Prediction&#39; lesson; non-determinism not named [V8: retained after source/rubric review.]">1/3
+mention</span> Prediction and variable behaviour provide background;
+explicit repeated-input teaching is less clear.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span class="score score-0"
+title="Steerability is background knowledge, not evidence of teaching prompt injection through content the model reads. Removed the previous inferred mention credit.">0/3
+not evidenced</span> Steerability provides background; a dedicated
+injection scenario is not established.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span class="score score-1"
+title="Calibrated trust is named; the human automation-bias mechanism and habits are not taught explicitly enough for partial credit.">1/3
+mention</span> Calibrated trust encourages appropriate reliance.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span class="score score-2"
+title="Targeted failure diagnosis, sources and fixes are taught; independent-first judgement and sampling are not all established.">2/3
+partial</span> Diagnose a failure and choose a targeted fix; use
+external sources when needed.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="Instruction rewriting and context placement are taught/practised; the whole information/examples/constraints outcome is not established.">2/3
+partial</span> Rewrite instructions and place information appropriately
+in context.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-2"
+title="Failure diagnosis and corrective action provide partial discernment practice; complete output/argument/behaviour review is not established.">2/3
+partial</span> Diagnose unexpected outputs and select corrective
+responses.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-2"
+title="&#39;Working Memory&#39; lesson with Try it out exercise [V8: retained after source/rubric review.]">2/3
+partial</span> Practice: working-memory limits, chunking and restoring
+critical information.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span class="score score-1"
+title="four short Try it out exercises with an AI tool [V8: retained after source/rubric review.]">1/3
+mention</span> Tool exercises; no evidence of daily work within bank
+rules.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/">Microsoft
+— Introduction to generative AI and agents</a>
+<p class="score-summary">
+N2 33% · N3 0% · N4 0% · N5 0% · N6 8%<br>Priority N2–N4:
+<strong>11%</strong><br>Overall N2–N6: <strong>8%</strong>
+</p>
+</td>
+<td>
+37m — sum of vendor unit learning-time estimates
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2"
+title="Tokens and language models are explained in detail; provider/model trade-offs and open/local hosting are missing.">2/3
+partial</span> LLMs and tokens.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span class="score score-2"
+title="Assistant, acting agent and multi-agent concepts are explained; full shared human-agent workspace pattern is not established.">2/3
+partial</span> Assistants, agents and multi-agent concepts.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span class="score score-2"
+title="Model, instructions and tools are explained; the full configurable harness, memory and repeated loop are missing.">2/3
+partial</span> Model, instructions and tools.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1"
+title="Tool connections are introduced; MCP, reusable Skills and APIs are not distinguished.">1/3
+mention</span> Tool connection concepts.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="Context, examples, constraints and introductory prompt exercise are evidenced; sufficient practice across the complete work-task outcome is not established.">2/3
+partial</span> Prompt/context basics and an introductory exercise.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Option scores:</strong> <strong>N2 33%</strong> · <strong>N3
+62%</strong> · <strong>N4 0%</strong> · <strong>N5 0%</strong> ·
+<strong>N6 29%</strong>. Priority N2–N4: <strong>32%</strong>;
+Foundation N2–N5: <strong>24%</strong>; combined N2–N6:
+<strong>25%</strong>.</p>
+<p><strong>Outcome counts (34 total):</strong> 3 full · 7 partial · 4
+mentions · 20 not evidenced. <strong>Essential outcomes:</strong> 1/14
+full; 9/14 have no evidenced coverage. Essential outcomes remain visible
+separately; their weight is not increased in the percentage.</p>
+<p><strong>Content summary:</strong> <strong>N2</strong> Model/agent
+basics; <strong>N3</strong> Deeper model-failure teaching;
+<strong>N4</strong> Little direct coverage; <strong>N5</strong> No
+dedicated threat overview; <strong>N6</strong> Context and failure
+diagnosis.</p>
+<h3 id="to-build-or-complete-for-this-option-2">To build or complete for
+this option</h3>
+<p>The score below is the <strong>best existing course score</strong>,
+before internal work. <strong>Build</strong> = 0;
+<strong>Complete</strong> = 1–2; <strong>Apply/check</strong> = 3, with
+local validation rather than a missing generic lesson. Proposed
+additions earn no credit and have no assumed duration.</p>
+<table>
+<thead>
+<tr>
+<th>
+Need
+</th>
+<th>
+Missing content or local application, one outcome per line
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>N1 — In-house showcase</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N1.1 What AI does today in cyber</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Build
+the agreed showcase using current cyber-domain use cases.
+</li>
+<li>
+<strong>N1.2 What is emerging</strong> — <span class="score">Excluded
+from index</span> Build agreed showcase: Add emerging cyber capabilities
+to the showcase.
+</li>
+<li>
+<strong>N1.3 How one’s own work changes</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Discuss
+two or three changes to each participant’s work.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N2 — AI systems and agents</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2">External
+2/3</span> Complete: Add provider/model trade-offs, cost/speed/reasoning
+and open/local hosting.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-0">External
+0/3</span> Build: Demonstrate text, code, image, voice, documents and
+screens using approved examples.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Complete the
+four-pattern comparison, especially shared human–agent work.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add memory, repeated
+action loop and how the harness is configured.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1">External 1/3</span> Complete: Complete the
+distinction between MCP connectors, Skills and APIs.
+</li>
+<li>
+<strong>N2.6 Safety components</strong> — <span
+class="score score-0">External 0/3</span> Build: Show identity,
+permissions, sandbox, authorisation, input/output guardrails, logs and
+stop controls.
+</li>
+<li>
+<strong>N2.7 Where it runs</strong> — <span
+class="score score-0">External 0/3</span> Build: Map approved versus
+public platforms and trace what data leaves the bank.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N3 — AI limitations</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N3.1 Hallucination</strong> — <span
+class="score score-3">External 3/3</span> Apply/check: Use the existing
+failure-diagnosis exercise in an approved-tool example.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-3">External
+3/3</span> Apply/check: Transfer the existing framing/sycophancy
+exercise to an approved tool.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span
+class="score score-3">External 3/3</span> Apply/check: Use the existing
+context-restoration exercise on a work example.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span
+class="score score-1">External 1/3</span> Complete: Add an explicit
+repeated-input comparison.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span
+class="score score-0">External 0/3</span> Build: Add a concrete indirect
+prompt-injection scenario.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span
+class="score score-1">External 1/3</span> Complete: Make automation bias
+and independent human judgement explicit.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add the
+independent-first and sampling habits to failure diagnosis/source use.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N4 — Responsible AI use</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-0">External 0/3</span> Build: Apply actual bank rules
+to public tools, uploads, search and connector data flows.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-0">External 0/3</span> Build: Use
+client/confidential-data scenarios with the bank’s handling rules.
+</li>
+<li>
+<strong>N4.3 Intellectual property</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain permitted
+inputs, ownership/reuse risks and when to seek IP advice.
+</li>
+<li>
+<strong>N4.4 AI supply chain</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain risks from
+third-party models, Skills, connectors and their information sources.
+</li>
+<li>
+<strong>N4.5 Regulation</strong> — <span class="score score-0">External
+0/3</span> Build: Have Compliance explain applicable AI-literacy duties
+and regional regulatory expectations.
+</li>
+<li>
+<strong>N4.6 The bank's rules</strong> — <span
+class="score score-0">External 0/3</span> Build: Apply approved-tool
+rules, agent delegation limits, approval requirements and escalation.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N5 — AI security risks and threats</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N5.1 AI-enabled social engineering and impersonation</strong> —
+<span class="score score-0">External 0/3</span> Build: Ad hoc awareness:
+phishing, tailored deception and voice/video impersonation; verify
+identity independently.
+</li>
+<li>
+<strong>N5.3 AI-enabled intrusion</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain AI-assisted
+vulnerability discovery, malware generation and automated intrusion.
+</li>
+<li>
+<strong>N5.4 Attacks on the bank's AI</strong> — <span
+class="score score-0">External 0/3</span> Build: Provide attack examples
+involving the bank’s own AI systems.
+</li>
+<li>
+<strong>N5.5 What changes for defence</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain changes in
+attack speed/volume and the need for independent identity checks.
+</li>
+<li>
+<strong>N5.6 Recognising AI-enabled attacks</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise recognising an
+AI-enabled attack in the learner’s cyber domain.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-0">External 0/3</span> Build: Teach six categories
+with examples/precautions: instruction manipulation, disclosure, unsafe
+output handling, excessive actions/permissions, compromised
+components/sources and disruption/resource consumption.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N6 — Working with AI — L1</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-0">External
+0/3</span> Build: Practise task selection, human/AI division of work and
+explicit success criteria.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2">External
+2/3</span> Complete: Extend steering/context practice to examples and
+constraints for a work task.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-2">External
+2/3</span> Complete: Extend failure diagnosis to systematic output,
+argument and behaviour review.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span
+class="score score-0">External 0/3</span> Build: Record AI’s
+contribution, checks performed, human ownership and required disclosure.
+</li>
+<li>
+<strong>N6.5 Choosing a model</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise choosing both
+an available model and an effort level for a task.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply context
+strategies and cover locally enabled persistent memory.
+</li>
+<li>
+<strong>N6.7 Platform for the data</strong> — <span
+class="score score-0">External 0/3</span> Build: Choose the actual
+approved platform for each bank data classification.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span
+class="score score-1">External 1/3</span> Complete: Support daily use on
+suitable work tasks within bank rules; review examples of practice.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-c">Option C — Three Udemy courses</h2>
+<p>Single external platform; leadership and ethics overlap add
+curriculum.</p>
+<h3 id="existing-training-3">Existing training</h3>
+<table class="course-table">
+<thead>
+<tr>
+<th>
+Training and coverage index
+</th>
+<th>
+Vendor duration and basis
+</th>
+<th>
+Outcome coverage — score out of 3
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://www.udemy.com/course/ai-literacy-genai-modern-workplace/">Udemy
+— AI Literacy for the Modern Workplace · Anthony Alicea</a>
+<p class="score-summary">
+N2 5% · N3 67% · N4 17% · N5 11% · N6 38%<br>Priority N2–N4:
+<strong>29%</strong><br>Overall N2–N6: <strong>27%</strong>
+</p>
+</td>
+<td>
+1h45m — video runtime
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-1"
+title="LLM concepts are introduced; full provider/model comparisons, cost, speed, reasoning and hosting are not taught in the reviewed outline.">1/3
+mention</span> Introduces LLM training/inference; not the full
+model/provider requirement.
+</li>
+<li>
+<strong>N3.1 Hallucination</strong> — <span class="score score-2"
+title="Sec 4 &#39;Hallucinations&#39; + Sec 2 &#39;LLMs and Inference&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Dedicated hallucination teaching and verification advice.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-2"
+title="Sec 4 &#39;Sycophancy&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Dedicated sycophancy teaching.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span class="score score-2"
+title="Current public drift description explicitly includes growing-context reliability and refreshing/splitting work; complete video depth remains unverified.">2/3
+partial</span> Drift, refreshing context and splitting tasks.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span class="score score-2"
+title="Sec 2 &#39;Conceptual Aside: Determinism&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Explains non-deterministic output.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span class="score score-2"
+title="Sec 4 &#39;Hidden Instructions (i.e. Prompt Injection)&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Hidden instructions / prompt-injection awareness.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span class="score score-2"
+title="Sec 4 &#39;Over-Reliance&#39; + &#39;Confirmation Bias&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Over-reliance and confirmation-bias teaching.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span class="score score-2"
+title="Sec 4 &#39;Mitigating Risks&#39; section and assignment; specific habits (own view first, sampling) not evidenced [V8: retained after source/rubric review.]">2/3
+partial</span> Source checks and risk mitigation; the full
+independent-first/sampling routine is not evidenced.
+</li>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-2"
+title="Sec 4 &#39;Privacy&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> General privacy and information-sharing risks.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-1"
+title="Sec 4 &#39;Privacy&#39; touches confidential data [V8: retained after source/rubric review.]">1/3
+mention</span> General protection of confidential information.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-2"
+title="V11 reassessment (18 October 2026). The reviewed syllabus teaches selected attack/risk families or precautions. Coverage of all six families with examples and a precaution/escalation response is not evidenced. No full overview credit is inferred from a framework name or a narrow lab. Reviewed syllabus: A compact course by Anthony Alicea: how LLMs are trained and run (determinism, inference, context), prompt anatomy and workplace uses with practice, a risk section on hallucinations, privacy, drift, over-reliance, confirmation bias, sycophancy and hidden instructions (prompt injection), and human-AI collaboration with a risk-value decision framework. Includes practice items, assignments and a Udemy role-play exercise; no quizzes.">2/3
+partial</span> Selected risks: injection and disclosure; not the
+six-category overview.
+</li>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-2"
+title="Sec 5 &#39;Risk-Value Decision Framework&#39; + Sec 3 &#39;Planning and Task Decomposition&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Risk/value decisions and task decomposition.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="Sec 2 &#39;Context and Prompting&#39; + Sec 3 &#39;Anatomy of An Effective Prompt&#39; + &#39;Practice Leveraging AI&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Context, role, task and examples, with practice.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-1"
+title="Sec 3 &#39;Troubleshooting&#39; [V8: retained after source/rubric review.]">1/3
+mention</span> Troubleshooting and output checking; limited full
+discernment practice.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span class="score score-1"
+title="Sec 5 keeping human judgment for key decisions [V8: retained after source/rubric review.]">1/3
+mention</span> Maintaining human judgement; limited explicit disclosure
+teaching.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-1"
+title="Sec 2 &#39;Context and Prompting&#39; / Sec 4 &#39;Drift&#39; [V8: retained after source/rubric review.]">1/3
+mention</span> Context/drift guidance; persistent-memory management is
+not established.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span class="score score-2"
+title="Sec 2 &#39;Practice Using an LLM&#39; + Sec 3 workplace tasks (summarisation, writing, data analysis) + &#39;Designing AI-Enhanced Workflows&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Practice in summarising, writing, analysis and workflow
+design.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.udemy.com/course/ai-agents-agentic-ai-for-leaders/">Udemy
+— AI Agents and Agentic AI for Leaders · Luxmi Narayan</a>
+<p class="score-summary">
+N2 19% · N3 10% · N4 0% · N5 6% · N6 4%<br>Priority N2–N4:
+<strong>10%</strong><br>Overall N2–N6: <strong>8%</strong>
+</p>
+</td>
+<td>
+1h50m — video runtime
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span class="score score-1"
+title="Sec 1 &#39;From AI tools to AI agents&#39; [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces the difference between AI tools and acting
+agents.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span class="score score-2"
+title="Sec 2 &#39;The Observe-Think-Act loop&#39;, Sec 4 &#39;Inputs, tools, and environment for agents&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Observe–think–act loop, inputs, tools and environment.
+</li>
+<li>
+<strong>N2.6 Safety components</strong> — <span class="score score-1"
+title="Sec 4 &#39;Designing with guardrails and human oversight&#39; (4 min) [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces guardrails and human oversight.
+</li>
+<li>
+<strong>N3.1 Hallucination</strong> — <span class="score score-2"
+title="Sec 4 &#39;Demo: Understanding Hallucination in AI Agents &amp; Why it is so Risky&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Demonstrates hallucination in an agent setting.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-1"
+title="V11 reassessment (18 October 2026). Security/privacy risks, safety constraints or controls are named in the retained public syllabus, but a coherent explanation of the revised security-risk overview is not established. Reviewed syllabus: Short non-technical course for business leaders: what agents are (observe-think-act loop), business use cases and when not to use agents, designing with guardrails and human oversight, a hallucination demo in Gemini, metrics and KPIs, pilot vs scaling, risks, ethics and governance, and a 90-day roadmap. Lectures of 3-7 minutes with four knowledge-check quizzes; no exercises. Not cyber-specific.">1/3
+mention</span> Names security/privacy risks and controls; no complete
+risk overview.
+</li>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-1"
+title="V8 requirement review — Delegation: Leader introduction names when not to delegate, governance and oversight; short conceptual coverage only.">1/3
+mention</span> Introduces when not to delegate and the need for
+oversight.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://www.udemy.com/course/ai-ethicsresponsible-use/">Udemy —
+AI Ethics/Responsible Use · Vani Aggarwal</a>
+<p class="score-summary">
+N2 0% · N3 5% · N4 44% · N5 6% · N6 21%<br>Priority N2–N4:
+<strong>16%</strong><br>Overall N2–N6: <strong>15%</strong>
+</p>
+</td>
+<td>
+1h27m — video runtime
+</td>
+<td>
+<ul>
+<li>
+<strong>N3.6 Automation bias</strong> — <span class="score score-1"
+title="V8 requirement review — Automation bias: Agent-on-your-behalf lecture introduces limits and accountability; not a practised supervisory workflow.">1/3
+mention</span> Introduces accountability when AI acts on a user’s
+behalf.
+</li>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-2"
+title="Sec 3 &#39;Protecting Privacy When Using ChatGPT and AI Tools&#39; + scenario &#39;The Oversharing Colleague&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Privacy teaching and an oversharing scenario.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-2"
+title="Sec 3 privacy lecture + Sec 5 GDPR/CCPA compliance essentials [V8: retained after source/rubric review.]">2/3
+partial</span> Confidentiality/privacy and general data-protection
+concepts.
+</li>
+<li>
+<strong>N4.5 Regulation</strong> — <span class="score score-2"
+title="Sec 3 &#39;The EU AI Act: What Every Employee Must Know Now&#39;; no APAC regulators [V8: retained after source/rubric review.]">2/3
+partial</span> EU AI Act and other general regulatory content; local
+applicability needs review.
+</li>
+<li>
+<strong>N4.6 The bank's rules</strong> — <span class="score score-2"
+title="Sec 5 &#39;Your Company&#39;s AI Governance Framework Explained&#39; + scenario &#39;The Unapproved Tool&#39; + &#39;Governing AI Agents: When AI Acts on Your Behalf&#39;; generic company, not the bank&#39;s rules [V8: retained after source/rubric review.]">2/3
+partial</span> Generic governance, unapproved-tool scenario and agent
+delegation rules.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-1"
+title="V11 reassessment (18 October 2026). Security/privacy risks, safety constraints or controls are named in the retained public syllabus, but a coherent explanation of the revised security-risk overview is not established. Reviewed syllabus: A compliance-style responsible-use module for all employees. It covers five ethical AI principles, a three-question risk check, protecting privacy when using ChatGPT, disclosing AI-assisted work, the EU AI Act for employees, bias, GDPR and CCPA, working within a company AI governance framework, and a lecture on governing AI agents that act on your behalf. Short scenarios (The Oversharing Colleague, The Biased Shortlist, The Unapproved Tool) and a capstone action plan are included. It is very widely used (28,800 students).">1/3
+mention</span> Privacy/security awareness; not the full six-category
+overview.
+</li>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-1"
+title="outcome &#39;when AI decisions need approval versus independent use&#39; [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces decisions requiring approval versus
+independent use.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-1"
+title="outcome &#39;verify AI outputs for accuracy, fairness&#39;; no dedicated lecture [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces checks for accuracy and fairness.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span class="score score-2"
+title="Sec 3 &#39;Transparency and Disclosure in AI-Assisted Work&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Transparency and disclosure of AI-assisted work.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span class="score score-1"
+title="Sec 7 &#39;Creating Your Personal AI Ethics Action Plan&#39; + capstone [V8: retained after source/rubric review.]">1/3
+mention</span> Personal ethics action plan and capstone; no daily bank
+practice.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Option scores:</strong> <strong>N2 24%</strong> · <strong>N3
+67%</strong> · <strong>N4 44%</strong> · <strong>N5 11%</strong> ·
+<strong>N6 42%</strong>. Priority N2–N4: <strong>45%</strong>;
+Foundation N2–N5: <strong>37%</strong>; combined N2–N6:
+<strong>38%</strong>.</p>
+<p><strong>Outcome counts (34 total):</strong> 0 full · 17 partial · 5
+mentions · 12 not evidenced. <strong>Essential outcomes:</strong> 0/14
+full; 2/14 have no evidenced coverage. Essential outcomes remain visible
+separately; their weight is not increased in the percentage.</p>
+<p><strong>Content summary:</strong> <strong>N2</strong>
+Agents/loop/oversight; <strong>N3</strong> All seven topics; partial
+depth; <strong>N4</strong> Broader generic governance;
+<strong>N5</strong> Selected risks only; <strong>N6</strong> Context,
+task use and disclosure.</p>
+<h3 id="to-build-or-complete-for-this-option-3">To build or complete for
+this option</h3>
+<p>The score below is the <strong>best existing course score</strong>,
+before internal work. <strong>Build</strong> = 0;
+<strong>Complete</strong> = 1–2; <strong>Apply/check</strong> = 3, with
+local validation rather than a missing generic lesson. Proposed
+additions earn no credit and have no assumed duration.</p>
+<table>
+<thead>
+<tr>
+<th>
+Need
+</th>
+<th>
+Missing content or local application, one outcome per line
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>N1 — In-house showcase</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N1.1 What AI does today in cyber</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Build
+the agreed showcase using current cyber-domain use cases.
+</li>
+<li>
+<strong>N1.2 What is emerging</strong> — <span class="score">Excluded
+from index</span> Build agreed showcase: Add emerging cyber capabilities
+to the showcase.
+</li>
+<li>
+<strong>N1.3 How one’s own work changes</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Discuss
+two or three changes to each participant’s work.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N2 — AI systems and agents</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-1">External
+1/3</span> Complete: Compare providers/models, capability, cost, speed,
+reasoning, open/local hosting and tokens.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-0">External
+0/3</span> Build: Demonstrate text, code, image, voice, documents and
+screens using approved examples.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span
+class="score score-1">External 1/3</span> Complete: Explain assistant,
+acting agent, agent teams and shared human–agent work.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span
+class="score score-2">External 2/3</span> Complete: Complete the
+model/harness distinction, instructions and memory alongside the taught
+action loop.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-0">External 0/3</span> Build: Distinguish MCP
+connectors, reusable Skills and APIs with examples.
+</li>
+<li>
+<strong>N2.6 Safety components</strong> — <span
+class="score score-1">External 1/3</span> Complete: Add the full control
+set beyond generic guardrails and human oversight.
+</li>
+<li>
+<strong>N2.7 Where it runs</strong> — <span
+class="score score-0">External 0/3</span> Build: Map approved versus
+public platforms and trace what data leaves the bank.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N3 — AI limitations</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N3.1 Hallucination</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply the
+hallucination lesson in an approved tool and check the correction.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-2">External
+2/3</span> Complete: Apply the sycophancy lesson in an approved tool.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span
+class="score score-2">External 2/3</span> Complete: Check the drift
+teaching with a concrete lost-constraint example.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span
+class="score score-2">External 2/3</span> Complete: Reinforce the lesson
+with a repeated-request example.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply the injection
+lesson to a bank-relevant document scenario.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span
+class="score score-2">External 2/3</span> Complete: Reinforce
+independent judgement before seeing the AI answer.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add
+independent-first judgement and sampling to the source-checking
+guidance.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N4 — Responsible AI use</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply actual bank
+rules to public tools, uploads, search and connector data flows.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-2">External 2/3</span> Complete: Use
+client/confidential-data scenarios with the bank’s handling rules.
+</li>
+<li>
+<strong>N4.3 Intellectual property</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain permitted
+inputs, ownership/reuse risks and when to seek IP advice.
+</li>
+<li>
+<strong>N4.4 AI supply chain</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain risks from
+third-party models, Skills, connectors and their information sources.
+</li>
+<li>
+<strong>N4.5 Regulation</strong> — <span class="score score-2">External
+2/3</span> Complete: Validate generic regulation teaching; add the
+bank’s applicable regional/literacy expectations.
+</li>
+<li>
+<strong>N4.6 The bank's rules</strong> — <span
+class="score score-2">External 2/3</span> Complete: Replace generic
+company examples with actual bank rules and delegation boundaries.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N5 — AI security risks and threats</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N5.1 AI-enabled social engineering and impersonation</strong> —
+<span class="score score-0">External 0/3</span> Build: Ad hoc awareness:
+phishing, tailored deception and voice/video impersonation; verify
+identity independently.
+</li>
+<li>
+<strong>N5.3 AI-enabled intrusion</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain AI-assisted
+vulnerability discovery, malware generation and automated intrusion.
+</li>
+<li>
+<strong>N5.4 Attacks on the bank's AI</strong> — <span
+class="score score-0">External 0/3</span> Build: Provide attack examples
+involving the bank’s own AI systems.
+</li>
+<li>
+<strong>N5.5 What changes for defence</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain changes in
+attack speed/volume and the need for independent identity checks.
+</li>
+<li>
+<strong>N5.6 Recognising AI-enabled attacks</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise recognising an
+AI-enabled attack in the learner’s cyber domain.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-2">External 2/3</span> Complete: Teach six categories
+with examples/precautions: instruction manipulation, disclosure, unsafe
+output handling, excessive actions/permissions, compromised
+components/sources and disruption/resource consumption.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N6 — Working with AI — L1</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-2">External
+2/3</span> Complete: Complete task delegation with explicit success
+criteria and human decision boundaries.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2">External
+2/3</span> Complete: Apply course context/prompting practice to
+permitted work information and constraints.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-1">External
+1/3</span> Complete: Extend output checking to the presented argument
+and behaviour.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply the disclosure
+teaching to the bank’s expectations and human ownership.
+</li>
+<li>
+<strong>N6.5 Choosing a model</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise choosing both
+an available model and an effort level for a task.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-1">External 1/3</span> Complete: Extend context/drift
+guidance to persistent-memory management.
+</li>
+<li>
+<strong>N6.7 Platform for the data</strong> — <span
+class="score score-0">External 0/3</span> Build: Choose the actual
+approved platform for each bank data classification.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Support daily use on
+suitable work tasks within bank rules; review examples of practice.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-d">Option D — DeepLearning.AI introduction +
+Microsoft</h2>
+<p>Business/project content adds breadth beyond the common
+requirement.</p>
+<h3 id="existing-training-4">Existing training</h3>
+<table class="course-table">
+<thead>
+<tr>
+<th>
+Training and coverage index
+</th>
+<th>
+Vendor duration and basis
+</th>
+<th>
+Outcome coverage — score out of 3
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://www.coursera.org/learn/generative-ai-for-everyone">DeepLearning.AI
+— Generative AI for Everyone · Coursera</a>
+<p class="score-summary">
+N2 19% · N3 10% · N4 0% · N5 6% · N6 25%<br>Priority N2–N4:
+<strong>10%</strong><br>Overall N2–N6: <strong>12%</strong>
+</p>
+</td>
+<td>
+6h — estimated learning time on Coursera
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2"
+title="V10 — Models. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Selected model/token/performance concepts; not the whole provider, reasoning and hosting landscape.">2/3
+partial</span> Selected model, token and performance concepts.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-2"
+title="V10 — Modalities. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Selected modalities; not all modalities in the requirement are evidenced.">2/3
+partial</span> Selected generative-AI modalities; not all required
+modalities evidenced.
+</li>
+<li>
+<strong>N3.1 Hallucination</strong> — <span class="score score-2"
+title="V10 — Hallucination. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Relevant partial teaching is evidenced; the entire requirement and its practice conditions are not established.">2/3
+partial</span> Hallucination and capability limits.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-1"
+title="V11 reassessment (18 October 2026). Security/privacy risks, safety constraints or controls are named in the retained public syllabus, but a coherent explanation of the revised security-risk overview is not established. Reviewed syllabus: 2026-10-18 public syllabus review. Course. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation. No technical background required.">1/3
+mention</span> General risk awareness; no complete security-risk
+overview.
+</li>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-2"
+title="V10 — Delegation. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Task scoping/selection is taught; complete workplace delegation judgment needs practice.">2/3
+partial</span> Task scoping and selection.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="V10 — Context. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Useful context/prompting techniques; complete information, examples and constraints practice is not all evidenced.">2/3
+partial</span> Prompt/context techniques and exercises.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span class="score score-2"
+title="V10 — Own work with AI. Nontechnical introduction combines generative-AI capabilities/limits, prompting exercises and business impacts. Foundation/leadership orientation; corporate data rules, cyber threats and operating authorisation require internal content. Requirement boundary: Course exercises do not establish daily use within the bank&#39;s rules.">2/3
+partial</span> Practical activities; no evidence of daily use within
+bank rules.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/">Microsoft
+— Introduction to generative AI and agents</a>
+<p class="score-summary">
+N2 33% · N3 0% · N4 0% · N5 0% · N6 8%<br>Priority N2–N4:
+<strong>11%</strong><br>Overall N2–N6: <strong>8%</strong>
+</p>
+</td>
+<td>
+37m — sum of vendor unit learning-time estimates
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2"
+title="Tokens and language models are explained in detail; provider/model trade-offs and open/local hosting are missing.">2/3
+partial</span> LLMs and tokens.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span class="score score-2"
+title="Assistant, acting agent and multi-agent concepts are explained; full shared human-agent workspace pattern is not established.">2/3
+partial</span> Assistants, agents and multi-agent concepts.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span class="score score-2"
+title="Model, instructions and tools are explained; the full configurable harness, memory and repeated loop are missing.">2/3
+partial</span> Model, instructions and tools.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1"
+title="Tool connections are introduced; MCP, reusable Skills and APIs are not distinguished.">1/3
+mention</span> Tool connection concepts.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="Context, examples, constraints and introductory prompt exercise are evidenced; sufficient practice across the complete work-task outcome is not established.">2/3
+partial</span> Prompt/context basics and an introductory exercise.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Option scores:</strong> <strong>N2 43%</strong> · <strong>N3
+10%</strong> · <strong>N4 0%</strong> · <strong>N5 6%</strong> ·
+<strong>N6 25%</strong>. Priority N2–N4: <strong>17%</strong>;
+Foundation N2–N5: <strong>14%</strong>; combined N2–N6:
+<strong>17%</strong>.</p>
+<p><strong>Outcome counts (34 total):</strong> 0 full · 8 partial · 2
+mentions · 24 not evidenced. <strong>Essential outcomes:</strong> 0/14
+full; 9/14 have no evidenced coverage. Essential outcomes remain visible
+separately; their weight is not increased in the percentage.</p>
+<p><strong>Content summary:</strong> <strong>N2</strong>
+Models/modalities; agent basics; <strong>N3</strong> Hallucination
+emphasis; <strong>N4</strong> Limited evidence against outcomes;
+<strong>N5</strong> General risk awareness; <strong>N6</strong> Task
+selection and context.</p>
+<h3 id="to-build-or-complete-for-this-option-4">To build or complete for
+this option</h3>
+<p>The score below is the <strong>best existing course score</strong>,
+before internal work. <strong>Build</strong> = 0;
+<strong>Complete</strong> = 1–2; <strong>Apply/check</strong> = 3, with
+local validation rather than a missing generic lesson. Proposed
+additions earn no credit and have no assumed duration.</p>
+<table>
+<thead>
+<tr>
+<th>
+Need
+</th>
+<th>
+Missing content or local application, one outcome per line
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>N1 — In-house showcase</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N1.1 What AI does today in cyber</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Build
+the agreed showcase using current cyber-domain use cases.
+</li>
+<li>
+<strong>N1.2 What is emerging</strong> — <span class="score">Excluded
+from index</span> Build agreed showcase: Add emerging cyber capabilities
+to the showcase.
+</li>
+<li>
+<strong>N1.3 How one’s own work changes</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Discuss
+two or three changes to each participant’s work.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N2 — AI systems and agents</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2">External
+2/3</span> Complete: Complete provider/model trade-offs, reasoning
+choices and open/local hosting.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-2">External
+2/3</span> Complete: Complete any missing modalities, especially voice,
+documents and screens.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Complete the
+four-pattern comparison, especially shared human–agent work.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add memory, repeated
+action loop and how the harness is configured.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1">External 1/3</span> Complete: Complete the
+distinction between MCP connectors, Skills and APIs.
+</li>
+<li>
+<strong>N2.6 Safety components</strong> — <span
+class="score score-0">External 0/3</span> Build: Show identity,
+permissions, sandbox, authorisation, input/output guardrails, logs and
+stop controls.
+</li>
+<li>
+<strong>N2.7 Where it runs</strong> — <span
+class="score score-0">External 0/3</span> Build: Map approved versus
+public platforms and trace what data leaves the bank.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N3 — AI limitations</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N3.1 Hallucination</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply hallucination
+awareness to source verification in an approved tool.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-0">External
+0/3</span> Build: Compare leading and neutral requests; recognise
+agreement that follows the user’s view.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span
+class="score score-0">External 0/3</span> Build: Demonstrate a lost
+constraint in a long conversation and how to restore it.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span
+class="score score-0">External 0/3</span> Build: Repeat the same request
+and explain why outputs differ.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span
+class="score score-0">External 0/3</span> Build: Demonstrate
+instructions hidden in a document and how to respond safely.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span
+class="score score-0">External 0/3</span> Build: Demonstrate over-trust;
+require an independent human judgement.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise source checks,
+recording one’s own view first and sampling outputs.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N4 — Responsible AI use</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-0">External 0/3</span> Build: Apply actual bank rules
+to public tools, uploads, search and connector data flows.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-0">External 0/3</span> Build: Use
+client/confidential-data scenarios with the bank’s handling rules.
+</li>
+<li>
+<strong>N4.3 Intellectual property</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain permitted
+inputs, ownership/reuse risks and when to seek IP advice.
+</li>
+<li>
+<strong>N4.4 AI supply chain</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain risks from
+third-party models, Skills, connectors and their information sources.
+</li>
+<li>
+<strong>N4.5 Regulation</strong> — <span class="score score-0">External
+0/3</span> Build: Have Compliance explain applicable AI-literacy duties
+and regional regulatory expectations.
+</li>
+<li>
+<strong>N4.6 The bank's rules</strong> — <span
+class="score score-0">External 0/3</span> Build: Apply approved-tool
+rules, agent delegation limits, approval requirements and escalation.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N5 — AI security risks and threats</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N5.1 AI-enabled social engineering and impersonation</strong> —
+<span class="score score-0">External 0/3</span> Build: Ad hoc awareness:
+phishing, tailored deception and voice/video impersonation; verify
+identity independently.
+</li>
+<li>
+<strong>N5.3 AI-enabled intrusion</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain AI-assisted
+vulnerability discovery, malware generation and automated intrusion.
+</li>
+<li>
+<strong>N5.4 Attacks on the bank's AI</strong> — <span
+class="score score-0">External 0/3</span> Build: Provide attack examples
+involving the bank’s own AI systems.
+</li>
+<li>
+<strong>N5.5 What changes for defence</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain changes in
+attack speed/volume and the need for independent identity checks.
+</li>
+<li>
+<strong>N5.6 Recognising AI-enabled attacks</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise recognising an
+AI-enabled attack in the learner’s cyber domain.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-1">External 1/3</span> Complete: Teach six categories
+with examples/precautions: instruction manipulation, disclosure, unsafe
+output handling, excessive actions/permissions, compromised
+components/sources and disruption/resource consumption.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N6 — Working with AI — L1</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-2">External
+2/3</span> Complete: Extend task selection to human/AI division of work
+and success criteria.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2">External
+2/3</span> Complete: Complete context practice with examples and
+constraints on a permitted work task.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-0">External
+0/3</span> Build: Check the output, presented argument and behaviour;
+identify errors and inappropriate actions.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span
+class="score score-0">External 0/3</span> Build: Record AI’s
+contribution, checks performed, human ownership and required disclosure.
+</li>
+<li>
+<strong>N6.5 Choosing a model</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise choosing both
+an available model and an effort level for a task.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-0">External 0/3</span> Build: Recover lost context;
+manage long sessions and enabled persistent memory separately.
+</li>
+<li>
+<strong>N6.7 Platform for the data</strong> — <span
+class="score score-0">External 0/3</span> Build: Choose the actual
+approved platform for each bank data classification.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Support daily use on
+suitable work tasks within bank rules; review examples of practice.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-g">Option G — DeepLearning.AI practical course +
+Microsoft</h2>
+<p>Best DeepLearning.AI combined candidate; multimedia/building adds
+breadth.</p>
+<h3 id="existing-training-5">Existing training</h3>
+<table class="course-table">
+<thead>
+<tr>
+<th>
+Training and coverage index
+</th>
+<th>
+Vendor duration and basis
+</th>
+<th>
+Outcome coverage — score out of 3
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://www.coursera.org/learn/ai-prompting-for-everyone">DeepLearning.AI
+— AI Prompting for Everyone · Coursera</a>
+<p class="score-summary">
+N2 19% · N3 33% · N4 0% · N5 0% · N6 46%<br>Priority N2–N4:
+<strong>17%</strong><br>Overall N2–N6: <strong>20%</strong>
+</p>
+</td>
+<td>
+8h — estimated learning time on Coursera
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2"
+title="V10 — Models. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Selected model/token/performance concepts; not the whole provider, reasoning and hosting landscape.">2/3
+partial</span> Model comparison and selected performance/reasoning
+concepts.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-2"
+title="V10 — Modalities. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Selected modalities; not all modalities in the requirement are evidenced.">2/3
+partial</span> Multimedia, image understanding/generation, code and
+data-analysis uses.
+</li>
+<li>
+<strong>N3.1 Hallucination</strong> — <span class="score score-2"
+title="V10 — Hallucination. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Relevant partial teaching is evidenced; the entire requirement and its practice conditions are not established.">2/3
+partial</span> Source-aware search and checking answers.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-3"
+title="V10 — Sycophancy. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Whole requirement evidenced with sufficient knowledge depth.">3/3
+full</span> Sycophancy teaching and critique practice.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span class="score score-2"
+title="V10 — Counter-habits. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Checking/critique is taught; independent-first judgment and sampling are not all evidenced.">2/3
+partial</span> Source checking and critique; independent-first judgement
+and sampling remain gaps.
+</li>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-2"
+title="V10 — Delegation. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Task scoping/selection is taught; complete workplace delegation judgment needs practice.">2/3
+partial</span> Task selection and scoping.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-3"
+title="V10 — Context. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Whole requirement evidenced with explicit exercise/lab practice.">3/3
+full</span> Practice: supply context and refine instructions in labs.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-2"
+title="V10 — Discernment. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Review/debugging is taught; complete output, reasoning and behavior judgment is not established.">2/3
+partial</span> Brainstorming/critique lab; reviewing and improving
+outputs.
+</li>
+<li>
+<strong>N6.5 Choosing a model</strong> — <span class="score score-2"
+title="V10 — Choosing a model. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Some model/task tradeoffs; full choice and effort-setting practice is not evidenced.">2/3
+partial</span> Model-comparison lab; complete effort-setting decisions
+are not evidenced.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span class="score score-2"
+title="V10 — Own work with AI. Modules cover source-aware search, context, reasoning, sycophancy, critique and multimodal work; model-comparison, brainstorming and app-building exercises are explicit. Strong practical L1 candidate; bank rules, daily workplace practice and full counter-bias habits need internal completion. Requirement boundary: Course exercises do not establish daily use within the bank&#39;s rules.">2/3
+partial</span> Research, writing and building exercises; no daily
+bank-use evidence.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/">Microsoft
+— Introduction to generative AI and agents</a>
+<p class="score-summary">
+N2 33% · N3 0% · N4 0% · N5 0% · N6 8%<br>Priority N2–N4:
+<strong>11%</strong><br>Overall N2–N6: <strong>8%</strong>
+</p>
+</td>
+<td>
+37m — sum of vendor unit learning-time estimates
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2"
+title="Tokens and language models are explained in detail; provider/model trade-offs and open/local hosting are missing.">2/3
+partial</span> LLMs and tokens.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span class="score score-2"
+title="Assistant, acting agent and multi-agent concepts are explained; full shared human-agent workspace pattern is not established.">2/3
+partial</span> Assistants, agents and multi-agent concepts.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span class="score score-2"
+title="Model, instructions and tools are explained; the full configurable harness, memory and repeated loop are missing.">2/3
+partial</span> Model, instructions and tools.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1"
+title="Tool connections are introduced; MCP, reusable Skills and APIs are not distinguished.">1/3
+mention</span> Tool connection concepts.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="Context, examples, constraints and introductory prompt exercise are evidenced; sufficient practice across the complete work-task outcome is not established.">2/3
+partial</span> Prompt/context basics and an introductory exercise.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Option scores:</strong> <strong>N2 43%</strong> · <strong>N3
+33%</strong> · <strong>N4 0%</strong> · <strong>N5 0%</strong> ·
+<strong>N6 46%</strong>. Priority N2–N4: <strong>25%</strong>;
+Foundation N2–N5: <strong>19%</strong>; combined N2–N6:
+<strong>24%</strong>.</p>
+<p><strong>Outcome counts (34 total):</strong> 2 full · 10 partial · 1
+mentions · 21 not evidenced. <strong>Essential outcomes:</strong> 1/14
+full; 8/14 have no evidenced coverage. Essential outcomes remain visible
+separately; their weight is not increased in the percentage.</p>
+<p><strong>Content summary:</strong> <strong>N2</strong>
+Models/modalities; agent basics; <strong>N3</strong> Sources, sycophancy
+and critique; <strong>N4</strong> Limited evidence against outcomes;
+<strong>N5</strong> No dedicated threat overview; <strong>N6</strong>
+Context, critique and model labs.</p>
+<h3 id="to-build-or-complete-for-this-option-5">To build or complete for
+this option</h3>
+<p>The score below is the <strong>best existing course score</strong>,
+before internal work. <strong>Build</strong> = 0;
+<strong>Complete</strong> = 1–2; <strong>Apply/check</strong> = 3, with
+local validation rather than a missing generic lesson. Proposed
+additions earn no credit and have no assumed duration.</p>
+<table>
+<thead>
+<tr>
+<th>
+Need
+</th>
+<th>
+Missing content or local application, one outcome per line
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>N1 — In-house showcase</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N1.1 What AI does today in cyber</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Build
+the agreed showcase using current cyber-domain use cases.
+</li>
+<li>
+<strong>N1.2 What is emerging</strong> — <span class="score">Excluded
+from index</span> Build agreed showcase: Add emerging cyber capabilities
+to the showcase.
+</li>
+<li>
+<strong>N1.3 How one’s own work changes</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Discuss
+two or three changes to each participant’s work.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N2 — AI systems and agents</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2">External
+2/3</span> Complete: Complete cost/speed/hosting/provider comparisons
+beyond the model-comparison lab.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-2">External
+2/3</span> Complete: Complete the modality overview, particularly voice,
+documents and screens.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Complete the
+four-pattern comparison, especially shared human–agent work.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add memory, repeated
+action loop and how the harness is configured.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1">External 1/3</span> Complete: Complete the
+distinction between MCP connectors, Skills and APIs.
+</li>
+<li>
+<strong>N2.6 Safety components</strong> — <span
+class="score score-0">External 0/3</span> Build: Show identity,
+permissions, sandbox, authorisation, input/output guardrails, logs and
+stop controls.
+</li>
+<li>
+<strong>N2.7 Where it runs</strong> — <span
+class="score score-0">External 0/3</span> Build: Map approved versus
+public platforms and trace what data leaves the bank.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N3 — AI limitations</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N3.1 Hallucination</strong> — <span
+class="score score-2">External 2/3</span> Complete: Transfer
+source-checking practice to an approved bank workflow.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-3">External
+3/3</span> Apply/check: Use the existing sycophancy/critique exercise;
+no additional generic lesson identified.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span
+class="score score-0">External 0/3</span> Build: Demonstrate a lost
+constraint in a long conversation and how to restore it.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span
+class="score score-0">External 0/3</span> Build: Repeat the same request
+and explain why outputs differ.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span
+class="score score-0">External 0/3</span> Build: Demonstrate
+instructions hidden in a document and how to respond safely.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span
+class="score score-0">External 0/3</span> Build: Demonstrate over-trust;
+require an independent human judgement.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add
+independent-first judgement and output sampling.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N4 — Responsible AI use</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-0">External 0/3</span> Build: Apply actual bank rules
+to public tools, uploads, search and connector data flows.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-0">External 0/3</span> Build: Use
+client/confidential-data scenarios with the bank’s handling rules.
+</li>
+<li>
+<strong>N4.3 Intellectual property</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain permitted
+inputs, ownership/reuse risks and when to seek IP advice.
+</li>
+<li>
+<strong>N4.4 AI supply chain</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain risks from
+third-party models, Skills, connectors and their information sources.
+</li>
+<li>
+<strong>N4.5 Regulation</strong> — <span class="score score-0">External
+0/3</span> Build: Have Compliance explain applicable AI-literacy duties
+and regional regulatory expectations.
+</li>
+<li>
+<strong>N4.6 The bank's rules</strong> — <span
+class="score score-0">External 0/3</span> Build: Apply approved-tool
+rules, agent delegation limits, approval requirements and escalation.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N5 — AI security risks and threats</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N5.1 AI-enabled social engineering and impersonation</strong> —
+<span class="score score-0">External 0/3</span> Build: Ad hoc awareness:
+phishing, tailored deception and voice/video impersonation; verify
+identity independently.
+</li>
+<li>
+<strong>N5.3 AI-enabled intrusion</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain AI-assisted
+vulnerability discovery, malware generation and automated intrusion.
+</li>
+<li>
+<strong>N5.4 Attacks on the bank's AI</strong> — <span
+class="score score-0">External 0/3</span> Build: Provide attack examples
+involving the bank’s own AI systems.
+</li>
+<li>
+<strong>N5.5 What changes for defence</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain changes in
+attack speed/volume and the need for independent identity checks.
+</li>
+<li>
+<strong>N5.6 Recognising AI-enabled attacks</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise recognising an
+AI-enabled attack in the learner’s cyber domain.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-0">External 0/3</span> Build: Teach six categories
+with examples/precautions: instruction manipulation, disclosure, unsafe
+output handling, excessive actions/permissions, compromised
+components/sources and disruption/resource consumption.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N6 — Working with AI — L1</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-2">External
+2/3</span> Complete: Complete delegation with explicit success criteria
+and human decision boundaries.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-3">External
+3/3</span> Apply/check: Use the existing context practice with approved
+work data; no extra generic lesson identified.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-2">External
+2/3</span> Complete: Extend critique to all three dimensions: output,
+presented argument and behaviour.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span
+class="score score-0">External 0/3</span> Build: Record AI’s
+contribution, checks performed, human ownership and required disclosure.
+</li>
+<li>
+<strong>N6.5 Choosing a model</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add explicit
+effort-setting choices using locally available models.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-0">External 0/3</span> Build: Recover lost context;
+manage long sessions and enabled persistent memory separately.
+</li>
+<li>
+<strong>N6.7 Platform for the data</strong> — <span
+class="score score-0">External 0/3</span> Build: Choose the actual
+approved platform for each bank data classification.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Support daily use on
+suitable work tasks within bank rules; review examples of practice.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-e">Option E — Google + Microsoft</h2>
+<p>Broad employee learning; detailed gaps remain.</p>
+<h3 id="existing-training-6">Existing training</h3>
+<table class="course-table">
+<thead>
+<tr>
+<th>
+Training and coverage index
+</th>
+<th>
+Vendor duration and basis
+</th>
+<th>
+Outcome coverage — score out of 3
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://grow.google/ai-essentials/">Google — AI Essentials ·
+complete five-part programme</a>
+<p class="score-summary">
+N2 10% · N3 5% · N4 11% · N5 6% · N6 42%<br>Priority N2–N4:
+<strong>8%</strong><br>Overall N2–N6: <strong>15%</strong>
+</p>
+</td>
+<td>
+Under 5h — estimated learning time
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-2"
+title="Applied projects create text and image content; voice, documents, screens and the complete modality outcome are not evidenced.">2/3
+partial</span> Text and image creation in applied activities; not the
+complete modality range.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span class="score score-1"
+title="V8 requirement review — Automation bias: Responsible-use module and human-oversight outcomes support basic diligence and awareness; no bank-specific handling rules.">1/3
+mention</span> Human oversight and responsible use address over-reliance
+at introductory depth.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-2"
+title="The current responsible-use syllabus explicitly teaches privacy/security risks; bank client-data handling remains outside the course.">2/3
+partial</span> Security/privacy-risk teaching; bank-specific client-data
+handling remains missing.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-1"
+title="V11 reassessment (18 October 2026). Security/privacy risks, safety constraints or controls are named in the retained public syllabus, but a coherent explanation of the revised security-risk overview is not established. Reviewed syllabus: Beginner Coursera course in five short modules: introduction to AI (capabilities, limitations, human oversight), productivity with AI tools, prompting (clear prompts, few-shot), using AI responsibly (harms, bias, privacy and security repercussions) and keeping up with AI. Videos, readings, workplace-scenario activities and graded assessments, using Gemini-type assistants. Generic office productivity; nothing cyber-specific and nothing on agents.">1/3
+mention</span> General privacy/security repercussions; no complete risk
+overview.
+</li>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-2"
+title="Module 2 objective: judge whether generative AI suits a task [V8: retained after source/rubric review.]">2/3
+partial</span> Judge whether generative AI suits a task.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="Module 3 prompting: clear, specific prompts, few-shot, with activities [V8: retained after source/rubric review.]">2/3
+partial</span> Clear, specific instructions and examples, with
+activities.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-2"
+title="The current applied-project description explicitly includes critically evaluating AI outputs; complete reasoning and behaviour review is not established.">2/3
+partial</span> Applied activities include critical output evaluation;
+full argument/behaviour review is not established.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span class="score score-2"
+title="V8 requirement review — Diligence: Responsible-use module and human-oversight outcomes support basic diligence and awareness; no bank-specific handling rules. V7 evidence (superseded score): Module 4 responsible-use best practices">2/3
+partial</span> Responsible-use practices and human accountability.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span class="score score-2"
+title="Modules 2-3 activities using AI to brainstorm, research, draft emails [V8: retained after source/rubric review.]">2/3
+partial</span> Workplace activities such as brainstorming, research and
+email drafting.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/">Microsoft
+— Introduction to generative AI and agents</a>
+<p class="score-summary">
+N2 33% · N3 0% · N4 0% · N5 0% · N6 8%<br>Priority N2–N4:
+<strong>11%</strong><br>Overall N2–N6: <strong>8%</strong>
+</p>
+</td>
+<td>
+37m — sum of vendor unit learning-time estimates
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2"
+title="Tokens and language models are explained in detail; provider/model trade-offs and open/local hosting are missing.">2/3
+partial</span> LLMs and tokens.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span class="score score-2"
+title="Assistant, acting agent and multi-agent concepts are explained; full shared human-agent workspace pattern is not established.">2/3
+partial</span> Assistants, agents and multi-agent concepts.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span class="score score-2"
+title="Model, instructions and tools are explained; the full configurable harness, memory and repeated loop are missing.">2/3
+partial</span> Model, instructions and tools.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1"
+title="Tool connections are introduced; MCP, reusable Skills and APIs are not distinguished.">1/3
+mention</span> Tool connection concepts.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2"
+title="Context, examples, constraints and introductory prompt exercise are evidenced; sufficient practice across the complete work-task outcome is not established.">2/3
+partial</span> Prompt/context basics and an introductory exercise.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Option scores:</strong> <strong>N2 43%</strong> · <strong>N3
+5%</strong> · <strong>N4 11%</strong> · <strong>N5 6%</strong> ·
+<strong>N6 42%</strong>. Priority N2–N4: <strong>20%</strong>;
+Foundation N2–N5: <strong>16%</strong>; combined N2–N6:
+<strong>21%</strong>.</p>
+<p><strong>Outcome counts (34 total):</strong> 0 full · 10 partial · 3
+mentions · 21 not evidenced. <strong>Essential outcomes:</strong> 0/14
+full; 8/14 have no evidenced coverage. Essential outcomes remain visible
+separately; their weight is not increased in the percentage.</p>
+<p><strong>Content summary:</strong> <strong>N2</strong> Model/agent
+basics; <strong>N3</strong> General oversight/limitations;
+<strong>N4</strong> General privacy/responsibility; <strong>N5</strong>
+General risk awareness; <strong>N6</strong> Workplace activities.</p>
+<h3 id="to-build-or-complete-for-this-option-6">To build or complete for
+this option</h3>
+<p>The score below is the <strong>best existing course score</strong>,
+before internal work. <strong>Build</strong> = 0;
+<strong>Complete</strong> = 1–2; <strong>Apply/check</strong> = 3, with
+local validation rather than a missing generic lesson. Proposed
+additions earn no credit and have no assumed duration.</p>
+<table>
+<thead>
+<tr>
+<th>
+Need
+</th>
+<th>
+Missing content or local application, one outcome per line
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>N1 — In-house showcase</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N1.1 What AI does today in cyber</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Build
+the agreed showcase using current cyber-domain use cases.
+</li>
+<li>
+<strong>N1.2 What is emerging</strong> — <span class="score">Excluded
+from index</span> Build agreed showcase: Add emerging cyber capabilities
+to the showcase.
+</li>
+<li>
+<strong>N1.3 How one’s own work changes</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Discuss
+two or three changes to each participant’s work.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N2 — AI systems and agents</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-2">External
+2/3</span> Complete: Add provider/model trade-offs, cost/speed/reasoning
+and open/local hosting.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-2">External
+2/3</span> Complete: Demonstrate text, code, image, voice, documents and
+screens using approved examples.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Complete the
+four-pattern comparison, especially shared human–agent work.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add memory, repeated
+action loop and how the harness is configured.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1">External 1/3</span> Complete: Complete the
+distinction between MCP connectors, Skills and APIs.
+</li>
+<li>
+<strong>N2.6 Safety components</strong> — <span
+class="score score-0">External 0/3</span> Build: Show identity,
+permissions, sandbox, authorisation, input/output guardrails, logs and
+stop controls.
+</li>
+<li>
+<strong>N2.7 Where it runs</strong> — <span
+class="score score-0">External 0/3</span> Build: Map approved versus
+public platforms and trace what data leaves the bank.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N3 — AI limitations</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N3.1 Hallucination</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain confident wrong
+answers; practise recognising and verifying one in an approved tool.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-0">External
+0/3</span> Build: Compare leading and neutral requests; recognise
+agreement that follows the user’s view.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span
+class="score score-0">External 0/3</span> Build: Demonstrate a lost
+constraint in a long conversation and how to restore it.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span
+class="score score-0">External 0/3</span> Build: Repeat the same request
+and explain why outputs differ.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span
+class="score score-0">External 0/3</span> Build: Demonstrate
+instructions hidden in a document and how to respond safely.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span
+class="score score-1">External 1/3</span> Complete: Extend general human
+oversight into explicit automation-bias recognition.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise source checks,
+recording one’s own view first and sampling outputs.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N4 — Responsible AI use</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-0">External 0/3</span> Build: Apply actual bank rules
+to public tools, uploads, search and connector data flows.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-2">External 2/3</span> Complete: Use
+client/confidential-data scenarios with the bank’s handling rules.
+</li>
+<li>
+<strong>N4.3 Intellectual property</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain permitted
+inputs, ownership/reuse risks and when to seek IP advice.
+</li>
+<li>
+<strong>N4.4 AI supply chain</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain risks from
+third-party models, Skills, connectors and their information sources.
+</li>
+<li>
+<strong>N4.5 Regulation</strong> — <span class="score score-0">External
+0/3</span> Build: Have Compliance explain applicable AI-literacy duties
+and regional regulatory expectations.
+</li>
+<li>
+<strong>N4.6 The bank's rules</strong> — <span
+class="score score-0">External 0/3</span> Build: Apply approved-tool
+rules, agent delegation limits, approval requirements and escalation.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N5 — AI security risks and threats</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N5.1 AI-enabled social engineering and impersonation</strong> —
+<span class="score score-0">External 0/3</span> Build: Ad hoc awareness:
+phishing, tailored deception and voice/video impersonation; verify
+identity independently.
+</li>
+<li>
+<strong>N5.3 AI-enabled intrusion</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain AI-assisted
+vulnerability discovery, malware generation and automated intrusion.
+</li>
+<li>
+<strong>N5.4 Attacks on the bank's AI</strong> — <span
+class="score score-0">External 0/3</span> Build: Provide attack examples
+involving the bank’s own AI systems.
+</li>
+<li>
+<strong>N5.5 What changes for defence</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain changes in
+attack speed/volume and the need for independent identity checks.
+</li>
+<li>
+<strong>N5.6 Recognising AI-enabled attacks</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise recognising an
+AI-enabled attack in the learner’s cyber domain.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-1">External 1/3</span> Complete: Teach six categories
+with examples/precautions: instruction manipulation, disclosure, unsafe
+output handling, excessive actions/permissions, compromised
+components/sources and disruption/resource consumption.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N6 — Working with AI — L1</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-2">External
+2/3</span> Complete: Extend task suitability to human/AI division of
+work and success criteria.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-2">External
+2/3</span> Complete: Apply prompting activities to complete information,
+examples and work constraints.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-2">External
+2/3</span> Complete: Add systematic checking of outputs, presented
+arguments and behaviour.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span
+class="score score-2">External 2/3</span> Complete: Make ownership and
+bank disclosure requirements explicit.
+</li>
+<li>
+<strong>N6.5 Choosing a model</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise choosing both
+an available model and an effort level for a task.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-0">External 0/3</span> Build: Recover lost context;
+manage long sessions and enabled persistent memory separately.
+</li>
+<li>
+<strong>N6.7 Platform for the data</strong> — <span
+class="score score-0">External 0/3</span> Build: Choose the actual
+approved platform for each bank data classification.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Support daily use on
+suitable work tasks within bank rules; review examples of practice.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-h">Option H — Longer Udemy alternative</h2>
+<p>Automation/building exceeds L1; complete-video quality review
+needed.</p>
+<h3 id="existing-training-7">Existing training</h3>
+<table class="course-table">
+<thead>
+<tr>
+<th>
+Training and coverage index
+</th>
+<th>
+Vendor duration and basis
+</th>
+<th>
+Outcome coverage — score out of 3
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://www.udemy.com/course/ai-fundamentals-safe-ai-literacy-skills-for-work/">Udemy
+— AI Fundamentals: Safe AI Skills for Work</a>
+<p class="score-summary">
+N2 48% · N3 33% · N4 50% · N5 6% · N6 50%<br>Priority N2–N4:
+<strong>44%</strong><br>Overall N2–N6: <strong>37%</strong>
+</p>
+</td>
+<td>
+7h09m — video runtime
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-1"
+title="Sec 2 &#39;AI, a Probability Engine&#39;; ChatGPT, Copilot, Claude used, no model comparison [V8: retained after source/rubric review.]">1/3
+mention</span> Probabilistic model basics and examples of providers.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-2"
+title="Sec 2 &#39;Multimodal AI: The Brain with Eyes, Ears, and a Voice&#39; Parts 1-2 [V8: retained after source/rubric review.]">2/3
+partial</span> Multimodal AI, including text, images and voice.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span class="score score-2"
+title="Sec 3 &#39;How Agents Are Different to LLMs&#39;, agent-mode demos; Sec 7 custom GPTs; no multi-agent/shared space [V8: retained after source/rubric review.]">2/3
+partial</span> Assistants versus agents, agent-mode demonstrations and
+custom assistants.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span class="score score-1"
+title="Sec 3 &#39;How Agents Are Different to LLMs&#39; (no harness anatomy seen) [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces agents; complete harness anatomy is not
+established.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1"
+title="Sec 7 custom GPTs, Sec 9 automation chains (n8n); no MCP/Skills [V8: retained after source/rubric review.]">1/3
+mention</span> Custom assistants and automation chains; MCP/Skills
+coverage not established.
+</li>
+<li>
+<strong>N2.6 Safety components</strong> — <span class="score score-1"
+title="Sec 4 &#39;Human-in-the-loop Safeguard&#39; only [V8: retained after source/rubric review.]">1/3
+mention</span> Human-in-the-loop safeguards.
+</li>
+<li>
+<strong>N2.7 Where it runs</strong> — <span class="score score-2"
+title="Sec 4 &#39;AI Security: Three-Tiered Framework&#39;, &#39;Tier 2: Enterprise, Your Go-To For Work&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Consumer versus enterprise tool framework.
+</li>
+<li>
+<strong>N3.1 Hallucination</strong> — <span class="score score-2"
+title="Sec 2 &#39;Understanding AI Limitations: Hallucinations&#39;, &#39;Can Be Confidently Wrong&#39;, &#39;Why Smart AI Makes Stupid Mistakes&#39; + quiz [V8: retained after source/rubric review.]">2/3
+partial</span> Hallucination, confident errors and a quiz.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span class="score score-1"
+title="Sec 2 &#39;Understanding AI Limitations: Context...&#39; (title only) [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces context limits.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span class="score score-1"
+title="Sec 2 exercise &#39;AI, a Probability Engine&#39; (implied) [V8: retained after source/rubric review.]">1/3
+mention</span> Probability-engine exercise; explicit repeated-input
+treatment is unclear.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span class="score score-1"
+title="Sec 4 &#39;Dependency and Loss of Control&#39; [V8: retained after source/rubric review.]">1/3
+mention</span> Dependency and loss of control.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span class="score score-2"
+title="Sec 4 &#39;Evaluating and Verifying AI Outputs&#39;, &#39;Human-in-the-loop Safeguard&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Output verification and human review.
+</li>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-2"
+title="Sec 4 three-tier tool framework + exercise &#39;Don&#39;t Leak Sensitive Data&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Tool tiers and a sensitive-data leakage exercise.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-2"
+title="Sec 4 &#39;What Not To Do With Sensitive Data&#39; exercise [V8: retained after source/rubric review.]">2/3
+partial</span> Sensitive-data handling exercise.
+</li>
+<li>
+<strong>N4.3 Intellectual property</strong> — <span
+class="score score-2"
+title="Sec 4 &#39;Copyright, IP, Legal Considerations in AI&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Copyright and IP considerations.
+</li>
+<li>
+<strong>N4.5 Regulation</strong> — <span class="score score-2"
+title="Sec 4 &#39;EU AI Act and the 4 Levels of AI Risk&#39; + high/medium/low lectures; no regional regulators [V8: retained after source/rubric review.]">2/3
+partial</span> EU AI Act/risk-level content; literacy duty and regional
+expectations need checking.
+</li>
+<li>
+<strong>N4.6 The bank's rules</strong> — <span class="score score-1"
+title="Sec 2 &#39;Navigating AI Safely: Essential Guidelines&#39;, Sec 4 &#39;Responsible AI In Our Workplace&#39;: generic, not the bank&#39;s rules or agent delegation [V8: retained after source/rubric review.]">1/3
+mention</span> Generic workplace rules; no bank-specific tool/delegation
+policy.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-1"
+title="V11 reassessment (18 October 2026). Security/privacy risks, safety constraints or controls are named in the retained public syllabus, but a coherent explanation of the revised security-risk overview is not established. Reviewed syllabus: Broad workplace AI-literacy course: how LLMs work and fail (hallucination, confident errors), what agents are with ChatGPT/Claude agent demos, a long AI safety section (consumer vs enterprise tools, sensitive data, IP, human-in-the-loop, verification, EU AI Act), structured prompting, custom GPTs/Copilot agents, vibe coding, no-code automation (n8n) and Gemini/Office. 131 lectures with quizzes and nine short exercises (e.g. &#39;Don&#39;t Leak Sensitive Data&#39;, &#39;Prompt Before and After Challenge&#39;, &#39;Create Your First AI Agent&#39;); three of 13 sections were not visible.">1/3
+mention</span> Selected privacy/safety risks; no complete six-category
+overview.
+</li>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-1"
+title="Sec 5 &#39;How to Guide AI Through Complex Tasks&#39; [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces guiding AI through complex tasks.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-3"
+title="Sec 5 &#39;Context: Why AI Needs Background Details&#39;, &#39;The Core Quadrants: Task, Role, Limits, Guidance&#39;, &#39;How Examples Improve AI Output&#39; + &#39;Prompt Before and After Challenge&#39; exercise + quiz [V8: retained after source/rubric review.]">3/3
+full</span> Practice: task, role, limits, context and examples;
+before/after exercise.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-2"
+title="Sec 4 &#39;Evaluating and Verifying AI Outputs&#39;, exercise &#39;Spot The Bias&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Output evaluation and a bias-detection exercise.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span class="score score-1"
+title="Sec 4 &#39;Ethics and Bias in AI: Accountability ... Human Review&#39; [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces accountability and human review.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-1"
+title="Sec 2 limitations lecture on context [V8: retained after source/rubric review.]">1/3
+mention</span> Introduces context limits; full memory management not
+established.
+</li>
+<li>
+<strong>N6.7 Platform for the data</strong> — <span
+class="score score-2"
+title="Sec 4 three-tier framework (consumer vs enterprise tool for work data) [V8: retained after source/rubric review.]">2/3
+partial</span> Generic consumer/enterprise data distinctions; no bank
+classification mapping.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span class="score score-2"
+title="exercises &#39;Your Personal AI Assistant Build&#39;, &#39;Gemini Task Sprint&#39;, &#39;Automate One Repetitive Workflow&#39; [V8: retained after source/rubric review.]">2/3
+partial</span> Personal-assistant and workflow exercises; no daily
+bank-use evidence.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Option scores:</strong> <strong>N2 48%</strong> · <strong>N3
+33%</strong> · <strong>N4 50%</strong> · <strong>N5 6%</strong> ·
+<strong>N6 50%</strong>. Priority N2–N4: <strong>44%</strong>;
+Foundation N2–N5: <strong>34%</strong>; combined N2–N6:
+<strong>37%</strong>.</p>
+<p><strong>Outcome counts (34 total):</strong> 1 full · 12 partial · 12
+mentions · 9 not evidenced. <strong>Essential outcomes:</strong> 1/14
+full; 3/14 have no evidenced coverage. Essential outcomes remain visible
+separately; their weight is not increased in the percentage.</p>
+<p><strong>Content summary:</strong> <strong>N2</strong> Broader topics;
+incomplete controls; <strong>N3</strong> Hallucination/verification
+emphasis; <strong>N4</strong> Data/IP and generic governance;
+<strong>N5</strong> Selected risks only; <strong>N6</strong> Context and
+assistant exercises.</p>
+<h3 id="to-build-or-complete-for-this-option-7">To build or complete for
+this option</h3>
+<p>The score below is the <strong>best existing course score</strong>,
+before internal work. <strong>Build</strong> = 0;
+<strong>Complete</strong> = 1–2; <strong>Apply/check</strong> = 3, with
+local validation rather than a missing generic lesson. Proposed
+additions earn no credit and have no assumed duration.</p>
+<table>
+<thead>
+<tr>
+<th>
+Need
+</th>
+<th>
+Missing content or local application, one outcome per line
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>N1 — In-house showcase</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N1.1 What AI does today in cyber</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Build
+the agreed showcase using current cyber-domain use cases.
+</li>
+<li>
+<strong>N1.2 What is emerging</strong> — <span class="score">Excluded
+from index</span> Build agreed showcase: Add emerging cyber capabilities
+to the showcase.
+</li>
+<li>
+<strong>N1.3 How one’s own work changes</strong> — <span
+class="score">Excluded from index</span> Build agreed showcase: Discuss
+two or three changes to each participant’s work.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N2 — AI systems and agents</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N2.1 Models</strong> — <span class="score score-1">External
+1/3</span> Complete: Add model comparisons, cost/speed/reasoning, tokens
+and open/local hosting.
+</li>
+<li>
+<strong>N2.2 Modalities</strong> — <span class="score score-2">External
+2/3</span> Complete: Complete the modality overview with
+documents/screens and local availability.
+</li>
+<li>
+<strong>N2.3 Ways of using AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add agent teams and
+shared human–agent work to assistant/agent examples.
+</li>
+<li>
+<strong>N2.4 Anatomy of an agent</strong> — <span
+class="score score-1">External 1/3</span> Complete: Complete
+instructions, memory, tools, loop and the configurable harness.
+</li>
+<li>
+<strong>N2.5 Connecting and extending</strong> — <span
+class="score score-1">External 1/3</span> Complete: Add MCP and Skills;
+distinguish them from custom assistants and API-based automation.
+</li>
+<li>
+<strong>N2.6 Safety components</strong> — <span
+class="score score-1">External 1/3</span> Complete: Complete the control
+set beyond human oversight.
+</li>
+<li>
+<strong>N2.7 Where it runs</strong> — <span
+class="score score-2">External 2/3</span> Complete: Map generic
+consumer/enterprise tiers to actual bank platforms and data flows.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N3 — AI limitations</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N3.1 Hallucination</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply hallucination
+recognition and correction in an approved tool.
+</li>
+<li>
+<strong>N3.2 Sycophancy</strong> — <span class="score score-0">External
+0/3</span> Build: Compare leading and neutral requests; recognise
+agreement that follows the user’s view.
+</li>
+<li>
+<strong>N3.3 Context loss</strong> — <span
+class="score score-1">External 1/3</span> Complete: Make context-loss
+recovery explicit through a lost-constraint example.
+</li>
+<li>
+<strong>N3.4 Non-determinism</strong> — <span
+class="score score-1">External 1/3</span> Complete: Add a clear
+repeated-input comparison.
+</li>
+<li>
+<strong>N3.5 Prompt injection</strong> — <span
+class="score score-0">External 0/3</span> Build: Demonstrate
+instructions hidden in a document and how to respond safely.
+</li>
+<li>
+<strong>N3.6 Automation bias</strong> — <span
+class="score score-1">External 1/3</span> Complete: Add independent
+judgement before seeing the AI answer.
+</li>
+<li>
+<strong>N3.7 Counter-habits</strong> — <span
+class="score score-2">External 2/3</span> Complete: Add
+independent-first judgement and sampling to verification practice.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N4 — Responsible AI use</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N4.1 Data leaving the bank</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply actual bank
+rules to public tools, uploads, search and connector data flows.
+</li>
+<li>
+<strong>N4.2 Confidentiality and client data</strong> — <span
+class="score score-2">External 2/3</span> Complete: Use
+client/confidential-data scenarios with the bank’s handling rules.
+</li>
+<li>
+<strong>N4.3 Intellectual property</strong> — <span
+class="score score-2">External 2/3</span> Complete: Apply general IP
+teaching to permitted bank inputs and generated-material reuse.
+</li>
+<li>
+<strong>N4.4 AI supply chain</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain risks from
+third-party models, Skills, connectors and their information sources.
+</li>
+<li>
+<strong>N4.5 Regulation</strong> — <span class="score score-2">External
+2/3</span> Complete: Validate risk-level content; add literacy duty and
+relevant regional expectations.
+</li>
+<li>
+<strong>N4.6 The bank's rules</strong> — <span
+class="score score-1">External 1/3</span> Complete: Apply approved-tool
+rules, agent delegation limits, approval requirements and escalation.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N5 — AI security risks and threats</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N5.1 AI-enabled social engineering and impersonation</strong> —
+<span class="score score-0">External 0/3</span> Build: Ad hoc awareness:
+phishing, tailored deception and voice/video impersonation; verify
+identity independently.
+</li>
+<li>
+<strong>N5.3 AI-enabled intrusion</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain AI-assisted
+vulnerability discovery, malware generation and automated intrusion.
+</li>
+<li>
+<strong>N5.4 Attacks on the bank's AI</strong> — <span
+class="score score-0">External 0/3</span> Build: Provide attack examples
+involving the bank’s own AI systems.
+</li>
+<li>
+<strong>N5.5 What changes for defence</strong> — <span
+class="score score-0">External 0/3</span> Build: Explain changes in
+attack speed/volume and the need for independent identity checks.
+</li>
+<li>
+<strong>N5.6 Recognising AI-enabled attacks</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise recognising an
+AI-enabled attack in the learner’s cyber domain.
+</li>
+<li>
+<strong>N5.8 Overview of AI security risks</strong> — <span
+class="score score-1">External 1/3</span> Complete: Teach six categories
+with examples/precautions: instruction manipulation, disclosure, unsafe
+output handling, excessive actions/permissions, compromised
+components/sources and disruption/resource consumption.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<strong>N6 — Working with AI — L1</strong>
+</td>
+<td>
+<ul>
+<li>
+<strong>N6.1 Delegation</strong> — <span class="score score-1">External
+1/3</span> Complete: Extend task guidance into delegation decisions and
+success criteria.
+</li>
+<li>
+<strong>N6.2 Context</strong> — <span class="score score-3">External
+3/3</span> Apply/check: Use the existing context exercise with approved
+work data; no extra generic lesson identified.
+</li>
+<li>
+<strong>N6.3 Discernment</strong> — <span class="score score-2">External
+2/3</span> Complete: Extend evaluation/bias checks to the presented
+argument and behaviour.
+</li>
+<li>
+<strong>N6.4 Accountability</strong> — <span
+class="score score-1">External 1/3</span> Complete: Add explicit
+disclosure and ownership of the final result.
+</li>
+<li>
+<strong>N6.5 Choosing a model</strong> — <span
+class="score score-0">External 0/3</span> Build: Practise choosing both
+an available model and an effort level for a task.
+</li>
+<li>
+<strong>N6.6 Context window and memory</strong> — <span
+class="score score-1">External 1/3</span> Complete: Extend context-limit
+awareness to recovery and persistent-memory management.
+</li>
+<li>
+<strong>N6.7 Platform for the data</strong> — <span
+class="score score-2">External 2/3</span> Complete: Replace generic data
+tiers with the bank’s actual classification/platform mapping.
+</li>
+<li>
+<strong>N6.8 Own work with AI</strong> — <span
+class="score score-2">External 2/3</span> Complete: Support daily use on
+suitable work tasks within bank rules; review examples of practice.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><em>Duration basis: Udemy figures are video runtimes, with activities
+additional. Anthropic/Coursera/Google figures are published
+learning-time estimates. Microsoft’s 37 minutes is the sum of its seven
+unit estimates, including exercise and assessment. No internal time
+allowances or programme totals are added.</em></p>
+<p><em>Outcome definitions: <a
+href="../../Agentic-Era_Workforce_Capability_Model.md">capability
+model</a>. Evidence: linked provider pages, inspected public lessons and
+<a href="catalogue-evidence-2026-10-31.json">retained requirement-level
+catalogue evidence</a>. Review-specific scores and each outcome’s
+rationale are in the <a href="coverage-scores-2026-10-31.json">score
+audit</a>. The master catalogue remains unchanged.</em></p>
+<p><strong>Assessment basis:</strong> retained v11 scores, updated where
+inspected public content supplies stronger or contrary evidence. Updates
+include Anthropic’s 4D exercises and model-limitations lessons, Google’s
+current applied-project/privacy descriptions, and the complete Microsoft
+module assessed on its own content. Full coverage describes the
+curriculum; it does not certify a learner’s competence.</p>
+</body>
+</html>
