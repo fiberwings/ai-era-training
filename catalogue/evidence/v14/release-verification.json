@@ -1,0 +1,28 @@
+{
+  "catalogue": "d9c478c4687192a0",
+  "workbookSha256": "337edb1c511b740de2e755a868674ab3538ea7f0e53db6d46cfb521451d9299d",
+  "regressionChecks": {
+    "plannerJavaScript": 74,
+    "plannerPython": 17,
+    "learnerJavaScript": 65,
+    "learnerPython": 3,
+    "failed": 0
+  },
+  "browser": {
+    "method": "Computer Use browser, temporary loopback HTTP previews",
+    "planner": "2.1.2, v14, 534 resources; secai search returns nine resources including all five additions, existing Vinay, official training, Pluralsight and exam. TR-281 detail: 6h11m, 140 outcomes; 0 full, 74 partial/mentioned, 66 zero, no unassessed. Blank component curriculum retains zero selections.",
+    "learner": "1.3.3, v14, 534 resources; secai search returns the same nine resources, no Mana; TR-282 details show 25h30m, role-play/time limits and unverified subscription inclusion.",
+    "consoleErrors": []
+  },
+  "retainedDefaultsVerified": true,
+  "modelBodyUnchanged": true,
+  "modelVersion": 2,
+  "modelRevision": 3,
+  "packagesVerified": true,
+  "workbook": "All 529 existing resources identical; 9591 Coverage rows reconciled; original formulas and cell styles retained.",
+  "nativeExcel": "Unavailable; Artifact Tool recalculation with score-change/core-gap probe and independent saved-result reconciliation.",
+  "testNotes": [
+    "Planner Python server-security test passed with temporary loopback permission.",
+    "Two new data regressions cover existing-evidence preservation, user exclusion, deduplication, full durations and conservative assessment."
+  ]
+}

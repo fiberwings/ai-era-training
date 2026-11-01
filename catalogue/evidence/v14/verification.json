@@ -1,0 +1,25 @@
+{
+  "workbook": "AI_Era_Cyber_Training_Catalogue_v14.xlsx",
+  "snapshot": "d9c478c4687192a0",
+  "sha256": "337edb1c511b740de2e755a868674ab3538ea7f0e53db6d46cfb521451d9299d",
+  "resources": 534,
+  "addedCourses": [
+    "TR-281",
+    "TR-282",
+    "TR-283",
+    "TR-284",
+    "TR-285"
+  ],
+  "unchangedResources": 529,
+  "activeOutcomes": 140,
+  "needs": 23,
+  "numericScores": 58100,
+  "unassessedRows": 280,
+  "coverageRowsReconciled": 9591,
+  "originalFormulasPreserved": 462563,
+  "addedFormulas": 5350,
+  "formulaErrors": [],
+  "nativeFeatures": "All ZIP members outside ten affected sheet/table/hyperlink parts are byte-identical; every original formula and cell style retained.",
+  "recalculation": "Artifact Tool compact dependency model, independently reconciled by catalogue importer. Score-change/core-gap probe passed and original inputs restored. Native Excel unavailable; no native save/reopen claimed.",
+  "userExclusion": "Mana course absent; no programme selections changed."
+}

@@ -1,16 +1,28 @@
 # Cyber capability planner
 
-Current release: **2.0.8 — 31 October 2026**. Catalogue **v12**, snapshot `6db669ed065cab54`; capability model **2 revision 3**.
+Current release: **2.2.0 — 1 November 2026**. Catalogue **v15**, snapshot `ff6d5a46d0450171`; capability model **2 revision 3**.
 
 Open [Training-Planner.html](Training-Planner.html) in a desktop browser. It embeds the full catalogue, model, application and solver, and works without installation or a server. [Project context](../docs/PROJECT_CONTEXT.md) records the agreed scope; [AGENTS.md](../AGENTS.md) identifies authoritative sources and working rules.
 
 ## Current starting points
 
+The maintained [Recommended Training Pathways v0.1](../recommended-pathways/README.md) is available as a separate [schema-3 JSON import](../recommended-pathways/Recommended-Training-Pathways.json). Foundation/L1 is Reviewed; the remaining recommendations are AI generated — to be reviewed. Use **Scenario & exports → Import scenario JSON** to load it. The workspace continues to start blank.
+
 The component workspace starts with **21 blank components and 19 audience templates**. Compose Foundation, L1 Entry, L2 Practitioner, L3 Expert, specialisms and tooling. Course budgets start at 2h, 2h, 8h and 24h for the shared layers, with 4h for each specialism; internal practice is additional. Tool budgets begin unset. Audience-specific copies let a local variant evolve without changing other audiences.
 
-The legacy workspace retains existing schema-1/2 plans. Its bundled annual v3 selections and budgets remain unchanged by explicit user choice on 1 November 2026. The [old annual report](../archive/analysis/2027-training-plan/2027-Training-Plan-v3.html) is archived as outdated, not a current recommendation. Do not replace the bundled default during routine maintenance. The learner app still consumes this schema-2 default; it cannot yet publish schema-3 component plans.
+The legacy workspace retains existing schema-1/2 plans. Its bundled annual v3 selections and budgets remain unchanged by explicit user choice on 1 November 2026. The [old annual report](../archive/analysis/2027-training-plan/2027-Training-Plan-v3.html) is archived as outdated, not a current recommendation. Do not replace the bundled default during routine maintenance. By subsequent user request, learner 1.5.0 publishes the separate Recommended Training Pathways v0.1 schema-3 source. The legacy planner default remains unchanged.
 
 Existing browser plans are never automatically cleared or converted. New schema-3 plans use `public/data/component-starter.json`; retained legacy defaults are in `public/data/default-scenario.json`.
+
+## Build specialism and tool pathways
+
+In **Learning components**, use the section links to jump to **Specialisms** or **Tool pathways**.
+
+- **Specialisms:** filter by any of the nine roles and open **Review pathway →** on a responsibility card. Set the course budget, recommend a combination, preview/apply selections, adjust outcome scope and add internal practice as with Foundation/L1/L2/L3. Shared responsibility packages are planned once. Use **Create audience-specific copy** for an existing audience's local variant.
+- **Tools:** select **+ Create tool pathway**, enter an approved product, choose intended tasks and optionally set a course budget. The name defaults to the product. **Find training for this tool** shows resources matching both product and recorded task metadata. Preview each resource before adding; budget fit uses full-course hours and keeps unknown time explicit. Switch **Tool fit** to **All catalogue resources** for broader manual review. Add internal practice even when no framework outcome applies.
+- **Compose:** in **Audience paths → Edit profile**, choose relevant responsibilities and tool pathways. Shared teaching, resources and learner time continue to count once. Scenario JSON exports preserve these pathways and their audience assignments.
+
+Tool matching does not optimise or award assessed coverage. Catalogue scores remain the evidence for assessed outcomes; internal briefs remain planned teaching.
 
 ## Planning workflow
 
@@ -22,9 +34,24 @@ Existing browser plans are never automatically cleared or converted. New schema-
 6. Add internal learning with an owner, time estimate and linked outcomes. Planned coverage updates immediately; assessed catalogue coverage remains separate.
 7. Export scenario JSON for backup/reloading and CSV/print for the decision record. Finalised plans are read-only; duplicate them to make a new draft.
 
+Each component lists its own internal learning. Prerequisite internal items appear under **Inherited learning**, labelled by their source component, like catalogue courses. Add/edit actions in the component editor use that component; a brief started in the catalogue uses its explicit destination.
+
 A linked internal outcome represents planned full coverage, including proposed teaching. Delivery status is readiness, not assessment credit. Shared course and internal-item time is counted once. Missing assessments remain distinct from explicit zero scores. Course details show both current-scope and all-outcome evidence; historical audits are labelled separately.
 
 Finalisation retains catalogue/model identity and unresolved-reference checks. Changed-input review flags no longer block planning or finalisation. Coverage gaps do not add a finalisation gate. A finalised plan locks decisions but does not automatically bind itself to a frozen catalogue; retain JSON plus CSV/print when an immutable record is needed.
+
+## Save proposed internal training in Excel
+
+The maintained v15 workbook already contains **AI use cases**. In the planner, open **Full catalogue**, set **Training type** to **Internal training**, and preview the saved brief to choose its destination component. All details are retained when adding it to another plan.
+
+
+Use **Scenario & exports → Save internal training to Excel** (also **Save to Excel** in the Internal learning section). Choose the current catalogue `.xlsx`, then download the updated copy. Save that copy as your working catalogue. The app does not overwrite a file on your computer automatically.
+
+The **Proposed training** tab is separate from Offers, Tool track, Scores and the existing Build items. It retains every internal item in the current scenario, at all delivery statuses: title, owner, numeric learner hours or a blank for unknown time, delivery status, teaching/practice notes, linked outcome IDs and descriptions, component/category/level, specialism/tool/task context and original item/component/scenario IDs. Export includes all components rather than only the path currently open. Repeated exports update the same assignments and retain records from other components and scenarios. Removing an item from a browser plan does not delete a saved workbook record; remove that row in Excel when it is no longer needed. Keep the original column headers and use the provided status values.
+
+Use **Add from Excel** in a component's Internal learning section to load the workbook, preview a saved item and choose its destination component. **Add or update in component** preserves the original item ID and updates its details if it is already assigned there. It never assigns every workbook item to every component. Unknown outcome IDs must be corrected before importing. Product-specific items can have no linked outcomes when added to a tooling component. Imported proposals contribute only to planned internal teaching, never assessed catalogue coverage.
+
+Catalogue maintenance also imports this optional tab into a separate proposed-training section of the snapshot. After an intentional catalogue refresh and rebuild, **Browse saved catalogue proposals** makes those records available without selecting the Excel file again. It does not select them in new blank plans automatically. Existing catalogue identity checks and the normal release workflow still apply to a changed workbook. No refresh or replacement of the retained starters is needed simply to export or reload a workbook in the app.
 
 ## Framework and calculations
 
@@ -61,8 +88,8 @@ Read the [catalogue guide](../catalogue/README.md). Save and recalculate Excel f
 
 ```sh
 python3 -m pip install -r training-planner/requirements.txt
-python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v12.xlsx --check
-python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v12.xlsx
+python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v15.xlsx --check
+python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v15.xlsx
 ```
 
 For an intentional update, refresh without `--check`, review its change report and scenario compatibility, then rebuild current model/starter/app artifacts. Changing a snapshot does not approve old planning decisions. The packager requires compatible identities; never bypass that by blindly stamping a new version into a scenario.
@@ -78,7 +105,9 @@ npm test --prefix training-planner
 python3 -m unittest discover -s training-planner/tests -p 'test_*.py'
 ```
 
-Source: `public/`; import/build tools: `scripts/`; regression checks: `tests/`; previous scenario fixtures: `scenario-history/`; browser evidence: [qa](qa/README.md). Keep the bundled solver and its licence together.
+Optional browser regression checks use Playwright (installed separately): `node --test training-planner/tests/component-ui.browser.cjs`. They exercise the standalone HTML, so rebuild it first. The Excel round-trip test also needs Python with `openpyxl`; set `PLANNER_TEST_PYTHON` to that Python executable if needed.
+
+Source: `public/`; import/build tools: `scripts/`; regression checks: `tests/`; previous scenario fixtures: `scenario-history/`; browser evidence: [qa](qa/README.md). Keep the bundled solver and its licence together. Excel ZIP handling uses the pinned JSZip 3.10.1 browser build in `workbook-zip.js`, with its MIT/pako licence embedded and retained in `public/vendor/JSZIP-LICENSE`.
 
 For optional server mode, from the project root:
 

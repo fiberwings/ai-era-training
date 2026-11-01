@@ -2,8 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
-import {validateScenario} from '../../training-planner/public/storage.js';
 import {validateFormsTemplate} from '../src/core.js';
+import {prepareCentralScenario} from '../src/published-pathways.js';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const args=process.argv.slice(2);
@@ -11,9 +11,7 @@ function arg(name,fallback){const i=args.indexOf(name);if(i<0)return fallback;if
 const known=new Set(['--scenario','--config','--feedback','--output']);
 for(let i=0;i<args.length;i+=2)if(!known.has(args[i]))throw Error(`Unknown argument ${args[i]}`);
 const source=JSON.parse(fs.readFileSync(path.join(root,'../training-planner/public/data/catalogue.json'),'utf8'));
-const scenario=JSON.parse(fs.readFileSync(arg('--scenario',path.join(root,'../training-planner/public/data/default-scenario.json')),'utf8'));
-if(scenario.schema!==2)throw Error('Only current capability-model scenarios can be published.');
-const warnings=validateScenario(scenario,source);if(warnings.length)throw Error(warnings.join('\n'));
+const scenario=prepareCentralScenario(JSON.parse(fs.readFileSync(arg('--scenario',path.join(root,'../recommended-pathways/Recommended-Training-Pathways.json')),'utf8')),source);
 const config=JSON.parse(fs.readFileSync(arg('--config',path.join(root,'config.json')),'utf8'));
 if(config.formsTemplate)validateFormsTemplate(config.formsTemplate);
 let feedbackSummary=null;

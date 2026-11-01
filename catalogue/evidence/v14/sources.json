@@ -1,0 +1,123 @@
+{
+  "reviewDate": "2026-11-01",
+  "searchUrl": "https://www.udemy.com/courses/search/?src=ukw&q=secai",
+  "method": "Inspect live Most Relevant and Most Reviewed results; deduplicate canonical course slugs against Offers and Tool track. Shortlist taught English-language SecAI+ courses rated >=4.5/5 with >=25 course ratings. These are pragmatic selection thresholds, not a claim of independently measured course quality. Rating count is Udemy course ratings, not enrolled students or instructor-wide reviews. No composite quality score invented.",
+  "selected": [
+    {
+      "id": "TR-281",
+      "title": "CompTIA SecAI+ (CY0-001) Complete Course from CertMike!",
+      "instructors": "Mike Chapple; Fred Nwanganga",
+      "slug": "comptia-secai-certmike",
+      "rating": 4.6,
+      "ratings": 580,
+      "duration": "6h 11m",
+      "sections": 30,
+      "lectures": 147,
+      "updated": "8/2026",
+      "practice": "Videos and knowledge checks; no learner lab or practical exercise verified.",
+      "summary": "Compact instruction on AI types and training, RAG, prompting, lifecycle controls, AI attacks, access and data controls, monitoring, security automation, governance and compliance.",
+      "url": "https://www.udemy.com/course/comptia-secai-certmike/"
+    },
+    {
+      "id": "TR-282",
+      "title": "CompTIA SecAI+ (CY0-001) Complete Course & Exam Prep 2026",
+      "instructors": "Avnish Singh; Pavan Kumar",
+      "slug": "comptia-secai-plus-cy0-001-exam-prep",
+      "rating": 4.5,
+      "ratings": 559,
+      "duration": "25h 30m",
+      "sections": 27,
+      "lectures": 185,
+      "updated": "9/2026",
+      "practice": "25 role plays, quizzes, assignments and one practice test advertised. Role plays involve explaining and defending decisions; completion time beyond video is not stated. Technical lab execution is not verified.",
+      "summary": "Extended instruction on models, prompting, RAG, threat frameworks, gateway and access controls, data protection, monitoring, attack analysis, MCP and security use cases, no-code automation, CI/CD, governance, responsible AI and regulatory frameworks.",
+      "url": "https://www.udemy.com/course/comptia-secai-plus-cy0-001-exam-prep/"
+    },
+    {
+      "id": "TR-283",
+      "title": "CompTIA SecAI+ CY0-001: Full Certification Prep Bootcamp",
+      "instructors": "Alexander Oni",
+      "slug": "comptia-secai-cy0-001-full-certification-prep-bootcamp",
+      "rating": 4.5,
+      "ratings": 67,
+      "duration": "11h",
+      "sections": 15,
+      "lectures": 99,
+      "updated": "3/2026",
+      "practice": "Two named ChatGPT demonstrations on threat-report summarisation and vulnerability identification, section quizzes and final practice exam. Demonstrations do not establish learner practice.",
+      "summary": "AI concepts, model training and prompts; secure data; threat modelling; gateway, access and data controls; monitoring and audit; attacks and compensating controls; security use cases, automation, governance and compliance.",
+      "url": "https://www.udemy.com/course/comptia-secai-cy0-001-full-certification-prep-bootcamp/"
+    },
+    {
+      "id": "TR-284",
+      "title": "CompTIA SecAI+ CY0-001: The Complete AI Security Course 2026",
+      "instructors": "Nasser Alaeddine",
+      "slug": "comptia-secai-plus-cy0-001-ai-security",
+      "rating": 4.8,
+      "ratings": 31,
+      "duration": "7h 41m",
+      "sections": 18,
+      "lectures": 88,
+      "updated": "10/2026",
+      "practice": "Animated/interactive video lessons and two domain-weighted practice exams with explanations. Interactive presentation is not verified hands-on learner practice.",
+      "summary": "AI foundations, prompting and redaction, secure lifecycle, threat modelling, guardrails and gateways, IAM, monitoring, attack evidence and compensating controls, AI security use cases, low/no-code automation, change approval/rollback, agents/MCP and GRC.",
+      "url": "https://www.udemy.com/course/comptia-secai-plus-cy0-001-ai-security/"
+    },
+    {
+      "id": "TR-285",
+      "title": "CompTIA SecAI+ CY0-001: Complete Course: AI Cybersecurity",
+      "instructors": "Vision Training Systems",
+      "slug": "secai-cy0-001",
+      "rating": 4.7,
+      "ratings": 28,
+      "duration": "5h 45m",
+      "sections": 4,
+      "lectures": 46,
+      "updated": "2/2026",
+      "practice": "17 demonstrations advertised across the four modules, including data minimisation, model poisoning, incident summaries and authority mapping. Independent learner exercises or lab deliverables are not verified.",
+      "summary": "Four-module AI security course with demonstrations of prompting, data cleansing and minimisation, threat modelling, controls, attack evidence, AI-assisted categorisation/reconnaissance/reporting, governance authority and NIST risk-framework mapping.",
+      "url": "https://www.udemy.com/course/secai-cy0-001/"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "CompTIA SecAI+ Fundamentals: AI Cybersecurity Basics CY0-001",
+      "url": "https://www.udemy.com/course/comptia-secai-fundamentals-ai-cybersecurity-basics-cy0-001/",
+      "instructor": "Mana Dowlatshahi Yeganeh",
+      "rating": 4.7,
+      "ratings": 58,
+      "duration": "133h 5m",
+      "reason": "Explicit user exclusion on 1 Nov 2026: AI-generated content and poor quality. Do not add or recommend this course despite its rating. This is the user's quality assessment, not an independent finding."
+    },
+    {
+      "title": "CompTIA SecAI+ CY0-001 Video Bootcamp",
+      "instructor": "Networkel",
+      "rating": 4.3,
+      "ratings": 96,
+      "reason": "Below the 4.5 rating threshold despite relatively high rating count."
+    },
+    {
+      "title": "CompTIA SecAI+ Complete Course | Secure AI Lifecycles",
+      "instructor": "Cyvitrix",
+      "rating": 4.3,
+      "ratings": 38,
+      "reason": "Below rating threshold."
+    },
+    {
+      "title": "CompTIA SecAI+ 2026: Complete AI Security Exam Prep",
+      "instructor": "Vinay Kumar",
+      "rating": 4.7,
+      "ratings": 65,
+      "reason": "Already present as INT-1199; canonical slug matches. Preserve existing assessment."
+    },
+    {
+      "title": "Practice-test-only listings",
+      "reason": "Kept outside this teaching-course shortlist; high review ratings do not establish taught curriculum or practical outcome credit."
+    },
+    {
+      "title": "Other newer taught courses with fewer than 25 ratings",
+      "reason": "Below the selected minimum evidence of learner reception; includes 4.8 courses with 6 or 15 ratings and 5.0 courses with 2 or 3."
+    }
+  ],
+  "observationLimits": "Live header/search count for CertMike was 580 while its dynamically loaded review section showed 586. Use 580 consistently as the conservative header count. Alexander header was 67 (indexed web copy 66); Vision header 28 (indexed copy 27). Ratings/counts vary by refresh; recorded as dated observations. Public-site course availability does not verify inclusion in the bank's Udemy Business subscription. Avnish/Pavan and Nasser disclose AI use; the user's exclusion is specifically Mana, not a blanket exclusion of any course that uses AI."
+}

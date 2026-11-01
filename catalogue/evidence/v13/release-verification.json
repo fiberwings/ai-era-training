@@ -1,0 +1,28 @@
+{
+  "catalogue": "ba0634eb6d9be98d",
+  "workbookSha256": "ab97d43a453c8a17354d32b5d5e91e3c2f3227f1e52d95d3c81d2f1b7879d9a3",
+  "regressionChecks": {
+    "plannerJavaScript": 72,
+    "plannerPython": 17,
+    "learnerJavaScript": 65,
+    "learnerPython": 3,
+    "failed": 0
+  },
+  "testNotes": [
+    "Planner Python server test passed with temporary loopback-port permission.",
+    "Historical Anthropic preservation check now compares its frozen v12 snapshot; current Anthropic outcome checks remain on the live catalogue."
+  ],
+  "browser": {
+    "method": "Computer Use browser, local HTTP previews",
+    "planner": "2.1.1; TR-280 details show 140 outcomes, 5 full, 89 partial/mentioned, 46 zero; 60h planning time and provisional evidence limits.",
+    "learner": "1.3.2; 529 resources, v13; ISC2 bundle search/detail shows six courses, 16h, revised evidence, costs and limits.",
+    "consoleErrors": [],
+    "savedCourseSelectionsChanged": false
+  },
+  "retainedDefaultsVerified": true,
+  "modelBodyUnchanged": true,
+  "modelVersion": 2,
+  "modelRevision": 3,
+  "packagesVerified": true,
+  "nativeExcel": "Unavailable; original formulas retained and all 9476 saved Coverage results independently reconciled."
+}

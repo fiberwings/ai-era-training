@@ -1,0 +1,45 @@
+{
+  "source": "User-saved planner scenario exported through the app on 1 November 2026",
+  "columns": [
+    "Title",
+    "Owner",
+    "Learner hours",
+    "Delivery status",
+    "Teaching and practice",
+    "Linked outcome IDs",
+    "Linked outcome details",
+    "Component",
+    "Category",
+    "Level",
+    "Specialism ID",
+    "Tool",
+    "Tool tasks",
+    "Scenario",
+    "Scenario status",
+    "Internal item ID",
+    "Component ID",
+    "Scenario ID"
+  ],
+  "rows": [
+    [
+      "AI use cases",
+      null,
+      1,
+      "Proposed",
+      "A training that showcases what AI does today in cyber by showing existing use in our organization, discuss about planned future development and beyond.",
+      "N1.1\nN1.2\nN1.3",
+      "N1.1 \u00b7 What AI does today in cyber\nDescribe what AI and agents already do well in one's own domain and the neighbouring ones: triage and enrichment, log and code analysis, drafting and summarising, policy mapping, test generation\n\nN1.2 \u00b7 What is emerging\nDescribe what is emerging in AI for cyber, beyond what is in production today\n\nN1.3 \u00b7 How one's own work changes\nName two or three ways one's own work could change. The purpose is to open the mind to a new way of working, not to teach a tool",
+      "Foundation",
+      "Foundation",
+      0,
+      null,
+      null,
+      null,
+      "Blank component curriculum",
+      "Draft",
+      "cf694d28-c0af-4b87-919d-4d282e175d3d",
+      "foundation",
+      "ec541e69-933d-4816-bda8-2964e2b3865b"
+    ]
+  ]
+}

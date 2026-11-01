@@ -1,0 +1,10 @@
+{
+  "oldCatalogue": "6db669ed065cab54",
+  "newCatalogue": "ba0634eb6d9be98d",
+  "affectedCoursesSelected": [],
+  "changedScenarioFields": [
+    "catalogueVersion",
+    "assumptions"
+  ],
+  "selectionsBudgetsOverridesPreserved": true
+}

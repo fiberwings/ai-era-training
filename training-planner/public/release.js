@@ -2,6 +2,6 @@
 // This version identifies the whole planner; it is separate from the capability
 // model, catalogue snapshot and scenario schema versions.
 export const PLANNER_RELEASE = Object.freeze({
-  version: '2.0.8',
-  date: '2026-10-31'
+  version: '2.2.0',
+  date: '2026-11-01'
 });

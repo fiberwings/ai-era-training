@@ -44,6 +44,39 @@ def date_text(value):
     return ''
 
 
+PROPOSED_HEADERS = ['Title', 'Owner', 'Learner hours', 'Delivery status', 'Teaching and practice',
+    'Linked outcome IDs', 'Linked outcome details', 'Component', 'Category', 'Level', 'Specialism ID',
+    'Tool', 'Tool tasks', 'Scenario', 'Scenario status', 'Internal item ID', 'Component ID', 'Scenario ID']
+
+
+def validate_proposed_rows(rows):
+    require(isinstance(rows, list), 'Invalid proposed-training rows')
+    seen = set()
+    for row in rows:
+        require(isinstance(row, list) and len(row) == len(PROPOSED_HEADERS), 'Invalid proposed-training columns')
+        require(all(isinstance(value, str) for i, value in enumerate(row) if i not in (2, 9)), 'Invalid proposed-training text')
+        require(row[0].strip() and all(row[i].strip() for i in (15, 16, 17)), 'Proposed training needs title and original IDs')
+        require(row[2] is None or numeric(row[2]) and row[2] >= 0, 'Invalid proposed-training hours')
+        require(row[9] is None or numeric(row[9]) and row[9] in range(4), 'Invalid proposed-training level')
+        require(row[3] in ('Proposed', 'In development', 'Ready') and row[14] in ('Draft', 'Reviewed', 'Finalised'), 'Invalid proposed-training status')
+        key = (row[17], row[16], row[15])
+        require(key not in seen, 'Duplicate proposed-training assignment: ' + row[0])
+        seen.add(key)
+
+
+def read_proposed_training(workbook):
+    it = workbook['Proposed training'].iter_rows(values_only=True)
+    require(list(next(it, [])) == PROPOSED_HEADERS, 'Proposed training: keep the original column headers')
+    rows = []
+    for values in it:
+        if not any(value is not None for value in values):
+            continue
+        row = [value if value is not None or i in (2, 9) else '' for i, value in enumerate(values)]
+        rows.append(row)
+    validate_proposed_rows(rows)
+    return {'formatVersion': 1, 'columns': PROPOSED_HEADERS, 'rows': rows}
+
+
 def validate_snapshot(data):
     require(isinstance(data, dict), 'Catalogue must be an object')
     for key in ('version', 'filename', 'thresholds', 'needs', 'requirements', 'courses', 'buildItems'):
@@ -66,6 +99,10 @@ def validate_snapshot(data):
             require(type(s.get('score')) is int and s['score'] in range(4), f"Invalid score for {c['id']}/{rid}")
         for rid in c.get('unassessed', {}):
             require(rid in maps['requirements'] and rid not in c['scores'], f'Conflicting assessment for {rid}')
+    if 'proposedTraining' in data:
+        proposed = data['proposedTraining']
+        require(isinstance(proposed, dict) and proposed.get('formatVersion') == 1 and proposed.get('columns') == PROPOSED_HEADERS, 'Invalid proposed-training format')
+        validate_proposed_rows(proposed.get('rows'))
     t = data['thresholds']
     require(all(numeric(t.get(k)) for k in ('partial', 'strong')) and 0 <= t['partial'] <= t['strong'] <= 1, 'Invalid coverage thresholds')
 
@@ -180,6 +217,8 @@ def read_catalogue(path):
                 require(r['Offer ID'] in by_id, 'Unknown audit course')
                 by_id[r['Offer ID']]['audit'] = dict(note=r['V8 decision and limitations'],basis=r.get('Evidence / assessment basis'),
                     priorFit=r.get('Previous fit note (v7)'),priorCoverage=r.get('Previous coverage summary (v7)'),source=reference('V8 audit',i))
+        if 'Proposed training' in workbook.sheetnames:
+            data['proposedTraining'] = read_proposed_training(workbook)
         # Identity includes importer schema and all imported metadata, not only XLSX bytes.
         identity = {k:v for k,v in data.items() if k != 'version'}
         data['version'] = hashlib.sha256(json.dumps(identity,sort_keys=True,ensure_ascii=False,default=str).encode('utf-8')).hexdigest()[:16]

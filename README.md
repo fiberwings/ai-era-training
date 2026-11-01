@@ -1,24 +1,27 @@
 # AI era training
 
-Cybersecurity workforce capability framework, assessed training catalogue, pathway builder, staff learning app and presentations for an agentic AI operating model.
+Cybersecurity workforce capability framework, assessed training catalogue, recommended pathways, pathway builder, staff learning app and presentations for an agentic AI operating model.
 
 ## Live deliverables
 
 | Deliverable | Open or read | Source and maintenance |
 | --- | --- | --- |
-| Training catalogue | [Catalogue v12](catalogue/AI_Era_Cyber_Training_Catalogue_v12.xlsx) | [Catalogue guide](catalogue/README.md) |
+| Training catalogue | [Catalogue v15](catalogue/AI_Era_Cyber_Training_Catalogue_v15.xlsx) | [Catalogue guide](catalogue/README.md) |
 | Capability framework | [Model v2 revision 3](capability-framework/Agentic-Era_Workforce_Capability_Model.md) · [CSV crosswalk](capability-framework/Capability_Model_Crosswalk.csv) | [Framework guide](capability-framework/README.md) |
-| Suggested-pathway builder | [Training Planner 2.0.8](training-planner/Training-Planner.html) | [Builder guide](training-planner/README.md) |
-| Staff learning and feedback app | [My AI Learning Path 1.3.1](learning-path/index.html) | [Staff-app guide](learning-path/README.md) |
+| Recommended training pathways | [Pathways v0.1](recommended-pathways/Recommended-Training-Pathways.md) · [Planner scenario](recommended-pathways/Recommended-Training-Pathways.json) | [Pathway guide](recommended-pathways/README.md) |
+| Suggested-pathway builder | [Training Planner 2.2.0](training-planner/Training-Planner.html) | [Builder guide](training-planner/README.md) |
+| Staff learning and feedback app | [AI Cybersecurity Learning 1.5.0](learning-path/index.html) | [Staff-app guide](learning-path/README.md) |
 | Presentations | [Model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx) · [Capability needs](presentations/AI-era-cyber-capability-needs.pptx) | [Presentation guide](presentations/README.md) |
 
 Download and open either app's HTML file in a desktop browser; no server is needed for normal use. Export JSON backups to preserve personal or planning data. Feedback collection through Microsoft Forms is configurable but currently unconnected.
 
 ## Current project status
 
-The catalogue and both apps use v12 evidence. The builder's component workspace starts blank. The staff app and legacy planner retain their existing bundled pathway by explicit user choice on 1 November 2026; their saved plans and defaults were not changed by reorganisation.
+Recommended Training Pathways v0.1 is a separate maintained deliverable. Foundation/L1 uses TR-281, TR-145 and the one-hour internal **AI use cases** brief and is **Reviewed**. L2, L3, specialist and coached paths are **AI recommendation - to be reviewed**. TR-229 Reasoning with o1 is excluded from these recommendations. The full scenario remains Draft and is published in learner 1.5.0. Import it into the planner to work with the maintained choices.
 
-The outdated 2027 plan and the no-longer-needed Foundation/L1 review are [archived](archive/README.md). Future planning belongs in [analysis](analysis/README.md). Both PowerPoint decks remain live; the briefing's historical catalogue appendix needs a freshness review before it is described as aligned with v12.
+The catalogue and both apps use v15 evidence, including the reviewed Udemy SecAI+ courses and the saved AI use cases internal brief in its own worksheet. The builder's component workspace starts blank. By subsequent user request, the staff app now publishes Recommended Training Pathways v0.1. The legacy planner retains its earlier bundled pathway. Saved personal plans and feedback remain preserved.
+
+The outdated 2027 plan and the no-longer-needed Foundation/L1 review are [archived](archive/README.md). Future planning belongs in [analysis](analysis/README.md). Both PowerPoint decks remain live; the briefing's historical catalogue appendix needs a freshness review before it is described as aligned with the current catalogue.
 
 ## Project navigation
 

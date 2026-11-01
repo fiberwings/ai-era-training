@@ -2,31 +2,34 @@
 
 ## Purpose and current scope
 
-Prepare the company's cybersecurity workforce for an agentic AI operating model. Deliver a coherent capability framework, assessed training catalogue, pathway builder, staff learning/feedback app and presentations. Learner time, evidence and practical delivery matter more than the number of selected courses.
+Enable the company's cybersecurity workforce for a time when most of the work will be performed by agents. Deliver a coherent capability framework, assessed training catalogue, recommended pathways, pathway builder, staff learning/feedback app and presentations.
 
 Read [README.md](README.md) for the current deliverables, [project context](docs/PROJECT_CONTEXT.md) for agreed decisions, and [inventory](docs/INVENTORY.md) for the directory map and archive decisions.
 
-On 1 November 2026 the user archived the outdated 2027 training plan and the no-longer-needed Foundation/L1 review. Future planning starts as new work. Both existing PowerPoint presentations remain live. The user explicitly chose to **keep the existing app defaults for now**: do not clear, replace, reoptimise or republish them as part of housekeeping.
+On 1 November 2026 the user archived the outdated 2027 training plan and the no-longer-needed Foundation/L1 review. Both existing PowerPoint presentations remain live.
 
 ## Deliverables and authority
 
 | Deliverable | Entry point | Supporting source |
 | --- | --- | --- |
-| Training catalogue | [Current workbook](catalogue/AI_Era_Cyber_Training_Catalogue_v12.xlsx) | [Catalogue guide](catalogue/README.md); `catalogue/evidence/` |
+| Training catalogue | [Current workbook](catalogue/AI_Era_Cyber_Training_Catalogue_v15.xlsx) | [Catalogue guide](catalogue/README.md); `catalogue/evidence/` |
 | Capability framework | [Model](capability-framework/Agentic-Era_Workforce_Capability_Model.md) | [CSV crosswalk](capability-framework/Capability_Model_Crosswalk.csv); [framework guide](capability-framework/README.md) |
+| Recommended training pathways | [Pathways v0.1](recommended-pathways/Recommended-Training-Pathways.md) | [Editable planner scenario](recommended-pathways/Recommended-Training-Pathways.json); [maintenance guide](recommended-pathways/README.md) |
 | Suggested-pathway builder | [Standalone app](training-planner/Training-Planner.html) | [Guide](training-planner/README.md); `training-planner/public/`, `scripts/`, `tests/` |
 | Staff learning and feedback | [Standalone app](learning-path/index.html) | [Guide](learning-path/README.md); `learning-path/src/`, `scripts/`, `tests/` |
 | Presentations | [Model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx) and [capability needs](presentations/AI-era-cyber-capability-needs.pptx) | [Presentation guide](presentations/README.md); `presentations/source/` |
 
 The model document is the authoritative description of the framework. The workbook owns course records, rubric assessments and evidence; its old Matrix sheet is not curriculum authority. Flag discrepancies between deliverables instead of silently choosing a different interpretation.
 
+The recommended-pathways JSON owns recommended selections, audience composition and review decisions. Its guide, internal briefs and coverage record are generated together. Foundation/L1 is Reviewed: TR-281 + TR-145 + the saved one-hour AI use cases brief, counted once. Other recommendations are AI recommendation - to be reviewed. Exclude TR-229 Reasoning with o1 from this deliverable; do not alter historical defaults as a side effect. Selection review does not make proposed internal training delivery-ready or assessed. Pathway version 0.1 is independent of app/catalogue/model identities.
+
 The readable model and CSV/JSON crosswalks are generated from `training-planner/public/capability-model.js`, `model-explanation.js`, `presentation.js` and the imported catalogue. Preserve approved prose when changing these sources; do not overwrite manual model changes without reconciling them. Do not edit generated copies independently and leave the source inconsistent.
 
-Current identities: catalogue **v12**, snapshot `6db669ed065cab54`; model **2 revision 3**; planner **2.0.8**; learner app **1.3.1**. See `training-planner/public/release.js`, `learning-path/config.json`, and [project context](docs/PROJECT_CONTEXT.md) for release details. An app release, catalogue snapshot, model revision and scenario schema are separate identities.
+Current identities: catalogue **v15**, snapshot `ff6d5a46d0450171`; model **2 revision 3**; planner **2.2.0**; learner app **1.5.0**. See `training-planner/public/release.js`, `learning-path/config.json`, and [project context](docs/PROJECT_CONTEXT.md) for release details. An app release, catalogue snapshot, model revision and scenario schema are separate identities.
 
 ## Directory rules
 
-- `catalogue/`, `capability-framework/`, `training-planner/`, `learning-path/` and `presentations/` contain the live deliverables.
+- `catalogue/`, `capability-framework/`, `recommended-pathways/`, `training-planner/`, `learning-path/` and `presentations/` contain the live deliverables.
 - `analysis/` is reserved for new active analyses; no previous report is current by default.
 - `docs/` holds current guidance, decisions and the migration inventory. `docs/history/` holds frozen handovers; historical statements do not override current decisions.
 - `releases/` contains version-labelled distribution packages, not the editable source of truth.
@@ -44,8 +47,9 @@ Keep both app directory names and runnable HTML paths stable. Browser storage ca
 - Curriculum coverage is not measured competence or operational authorisation. Catalogue evidence and planned internal teaching must remain distinguishable.
 - Coverage uses each outcome's best course score (0–3), then equally weighted need percentages. Deduplicate shared outcomes, courses and internal learner time. Keep full-course duration rules and explicit unknowns.
 - Do not reintroduce TR-127, which the user excluded from this corporate programme. Preserve other existing selection/exclusion decisions unless the planning task explicitly changes them.
-- Planner schema 3 uses reusable components and starts blank. The learner app currently accepts schema 2, and still embeds the retained annual selections. Schema-3-to-learner publishing is a separate feature task.
+- Planner schema 3 uses reusable components and starts blank. Learner 1.5.0 publishes Recommended Training Pathways v0.1 by user request and accepts schema-2/3 central plans. Native component variants and review labels are retained; derived compatibility groups support existing profiles. Coached routes require an explicit learner choice. Preserve personal learning and feedback when publishing.
 - Planner changed-input review gates were removed by user request; do not restore them accidentally. The learner app's central-scope review behaviour is separate.
+- Learner onboarding asks only level, broad responsibility areas, planned tools and optional Python/Git comfort. Detailed task/activity preferences and the starting-point assessment are optional after quick setup; never invent activity answers. Preserve saved refined responsibility choices.
 - Learner progress and feedback are browser-local. Microsoft Forms is configurable but unconnected. Do not invent central receipt, automatic syncing or learner competence.
 
 ## Build and verify
@@ -54,13 +58,17 @@ Run from the repository root. Node.js 20+ supports the app builds; Python suppor
 
 ```sh
 # Validate the saved/recalculated workbook without publishing a new snapshot.
-python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v12.xlsx --check
+python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v15.xlsx --check
 
 # Rebuild the current framework and app artifacts from their existing inputs.
 node training-planner/scripts/build_capability_model.mjs
 node training-planner/scripts/build_component_starter.mjs
 python3 training-planner/scripts/build_standalone.py
 node learning-path/scripts/build.mjs
+
+# Rebuild/check the recommended pathway guide and coverage against its saved snapshot.
+node recommended-pathways/scripts/build.mjs
+node recommended-pathways/scripts/build.mjs --check
 
 # Existing regression checks.
 npm test --prefix training-planner

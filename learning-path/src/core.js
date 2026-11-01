@@ -6,6 +6,7 @@ import {validateScenario, csv} from '../../training-planner/public/storage.js';
 import {isLayered, pathLayers, layeredGroup, matchesTool, flattenLayers, LEARNING_ROLES, rolePackages, startingPoint} from './layers.js';
 
 import {TOOL_USES, toolUseMatch} from './tool-audiences.js';
+import {prepareCentralScenario, groupsReviewStatus} from './published-pathways.js';
 
 export const STORAGE_KEY = 'my-ai-learning-path-v1';
 export const STATUSES = ['saved', 'planned', 'in-progress', 'completed', 'deferred'];
@@ -92,6 +93,10 @@ export function sourceFor(bundle,learner,id,suggested=false) {
   const source=learner.items[id]?.source;
   return ['central','central-role','previous-central','personalised','personal'].includes(source)?source:(suggested?'personalised':'catalog');
 }
+export function centralReviewStatus(bundle,learner,id) {
+  const groups=isLayered(learner)?flattenLayers(pathLayers(bundle,learner)).flatMap(l=>l.groups):bundle.scenario.cohorts;
+  return groupsReviewStatus(groups.filter(g=>g.selected.includes(id)||g.internal.some(i=>`internal:${i.id}`===id)));
+}
 export function unavailable(course) {
   if(course.internal&&course.status!=='Ready')return 'In development — not available yet';
   if(course.review==='Rejected'||course.review==='Needs delivery validation'||course.evidence==='Not found'||/coming soon/i.test(course.title))return 'Availability needs review';
@@ -140,10 +145,12 @@ export function recommendations(bundle,learner,limit=8,layer=null) {
     const topicFit=tooling?Math.min(.3,roleWords.filter(w=>c.title.toLowerCase().includes(w)).length*.1):0;
     const score=(gain+(focus.length?.3:0)+(basic?.2:0))/effort+(tooling?.65:0)+topicFit+fit*.15+qualityBonus;
     const reasons=[];
-    if(tooling)reasons.push(`Practice with ${c.tool}${isLayered(learner)?' for the tasks you selected':', one of your selected tools'}. Coverage is unassessed unless recorded below.`);
+    if(tooling){
+      const explicit=profile.tools.some(tool=>toolMatch(c,[tool])&&learner.profile.toolUses?.[tool]?.length);
+      reasons.push(`Practice with ${c.tool}${learner.profile.quickSetup&&!explicit?` matched to your selected L${learner.profile.level} level`:isLayered(learner)?' for the tasks you selected':', one of your selected tools'}. Coverage is unassessed unless recorded below.`);
+    }
     if(gain>0)reasons.push(`Adds recorded teaching for ${[...new Set(relevant.filter(r=>(c.scores[r.id]?.score||0)>before.get(r.id)).map(r=>NEED_TITLES[r.need]||r.need))].slice(0,2).join(' and ')}.`);
     if(focus.length||basic)reasons.push('A refresher based on your starting-point answers; your central pathway stays available.');
-    if(h!==null)reasons.push(h<=learner.profile.weeklyHours?'Fits within one week of your learning time.':`Allow about ${Math.ceil(h/learner.profile.weeklyHours)} weeks at your chosen pace.`);
     if(review?.count>=5)reasons.push(`Reviewed learner feedback: ${review.usefulness.toFixed(1)}/5 from ${review.count} responses.`);
     ranked.push({course:c,score,reason:reasons.join(' ')});
   }
@@ -211,9 +218,15 @@ export function coverage(bundle,learner,mode='selected') {
 export function searchCourses(bundle,learner,query='',filters={}) {
   const reqs=requirementsFor(bundle,learner), central=new Set(centralIds(bundle,learner)), terms=query.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
   const layer=filters.layer?flattenLayers(pathLayers(bundle,learner)).find(l=>l.id===filters.layer):null;
+  // Explore the full model, independently of the learner's selected responsibilities.
+  const role=LEARNING_ROLES.find(r=>`role:${r.id}`===filters.specialisation);
+  const specialisationIds=new Set(SPECIALISMS.filter(s=>role?role.packages.includes(s.id):s.id===filters.specialisation).flatMap(s=>s.requirements));
+  if(role?.id===7)for(const r of bundle.catalogue.requirements)if(r.need==='N5'&&sharedLevel(r)===0)specialisationIds.add(r.id);
   const ranked=[];
   for(const c of bundle.catalogue.courses){
     if(layer&&!layer.centralIds.includes(c.id)&&(layer.kind==='tool'?!toolMatch(c,[layer.tool])||c.track!=='tool':!layer.requirements.some(r=>(c.scores[r.id]?.score||0)>=2)))continue;
+    if(filters.specialisation&&![...specialisationIds].some(id=>(c.scores[id]?.score||0)>=2))continue;
+    if(filters.tool&&!toolMatch(c,[filters.tool]))continue;
     const tracks=displayTracks(bundle,learner,c), text=[c.id,c.title,c.provider,c.description,c.tool,...tracks,...reqs.filter(r=>(c.scores[r.id]?.score||0)>=2).map(r=>NEED_TITLES[r.need]||r.title)].join(' ').toLocaleLowerCase();
     if(!terms.every(t=>text.includes(t)))continue;
     const h=hoursFor(bundle,c);
@@ -234,10 +247,12 @@ export function searchCourses(bundle,learner,query='',filters={}) {
 export function validateBackup(raw) {
   if(!raw||raw.schema!=='ai-learning-path/1'||typeof raw.id!=='string'||typeof raw.acknowledged!=='string'||!raw.profile||!raw.items||Array.isArray(raw.items)||!Array.isArray(raw.feedback))throw Error('This is not a supported learning-path backup.');
   const p=raw.profile, strings=(a,max)=>Array.isArray(a)&&a.length<=max&&a.every(x=>typeof x==='string'&&x.length<=500);
+  if(p.learningRoute!==undefined&&!['standard','coached'].includes(p.learningRoute))throw Error('Invalid learning route.');
   if(typeof p.groupId!=='string'||typeof p.name!=='string'||p.name.length>80||!Number.isFinite(p.weeklyHours)||p.weeklyHours<.25||p.weeklyHours>80||!['new','some','regular'].includes(p.experience)||!strings(p.tools,100)||!strings(p.specialisms,50)||!p.answers||typeof p.priorLearning!=='string'||p.priorLearning.length>2000)throw Error('The profile in this backup is invalid.');
   for(const q of CHECKS)if(p.answers[q.id]!==undefined&&(!Number.isInteger(p.answers[q.id])||p.answers[q.id]<0||p.answers[q.id]>2))throw Error('Invalid starting-point answer.');
   if(p.specialisms.some(id=>!SPECIALISMS.some(s=>s.id===id)))throw Error('Unknown responsibility in the profile.');
   if(p.codingReady!==undefined&&typeof p.codingReady!=='boolean')throw Error('Invalid prerequisite preference.');
+  if(p.quickSetup!==undefined&&typeof p.quickSetup!=='boolean')throw Error('Invalid quick setup preference.');
   if(p.pathVersion!==undefined&&(![2,3,4].includes(p.pathVersion)||![1,2,3].includes(p.level)||p.levelGoal!==undefined&&![1,2,3].includes(p.levelGoal)))throw Error('Invalid learning-path level.');
   if([3,4].includes(p.pathVersion)){
     const unique=a=>Array.isArray(a)&&new Set(a).size===a.length;
@@ -274,10 +289,7 @@ export function validateBackup(raw) {
   return structuredClone(raw);
 }
 export function validateCentralScenario(scenario,bundle) {
-  if(scenario?.schema!==2)throw Error('Use a current model-v2 scenario from the training builder. Older models are not silently converted.');
-  const warnings=validateScenario(scenario,bundle.catalogue);
-  if(warnings.length)throw Error(`Review this central plan in the training builder first: ${warnings.join(' ')}`);
-  return scenario;
+  return prepareCentralScenario(scenario,bundle.catalogue);
 }
 export function updateDifference(bundle,learner) {
   const ids=new Set(centralIds(bundle,learner)),map=courseMap(bundle);

@@ -1,0 +1,1933 @@
+{
+  "date": "2026-11-01",
+  "catalogue": "6db669ed065cab54",
+  "model": "2 revision 3",
+  "formula": "Mean of need percentages; each need = sum outcome scores / (3 * outcome count). Combined = outcome-wise maximum.",
+  "overall": {
+    "SecAI": {
+      "outcomes": 140,
+      "needs": 23,
+      "core": 70,
+      "coverage": 32.257878997009435,
+      "core_depth": 36.666666666666664,
+      "touched": 94,
+      "taught_partial_or_full": 38,
+      "full": 5,
+      "core_touched": 54,
+      "core_taught": 20,
+      "core_full": 3,
+      "core_zero": 16,
+      "score_counts": {
+        "0": 46,
+        "1": 56,
+        "2": 33,
+        "3": 5
+      }
+    },
+    "ISC2": {
+      "outcomes": 140,
+      "needs": 23,
+      "core": 70,
+      "coverage": 13.581205429031515,
+      "core_depth": 15.238095238095237,
+      "touched": 43,
+      "taught_partial_or_full": 11,
+      "full": 2,
+      "core_touched": 24,
+      "core_taught": 7,
+      "core_full": 1,
+      "core_zero": 46,
+      "score_counts": {
+        "0": 97,
+        "1": 32,
+        "2": 9,
+        "3": 2
+      }
+    },
+    "Both": {
+      "outcomes": 140,
+      "needs": 23,
+      "core": 70,
+      "coverage": 34.24718196457327,
+      "core_depth": 38.095238095238095,
+      "touched": 97,
+      "taught_partial_or_full": 42,
+      "full": 6,
+      "core_touched": 54,
+      "core_taught": 23,
+      "core_full": 3,
+      "core_zero": 16,
+      "score_counts": {
+        "0": 43,
+        "1": 55,
+        "2": 36,
+        "3": 6
+      }
+    }
+  },
+  "components": {
+    "Foundation": {
+      "SecAI": {
+        "outcomes": 29,
+        "needs": 5,
+        "core": 12,
+        "coverage": 55.07936507936508,
+        "core_depth": 63.888888888888886,
+        "touched": 25,
+        "taught_partial_or_full": 17,
+        "full": 5,
+        "core_touched": 12,
+        "core_taught": 8,
+        "core_full": 3,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 4,
+          "1": 8,
+          "2": 12,
+          "3": 5
+        }
+      },
+      "ISC2": {
+        "outcomes": 29,
+        "needs": 5,
+        "core": 12,
+        "coverage": 32.857142857142854,
+        "core_depth": 33.33333333333333,
+        "touched": 17,
+        "taught_partial_or_full": 6,
+        "full": 2,
+        "core_touched": 8,
+        "core_taught": 3,
+        "core_full": 1,
+        "core_zero": 4,
+        "score_counts": {
+          "0": 12,
+          "1": 11,
+          "2": 4,
+          "3": 2
+        }
+      },
+      "Both": {
+        "outcomes": 29,
+        "needs": 5,
+        "core": 12,
+        "coverage": 59.20634920634921,
+        "core_depth": 66.66666666666666,
+        "touched": 26,
+        "taught_partial_or_full": 18,
+        "full": 6,
+        "core_touched": 12,
+        "core_taught": 9,
+        "core_full": 3,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 3,
+          "1": 8,
+          "2": 12,
+          "3": 6
+        }
+      }
+    },
+    "L1 shared": {
+      "SecAI": {
+        "outcomes": 8,
+        "needs": 1,
+        "core": 4,
+        "coverage": 50.0,
+        "core_depth": 58.33333333333333,
+        "touched": 7,
+        "taught_partial_or_full": 5,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 3,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 2,
+          "2": 5
+        }
+      },
+      "ISC2": {
+        "outcomes": 8,
+        "needs": 1,
+        "core": 4,
+        "coverage": 33.33333333333333,
+        "core_depth": 50.0,
+        "touched": 5,
+        "taught_partial_or_full": 3,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 3,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 3,
+          "1": 2,
+          "2": 3
+        }
+      },
+      "Both": {
+        "outcomes": 8,
+        "needs": 1,
+        "core": 4,
+        "coverage": 54.166666666666664,
+        "core_depth": 66.66666666666666,
+        "touched": 7,
+        "taught_partial_or_full": 6,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 4,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 1,
+          "2": 6
+        }
+      }
+    },
+    "L2 shared": {
+      "SecAI": {
+        "outcomes": 16,
+        "needs": 4,
+        "core": 9,
+        "coverage": 26.666666666666668,
+        "core_depth": 33.33333333333333,
+        "touched": 11,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 8,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 5,
+          "1": 10,
+          "2": 1
+        }
+      },
+      "ISC2": {
+        "outcomes": 16,
+        "needs": 4,
+        "core": 9,
+        "coverage": 8.333333333333332,
+        "core_depth": 11.11111111111111,
+        "touched": 5,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 6,
+        "score_counts": {
+          "0": 11,
+          "1": 5
+        }
+      },
+      "Both": {
+        "outcomes": 16,
+        "needs": 4,
+        "core": 9,
+        "coverage": 28.333333333333332,
+        "core_depth": 33.33333333333333,
+        "touched": 12,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 8,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 4,
+          "1": 11,
+          "2": 1
+        }
+      }
+    },
+    "L3 shared": {
+      "SecAI": {
+        "outcomes": 11,
+        "needs": 2,
+        "core": 5,
+        "coverage": 30.555555555555557,
+        "core_depth": 33.33333333333333,
+        "touched": 9,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 2,
+          "1": 8,
+          "2": 1
+        }
+      },
+      "ISC2": {
+        "outcomes": 11,
+        "needs": 2,
+        "core": 5,
+        "coverage": 8.888888888888888,
+        "core_depth": 13.333333333333334,
+        "touched": 3,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 2,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 8,
+          "1": 3
+        }
+      },
+      "Both": {
+        "outcomes": 11,
+        "needs": 2,
+        "core": 5,
+        "coverage": 30.555555555555557,
+        "core_depth": 33.33333333333333,
+        "touched": 9,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 2,
+          "1": 8,
+          "2": 1
+        }
+      }
+    },
+    "Role specialisms": {
+      "SecAI": {
+        "outcomes": 76,
+        "needs": 14,
+        "core": 40,
+        "coverage": 26.69690098261527,
+        "core_depth": 27.499999999999996,
+        "touched": 42,
+        "taught_partial_or_full": 14,
+        "full": 0,
+        "core_touched": 26,
+        "core_taught": 7,
+        "core_full": 0,
+        "core_zero": 14,
+        "score_counts": {
+          "0": 34,
+          "1": 28,
+          "2": 14
+        }
+      },
+      "ISC2": {
+        "outcomes": 76,
+        "needs": 14,
+        "core": 40,
+        "coverage": 5.234315948601663,
+        "core_depth": 7.5,
+        "touched": 13,
+        "taught_partial_or_full": 2,
+        "full": 0,
+        "core_touched": 8,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 32,
+        "score_counts": {
+          "0": 63,
+          "1": 11,
+          "2": 2
+        }
+      },
+      "Both": {
+        "outcomes": 76,
+        "needs": 14,
+        "core": 40,
+        "coverage": 27.717309145880577,
+        "core_depth": 28.333333333333332,
+        "touched": 43,
+        "taught_partial_or_full": 16,
+        "full": 0,
+        "core_touched": 26,
+        "core_taught": 8,
+        "core_full": 0,
+        "core_zero": 14,
+        "score_counts": {
+          "0": 33,
+          "1": 27,
+          "2": 16
+        }
+      }
+    }
+  },
+  "needs": {
+    "N1": {
+      "title": "What AI can do in cyber",
+      "SecAI": {
+        "outcomes": 3,
+        "needs": 1,
+        "core": 2,
+        "coverage": 55.55555555555556,
+        "core_depth": 83.33333333333333,
+        "touched": 2,
+        "taught_partial_or_full": 2,
+        "full": 1,
+        "core_touched": 2,
+        "core_taught": 2,
+        "core_full": 1,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "2": 1,
+          "3": 1
+        },
+        "band": "Partial"
+      },
+      "ISC2": {
+        "outcomes": 3,
+        "needs": 1,
+        "core": 2,
+        "coverage": 66.66666666666666,
+        "core_depth": 83.33333333333333,
+        "touched": 3,
+        "taught_partial_or_full": 2,
+        "full": 1,
+        "core_touched": 2,
+        "core_taught": 2,
+        "core_full": 1,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 1,
+          "2": 1,
+          "3": 1
+        },
+        "band": "Partial"
+      },
+      "Both": {
+        "outcomes": 3,
+        "needs": 1,
+        "core": 2,
+        "coverage": 66.66666666666666,
+        "core_depth": 83.33333333333333,
+        "touched": 3,
+        "taught_partial_or_full": 2,
+        "full": 1,
+        "core_touched": 2,
+        "core_taught": 2,
+        "core_full": 1,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 1,
+          "2": 1,
+          "3": 1
+        },
+        "band": "Partial"
+      }
+    },
+    "N2": {
+      "title": "How AI systems are built",
+      "SecAI": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 2,
+        "coverage": 42.857142857142854,
+        "core_depth": 50.0,
+        "touched": 7,
+        "taught_partial_or_full": 2,
+        "full": 0,
+        "core_touched": 2,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 5,
+          "2": 2
+        },
+        "band": "Partial"
+      },
+      "ISC2": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 2,
+        "coverage": 19.047619047619047,
+        "core_depth": 16.666666666666664,
+        "touched": 4,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 3,
+          "1": 4
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 2,
+        "coverage": 42.857142857142854,
+        "core_depth": 50.0,
+        "touched": 7,
+        "taught_partial_or_full": 2,
+        "full": 0,
+        "core_touched": 2,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 5,
+          "2": 2
+        },
+        "band": "Partial"
+      }
+    },
+    "N3": {
+      "title": "AI limitations and pitfalls",
+      "SecAI": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 3,
+        "coverage": 38.095238095238095,
+        "core_depth": 66.66666666666666,
+        "touched": 4,
+        "taught_partial_or_full": 3,
+        "full": 1,
+        "core_touched": 3,
+        "core_taught": 2,
+        "core_full": 1,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 3,
+          "1": 1,
+          "2": 2,
+          "3": 1
+        },
+        "band": "Partial"
+      },
+      "ISC2": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 3,
+        "coverage": 28.57142857142857,
+        "core_depth": 33.33333333333333,
+        "touched": 3,
+        "taught_partial_or_full": 2,
+        "full": 1,
+        "core_touched": 2,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 4,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 3,
+        "coverage": 47.61904761904761,
+        "core_depth": 77.77777777777779,
+        "touched": 4,
+        "taught_partial_or_full": 4,
+        "full": 2,
+        "core_touched": 3,
+        "core_taught": 3,
+        "core_full": 1,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 3,
+          "2": 2,
+          "3": 2
+        },
+        "band": "Partial"
+      }
+    },
+    "N4": {
+      "title": "AI risks and responsible use",
+      "SecAI": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 2,
+        "coverage": 61.904761904761905,
+        "core_depth": 50.0,
+        "touched": 7,
+        "taught_partial_or_full": 5,
+        "full": 1,
+        "core_touched": 2,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 2,
+          "2": 4,
+          "3": 1
+        },
+        "band": "Partial"
+      },
+      "ISC2": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 2,
+        "coverage": 23.809523809523807,
+        "core_depth": 33.33333333333333,
+        "touched": 4,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 2,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 3,
+          "1": 3,
+          "2": 1
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 2,
+        "coverage": 61.904761904761905,
+        "core_depth": 50.0,
+        "touched": 7,
+        "taught_partial_or_full": 5,
+        "full": 1,
+        "core_touched": 2,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 2,
+          "2": 4,
+          "3": 1
+        },
+        "band": "Partial"
+      }
+    },
+    "N5": {
+      "title": "AI security risks and threats",
+      "SecAI": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 3,
+        "coverage": 71.42857142857143,
+        "core_depth": 66.66666666666666,
+        "touched": 7,
+        "taught_partial_or_full": 6,
+        "full": 2,
+        "core_touched": 3,
+        "core_taught": 2,
+        "core_full": 1,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 1,
+          "2": 4,
+          "3": 2
+        },
+        "band": "Strong"
+      },
+      "ISC2": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 3,
+        "coverage": 19.047619047619047,
+        "core_depth": 11.11111111111111,
+        "touched": 3,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 2,
+        "score_counts": {
+          "0": 4,
+          "1": 2,
+          "2": 1
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 3,
+        "coverage": 71.42857142857143,
+        "core_depth": 66.66666666666666,
+        "touched": 7,
+        "taught_partial_or_full": 6,
+        "full": 2,
+        "core_touched": 3,
+        "core_taught": 2,
+        "core_full": 1,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 1,
+          "2": 4,
+          "3": 2
+        },
+        "band": "Strong"
+      }
+    },
+    "N6": {
+      "title": "Working with AI",
+      "SecAI": {
+        "outcomes": 8,
+        "needs": 1,
+        "core": 4,
+        "coverage": 50.0,
+        "core_depth": 58.33333333333333,
+        "touched": 7,
+        "taught_partial_or_full": 5,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 3,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 2,
+          "2": 5
+        },
+        "band": "Partial"
+      },
+      "ISC2": {
+        "outcomes": 8,
+        "needs": 1,
+        "core": 4,
+        "coverage": 33.33333333333333,
+        "core_depth": 50.0,
+        "touched": 5,
+        "taught_partial_or_full": 3,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 3,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 3,
+          "1": 2,
+          "2": 3
+        },
+        "band": "Partial"
+      },
+      "Both": {
+        "outcomes": 8,
+        "needs": 1,
+        "core": 4,
+        "coverage": 54.166666666666664,
+        "core_depth": 66.66666666666666,
+        "touched": 7,
+        "taught_partial_or_full": 6,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 4,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 1,
+          "2": 6
+        },
+        "band": "Partial"
+      }
+    },
+    "N7": {
+      "title": "Supervising agents",
+      "SecAI": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 4,
+        "coverage": 40.0,
+        "core_depth": 41.666666666666664,
+        "touched": 5,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 4,
+          "2": 1
+        },
+        "band": "Partial"
+      },
+      "ISC2": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 4,
+        "coverage": 26.666666666666668,
+        "core_depth": 25.0,
+        "touched": 4,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 1,
+          "1": 4
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 4,
+        "coverage": 40.0,
+        "core_depth": 41.666666666666664,
+        "touched": 5,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 4,
+          "2": 1
+        },
+        "band": "Partial"
+      }
+    },
+    "N8": {
+      "title": "Skills and connectors",
+      "SecAI": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 2,
+        "coverage": 13.333333333333334,
+        "core_depth": 16.666666666666664,
+        "touched": 2,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 3,
+          "1": 2
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 2,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 2,
+        "score_counts": {
+          "0": 5
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 2,
+        "coverage": 13.333333333333334,
+        "core_depth": 16.666666666666664,
+        "touched": 2,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 3,
+          "1": 2
+        },
+        "band": "Weak"
+      }
+    },
+    "N9": {
+      "title": "Evaluating AI in your own work",
+      "SecAI": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 3,
+        "coverage": 20.0,
+        "core_depth": 33.33333333333333,
+        "touched": 3,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 2,
+          "1": 3
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 3,
+        "coverage": 6.666666666666667,
+        "core_depth": 0.0,
+        "touched": 1,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 4,
+          "1": 1
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 3,
+        "coverage": 26.666666666666668,
+        "core_depth": 33.33333333333333,
+        "touched": 4,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 4
+        },
+        "band": "Weak"
+      }
+    },
+    "N10": {
+      "title": "Building agents and the platform",
+      "SecAI": {
+        "outcomes": 8,
+        "needs": 1,
+        "core": 3,
+        "coverage": 25.0,
+        "core_depth": 44.44444444444444,
+        "touched": 5,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 3,
+          "1": 4,
+          "2": 1
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 8,
+        "needs": 1,
+        "core": 3,
+        "coverage": 4.166666666666666,
+        "core_depth": 11.11111111111111,
+        "touched": 1,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 2,
+        "score_counts": {
+          "0": 7,
+          "1": 1
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 8,
+        "needs": 1,
+        "core": 3,
+        "coverage": 25.0,
+        "core_depth": 44.44444444444444,
+        "touched": 5,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 3,
+          "1": 4,
+          "2": 1
+        },
+        "band": "Weak"
+      }
+    },
+    "N11": {
+      "title": "Designing AI evaluation",
+      "SecAI": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 27.77777777777778,
+        "core_depth": 22.22222222222222,
+        "touched": 5,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 2,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 1,
+          "1": 5
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 11.11111111111111,
+        "core_depth": 11.11111111111111,
+        "touched": 2,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 2,
+        "score_counts": {
+          "0": 4,
+          "1": 2
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 27.77777777777778,
+        "core_depth": 22.22222222222222,
+        "touched": 5,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 2,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 1,
+          "1": 5
+        },
+        "band": "Weak"
+      }
+    },
+    "N12": {
+      "title": "Securing AI systems and agents",
+      "SecAI": {
+        "outcomes": 9,
+        "needs": 1,
+        "core": 4,
+        "coverage": 51.85185185185185,
+        "core_depth": 66.66666666666666,
+        "touched": 8,
+        "taught_partial_or_full": 6,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 4,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 2,
+          "2": 6
+        },
+        "band": "Partial"
+      },
+      "ISC2": {
+        "outcomes": 9,
+        "needs": 1,
+        "core": 4,
+        "coverage": 7.4074074074074066,
+        "core_depth": 8.333333333333332,
+        "touched": 2,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 7,
+          "1": 2
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 9,
+        "needs": 1,
+        "core": 4,
+        "coverage": 51.85185185185185,
+        "core_depth": 66.66666666666666,
+        "touched": 8,
+        "taught_partial_or_full": 6,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 4,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 2,
+          "2": 6
+        },
+        "band": "Partial"
+      }
+    },
+    "N13": {
+      "title": "Governing AI risk",
+      "SecAI": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 55.55555555555556,
+        "core_depth": 44.44444444444444,
+        "touched": 6,
+        "taught_partial_or_full": 4,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 2,
+          "2": 4
+        },
+        "band": "Partial"
+      },
+      "ISC2": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 27.77777777777778,
+        "core_depth": 33.33333333333333,
+        "touched": 5,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 5
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 55.55555555555556,
+        "core_depth": 44.44444444444444,
+        "touched": 6,
+        "taught_partial_or_full": 4,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 2,
+          "2": 4
+        },
+        "band": "Partial"
+      }
+    },
+    "N14": {
+      "title": "Redesigning work, supervision and adoption",
+      "SecAI": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 5,
+        "coverage": 28.57142857142857,
+        "core_depth": 33.33333333333333,
+        "touched": 6,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 5,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 6
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 5,
+        "coverage": 38.095238095238095,
+        "core_depth": 33.33333333333333,
+        "touched": 6,
+        "taught_partial_or_full": 2,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 1,
+          "1": 4,
+          "2": 2
+        },
+        "band": "Partial"
+      },
+      "Both": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 5,
+        "coverage": 42.857142857142854,
+        "core_depth": 40.0,
+        "touched": 7,
+        "taught_partial_or_full": 2,
+        "full": 0,
+        "core_touched": 5,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "1": 5,
+          "2": 2
+        },
+        "band": "Partial"
+      }
+    },
+    "R1.1": {
+      "title": "Run incidents where the agent is the subject",
+      "SecAI": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 27.77777777777778,
+        "core_depth": 33.33333333333333,
+        "touched": 5,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 5
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 6
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 27.77777777777778,
+        "core_depth": 33.33333333333333,
+        "touched": 5,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 3,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 5
+        },
+        "band": "Weak"
+      }
+    },
+    "R1.2": {
+      "title": "Use AI in forensics without breaking the evidence, and make agents' traces investigable",
+      "SecAI": {
+        "outcomes": 3,
+        "needs": 1,
+        "core": 2,
+        "coverage": 22.22222222222222,
+        "core_depth": 16.666666666666664,
+        "touched": 2,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 1,
+          "1": 2
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 3,
+        "needs": 1,
+        "core": 2,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 2,
+        "score_counts": {
+          "0": 3
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 3,
+        "needs": 1,
+        "core": 2,
+        "coverage": 22.22222222222222,
+        "core_depth": 16.666666666666664,
+        "touched": 2,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 1,
+          "1": 2
+        },
+        "band": "Weak"
+      }
+    },
+    "R3.1": {
+      "title": "Red-team the bank's own agents",
+      "SecAI": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 3,
+        "coverage": 33.33333333333333,
+        "core_depth": 33.33333333333333,
+        "touched": 3,
+        "taught_partial_or_full": 2,
+        "full": 0,
+        "core_touched": 2,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 2,
+          "1": 1,
+          "2": 2
+        },
+        "band": "Partial"
+      },
+      "ISC2": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 3,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 5
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 3,
+        "coverage": 33.33333333333333,
+        "core_depth": 33.33333333333333,
+        "touched": 3,
+        "taught_partial_or_full": 2,
+        "full": 0,
+        "core_touched": 2,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 2,
+          "1": 1,
+          "2": 2
+        },
+        "band": "Partial"
+      }
+    },
+    "R3.2": {
+      "title": "Contain self-directed testing agents and validate their findings at trajectory level",
+      "SecAI": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 3,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 5
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 3,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 5
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 5,
+        "needs": 1,
+        "core": 3,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 5
+        },
+        "band": "Weak"
+      }
+    },
+    "R4.1": {
+      "title": "Manage agents, MCP servers, Skills and connectors as an exposure class",
+      "SecAI": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 5.555555555555555,
+        "core_depth": 0.0,
+        "touched": 1,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 5,
+          "1": 1
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 6
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 3,
+        "coverage": 5.555555555555555,
+        "core_depth": 0.0,
+        "touched": 1,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 5,
+          "1": 1
+        },
+        "band": "Weak"
+      }
+    },
+    "R4.2": {
+      "title": "Build and validate AI code-analysis harnesses",
+      "SecAI": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 3,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 7
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 3,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 7
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 7,
+        "needs": 1,
+        "core": 3,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 3,
+        "score_counts": {
+          "0": 7
+        },
+        "band": "Weak"
+      }
+    },
+    "R5.1": {
+      "title": "Design the agent control plane",
+      "SecAI": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 4,
+        "coverage": 27.77777777777778,
+        "core_depth": 33.33333333333333,
+        "touched": 5,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 5
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 4,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 4,
+        "score_counts": {
+          "0": 6
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 6,
+        "needs": 1,
+        "core": 4,
+        "coverage": 27.77777777777778,
+        "core_depth": 33.33333333333333,
+        "touched": 5,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 4,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 0,
+        "score_counts": {
+          "0": 1,
+          "1": 5
+        },
+        "band": "Weak"
+      }
+    },
+    "R6.1": {
+      "title": "Assure agents",
+      "SecAI": {
+        "outcomes": 2,
+        "needs": 1,
+        "core": 2,
+        "coverage": 33.33333333333333,
+        "core_depth": 33.33333333333333,
+        "touched": 1,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 1,
+          "2": 1
+        },
+        "band": "Partial"
+      },
+      "ISC2": {
+        "outcomes": 2,
+        "needs": 1,
+        "core": 2,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 2,
+        "score_counts": {
+          "0": 2
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 2,
+        "needs": 1,
+        "core": 2,
+        "coverage": 33.33333333333333,
+        "core_depth": 33.33333333333333,
+        "touched": 1,
+        "taught_partial_or_full": 1,
+        "full": 0,
+        "core_touched": 1,
+        "core_taught": 1,
+        "core_full": 0,
+        "core_zero": 1,
+        "score_counts": {
+          "0": 1,
+          "2": 1
+        },
+        "band": "Partial"
+      }
+    },
+    "R9.1": {
+      "title": "Run the identity lifecycle of agents",
+      "SecAI": {
+        "outcomes": 10,
+        "needs": 1,
+        "core": 4,
+        "coverage": 10.0,
+        "core_depth": 16.666666666666664,
+        "touched": 3,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 2,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 2,
+        "score_counts": {
+          "0": 7,
+          "1": 3
+        },
+        "band": "Weak"
+      },
+      "ISC2": {
+        "outcomes": 10,
+        "needs": 1,
+        "core": 4,
+        "coverage": 0.0,
+        "core_depth": 0.0,
+        "touched": 0,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 0,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 4,
+        "score_counts": {
+          "0": 10
+        },
+        "band": "Weak"
+      },
+      "Both": {
+        "outcomes": 10,
+        "needs": 1,
+        "core": 4,
+        "coverage": 10.0,
+        "core_depth": 16.666666666666664,
+        "touched": 3,
+        "taught_partial_or_full": 0,
+        "full": 0,
+        "core_touched": 2,
+        "core_taught": 0,
+        "core_full": 0,
+        "core_zero": 2,
+        "score_counts": {
+          "0": 7,
+          "1": 3
+        },
+        "band": "Weak"
+      }
+    }
+  },
+  "conditional_core": [
+    {
+      "id": "N11.3",
+      "condition": "When automated judges are used"
+    },
+    {
+      "id": "N14.7",
+      "condition": "For leadership responsibilities"
+    },
+    {
+      "id": "R3.1.3",
+      "condition": "For multi-agent testing responsibilities"
+    },
+    {
+      "id": "R6.1.2",
+      "condition": "When assurance work itself uses AI"
+    },
+    {
+      "id": "R9.1.2",
+      "condition": "For delegated-identity integration responsibilities"
+    }
+  ],
+  "foundation_core_gaps": {
+    "SecAI": [
+      {
+        "id": "N1.1",
+        "score": 2,
+        "title": "What AI does today in cyber"
+      },
+      {
+        "id": "N2.4",
+        "score": 1,
+        "title": "Anatomy of an agent"
+      },
+      {
+        "id": "N2.6",
+        "score": 2,
+        "title": "Safety components"
+      },
+      {
+        "id": "N3.1",
+        "score": 2,
+        "title": "Hallucination"
+      },
+      {
+        "id": "N3.7",
+        "score": 1,
+        "title": "Counter-habits"
+      },
+      {
+        "id": "N4.1",
+        "score": 2,
+        "title": "Data leaving the bank"
+      },
+      {
+        "id": "N4.6",
+        "score": 1,
+        "title": "The bank's rules"
+      },
+      {
+        "id": "N5.1",
+        "score": 2,
+        "title": "AI-enabled social engineering and impersonation"
+      },
+      {
+        "id": "N5.5",
+        "score": 1,
+        "title": "What changes for defence"
+      }
+    ],
+    "ISC2": [
+      {
+        "id": "N1.1",
+        "score": 2,
+        "title": "What AI does today in cyber"
+      },
+      {
+        "id": "N2.4",
+        "score": 0,
+        "title": "Anatomy of an agent"
+      },
+      {
+        "id": "N2.6",
+        "score": 1,
+        "title": "Safety components"
+      },
+      {
+        "id": "N3.1",
+        "score": 1,
+        "title": "Hallucination"
+      },
+      {
+        "id": "N3.5",
+        "score": 0,
+        "title": "Prompt injection"
+      },
+      {
+        "id": "N3.7",
+        "score": 2,
+        "title": "Counter-habits"
+      },
+      {
+        "id": "N4.1",
+        "score": 1,
+        "title": "Data leaving the bank"
+      },
+      {
+        "id": "N4.6",
+        "score": 1,
+        "title": "The bank's rules"
+      },
+      {
+        "id": "N5.1",
+        "score": 0,
+        "title": "AI-enabled social engineering and impersonation"
+      },
+      {
+        "id": "N5.5",
+        "score": 0,
+        "title": "What changes for defence"
+      },
+      {
+        "id": "N5.8",
+        "score": 1,
+        "title": "Overview of AI security risks"
+      }
+    ],
+    "Both": [
+      {
+        "id": "N1.1",
+        "score": 2,
+        "title": "What AI does today in cyber"
+      },
+      {
+        "id": "N2.4",
+        "score": 1,
+        "title": "Anatomy of an agent"
+      },
+      {
+        "id": "N2.6",
+        "score": 2,
+        "title": "Safety components"
+      },
+      {
+        "id": "N3.1",
+        "score": 2,
+        "title": "Hallucination"
+      },
+      {
+        "id": "N3.7",
+        "score": 2,
+        "title": "Counter-habits"
+      },
+      {
+        "id": "N4.1",
+        "score": 2,
+        "title": "Data leaving the bank"
+      },
+      {
+        "id": "N4.6",
+        "score": 1,
+        "title": "The bank's rules"
+      },
+      {
+        "id": "N5.1",
+        "score": 2,
+        "title": "AI-enabled social engineering and impersonation"
+      },
+      {
+        "id": "N5.5",
+        "score": 1,
+        "title": "What changes for defence"
+      }
+    ]
+  }
+}

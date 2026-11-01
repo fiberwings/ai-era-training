@@ -1,0 +1,62 @@
+{
+  "workbook": "AI_Era_Cyber_Training_Catalogue_v13.xlsx",
+  "snapshot": "ba0634eb6d9be98d",
+  "sha256": "ab97d43a453c8a17354d32b5d5e91e3c2f3227f1e52d95d3c81d2f1b7879d9a3",
+  "resources": 529,
+  "activeOutcomes": 140,
+  "needs": 23,
+  "numericScores": 57400,
+  "unassessed": 280,
+  "coverageRowsReconciled": 9476,
+  "preservedOriginalFormulas": 461493,
+  "addedFormulas": 1070,
+  "formulaErrors": [],
+  "unchangedResources": 525,
+  "metrics": {
+    "TR-014": {
+      "before": {
+        "overall": 3.6922,
+        "positive": 13,
+        "full": 0
+      },
+      "after": {
+        "overall": 13.5812,
+        "positive": 43,
+        "full": 2
+      }
+    },
+    "TR-280": {
+      "before": null,
+      "after": {
+        "overall": 32.2579,
+        "positive": 94,
+        "full": 5
+      }
+    },
+    "TR-015": {
+      "before": {
+        "overall": 1.5873,
+        "positive": 4,
+        "full": 0
+      },
+      "after": {
+        "overall": 2.1365,
+        "positive": 6,
+        "full": 0
+      }
+    },
+    "TR-023": {
+      "before": {
+        "overall": 0.207,
+        "positive": 1,
+        "full": 0
+      },
+      "after": {
+        "overall": 0.0,
+        "positive": 0,
+        "full": 0
+      }
+    }
+  },
+  "nativeFeatures": "All ZIP members outside ten intentional sheet/table/hyperlink changes are byte-identical; original formulas and individual cell styles preserved."
+}

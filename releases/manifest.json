@@ -1,30 +1,33 @@
 {
   "packagedOn": "2026-11-01",
-  "catalogueVersion": "6db669ed065cab54",
-  "catalogueWorkbook": "AI_Era_Cyber_Training_Catalogue_v12.xlsx",
+  "catalogueVersion": "ff6d5a46d0450171",
+  "catalogueWorkbook": "AI_Era_Cyber_Training_Catalogue_v15.xlsx",
   "modelVersion": 2,
   "modelRevision": 3,
-  "defaults": "Retained unchanged by user instruction",
+  "defaults": "Planner starters retained; learner publishes Recommended Training Pathways v0.1 by user request; personal learning records remain browser-local",
   "packages": [
     {
       "app": "Training Planner",
-      "version": "2.0.8",
-      "releaseDate": "2026-10-31",
-      "package": "training-planner/2.0.8/Training-Planner.zip",
-      "sha256": "132f208bcb36dbd1fb775a9f2841b1f0aa1491d8d6a490410b78d8842bd273cd",
+      "version": "2.2.0",
+      "releaseDate": "2026-11-01",
+      "package": "training-planner/2.2.0/Training-Planner.zip",
+      "sha256": "b2deee0e5a625dae3d58450e5c605d51fc99f835fc37ee607ec3f51199f519de",
       "source": "training-planner/Training-Planner.html",
       "member": "Training-Planner.html",
-      "memberSha256": "fee8f5a1082f056c83c3dbd8aab6c17fe7b94247a7a488c522e3dffc7386b73a"
+      "memberSha256": "55ffbdd29c0a4c861ee4b15915c96ecab7e08f0d106864e4fc0c1e2547441616"
     },
     {
       "app": "My AI Learning Path",
-      "version": "1.3.1",
-      "releaseDate": "2026-10-31",
-      "package": "learning-path/1.3.1/My-AI-Learning-Path.zip",
-      "sha256": "f43b558c53456890d700143e9b78abe70048adff6e2103d52fa95195fd63abe6",
+      "version": "1.5.0",
+      "releaseDate": "2026-11-01",
+      "package": "learning-path/1.5.0/My-AI-Learning-Path.zip",
+      "sha256": "2348bb0852af3a5d81bb1370438f904181089c6b9d1f7ec53a180751e682252f",
       "source": "learning-path/index.html",
       "member": "index.html",
-      "memberSha256": "1b028bbb1648b0081761806d7ec6b2cf624aef572f2165cf41f2826fc4b89e3a"
+      "memberSha256": "f671e952ab137a1db60dbaa4a8a1daa70ab39c79a295b712dc46914fbc68e4e6",
+      "recommendationSource": "recommended-pathways/Recommended-Training-Pathways.json",
+      "recommendationVersion": "0.1",
+      "scenarioSchema": 3
     }
   ]
 }

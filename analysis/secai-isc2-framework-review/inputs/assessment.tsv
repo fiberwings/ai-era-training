@@ -1,0 +1,138 @@
+offer	outcome	score	sources	decision
+SecAI	N1.1	2	S0,S1:3.1-3.3,S3:5	Broad applications; complete cross-domain coverage including policy mapping is not demonstrated.
+SecAI	N1.3	3	S1:3,S3:5	Enough distinct work examples to explain several changes to one's work; knowledge outcome.
+SecAI	N2.1	1	S1:1.1,S3:1.2	Model families are covered; provider, reasoning, price and hosting comparisons are not established.
+SecAI	N2.2	1	S1:2.2,3.1-3.2	Some modalities are evident; full cross-modal capability is not taught explicitly.
+SecAI	N2.3	1	S1:3.1,3.3	Assistant and agent references; no four-pattern comparison.
+SecAI	N2.4	1	S1:3.3,S3:5.3	Agent reference does not establish instruction-memory-tool-loop anatomy.
+SecAI	N2.5	1	S1:3.1	MCP is named; reusable Skills and the complete extension model are not established.
+SecAI	N2.6	2	S1:2.2-2.5,S3:2-3	Several safety components taught; sandbox, stop and separate authorization architecture incomplete.
+SecAI	N2.7	2	S1:4.3,S3:6.3	General public/private and data-policy teaching; bank platform and egress mapping still required.
+SecAI	N3.1	2	S1:2.5-2.6,S3:3.3,4.2	Failure and auditing scope explicit; recognizing it in one's own tools not fully evidenced.
+SecAI	N3.5	3	S1:2.6,S3:4.2,S4:p5	Specific attack teaching plus a named injection exercise supports the complete awareness outcome.
+SecAI	N3.6	2	S1:1.3,2.6,S3:4.1	Overreliance and human role covered; psychological explanation of automation bias less explicit.
+SecAI	N3.7	1	S1:1.3,S3:4.1	Human validation touched; source checking, independent judgement and sampling habits not specified.
+SecAI	N4.1	2	S1:4.2-4.3,S3:6.2-6.3	General leakage/public-model risks; bank-specific boundaries absent.
+SecAI	N4.2	3	S1:2.4,4.3,S3:1.3,3.2,6.3	Data protection and sensitive-use principles cover this knowledge outcome.
+SecAI	N4.3	2	S1:4.2,S3:6.2	Risk explicitly in scope; detailed ownership/licensing treatment not publicly specified.
+SecAI	N4.4	2	S1:2.6,S3:4.2	Model/integration supply-chain risk; modern Skills and connector chain incomplete.
+SecAI	N4.5	2	S1:4.3,S3:6.3	Named international frameworks; regional obligations and literacy-duty depth not established.
+SecAI	N4.6	1	S1:4.3,S3:6.3	Generic policy teaching cannot establish knowledge of this bank's rules.
+SecAI	N4.7	1	S1:2.6,4.3	Third-party risk touched; specific pre-use Skill/connector vetting absent.
+SecAI	N5.1	2	S1:3.2,S3:5.2,S4:p5	Deception recognition covered; independent trusted-channel verification not specified.
+SecAI	N5.3	3	S1:3.2,S3:5.2	Instruction sufficiently spans automated offensive uses for this knowledge outcome.
+SecAI	N5.4	2	S1:2.6,S3:4.2	Strong generic attack teaching; examples tied to the bank's deployed AI need local supplementation.
+SecAI	N5.5	1	S1:3.2,S3:5.2	Attack amplification touched; identity-verification change not established.
+SecAI	N5.6	2	S1:2.6,3.2,S3:4.2,5.2	Attack recognition activities; full adaptation to the learner's domain not specified.
+SecAI	N5.7	2	S3:2.1,4.2,S4:p3	Resource analysis and control choice taught; continuing tracking process not specified.
+SecAI	N5.8	3	S1:2.2-2.6,S3:2-4	All required awareness risk categories and associated precautions have explicit curricular counterparts.
+SecAI	N6.1	1	S1:1.3,S3:4.1,5.3	Use cases and human role touched; explicit delegation and success criteria missing.
+SecAI	N6.2	2	S3:1.2-1.3,S4:p3	Prompt/data practice supports partial context skill; complete task-context specification not verified.
+SecAI	N6.3	2	S1:1.3,2.5,S3:3.3	Output validation covered; reasoning and agent behaviour judgement incomplete.
+SecAI	N6.4	2	S1:4.2,S3:6.2	Responsible ownership/transparency taught; applying it to a delivered work product not verified.
+SecAI	N6.5	1	S1:1.3,S3:4.1	Selection mentioned; task-based model/effort comparison absent.
+SecAI	N6.7	2	S1:2.4,4.3,S3:3.2,6.3	Data classification and policy teaching; approved-bank-platform decision exercise absent.
+SecAI	N6.8	2	S0,S3:5,S4:p5	Applied security tasks supported; daily own-work practice within bank rules not verified.
+SecAI	N7.1	1	S1:2.3,S3:3.1	Permissions touched; signed-off action boundaries and delegation workflow missing.
+SecAI	N7.2	2	S1:2.5,S3:3.3	Monitoring taught; full agent trace, held permissions and approval-overload handling incomplete.
+SecAI	N7.3	1	S1:2.5,S3:3.3	Quality checks touched; evidence sampling and planted-error detection target absent.
+SecAI	N7.4	1	S1:3.3,S3:5.3	Rollback touched; live stop/override, compromise response and manual continuity missing.
+SecAI	N7.5	1	S1:2.5,4.2	Audit/accountability references; complete supervisory sign-off record not specified.
+SecAI	N8.4	1	S1:3.1,2.6	MCP and least privilege appear; connector permission practice not established.
+SecAI	N8.5	1	S1:2.6,4.3	Third-party risks touched; install-time Skill/connector vetting not specified.
+SecAI	N9.1	1	S1:1.1,1.3	Validation referenced; own-use-case benchmark construction absent.
+SecAI	N9.3	1	S1:2.2,3.3	Testing touched; per-case/fault acceptance checks not established.
+SecAI	N9.4	1	S1:3.3	Regression testing referenced; explicit model/tool/Skill-change evaluation discipline absent.
+SecAI	N10.1	1	S1:3.3,S3:5.3	Agents named; construction of loops, tools, planning and reflection not established.
+SecAI	N10.3	1	S3:1.2	Prompt work touches context; harness engineering at scale absent.
+SecAI	N10.4	1	S1:1.3,2.5,S3:3.3	Selection/cost topics; routing and latency optimization absent.
+SecAI	N10.5	1	S1:4.3,S4:p3	Residency/cloud examples; comparison of hosting choices not established.
+SecAI	N10.8	2	S0,S3:2-4,S4:p3-4	Applied deployment security; full safety/evaluation architecture incomplete.
+SecAI	N11.1	1	S1:1.1,1.3	Validation touched; domain/vendor test-set design absent.
+SecAI	N11.2	1	S1:2.5,S3:3.3	Quality auditing touched; aggregated practitioner error analysis absent.
+SecAI	N11.4	1	S1:4.3	Supplier evaluation reference; pre-purchase capability benchmarking absent.
+SecAI	N11.5	1	S1:1.3,2.5,S3:3.3	Production monitoring touched; quantitative drift methods not explicit.
+SecAI	N11.6	1	S1:2.5,4.3	Decision evidence touched; linking results to permitted autonomy not established.
+SecAI	N12.1	2	S0,S1:2.1,S3:2.1,S4:p3	Threat modelling taught/practised; agentic-specific threat framework coverage incomplete.
+SecAI	N12.2	2	S1:2.3,S3:3.1	Agent access covered; delegated identity standards and threats incomplete.
+SecAI	N12.4	2	S1:2.2-2.3,S3:2.2,3.1	Gateway/access controls taught; separate policy-engine enforcement incomplete.
+SecAI	N12.5	2	S1:2.2,2.6,S3:2.2,S4:p3-4	Design/testing scope supports partial skill; exact self-paced guardrail exercise not inspected.
+SecAI	N12.6	2	S1:2.5,S3:3.3	Logging/monitoring taught; kill-switch design missing.
+SecAI	N12.7	1	S1:2.6	Supply-chain reference; Skill/MCP server hardening not established.
+SecAI	N12.8	2	S0,S3:4.2,S4:p5	Mitigation work supported; closed-loop red-team/IR remediation and retesting not complete.
+SecAI	N12.9	1	S3:2.2,3.1	Control building blocks; tenancy/isolation reference designs absent.
+SecAI	N13.1	1	S1:4.2	Shadow AI touched; maintained system/agent/Skill/connector inventory absent.
+SecAI	N13.2	2	S3:6.2,S4:p6	Risk assessment exercise listed; thresholds and treatment method not fully specified.
+SecAI	N13.3	1	S1:1.3,4.2	Autonomy and oversight touched; action-class policy absent.
+SecAI	N13.4	2	S1:2.6,4.3,S3:6.3	Third-party evaluation covered; full lifecycle treatment not specified.
+SecAI	N13.5	2	S1:4.3,S3:6.3	Framework/policy mapping partial; regional regulatory controls absent.
+SecAI	N13.6	2	S3:3.3,6.3,S4:p6	Reporting practice listed; regulator-ready evidence package not established.
+SecAI	N14.1	1	S1:1.3,4.1,S3:4.1,6.1	Roles/human involvement touched; workflow allocation and supervision ratios absent.
+SecAI	N14.2	1	S3:5.3	Automation workflow teaching does not establish end-to-end work redesign.
+SecAI	N14.3	1	S1:1.3,3.3,S3:5.3	Human review touched; full evidence-based action-class supervision model absent.
+SecAI	N14.4	1	S1:1.3,2.5	Business alignment and cost touched; value measurement method absent.
+SecAI	N14.5	1	S1:4.1-4.2,S3:6.1	Organizational support touched; protected experimentation/champions/refresh process incomplete.
+SecAI	N14.7	1	S1:4.2	General accountability; named responsibility for each agent not established.
+SecAI	R1.1.1	1	S3:4.2,5.1	AI incident handling touched; three agent failure playbooks absent.
+SecAI	R1.1.2	1	S1:3.3	Rollback reference; graduated agent stop mechanisms absent.
+SecAI	R1.1.3	1	S3:4.2,S4:p5	Attack analysis touched; independent agent investigation evidence/timeline incomplete.
+SecAI	R1.1.4	1	S3:4.2	Mitigation touched; poisoned memory/source cleanup and replay not specified.
+SecAI	R1.1.6	1	S1:4.3,S4:p6	Compliance reporting touched; incident-specific regional reporting absent.
+SecAI	R1.2.2	1	S1:2.5	Protected logs touched; full forensic trace, retention and reconstruction testing absent.
+SecAI	R1.2.3	1	S3:4.2	Post-attack analysis touched; actor attribution from agent traces absent.
+SecAI	R3.1.1	2	S1:2.6,S3:4.2,S4:p5	Several attack classes; tool-description poisoning/rug pulls and full agent surface incomplete.
+SecAI	R3.1.2	1	S3:2.2,4.2,S4:p5	Testing activities; complete scoped/repeatable AI red-team method not specified.
+SecAI	R3.1.4	2	S1:2.6,S3:4.2	Model attacks taught; memory, sandbox and side-channel requirements incomplete.
+SecAI	R4.1.6	1	S1:2.6,4.3	Supplier/supply-chain risks; pre-admission Skill/connector vetting absent.
+SecAI	R5.1.1	1	S1:4.2	Autonomous-system risk touched; action impact/reversibility tiers absent.
+SecAI	R5.1.2	1	S3:2.2,3.1	Access/gateway controls; per-action enforcement independent of model obedience absent.
+SecAI	R5.1.3	1	S1:3.3	Rollback mentioned; engineered/tested multi-lever stop mechanism absent.
+SecAI	R5.1.4	1	S1:2.5	Logging foundations; complete immutable, attributable action evidence absent.
+SecAI	R5.1.5	1	S1:3.3,S4:p5	Approval touched; decision presentation, fatigue and overseer training absent.
+SecAI	R6.1.1	2	S1:2.2-2.5,S3:3.3	Control checking covered in part; complete agent-specific assurance catalogue absent.
+SecAI	R9.1.1	1	S1:2.3,S3:3.1	Agent access touched; distinct identity, sponsor and purpose lifecycle absent.
+SecAI	R9.1.3	1	S1:2.6	Least privilege touched; application-specific scope reading and review absent.
+SecAI	R9.1.10	1	S1:2.5	Audit trail foundations; delegation standards and full regulatory identity evidence absent.
+ISC2	N1.1	2	I1,I2,I6	Several cyber use cases; complete cross-domain and agent application scope incomplete.
+ISC2	N1.2	1	I6	Changing work discussed; specific emerging capabilities not enumerated.
+ISC2	N1.3	3	I6	Explicit job-change and adaptation teaching satisfies this knowledge outcome.
+ISC2	N2.1	1	I4	Technology taxonomy; provider/cost/reasoning/hosting comparisons not established.
+ISC2	N2.3	1	I2,I6	Human augmentation discussed; full four-pattern distinction absent.
+ISC2	N2.6	1	I5	Secure design touched; required component anatomy not specified.
+ISC2	N2.7	1	I6	Employee LLM risks; approved/public platform and egress distinctions not explicit.
+ISC2	N3.1	1	I2	Accuracy and blind spots touched; hallucination behaviour not explicitly specified.
+ISC2	N3.6	3	I2	Dedicated overconfidence teaching explicitly explains automation bias and human oversight.
+ISC2	N3.7	2	I2	Critical checking/refinement taught; the full set of required counter-habits is unspecified.
+ISC2	N4.1	1	I6	Employee privacy risks; explicit data-egress treatment not established.
+ISC2	N4.2	2	I6	Privacy compliance and impact assessment; client-data handling detail incomplete.
+ISC2	N4.5	1	I3	Global frameworks discussed; no named regional requirements or literacy duty.
+ISC2	N4.6	1	I5,I6	Safe-use/security policy touched; bank-specific rules absent.
+ISC2	N5.4	2	I1	Attacks and mitigations explicitly taught; bank AI examples and detailed taxonomy not public.
+ISC2	N5.6	1	I1	Attack recognition named; domain-specific recognition detail missing.
+ISC2	N5.8	1	I1	Risk awareness touched; six required categories and precautions not enumerated.
+ISC2	N6.1	2	I2,I6	Human/AI division of judgement taught; explicit delegation success criteria missing.
+ISC2	N6.3	2	I2	Output evaluation taught; full reasoning/behaviour assessment practice unspecified.
+ISC2	N6.4	2	I2,I6	Human accountability taught; transparent delivery of own AI-assisted work not demonstrated.
+ISC2	N6.7	1	I6	Privacy and safe tool use; data-classification/platform decision procedure absent.
+ISC2	N6.8	1	I1,I6	Workplace AI use discussed; daily own-work practice not established.
+ISC2	N7.1	1	I2	Division of human/AI responsibility touched; agent permissions and delegation boundaries absent.
+ISC2	N7.2	1	I2	Ongoing oversight touched; agent trace/permissions/change monitoring absent.
+ISC2	N7.3	1	I2	Output scrutiny touched; planted-error sampling exercise absent.
+ISC2	N7.5	1	I6	Accountability/audits touched; complete supervisory sign-off and feedback record absent.
+ISC2	N9.2	1	I2	Identifying weaknesses touched; persistent known-fault catalogue not specified.
+ISC2	N10.8	1	I5	Lifecycle security taught broadly; complete deployment control/evaluation system absent.
+ISC2	N11.2	1	I2	Data-driven weakness identification; cross-practitioner error-analysis method absent.
+ISC2	N11.5	1	I2	Continual adaptation touched; production drift measurement not specified.
+ISC2	N12.6	1	I6	Audits touched; operational logs, monitoring and kill-switch design incomplete.
+ISC2	N12.8	1	I1	Mitigations touched; feedback from findings and validated fixes not specified.
+ISC2	N13.1	1	I5	Organizational use/maturity assessment; maintained agent/component inventory absent.
+ISC2	N13.2	1	I5,I6	Risk and privacy assessment touched; thresholds/treatment process unspecified.
+ISC2	N13.3	1	I2,I6	Human accountability/oversight; action-class autonomy policy absent.
+ISC2	N13.5	1	I3	Framework alignment; specific regional requirements-to-controls mapping absent.
+ISC2	N13.6	1	I6	Reviews/audits touched; regulator/auditor evidence package not established.
+ISC2	N14.1	2	I2,I5,I6	Role changes and human/AI balance taught; workflow allocation and supervision ratios incomplete.
+ISC2	N14.2	1	I6	Work change discussed; concrete workflow redesign method not specified.
+ISC2	N14.3	1	I2,I6	Oversight taught broadly; gates, review presentation and evidence-based autonomy absent.
+ISC2	N14.5	2	I5,I6	Adaptation/training and maturity taught; protected time/champions/Skills refresh incomplete.
+ISC2	N14.6	1	I2,I6	Human expertise/upskilling touched; protection of core craft and junior pipeline unspecified.
+ISC2	N14.7	1	I6	Human accountability explicit; named accountability for each agent not established.

@@ -5,12 +5,12 @@
   "id": "blank-component-curriculum-v1",
   "name": "Blank component curriculum",
   "status": "Draft",
-  "catalogueVersion": "6db669ed065cab54",
+  "catalogueVersion": "ff6d5a46d0450171",
   "catalogueIdentity": {
-    "version": "6db669ed065cab54",
-    "filename": "AI_Era_Cyber_Training_Catalogue_v12.xlsx",
-    "sourceSha256": "6abef4de79f652a227984bdb67624cebd81ff96a656d33d8414c099ff49ef87c",
-    "assessmentDate": "2026-10-31"
+    "version": "ff6d5a46d0450171",
+    "filename": "AI_Era_Cyber_Training_Catalogue_v15.xlsx",
+    "sourceSha256": "07ce3343043c8312284a3f33c8d4530cc72b5ae8140bee9361588b8367b5f08a",
+    "assessmentDate": "2026-11-01"
   },
   "created": "2026-10-31T00:00:00.000Z",
   "assumptions": "Blank curriculum. Foundation and cumulative L1/L2/L3 learning combine with selected responsibilities and approved tooling. Budgets are provisional and exclude internal practice. Evidence describes syllabus coverage, not learner competence or permission.",

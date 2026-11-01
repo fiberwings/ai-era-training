@@ -5,12 +5,13 @@ import {duration} from '../public/duration.js';
 import {measure} from '../public/scoring.js';
 const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url)));
 const data=read('../public/data/catalogue.json'),prior=read('../catalogue-history/6f245643cc5bf083.json');
+const reviewed=read('../catalogue-history/6db669ed065cab54.json');
 test('Anthropic review preserves all other courses, rubric and thresholds',()=>{
- assert.deepEqual(data.requirements,prior.requirements);
- assert.deepEqual(data.needs,prior.needs);
- assert.deepEqual(data.thresholds,prior.thresholds);
+ assert.deepEqual(reviewed.requirements,prior.requirements);
+ assert.deepEqual(reviewed.needs,prior.needs);
+ assert.deepEqual(reviewed.thresholds,prior.thresholds);
  const changed=new Set(['TR-145','TR-089']);
- assert.deepEqual(data.courses.filter(c=>!changed.has(c.id)),prior.courses.filter(c=>!changed.has(c.id)));
+ assert.deepEqual(reviewed.courses.filter(c=>!changed.has(c.id)),prior.courses.filter(c=>!changed.has(c.id)));
 });
 test('TR-089 credits explicit 4D exercises without requiring graded labs',()=>{
  const c=data.courses.find(c=>c.id==='TR-089');

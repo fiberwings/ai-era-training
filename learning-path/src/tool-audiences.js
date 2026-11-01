@@ -19,10 +19,14 @@ const groups = [
 export const TOOL_AUDIENCES = Object.fromEntries(groups.flatMap(([uses,ids])=>ids.map(id=>[id,{uses,basis:'Intended tasks from the catalog title and description; syllabus coverage is unchanged.'}])));
 export function toolAudience(course) { return TOOL_AUDIENCES[course.id]?.uses||[]; }
 export function toolUseMatch(course,profile,tool) {
-  const chosen=profile.toolUses?.[tool]||[];
+  // Quick setup uses the selected level as a suggestion filter, not a saved
+  // claim about tasks. Explicit preferences always take precedence.
+  const saved=profile.toolUses?.[tool]||[];
+  const chosen=saved.length?saved:profile.quickSetup?['use','supervise','build'].slice(0,profile.level):[];
   return chosen.some(use=>toolAudience(course).includes(use));
 }
 export function validateToolUses(profile) {
+  if(profile.quickSetup)return profile;
   for(const tool of profile.tools)if(!profile.toolUses?.[tool]?.length)throw Error(`Choose what you do with ${tool}.`);
   return profile;
 }
