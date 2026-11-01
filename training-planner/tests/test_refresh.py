@@ -83,8 +83,8 @@ class RefreshTests(unittest.TestCase):
 
 class WorkbookTests(unittest.TestCase):
     def test_v8_full_import(self):
-        file=ROOT.parent/'AI_Era_Cyber_Training_Catalogue_v8.xlsx'
-        if not file.exists():self.skipTest('v8 workbook not beside app')
+        file=ROOT.parent/'archive/catalogues/AI_Era_Cyber_Training_Catalogue_v8.xlsx'
+        if not file.exists():self.skipTest('archived v8 workbook unavailable')
         data,checked=read_catalogue(file)
         self.assertEqual(checked,7084)
         self.assertEqual(data['assessmentDate'],'2026-10-15')

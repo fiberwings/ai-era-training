@@ -10,6 +10,6 @@ if __name__=='__main__':
     p.add_argument('workbook',nargs='?')
     args=p.parse_args()
     current=json.loads((root/'public/data/catalogue.json').read_text(encoding='utf-8'))
-    expected,checked=read_catalogue(args.workbook or root.parent/current['filename'])
+    expected,checked=read_catalogue(args.workbook or root.parent/'catalogue'/current['filename'])
     require(current==expected,'Active snapshot differs from this workbook; use refresh_catalogue.py')
     print(f'Active snapshot matches workbook; reconciled {checked} course/need results.')

@@ -133,7 +133,7 @@ test('v2 roundtrips; v1 imports and duplicates retain all original scope and sel
 
 test('published starter retains annual v3 decisions with refreshed catalogue evidence',()=>{
  const s=JSON.parse(readFileSync(new URL('../public/data/default-scenario.json',import.meta.url)));
- const annual=JSON.parse(readFileSync(new URL('../../analysis/2027-training-plan/2027-recommended-v3.json',import.meta.url)));
+ const annual=JSON.parse(readFileSync(new URL('../../archive/analysis/2027-training-plan/2027-recommended-v3.json',import.meta.url)));
  assert.deepEqual({...s,catalogueVersion:annual.catalogueVersion,assumptions:annual.assumptions},annual);
  assert.ok(s.assumptions.startsWith(annual.assumptions));
  assert.equal(s.planVersion,3);assert.equal(s.modelVersion,2);assert.equal(s.catalogueVersion,data.version);
