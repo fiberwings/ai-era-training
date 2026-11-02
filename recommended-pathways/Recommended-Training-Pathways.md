@@ -1,12 +1,12 @@
 # Recommended Training Pathways
 
-**Version 0.1 · 1 November 2026 · Partially reviewed draft**
+**Version 0.2 · 2 November 2026 · Partially reviewed draft**
 
 Foundation and L1 use the reviewed shared bundle of CertMike SecAI+, Anthropic AI Capabilities and Limitations, and the internal AI use cases session. L2, L3, coached alternatives and specialist pathways are **AI recommendation - to be reviewed**. These recommendations combine the agreed capability model with selected courses and proposed internal practice.
 
 [Importable planner scenario](Recommended-Training-Pathways.json) · [Internal training briefs](Internal-Training-Briefs.md) · [Detailed coverage and time](coverage.json) · [Maintenance and import guide](README.md)
 
-Catalogue: **v15**, snapshot `ff6d5a46d0450171`. Capability model: **2 revision 3**. Pathway owner: **Unassigned**. Next review date: **Unscheduled**; review before assigning an AI-generated pathway and when relevant inputs change.
+Catalogue: **v16**, snapshot `9ed4551ae565417e`. Capability model: **2 revision 3**. Pathway owner: **Unassigned**. Next review date: **Unscheduled**; review before assigning an AI-generated pathway and when relevant inputs change.
 
 ## How to use the pathways
 
@@ -380,6 +380,7 @@ Before adopting the AI-generated pathways, confirm audience prerequisites and co
 - **2026-11-01:** Foundation and L1 use TR-281 and TR-145; Foundation also includes the saved one-hour AI use cases internal training. Foundation and L1 are Reviewed.
 - **2026-11-01:** Exclude TR-229 Reasoning with o1. The request referred to O2; the historical recommendation contains o1, and no separate O2 course was selected. No replacement is assigned.
 - **2026-11-01:** All remaining level, specialist, coached and tooling recommendations are AI recommendation - to be reviewed.
+- **2026-11-02:** Catalogue v16 compatibility reviewed after 18 user-approved retirements. None is selected or pinned here. All 516 retained records, outcome definitions, assessment evidence, shared internal teaching and catalogue-wide outcome maxima are unchanged. Preserve all component/audience IDs, selections, review labels and exclusions; TR-229 is now a recognised retired exclusion. Version 0.1 is archived. This is a maintenance publication, not approval of the remaining AI recommendations.
 
 The excluded resources are **TR-229**, **TR-127**, **TR-125**, **TR-128**, **TR-129**, **TR-159**. TR-127 is already absent from the catalogue; its exclusion remains in the decision register. Foundation also retains the exclusion of the full INT-2787 social-engineering course.
 

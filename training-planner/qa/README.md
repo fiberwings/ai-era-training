@@ -57,3 +57,7 @@ Specialism cards open the component editor, optimise within budget, apply select
 All five embedded inputs match the previous 2.1.3 distribution exactly, preserving catalogue/model, blank starter and legacy default. Storage keys and schema remain unchanged. The 2.2.0 ZIP contains the exact rebuilt standalone HTML and its hashes are recorded in the release manifest.
 
 Visually inspected: [specialism cards](screenshots/specialism-pathways.png), [tool pathway editor](screenshots/tool-pathway.png) and [matching tool resources](screenshots/tool-pathway-resources.png).
+
+## Approved retirements — planner 2.2.1
+
+Verified 2 November 2026 against catalogue v16. 81 JavaScript, 19 Python and 9 browser checks passed. Tests cover schema-2/3 saved retired selections, valid retired exclusions, active-only discovery, retirement detail dialogs, unchanged JSON exports, explicit removal and legacy-plan preservation. Existing internal Excel export/reuse, specialism/tool pathways and component ownership checks also pass. [Release evidence and screenshots](../../catalogue/evidence/v16/README.md).

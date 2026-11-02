@@ -3,13 +3,13 @@
   "modelVersion": 2,
   "modelRevision": 3,
   "id": "recommended-training-pathways-v0.1",
-  "name": "Recommended Training Pathways v0.1",
+  "name": "Recommended Training Pathways v0.2",
   "status": "Draft",
-  "catalogueVersion": "ff6d5a46d0450171",
+  "catalogueVersion": "9ed4551ae565417e",
   "catalogueIdentity": {
-    "version": "ff6d5a46d0450171",
-    "filename": "AI_Era_Cyber_Training_Catalogue_v15.xlsx",
-    "sourceSha256": "07ce3343043c8312284a3f33c8d4530cc72b5ae8140bee9361588b8367b5f08a",
+    "version": "9ed4551ae565417e",
+    "filename": "AI_Era_Cyber_Training_Catalogue_v16.xlsx",
+    "sourceSha256": "07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb",
     "assessmentDate": "2026-11-01"
   },
   "created": "2026-11-01T00:00:00.000Z",
@@ -2492,8 +2492,8 @@
     }
   ],
   "publication": {
-    "version": "0.1",
-    "date": "2026-11-01",
+    "version": "0.2",
+    "date": "2026-11-02",
     "status": "Partially reviewed draft",
     "owner": "",
     "nextReviewDate": null,
@@ -2516,6 +2516,10 @@
       {
         "date": "2026-11-01",
         "decision": "All remaining level, specialist, coached and tooling recommendations are AI recommendation - to be reviewed."
+      },
+      {
+        "date": "2026-11-02",
+        "decision": "Catalogue v16 compatibility reviewed after 18 user-approved retirements. None is selected or pinned here. All 516 retained records, outcome definitions, assessment evidence, shared internal teaching and catalogue-wide outcome maxima are unchanged. Preserve all component/audience IDs, selections, review labels and exclusions; TR-229 is now a recognised retired exclusion. Version 0.1 is archived. This is a maintenance publication, not approval of the remaining AI recommendations."
       }
     ],
     "exclusions": [

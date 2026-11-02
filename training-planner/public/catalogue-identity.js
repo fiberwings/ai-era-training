@@ -1,6 +1,7 @@
 export function catalogueIdentity(data){return {version:data.version,filename:data.filename,sourceSha256:data.sourceSha256,assessmentDate:data.assessmentDate};}
 export function catalogueReview(s,data,previous){
- const used=new Set((s.components||s.cohorts||[]).flatMap(c=>[...c.selected,...c.pinned,...c.excluded]));
+ const retiredIds=new Set((data.retiredCourses||[]).map(c=>c.id));
+ const used=new Set((s.components||s.cohorts||[]).flatMap(c=>[...c.selected,...c.pinned,...c.excluded.filter(id=>!retiredIds.has(id))]));
  const refs=new Set((s.components||s.cohorts||[]).flatMap(c=>[...(c.requirements||[]),...c.addedRequirements,...c.removedRequirements,...c.internal.flatMap(i=>i.requirements)]));
  const courses=new Map(data.courses.map(c=>[c.id,c])),reqs=new Map(data.requirements.map(r=>[r.id,r]));
  const missingCourses=[...used].filter(id=>!courses.has(id)),missingOutcomes=[...refs].filter(id=>!reqs.has(id));

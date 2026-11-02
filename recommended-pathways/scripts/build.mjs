@@ -54,10 +54,12 @@ const report={version:publication.version,date:publication.date,scenarioId:scena
 report.calculationSources={};
 for(const name of ['components','scoring','duration','capability-model'])report.calculationSources[`training-planner/public/${name}.js`]=hash(await read(`training-planner/public/${name}.js`));
 
-const lines=['# Recommended Training Pathways','',`**Version ${publication.version} · 1 November 2026 · ${publication.status}**`,'',
+const publicationDate=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(publication.date+'T00:00:00Z'));
+const catalogueLabel=catalogue.filename.match(/_(v\d+)\.xlsx$/)?.[1]||catalogue.filename;
+const lines=['# Recommended Training Pathways','',`**Version ${publication.version} · ${publicationDate} · ${publication.status}**`,'',
  'Foundation and L1 use the reviewed shared bundle of CertMike SecAI+, Anthropic AI Capabilities and Limitations, and the internal AI use cases session. L2, L3, coached alternatives and specialist pathways are **AI recommendation - to be reviewed**. These recommendations combine the agreed capability model with selected courses and proposed internal practice.','',
  '[Importable planner scenario](Recommended-Training-Pathways.json) · [Internal training briefs](Internal-Training-Briefs.md) · [Detailed coverage and time](coverage.json) · [Maintenance and import guide](README.md)','',
- `Catalogue: **v15**, snapshot \`${scenario.catalogueVersion}\`. Capability model: **${scenario.modelVersion} revision ${scenario.modelRevision}**. Pathway owner: **Unassigned**. Next review date: **Unscheduled**; review before assigning an AI-generated pathway and when relevant inputs change.`, '',
+ `Catalogue: **${catalogueLabel}**, snapshot \`${scenario.catalogueVersion}\`. Capability model: **${scenario.modelVersion} revision ${scenario.modelRevision}**. Pathway owner: **Unassigned**. Next review date: **Unscheduled**; review before assigning an AI-generated pathway and when relevant inputs change.`, '',
  '## How to use the pathways','',
  'Compose Foundation + the shared learning through the person’s agentic level + relevant role responsibilities + approved tool training. The same course or internal activity is counted once. Levels follow the work, independently of seniority; demonstrated capabilities need not be retaught. Specialist audience levels below are proposed starting points, not requirements for everyone in a role.','',
  '**Reviewed** records the user’s review of the Foundation/L1 selection on 1 November 2026. It does not declare full outcome coverage, delivery readiness, competence or operational permission. The full scenario remains Draft because its other pathways await review. Review labels are descriptive and do not add planner gates.','',
@@ -103,7 +105,7 @@ lines.push('## Tool training','',`**${publication.toolTraining.reviewStatus}**`,
 
 const internalMap=new Map();
 for(const c of scenario.components)for(const i of c.internal){const existing=internalMap.get(i.id);if(existing)assert.deepEqual(existing.item,i,`Conflicting shared internal item ${i.id}`);else internalMap.set(i.id,{item:i,components:[]});internalMap.get(i.id).components.push(c);}
-const briefLines=['# Internal Training Briefs','',`**Recommended Training Pathways ${publication.version} · 1 November 2026**`,'',
+const briefLines=['# Internal Training Briefs','',`**Recommended Training Pathways ${publication.version} · ${publicationDate}**`,'',
  'The AI use cases selection is Reviewed. All other internal training selections are AI recommendation - to be reviewed. Every module below remains Proposed for delivery, with an unassigned accountable owner. Suggested facilitator roles are retained as planning candidates. Hours describe learner participation, not development effort.','',
  '[Pathway guide](Recommended-Training-Pathways.md) · [Editable scenario](Recommended-Training-Pathways.json)',''];
 for(const {item:i,components} of internalMap.values()){

@@ -1,0 +1,2850 @@
+{
+  "retirements": [
+    [
+      "TR-229",
+      "Reasoning with o1",
+      "2026-11-02",
+      "o1-era model selection and prompting. Extend the existing pathway exclusion to the active catalogue; no o2 course was found.",
+      "User approved 2 November 2026",
+      "https://www.deeplearning.ai/courses/reasoning-with-o1"
+    ],
+    [
+      "TR-259",
+      "Prompt Engineering with Llama 2&3",
+      "2026-11-02",
+      "Dedicated Llama 2/3 and Code Llama training. Retire this version-specific elective under the requested programme direction.",
+      "User approved 2 November 2026",
+      "https://www.deeplearning.ai/courses/prompt-engineering-with-llama-2"
+    ],
+    [
+      "TR-234",
+      "Introducing Multimodal Llama 3.2",
+      "2026-11-02",
+      "Dedicated Llama 3.1/3.2 prompting, tokenization and stack onboarding.",
+      "User approved 2 November 2026",
+      "https://www.deeplearning.ai/courses/introducing-multimodal-llama-3-2/"
+    ],
+    [
+      "TR-214",
+      "Building with Llama 4",
+      "2026-11-02",
+      "Dedicated Llama 4 elective. Proposed removal follows the user's Llama example; provider-wide retirement is not established.",
+      "User approved 2 November 2026",
+      "https://www.deeplearning.ai/short-courses/building-with-llama-4/"
+    ],
+    [
+      "TR-268",
+      "Pair Programming with a Large Language Model",
+      "2026-11-02",
+      "Provider still advertises PaLM API access. The catalogue already labels this a legacy concepts elective; Google lists the associated older model family endpoints as retired.",
+      "User approved 2 November 2026",
+      "https://www.deeplearning.ai/short-courses/pair-programming-llm/\nhttps://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions"
+    ],
+    [
+      "TR-245",
+      "Building Your Own Database Agent",
+      "2026-11-02",
+      "Explicit Azure OpenAI Assistants API teaching depends on a retired service.",
+      "User approved 2 November 2026",
+      "https://www.deeplearning.ai/courses/building-your-own-database-agent\nhttps://learn.microsoft.com/en-us/previous-versions/azure/foundry-classic/openai/concepts/assistants"
+    ],
+    [
+      "TR-247",
+      "AI Agentic Design Patterns with AutoGen",
+      "2026-11-02",
+      "Teaches legacy AutoGen patterns; Microsoft has archived AutoGen and ended maintenance. Retire this edition from new learning recommendations.",
+      "User approved 2 November 2026",
+      "https://www.deeplearning.ai/courses/ai-agentic-design-patterns-with-autogen\nhttps://github.com/microsoft/autogen"
+    ],
+    [
+      "INT-B14",
+      "AI-900 Azure AI Fundamentals 100% Original Practice Exam",
+      "2026-11-02",
+      "Practice exam still explicitly prepares learners for retired AI-900.",
+      "User approved 2 November 2026",
+      "https://www.udemy.com/course/ai900-azure-tests/\nhttps://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"
+    ],
+    [
+      "INT-B15",
+      "AI-900: Microsoft Azure AI Fundamentals AI-900 Practice Test",
+      "2026-11-02",
+      "Practice tests still target AI-900; an AI-901 topic tag does not establish updated test content.",
+      "User approved 2 November 2026",
+      "https://www.udemy.com/course/ai-900-azure-ai-fundamentals-practice-tests-course/\nhttps://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"
+    ],
+    [
+      "INT-B16",
+      "AI-900: Microsoft Azure AI Fundamentals with practice tests",
+      "2026-11-02",
+      "Course and practice tests still target retired AI-900. Public type/duration also differ from catalogue metadata.",
+      "User approved 2 November 2026",
+      "https://www.udemy.com/course/ai-900-microsoft-certified-azure-ai-fundamentals/\nhttps://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"
+    ],
+    [
+      "INT-B17",
+      "AI-900: MS Azure AI Fundamentals – Learn & Get Certified",
+      "2026-11-02",
+      "Exam-preparation title and curriculum still target AI-900 despite a 2026 subtitle.",
+      "User approved 2 November 2026",
+      "https://www.udemy.com/course/ai-900-ms-azure-ai-fundamentals-learn-get-certified/\nhttps://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"
+    ],
+    [
+      "INT-077",
+      "A Deep Dive into LLM Red Teaming",
+      "2026-11-02",
+      "Red-team course remains organised around the 2023 OWASP LLM taxonomy and old lesson numbering.",
+      "User approved 2 November 2026",
+      "https://www.udemy.com/course/a-deep-dive-into-llm-red-teaming/\nhttps://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/"
+    ],
+    [
+      "INT-476",
+      "AI Security Bootcamp: LLM Hacking Basics",
+      "2026-11-02",
+      "November 2024 bootcamp still teaches the 2023 OWASP edition recorded in the saved assessment.",
+      "User approved 2 November 2026",
+      "https://www.udemy.com/course/ai-security-bootcamp/\nhttps://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/"
+    ],
+    [
+      "INT-1589",
+      "GenAI Cybersecurity Solutions: OWASP Top 10 for LLM Apps",
+      "2026-11-02",
+      "The saved assessment identifies the 2023 OWASP edition. Public curriculum retains its old structure despite the April 2026 update date; a taxonomy refresh is not evidenced.",
+      "User approved 2 November 2026",
+      "https://www.udemy.com/course/genai-cybersecurity-solutions-i/\nhttps://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/"
+    ],
+    [
+      "INT-2252",
+      "Mastering the OWASP Top 10 for LLM Applications",
+      "2026-11-02",
+      "Explicit old OWASP numbering and August 2024 update; current references already exist in the catalogue.",
+      "User approved 2 November 2026",
+      "https://www.udemy.com/course/mastering-the-owasp-top-10-for-llm-applications/\nhttps://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/"
+    ],
+    [
+      "INT-2537",
+      "Practical GenAI: Basics, Tools, Use cases, Ethics, Future",
+      "2026-11-02",
+      "Core tool tour still promotes ChatGPT 3.5/4, Bard and Claude 2. This is materially dated onboarding, beyond an incidental old-model example.",
+      "User approved 2 November 2026",
+      "https://www.udemy.com/course/2024-generative-ai-masterclass-beginners-to-expert/"
+    ],
+    [
+      "INT-638",
+      "Artificial Intelligence Ethics Certification",
+      "2026-11-02",
+      "2020 general ethics course has no evidenced current generative/agentic AI scope. Move out of this active programme while preserving it as historical background.",
+      "User approved 2 November 2026",
+      "https://www.udemy.com/course/aiethics/"
+    ],
+    [
+      "TR-130",
+      "Multilayer Framework for Good Cybersecurity Practices for AI",
+      "2026-11-02",
+      "June 2023 framework has proposal-era regulatory context and no LLM/agent coverage in the saved assessment. Treat as historical reading.",
+      "User approved 2 November 2026",
+      "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    ]
+  ],
+  "courses": [
+    {
+      "id": "TR-001",
+      "sheet": "Offers",
+      "row": 2
+    },
+    {
+      "id": "TR-002",
+      "sheet": "Offers",
+      "row": 3
+    },
+    {
+      "id": "TR-003",
+      "sheet": "Offers",
+      "row": 4
+    },
+    {
+      "id": "TR-004",
+      "sheet": "Offers",
+      "row": 5
+    },
+    {
+      "id": "TR-005",
+      "sheet": "Offers",
+      "row": 6
+    },
+    {
+      "id": "TR-006",
+      "sheet": "Offers",
+      "row": 7
+    },
+    {
+      "id": "TR-007",
+      "sheet": "Offers",
+      "row": 8
+    },
+    {
+      "id": "TR-008",
+      "sheet": "Offers",
+      "row": 9
+    },
+    {
+      "id": "TR-009",
+      "sheet": "Offers",
+      "row": 10
+    },
+    {
+      "id": "TR-010",
+      "sheet": "Offers",
+      "row": 11
+    },
+    {
+      "id": "TR-011",
+      "sheet": "Offers",
+      "row": 12
+    },
+    {
+      "id": "TR-012",
+      "sheet": "Offers",
+      "row": 13
+    },
+    {
+      "id": "TR-013",
+      "sheet": "Offers",
+      "row": 14
+    },
+    {
+      "id": "TR-014",
+      "sheet": "Offers",
+      "row": 15
+    },
+    {
+      "id": "TR-015",
+      "sheet": "Offers",
+      "row": 16
+    },
+    {
+      "id": "TR-016",
+      "sheet": "Offers",
+      "row": 17
+    },
+    {
+      "id": "TR-017",
+      "sheet": "Offers",
+      "row": 18
+    },
+    {
+      "id": "TR-018",
+      "sheet": "Offers",
+      "row": 19
+    },
+    {
+      "id": "TR-019",
+      "sheet": "Offers",
+      "row": 20
+    },
+    {
+      "id": "TR-020",
+      "sheet": "Offers",
+      "row": 21
+    },
+    {
+      "id": "TR-021",
+      "sheet": "Offers",
+      "row": 22
+    },
+    {
+      "id": "TR-022",
+      "sheet": "Offers",
+      "row": 23
+    },
+    {
+      "id": "TR-023",
+      "sheet": "Offers",
+      "row": 24
+    },
+    {
+      "id": "TR-024",
+      "sheet": "Offers",
+      "row": 25
+    },
+    {
+      "id": "TR-025",
+      "sheet": "Offers",
+      "row": 26
+    },
+    {
+      "id": "TR-026",
+      "sheet": "Offers",
+      "row": 27
+    },
+    {
+      "id": "TR-027",
+      "sheet": "Offers",
+      "row": 28
+    },
+    {
+      "id": "TR-028",
+      "sheet": "Offers",
+      "row": 29
+    },
+    {
+      "id": "TR-029",
+      "sheet": "Offers",
+      "row": 30
+    },
+    {
+      "id": "TR-030",
+      "sheet": "Offers",
+      "row": 31
+    },
+    {
+      "id": "TR-031",
+      "sheet": "Offers",
+      "row": 32
+    },
+    {
+      "id": "TR-032",
+      "sheet": "Offers",
+      "row": 33
+    },
+    {
+      "id": "TR-033",
+      "sheet": "Offers",
+      "row": 34
+    },
+    {
+      "id": "TR-034",
+      "sheet": "Offers",
+      "row": 35
+    },
+    {
+      "id": "TR-035",
+      "sheet": "Offers",
+      "row": 36
+    },
+    {
+      "id": "TR-036",
+      "sheet": "Offers",
+      "row": 37
+    },
+    {
+      "id": "TR-037",
+      "sheet": "Offers",
+      "row": 38
+    },
+    {
+      "id": "TR-038",
+      "sheet": "Offers",
+      "row": 39
+    },
+    {
+      "id": "TR-039",
+      "sheet": "Offers",
+      "row": 40
+    },
+    {
+      "id": "TR-040",
+      "sheet": "Offers",
+      "row": 41
+    },
+    {
+      "id": "TR-041",
+      "sheet": "Offers",
+      "row": 42
+    },
+    {
+      "id": "TR-042",
+      "sheet": "Offers",
+      "row": 43
+    },
+    {
+      "id": "TR-043",
+      "sheet": "Offers",
+      "row": 44
+    },
+    {
+      "id": "TR-044",
+      "sheet": "Offers",
+      "row": 45
+    },
+    {
+      "id": "TR-045",
+      "sheet": "Offers",
+      "row": 46
+    },
+    {
+      "id": "TR-046",
+      "sheet": "Offers",
+      "row": 47
+    },
+    {
+      "id": "TR-047",
+      "sheet": "Offers",
+      "row": 48
+    },
+    {
+      "id": "TR-048",
+      "sheet": "Offers",
+      "row": 49
+    },
+    {
+      "id": "TR-049",
+      "sheet": "Offers",
+      "row": 50
+    },
+    {
+      "id": "TR-050",
+      "sheet": "Offers",
+      "row": 51
+    },
+    {
+      "id": "TR-051",
+      "sheet": "Offers",
+      "row": 52
+    },
+    {
+      "id": "TR-052",
+      "sheet": "Offers",
+      "row": 53
+    },
+    {
+      "id": "TR-053",
+      "sheet": "Offers",
+      "row": 54
+    },
+    {
+      "id": "TR-060",
+      "sheet": "Offers",
+      "row": 55
+    },
+    {
+      "id": "TR-061",
+      "sheet": "Offers",
+      "row": 56
+    },
+    {
+      "id": "TR-062",
+      "sheet": "Offers",
+      "row": 57
+    },
+    {
+      "id": "TR-063",
+      "sheet": "Offers",
+      "row": 58
+    },
+    {
+      "id": "TR-064",
+      "sheet": "Offers",
+      "row": 59
+    },
+    {
+      "id": "TR-070",
+      "sheet": "Offers",
+      "row": 60
+    },
+    {
+      "id": "TR-071",
+      "sheet": "Offers",
+      "row": 61
+    },
+    {
+      "id": "TR-072",
+      "sheet": "Offers",
+      "row": 62
+    },
+    {
+      "id": "TR-077",
+      "sheet": "Offers",
+      "row": 63
+    },
+    {
+      "id": "TR-078",
+      "sheet": "Offers",
+      "row": 64
+    },
+    {
+      "id": "TR-088",
+      "sheet": "Offers",
+      "row": 65
+    },
+    {
+      "id": "TR-089",
+      "sheet": "Offers",
+      "row": 66
+    },
+    {
+      "id": "TR-090",
+      "sheet": "Offers",
+      "row": 67
+    },
+    {
+      "id": "TR-093",
+      "sheet": "Offers",
+      "row": 68
+    },
+    {
+      "id": "TR-094",
+      "sheet": "Offers",
+      "row": 69
+    },
+    {
+      "id": "TR-095",
+      "sheet": "Offers",
+      "row": 70
+    },
+    {
+      "id": "TR-097",
+      "sheet": "Offers",
+      "row": 71
+    },
+    {
+      "id": "TR-098",
+      "sheet": "Offers",
+      "row": 72
+    },
+    {
+      "id": "TR-099",
+      "sheet": "Offers",
+      "row": 73
+    },
+    {
+      "id": "TR-100",
+      "sheet": "Offers",
+      "row": 74
+    },
+    {
+      "id": "TR-101",
+      "sheet": "Offers",
+      "row": 75
+    },
+    {
+      "id": "TR-102",
+      "sheet": "Offers",
+      "row": 76
+    },
+    {
+      "id": "TR-103",
+      "sheet": "Offers",
+      "row": 77
+    },
+    {
+      "id": "TR-104",
+      "sheet": "Offers",
+      "row": 78
+    },
+    {
+      "id": "TR-105",
+      "sheet": "Offers",
+      "row": 79
+    },
+    {
+      "id": "TR-106",
+      "sheet": "Offers",
+      "row": 80
+    },
+    {
+      "id": "TR-107",
+      "sheet": "Offers",
+      "row": 81
+    },
+    {
+      "id": "TR-108",
+      "sheet": "Offers",
+      "row": 82
+    },
+    {
+      "id": "TR-109",
+      "sheet": "Offers",
+      "row": 83
+    },
+    {
+      "id": "TR-110",
+      "sheet": "Offers",
+      "row": 84
+    },
+    {
+      "id": "TR-111",
+      "sheet": "Offers",
+      "row": 85
+    },
+    {
+      "id": "TR-112",
+      "sheet": "Offers",
+      "row": 86
+    },
+    {
+      "id": "TR-113",
+      "sheet": "Offers",
+      "row": 87
+    },
+    {
+      "id": "TR-114",
+      "sheet": "Offers",
+      "row": 88
+    },
+    {
+      "id": "TR-115",
+      "sheet": "Offers",
+      "row": 89
+    },
+    {
+      "id": "TR-116",
+      "sheet": "Offers",
+      "row": 90
+    },
+    {
+      "id": "TR-117",
+      "sheet": "Offers",
+      "row": 91
+    },
+    {
+      "id": "TR-118",
+      "sheet": "Offers",
+      "row": 92
+    },
+    {
+      "id": "TR-119",
+      "sheet": "Offers",
+      "row": 93
+    },
+    {
+      "id": "TR-120",
+      "sheet": "Offers",
+      "row": 94
+    },
+    {
+      "id": "TR-121",
+      "sheet": "Offers",
+      "row": 95
+    },
+    {
+      "id": "TR-122",
+      "sheet": "Offers",
+      "row": 96
+    },
+    {
+      "id": "TR-123",
+      "sheet": "Offers",
+      "row": 97
+    },
+    {
+      "id": "TR-124",
+      "sheet": "Offers",
+      "row": 98
+    },
+    {
+      "id": "TR-125",
+      "sheet": "Offers",
+      "row": 99
+    },
+    {
+      "id": "TR-126",
+      "sheet": "Offers",
+      "row": 100
+    },
+    {
+      "id": "TR-128",
+      "sheet": "Offers",
+      "row": 101
+    },
+    {
+      "id": "TR-129",
+      "sheet": "Offers",
+      "row": 102
+    },
+    {
+      "id": "TR-130",
+      "sheet": "Offers",
+      "row": 103
+    },
+    {
+      "id": "TR-131",
+      "sheet": "Offers",
+      "row": 104
+    },
+    {
+      "id": "TR-132",
+      "sheet": "Offers",
+      "row": 105
+    },
+    {
+      "id": "TR-133",
+      "sheet": "Offers",
+      "row": 106
+    },
+    {
+      "id": "TR-134",
+      "sheet": "Offers",
+      "row": 107
+    },
+    {
+      "id": "TR-135",
+      "sheet": "Offers",
+      "row": 108
+    },
+    {
+      "id": "TR-136",
+      "sheet": "Offers",
+      "row": 109
+    },
+    {
+      "id": "TR-137",
+      "sheet": "Offers",
+      "row": 110
+    },
+    {
+      "id": "TR-138",
+      "sheet": "Offers",
+      "row": 111
+    },
+    {
+      "id": "TR-139",
+      "sheet": "Offers",
+      "row": 112
+    },
+    {
+      "id": "TR-140",
+      "sheet": "Offers",
+      "row": 113
+    },
+    {
+      "id": "TR-141",
+      "sheet": "Offers",
+      "row": 114
+    },
+    {
+      "id": "TR-142",
+      "sheet": "Offers",
+      "row": 115
+    },
+    {
+      "id": "TR-143",
+      "sheet": "Offers",
+      "row": 116
+    },
+    {
+      "id": "TR-144",
+      "sheet": "Offers",
+      "row": 117
+    },
+    {
+      "id": "TR-145",
+      "sheet": "Offers",
+      "row": 118
+    },
+    {
+      "id": "TR-146",
+      "sheet": "Offers",
+      "row": 119
+    },
+    {
+      "id": "TR-154",
+      "sheet": "Offers",
+      "row": 120
+    },
+    {
+      "id": "TR-155",
+      "sheet": "Offers",
+      "row": 121
+    },
+    {
+      "id": "TR-156",
+      "sheet": "Offers",
+      "row": 122
+    },
+    {
+      "id": "TR-157",
+      "sheet": "Offers",
+      "row": 123
+    },
+    {
+      "id": "TR-158",
+      "sheet": "Offers",
+      "row": 124
+    },
+    {
+      "id": "TR-159",
+      "sheet": "Offers",
+      "row": 125
+    },
+    {
+      "id": "TR-160",
+      "sheet": "Offers",
+      "row": 126
+    },
+    {
+      "id": "TR-161",
+      "sheet": "Offers",
+      "row": 127
+    },
+    {
+      "id": "TR-162",
+      "sheet": "Offers",
+      "row": 128
+    },
+    {
+      "id": "TR-163",
+      "sheet": "Offers",
+      "row": 129
+    },
+    {
+      "id": "TR-164",
+      "sheet": "Offers",
+      "row": 130
+    },
+    {
+      "id": "TR-165",
+      "sheet": "Offers",
+      "row": 131
+    },
+    {
+      "id": "TR-166",
+      "sheet": "Offers",
+      "row": 132
+    },
+    {
+      "id": "TR-167",
+      "sheet": "Offers",
+      "row": 133
+    },
+    {
+      "id": "TR-168",
+      "sheet": "Offers",
+      "row": 134
+    },
+    {
+      "id": "INT-063",
+      "sheet": "Offers",
+      "row": 135
+    },
+    {
+      "id": "INT-077",
+      "sheet": "Offers",
+      "row": 136
+    },
+    {
+      "id": "INT-151",
+      "sheet": "Offers",
+      "row": 137
+    },
+    {
+      "id": "INT-154",
+      "sheet": "Offers",
+      "row": 138
+    },
+    {
+      "id": "INT-186",
+      "sheet": "Offers",
+      "row": 139
+    },
+    {
+      "id": "INT-193",
+      "sheet": "Offers",
+      "row": 140
+    },
+    {
+      "id": "INT-194",
+      "sheet": "Offers",
+      "row": 141
+    },
+    {
+      "id": "INT-200",
+      "sheet": "Offers",
+      "row": 142
+    },
+    {
+      "id": "INT-222",
+      "sheet": "Offers",
+      "row": 143
+    },
+    {
+      "id": "INT-258",
+      "sheet": "Offers",
+      "row": 144
+    },
+    {
+      "id": "INT-271",
+      "sheet": "Offers",
+      "row": 145
+    },
+    {
+      "id": "INT-272",
+      "sheet": "Offers",
+      "row": 146
+    },
+    {
+      "id": "INT-273",
+      "sheet": "Offers",
+      "row": 147
+    },
+    {
+      "id": "INT-274",
+      "sheet": "Offers",
+      "row": 148
+    },
+    {
+      "id": "INT-275",
+      "sheet": "Offers",
+      "row": 149
+    },
+    {
+      "id": "INT-276",
+      "sheet": "Offers",
+      "row": 150
+    },
+    {
+      "id": "INT-277",
+      "sheet": "Offers",
+      "row": 151
+    },
+    {
+      "id": "INT-278",
+      "sheet": "Offers",
+      "row": 152
+    },
+    {
+      "id": "INT-279",
+      "sheet": "Offers",
+      "row": 153
+    },
+    {
+      "id": "INT-280",
+      "sheet": "Offers",
+      "row": 154
+    },
+    {
+      "id": "INT-309",
+      "sheet": "Offers",
+      "row": 155
+    },
+    {
+      "id": "INT-320",
+      "sheet": "Offers",
+      "row": 156
+    },
+    {
+      "id": "INT-334",
+      "sheet": "Offers",
+      "row": 157
+    },
+    {
+      "id": "INT-340",
+      "sheet": "Offers",
+      "row": 158
+    },
+    {
+      "id": "INT-341",
+      "sheet": "Offers",
+      "row": 159
+    },
+    {
+      "id": "INT-342",
+      "sheet": "Offers",
+      "row": 160
+    },
+    {
+      "id": "INT-343",
+      "sheet": "Offers",
+      "row": 161
+    },
+    {
+      "id": "INT-345",
+      "sheet": "Offers",
+      "row": 162
+    },
+    {
+      "id": "INT-378",
+      "sheet": "Offers",
+      "row": 163
+    },
+    {
+      "id": "INT-386",
+      "sheet": "Offers",
+      "row": 164
+    },
+    {
+      "id": "INT-387",
+      "sheet": "Offers",
+      "row": 165
+    },
+    {
+      "id": "INT-388",
+      "sheet": "Offers",
+      "row": 166
+    },
+    {
+      "id": "INT-389",
+      "sheet": "Offers",
+      "row": 167
+    },
+    {
+      "id": "INT-393",
+      "sheet": "Offers",
+      "row": 168
+    },
+    {
+      "id": "INT-394",
+      "sheet": "Offers",
+      "row": 169
+    },
+    {
+      "id": "INT-395",
+      "sheet": "Offers",
+      "row": 170
+    },
+    {
+      "id": "INT-396",
+      "sheet": "Offers",
+      "row": 171
+    },
+    {
+      "id": "INT-397",
+      "sheet": "Offers",
+      "row": 172
+    },
+    {
+      "id": "INT-398",
+      "sheet": "Offers",
+      "row": 173
+    },
+    {
+      "id": "INT-399",
+      "sheet": "Offers",
+      "row": 174
+    },
+    {
+      "id": "INT-400",
+      "sheet": "Offers",
+      "row": 175
+    },
+    {
+      "id": "INT-401",
+      "sheet": "Offers",
+      "row": 176
+    },
+    {
+      "id": "INT-402",
+      "sheet": "Offers",
+      "row": 177
+    },
+    {
+      "id": "INT-424",
+      "sheet": "Offers",
+      "row": 178
+    },
+    {
+      "id": "INT-426",
+      "sheet": "Offers",
+      "row": 179
+    },
+    {
+      "id": "INT-427",
+      "sheet": "Offers",
+      "row": 180
+    },
+    {
+      "id": "INT-428",
+      "sheet": "Offers",
+      "row": 181
+    },
+    {
+      "id": "INT-429",
+      "sheet": "Offers",
+      "row": 182
+    },
+    {
+      "id": "INT-430",
+      "sheet": "Offers",
+      "row": 183
+    },
+    {
+      "id": "INT-431",
+      "sheet": "Offers",
+      "row": 184
+    },
+    {
+      "id": "INT-432",
+      "sheet": "Offers",
+      "row": 185
+    },
+    {
+      "id": "INT-433",
+      "sheet": "Offers",
+      "row": 186
+    },
+    {
+      "id": "INT-435",
+      "sheet": "Offers",
+      "row": 187
+    },
+    {
+      "id": "INT-436",
+      "sheet": "Offers",
+      "row": 188
+    },
+    {
+      "id": "INT-437",
+      "sheet": "Offers",
+      "row": 189
+    },
+    {
+      "id": "INT-449",
+      "sheet": "Offers",
+      "row": 190
+    },
+    {
+      "id": "INT-450",
+      "sheet": "Offers",
+      "row": 191
+    },
+    {
+      "id": "INT-451",
+      "sheet": "Offers",
+      "row": 192
+    },
+    {
+      "id": "INT-452",
+      "sheet": "Offers",
+      "row": 193
+    },
+    {
+      "id": "INT-468",
+      "sheet": "Offers",
+      "row": 194
+    },
+    {
+      "id": "INT-470",
+      "sheet": "Offers",
+      "row": 195
+    },
+    {
+      "id": "INT-471",
+      "sheet": "Offers",
+      "row": 196
+    },
+    {
+      "id": "INT-472",
+      "sheet": "Offers",
+      "row": 197
+    },
+    {
+      "id": "INT-473",
+      "sheet": "Offers",
+      "row": 198
+    },
+    {
+      "id": "INT-474",
+      "sheet": "Offers",
+      "row": 199
+    },
+    {
+      "id": "INT-475",
+      "sheet": "Offers",
+      "row": 200
+    },
+    {
+      "id": "INT-476",
+      "sheet": "Offers",
+      "row": 201
+    },
+    {
+      "id": "INT-477",
+      "sheet": "Offers",
+      "row": 202
+    },
+    {
+      "id": "INT-478",
+      "sheet": "Offers",
+      "row": 203
+    },
+    {
+      "id": "INT-479",
+      "sheet": "Offers",
+      "row": 204
+    },
+    {
+      "id": "INT-480",
+      "sheet": "Offers",
+      "row": 205
+    },
+    {
+      "id": "INT-481",
+      "sheet": "Offers",
+      "row": 206
+    },
+    {
+      "id": "INT-482",
+      "sheet": "Offers",
+      "row": 207
+    },
+    {
+      "id": "INT-488",
+      "sheet": "Offers",
+      "row": 208
+    },
+    {
+      "id": "INT-589",
+      "sheet": "Offers",
+      "row": 209
+    },
+    {
+      "id": "INT-638",
+      "sheet": "Offers",
+      "row": 210
+    },
+    {
+      "id": "INT-646",
+      "sheet": "Offers",
+      "row": 211
+    },
+    {
+      "id": "INT-647",
+      "sheet": "Offers",
+      "row": 212
+    },
+    {
+      "id": "INT-655",
+      "sheet": "Offers",
+      "row": 213
+    },
+    {
+      "id": "INT-865",
+      "sheet": "Offers",
+      "row": 214
+    },
+    {
+      "id": "INT-873",
+      "sheet": "Offers",
+      "row": 215
+    },
+    {
+      "id": "INT-874",
+      "sheet": "Offers",
+      "row": 216
+    },
+    {
+      "id": "INT-875",
+      "sheet": "Offers",
+      "row": 217
+    },
+    {
+      "id": "INT-876",
+      "sheet": "Offers",
+      "row": 218
+    },
+    {
+      "id": "INT-878",
+      "sheet": "Offers",
+      "row": 219
+    },
+    {
+      "id": "INT-1096",
+      "sheet": "Offers",
+      "row": 220
+    },
+    {
+      "id": "INT-1099",
+      "sheet": "Offers",
+      "row": 221
+    },
+    {
+      "id": "INT-1199",
+      "sheet": "Offers",
+      "row": 222
+    },
+    {
+      "id": "INT-1251",
+      "sheet": "Offers",
+      "row": 223
+    },
+    {
+      "id": "INT-1280",
+      "sheet": "Offers",
+      "row": 224
+    },
+    {
+      "id": "INT-1313",
+      "sheet": "Offers",
+      "row": 225
+    },
+    {
+      "id": "INT-1315",
+      "sheet": "Offers",
+      "row": 226
+    },
+    {
+      "id": "INT-1316",
+      "sheet": "Offers",
+      "row": 227
+    },
+    {
+      "id": "INT-1406",
+      "sheet": "Offers",
+      "row": 228
+    },
+    {
+      "id": "INT-1460",
+      "sheet": "Offers",
+      "row": 229
+    },
+    {
+      "id": "INT-1466",
+      "sheet": "Offers",
+      "row": 230
+    },
+    {
+      "id": "INT-1468",
+      "sheet": "Offers",
+      "row": 231
+    },
+    {
+      "id": "INT-1469",
+      "sheet": "Offers",
+      "row": 232
+    },
+    {
+      "id": "INT-1470",
+      "sheet": "Offers",
+      "row": 233
+    },
+    {
+      "id": "INT-1473",
+      "sheet": "Offers",
+      "row": 234
+    },
+    {
+      "id": "INT-1529",
+      "sheet": "Offers",
+      "row": 235
+    },
+    {
+      "id": "INT-1579",
+      "sheet": "Offers",
+      "row": 236
+    },
+    {
+      "id": "INT-1589",
+      "sheet": "Offers",
+      "row": 237
+    },
+    {
+      "id": "INT-1600",
+      "sheet": "Offers",
+      "row": 238
+    },
+    {
+      "id": "INT-1601",
+      "sheet": "Offers",
+      "row": 239
+    },
+    {
+      "id": "INT-1607",
+      "sheet": "Offers",
+      "row": 240
+    },
+    {
+      "id": "INT-1656",
+      "sheet": "Offers",
+      "row": 241
+    },
+    {
+      "id": "INT-1657",
+      "sheet": "Offers",
+      "row": 242
+    },
+    {
+      "id": "INT-1658",
+      "sheet": "Offers",
+      "row": 243
+    },
+    {
+      "id": "INT-1659",
+      "sheet": "Offers",
+      "row": 244
+    },
+    {
+      "id": "INT-1660",
+      "sheet": "Offers",
+      "row": 245
+    },
+    {
+      "id": "INT-1662",
+      "sheet": "Offers",
+      "row": 246
+    },
+    {
+      "id": "INT-1663",
+      "sheet": "Offers",
+      "row": 247
+    },
+    {
+      "id": "INT-1664",
+      "sheet": "Offers",
+      "row": 248
+    },
+    {
+      "id": "INT-1665",
+      "sheet": "Offers",
+      "row": 249
+    },
+    {
+      "id": "INT-1666",
+      "sheet": "Offers",
+      "row": 250
+    },
+    {
+      "id": "INT-1667",
+      "sheet": "Offers",
+      "row": 251
+    },
+    {
+      "id": "INT-1700",
+      "sheet": "Offers",
+      "row": 252
+    },
+    {
+      "id": "INT-1747",
+      "sheet": "Offers",
+      "row": 253
+    },
+    {
+      "id": "INT-1788",
+      "sheet": "Offers",
+      "row": 254
+    },
+    {
+      "id": "INT-1797",
+      "sheet": "Offers",
+      "row": 255
+    },
+    {
+      "id": "INT-1798",
+      "sheet": "Offers",
+      "row": 256
+    },
+    {
+      "id": "INT-1805",
+      "sheet": "Offers",
+      "row": 257
+    },
+    {
+      "id": "INT-1830",
+      "sheet": "Offers",
+      "row": 258
+    },
+    {
+      "id": "INT-1831",
+      "sheet": "Offers",
+      "row": 259
+    },
+    {
+      "id": "INT-1832",
+      "sheet": "Offers",
+      "row": 260
+    },
+    {
+      "id": "INT-1833",
+      "sheet": "Offers",
+      "row": 261
+    },
+    {
+      "id": "INT-1834",
+      "sheet": "Offers",
+      "row": 262
+    },
+    {
+      "id": "INT-1835",
+      "sheet": "Offers",
+      "row": 263
+    },
+    {
+      "id": "INT-1837",
+      "sheet": "Offers",
+      "row": 264
+    },
+    {
+      "id": "INT-1839",
+      "sheet": "Offers",
+      "row": 265
+    },
+    {
+      "id": "INT-1840",
+      "sheet": "Offers",
+      "row": 266
+    },
+    {
+      "id": "INT-1873",
+      "sheet": "Offers",
+      "row": 267
+    },
+    {
+      "id": "INT-1903",
+      "sheet": "Offers",
+      "row": 268
+    },
+    {
+      "id": "INT-1923",
+      "sheet": "Offers",
+      "row": 269
+    },
+    {
+      "id": "INT-1924",
+      "sheet": "Offers",
+      "row": 270
+    },
+    {
+      "id": "INT-1926",
+      "sheet": "Offers",
+      "row": 271
+    },
+    {
+      "id": "INT-1940",
+      "sheet": "Offers",
+      "row": 272
+    },
+    {
+      "id": "INT-2041",
+      "sheet": "Offers",
+      "row": 273
+    },
+    {
+      "id": "INT-2042",
+      "sheet": "Offers",
+      "row": 274
+    },
+    {
+      "id": "INT-2051",
+      "sheet": "Offers",
+      "row": 275
+    },
+    {
+      "id": "INT-2080",
+      "sheet": "Offers",
+      "row": 276
+    },
+    {
+      "id": "INT-2132",
+      "sheet": "Offers",
+      "row": 277
+    },
+    {
+      "id": "INT-2158",
+      "sheet": "Offers",
+      "row": 278
+    },
+    {
+      "id": "INT-2252",
+      "sheet": "Offers",
+      "row": 279
+    },
+    {
+      "id": "INT-2269",
+      "sheet": "Offers",
+      "row": 280
+    },
+    {
+      "id": "INT-2354",
+      "sheet": "Offers",
+      "row": 281
+    },
+    {
+      "id": "INT-2356",
+      "sheet": "Offers",
+      "row": 282
+    },
+    {
+      "id": "INT-2427",
+      "sheet": "Offers",
+      "row": 283
+    },
+    {
+      "id": "INT-2477",
+      "sheet": "Offers",
+      "row": 284
+    },
+    {
+      "id": "INT-2478",
+      "sheet": "Offers",
+      "row": 285
+    },
+    {
+      "id": "INT-2480",
+      "sheet": "Offers",
+      "row": 286
+    },
+    {
+      "id": "INT-2483",
+      "sheet": "Offers",
+      "row": 287
+    },
+    {
+      "id": "INT-2537",
+      "sheet": "Offers",
+      "row": 288
+    },
+    {
+      "id": "INT-2709",
+      "sheet": "Offers",
+      "row": 289
+    },
+    {
+      "id": "INT-2710",
+      "sheet": "Offers",
+      "row": 290
+    },
+    {
+      "id": "INT-2711",
+      "sheet": "Offers",
+      "row": 291
+    },
+    {
+      "id": "INT-2712",
+      "sheet": "Offers",
+      "row": 292
+    },
+    {
+      "id": "INT-2713",
+      "sheet": "Offers",
+      "row": 293
+    },
+    {
+      "id": "INT-2714",
+      "sheet": "Offers",
+      "row": 294
+    },
+    {
+      "id": "INT-2715",
+      "sheet": "Offers",
+      "row": 295
+    },
+    {
+      "id": "INT-2716",
+      "sheet": "Offers",
+      "row": 296
+    },
+    {
+      "id": "INT-2752",
+      "sheet": "Offers",
+      "row": 297
+    },
+    {
+      "id": "INT-2754",
+      "sheet": "Offers",
+      "row": 298
+    },
+    {
+      "id": "INT-2755",
+      "sheet": "Offers",
+      "row": 299
+    },
+    {
+      "id": "INT-2756",
+      "sheet": "Offers",
+      "row": 300
+    },
+    {
+      "id": "INT-2787",
+      "sheet": "Offers",
+      "row": 301
+    },
+    {
+      "id": "INT-2828",
+      "sheet": "Offers",
+      "row": 302
+    },
+    {
+      "id": "INT-2858",
+      "sheet": "Offers",
+      "row": 303
+    },
+    {
+      "id": "INT-2859",
+      "sheet": "Offers",
+      "row": 304
+    },
+    {
+      "id": "INT-2937",
+      "sheet": "Offers",
+      "row": 305
+    },
+    {
+      "id": "INT-2938",
+      "sheet": "Offers",
+      "row": 306
+    },
+    {
+      "id": "INT-2982",
+      "sheet": "Offers",
+      "row": 307
+    },
+    {
+      "id": "INT-3007",
+      "sheet": "Offers",
+      "row": 308
+    },
+    {
+      "id": "TR-176",
+      "sheet": "Offers",
+      "row": 309
+    },
+    {
+      "id": "TR-177",
+      "sheet": "Offers",
+      "row": 310
+    },
+    {
+      "id": "TR-178",
+      "sheet": "Offers",
+      "row": 311
+    },
+    {
+      "id": "TR-179",
+      "sheet": "Offers",
+      "row": 312
+    },
+    {
+      "id": "TR-180",
+      "sheet": "Offers",
+      "row": 313
+    },
+    {
+      "id": "TR-181",
+      "sheet": "Offers",
+      "row": 314
+    },
+    {
+      "id": "TR-182",
+      "sheet": "Offers",
+      "row": 315
+    },
+    {
+      "id": "TR-183",
+      "sheet": "Offers",
+      "row": 316
+    },
+    {
+      "id": "TR-184",
+      "sheet": "Offers",
+      "row": 317
+    },
+    {
+      "id": "TR-185",
+      "sheet": "Offers",
+      "row": 318
+    },
+    {
+      "id": "TR-186",
+      "sheet": "Offers",
+      "row": 319
+    },
+    {
+      "id": "TR-187",
+      "sheet": "Offers",
+      "row": 320
+    },
+    {
+      "id": "TR-188",
+      "sheet": "Offers",
+      "row": 321
+    },
+    {
+      "id": "TR-189",
+      "sheet": "Offers",
+      "row": 322
+    },
+    {
+      "id": "TR-190",
+      "sheet": "Offers",
+      "row": 323
+    },
+    {
+      "id": "TR-191",
+      "sheet": "Offers",
+      "row": 324
+    },
+    {
+      "id": "TR-192",
+      "sheet": "Offers",
+      "row": 325
+    },
+    {
+      "id": "TR-193",
+      "sheet": "Offers",
+      "row": 326
+    },
+    {
+      "id": "TR-194",
+      "sheet": "Offers",
+      "row": 327
+    },
+    {
+      "id": "TR-195",
+      "sheet": "Offers",
+      "row": 328
+    },
+    {
+      "id": "TR-196",
+      "sheet": "Offers",
+      "row": 329
+    },
+    {
+      "id": "TR-197",
+      "sheet": "Offers",
+      "row": 330
+    },
+    {
+      "id": "TR-198",
+      "sheet": "Offers",
+      "row": 331
+    },
+    {
+      "id": "TR-199",
+      "sheet": "Offers",
+      "row": 332
+    },
+    {
+      "id": "TR-200",
+      "sheet": "Offers",
+      "row": 333
+    },
+    {
+      "id": "TR-201",
+      "sheet": "Offers",
+      "row": 334
+    },
+    {
+      "id": "TR-202",
+      "sheet": "Offers",
+      "row": 335
+    },
+    {
+      "id": "TR-203",
+      "sheet": "Offers",
+      "row": 336
+    },
+    {
+      "id": "TR-204",
+      "sheet": "Offers",
+      "row": 337
+    },
+    {
+      "id": "TR-205",
+      "sheet": "Offers",
+      "row": 338
+    },
+    {
+      "id": "TR-206",
+      "sheet": "Offers",
+      "row": 339
+    },
+    {
+      "id": "TR-207",
+      "sheet": "Offers",
+      "row": 340
+    },
+    {
+      "id": "TR-208",
+      "sheet": "Offers",
+      "row": 341
+    },
+    {
+      "id": "TR-209",
+      "sheet": "Offers",
+      "row": 342
+    },
+    {
+      "id": "TR-210",
+      "sheet": "Offers",
+      "row": 343
+    },
+    {
+      "id": "TR-211",
+      "sheet": "Offers",
+      "row": 344
+    },
+    {
+      "id": "TR-212",
+      "sheet": "Offers",
+      "row": 345
+    },
+    {
+      "id": "TR-213",
+      "sheet": "Offers",
+      "row": 346
+    },
+    {
+      "id": "TR-214",
+      "sheet": "Offers",
+      "row": 347
+    },
+    {
+      "id": "TR-215",
+      "sheet": "Offers",
+      "row": 348
+    },
+    {
+      "id": "TR-216",
+      "sheet": "Offers",
+      "row": 349
+    },
+    {
+      "id": "TR-217",
+      "sheet": "Offers",
+      "row": 350
+    },
+    {
+      "id": "TR-218",
+      "sheet": "Offers",
+      "row": 351
+    },
+    {
+      "id": "TR-219",
+      "sheet": "Offers",
+      "row": 352
+    },
+    {
+      "id": "TR-220",
+      "sheet": "Offers",
+      "row": 353
+    },
+    {
+      "id": "TR-221",
+      "sheet": "Offers",
+      "row": 354
+    },
+    {
+      "id": "TR-222",
+      "sheet": "Offers",
+      "row": 355
+    },
+    {
+      "id": "TR-223",
+      "sheet": "Offers",
+      "row": 356
+    },
+    {
+      "id": "TR-224",
+      "sheet": "Offers",
+      "row": 357
+    },
+    {
+      "id": "TR-225",
+      "sheet": "Offers",
+      "row": 358
+    },
+    {
+      "id": "TR-226",
+      "sheet": "Offers",
+      "row": 359
+    },
+    {
+      "id": "TR-227",
+      "sheet": "Offers",
+      "row": 360
+    },
+    {
+      "id": "TR-228",
+      "sheet": "Offers",
+      "row": 361
+    },
+    {
+      "id": "TR-229",
+      "sheet": "Offers",
+      "row": 362
+    },
+    {
+      "id": "TR-230",
+      "sheet": "Offers",
+      "row": 363
+    },
+    {
+      "id": "TR-231",
+      "sheet": "Offers",
+      "row": 364
+    },
+    {
+      "id": "TR-232",
+      "sheet": "Offers",
+      "row": 365
+    },
+    {
+      "id": "TR-233",
+      "sheet": "Offers",
+      "row": 366
+    },
+    {
+      "id": "TR-234",
+      "sheet": "Offers",
+      "row": 367
+    },
+    {
+      "id": "TR-235",
+      "sheet": "Offers",
+      "row": 368
+    },
+    {
+      "id": "TR-236",
+      "sheet": "Offers",
+      "row": 369
+    },
+    {
+      "id": "TR-237",
+      "sheet": "Offers",
+      "row": 370
+    },
+    {
+      "id": "TR-238",
+      "sheet": "Offers",
+      "row": 371
+    },
+    {
+      "id": "TR-239",
+      "sheet": "Offers",
+      "row": 372
+    },
+    {
+      "id": "TR-240",
+      "sheet": "Offers",
+      "row": 373
+    },
+    {
+      "id": "TR-241",
+      "sheet": "Offers",
+      "row": 374
+    },
+    {
+      "id": "TR-242",
+      "sheet": "Offers",
+      "row": 375
+    },
+    {
+      "id": "TR-243",
+      "sheet": "Offers",
+      "row": 376
+    },
+    {
+      "id": "TR-244",
+      "sheet": "Offers",
+      "row": 377
+    },
+    {
+      "id": "TR-245",
+      "sheet": "Offers",
+      "row": 378
+    },
+    {
+      "id": "TR-246",
+      "sheet": "Offers",
+      "row": 379
+    },
+    {
+      "id": "TR-247",
+      "sheet": "Offers",
+      "row": 380
+    },
+    {
+      "id": "TR-248",
+      "sheet": "Offers",
+      "row": 381
+    },
+    {
+      "id": "TR-249",
+      "sheet": "Offers",
+      "row": 382
+    },
+    {
+      "id": "TR-250",
+      "sheet": "Offers",
+      "row": 383
+    },
+    {
+      "id": "TR-251",
+      "sheet": "Offers",
+      "row": 384
+    },
+    {
+      "id": "TR-252",
+      "sheet": "Offers",
+      "row": 385
+    },
+    {
+      "id": "TR-253",
+      "sheet": "Offers",
+      "row": 386
+    },
+    {
+      "id": "TR-254",
+      "sheet": "Offers",
+      "row": 387
+    },
+    {
+      "id": "TR-255",
+      "sheet": "Offers",
+      "row": 388
+    },
+    {
+      "id": "TR-256",
+      "sheet": "Offers",
+      "row": 389
+    },
+    {
+      "id": "TR-257",
+      "sheet": "Offers",
+      "row": 390
+    },
+    {
+      "id": "TR-258",
+      "sheet": "Offers",
+      "row": 391
+    },
+    {
+      "id": "TR-259",
+      "sheet": "Offers",
+      "row": 392
+    },
+    {
+      "id": "TR-260",
+      "sheet": "Offers",
+      "row": 393
+    },
+    {
+      "id": "TR-261",
+      "sheet": "Offers",
+      "row": 394
+    },
+    {
+      "id": "TR-262",
+      "sheet": "Offers",
+      "row": 395
+    },
+    {
+      "id": "TR-263",
+      "sheet": "Offers",
+      "row": 396
+    },
+    {
+      "id": "TR-264",
+      "sheet": "Offers",
+      "row": 397
+    },
+    {
+      "id": "TR-265",
+      "sheet": "Offers",
+      "row": 398
+    },
+    {
+      "id": "TR-266",
+      "sheet": "Offers",
+      "row": 399
+    },
+    {
+      "id": "TR-267",
+      "sheet": "Offers",
+      "row": 400
+    },
+    {
+      "id": "TR-268",
+      "sheet": "Offers",
+      "row": 401
+    },
+    {
+      "id": "TR-269",
+      "sheet": "Offers",
+      "row": 402
+    },
+    {
+      "id": "TR-270",
+      "sheet": "Offers",
+      "row": 403
+    },
+    {
+      "id": "TR-271",
+      "sheet": "Offers",
+      "row": 404
+    },
+    {
+      "id": "TR-272",
+      "sheet": "Offers",
+      "row": 405
+    },
+    {
+      "id": "TR-273",
+      "sheet": "Offers",
+      "row": 406
+    },
+    {
+      "id": "TR-274",
+      "sheet": "Offers",
+      "row": 407
+    },
+    {
+      "id": "TR-275",
+      "sheet": "Offers",
+      "row": 408
+    },
+    {
+      "id": "TR-276",
+      "sheet": "Offers",
+      "row": 409
+    },
+    {
+      "id": "TR-277",
+      "sheet": "Offers",
+      "row": 410
+    },
+    {
+      "id": "TR-278",
+      "sheet": "Offers",
+      "row": 411
+    },
+    {
+      "id": "TR-279",
+      "sheet": "Offers",
+      "row": 412
+    },
+    {
+      "id": "TR-280",
+      "sheet": "Offers",
+      "row": 413
+    },
+    {
+      "id": "TR-281",
+      "sheet": "Offers",
+      "row": 414
+    },
+    {
+      "id": "TR-282",
+      "sheet": "Offers",
+      "row": 415
+    },
+    {
+      "id": "TR-283",
+      "sheet": "Offers",
+      "row": 416
+    },
+    {
+      "id": "TR-284",
+      "sheet": "Offers",
+      "row": 417
+    },
+    {
+      "id": "TR-285",
+      "sheet": "Offers",
+      "row": 418
+    },
+    {
+      "id": "TR-151",
+      "sheet": "Tool track",
+      "row": 2
+    },
+    {
+      "id": "TR-152",
+      "sheet": "Tool track",
+      "row": 3
+    },
+    {
+      "id": "TR-153",
+      "sheet": "Tool track",
+      "row": 4
+    },
+    {
+      "id": "INT-B36",
+      "sheet": "Tool track",
+      "row": 5
+    },
+    {
+      "id": "INT-B37",
+      "sheet": "Tool track",
+      "row": 6
+    },
+    {
+      "id": "TR-091",
+      "sheet": "Tool track",
+      "row": 7
+    },
+    {
+      "id": "TR-092",
+      "sheet": "Tool track",
+      "row": 8
+    },
+    {
+      "id": "TR-150",
+      "sheet": "Tool track",
+      "row": 9
+    },
+    {
+      "id": "TR-147",
+      "sheet": "Tool track",
+      "row": 10
+    },
+    {
+      "id": "TR-148",
+      "sheet": "Tool track",
+      "row": 11
+    },
+    {
+      "id": "TR-169",
+      "sheet": "Tool track",
+      "row": 12
+    },
+    {
+      "id": "TR-173",
+      "sheet": "Tool track",
+      "row": 13
+    },
+    {
+      "id": "INT-B02",
+      "sheet": "Tool track",
+      "row": 14
+    },
+    {
+      "id": "INT-B03",
+      "sheet": "Tool track",
+      "row": 15
+    },
+    {
+      "id": "INT-B04",
+      "sheet": "Tool track",
+      "row": 16
+    },
+    {
+      "id": "INT-B05",
+      "sheet": "Tool track",
+      "row": 17
+    },
+    {
+      "id": "INT-B06",
+      "sheet": "Tool track",
+      "row": 18
+    },
+    {
+      "id": "INT-B07",
+      "sheet": "Tool track",
+      "row": 19
+    },
+    {
+      "id": "INT-B08",
+      "sheet": "Tool track",
+      "row": 20
+    },
+    {
+      "id": "INT-B09",
+      "sheet": "Tool track",
+      "row": 21
+    },
+    {
+      "id": "INT-B10",
+      "sheet": "Tool track",
+      "row": 22
+    },
+    {
+      "id": "INT-B11",
+      "sheet": "Tool track",
+      "row": 23
+    },
+    {
+      "id": "INT-B12",
+      "sheet": "Tool track",
+      "row": 24
+    },
+    {
+      "id": "INT-B27",
+      "sheet": "Tool track",
+      "row": 25
+    },
+    {
+      "id": "INT-B40",
+      "sheet": "Tool track",
+      "row": 26
+    },
+    {
+      "id": "INT-B41",
+      "sheet": "Tool track",
+      "row": 27
+    },
+    {
+      "id": "INT-B42",
+      "sheet": "Tool track",
+      "row": 28
+    },
+    {
+      "id": "INT-B43",
+      "sheet": "Tool track",
+      "row": 29
+    },
+    {
+      "id": "INT-B44",
+      "sheet": "Tool track",
+      "row": 30
+    },
+    {
+      "id": "INT-B45",
+      "sheet": "Tool track",
+      "row": 31
+    },
+    {
+      "id": "INT-B46",
+      "sheet": "Tool track",
+      "row": 32
+    },
+    {
+      "id": "INT-B47",
+      "sheet": "Tool track",
+      "row": 33
+    },
+    {
+      "id": "INT-B48",
+      "sheet": "Tool track",
+      "row": 34
+    },
+    {
+      "id": "INT-B49",
+      "sheet": "Tool track",
+      "row": 35
+    },
+    {
+      "id": "INT-B50",
+      "sheet": "Tool track",
+      "row": 36
+    },
+    {
+      "id": "INT-B51",
+      "sheet": "Tool track",
+      "row": 37
+    },
+    {
+      "id": "INT-B53",
+      "sheet": "Tool track",
+      "row": 38
+    },
+    {
+      "id": "INT-B54",
+      "sheet": "Tool track",
+      "row": 39
+    },
+    {
+      "id": "INT-B55",
+      "sheet": "Tool track",
+      "row": 40
+    },
+    {
+      "id": "INT-B56",
+      "sheet": "Tool track",
+      "row": 41
+    },
+    {
+      "id": "INT-B57",
+      "sheet": "Tool track",
+      "row": 42
+    },
+    {
+      "id": "INT-B58",
+      "sheet": "Tool track",
+      "row": 43
+    },
+    {
+      "id": "INT-B59",
+      "sheet": "Tool track",
+      "row": 44
+    },
+    {
+      "id": "INT-B60",
+      "sheet": "Tool track",
+      "row": 45
+    },
+    {
+      "id": "INT-B61",
+      "sheet": "Tool track",
+      "row": 46
+    },
+    {
+      "id": "INT-B62",
+      "sheet": "Tool track",
+      "row": 47
+    },
+    {
+      "id": "INT-B63",
+      "sheet": "Tool track",
+      "row": 48
+    },
+    {
+      "id": "INT-B70",
+      "sheet": "Tool track",
+      "row": 49
+    },
+    {
+      "id": "INT-B71",
+      "sheet": "Tool track",
+      "row": 50
+    },
+    {
+      "id": "INT-B72",
+      "sheet": "Tool track",
+      "row": 51
+    },
+    {
+      "id": "TR-056",
+      "sheet": "Tool track",
+      "row": 52
+    },
+    {
+      "id": "TR-149",
+      "sheet": "Tool track",
+      "row": 53
+    },
+    {
+      "id": "TR-174",
+      "sheet": "Tool track",
+      "row": 54
+    },
+    {
+      "id": "TR-175",
+      "sheet": "Tool track",
+      "row": 55
+    },
+    {
+      "id": "INT-B01",
+      "sheet": "Tool track",
+      "row": 56
+    },
+    {
+      "id": "INT-B38",
+      "sheet": "Tool track",
+      "row": 57
+    },
+    {
+      "id": "INT-B39",
+      "sheet": "Tool track",
+      "row": 58
+    },
+    {
+      "id": "INT-B64",
+      "sheet": "Tool track",
+      "row": 59
+    },
+    {
+      "id": "INT-B65",
+      "sheet": "Tool track",
+      "row": 60
+    },
+    {
+      "id": "INT-B66",
+      "sheet": "Tool track",
+      "row": 61
+    },
+    {
+      "id": "INT-B67",
+      "sheet": "Tool track",
+      "row": 62
+    },
+    {
+      "id": "INT-B68",
+      "sheet": "Tool track",
+      "row": 63
+    },
+    {
+      "id": "INT-B69",
+      "sheet": "Tool track",
+      "row": 64
+    },
+    {
+      "id": "INT-B74",
+      "sheet": "Tool track",
+      "row": 65
+    },
+    {
+      "id": "INT-B76",
+      "sheet": "Tool track",
+      "row": 66
+    },
+    {
+      "id": "TR-057",
+      "sheet": "Tool track",
+      "row": 67
+    },
+    {
+      "id": "TR-079",
+      "sheet": "Tool track",
+      "row": 68
+    },
+    {
+      "id": "TR-080",
+      "sheet": "Tool track",
+      "row": 69
+    },
+    {
+      "id": "TR-081",
+      "sheet": "Tool track",
+      "row": 70
+    },
+    {
+      "id": "TR-084",
+      "sheet": "Tool track",
+      "row": 71
+    },
+    {
+      "id": "TR-065",
+      "sheet": "Tool track",
+      "row": 72
+    },
+    {
+      "id": "TR-069",
+      "sheet": "Tool track",
+      "row": 73
+    },
+    {
+      "id": "TR-054",
+      "sheet": "Tool track",
+      "row": 74
+    },
+    {
+      "id": "INT-B73",
+      "sheet": "Tool track",
+      "row": 75
+    },
+    {
+      "id": "TR-082",
+      "sheet": "Tool track",
+      "row": 76
+    },
+    {
+      "id": "TR-083",
+      "sheet": "Tool track",
+      "row": 77
+    },
+    {
+      "id": "TR-085",
+      "sheet": "Tool track",
+      "row": 78
+    },
+    {
+      "id": "TR-086",
+      "sheet": "Tool track",
+      "row": 79
+    },
+    {
+      "id": "TR-073",
+      "sheet": "Tool track",
+      "row": 80
+    },
+    {
+      "id": "TR-074",
+      "sheet": "Tool track",
+      "row": 81
+    },
+    {
+      "id": "TR-075",
+      "sheet": "Tool track",
+      "row": 82
+    },
+    {
+      "id": "TR-076",
+      "sheet": "Tool track",
+      "row": 83
+    },
+    {
+      "id": "TR-066",
+      "sheet": "Tool track",
+      "row": 84
+    },
+    {
+      "id": "TR-067",
+      "sheet": "Tool track",
+      "row": 85
+    },
+    {
+      "id": "TR-068",
+      "sheet": "Tool track",
+      "row": 86
+    },
+    {
+      "id": "TR-058",
+      "sheet": "Tool track",
+      "row": 87
+    },
+    {
+      "id": "TR-171",
+      "sheet": "Tool track",
+      "row": 88
+    },
+    {
+      "id": "TR-172",
+      "sheet": "Tool track",
+      "row": 89
+    },
+    {
+      "id": "INT-B13",
+      "sheet": "Tool track",
+      "row": 90
+    },
+    {
+      "id": "INT-B14",
+      "sheet": "Tool track",
+      "row": 91
+    },
+    {
+      "id": "INT-B15",
+      "sheet": "Tool track",
+      "row": 92
+    },
+    {
+      "id": "INT-B16",
+      "sheet": "Tool track",
+      "row": 93
+    },
+    {
+      "id": "INT-B17",
+      "sheet": "Tool track",
+      "row": 94
+    },
+    {
+      "id": "INT-B18",
+      "sheet": "Tool track",
+      "row": 95
+    },
+    {
+      "id": "INT-B19",
+      "sheet": "Tool track",
+      "row": 96
+    },
+    {
+      "id": "INT-B20",
+      "sheet": "Tool track",
+      "row": 97
+    },
+    {
+      "id": "INT-B21",
+      "sheet": "Tool track",
+      "row": 98
+    },
+    {
+      "id": "INT-B22",
+      "sheet": "Tool track",
+      "row": 99
+    },
+    {
+      "id": "INT-B23",
+      "sheet": "Tool track",
+      "row": 100
+    },
+    {
+      "id": "INT-B24",
+      "sheet": "Tool track",
+      "row": 101
+    },
+    {
+      "id": "INT-B25",
+      "sheet": "Tool track",
+      "row": 102
+    },
+    {
+      "id": "INT-B26",
+      "sheet": "Tool track",
+      "row": 103
+    },
+    {
+      "id": "INT-B52",
+      "sheet": "Tool track",
+      "row": 104
+    },
+    {
+      "id": "TR-055",
+      "sheet": "Tool track",
+      "row": 105
+    },
+    {
+      "id": "TR-059",
+      "sheet": "Tool track",
+      "row": 106
+    },
+    {
+      "id": "TR-170",
+      "sheet": "Tool track",
+      "row": 107
+    },
+    {
+      "id": "TR-087",
+      "sheet": "Tool track",
+      "row": 108
+    },
+    {
+      "id": "TR-096",
+      "sheet": "Tool track",
+      "row": 109
+    },
+    {
+      "id": "INT-B28",
+      "sheet": "Tool track",
+      "row": 110
+    },
+    {
+      "id": "INT-B29",
+      "sheet": "Tool track",
+      "row": 111
+    },
+    {
+      "id": "INT-B30",
+      "sheet": "Tool track",
+      "row": 112
+    },
+    {
+      "id": "INT-B31",
+      "sheet": "Tool track",
+      "row": 113
+    },
+    {
+      "id": "INT-B32",
+      "sheet": "Tool track",
+      "row": 114
+    },
+    {
+      "id": "INT-B33",
+      "sheet": "Tool track",
+      "row": 115
+    },
+    {
+      "id": "INT-B34",
+      "sheet": "Tool track",
+      "row": 116
+    },
+    {
+      "id": "INT-B35",
+      "sheet": "Tool track",
+      "row": 117
+    },
+    {
+      "id": "INT-B75",
+      "sheet": "Tool track",
+      "row": 118
+    }
+  ],
+  "readme": [
+    [
+      "A1",
+      "AI Era Cyber Training Catalogue v16"
+    ],
+    [
+      "A2",
+      "Current lifecycle release: 2 November 2026. 516 active resources (403 Offers and 113 Tool track), plus the saved AI use cases internal brief. 18 user-approved retirements."
+    ],
+    [
+      "A3",
+      "Offers and Tool track default to Lifecycle = Active. Clear that filter to inspect retired records. Retirements records the approved IDs, reasons, date and sources. Historical rows, source references and assessment scores are retained."
+    ],
+    [
+      "A4",
+      "Current apps import active resources only. Scores, Coverage, Paths, Path detail, Matrix and audit sheets preserve historical assessments/planning; they are not the active curriculum. The capability model and Recommended Training Pathways remain the curriculum authorities."
+    ],
+    [
+      "A119",
+      "V16 — 2 November 2026: approved retirements"
+    ],
+    [
+      "A120",
+      "18 resources retired: model-specific o1/Llama editions, PaLM/Assistants/AutoGen editions, four AI-900 entries, four old OWASP editions and two historical references plus Practical GenAI. No scores or evidence have been reassessed."
+    ],
+    [
+      "A121",
+      "Active resources retain 56,140 numerical outcome scores and 280 explicitly unassessed rows. All 140 outcomes and 23 scoring groups remain unchanged. Historical assessment sheets retain their original 58,100 scores and 9,591 course/need rows."
+    ]
+  ]
+}

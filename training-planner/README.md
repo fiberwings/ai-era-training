@@ -1,16 +1,16 @@
 # Cyber capability planner
 
-Current release: **2.2.0 — 1 November 2026**. Catalogue **v15**, snapshot `ff6d5a46d0450171`; capability model **2 revision 3**.
+Current release: **2.2.1 — 2 November 2026**. Catalogue **v16**, snapshot `9ed4551ae565417e`; capability model **2 revision 3**.
 
 Open [Training-Planner.html](Training-Planner.html) in a desktop browser. It embeds the full catalogue, model, application and solver, and works without installation or a server. [Project context](../docs/PROJECT_CONTEXT.md) records the agreed scope; [AGENTS.md](../AGENTS.md) identifies authoritative sources and working rules.
 
 ## Current starting points
 
-The maintained [Recommended Training Pathways v0.1](../recommended-pathways/README.md) is available as a separate [schema-3 JSON import](../recommended-pathways/Recommended-Training-Pathways.json). Foundation/L1 is Reviewed; the remaining recommendations are AI generated — to be reviewed. Use **Scenario & exports → Import scenario JSON** to load it. The workspace continues to start blank.
+The maintained [Recommended Training Pathways v0.2](../recommended-pathways/README.md) is available as a separate [schema-3 JSON import](../recommended-pathways/Recommended-Training-Pathways.json). Foundation/L1 is Reviewed; the remaining recommendations are AI generated — to be reviewed. Use **Scenario & exports → Import scenario JSON** to load it. The workspace continues to start blank.
 
 The component workspace starts with **21 blank components and 19 audience templates**. Compose Foundation, L1 Entry, L2 Practitioner, L3 Expert, specialisms and tooling. Course budgets start at 2h, 2h, 8h and 24h for the shared layers, with 4h for each specialism; internal practice is additional. Tool budgets begin unset. Audience-specific copies let a local variant evolve without changing other audiences.
 
-The legacy workspace retains existing schema-1/2 plans. Its bundled annual v3 selections and budgets remain unchanged by explicit user choice on 1 November 2026. The [old annual report](../archive/analysis/2027-training-plan/2027-Training-Plan-v3.html) is archived as outdated, not a current recommendation. Do not replace the bundled default during routine maintenance. By subsequent user request, learner 1.5.0 publishes the separate Recommended Training Pathways v0.1 schema-3 source. The legacy planner default remains unchanged.
+The legacy workspace retains existing schema-1/2 plans. On 2 November 2026 the user authorised the catalogue retirements: the current bundled annual v3 example removes TR-229 from L3, without a replacement, and advances to revision 3. Other selections, budgets and overrides remain unchanged. Older defaults are retained in scenario-history and historical packages. The [old annual report](../archive/analysis/2027-training-plan/2027-Training-Plan-v3.html) is archived as outdated, not a current recommendation. Do not replace the bundled default during routine maintenance. By subsequent user request, learner 1.5.0 publishes the separate Recommended Training Pathways v0.1 schema-3 source. Saved browser plans are retained: retired selections display their name, retirement reason and a warning, with no current assessed credit. Current catalogue discovery and suggestions contain 516 active resources.
 
 Existing browser plans are never automatically cleared or converted. New schema-3 plans use `public/data/component-starter.json`; retained legacy defaults are in `public/data/default-scenario.json`.
 
@@ -42,7 +42,7 @@ Finalisation retains catalogue/model identity and unresolved-reference checks. C
 
 ## Save proposed internal training in Excel
 
-The maintained v15 workbook already contains **AI use cases**. In the planner, open **Full catalogue**, set **Training type** to **Internal training**, and preview the saved brief to choose its destination component. All details are retained when adding it to another plan.
+The maintained v16 workbook already contains **AI use cases**. In the planner, open **Full catalogue**, set **Training type** to **Internal training**, and preview the saved brief to choose its destination component. All details are retained when adding it to another plan.
 
 
 Use **Scenario & exports → Save internal training to Excel** (also **Save to Excel** in the Internal learning section). Choose the current catalogue `.xlsx`, then download the updated copy. Save that copy as your working catalogue. The app does not overwrite a file on your computer automatically.
@@ -88,8 +88,8 @@ Read the [catalogue guide](../catalogue/README.md). Save and recalculate Excel f
 
 ```sh
 python3 -m pip install -r training-planner/requirements.txt
-python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v15.xlsx --check
-python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v15.xlsx
+python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx --check
+python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx
 ```
 
 For an intentional update, refresh without `--check`, review its change report and scenario compatibility, then rebuild current model/starter/app artifacts. Changing a snapshot does not approve old planning decisions. The packager requires compatible identities; never bypass that by blindly stamping a new version into a scenario.

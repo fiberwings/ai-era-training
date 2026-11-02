@@ -77,6 +77,29 @@ def read_proposed_training(workbook):
     return {'formatVersion': 1, 'columns': PROPOSED_HEADERS, 'rows': rows}
 
 
+def read_retirements(workbook, courses):
+    """The register owns lifecycle; original course/score rows remain evidence."""
+    if 'Retirements' not in workbook.sheetnames:
+        return []
+    result, seen = [], set()
+    for row, r in records(workbook, 'Retirements', ('ID', 'Title', 'Retired on', 'Reason', 'Decision', 'Sources')):
+        cid = r['ID']
+        require(cid in courses and cid not in seen, f'Retirements row {row}: unknown or duplicate course {cid}')
+        seen.add(cid)
+        require(r['Title'] == courses[cid]['title'], f'Retirements row {row}: title differs from course record')
+        require(all(isinstance(r[k], str) and r[k].strip() for k in ('Reason', 'Decision')), f'Retirements row {row}: missing reason or decision')
+        retired_on = date_text(r['Retired on'])
+        require(bool(retired_on), f'Retirements row {row}: missing retirement date')
+        result.append(dict(id=cid, title=r['Title'], provider=courses[cid]['provider'], retiredOn=retired_on,
+            reason=r['Reason'], decision=r['Decision'], sources=links(r['Sources']),
+            source=reference('Retirements', row), originalSource=courses[cid]['source']))
+    for sheet in ('Offers', 'Tool track'):
+        for row, r in records(workbook, sheet, ('ID', 'Lifecycle')):
+            expected = 'Retired' if r['ID'] in seen else 'Active'
+            require(r['Lifecycle'] == expected, f'{sheet} row {row}: Lifecycle mismatch; recalculate and save Excel')
+    return result
+
+
 def validate_snapshot(data):
     require(isinstance(data, dict), 'Catalogue must be an object')
     for key in ('version', 'filename', 'thresholds', 'needs', 'requirements', 'courses', 'buildItems'):
@@ -99,6 +122,16 @@ def validate_snapshot(data):
             require(type(s.get('score')) is int and s['score'] in range(4), f"Invalid score for {c['id']}/{rid}")
         for rid in c.get('unassessed', {}):
             require(rid in maps['requirements'] and rid not in c['scores'], f'Conflicting assessment for {rid}')
+    retired = data.get('retiredCourses', [])
+    require(isinstance(retired, list), 'Invalid retired-course register')
+    seen_retired = set()
+    for c in retired:
+        require(isinstance(c, dict) and isinstance(c.get('id'), str) and c['id'], 'Missing retired course ID')
+        require(c['id'] not in maps['courses'] and c['id'] not in seen_retired, 'Active/retired course collision: ' + c['id'])
+        seen_retired.add(c['id'])
+        require(all(isinstance(c.get(k), str) and c[k].strip() for k in ('title', 'reason', 'decision')), 'Incomplete retirement record')
+        require(bool(date_text(c.get('retiredOn'))), 'Missing retirement date')
+        require('scores' not in c and 'unassessed' not in c, 'Retirement metadata must not supply active assessment scores')
     if 'proposedTraining' in data:
         proposed = data['proposedTraining']
         require(isinstance(proposed, dict) and proposed.get('formatVersion') == 1 and proposed.get('columns') == PROPOSED_HEADERS, 'Invalid proposed-training format')
@@ -219,11 +252,19 @@ def read_catalogue(path):
                     priorFit=r.get('Previous fit note (v7)'),priorCoverage=r.get('Previous coverage summary (v7)'),source=reference('V8 audit',i))
         if 'Proposed training' in workbook.sheetnames:
             data['proposedTraining'] = read_proposed_training(workbook)
+        # Reconcile all original evidence before excluding retired courses from
+        # active selection. Retired historical rows must not escape validation.
+        validate_snapshot(data)
+        checked = reconcile(workbook, data)
+        retired = read_retirements(workbook, by_id)
+        if retired:
+            data['retiredCourses'] = retired
+            retired_ids = {c['id'] for c in retired}
+            data['courses'] = [c for c in data['courses'] if c['id'] not in retired_ids]
         # Identity includes importer schema and all imported metadata, not only XLSX bytes.
         identity = {k:v for k,v in data.items() if k != 'version'}
         data['version'] = hashlib.sha256(json.dumps(identity,sort_keys=True,ensure_ascii=False,default=str).encode('utf-8')).hexdigest()[:16]
         validate_snapshot(data)
-        checked = reconcile(workbook, data)
     finally:
         workbook.close()
     require(hashlib.sha256(path.read_bytes()).hexdigest()==before_hash, 'Workbook changed during import. Save and retry.')

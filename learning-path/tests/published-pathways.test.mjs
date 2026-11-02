@@ -8,7 +8,7 @@ import {pathMetrics} from '../../training-planner/public/components.js';
 const load=p=>JSON.parse(fs.readFileSync(new URL(p,import.meta.url)));
 const catalogue=load('../../training-planner/public/data/catalogue.json');
 const source=load('../../recommended-pathways/Recommended-Training-Pathways.json');
-const bundle={catalogue,scenario:prepareCentralScenario(source,catalogue),scenarioVersion:'pathways-v0.1',config:{}};
+const bundle={catalogue,scenario:prepareCentralScenario(source,catalogue),scenarioVersion:'pathways-v'+source.publication.version,config:{}};
 const sorted=xs=>[...xs].sort();
 function audienceLearner(a){
  const l=newLearner(bundle),roles=source.publication.roles.filter(r=>r.audiences.includes(a.id)).map(r=>r.id);
@@ -58,7 +58,7 @@ test('coached route is explicit, survives backup, and preserves existing commitm
  l.profile.learningRoute='invented';assert.throws(()=>validateBackup(l),/learning route/);
 });
 test('new central publication preserves old completions, feedback, notes and saved scope',()=>{
- const old={...bundle,scenario:load('../../training-planner/public/data/default-scenario.json'),scenarioVersion:'old'};
+ const old={...bundle,catalogue:load('../../training-planner/catalogue-history/ff6d5a46d0450171.json'),scenario:load('../../training-planner/scenario-history/default-before-v16-retirements.json'),scenarioVersion:'old'};
  const l=newLearner(old);l.profile=quickPathProfile(l.profile,{level:3,roles:[5],tools:['OpenAI ChatGPT']});
  setStatus(old,l,'TR-229','completed');l.items['TR-229'].notes='Keep these notes';l.formsDisabled=true;
  l.profile.centralScope={scenarioId:old.scenario.id,groupId:'architecture',groupName:'Architecture',added:[],removed:['N12.1']};

@@ -30,15 +30,15 @@ Implement the approved learning-app mock-up within the existing design: retain t
 
 | Item | Current identity | Authority |
 | --- | --- | --- |
-| Catalogue | v15; 1 November 2026; `ff6d5a46d0450171` | [Workbook](../catalogue/AI_Era_Cyber_Training_Catalogue_v15.xlsx) |
+| Catalogue | v16; 2 November 2026; `9ed4551ae565417e` | [Workbook](../catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx) |
 | Framework | Version 2, revision 3 | [Model](../capability-framework/Agentic-Era_Workforce_Capability_Model.md) |
-| Recommended pathways | Version 0.1; 1 November 2026; partially reviewed Draft | [Decision source](../recommended-pathways/Recommended-Training-Pathways.json) and [generated guide](../recommended-pathways/Recommended-Training-Pathways.md) |
-| Builder | 2.2.0; 1 November 2026 | `training-planner/public/release.js` and source |
-| Staff app | 1.6.0; 2 November 2026 | `learning-path/config.json` and source |
-| Bundled legacy pathway | 2027 v3, revision 2; Draft | `training-planner/public/data/default-scenario.json`, retained by explicit choice |
+| Recommended pathways | Version 0.2; 2 November 2026; partially reviewed Draft | [Decision source](../recommended-pathways/Recommended-Training-Pathways.json) and [generated guide](../recommended-pathways/Recommended-Training-Pathways.md) |
+| Builder | 2.2.1; 2 November 2026 | `training-planner/public/release.js` and source |
+| Staff app | 1.6.1; 2 November 2026 | `learning-path/config.json` and source |
+| Bundled legacy pathway | 2027 v3, revision 3; Draft | `training-planner/public/data/default-scenario.json`, retained by explicit choice |
 | Component starter | Schema 3; blank curriculum | `training-planner/public/data/component-starter.json` |
 
-The catalogue has 534 resources: 417 Offers and 117 Tool track entries; 140 active outcomes across 23 scoring groups; 58,100 numerical scores and 280 explicitly unassessed rows. Workbook SHA-256: `07ce3343043c8312284a3f33c8d4530cc72b5ae8140bee9361588b8367b5f08a`.
+The active catalogue has 516 resources: 403 Offers and 113 Tool track entries; 140 active outcomes across 23 scoring groups; 56,140 numerical scores and 280 explicitly unassessed rows, plus one proposed internal brief. The workbook also preserves 18 retired records and their assessments. Workbook SHA-256: `07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb`.
 
 The model document defines the agreed framework. The workbook supplies assessments and evidence. The generated app catalogue is a faithful imported snapshot. The model generator combines those outcomes with the versioned applicability and explanatory modules; its output includes the model document and CSV/JSON crosswalks. Source changes must preserve consistency with the agreed model.
 
@@ -50,7 +50,7 @@ The recommended-pathways scenario owns the maintained recommendation and its rev
 
 The saved, recalculated Excel workbook is validated/imported into `training-planner/public/data/catalogue.json`. Planner model modules supply role, level, tool and outcome applicability. The model/crosswalk builder creates the human-readable framework and mapping files. The planner packager embeds current data, both starter formats, application code and the solver into `Training-Planner.html`.
 
-The learner build reads that same catalogue, shared model/scoring modules and Recommended Training Pathways v0.1, then writes its standalone `index.html`. It preserves native schema-3 components and audience variants, deriving compatibility groups for existing profiles and saved central scopes. Schema-2 imports remain supported. Personal selections, progress and feedback stay separate from central recommendations.
+The learner build reads that same catalogue, shared model/scoring modules and Recommended Training Pathways v0.2, then writes its standalone `index.html`. It preserves native schema-3 components and audience variants, deriving compatibility groups for existing profiles and saved central scopes. Schema-2 imports remain supported. Personal selections, progress and feedback stay separate from central recommendations.
 
 The presentations are editable PowerPoint deliverables. Their historical authoring chain is retained in [presentations/source](../presentations/source/README.md). The model briefing's catalogue appendix was built from v10; review that dated content before presenting it as aligned with the current catalogue. No deck content was refreshed during this reorganisation.
 
@@ -159,3 +159,13 @@ The catalogue, model, Recommended Training Pathways v0.1 selections, recommendat
 Added an eight-slide [unofficial walkthrough](../presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx), styled to match the capability briefing. Covers provisional component ownership, owner validation and recommendations, the proposed mandatory 2027 Foundation/L1 package (10h 41m), BISO/Domain use-case contributions, and the learning app/prompt-library offer for CISO Connect. No per-slide approval requests; formal approval is a later separate session. Ownership, launch dates and delivery arrangements remain provisional. Secure coding/red-team ownership boundaries need reconciliation before any framework changes. Existing model, catalogue, recommendations, apps and two earlier decks remain unchanged.
 
 The walkthrough was subsequently expanded to nine slides with a provider-sourced summary of the selected CertMike SecAI+ course immediately after the baseline slide. Course selections, duration and model assessments remain unchanged.
+
+## Catalogue v16 and current-app retirement refresh — 2 November 2026
+
+After viewing the catalogue freshness review, the user instructed: “apply the retirements and ensure relevant current apps (not their historical old versions) are refreshed if needed”. All 18 reviewed retirements are applied. The workbook Retirements register owns lifecycle; Offers and Tool track default to Active. Original rows, 58,100 numerical assessments and 9,591 coverage formulas remain intact as historical evidence. Apps import 516 active resources and compact retirement metadata for saved history. All retained course objects, 140 outcomes, 23 scoring groups, unassessed rows and catalogue-wide outcome maxima are unchanged.
+
+Planner 2.2.1 retains the blank component starter. Its current legacy L3 example removes TR-229 and advances plan revision 2 → 3; no replacement is assigned. Own-layer evidence drops to zero for N2.1, N2.2, N6.2, N6.5 and N10.4 before considering inheritance/internal teaching. Other selections, budgets and overrides are unchanged. Historical defaults and app distributions are preserved. Saved browser selections are not deleted: they display retirement warnings and no current assessed credit.
+
+Recommended Training Pathways v0.2 preserves all v0.1 components, audience paths, selections, exclusions, brief details, time, coverage and review labels after compatibility review. None of the retired courses was selected or pinned. The scenario ID remains stable for saved learner scopes. V0.1 is archived unchanged; publication is not approval of the outstanding AI recommendations. Learner 1.6.1 embeds the new catalogue and publication while preserving personal progress, notes, feedback, storage keys and backup formats. Retired items remain readable in history.
+
+Model 2 revision 3 is rebuilt only for the catalogue identity; its approved prose, outcomes and applicability are unchanged. All previous release ZIPs and archived evidence retain their bytes. The 13 retained courses flagged for content refresh remain an explicit follow-up, without new assessment credit. Implementation and checks: [v16 evidence](../catalogue/evidence/v16/README.md).

@@ -1,12 +1,12 @@
 {
-  "version": "0.1",
-  "date": "2026-11-01",
+  "version": "0.2",
+  "date": "2026-11-02",
   "scenarioId": "recommended-training-pathways-v0.1",
-  "scenarioSha256": "aa32579cd39b12c853566edcdadfc70d46bb02f748e69fcd6b240210bb5e9e76",
+  "scenarioSha256": "54adf8093007c282363fdf78cd69dd68cd6976be60f65689ac1de7efcbbe73b7",
   "catalogueIdentity": {
-    "version": "ff6d5a46d0450171",
-    "filename": "AI_Era_Cyber_Training_Catalogue_v15.xlsx",
-    "sourceSha256": "07ce3343043c8312284a3f33c8d4530cc72b5ae8140bee9361588b8367b5f08a",
+    "version": "9ed4551ae565417e",
+    "filename": "AI_Era_Cyber_Training_Catalogue_v16.xlsx",
+    "sourceSha256": "07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb",
     "assessmentDate": "2026-11-01"
   },
   "modelVersion": 2,
@@ -30904,7 +30904,7 @@
     }
   ],
   "calculationSources": {
-    "training-planner/public/components.js": "61e4190f42f7a71e7b164d68018185e8848ec1f29fe15076b0805c8421606318",
+    "training-planner/public/components.js": "47c45a2cfca02cbd410130a478365dde032a496616eab3652013671d81403a7b",
     "training-planner/public/scoring.js": "632a4c76901f0a67d99f178eda171e2f6e884d77cbf2d0da9e389b057f0b836c",
     "training-planner/public/duration.js": "11c3ce94a632800a89ee9e999d6a7b7d42f593f09d57145fd6eaec5a153d7686",
     "training-planner/public/capability-model.js": "c9cb11ae8877b46082284480724eed5cd6a88d0915b981c11e55e53e7f892c3f"

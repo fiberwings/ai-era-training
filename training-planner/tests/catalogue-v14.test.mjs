@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {duration} from '../public/duration.js';
 const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url)));
-const current=read('../public/data/catalogue.json');
+// Frozen v14 addition check; current lifecycle behaviour is tested separately.
+const current=read('../catalogue-history/d9c478c4687192a0.json');
 const prior=read('../catalogue-history/ba0634eb6d9be98d.json');
 const added=['TR-281','TR-282','TR-283','TR-284','TR-285'];
 test('Udemy SecAI additions preserve all existing evidence and the framework',()=>{
