@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-02",
+  "status": "Proposal for user review; not approved or implemented",
+  "catalogueSnapshot": "9ed4551ae565417e",
+  "additions": [
+    {"courseId":"TR-109","componentIds":["foundation"],"decision":"A1","condition":"Review the proposed addition to the previously Reviewed Foundation bundle."},
+    {"courseId":"TR-110","componentIds":["specialism-ai-security","specialism-ai-security-architecture","specialism-agent-testing","specialism-agent-testing-redteam","specialism-exposure-management","specialism-agent-architecture","specialism-identity-operations","specialism-identity-operations-integration"],"decision":"A2","condition":"Retain L2 and coached L2 selections; also make the reading available through applicable specialisms without an L2 prerequisite."},
+    {"courseId":"TR-117","componentIds":["specialism-threat-intelligence","specialism-agent-testing","specialism-agent-testing-redteam","specialism-ai-security","specialism-ai-security-architecture"],"decision":"A3","condition":"Reconcile the saved v2026.08 record with MITRE v2026.10, review affected evidence, and agree full-resource learner scope and time before publication."},
+    {"courseId":"TR-118","componentIds":["specialism-ai-governance","specialism-ai-governance-assurance"],"decision":"A4","condition":"Agree full-bundle reading time; 4h+ remains unknown in the planner."},
+    {"courseId":"TR-122","componentIds":["l2","l2-coached","specialism-leadership","specialism-agent-architecture","specialism-agent-assurance","specialism-identity-operations-integration"],"decision":"A5","condition":"Preserve its existing forensics and identity-operations assignments; extend to the IAM integration variant as well."},
+    {"courseId":"TR-123","componentIds":["l3","l3-coached","specialism-ai-security","specialism-ai-security-architecture"],"decision":"A6","condition":"Treat as secure-development orientation; saved evidence gives no shared L3 outcome credit."},
+    {"courseId":"TR-119","componentIds":["specialism-advanced-redteam"],"decision":"A7","condition":"Agree full-resource learner time; 3h+ remains unknown in the planner."},
+    {"courseId":"TR-124","componentIds":["specialism-agent-assurance"],"decision":"A8","condition":"Assign the assessed UK code and guide; reconcile ETSI scope separately rather than transfer assessment credit."}
+  ],
+  "supplementaryExisting": ["TR-070","TR-111","TR-112","TR-114","TR-115","TR-120","TR-121","TR-132","TR-133","TR-134","TR-160","TR-168"],
+  "newCandidates": [
+    {"name":"CSA AI Controls Matrix v1.1 and AI-CAIQ","priority":"Next catalogue assessment","primaryComponents":["specialism-agent-assurance","specialism-ai-governance","specialism-ai-governance-assurance"],"secondaryComponents":["specialism-vendor-evaluation","specialism-agent-architecture"],"proposedOutcomes":["N13.1","N13.2","N13.4","N13.6","R6.1.1"],"assessment":"Not a standalone active catalogue record; no scores assigned"},
+    {"name":"MAESTRO by Ken Huang, published through CSA","priority":"Next catalogue assessment","primaryComponents":["specialism-ai-security","specialism-ai-security-architecture","specialism-agent-architecture"],"secondaryComponents":["specialism-advanced-redteam"],"proposedOutcomes":["N12.1","N12.9","R5.1.6"],"assessment":"Not a standalone active catalogue record; no scores assigned"}
+  ]
+}

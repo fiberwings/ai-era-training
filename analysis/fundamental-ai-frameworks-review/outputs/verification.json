@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-02",
+  "status": "Proposal only; no live source writes",
+  "baselineCommit": "cefd60f",
+  "currentHead": "9441ba24b57a57e0463541fb9a84fd23141e8bea",
+  "sourceHashesMatchedToGit": 12,
+  "workbookCheck": {
+    "activeResources": 516,
+    "numericScores": 56140,
+    "unassessedRows": 280,
+    "coverageRows": 9591,
+    "courseChanges": 0
+  },
+  "reportBuild": "passed",
+  "reportRebuildCheck": "passed",
+  "browser": {
+    "headings": 10,
+    "navigationLinks": 10,
+    "tables": 7,
+    "localLinks": 5,
+    "desktopOverflow": false,
+    "mobileOverflow": false,
+    "pageErrors": []
+  },
+  "trackedDiff": [
+    "analysis/README.md"
+  ]
+}

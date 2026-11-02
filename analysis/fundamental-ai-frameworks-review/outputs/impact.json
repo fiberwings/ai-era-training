@@ -1,0 +1,1622 @@
+{
+  "date": "2026-11-02",
+  "status": "Proposal for user review; not approved or implemented",
+  "method": "Conditional illustration of all A1–A8, using saved v16 evidence without reassessment. Existing source selections and internal items retained. Best score per outcome, equally weighted needs; full-resource duration upper bounds; unknown durations remain unknown; all courses and internal items deduplicated by ID. No scenario is published.",
+  "baseline": {
+    "date": "2026-11-02",
+    "catalogue": "v16",
+    "snapshot": "9ed4551ae565417e",
+    "model": "2 revision 3",
+    "pathways": "0.2",
+    "files": {
+      "catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx": "07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb",
+      "training-planner/public/data/catalogue.json": "5cc0672f5352ca0c4ab685a49e36fffe2955375936ef29e944890d0744211766",
+      "capability-framework/Agentic-Era_Workforce_Capability_Model.md": "30fba12759fabc15bdb3823b42e576afd0bb362de8d53617533fd78abff1980c",
+      "recommended-pathways/Recommended-Training-Pathways.json": "54adf8093007c282363fdf78cd69dd68cd6976be60f65689ac1de7efcbbe73b7",
+      "recommended-pathways/Recommended-Training-Pathways.md": "4714534da27e909f5111d52de782cea60ea3f3f68b24483ee5a1c7f93a05cba6",
+      "recommended-pathways/coverage.json": "bac40b62eb22b2e8ccf013c3111744478e85a1d05f790ab6dd8d1ac961463443",
+      "learning-path/index.html": "689183c44f169601334010c8aab2b23d2f1ff6c72373f01717d0479dc56b042c",
+      "training-planner/Training-Planner.html": "34292574f6a6c861408909ac187e62a26d1af35736a582d9e13103a914c2f1d2",
+      "training-planner/public/components.js": "61e4190f42f7a71e7b164d68018185e8848ec1f29fe15076b0805c8421606318",
+      "training-planner/public/capability-model.js": "c9cb11ae8877b46082284480724eed5cd6a88d0915b981c11e55e53e7f892c3f",
+      "training-planner/public/scoring.js": "632a4c76901f0a67d99f178eda171e2f6e884d77cbf2d0da9e389b057f0b836c",
+      "training-planner/public/duration.js": "11c3ce94a632800a89ee9e999d6a7b7d42f593f09d57145fd6eaec5a153d7686"
+    },
+    "gitSourceByFile": {
+      "catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx": "cefd60f",
+      "training-planner/public/data/catalogue.json": "cefd60f",
+      "capability-framework/Agentic-Era_Workforce_Capability_Model.md": "cefd60f",
+      "recommended-pathways/Recommended-Training-Pathways.json": "cefd60f",
+      "recommended-pathways/Recommended-Training-Pathways.md": "cefd60f",
+      "recommended-pathways/coverage.json": "cefd60f",
+      "learning-path/index.html": "cefd60f",
+      "training-planner/Training-Planner.html": "cefd60f",
+      "training-planner/public/components.js": "9441ba2",
+      "training-planner/public/capability-model.js": "cefd60f",
+      "training-planner/public/scoring.js": "cefd60f",
+      "training-planner/public/duration.js": "cefd60f"
+    },
+    "workspaceChange": "Workspace switched from codex/catalogue-v16-retirements to main during review. Original data inputs preserved; metric functions unchanged between these commits. components.js differs only in retired-course validation, which the analysis does not invoke."
+  },
+  "decisions": [
+    {
+      "courseId": "TR-109",
+      "componentIds": [
+        "foundation"
+      ],
+      "decision": "A1",
+      "condition": "Review the proposed addition to the previously Reviewed Foundation bundle."
+    },
+    {
+      "courseId": "TR-110",
+      "componentIds": [
+        "specialism-ai-security",
+        "specialism-ai-security-architecture",
+        "specialism-agent-testing",
+        "specialism-agent-testing-redteam",
+        "specialism-exposure-management",
+        "specialism-agent-architecture",
+        "specialism-identity-operations",
+        "specialism-identity-operations-integration"
+      ],
+      "decision": "A2",
+      "condition": "Retain L2 and coached L2 selections; also make the reading available through applicable specialisms without an L2 prerequisite."
+    },
+    {
+      "courseId": "TR-117",
+      "componentIds": [
+        "specialism-threat-intelligence",
+        "specialism-agent-testing",
+        "specialism-agent-testing-redteam",
+        "specialism-ai-security",
+        "specialism-ai-security-architecture"
+      ],
+      "decision": "A3",
+      "condition": "Reconcile the saved v2026.08 record with MITRE v2026.10, review affected evidence, and agree full-resource learner scope and time before publication."
+    },
+    {
+      "courseId": "TR-118",
+      "componentIds": [
+        "specialism-ai-governance",
+        "specialism-ai-governance-assurance"
+      ],
+      "decision": "A4",
+      "condition": "Agree full-bundle reading time; 4h+ remains unknown in the planner."
+    },
+    {
+      "courseId": "TR-122",
+      "componentIds": [
+        "l2",
+        "l2-coached",
+        "specialism-leadership",
+        "specialism-agent-architecture",
+        "specialism-agent-assurance",
+        "specialism-identity-operations-integration"
+      ],
+      "decision": "A5",
+      "condition": "Preserve its existing forensics and identity-operations assignments; extend to the IAM integration variant as well."
+    },
+    {
+      "courseId": "TR-123",
+      "componentIds": [
+        "l3",
+        "l3-coached",
+        "specialism-ai-security",
+        "specialism-ai-security-architecture"
+      ],
+      "decision": "A6",
+      "condition": "Treat as secure-development orientation; saved evidence gives no shared L3 outcome credit."
+    },
+    {
+      "courseId": "TR-119",
+      "componentIds": [
+        "specialism-advanced-redteam"
+      ],
+      "decision": "A7",
+      "condition": "Agree full-resource learner time; 3h+ remains unknown in the planner."
+    },
+    {
+      "courseId": "TR-124",
+      "componentIds": [
+        "specialism-agent-assurance"
+      ],
+      "decision": "A8",
+      "condition": "Assign the assessed UK code and guide; reconcile ETSI scope separately rather than transfer assessment credit."
+    }
+  ],
+  "audiences": [
+    {
+      "id": "governance",
+      "name": "GRC — agent supervision",
+      "before": {
+        "knownCourseHours": 20.28333333333333,
+        "knownInternalHours": 15,
+        "knownTotalHours": 35.28333333333333,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6303571428571428,
+        "plannedCoverage": 0.8573412698412699,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "INT-397",
+          "TR-133"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 24.283333333333335,
+        "knownInternalHours": 15,
+        "knownTotalHours": 39.28333333333333,
+        "unknownDurationCount": 1,
+        "unknownCourseIds": [
+          "TR-118"
+        ],
+        "assessedCoverage": 0.6351190476190476,
+        "plannedCoverage": 0.8621031746031746,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "INT-397",
+          "TR-133",
+          "TR-118"
+        ]
+      },
+      "knownAdditionalHours": 4,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-118"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "grc-builder",
+      "name": "GRC — agent building",
+      "before": {
+        "knownCourseHours": 35.266666666666666,
+        "knownInternalHours": 24,
+        "knownTotalHours": 59.266666666666666,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6132605820105821,
+        "plannedCoverage": 0.881117724867725,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-198",
+          "TR-238",
+          "INT-397",
+          "TR-133"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 40.266666666666666,
+        "knownInternalHours": 24,
+        "knownTotalHours": 64.26666666666667,
+        "unknownDurationCount": 1,
+        "unknownCourseIds": [
+          "TR-118"
+        ],
+        "assessedCoverage": 0.6172288359788359,
+        "plannedCoverage": 0.885085978835979,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "TR-198",
+          "TR-238",
+          "TR-123",
+          "INT-397",
+          "TR-133",
+          "TR-118"
+        ]
+      },
+      "knownAdditionalHours": 5,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-123",
+        "TR-118"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "leadership",
+      "name": "Leadership — AI-assisted work",
+      "before": {
+        "knownCourseHours": 10.683333333333334,
+        "knownInternalHours": 7,
+        "knownTotalHours": 17.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5416666666666667,
+        "plannedCoverage": 0.812389770723104,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-133"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 14.683333333333334,
+        "knownInternalHours": 7,
+        "knownTotalHours": 21.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.564594356261023,
+        "plannedCoverage": 0.8353174603174603,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-133",
+          "TR-122"
+        ]
+      },
+      "knownAdditionalHours": 4,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N2.4",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.4",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.8",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "cdc",
+      "name": "Agent incident response",
+      "before": {
+        "knownCourseHours": 16.6,
+        "knownInternalHours": 13,
+        "knownTotalHours": 29.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5803571428571429,
+        "plannedCoverage": 0.8573412698412699,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 20.6,
+        "knownInternalHours": 13,
+        "knownTotalHours": 33.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5851190476190475,
+        "plannedCoverage": 0.8621031746031746,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122"
+        ]
+      },
+      "knownAdditionalHours": 4,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "forensics",
+      "name": "Agent forensics and investigation",
+      "before": {
+        "knownCourseHours": 18.6,
+        "knownInternalHours": 13,
+        "knownTotalHours": 31.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5477994227994228,
+        "plannedCoverage": 0.8703102453102454,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 20.6,
+        "knownInternalHours": 13,
+        "knownTotalHours": 33.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.552128427128427,
+        "plannedCoverage": 0.8746392496392498,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122"
+        ]
+      },
+      "knownAdditionalHours": 2,
+      "addedCourseIds": [
+        "TR-109"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "threat-intelligence",
+      "name": "Threat intelligence & detection — AI threat landscape",
+      "before": {
+        "knownCourseHours": 18.6,
+        "knownInternalHours": 11,
+        "knownTotalHours": 29.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6254409171075838,
+        "plannedCoverage": 0.8458994708994709,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-063"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 22.599999999999998,
+        "knownInternalHours": 11,
+        "knownTotalHours": 33.599999999999994,
+        "unknownDurationCount": 1,
+        "unknownCourseIds": [
+          "TR-117"
+        ],
+        "assessedCoverage": 0.630731922398589,
+        "plannedCoverage": 0.8511904761904762,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "TR-063",
+          "TR-117"
+        ]
+      },
+      "knownAdditionalHours": 3.999999999999993,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-117"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "idp",
+      "name": "DLP, classification & AI risk",
+      "before": {
+        "knownCourseHours": 20.28333333333333,
+        "knownInternalHours": 15,
+        "knownTotalHours": 35.28333333333333,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6303571428571428,
+        "plannedCoverage": 0.8573412698412699,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "INT-397",
+          "TR-133"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 24.283333333333335,
+        "knownInternalHours": 15,
+        "knownTotalHours": 39.28333333333333,
+        "unknownDurationCount": 1,
+        "unknownCourseIds": [
+          "TR-118"
+        ],
+        "assessedCoverage": 0.6351190476190476,
+        "plannedCoverage": 0.8621031746031746,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "INT-397",
+          "TR-133",
+          "TR-118"
+        ]
+      },
+      "knownAdditionalHours": 4,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-118"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "biso",
+      "name": "Governance & assurance",
+      "before": {
+        "knownCourseHours": 21.28333333333333,
+        "knownInternalHours": 13,
+        "knownTotalHours": 34.28333333333333,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6134559884559885,
+        "plannedCoverage": 0.8703102453102454,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "INT-397",
+          "TR-112"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 28.283333333333335,
+        "knownInternalHours": 13,
+        "knownTotalHours": 41.28333333333333,
+        "unknownDurationCount": 1,
+        "unknownCourseIds": [
+          "TR-118"
+        ],
+        "assessedCoverage": 0.6228354978354977,
+        "plannedCoverage": 0.8746392496392498,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "INT-397",
+          "TR-118",
+          "TR-112",
+          "TR-124"
+        ]
+      },
+      "knownAdditionalHours": 7,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-118",
+        "TR-124"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N13.3",
+          "before": 1,
+          "after": 2
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "name": "Agent testing and containment",
+      "before": {
+        "knownCourseHours": 19.6,
+        "knownInternalHours": 13,
+        "knownTotalHours": 32.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.573051948051948,
+        "plannedCoverage": 0.8703102453102454,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-114"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 23.599999999999998,
+        "knownInternalHours": 13,
+        "knownTotalHours": 36.599999999999994,
+        "unknownDurationCount": 1,
+        "unknownCourseIds": [
+          "TR-117"
+        ],
+        "assessedCoverage": 0.5773809523809523,
+        "plannedCoverage": 0.8746392496392498,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "TR-114",
+          "TR-117"
+        ]
+      },
+      "knownAdditionalHours": 3.999999999999993,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-117"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "redteam",
+      "name": "Advanced agent red-teaming",
+      "before": {
+        "knownCourseHours": 19.6,
+        "knownInternalHours": 13,
+        "knownTotalHours": 32.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5669913419913419,
+        "plannedCoverage": 0.8703102453102454,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-132"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 23.599999999999998,
+        "knownInternalHours": 13,
+        "knownTotalHours": 36.599999999999994,
+        "unknownDurationCount": 2,
+        "unknownCourseIds": [
+          "TR-117",
+          "TR-119"
+        ],
+        "assessedCoverage": 0.5756493506493506,
+        "plannedCoverage": 0.8789682539682541,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "TR-117",
+          "TR-132",
+          "TR-119"
+        ]
+      },
+      "knownAdditionalHours": 3.999999999999993,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-117",
+        "TR-119"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N2.2",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "exposure",
+      "name": "Agent exposure management",
+      "before": {
+        "knownCourseHours": 19.65,
+        "knownInternalHours": 13,
+        "knownTotalHours": 32.65,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6136904761904762,
+        "plannedCoverage": 0.8573412698412699,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "INT-2269",
+          "TR-162"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 23.65,
+        "knownInternalHours": 13,
+        "knownTotalHours": 36.65,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6184523809523809,
+        "plannedCoverage": 0.8621031746031746,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "INT-2269",
+          "TR-162"
+        ]
+      },
+      "knownAdditionalHours": 4,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "name": "AI code-analysis engineering",
+      "before": {
+        "knownCourseHours": 32.650000000000006,
+        "knownInternalHours": 22,
+        "knownTotalHours": 54.650000000000006,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5815145502645503,
+        "plannedCoverage": 0.881117724867725,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-198",
+          "TR-238",
+          "TR-179"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 37.650000000000006,
+        "knownInternalHours": 22,
+        "knownTotalHours": 59.650000000000006,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5854828042328042,
+        "plannedCoverage": 0.885085978835979,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "TR-198",
+          "TR-238",
+          "TR-123",
+          "TR-179"
+        ]
+      },
+      "knownAdditionalHours": 5,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-123"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "Agent security architecture",
+      "before": {
+        "knownCourseHours": 35.766666666666666,
+        "knownInternalHours": 22,
+        "knownTotalHours": 57.766666666666666,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.611060236060236,
+        "plannedCoverage": 0.893925518925519,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-198",
+          "TR-238",
+          "INT-194",
+          "TR-112"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 40.766666666666666,
+        "knownInternalHours": 22,
+        "knownTotalHours": 62.766666666666666,
+        "unknownDurationCount": 1,
+        "unknownCourseIds": [
+          "TR-117"
+        ],
+        "assessedCoverage": 0.6139092389092389,
+        "plannedCoverage": 0.893925518925519,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "TR-198",
+          "TR-238",
+          "TR-123",
+          "INT-194",
+          "TR-117",
+          "TR-112"
+        ]
+      },
+      "knownAdditionalHours": 5,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-123",
+        "TR-117"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N12.3",
+          "before": 1,
+          "after": 2
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "name": "Security architecture & engineering — agent infrastructure",
+      "before": {
+        "knownCourseHours": 33.55,
+        "knownInternalHours": 22,
+        "knownTotalHours": 55.55,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6167388167388168,
+        "plannedCoverage": 0.8703102453102454,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-198",
+          "TR-238",
+          "TR-094"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 38.55,
+        "knownInternalHours": 22,
+        "knownTotalHours": 60.55,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.621067821067821,
+        "plannedCoverage": 0.8746392496392498,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "TR-198",
+          "TR-238",
+          "TR-123",
+          "TR-094"
+        ]
+      },
+      "knownAdditionalHours": 5,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-123"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "AI security design and remediation",
+      "before": {
+        "knownCourseHours": 18.78333333333333,
+        "knownInternalHours": 13,
+        "knownTotalHours": 31.78333333333333,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6309523809523808,
+        "plannedCoverage": 0.8621031746031746,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "INT-194"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 23.783333333333335,
+        "knownInternalHours": 13,
+        "knownTotalHours": 36.78333333333333,
+        "unknownDurationCount": 1,
+        "unknownCourseIds": [
+          "TR-117"
+        ],
+        "assessedCoverage": 0.6351190476190476,
+        "plannedCoverage": 0.8621031746031746,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "INT-194",
+          "TR-117",
+          "TR-123"
+        ]
+      },
+      "knownAdditionalHours": 5,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-117",
+        "TR-123"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N12.3",
+          "before": 1,
+          "after": 2
+        }
+      ]
+    },
+    {
+      "id": "transformation",
+      "name": "Workflow transformation and adoption",
+      "before": {
+        "knownCourseHours": 16.6,
+        "knownInternalHours": 13,
+        "knownTotalHours": 29.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5903571428571428,
+        "plannedCoverage": 0.8573412698412699,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 20.6,
+        "knownInternalHours": 13,
+        "knownTotalHours": 33.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5951190476190475,
+        "plannedCoverage": 0.8621031746031746,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122"
+        ]
+      },
+      "knownAdditionalHours": 4,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "iam",
+      "name": "Agent identity operations — AI-assisted work",
+      "before": {
+        "knownCourseHours": 12.683333333333334,
+        "knownInternalHours": 5,
+        "knownTotalHours": 17.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6057256235827665,
+        "plannedCoverage": 0.7723922902494331,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-064",
+          "TR-122"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 16.683333333333334,
+        "knownInternalHours": 5,
+        "knownTotalHours": 21.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6284013605442177,
+        "plannedCoverage": 0.7950680272108844,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-064",
+          "TR-122",
+          "TR-110"
+        ]
+      },
+      "knownAdditionalHours": 4,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-110"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.4",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.8",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "iam-integration",
+      "name": "Agent identity integration and design",
+      "before": {
+        "knownCourseHours": 12.683333333333334,
+        "knownInternalHours": 7,
+        "knownTotalHours": 19.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5862244897959183,
+        "plannedCoverage": 0.7655895691609977,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-064",
+          "TR-113"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 18.683333333333334,
+        "knownInternalHours": 7,
+        "knownTotalHours": 25.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6299886621315193,
+        "plannedCoverage": 0.7950680272108844,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-064",
+          "TR-110",
+          "TR-122",
+          "TR-113"
+        ]
+      },
+      "knownAdditionalHours": 6,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-110",
+        "TR-122"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N2.4",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.4",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.8",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "R9.1.3",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "id": "R9.1.4",
+          "before": 0,
+          "after": 2
+        }
+      ]
+    },
+    {
+      "id": "cio",
+      "name": "Strategy & tool selection",
+      "before": {
+        "knownCourseHours": 10.683333333333334,
+        "knownInternalHours": 7,
+        "knownTotalHours": 17.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5416666666666667,
+        "plannedCoverage": 0.812389770723104,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-133"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 14.683333333333334,
+        "knownInternalHours": 7,
+        "knownTotalHours": 21.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.564594356261023,
+        "plannedCoverage": 0.8353174603174603,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-133",
+          "TR-122"
+        ]
+      },
+      "knownAdditionalHours": 4,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N2.4",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.4",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.8",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "foundation-path",
+      "name": "Foundation pathway",
+      "before": {
+        "knownCourseHours": 9.683333333333334,
+        "knownInternalHours": 1,
+        "knownTotalHours": 10.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6095238095238096,
+        "plannedCoverage": 0.7206349206349206,
+        "selectedIds": [
+          "TR-281",
+          "TR-145"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 11.683333333333334,
+        "knownInternalHours": 1,
+        "knownTotalHours": 12.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6507936507936508,
+        "plannedCoverage": 0.761904761904762,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109"
+        ]
+      },
+      "knownAdditionalHours": 2,
+      "addedCourseIds": [
+        "TR-109"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N2.4",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.4",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.8",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "l1-path",
+      "name": "L1 Entry pathway",
+      "before": {
+        "knownCourseHours": 9.683333333333334,
+        "knownInternalHours": 1,
+        "knownTotalHours": 10.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6259920634920636,
+        "plannedCoverage": 0.7185846560846562,
+        "selectedIds": [
+          "TR-281",
+          "TR-145"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 11.683333333333334,
+        "knownInternalHours": 1,
+        "knownTotalHours": 12.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6603835978835979,
+        "plannedCoverage": 0.7529761904761906,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109"
+        ]
+      },
+      "knownAdditionalHours": 2,
+      "addedCourseIds": [
+        "TR-109"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N2.4",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.4",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.8",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "l2-path",
+      "name": "L2 Practitioner pathway",
+      "before": {
+        "knownCourseHours": 16.6,
+        "knownInternalHours": 9,
+        "knownTotalHours": 25.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6263227513227513,
+        "plannedCoverage": 0.8414902998236332,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 20.6,
+        "knownInternalHours": 9,
+        "knownTotalHours": 29.6,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6316137566137565,
+        "plannedCoverage": 0.8467813051146384,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122"
+        ]
+      },
+      "knownAdditionalHours": 4,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "l3-path",
+      "name": "L3 Expert pathway",
+      "before": {
+        "knownCourseHours": 31.583333333333332,
+        "knownInternalHours": 18,
+        "knownTotalHours": 49.58333333333333,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6084054834054835,
+        "plannedCoverage": 0.8703102453102454,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-198",
+          "TR-238"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 36.58333333333333,
+        "knownInternalHours": 18,
+        "knownTotalHours": 54.58333333333333,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6127344877344877,
+        "plannedCoverage": 0.8746392496392498,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-100",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "TR-198",
+          "TR-238",
+          "TR-123"
+        ]
+      },
+      "knownAdditionalHours": 5,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-123"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "security-awareness",
+      "name": "Security awareness & culture",
+      "before": {
+        "knownCourseHours": 9.683333333333334,
+        "knownInternalHours": 1,
+        "knownTotalHours": 10.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6259920634920636,
+        "plannedCoverage": 0.7185846560846562,
+        "selectedIds": [
+          "TR-281",
+          "TR-145"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 11.683333333333334,
+        "knownInternalHours": 1,
+        "knownTotalHours": 12.683333333333334,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.6603835978835979,
+        "plannedCoverage": 0.7529761904761906,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109"
+        ]
+      },
+      "knownAdditionalHours": 2,
+      "addedCourseIds": [
+        "TR-109"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N2.4",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.4",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "id": "N5.8",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "l2-coached-path",
+      "name": "L2 Practitioner — coached evaluation pathway",
+      "before": {
+        "knownCourseHours": 14,
+        "knownInternalHours": 12,
+        "knownTotalHours": 26,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5818783068783069,
+        "plannedCoverage": 0.8414902998236332,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-191",
+          "TR-110"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 18,
+        "knownInternalHours": 12,
+        "knownTotalHours": 30,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5871693121693121,
+        "plannedCoverage": 0.8467813051146384,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-191",
+          "TR-110",
+          "TR-122"
+        ]
+      },
+      "knownAdditionalHours": 4,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": "l3-coached-path",
+      "name": "L3 Expert — coached no-code build pathway",
+      "before": {
+        "knownCourseHours": 14,
+        "knownInternalHours": 28,
+        "knownTotalHours": 42,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5265873015873016,
+        "plannedCoverage": 0.8703102453102454,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-191",
+          "TR-110"
+        ]
+      },
+      "after": {
+        "knownCourseHours": 19,
+        "knownInternalHours": 28,
+        "knownTotalHours": 47,
+        "unknownDurationCount": 0,
+        "unknownCourseIds": [],
+        "assessedCoverage": 0.5309163059163059,
+        "plannedCoverage": 0.8746392496392498,
+        "selectedIds": [
+          "TR-281",
+          "TR-145",
+          "TR-109",
+          "TR-191",
+          "TR-110",
+          "TR-122",
+          "TR-123"
+        ]
+      },
+      "knownAdditionalHours": 5,
+      "addedCourseIds": [
+        "TR-109",
+        "TR-122",
+        "TR-123"
+      ],
+      "improvedOutcomes": [
+        {
+          "id": "N3.5",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    }
+  ]
+}

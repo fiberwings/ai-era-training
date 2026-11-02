@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-02",
+  "catalogue": "v16",
+  "snapshot": "9ed4551ae565417e",
+  "model": "2 revision 3",
+  "pathways": "0.2",
+  "files": {
+    "catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx": "07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb",
+    "training-planner/public/data/catalogue.json": "5cc0672f5352ca0c4ab685a49e36fffe2955375936ef29e944890d0744211766",
+    "capability-framework/Agentic-Era_Workforce_Capability_Model.md": "30fba12759fabc15bdb3823b42e576afd0bb362de8d53617533fd78abff1980c",
+    "recommended-pathways/Recommended-Training-Pathways.json": "54adf8093007c282363fdf78cd69dd68cd6976be60f65689ac1de7efcbbe73b7",
+    "recommended-pathways/Recommended-Training-Pathways.md": "4714534da27e909f5111d52de782cea60ea3f3f68b24483ee5a1c7f93a05cba6",
+    "recommended-pathways/coverage.json": "bac40b62eb22b2e8ccf013c3111744478e85a1d05f790ab6dd8d1ac961463443",
+    "learning-path/index.html": "689183c44f169601334010c8aab2b23d2f1ff6c72373f01717d0479dc56b042c",
+    "training-planner/Training-Planner.html": "34292574f6a6c861408909ac187e62a26d1af35736a582d9e13103a914c2f1d2",
+    "training-planner/public/components.js": "61e4190f42f7a71e7b164d68018185e8848ec1f29fe15076b0805c8421606318",
+    "training-planner/public/capability-model.js": "c9cb11ae8877b46082284480724eed5cd6a88d0915b981c11e55e53e7f892c3f",
+    "training-planner/public/scoring.js": "632a4c76901f0a67d99f178eda171e2f6e884d77cbf2d0da9e389b057f0b836c",
+    "training-planner/public/duration.js": "11c3ce94a632800a89ee9e999d6a7b7d42f593f09d57145fd6eaec5a153d7686"
+  },
+  "gitSourceByFile": {
+    "catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx": "cefd60f",
+    "training-planner/public/data/catalogue.json": "cefd60f",
+    "capability-framework/Agentic-Era_Workforce_Capability_Model.md": "cefd60f",
+    "recommended-pathways/Recommended-Training-Pathways.json": "cefd60f",
+    "recommended-pathways/Recommended-Training-Pathways.md": "cefd60f",
+    "recommended-pathways/coverage.json": "cefd60f",
+    "learning-path/index.html": "cefd60f",
+    "training-planner/Training-Planner.html": "cefd60f",
+    "training-planner/public/components.js": "9441ba2",
+    "training-planner/public/capability-model.js": "cefd60f",
+    "training-planner/public/scoring.js": "cefd60f",
+    "training-planner/public/duration.js": "cefd60f"
+  },
+  "workspaceChange": "Workspace switched from codex/catalogue-v16-retirements to main during review. Original data inputs preserved; metric functions unchanged between these commits. components.js differs only in retired-course validation, which the analysis does not invoke."
+}

@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fundamental AI frameworks — review proposal</title>
+<style>
+:root{color-scheme:light;--ink:#192b39;--muted:#556574;--accent:#006b70;--line:#cdd9df}*{box-sizing:border-box}body{margin:0;background:#edf2f5;color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{background:#15394a;color:white;padding:18px max(24px,calc((100vw - 1320px)/2));font-size:14px;letter-spacing:.04em}header span{display:block;color:#c3e4e4;letter-spacing:0}.layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:34px;max-width:1370px;margin:30px auto;padding:0 24px 60px}nav{position:sticky;top:24px;align-self:start;font-size:13px;line-height:1.4}nav strong{display:block;margin-bottom:12px}nav a{display:block;padding:7px 0;color:var(--muted);text-decoration:none}nav a:hover{color:var(--accent)}main{min-width:0;background:white;padding:44px 48px;box-shadow:0 3px 22px #15394a0c;border:1px solid #e0e6eb;border-radius:8px}h1{font-size:36px;line-height:1.18;letter-spacing:-.025em;margin:0 0 18px;max-width:800px}h2{font-size:25px;line-height:1.3;border-top:2px solid var(--line);padding-top:30px;margin:44px 0 16px;scroll-margin-top:24px}p{margin:0 0 18px}a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}strong{font-weight:650}code{font:12px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere;background:#eef4f5;padding:2px 4px;border-radius:3px}.table-scroll{overflow-x:auto;margin:22px 0 28px}table{border-collapse:collapse;width:100%;font-size:13.5px;line-height:1.5}th,td{text-align:left;vertical-align:top;padding:13px 12px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}th{background:#e6f0f1;color:#123e48;font-weight:650;overflow-wrap:normal;word-break:normal}tbody tr:nth-child(even){background:#f7fafb}table th:first-child{min-width:135px}td p:last-child{margin:0}ol{padding-left:24px}li{padding-left:4px;margin-bottom:12px}main>p:first-of-type{color:var(--muted)}footer{margin-top:40px;padding-top:15px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}@media(max-width:1050px){.layout{grid-template-columns:1fr}nav{position:static;display:none}main{padding:32px}}@media(max-width:620px){.layout{margin:16px 0;padding:0 12px 30px}main{padding:24px 18px}h1{font-size:29px}table{min-width:680px}h2{font-size:22px}}@media print{@page{size:A4 landscape;margin:16mm}body{background:white;font-size:10pt;line-height:1.45}header,nav,footer{display:none}.layout{display:block;margin:0;padding:0}main{padding:0;border:0;box-shadow:none}h1{font-size:26pt}h2{font-size:17pt;margin-top:24pt;padding-top:14pt;break-after:avoid}tr{break-inside:avoid}table{font-size:9pt;min-width:0}.table-scroll{overflow:visible}a{color:#164b58}th{background:#e6f0f1!important;print-color-adjust:exact}}
+</style></head><body><header>AI ERA TRAINING<span>Analysis for review · 2 November 2026 · Pathways unchanged</span></header><div class="layout"><nav aria-label="Report sections"><strong>IN THIS REPORT</strong><a href="#section-1">Why promote these resources</a><a href="#section-2">Eight proposed recommendation decisions</a><a href="#section-3">Material to recommend more selectively</a><a href="#section-4">Additional original frameworks to assess</a><a href="#section-5">Placement within the existing components</a><a href="#section-6">Effect on learner time and coverage</a><a href="#section-7">Turn reference knowledge into useful practice</a><a href="#section-8">Source checks that affect implementation</a><a href="#section-9">Decisions for review</a><a href="#section-10">Evidence and reproducibility</a><a href="report.md">Markdown version</a><a href="../README.md">Evidence and rebuild guide</a></nav><main><h1>Fundamental AI frameworks and original publisher material</h1>
+<p><strong>Review proposal · 2 November 2026</strong></p>
+<p>Promote a small set of original publisher references as named central recommendations, with depth matched to the capability component. The strongest additions are <strong>OWASP LLM Top 10 in Foundation, MITRE ATLAS for threat intelligence and security testing, NIST AI RMF for governance, joint agency guidance for agent supervision, and secure AI development guidance for builders</strong>. NIST’s adversarial machine learning taxonomy and the UK AI security code add specialist depth. Two further candidates merit catalogue assessment: <strong>CSA AI Controls Matrix and MAESTRO</strong>.</p>
+<p>The proposal contains eight decisions on existing catalogue resources. It preserves existing courses and internal learning, and distinguishes additions from resources already selected. <strong>This review has not changed the catalogue, capability model, recommended pathways or apps.</strong> The baseline is catalogue v16, snapshot <code>9ed4551ae565417e</code>, model 2 revision 3 and Recommended Training Pathways v0.2.</p>
+<h2 id="section-1">Why promote these resources</h2>
+<p>Original publisher material gives staff a shared vocabulary for recognising risks, analysing attacks, setting controls and explaining decisions. A course can teach a framework well, but direct familiarity with its maintained source also helps staff interpret updates and check a supplier’s claims. This is a reason to recommend some references even where their saved assessment does not increase a pathway’s coverage score.</p>
+<p>The selection favours material that is maintained by its originating organisation or project, applies across tools, addresses a recurring cybersecurity responsibility, and gives staff something concrete to use. “Fundamental” can mean essential to a specialism. It does not mean every employee should read every framework. Here, OWASP Top 10 means the <strong>LLM and Agentic Applications</strong> publications; the general web application Top 10 remains part of existing cyber craft.</p>
+<p>Most candidates are guidance, taxonomies or reference libraries. They should be described as <strong>recommended reading or reference material</strong>, rather than presented as practical courses. Topic fit below is a curriculum recommendation; numerical evidence continues to come only from the saved catalogue assessments.</p>
+<h2 id="section-2">Eight proposed recommendation decisions</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Decision and source</th>
+<th>Placement and audience</th>
+<th>Why it belongs there</th>
+<th>Current position and proposed action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>A1 · TR-109</strong> — <a href="https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/">OWASP LLM Top 10 2026</a>. Catalogue reading time: <strong>2h</strong>.</td>
+<td><strong>Foundation</strong>, inherited once by all levels. Main outcomes: N3.5 prompt injection, N5.4 attacks on AI and N5.8 AI security risk overview.</td>
+<td>Establishes common language for LLM risks and mitigations. Staff should recognise the risks and know where to look up the detail.</td>
+<td>Not currently selected. <strong>Add to Foundation</strong>, subject to review of this extension to the Reviewed bundle. Keep TR-281, TR-145 and the one-hour AI use cases brief.</td>
+</tr>
+<tr>
+<td><strong>A2 · TR-110</strong> — <a href="https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/">OWASP Top 10 for Agentic Applications 2026</a>. <strong>2h</strong>.</td>
+<td><strong>L2 Practitioner</strong>, including coached L2; inherited by L3. Also relevant specialisms at any level: AI security, testing, exposure, architecture and IAM operations. N7.1, N7.2, N7.4 and N8.4–N8.5; specialist N12 and R-coded controls.</td>
+<td>Adds risks created when AI takes actions, including tool misuse, privilege abuse and agent interactions. Gives supervisors a risk vocabulary for delegation and intervention.</td>
+<td>Already selected in both L2 variants. <strong>Retain and make accessible through the relevant specialisms</strong>, so an L1 IAM specialist is not required to become L2 to receive it. Deduplicate the same course across an audience’s components.</td>
+</tr>
+<tr>
+<td><strong>A3 · TR-117</strong> — <a href="https://atlas.mitre.org/">MITRE ATLAS</a>, with <a href="https://github.com/mitre-atlas/atlas-data/releases">MITRE’s release record</a>. <strong>Varies; unknown</strong>.</td>
+<td>Primary: <strong>Threat intelligence &amp; detection — AI threat landscape</strong>. Also <strong>Agent testing and containment</strong> and <strong>AI security design and remediation</strong>, including their variants. Reference for incident responders.</td>
+<td>Gives analysts and testers a common way to describe adversary behaviour and relate cases to threats and mitigations. Use a case to connect a technique, an exposed asset and a defensive response.</td>
+<td>Not selected. <strong>Promote after version and time review</strong>. Catalogue title is v2026.08; MITRE lists v2026.10. The saved N5.7 score is <strong>0</strong>, so adding it does not close the threat-tracking outcome. Existing TR-063 and internal learning remain.</td>
+</tr>
+<tr>
+<td><strong>A4 · TR-118</strong> — <a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST AI RMF 1.0</a>, Playbook and <a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence">GenAI Profile AI 600-1</a>. <strong>4h+; unknown</strong>.</td>
+<td><strong>AI governance and risk</strong>, including the assurance pathway variant. Main fit: N13.1–N13.4 and N13.6. Leaders and vendor evaluators can use relevant sections as references.</td>
+<td>Supplies the governance structure behind inventories, risk decisions, measurement, treatment and supplier challenge. The GenAI Profile makes the general framework more specific to generative AI.</td>
+<td>Not selected. <strong>Add the full catalogue bundle to the two governance components</strong> after agreeing learner time. Preserve INT-397. A short leadership extract must not inherit the full bundle’s coverage.</td>
+</tr>
+<tr>
+<td><strong>A5 · TR-122</strong> — <a href="https://www.cyber.gov.au/publication/careful-adoption-of-agentic-ai-services">Careful adoption of agentic AI services</a>, authored jointly by ASD ACSC, CISA, NSA and Canadian, New Zealand and UK agencies. <strong>1–2h; budget 2h</strong>.</td>
+<td><strong>L2</strong>, both variants; <strong>Leadership and accountability</strong>, <strong>Agent security architecture</strong>, <strong>Agent assurance</strong> and the <strong>IAM integration</strong> route. N7.1–N7.2, N7.4, N13.3, N14.3, N14.7 and relevant identity/control outcomes.</td>
+<td>Connects agent risks to oversight, privileges, monitoring and bounded deployment. Its scope explicitly urges low-risk, non-sensitive use; it cannot serve as permission for more sensitive operations.</td>
+<td>Already selected for forensics and IAM operations. <strong>Retain and extend</strong> to supervisors, accountable leaders and control owners. Include the separate IAM integration variant, which currently lacks it.</td>
+</tr>
+<tr>
+<td><strong>A6 · TR-123</strong> — <a href="https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development">NCSC and CISA Guidelines for secure AI system development</a>. <strong>1h</strong>.</td>
+<td><strong>L3</strong>, including coached/no-code builders; also <strong>AI security design and remediation</strong> and its architecture variant at any level. Specialist fit: N12.3, N12.6, N12.7 and N13.4.</td>
+<td>A concise lifecycle reference for secure design, development, deployment and operation. Useful for builders using APIs or configured platforms as well as custom code.</td>
+<td>Not selected. <strong>Add as secure-development orientation</strong>. The saved record has <strong>zero credit against shared L3 outcomes</strong>, including N10.8. Do not portray this addition as completing safe deployment or evaluation training.</td>
+</tr>
+<tr>
+<td><strong>A7 · TR-119</strong> — <a href="https://csrc.nist.gov/pubs/ai/100/2/e2025/final">NIST AI 100-2 E2025 Adversarial Machine Learning Taxonomy</a>. <strong>3h+; unknown</strong>.</td>
+<td><strong>Advanced agent red-teaming</strong>. Optional technical reference for threat intelligence and AI security design. N12.5, N12.7, R3.1.3–R3.1.5; limited N5.7 evidence.</td>
+<td>Gives technical specialists precise attack and mitigation terminology, including poisoning, evasion and privacy-related attacks. Complements the operational cases in ATLAS.</td>
+<td>Not selected. <strong>Add for advanced red-team specialists</strong>, subject to a realistic reading-time estimate. Avoid requiring the research-grade document in Foundation.</td>
+</tr>
+<tr>
+<td><strong>A8 · TR-124</strong> — <a href="https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai">UK AI Cyber Security Code of Practice and implementation guide</a>. <strong>2–3h; budget 3h</strong>.</td>
+<td><strong>Agent assurance</strong> as a broader AI lifecycle reference. Secondary reference for governance and architecture. N13.1–N13.6 and N12.6–N12.8, where applicable.</td>
+<td>Gives assurance staff a lifecycle baseline against which to structure evidence requests. The UK code is voluntary; applicability to the organisation must be established separately.</td>
+<td>Not selected. <strong>Add the assessed code/guide to assurance</strong>. It has <strong>zero saved score for R6.1.1–R6.1.2</strong>. The title also names ETSI EN 304 223; separate that published standard from the UK guide before treating it as assessed teaching.</td>
+</tr>
+</tbody></table></div>
+<p>All eight records are active and marked Free in catalogue v16. Their durations are catalogue planning values, not publisher promises or measured completion times. Unknown and open-ended durations remain unknown.</p>
+<h2 id="section-3">Material to recommend more selectively</h2>
+<p>These resources deserve visibility, but adding all of them as required reading would repeat content and increase learner time without a clear benefit.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Best placement</th>
+<th>Recommendation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>TR-114 OWASP GenAI Red Teaming Guide</strong> and <strong>TR-115 OWASP AI Testing Guide v1</strong></td>
+<td>Agent testing and containment; advanced red-teaming; testing references for agent assurance</td>
+<td>Keep TR-114’s existing selection. Offer TR-115 as a test-reference library before deciding on a full <strong>3h+</strong> assignment. OWASP’s <a href="https://owasp.github.io/www-project-ai-testing-guide/">testing guide</a> covers application, model, infrastructure and data layers. A new <a href="https://genai.owasp.org/resource/genai-red-teaming-manual-version-1-0/">Red Teaming Manual dated 20 October 2026</a> warrants a separate comparison with TR-114; do not silently substitute its eight-phase method for the assessed <a href="https://genai.owasp.org/resource/genai-red-teaming-guide/">2025 guide</a>.</td>
+</tr>
+<tr>
+<td><strong>TR-070 Google SAIF and Risk Map</strong></td>
+<td>AI security design and remediation; Agent security architecture</td>
+<td>Promote as an optional visual design aid, <strong>1–2h</strong>. <a href="https://saif.google/">Google’s source</a> combines risks, controls and an agent self-assessment. It is a useful original framework from a vendor, with transferable content; it does not need to be assigned to every learner.</td>
+</tr>
+<tr>
+<td><strong>TR-111 OWASP Agentic AI Threats &amp; Mitigations</strong></td>
+<td>AI security design and remediation; Agent security architecture</td>
+<td>Retain as optional depth after the Agentic Top 10. The saved catalogue describes a reference architecture and threat-model examples. Compare it with MAESTRO before requiring both full readings.</td>
+</tr>
+<tr>
+<td><strong>TR-112 OWASP Agent Control Standard</strong></td>
+<td>Agent security architecture; Agent assurance</td>
+<td>Preserve both existing selections, but describe it as an <strong>emerging specification and implementation example</strong>. The <a href="https://github.com/GenAI-Security-Project/agent-control-standard">project repository</a> identifies v0.1.0 limitations, including unauthenticated reference-implementation traffic and a fail-open default. It should not be the sole basis for teaching production controls.</td>
+</tr>
+<tr>
+<td><strong>TR-132 CSA Agentic AI Red Teaming Guide</strong></td>
+<td>Advanced agent red-teaming</td>
+<td>Preserve the selection while checking full-resource access and content. The <a href="https://cloudsecurityalliance.org/artifacts/agentic-ai-red-teaming-guide">publisher page</a> describes agent-specific testing; download currently requires login. Saved catalogue evidence explicitly says the full PDF was not read. Do not upgrade that evidence through this report.</td>
+</tr>
+<tr>
+<td><strong>TR-133 CSA Levels of Autonomy</strong></td>
+<td>AI governance and risk; Leadership and accountability</td>
+<td>Preserve the existing discussion reference. Its catalogue evidence labels it a proposal rather than an established standard. Its <strong>L0–L5 autonomy levels must remain distinct from workforce L1–L3 capabilities</strong>. Use A5 as the broader agency guidance.</td>
+</tr>
+<tr>
+<td><strong>TR-168 OWASP Agentic Skills Top 10</strong></td>
+<td>Agent infrastructure; reusable instructions and connectors; exposure management</td>
+<td>Offer a targeted reference for people publishing or vetting Skills. The <a href="https://owasp.org/projects/agentic-skills-top-10">OWASP project</a> focuses on Skills risks and maps them to MAESTRO. The saved record identifies draft/incubator status; verify the exact edition before elevating it to a common requirement.</td>
+</tr>
+</tbody></table></div>
+<h2 id="section-4">Additional original frameworks to assess</h2>
+<p>The following two resources are not standalone active catalogue records. Mentions of them inside existing courses or descriptions do not give the original publications their own assessment credit.</p>
+<p><strong>CSA AI Controls Matrix v1.1 and AI-CAIQ</strong> is the strongest next addition for governance and assurance. CSA’s <a href="https://cloudsecurityalliance.org/artifacts/ai-controls-matrix-v1-1">22 June 2026 release</a> contains 247 control objectives across 18 domains, implementation and auditing guidance, and questions for self-assessment and supplier evaluation. Assess a defined learning package for <strong>AI governance and risk</strong> and <strong>Agent assurance</strong>, with selected references for <strong>Vendor evaluation and tool selection</strong> and <strong>Agent security architecture</strong>. Candidate outcomes include N13.1, N13.2, N13.4, N13.6 and R6.1.1. These are proposed mappings, not scores. Start with the <a href="https://cloudsecurityalliance.org/artifacts/aicmv1-1-implementation-guidelines-for-ai-customers-aic">AI Customer guidance</a> where the organisation consumes AI services; select provider guidance only for responsibilities it actually performs. Obtain the complete download and agree learning time before assignment.</p>
+<p><strong>MAESTRO</strong>, created by Ken Huang and published through CSA, is the strongest next addition for agent threat modelling. The <a href="https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro">author’s original article</a> and <a href="https://labs.cloudsecurityalliance.org/maestro/">CSA project hub</a> describe a layered method for identifying threats within and across agent components. Assess it for <strong>AI security design and remediation</strong> and <strong>Agent security architecture</strong>, particularly N12.1, N12.9 and R5.1.6, with advanced red-team use as a secondary fit. Treat it as a practitioner method, not a mandatory standard. Compare its teaching value with TR-111; a single applied threat-model exercise may be more useful than assigning both references end to end. Its catalogue duration and assessment remain unset.</p>
+<p>Other material has a narrower purpose. <a href="https://www.iso.org/standard/42001">ISO/IEC 42001</a> and <a href="https://www.iso.org/standard/77304.html">ISO/IEC 23894</a> belong with governance and assurance where formal management systems or standards alignment are required. The original standards require licensed access; PECB and Udemy courses about them are not publications by ISO/IEC. <strong>TR-121 NICE</strong> and <strong>TR-134 SFIA</strong> are better references for workforce planners than required learner reading. <strong>TR-120 NIST Cyber AI Profile</strong> belongs on a governance/leadership watchlist: the <a href="https://www.nccoe.nist.gov/projects/cyber-ai-profile">project page</a> redirects to “Cyber SI Profile” and still links IR 8596 as an initial public draft under comment review. Reconcile that naming and status before promotion. OWASP workshop collections such as <strong>TR-160</strong> need a named recording, scope and duration before assignment.</p>
+<p>Existing exclusions remain intact, including TR-127, TR-229 and the recorded ANSSI/Singapore guidance exclusions. Product and protocol documentation should continue to follow actual tool access and responsibilities in the tool-training layer.</p>
+<h2 id="section-5">Placement within the existing components</h2>
+<p>The following is the precise proposed addition list. Existing selections are retained. The entries are component IDs from the saved scenario, so the proposal can be reviewed without inventing a new framework structure.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Decision</th>
+<th>Course</th>
+<th>Add to these existing components</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A1</td>
+<td>TR-109</td>
+<td><code>foundation</code></td>
+</tr>
+<tr>
+<td>A2</td>
+<td>TR-110</td>
+<td><code>specialism-ai-security</code>; <code>specialism-ai-security-architecture</code>; <code>specialism-agent-testing</code>; <code>specialism-agent-testing-redteam</code>; <code>specialism-exposure-management</code>; <code>specialism-agent-architecture</code>; <code>specialism-identity-operations</code>; <code>specialism-identity-operations-integration</code></td>
+</tr>
+<tr>
+<td>A3</td>
+<td>TR-117</td>
+<td><code>specialism-threat-intelligence</code>; <code>specialism-agent-testing</code>; <code>specialism-agent-testing-redteam</code>; <code>specialism-ai-security</code>; <code>specialism-ai-security-architecture</code></td>
+</tr>
+<tr>
+<td>A4</td>
+<td>TR-118</td>
+<td><code>specialism-ai-governance</code>; <code>specialism-ai-governance-assurance</code></td>
+</tr>
+<tr>
+<td>A5</td>
+<td>TR-122</td>
+<td><code>l2</code>; <code>l2-coached</code>; <code>specialism-leadership</code>; <code>specialism-agent-architecture</code>; <code>specialism-agent-assurance</code>; <code>specialism-identity-operations-integration</code></td>
+</tr>
+<tr>
+<td>A6</td>
+<td>TR-123</td>
+<td><code>l3</code>; <code>l3-coached</code>; <code>specialism-ai-security</code>; <code>specialism-ai-security-architecture</code></td>
+</tr>
+<tr>
+<td>A7</td>
+<td>TR-119</td>
+<td><code>specialism-advanced-redteam</code></td>
+</tr>
+<tr>
+<td>A8</td>
+<td>TR-124</td>
+<td><code>specialism-agent-assurance</code></td>
+</tr>
+</tbody></table></div>
+<p>Keep the existing variant structure. In particular, updating the ordinary AI governance or AI security component alone would miss the assurance or architecture branch. Shared resources can be assigned to more than one applicable component, but each audience must receive one completion record and one time allowance per course ID. Specialist reading applies according to responsibility, independently of agentic level.</p>
+<h2 id="section-6">Effect on learner time and coverage</h2>
+<p>Adding A1 makes the shared <strong>Foundation/L1 commitment 12h 41m</strong>, up from 10h 41m, before tool training. That includes the existing one-hour <strong>Proposed</strong> AI use cases brief. This is an explicit extension to the previously Reviewed choice, not a restatement of an approved requirement.</p>
+<p>The table models A1–A8 against the saved v16 assessments and the existing scenario, without publishing any selections. Range durations use their upper bounds; shared courses and internal activities are counted once. New CSA candidates and optional references are excluded. A3 uses the saved ATLAS assessment for illustration; its updated edition still needs review.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Shared pathway</th>
+<th>Current planned time</th>
+<th>Proposed planned time</th>
+<th>Change</th>
+<th>Assessed coverage before → after</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Foundation pathway</td>
+<td>10h 41m</td>
+<td>12h 41m</td>
+<td>+2h</td>
+<td>61.0% → 65.1%</td>
+</tr>
+<tr>
+<td>L1 Entry pathway</td>
+<td>10h 41m</td>
+<td>12h 41m</td>
+<td>+2h</td>
+<td>62.6% → 66.0%</td>
+</tr>
+<tr>
+<td>L2 Practitioner pathway</td>
+<td>25h 36m</td>
+<td>29h 36m</td>
+<td>+4h</td>
+<td>62.6% → 63.2%</td>
+</tr>
+<tr>
+<td>L3 Expert pathway</td>
+<td>49h 35m</td>
+<td>54h 35m</td>
+<td>+5h</td>
+<td>60.8% → 61.3%</td>
+</tr>
+<tr>
+<td>L2 Practitioner — coached evaluation pathway</td>
+<td>26h</td>
+<td>30h</td>
+<td>+4h</td>
+<td>58.2% → 58.7%</td>
+</tr>
+<tr>
+<td>L3 Expert — coached no-code build pathway</td>
+<td>42h</td>
+<td>47h</td>
+<td>+5h</td>
+<td>52.7% → 53.1%</td>
+</tr>
+</tbody></table></div>
+<p>Representative specialist paths show why a programme-wide fixed total would be misleading:</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Existing audience path</th>
+<th>Added known time</th>
+<th>Additional unknown readings</th>
+<th>Newly assigned course IDs</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>GRC — agent supervision</td>
+<td>+4h</td>
+<td>TR-118</td>
+<td>TR-109, TR-122, TR-118</td>
+</tr>
+<tr>
+<td>Governance &amp; assurance</td>
+<td>+7h</td>
+<td>TR-118</td>
+<td>TR-109, TR-122, TR-118, TR-124</td>
+</tr>
+<tr>
+<td>Threat intelligence &amp; detection — AI threat landscape</td>
+<td>+4h</td>
+<td>TR-117</td>
+<td>TR-109, TR-122, TR-117</td>
+</tr>
+<tr>
+<td>Advanced agent red-teaming</td>
+<td>+4h</td>
+<td>TR-117, TR-119</td>
+<td>TR-109, TR-122, TR-117, TR-119</td>
+</tr>
+<tr>
+<td>Agent security architecture</td>
+<td>+5h</td>
+<td>TR-117</td>
+<td>TR-109, TR-122, TR-123, TR-117</td>
+</tr>
+<tr>
+<td>Agent forensics and investigation</td>
+<td>+2h</td>
+<td>None</td>
+<td>TR-109</td>
+</tr>
+<tr>
+<td>Agent identity integration and design</td>
+<td>+6h</td>
+<td>None</td>
+<td>TR-109, TR-110, TR-122</td>
+</tr>
+</tbody></table></div>
+<p>“Known hours” are a subtotal whenever an unknown resource is listed. <strong>TR-117 Varies, TR-118 4h+ and TR-119 3h+ must not be treated as zero hours or as fixed 4h/3h courses.</strong> The full course/resource duration rule still applies. If a short extract is preferred, define its scope as a separate internal teaching brief, with its own time, Proposed delivery status and outcome rationale; it does not inherit the full resource’s assessed scores.</p>
+<p>There is useful incremental evidence in A1: saved best scores improve for <strong>N2.4 (1→2), N3.5 (2→3), N5.4 (2→3) and N5.8 (2→3)</strong>. The other principal placements are often justified by common reference knowledge rather than a higher score. NIST AI RMF adds no higher scores than the existing courses in the ordinary governance component. ATLAS has zero saved N5.7 credit, and the UK code has zero saved R6.1 credit. Preserve those results and reassess only against explicit new evidence. Coverage continues to mean curriculum evidence, not measured competence or permission to operate agents.</p>
+<h2 id="section-7">Turn reference knowledge into useful practice</h2>
+<p>Use the existing internal exercises where their scope permits, with subject owners reviewing any additions. Examples below are proposed teaching changes, not new ready-to-deliver modules or automatic assessment credit.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Audience</th>
+<th>Suggested use of the original material</th>
+<th>Evidence a learner could produce</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Foundation</td>
+<td>Discuss one familiar AI use case using OWASP LLM risks.</td>
+<td>A short explanation of a risk, a safe response and when to escalate.</td>
+</tr>
+<tr>
+<td>L2 supervisors</td>
+<td>Apply the Agentic Top 10 and joint agency guidance to an approved workflow.</td>
+<td>A delegation boundary, approval point, monitoring check and stop/escalation decision.</td>
+</tr>
+<tr>
+<td>Threat intelligence and testers</td>
+<td>Map a documented case to ATLAS and choose a defensible detection or test hypothesis.</td>
+<td>A cited technique mapping, expected evidence and stated limits.</td>
+</tr>
+<tr>
+<td>GRC and assurance</td>
+<td>Work through an AI risk decision using NIST; later pilot a small relevant set of AICM controls.</td>
+<td>A risk record, treatment owner, evidence request and unresolved control gap.</td>
+</tr>
+<tr>
+<td>Builders and architects</td>
+<td>Review lifecycle responsibilities using NCSC guidance; later pilot MAESTRO on one agent design.</td>
+<td>A threat model, control allocation and release/rollback evidence.</td>
+</tr>
+</tbody></table></div>
+<p>Do not compress the existing AI use cases hour to absorb extra teaching by assumption. Agree any revised scope and learner time with its owner. General AI test guidance does not replace domain evaluation, and reference reading does not replace bank-specific IAM, incident-response or recovery drills.</p>
+<h2 id="section-8">Source checks that affect implementation</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Verified finding and required treatment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>OWASP LLM edition</td>
+<td>The direct <a href="https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/">2026 release page</a> and linked 122-page PDF support TR-109’s edition. The <a href="https://genai.owasp.org/llm-top-10/">general index</a> still shows 2025. Use the specific release link; there is no basis here to downgrade the catalogue title.</td>
+</tr>
+<tr>
+<td>ATLAS edition and future ATT&amp;CK relationship</td>
+<td><a href="https://github.com/mitre-atlas/atlas-data/releases">MITRE’s releases</a> list v2026.10, newer than the catalogue title. MITRE’s <a href="https://www.mitre.org/news-insights/news-release/mitre-attck-enterprise-add-ai-platform">27 October announcement</a> says an ATT&amp;CK AI platform is planned for early 2027 and that ATLAS remains a maintained resource. Refresh the exact record; do not replace it with an unreleased platform.</td>
+</tr>
+<tr>
+<td>NIST AI RMF</td>
+<td>NIST says <a href="https://www.nist.gov/itl/ai-risk-management-framework">AI RMF 1.0 is being revised</a>. Continue to name the published edition and its GenAI Profile. A revision in progress does not itself retire the existing resource.</td>
+</tr>
+<tr>
+<td>UK code and ETSI</td>
+<td><a href="https://www.etsi.org/deliver/etsi_en/304200_304299/304223/02.01.01_60/en_304223v020101p.pdf">ETSI EN 304 223 V2.1.1</a> is a published standard, dated December 2025; <a href="https://www.etsi.org/newsroom/press-releases/2627-etsi-releases-world-leading-standard-for-securing-ai/">ETSI announced it in January 2026</a>. TR-124’s saved description assesses the UK code and guide. Clarify the resource boundary and assess additional standard content before claiming its credit.</td>
+</tr>
+<tr>
+<td>Emerging and access-limited material</td>
+<td>Keep ACS’s implementation limits, the Skills Top 10 edition status, the CSA red-team download requirement and the NIST draft status visible beside the relevant recommendation. Original authorship alone does not settle maturity or instructional completeness.</td>
+</tr>
+<tr>
+<td>Workspace baseline</td>
+<td>The workspace switched to v15/pathways v0.1 during this review. This report preserves the original v16/v0.2 baseline from Git checkpoint <code>cefd60f</code>. Component and audience selections are identical between the two pathway editions. Reconcile the intended release baseline before implementation.</td>
+</tr>
+</tbody></table></div>
+<h2 id="section-9">Decisions for review</h2>
+<ol>
+<li><strong>Approve or amend A1–A8</strong>, especially the extra two hours in Foundation. The preferred approach is named central reading, retained alongside current courses and practice.</li>
+<li><strong>Confirm the unknown-time assignments</strong> for ATLAS, NIST AI RMF and NIST AML. Approve the material in principle now if useful, then agree the full learning scope/time and edition evidence before publication.</li>
+<li><strong>Choose whether to assess CSA AICM and MAESTRO next.</strong> They are candidates for new catalogue records, not immediate scored selections.</li>
+<li><strong>Keep supplementary material selective.</strong> Preserve existing selections while reviewing the specific access, edition and evidence issues above. Do not replace practical courses merely because their topic overlaps a framework.</li>
+</ol>
+<p>After decisions are agreed, reconcile any catalogue updates first, then make a separately versioned pathway update using the existing IDs and variants. Record review status only for the decisions actually reviewed. Regenerate the guide, briefs and coverage together, and publish to the learner app only as authorised. Preserve personal plans, progress, feedback, exclusions, historical packages and the distinction between selection review and delivery readiness.</p>
+<h2 id="section-10">Evidence and reproducibility</h2>
+<p>The workbook check validated <strong>516 active resources</strong>, <strong>56,140 numerical scores</strong>, <strong>280 explicitly unassessed rows</strong> and <strong>9,591 coverage rows</strong>, with zero course changes against the current imported snapshot. The comparison uses the workbook-derived snapshot and a frozen copy of the pathway decision source. It does not rescore resources from publisher marketing pages.</p>
+<p>The linked publisher pages were checked on 2 November 2026. New-source review used the original publisher descriptions and available substantive pages; the complete CSA download packages and paid ISO texts were not reviewed. Proposed mappings for new resources therefore remain unassessed. The <a href="catalogue-evidence.json">catalogue evidence extract</a> includes record locations, saved positive scores, original evidence and current assignments; the <a href="impact.json">impact record</a> contains deduplicated time and saved-score comparisons for all 26 audience paths. The <a href="../README.md">analysis guide</a> records the baseline identities and rebuild command.</p>
+<footer>Proposal based on catalogue v16 and Recommended Training Pathways v0.2. No changes have been published.</footer></main></div></body></html>
