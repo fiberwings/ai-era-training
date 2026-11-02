@@ -37,13 +37,14 @@ test('retired exclusions remain valid, but selected and pinned retirements warn 
   }
  }
 });
-test('maintained pathways retain every component, audience, selection, review label and coverage result',()=>{
- const s=read('../../recommended-pathways/Recommended-Training-Pathways.json');
+test('archived v16 compatibility publication retains the v0.1 components, audiences, reviews and coverage',()=>{
+ const s=read('../../archive/recommended-pathways/v0.2/Recommended-Training-Pathways.json');
+ const snapshot=read('../catalogue-history/9ed4551ae565417e.json');
  const old=read('../../archive/recommended-pathways/v0.1/Recommended-Training-Pathways.json');
  assert.deepEqual(s.components,old.components);assert.deepEqual(s.audiences,old.audiences);
- assert.deepEqual(validateScenario(s,current),[]);
+ assert.deepEqual(validateScenario(s,snapshot),[]);
  for(const [key,groups] of Object.entries({components:s.components,audiences:s.audiences}))for(const g of groups){
-  const a=pathMetrics(current,s,g),b=pathMetrics(prior,old,old[key].find(x=>x.id===g.id));
+  const a=pathMetrics(snapshot,s,g),b=pathMetrics(prior,old,old[key].find(x=>x.id===g.id));
   for(const field of ['rows','coverage','total','planned'])assert.deepEqual(a[field],b[field],g.id+' '+field);
  }
 });

@@ -1,12 +1,12 @@
 # Cyber capability planner
 
-Current release: **2.2.1 — 2 November 2026**. Catalogue **v16**, snapshot `9ed4551ae565417e`; capability model **2 revision 3**.
+Current release: **2.2.2 — 2 November 2026**. Catalogue **v17**, snapshot `8bffc898c371360e`; capability model **2 revision 3**.
 
 Open [Training-Planner.html](Training-Planner.html) in a desktop browser. It embeds the full catalogue, model, application and solver, and works without installation or a server. [Project context](../docs/PROJECT_CONTEXT.md) records the agreed scope; [AGENTS.md](../AGENTS.md) identifies authoritative sources and working rules.
 
 ## Current starting points
 
-The maintained [Recommended Training Pathways v0.2](../recommended-pathways/README.md) is available as a separate [schema-3 JSON import](../recommended-pathways/Recommended-Training-Pathways.json). Foundation/L1 is Reviewed; the remaining recommendations are AI generated — to be reviewed. Use **Scenario & exports → Import scenario JSON** to load it. The workspace continues to start blank.
+The maintained [Recommended Training Pathways v0.3](../recommended-pathways/README.md) is available as a separate [schema-3 JSON import](../recommended-pathways/Recommended-Training-Pathways.json). Foundation/L1 and the separately approved core-reference placements are Reviewed; wider pathways remain AI recommendation - to be reviewed. Use **Scenario & exports → Import scenario JSON** to load it. The workspace continues to start blank.
 
 The component workspace starts with **21 blank components and 19 audience templates**. Compose Foundation, L1 Entry, L2 Practitioner, L3 Expert, specialisms and tooling. Course budgets start at 2h, 2h, 8h and 24h for the shared layers, with 4h for each specialism; internal practice is additional. Tool budgets begin unset. Audience-specific copies let a local variant evolve without changing other audiences.
 
@@ -42,7 +42,7 @@ Finalisation retains catalogue/model identity and unresolved-reference checks. C
 
 ## Save proposed internal training in Excel
 
-The maintained v16 workbook already contains **AI use cases**. In the planner, open **Full catalogue**, set **Training type** to **Internal training**, and preview the saved brief to choose its destination component. All details are retained when adding it to another plan.
+The maintained v17 workbook already contains **AI use cases**. In the planner, open **Full catalogue**, set **Training type** to **Internal training**, and preview the saved brief to choose its destination component. All details are retained when adding it to another plan.
 
 
 Use **Scenario & exports → Save internal training to Excel** (also **Save to Excel** in the Internal learning section). Choose the current catalogue `.xlsx`, then download the updated copy. Save that copy as your working catalogue. The app does not overwrite a file on your computer automatically.
@@ -88,13 +88,13 @@ Read the [catalogue guide](../catalogue/README.md). Save and recalculate Excel f
 
 ```sh
 python3 -m pip install -r training-planner/requirements.txt
-python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx --check
-python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx
+python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx --check
+python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx
 ```
 
 For an intentional update, refresh without `--check`, review its change report and scenario compatibility, then rebuild current model/starter/app artifacts. Changing a snapshot does not approve old planning decisions. The packager requires compatible identities; never bypass that by blindly stamping a new version into a scenario.
 
-Importing ignores the outdated Matrix, preserves IDs and evidence, validates source references and scores, and reconciles workbook coverage rows. `catalogue-history/` retains old/new snapshots and change reports. Repeating an unchanged refresh creates no new backup. A failed validation leaves the active snapshot intact. Rollback uses `refresh_catalogue.py --rollback VERSION_HASH` and affects the loaded catalogue for every plan, not an individual scenario.
+Catalogue v17 removes obsolete planning tabs, including Matrix. Importing uses named headers, preserves IDs and evidence, validates source references and scores, and reconciles workbook coverage rows. The six Build items templates and saved Proposed training register remain separate. `catalogue-history/` retains old/new snapshots and change reports. Repeating an unchanged refresh creates no new backup. A failed validation leaves the active snapshot intact. Rollback uses `refresh_catalogue.py --rollback VERSION_HASH` and affects the loaded catalogue for every plan, not an individual scenario.
 
 ## Development and verification
 

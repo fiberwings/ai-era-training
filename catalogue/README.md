@@ -1,14 +1,18 @@
 # Training catalogue
 
-[AI Era Cyber Training Catalogue v16](AI_Era_Cyber_Training_Catalogue_v16.xlsx) is the current assessed workbook, released 2 November 2026 (assessment evidence remains dated 1 November). [Previous workbooks](../archive/catalogues/) are historical. [Review evidence](evidence/README.md) preserves assessment provenance.
+[AI Era Cyber Training Catalogue v17](AI_Era_Cyber_Training_Catalogue_v17.xlsx) is the current assessed workbook, released 2 November 2026 (assessment evidence remains dated 1 November). [Previous workbooks](../archive/catalogues/) are historical. [Review evidence](evidence/README.md) preserves assessment provenance.
 
-The workbook owns courses, rubric assessments and evidence. The live JSON snapshot is [catalogue.json](../training-planner/public/data/catalogue.json); snapshot/version metadata and the source workbook hash are embedded there. The outdated Matrix sheet is not the curriculum authority.
+The workbook owns courses, rubric assessments and evidence. The live JSON snapshot is [catalogue.json](../training-planner/public/data/catalogue.json); snapshot/version metadata and the source workbook hash are embedded there. The capability framework and Recommended Training Pathways own curriculum; obsolete Excel planning views are archived in v16.
 
 The current import contains 516 active resources (403 Offers and 113 Tool track entries), 140 active outcomes, 23 scored needs, 56,140 numerical scores and 280 explicitly unassessed rows. Preserve stable IDs, links, source rows and the distinction between zero and unassessed. Tool-track descriptions do not supply rubric assessment scores.
 
-V16 applies the **18 approved retirements** from the [freshness review](../analysis/catalogue-freshness-review/README.md). The **Retirements** sheet records the IDs, titles, dates, reasons and sources. Offers and Tool track default to **Lifecycle = Active**; clear the filter to inspect retired rows. All 534 original records and 58,100 original scores remain as historical evidence, at their original row references. The importer validates all 9,591 coverage rows before excluding retired records from active selections and recommendations. Retired metadata supplies names and reasons for saved-plan history, never assessment credit. No retained course assessment, outcome or saved internal brief changed. See [v16 implementation and verification](evidence/v16/README.md).
+V17 simplifies the workbook from **18 tabs to 12**, without changing any imported course, assessment, outcome, internal brief, build template or retirement record. The [unchanged v16 workbook](../archive/catalogues/AI_Era_Cyber_Training_Catalogue_v16.xlsx) preserves Matrix, empty Paths and Path detail, Tool adoption, Screening log, Codes and the historical release chronology. Necessary glossary definitions are retained in Scoring guide. See [v17 implementation and verification](evidence/v17/README.md).
 
-Scores, Coverage, Paths, Path detail, Matrix and audit sheets retain historical evidence/planning. Use the active Offers/Tool track views and current apps for the active catalogue, and the capability framework/recommended pathways for curriculum authority.
+Offers and Tool track come first, followed by Proposed training. Legacy Matrix-reference columns and duplicate Offers summaries are removed. Older descriptive fields and proposal IDs are hidden but retained. Tool track and Build items now import by header rather than column position. Keep the named headers and source rows.
+
+The **Retirements** sheet remains the lifecycle authority for the 18 approved retirements. Offers and Tool track default to **Lifecycle = Active**; clear the filter to inspect retired rows. All 534 original resource records remain, and the importer validates all 9,591 coverage rows before excluding retirements. Retired metadata supplies names and reasons for saved-plan history, never assessment credit.
+
+Needs, Rubric, Scores, Coverage, V8 audit and Retirements retain their original worksheet bytes and cached results. Coverage remains a required reconciliation sheet, Build items supplies six planner templates, and V8 audit remains visible in course assessment history. Detailed scoring evidence distinguishes zero from unassessed. Original source row numbers remain stable.
 
 V15 adds the actual **AI use cases** internal training brief to a separate **Proposed training** worksheet, retaining its complete app details. The planner exposes it under **Full catalogue → Training type → Internal training** for reuse. The 534 existing resources and all assessments remain unchanged. See [v15 provenance](evidence/v15/README.md).
 
@@ -21,8 +25,8 @@ V13 reassesses ISC2 TR-014/TR-015, corrects exam-only TR-023 and adds official S
 From the project root, install `training-planner/requirements.txt` if the Python Excel reader is not available. Save and recalculate the workbook in Excel first; the importer reads cached formula results and does not calculate Excel formulas.
 
 ```sh
-python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx --check
-python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx
+python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx --check
+python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx
 ```
 
 For an intentional new catalogue release, use a new workbook filename/version, document reassessments, then run the refresh without `--check`. The refresh archives snapshots in `training-planner/catalogue-history/`; it does not rewrite Excel or approve existing scenario selections. Review changes against the retained default pathway before updating its catalogue identity, and regenerate the model/crosswalk and component starter. Build and test both apps as described in [AGENTS.md](../AGENTS.md). Update current-document links and release identities when publishing a changed product.

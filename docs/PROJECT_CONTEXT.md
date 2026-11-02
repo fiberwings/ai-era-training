@@ -30,15 +30,15 @@ Implement the approved learning-app mock-up within the existing design: retain t
 
 | Item | Current identity | Authority |
 | --- | --- | --- |
-| Catalogue | v16; 2 November 2026; `9ed4551ae565417e` | [Workbook](../catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx) |
+| Catalogue | v17; 2 November 2026; `8bffc898c371360e` | [Workbook](../catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx) |
 | Framework | Version 2, revision 3 | [Model](../capability-framework/Agentic-Era_Workforce_Capability_Model.md) |
-| Recommended pathways | Version 0.2; 2 November 2026; partially reviewed Draft | [Decision source](../recommended-pathways/Recommended-Training-Pathways.json) and [generated guide](../recommended-pathways/Recommended-Training-Pathways.md) |
-| Builder | 2.2.1; 2 November 2026 | `training-planner/public/release.js` and source |
-| Staff app | 1.6.2; 2 November 2026 | `learning-path/config.json` and source |
+| Recommended pathways | Version 0.3; 2 November 2026; partially reviewed Draft | [Decision source](../recommended-pathways/Recommended-Training-Pathways.json) and [generated guide](../recommended-pathways/Recommended-Training-Pathways.md) |
+| Builder | 2.2.2; 2 November 2026 | `training-planner/public/release.js` and source |
+| Staff app | 1.6.3; 2 November 2026 | `learning-path/config.json` and source |
 | Bundled legacy pathway | 2027 v3, revision 3; Draft | `training-planner/public/data/default-scenario.json`, retained by explicit choice |
 | Component starter | Schema 3; blank curriculum | `training-planner/public/data/component-starter.json` |
 
-The active catalogue has 516 resources: 403 Offers and 113 Tool track entries; 140 active outcomes across 23 scoring groups; 56,140 numerical scores and 280 explicitly unassessed rows, plus one proposed internal brief. The workbook also preserves 18 retired records and their assessments. Workbook SHA-256: `07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb`.
+The active catalogue has 516 resources: 403 Offers and 113 Tool track entries; 140 active outcomes across 23 scoring groups; 56,140 numerical scores and 280 explicitly unassessed rows, plus one proposed internal brief. The workbook also preserves 18 retired records and their assessments. Workbook SHA-256: `0e86b31203f54dd378a57f6dbb2e7981b9a0cb6d0dfa73c57938e8747e3661ac`.
 
 The model document defines the agreed framework. The workbook supplies assessments and evidence. The generated app catalogue is a faithful imported snapshot. The model generator combines those outcomes with the versioned applicability and explanatory modules; its output includes the model document and CSV/JSON crosswalks. Source changes must preserve consistency with the agreed model.
 
@@ -50,7 +50,7 @@ The recommended-pathways scenario owns the maintained recommendation and its rev
 
 The saved, recalculated Excel workbook is validated/imported into `training-planner/public/data/catalogue.json`. Planner model modules supply role, level, tool and outcome applicability. The model/crosswalk builder creates the human-readable framework and mapping files. The planner packager embeds current data, both starter formats, application code and the solver into `Training-Planner.html`.
 
-The learner build reads that same catalogue, shared model/scoring modules and Recommended Training Pathways v0.2, then writes its standalone `index.html`. It preserves native schema-3 components and audience variants, deriving compatibility groups for existing profiles and saved central scopes. Schema-2 imports remain supported. Personal selections, progress and feedback stay separate from central recommendations.
+The learner build uses the recommendation's recorded catalogue snapshot (currently the same v17 import), shared model/scoring modules and Recommended Training Pathways v0.3, then writes its standalone `index.html`. It preserves native schema-3 components and audience variants, deriving compatibility groups for existing profiles and saved central scopes. Schema-2 imports remain supported. Personal selections, progress and feedback stay separate from central recommendations.
 
 The presentations are editable PowerPoint deliverables. Their historical authoring chain is retained in [presentations/source](../presentations/source/README.md). The model briefing's catalogue appendix was built from v10; review that dated content before presenting it as aligned with the current catalogue. No deck content was refreshed during this reorganisation.
 
@@ -176,3 +176,19 @@ Model 2 revision 3 is rebuilt only for the catalogue identity; its approved pros
 By user request, removed the Learning route selector. All learners now receive the standard level recommendations, including profiles previously saved with the coached choice. Legacy `learningRoute` fields remain accepted in backups but do not affect recommendations. Commitments, completion history, feedback and storage keys are preserved. The maintained pathway scenario still retains its planning variants; catalogue, model and recommendation identities are unchanged.
 
 Verification: 87 learner JavaScript checks and 10 browser regressions pass; the recommended-pathway generated files pass their consistency check. The 1.6.2 ZIP contains the exact rebuilt standalone; historical packages are unchanged.
+
+## Core framework recommendations — pathways v0.3 / learner 1.6.3
+
+On 2 November 2026 the user approved implementing the core priorities from the original-publisher frameworks review. TR-109 OWASP LLM Top 10 is assigned to AI security/design and testing, including architecture/red-team variants; it is not added to Foundation. TR-110 OWASP Agentic Top 10 remains in L2/coached L2 and is also assigned to applicable security, testing, exposure, architecture and IAM components. TR-118 NIST AI RMF + Playbook + GenAI Profile is assigned to governance and its assurance variant. TR-117 MITRE ATLAS is assigned to threat intelligence, testing and AI security, including the relevant variants.
+
+These resource placements are Reviewed, recorded in each component's `courseReviews`; broader component and audience review labels remain pending. `publication.coreReferences` owns the reading guidance and source links. The learner app shows resource reviews separately and presents the guidance in course details. Foundation/L1, existing choices, internal briefs, exclusions, course scores, model identity, planner defaults, personal records and standard-level behaviour are preserved. The catalogue identity is aligned with the separately approved v17 simplification after verifying identical assessment objects.
+
+ATLAS and NIST durations remain unknown. Generated totals show known hours plus resources with time to confirm. ATLAS's v2026.08 title and later saved description are flagged alongside MITRE's newer v2026.10 release; this publication does not claim a catalogue reassessment. The remaining framework proposals are not implemented. Pathways v0.2 and learner 1.6.2 are preserved unchanged. See the [implementation record](../analysis/fundamental-ai-frameworks-review/implementation.md) and [verification](../learning-path/qa/core-references-1.6.3.json).
+
+## Catalogue v17 simplification / planner 2.2.2 — 2 November 2026
+
+After a read-only dependency review, the user approved reducing the workbook from 18 tabs to 12. Paths, Path detail, Matrix, Tool adoption, Screening log and Codes leave the working workbook; necessary glossary definitions move into Scoring guide. The unchanged v16 archive preserves all removed material. README is shortened; obsolete Matrix-reference columns and duplicate Offers summaries are removed; older metadata and proposal IDs are hidden.
+
+Needs, Rubric, Scores, Coverage, V8 audit and Retirements retain their exact worksheet bytes and caches. Every imported course record, assessment, outcome, scoring group, build template, internal brief and retirement record is identical to v16. No reassessment or selection change belongs to this simplification. The importer now uses headers for Tool track and Build items. Coverage still reconciles all 9,591 records. Source rows, zero/unassessed distinctions and all stable IDs remain intact.
+
+Planner 2.2.2 embeds v17, preserves both starter behaviours and saved-browser compatibility, and keeps proposal IDs hidden on Excel export. Model 2 revision 3 changes only its catalogue identity. In the coordinated core-framework task, pathways v0.3 and learner 1.6.3 also adopt v17 after checking identical evidence; their separately approved recommendation additions are recorded above. Previous app packages and v16 remain unchanged. See [v17 implementation and verification](../catalogue/evidence/v17/README.md).

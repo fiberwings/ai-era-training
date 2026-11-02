@@ -1,0 +1,6 @@
+{
+  "source": "catalogue/AI_Era_Cyber_Training_Catalogue_v16.xlsx",
+  "archive": "archive/catalogues/AI_Era_Cyber_Training_Catalogue_v16.xlsx",
+  "sha256": "07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb",
+  "reason": "User-approved v17 simplification; original workbook and removed planning/history tabs preserved unchanged."
+}

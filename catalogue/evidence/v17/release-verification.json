@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-02",
+  "catalogueSnapshot": "8bffc898c371360e",
+  "catalogueSha256": "0e86b31203f54dd378a57f6dbb2e7981b9a0cb6d0dfa73c57938e8747e3661ac",
+  "plannerVersion": "2.2.2",
+  "learnerVersion": "1.6.3",
+  "pathwayVersion": "0.3",
+  "checks": {
+    "plannerJavaScript": 81,
+    "plannerPython": 20,
+    "plannerBrowser": 9,
+    "finalAffectedExcelExportRerun": 1,
+    "coverageReconciliationRows": 9591,
+    "allRetainedTabsVisuallyReviewed": true,
+    "retainedCourseObjectsUnchanged": true,
+    "retainedWorksheetCachesPreserved": true,
+    "modelProseOnlySourceLinkChanged": true,
+    "legacyStarterOnlyCatalogueVersionChanged": true,
+    "generatedPathwaysConsistency": true,
+    "historicalPayloadsUnchanged": 308,
+    "packagesMatchRunnableHTML": true
+  },
+  "coordinatedLearnerVerification": {
+    "record": "learning-path/qa/core-references-1.6.3.json",
+    "checks": {
+      "learnerUnit": 92,
+      "plannerUnit": 81,
+      "learnerPython": 3,
+      "browser": 12,
+      "browserFinalAffectedRerun": 9
+    }
+  },
+  "packages": [
+    {
+      "app": "Training Planner",
+      "version": "2.2.2",
+      "releaseDate": "2026-11-02",
+      "package": "training-planner/2.2.2/Training-Planner.zip",
+      "sha256": "b9bb9ad10ba0ac8e7b60db3b6ce367d85b759ba8c863edb08e5781222fd2cf12",
+      "source": "training-planner/Training-Planner.html",
+      "member": "Training-Planner.html",
+      "memberSha256": "72da03bab5621891f76ce2d82e6f1a62ae326866284c57ebaf48efc20013e17d"
+    },
+    {
+      "app": "AI Cybersecurity Learning",
+      "version": "1.6.3",
+      "releaseDate": "2026-11-02",
+      "package": "learning-path/1.6.3/My-AI-Learning-Path.zip",
+      "sha256": "70418550d05f923f9dae34414ee951ba766bd222b5f0e53bde5a9c84e39badd2",
+      "source": "learning-path/index.html",
+      "member": "index.html",
+      "memberSha256": "0fdc062e6351b6f3ab428f4cc480193bcfa797ab39487329487c25d044e51b05",
+      "recommendationSource": "recommended-pathways/Recommended-Training-Pathways.json",
+      "recommendationVersion": "0.3",
+      "scenarioSchema": 3
+    }
+  ],
+  "limits": "Visual checks use Artifact Tool; calculation checks independently reconcile retained cached Excel results. Microsoft Excel was not launched to recalculate unchanged assessment formulas."
+}

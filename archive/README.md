@@ -6,7 +6,7 @@ Archived on 1 November 2026. These materials are retained for reference and are 
 | --- | --- |
 | [2027 training plan](analysis/2027-training-plan/2027-Training-Plan-v3.html) | Outdated; user chose to start fresh. Includes scenarios, reports, CSVs, build sources, packs, manifests and earlier versions. |
 | [Foundation/L1 review](analysis/foundation-review/Foundation-training-review-2026-10-31.html) | No longer needed; includes evidence and earlier drafts. |
-| [catalogues](catalogues/) | Original v7–v15 workbooks and v9 archive record. Current v16 is in [catalogue](../catalogue/README.md). |
+| [catalogues](catalogues/) | Original v7–v16 workbooks and v9 archive record. Current v17 is in [catalogue](../catalogue/README.md). |
 | [capability-framework](capability-framework/) | Previous model documents. |
 | [planner 2.0.6 packages](releases/planner-2.0.6/) | Older standalone ZIP and Windows update kit; embedded version verified before archiving. |
 | [catalogue-v8 package](releases/catalogue-v8/) | Earlier distribution formerly in `delivery/`. |

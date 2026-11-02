@@ -33,6 +33,7 @@ assert s['F2'].value == 'N1.1\nN2.1'
 assert s['H2'].value == 'Foundation' and s['H3'].value == 'L1 Entry'
 assert s['P2'].value == s['P3'].value == 'excel-roundtrip'
 assert s['Q2'].value == 'foundation' and s['Q3'].value == 'l1'
+assert all(s.column_dimensions[c].hidden for c in ('P', 'Q', 'R'))
 assert s.freeze_panes == 'B2' and original_filter == f'A1:R{3+len(existing)}'
 assert s['A1'].fill.fgColor.rgb == 'FF1F3A5F'
 assert s['A2'].alignment.wrap_text and len(s.data_validations.dataValidation) == 2

@@ -189,14 +189,12 @@ def read_catalogue(path):
                 limitations=r.get('Fit note (v8 source review)', r.get('Fit note')) or '',
                 url=r['URL'] or '', sources=links(r['Sources']), review=r.get('Review status') or '',
                 source=reference('Offers', i), scores={}, unassessed={}, track='general'))
-        require('Tool track' in workbook.sheetnames, 'Missing sheet: Tool track')
-        for i, r in enumerate(workbook['Tool track'].iter_rows(values_only=True), 1):
-            if i == 1 or r[0] is None: continue
-            courses.append(dict(id=r[0], provider=r[3], title=r[4], type=r[5], tool=r[1] or '', format=r[6],
-                duration=r[7] or 'Not stated', cost=str(r[8] or ''), level='Unknown', verification=r[12],
-                evidence='Not assessed against rubric', description=r[10] or '', coverageAtAssessment='',
-                limitations='Tool-track metadata is not a requirement-level assessment.', url=r[13] or '', sources=[],
-                review='', source=reference('Tool track',i), scores={}, unassessed={}, track='tool', wave=r[2]))
+        for i, r in records(workbook, 'Tool track', ('ID', 'Product', 'Provider', 'Title', 'Type', 'Format', 'Duration', 'Cost', 'Note', 'Verified', 'URL')):
+            courses.append(dict(id=r['ID'], provider=r['Provider'], title=r['Title'], type=r['Type'], tool=r['Product'] or '', format=r['Format'],
+                duration=r['Duration'] or 'Not stated', cost=str(r['Cost'] or ''), level='Unknown', verification=r['Verified'],
+                evidence='Not assessed against rubric', description=r['Note'] or '', coverageAtAssessment='',
+                limitations='Tool-track metadata is not a requirement-level assessment.', url=r['URL'] or '', sources=[],
+                review='', source=reference('Tool track',i), scores={}, unassessed={}, track='tool', wave=r.get('Wave (A13)')))
         by_id = {c['id']: c for c in courses}
         require(len(by_id) == len(courses), 'Duplicate course IDs')
         requirements, all_req_ids = [], set()
@@ -235,9 +233,9 @@ def read_catalogue(path):
                      description=r['Summary'], source=reference('Needs',i))
                  for i,r in records(workbook,'Needs',('Code','Need','Type','Group or macro role','Applies from','Summary','Status')) if r['Status']=='Active']
         builds = []
-        for i, r in enumerate(workbook['Build items'].iter_rows(values_only=True),1):
-            if i > 1 and str(r[0]).startswith('B') and r[1]:
-                builds.append(dict(id=r[0],title=r[1],description=r[2],note=r[5] or '',source=reference('Build items',i)))
+        for i, r in records(workbook, 'Build items', ('ID', 'Build item', 'What it covers', 'Note')):
+            if str(r['ID']).startswith('B') and r['Build item']:
+                builds.append(dict(id=r['ID'],title=r['Build item'],description=r['What it covers'],note=r['Note'] or '',source=reference('Build items',i)))
         guide = list(workbook['Scoring guide'].values)
         thresholds = {r[0]:r[1] for r in guide if r[0] in ('Strong minimum','Partial minimum')}
         data = dict(schemaVersion=2,version=before_hash[:16],sourceSha256=before_hash,filename=path.name,

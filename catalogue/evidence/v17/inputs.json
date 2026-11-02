@@ -1,0 +1,101 @@
+{
+  "sourceSha256": "07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb",
+  "definitions": [
+    [
+      "Base",
+      "Everyone in cyber"
+    ],
+    [
+      "Entry",
+      "Entry (L1)"
+    ],
+    [
+      "Practitioner",
+      "Practitioner (L2)"
+    ],
+    [
+      "Expert",
+      "Expert (L3)"
+    ],
+    [
+      "N1-N14, R#.#",
+      "See the Needs and Rubric sheets (kept in step with the Capability Model)"
+    ],
+    [
+      "N0",
+      "Core craft: prerequisite, existing curriculum, out of scope"
+    ],
+    [
+      "PR1",
+      "Manual-flying quota"
+    ],
+    [
+      "PR2",
+      "Unassisted skill checks"
+    ],
+    [
+      "PR3",
+      "Agent-failure drills"
+    ],
+    [
+      "PR4",
+      "Seeded-error exercises"
+    ],
+    [
+      "PR5",
+      "Junior pathway"
+    ],
+    [
+      "PR6",
+      "Hypothesis first"
+    ],
+    [
+      "PR7",
+      "Learning-mode agents"
+    ],
+    [
+      "PR8",
+      "Shadow mode"
+    ],
+    [
+      "PR9",
+      "Transcript reviews"
+    ],
+    [
+      "PR10",
+      "Break the machine"
+    ],
+    [
+      "PR11",
+      "Junior intake and new entry roles"
+    ],
+    [
+      "PR12",
+      "Entrustment sign-off"
+    ],
+    [
+      "PR13",
+      "Re-certification when an agent changes"
+    ],
+    [
+      "PR14",
+      "Cap on approval load"
+    ],
+    [
+      "PR15",
+      "Named accountability and decision records"
+    ],
+    [
+      "PR16",
+      "Measure outcomes, not impressions"
+    ],
+    [
+      "PR17",
+      "AI champions and show-and-tell"
+    ],
+    [
+      "PR18",
+      "Log of agent errors and near misses"
+    ]
+  ]
+}

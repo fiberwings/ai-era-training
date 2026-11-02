@@ -1,0 +1,34 @@
+{
+  "workbook": "AI_Era_Cyber_Training_Catalogue_v17.xlsx",
+  "sha256": "0e86b31203f54dd378a57f6dbb2e7981b9a0cb6d0dfa73c57938e8747e3661ac",
+  "snapshot": "8bffc898c371360e",
+  "sheets": [
+    "Offers",
+    "Tool track",
+    "Proposed training",
+    "Needs",
+    "Rubric",
+    "Scoring guide",
+    "Build items",
+    "Scores",
+    "Coverage",
+    "Retirements",
+    "V8 audit",
+    "README"
+  ],
+  "unchangedWorksheetBytes": [
+    "Needs",
+    "Rubric",
+    "Scores",
+    "Coverage",
+    "V8 audit",
+    "Retirements"
+  ],
+  "retainedCellsAndStylesIdentical": true,
+  "courseOutcomeBuildProposalRetirementObjectsIdentical": true,
+  "coverageRowsReconciled": 9591,
+  "formulaErrors": 0,
+  "activeCourses": 516,
+  "activeScores": 56140,
+  "unassessed": 280
+}

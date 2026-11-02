@@ -82,6 +82,14 @@ class RefreshTests(unittest.TestCase):
 
 
 class WorkbookTests(unittest.TestCase):
+    def test_v17_simplification_preserves_imported_evidence(self):
+        data, checked = read_catalogue(ROOT.parent/'catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx')
+        previous = json.loads((ROOT/'catalogue-history/9ed4551ae565417e.json').read_text())
+        for key in ('version', 'filename', 'sourceSha256', 'scoringGuide'):
+            data.pop(key); previous.pop(key)
+        self.assertEqual(checked, 9591)
+        self.assertEqual(data, previous)
+
     def test_v8_full_import(self):
         file=ROOT.parent/'archive/catalogues/AI_Era_Cyber_Training_Catalogue_v8.xlsx'
         if not file.exists():self.skipTest('archived v8 workbook unavailable')
