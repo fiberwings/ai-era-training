@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "catalogueVersion": "9ed4551ae565417e",
+  "workbookSha256": "07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb",
+  "activeResources": 516,
+  "retiredResources": 18,
+  "numericScores": 56140,
+  "explicitUnassessedRows": 280,
+  "reconciledHistoricalCoverageRows": 9591,
+  "retainedCourseObjects": "Identical to v15",
+  "outcomesAndNeeds": "140 outcomes and 23 scoring groups unchanged",
+  "proposedInternalBrief": "Unchanged",
+  "originalAssessmentWorksheets": "Byte-identical; existing Offers/Tool track cells and style indices preserved",
+  "formulaErrors": 0,
+  "historicalFilesVerified": 291
+}

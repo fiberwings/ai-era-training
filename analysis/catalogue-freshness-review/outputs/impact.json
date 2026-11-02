@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-02",
+  "status": "Proposal awaiting user review; not applied",
+  "catalogueVersion": "ff6d5a46d0450171",
+  "workbookSha256": "07ce3343043c8312284a3f33c8d4530cc72b5ae8140bee9361588b8367b5f08a",
+  "total": 534,
+  "proposedRetirements": 18,
+  "retained": 516,
+  "retainedForRefresh": 13,
+  "proposedInternalBriefsUnchanged": 1,
+  "sourceSheets": [
+    {
+      "sheet": "Offers",
+      "before": 417,
+      "after": 403
+    },
+    {
+      "sheet": "Tool track",
+      "before": 117,
+      "after": 113
+    }
+  ],
+  "catalogueBestOutcomeScoreChanges": [],
+  "coverageMethod": "Compare each of 140 outcomes using the best numerical course score (0–3). Unassessed records do not supply scores. This is curriculum availability, not competence or a replacement pathway.",
+  "scenarios": [
+    {
+      "file": "recommended-pathways/Recommended-Training-Pathways.json",
+      "name": "Recommended Training Pathways v0.1",
+      "selectedReferences": [],
+      "excludedReferenceCount": 28,
+      "componentChanges": []
+    },
+    {
+      "file": "training-planner/public/data/default-scenario.json",
+      "name": "2027 recommended training plan — v3",
+      "selectedReferences": [
+        {
+          "id": "TR-229",
+          "path": "$.cohorts.3.selected",
+          "component": "L3 Expert — Build and evaluate agents"
+        }
+      ],
+      "excludedReferenceCount": 0,
+      "componentChanges": [
+        {
+          "id": "technical",
+          "name": "L3 Expert — Build and evaluate agents",
+          "removedSelections": [
+            "TR-229"
+          ],
+          "outcomeChanges": [
+            {
+              "id": "N2.1",
+              "title": "Models",
+              "before": 2,
+              "after": 0
+            },
+            {
+              "id": "N2.2",
+              "title": "Modalities",
+              "before": 2,
+              "after": 0
+            },
+            {
+              "id": "N6.2",
+              "title": "Context",
+              "before": 2,
+              "after": 0
+            },
+            {
+              "id": "N6.5",
+              "title": "Choosing a model",
+              "before": 3,
+              "after": 0
+            },
+            {
+              "id": "N10.4",
+              "title": "Models, cost and latency",
+              "before": 3,
+              "after": 0
+            }
+          ],
+          "scope": "Component own selected courses only; excludes inherited Foundation, overrides and internal teaching."
+        }
+      ]
+    }
+  ]
+}

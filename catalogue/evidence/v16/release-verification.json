@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-02",
+  "catalogueVersion": "9ed4551ae565417e",
+  "workbookSha256": "07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb",
+  "plannerVersion": "2.2.1",
+  "learnerVersion": "1.6.1",
+  "pathwayVersion": "0.2",
+  "modelVersion": 2,
+  "modelRevision": 3,
+  "tests": {
+    "plannerJavaScript": 81,
+    "learnerJavaScript": 87,
+    "plannerPython": 19,
+    "learnerPython": 3,
+    "browser": 19,
+    "total": 209,
+    "failures": 0
+  },
+  "checks": [
+    "Final current standalone apps: 516 active courses, 18 retirement metadata records, saved internal brief preserved",
+    "Workbook/import: 9591 historical coverage results reconciled; zero formula errors; original assessment worksheets and existing course cells preserved",
+    "All 516 retained course objects and 140 outcome maxima unchanged",
+    "All maintained pathway component/audience definitions, review labels, time and coverage unchanged",
+    "Schema-2/3 retired exclusions valid; saved retired selections warn, preserve JSON round trips and receive no active evidence",
+    "Browser: saved component selection details, JSON export and explicit removal; legacy saved selection retained; learner completion, notes and feedback preserved; all 18 IDs absent from Explore",
+    "Browser: Foundation/L1 reviewed learning, explicit coached routes, quick setup, four progress cards, central/optional lanes, specialism/tool discovery and internal Excel export/reuse",
+    "291 pre-existing historical files verified byte-for-byte",
+    "New release ZIPs each contain exactly the current standalone HTML, verified by hash",
+    "Model prose unchanged except current catalogue source identity"
+  ],
+  "packages": [
+    {
+      "app": "Training Planner",
+      "version": "2.2.1",
+      "releaseDate": "2026-11-02",
+      "package": "training-planner/2.2.1/Training-Planner.zip",
+      "sha256": "dfb2f2e75ee2268dd169aba895cc315315291460e3b42fd4b17d142c4cc67c87",
+      "source": "training-planner/Training-Planner.html",
+      "member": "Training-Planner.html",
+      "memberSha256": "34292574f6a6c861408909ac187e62a26d1af35736a582d9e13103a914c2f1d2"
+    },
+    {
+      "app": "AI Cybersecurity Learning",
+      "version": "1.6.1",
+      "releaseDate": "2026-11-02",
+      "package": "learning-path/1.6.1/My-AI-Learning-Path.zip",
+      "sha256": "ea4542c8b09c3e7d0e1eb3b9e32ab65dd9c01452accae236d8a120c496f1b2b0",
+      "source": "learning-path/index.html",
+      "member": "index.html",
+      "memberSha256": "689183c44f169601334010c8aab2b23d2f1ff6c72373f01717d0479dc56b042c",
+      "recommendationSource": "recommended-pathways/Recommended-Training-Pathways.json",
+      "recommendationVersion": "0.2",
+      "scenarioSchema": 3
+    }
+  ],
+  "screenshots": [
+    "qa/planner-retired-selection.png",
+    "qa/learner-retired-history.png"
+  ]
+}

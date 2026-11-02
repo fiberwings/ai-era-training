@@ -6,11 +6,11 @@
 
 | Directory | Contents and status |
 | --- | --- |
-| [catalogue](../catalogue/README.md) | Current v15 workbook; preserved review evidence for v8–v15. V12–v14 were subsequently archived unchanged. |
+| [catalogue](../catalogue/README.md) | Current v16 workbook; preserved review evidence for v8–v16. V12–v15 were subsequently archived unchanged. |
 | [capability-framework](../capability-framework/README.md) | Authoritative readable model and generated CSV crosswalk. |
-| [recommended-pathways](../recommended-pathways/README.md) | New maintained v0.1 recommendations, editable schema-3 scenario, generated guide, internal briefs and coverage evidence. Foundation/L1 Reviewed; all other recommendations AI generated — to be reviewed. |
+| [recommended-pathways](../recommended-pathways/README.md) | Maintained v0.2 recommendations (v0.1 archived unchanged), editable schema-3 scenario, generated guide, internal briefs and coverage evidence. Foundation/L1 Reviewed; all other recommendations AI generated — to be reviewed. |
 | [training-planner](../training-planner/README.md) | Builder source, runnable HTML, tests, shared model/data, catalogue/scenario histories and QA evidence. Existing app path retained. |
-| [learning-path](../learning-path/README.md) | Staff-app source, runnable HTML, tests and feedback importer. Learner 1.6.0 publishes Recommended Training Pathways v0.1 with distinct central and personalised recommendation lanes. Existing app path retained. |
+| [learning-path](../learning-path/README.md) | Staff-app source, runnable HTML, tests and feedback importer. Learner 1.6.1 publishes Recommended Training Pathways v0.2 with distinct central and personalised recommendation lanes. Existing app path retained. |
 | [presentations](../presentations/README.md) | Three live PowerPoint decks, including the 2 November 2026 next-steps walkthrough; authoring scripts, source inputs and validation records. |
 
 ## Supporting directories
@@ -45,7 +45,7 @@
 | Previous root and planner READMEs | Frozen copies in `docs/history/`; live READMEs refreshed. |
 | `.chart-data-*`, caches and OS files | `.work/` or existing ignored cache locations. |
 
-Both app defaults, their JSON data, storage keys and runnable file paths remained unchanged during reorganisation, as explicitly requested after the initial proposal. A subsequent user request publishes Recommended Training Pathways v0.1 in learner 1.5.0. The legacy planner default, personal/browser plans, storage keys and runnable file paths remain preserved.
+Both app defaults, their JSON data, storage keys and runnable file paths remained unchanged during reorganisation, as explicitly requested after the initial proposal. A subsequent user request publishes Recommended Training Pathways v0.1 in learner 1.5.0. On 2 November the user approved 18 catalogue retirements and current-app refreshes. Only TR-229 is removed from the current legacy planner bundle; old defaults/distributions, personal/browser plans, storage keys and runnable paths remain preserved.
 
 ## Traceability
 

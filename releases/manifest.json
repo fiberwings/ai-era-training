@@ -1,32 +1,32 @@
 {
   "packagedOn": "2026-11-02",
-  "catalogueVersion": "ff6d5a46d0450171",
-  "catalogueWorkbook": "AI_Era_Cyber_Training_Catalogue_v15.xlsx",
+  "catalogueVersion": "9ed4551ae565417e",
+  "catalogueWorkbook": "AI_Era_Cyber_Training_Catalogue_v16.xlsx",
   "modelVersion": 2,
   "modelRevision": 3,
-  "defaults": "Planner starters retained; learner publishes Recommended Training Pathways v0.1 by user request; personal learning records remain browser-local",
+  "defaults": "Blank component starter retained; current legacy L3 example retires TR-229 without replacement; learner publishes Recommended Training Pathways v0.2 with unchanged selections; saved personal records preserved",
   "packages": [
     {
       "app": "Training Planner",
-      "version": "2.2.0",
-      "releaseDate": "2026-11-01",
-      "package": "training-planner/2.2.0/Training-Planner.zip",
-      "sha256": "b2deee0e5a625dae3d58450e5c605d51fc99f835fc37ee607ec3f51199f519de",
+      "version": "2.2.1",
+      "releaseDate": "2026-11-02",
+      "package": "training-planner/2.2.1/Training-Planner.zip",
+      "sha256": "dfb2f2e75ee2268dd169aba895cc315315291460e3b42fd4b17d142c4cc67c87",
       "source": "training-planner/Training-Planner.html",
       "member": "Training-Planner.html",
-      "memberSha256": "55ffbdd29c0a4c861ee4b15915c96ecab7e08f0d106864e4fc0c1e2547441616"
+      "memberSha256": "34292574f6a6c861408909ac187e62a26d1af35736a582d9e13103a914c2f1d2"
     },
     {
       "app": "AI Cybersecurity Learning",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "releaseDate": "2026-11-02",
-      "package": "learning-path/1.6.0/My-AI-Learning-Path.zip",
-      "sha256": "f3f8ccc39d9de36f8ecfcbef9a8eb3ce183b76db8afb894a33fd6b2d59b58f66",
+      "package": "learning-path/1.6.1/My-AI-Learning-Path.zip",
+      "sha256": "ea4542c8b09c3e7d0e1eb3b9e32ab65dd9c01452accae236d8a120c496f1b2b0",
       "source": "learning-path/index.html",
       "member": "index.html",
-      "memberSha256": "bd34b4aef11566a740d0077f300ffebb9f533254084089b923a3f1e14975f293",
+      "memberSha256": "689183c44f169601334010c8aab2b23d2f1ff6c72373f01717d0479dc56b042c",
       "recommendationSource": "recommended-pathways/Recommended-Training-Pathways.json",
-      "recommendationVersion": "0.1",
+      "recommendationVersion": "0.2",
       "scenarioSchema": 3
     }
   ]

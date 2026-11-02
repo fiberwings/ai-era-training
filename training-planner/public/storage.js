@@ -31,7 +31,8 @@ export function validateScenario(s,data){
  const warnings=[];
  if(s.schema===2&&s.modelRevision!==MODEL_REVISION)warnings.push('Must-have applicability was revised. Review automated judges, AI-assisted assurance and identity integration before finalising.');
  if(s.catalogueVersion!==data.version)warnings.push(catalogueWarning(s,data));
- for(const c of s.cohorts){if(c.profile?.level===0&&c.selected.includes('INT-2787'))warnings.push(`${c.name}: remove INT-2787; a full social-engineering course is excessive for Foundation. Use brief awareness teaching in the bank session.`);for(const id of new Set([...c.selected,...c.pinned,...c.excluded]))if(!courseIds.has(id))warnings.push(`${c.name}: unresolved course ${id}`);
+ const retiredIds=new Set((data.retiredCourses||[]).map(c=>c.id));
+ for(const c of s.cohorts){if(c.profile?.level===0&&c.selected.includes('INT-2787'))warnings.push(`${c.name}: remove INT-2787; a full social-engineering course is excessive for Foundation. Use brief awareness teaching in the bank session.`);for(const id of new Set([...c.selected,...c.pinned,...c.excluded]))if(!courseIds.has(id)&&!(retiredIds.has(id)&&c.excluded.includes(id)&&!c.selected.includes(id)&&!c.pinned.includes(id)))warnings.push(`${c.name}: ${retiredIds.has(id)?'retired':'unresolved'} course ${id}`);
  for(const id of [...c.addedRequirements,...c.removedRequirements,...c.internal.flatMap(i=>i.requirements)])if(!reqIds.has(id))warnings.push(`${c.name}: unresolved requirement ${id}`);
  for(const id of c.needs)if(!needIds.has(id))warnings.push(`${c.name}: unresolved need ${id}`);}
  return warnings;

@@ -47,9 +47,11 @@ test('tool proposals retain product/task context and can have no linked outcomes
  tool.internal=[];assert.equal(importProposedItem(s,'tool',row),true);
 });
 
-test('maintained v15 catalogue preserves all course evidence and the complete user brief',()=>{
+test('v15 addition preserves all course evidence and the current complete user brief',()=>{
+ const v15=JSON.parse(readFileSync(new URL('../catalogue-history/ff6d5a46d0450171.json',import.meta.url)));
+ assert.deepEqual(data.proposedTraining,v15.proposedTraining);
  const prior=JSON.parse(readFileSync(new URL('../catalogue-history/d9c478c4687192a0.json',import.meta.url)));
- for(const key of ['courses','requirements','needs','thresholds','buildItems'])assert.deepEqual(data[key],prior[key]);
+ for(const key of ['courses','requirements','needs','thresholds','buildItems'])assert.deepEqual(v15[key],prior[key]);
  const [entry]=catalogueProposals(data,'AI use cases','N1.1');assert.ok(entry);
  assert.deepEqual(entry.item,{id:'cf694d28-c0af-4b87-919d-4d282e175d3d',title:'AI use cases',owner:'',hours:1,status:'Proposed',outcomes:'A training that showcases what AI does today in cyber by showing existing use in our organization, discuss about planned future development and beyond.',requirements:['N1.1','N1.2','N1.3']});
  assert.equal(catalogueProposals(data,'ORGANIZATION')[0].index,entry.index);

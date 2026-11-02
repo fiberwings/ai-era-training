@@ -131,10 +131,12 @@ test('v2 roundtrips; v1 imports and duplicates retain all original scope and sel
  assert.ok(ids(scope(data,get(imported,'technical'),imported)).includes('N12.1'));
 });
 
-test('published starter retains annual v3 decisions with refreshed catalogue evidence',()=>{
+test('current legacy starter applies the approved retirement to the preserved annual v3 decisions',()=>{
  const s=JSON.parse(readFileSync(new URL('../public/data/default-scenario.json',import.meta.url)));
  const annual=JSON.parse(readFileSync(new URL('../../archive/analysis/2027-training-plan/2027-recommended-v3.json',import.meta.url)));
- assert.deepEqual({...s,catalogueVersion:annual.catalogueVersion,assumptions:annual.assumptions},annual);
+ const expected=structuredClone(annual);
+ expected.planRevision=3;const l3=get(expected,'technical');l3.selected=l3.selected.filter(id=>id!=='TR-229');l3.excluded.push('TR-229');
+ assert.deepEqual({...s,catalogueVersion:annual.catalogueVersion,assumptions:annual.assumptions},expected);
  assert.ok(s.assumptions.startsWith(annual.assumptions));
  assert.equal(s.planVersion,3);assert.equal(s.modelVersion,2);assert.equal(s.catalogueVersion,data.version);
  assert.equal(s.cohorts.length,23);assert.deepEqual(validateScenario(s,data),[]);
@@ -149,7 +151,7 @@ test('published starter retains annual v3 decisions with refreshed catalogue evi
  }
  assert.deepEqual(get(s,'all').selected,['INT-437']);
  assert.equal(get(s,'all').budget,2);
- assert.equal(s.planRevision,2);
+ assert.equal(s.planRevision,3);
  assert.ok(get(s,'all').excluded.includes('INT-2787'));
  assert.match(eligibility(course('INT-2787'),{...get(s,'all'),excluded:[],filters:{audience:false,types:[]}},{}),/Too specialised for Foundation/);
  assert.equal(eligibility(course('INT-2787'),{...get(s,'entry'),excluded:[],filters:{audience:false,types:[]}},{}),null);

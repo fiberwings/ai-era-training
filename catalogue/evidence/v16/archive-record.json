@@ -1,0 +1,12 @@
+{
+  "archivedOn": "2026-11-02",
+  "workbook": {
+    "path": "archive/catalogues/AI_Era_Cyber_Training_Catalogue_v15.xlsx",
+    "sha256": "07ce3343043c8312284a3f33c8d4530cc72b5ae8140bee9361588b8367b5f08a"
+  },
+  "pathways": "archive/recommended-pathways/v0.1/archive-record.json",
+  "legacyDefault": {
+    "path": "training-planner/scenario-history/default-before-v16-retirements.json",
+    "sha256": "c5f80243ab5fdaef13e6aeae76eb3b169ff2990efe9e8d96491023a743f3f964"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-01",
+  "pathwayVersion": "0.1",
+  "catalogueVersion": "ff6d5a46d0450171",
+  "modelVersion": 2,
+  "modelRevision": 3,
+  "components": 28,
+  "audiencePaths": 26,
+  "modelRoles": 9,
+  "validation": {
+    "schema3Warnings": 0,
+    "jsonRoundTrip": "Passed",
+    "generatedArtifacts": "Passed",
+    "exactSavedAIUseCasesBrief": "Passed",
+    "excludedCoursesAbsent": "Passed",
+    "specialistBranchReconciliation": "Passed: all 19 historical branches retain course selections and internal activity IDs",
+    "reviewedComponents": [
+      "foundation",
+      "l1"
+    ],
+    "reviewedAudiencePaths": [
+      "foundation-path",
+      "l1-path"
+    ],
+    "foundationL1Minutes": 641,
+    "l3CumulativeMinutes": 2975,
+    "componentRegressionTests": {
+      "passed": 19,
+      "failed": 0
+    }
+  },
+  "browser": {
+    "passed": true,
+    "importedIntoSeparateScenario": true,
+    "existingScenariosPreserved": true,
+    "reviewLabelsVisible": true,
+    "foundationInternalPresent": true,
+    "l1InternalInheritedOnce": true,
+    "excludedCoursesAbsent": true,
+    "specialistAndCoachedPathsOpen": true,
+    "jsonExportRoundTrip": true,
+    "consoleErrors": []
+  },
+  "artifacts": {
+    "Recommended-Training-Pathways.json": "54a862b57b6e75203bfe621d5f08e7d44bb5d4c2b06c448c29ca35aa42b79d79",
+    "Recommended-Training-Pathways.md": "11509c258bc6d8e7468ea5ba4805d5fa63f9cc0e1186d4259f718f5e6c7fbb4c",
+    "Internal-Training-Briefs.md": "fa9e1d5c9712b3ba18b905dfe40635c0727fd9eeed14c51df354546b20326019",
+    "coverage.json": "028b82c710c2b5ce996d9e91622d4ef64272a91d85842aff4dd243f5e28cc985"
+  },
+  "learnerPublication": {
+    "appVersion": "1.5.0",
+    "date": "2026-11-01",
+    "evidence": "../learning-path/qa/publication-1.5.0.json",
+    "sourceScenarioUnchanged": true
+  }
+}

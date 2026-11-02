@@ -42,6 +42,43 @@ async function fillBrief(page,title,requirement='N1.1'){
  await page.locator('#dialog').waitFor({state:'hidden'});
 }
 
+test('retired selections remain reviewable and exportable while catalogue discovery stays active only',async t=>{
+ const page=await fixture(t,s=>{s.catalogueVersion='ff6d5a46d0450171';component(s,'l3').selected=['TR-229'];});
+ await open(page,'l3');const before=await saved(page);
+ const card=page.locator('.selection').filter({has:page.locator('[data-cp="course"][data-id="TR-229"]')}).first();
+ assert.match(await card.innerText(),/Reasoning with o1/);assert.match(await card.innerText(),/Retired/);
+ await card.locator('[data-cp="course"]').click();assert.match(await page.locator('#dialog').innerText(),/Retired training/);
+ assert.match(await page.locator('#dialog').innerText(),/2026-11-02/);
+ assert.match(await page.locator('#dialog').innerText(),/no current assessed coverage/);
+ if(process.env.RETIREMENT_QA_DIR)await page.screenshot({path:path.join(process.env.RETIREMENT_QA_DIR,'planner-retired-selection.png')});
+ await page.keyboard.press('Escape');assert.deepEqual(await saved(page),before);
+ await page.locator('summary').filter({hasText:'Scenario & exports'}).click();
+ await page.locator('[data-cp="export"]').first().click();
+ const download=page.waitForEvent('download');await page.locator('#dialog a[download]').click();
+ const exported=JSON.parse(fs.readFileSync(await (await download).path(),'utf8'));assert.deepEqual(exported,before);
+ await page.keyboard.press('Escape');
+ await page.locator('[data-cp="view"][data-id="catalogue"]').first().click();
+ await page.locator('#cp-search').fill('TR-229');
+ assert.equal(await page.locator('#cp-catalogue-results [data-cp="preview"][data-id="TR-229"]').count(),0);
+ await open(page,'l3');await page.locator('[data-cp="remove"][data-id="TR-229"]').click();
+ assert.deepEqual(component(await saved(page),'l3').selected,[]);
+});
+
+test('legacy saved plans retain retired selections and open their retirement details',async t=>{
+ const context=await browser.newContext();t.after(()=>context.close());
+ const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(app);await page.locator('#cp-target').waitFor();
+ const scenario=JSON.parse(fs.readFileSync(path.join(root,'scenario-history/default-before-v16-retirements.json')));
+ const stored={scenarios:[scenario],activeId:scenario.id};
+ await page.evaluate(({store,stored})=>localStorage.setItem(store,JSON.stringify(stored)),{store,stored});
+ await page.reload();const details=page.locator('.overview-courses').filter({has:page.locator('[data-action="course"][data-id="TR-229"]')});
+ await details.locator('summary').click();await details.locator('[data-action="course"][data-id="TR-229"]').click();
+ assert.match(await page.locator('#dialog').innerText(),/Retired training/);
+ assert.match(await page.locator('#dialog').innerText(),/Reasoning with o1/);
+ assert.deepEqual(await page.evaluate(key=>JSON.parse(localStorage.getItem(key)),store),stored);
+ assert.deepEqual(errors,[]);
+});
+
 test('internal selections stay local like catalogue courses, with prerequisites inherited separately',async t=>{
  const page=await fixture(t,s=>{component(s,'foundation').selected=['INT-437'];component(s,'l1').selected=['TR-078'];});
  await open(page,'foundation');await click(page,'internal-new');await fillBrief(page,'Foundation practice');
