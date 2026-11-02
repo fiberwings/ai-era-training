@@ -8,4 +8,4 @@ Scripts, source decks, assets and JSON audit records are preserved as historical
 
 ## Current addition
 
-[next-steps-20261102](next-steps-20261102/) contains the source and validation for the additional eight-slide Group CISO walkthrough created on 2 November 2026. This is separate from the historical authoring chain above.
+[next-steps-20261102](next-steps-20261102/) contains the source and validation for the additional nine-slide Group CISO walkthrough created on 2 November 2026. This is separate from the historical authoring chain above.

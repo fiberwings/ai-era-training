@@ -5,7 +5,7 @@ The following presentations are live project deliverables:
 | Deck | Purpose |
 | --- | --- |
 | [Agentic-Era Workforce Capability Model Briefing](Agentic-Era_Workforce_Capability_Model_Briefing.pptx) | Capability-model briefing with supporting detail and catalogue appendix. |
-| [2027 next steps — Group CISO walkthrough](AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | Eight-slide unofficial walkthrough: provisional ownership, proposed mandatory baseline and CISO Connect launch preparation. |
+| [2027 next steps — Group CISO walkthrough](AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | Nine-slide unofficial walkthrough: provisional ownership, proposed mandatory baseline and CISO Connect launch preparation. |
 | [AI-era cyber capability needs](AI-era-cyber-capability-needs.pptx) | Additional capability-needs presentation, explicitly retained as live on 1 November 2026. |
 
 These PowerPoint files are the editable presentation deliverables. Their contents were preserved byte-for-byte during reorganisation. The [capability model](../capability-framework/Agentic-Era_Workforce_Capability_Model.md) remains the authority for the framework.

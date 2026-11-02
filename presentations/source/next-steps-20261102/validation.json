@@ -1,15 +1,15 @@
 {
   "schemaVersion": "presentation-finalization.v1",
-  "finalSha256": "79e8024c46b810819f43a75ae7ae181535e2b105484131a1968157ebe7153867",
-  "byteCount": 52410,
+  "finalSha256": "b60ca34eeb002581006561ddc289fd82b44e4ed447d4589b27e52e410cfc3944",
+  "byteCount": 57253,
   "packageIntegrity": {
     "chart_count": 0,
     "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
     "finding_count": 0,
     "findings": [],
-    "notes_parts_skipped": 8,
-    "relationship_part_count": 26,
-    "slide_count": 8,
+    "notes_parts_skipped": 9,
+    "relationship_part_count": 28,
+    "slide_count": 9,
     "status": "pass",
     "exitCode": 0,
     "findingCount": 0,
@@ -19,18 +19,18 @@
     "finding_count": 0,
     "findings": [],
     "font_policy": {
-      "checked_text_script_count": 128,
+      "checked_text_script_count": 146,
       "native_font_rendering_verified": false,
       "observed_font_families": [
         "IBM Plex Sans"
       ],
       "observed_font_use_counts": {
-        "IBM Plex Sans": 128
+        "IBM Plex Sans": 146
       },
       "passed": true,
       "performed": true
     },
-    "slide_count": 8,
+    "slide_count": 9,
     "slide_size_in": [
       13.3333,
       7.5
@@ -40,13 +40,13 @@
     "exitCode": 0,
     "findingCount": 0,
     "fontPolicy": {
-      "checked_text_script_count": 128,
+      "checked_text_script_count": 146,
       "native_font_rendering_verified": false,
       "observed_font_families": [
         "IBM Plex Sans"
       ],
       "observed_font_use_counts": {
-        "IBM Plex Sans": 128
+        "IBM Plex Sans": 146
       },
       "passed": true,
       "performed": true
@@ -60,13 +60,13 @@
     "scriptFonts": {},
     "referenceSha256": "1a56649f4a2a1311375710457a8b5d10d1d5a43b314b6b30a27c079b2901c4e9",
     "referenceFontsVerifiedInEncodedText": true,
-    "checked_text_script_count": 128,
+    "checked_text_script_count": 146,
     "native_font_rendering_verified": false,
     "observed_font_families": [
       "IBM Plex Sans"
     ],
     "observed_font_use_counts": {
-      "IBM Plex Sans": 128
+      "IBM Plex Sans": 146
     },
     "passed": true,
     "performed": true
@@ -74,8 +74,8 @@
   "firstPartyImport": {
     "performed": true,
     "passed": true,
-    "slideCount": 8,
-    "sha256": "79e8024c46b810819f43a75ae7ae181535e2b105484131a1968157ebe7153867",
+    "slideCount": 9,
+    "sha256": "b60ca34eeb002581006561ddc289fd82b44e4ed447d4589b27e52e410cfc3944",
     "runtimeNodeModules": "/Users/cyberk/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
     "nodeExecutable": "/Users/cyberk/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
   },
@@ -97,7 +97,7 @@
         "table": 1
       }
     ],
-    "slide_count": 8,
+    "slide_count": 9,
     "warning_count": 0,
     "warnings": []
   },
@@ -109,9 +109,9 @@
     "native_chart_count": 0,
     "native_powerpoint_verified": false,
     "passed": true,
-    "presentation_sha256": "79e8024c46b810819f43a75ae7ae181535e2b105484131a1968157ebe7153867",
+    "presentation_sha256": "b60ca34eeb002581006561ddc289fd82b44e4ed447d4589b27e52e410cfc3944",
     "schema_version": "presentation-native-chart-titles.v1",
-    "slide_count": 8,
+    "slide_count": 9,
     "source_text_emitted": false,
     "unresolved_linked_title_count": 0
   },
@@ -125,7 +125,7 @@
     "--cover-role",
     "none",
     "--expected-slide-count",
-    "8",
+    "9",
     "--approved-font-family",
     "IBM Plex Sans"
   ],

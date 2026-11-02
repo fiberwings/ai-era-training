@@ -8,7 +8,7 @@ process.env.RUNTIME_NODE_MODULES ||= runtime;
 const require=createRequire(path.join(runtime,'_resolver.cjs'));
 const {Presentation,PresentationFile,FileBlob}=require('@oai/artifact-tool');
 const {GlobalFonts}=require('@napi-rs/canvas');
-const build=path.join(root,'.work/presentations/next-steps-20261102');
+const build=path.join(root,'.work/presentations/next-steps-20261102-secai');
 await fs.mkdir(path.join(build,'previews'),{recursive:true});
 for(const weight of ['Regular','Bold']) GlobalFonts.registerFromPath(path.join(root,`presentations/source/capability-model-20261018/assets/IBMPlexSans-${weight}.ttf`));
 const reference=path.join(root,'presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx');
@@ -53,6 +53,12 @@ text(s,'total','10h 41m total planned learning',72,597,1136,42,32,C.orange,true)
 notes(s,'Reviewed Foundation/L1 selection: TR-281 CompTIA SecAI+ (CY0-001) Complete Course from CertMike! (6h 11m), TR-145 AI Capabilities and Limitations (3h 30m), plus the saved one-hour AI use cases brief. Shared learning is counted once; L1 adds no separate course in this selection. The internal brief is Proposed and not delivery-ready. Mandatory status, completion deadline and tracking arrangements require the later formal approval session. Completion is not proof of competence or operational authorisation. Course sources: https://www.udemy.com/course/comptia-secai-certmike/ and https://academy.claude.com/courses/ai-capabilities-and-limitations (saved catalogue records).');
 }
 {
+const s=slide('What the SecAI+ course covers','CertMike on Udemy · Mike Chapple and Fred Nwanganga · 6h 11m');
+rows(s,[['AI concepts','AI models, prompting and retrieval-augmented generation;\ndata security and the AI lifecycle.'],['Securing AI systems','Threat modelling, access and data controls;\nmonitoring, auditing and responses to AI attacks.'],['AI-assisted security','Using AI for security tasks and automation;\nunderstanding how AI also enhances attacks.'],['Governance, risk\nand compliance','Organisational governance, AI risks and the impact\nof compliance on AI use and development.']],{step:88,size:26});
+text(s,'course-format','Self-paced videos and knowledge checks',72,610,1136,35,23,C.orange);
+notes(s,'Course content summary for the selected TR-281, checked on 2 November 2026 against the provider syllabus: https://www.udemy.com/course/comptia-secai-certmike/ . The page lists 30 sections, 147 lectures and 6h 11m, updated August 2026. It describes four subject domains and explicitly lists prompting and retrieval-augmented generation. The summary groups that published content for an executive audience. The saved catalogue evidence at catalogue/evidence/v14/README.md and sources.json corroborates the course identity, duration and video/knowledge-check format. No learner lab has been verified. Course subject coverage is not evidence of measured competence, full coverage of our model, or operational authorisation. The proposed programme does not require the certification exam.');
+}
+{
 const s=slide('Build the use-case session from our work','BISOs and Domain owners contribute the examples that make it relevant');
 rows(s,[['Collect','Ask every BISO and Domain owner for use cases.'],['Describe','Capture the task, benefit, tool and human checks.'],['Select','Cover a range of cybersecurity responsibilities.'],['Build','Create a one-hour session with demonstrations,\npossibilities and limitations.']],{step:87});
 text(s,'coordination','Proposed coordination: DOM1 for learning; DOM6 for tool availability.',72,612,1136,35,23,C.orange);
@@ -77,9 +83,9 @@ await (await PresentationFile.exportPptx(p)).save(path.join(build,'candidate.ppt
 const skill='/Users/cyberk/.codex/plugins/cache/openai-primary-runtime/presentations/26.1026.10807/skills/presentations';
 const {finalizePresentation}=await import(path.join(skill,'container_tools/artifact_tool_utils.mjs'));
 const final=path.join(root,'presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx');
-const result=await finalizePresentation({workspaceDir:root,candidatePath:path.join(build,'candidate.pptx'),finalPath:final,explicitTotalSlideCount:8,requiredNativeTableOwnerSlides:[2],requiredNativeChartOwnerSlides:[],pythonExecutable:'/Users/cyberk/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3',integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit','--require-native-table-slide','2'],fontPolicy:{basis:'reference',families:['IBM Plex Sans'],referencePath:reference,referenceSha256:createHash('sha256').update(await fs.readFile(reference)).digest('hex')},verifyArtifactToolImport:true,receiptPath:path.join(build,'validation.json')});
+const result=await finalizePresentation({workspaceDir:root,candidatePath:path.join(build,'candidate.pptx'),finalPath:final,explicitTotalSlideCount:9,requiredNativeTableOwnerSlides:[2],requiredNativeChartOwnerSlides:[],pythonExecutable:'/Users/cyberk/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3',integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit','--require-native-table-slide','2'],fontPolicy:{basis:'reference',families:['IBM Plex Sans'],referencePath:reference,referenceSha256:createHash('sha256').update(await fs.readFile(reference)).digest('hex')},verifyArtifactToolImport:true,receiptPath:path.join(build,'validation.json')});
 console.log(JSON.stringify(result));
 const saved=await PresentationFile.importPptx(await FileBlob.load(final));
 for(let i=0;i<saved.slides.items.length;i++)await fs.writeFile(path.join(build,'previews',`slide-${i+1}.png`),new Uint8Array(await (await saved.export({slide:saved.slides.items[i],format:'png',scale:1})).arrayBuffer()));
 await fs.copyFile(path.join(build,'validation.json'),path.join(root,'presentations/source/next-steps-20261102/validation.json'));
-console.log('Rendered all 8 final slides.');
+console.log('Rendered all 9 final slides.');

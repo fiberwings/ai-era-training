@@ -157,3 +157,5 @@ The catalogue, model, Recommended Training Pathways v0.1 selections, recommendat
 ## Group CISO next-steps walkthrough — 2 November 2026
 
 Added an eight-slide [unofficial walkthrough](../presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx), styled to match the capability briefing. Covers provisional component ownership, owner validation and recommendations, the proposed mandatory 2027 Foundation/L1 package (10h 41m), BISO/Domain use-case contributions, and the learning app/prompt-library offer for CISO Connect. No per-slide approval requests; formal approval is a later separate session. Ownership, launch dates and delivery arrangements remain provisional. Secure coding/red-team ownership boundaries need reconciliation before any framework changes. Existing model, catalogue, recommendations, apps and two earlier decks remain unchanged.
+
+The walkthrough was subsequently expanded to nine slides with a provider-sourced summary of the selected CertMike SecAI+ course immediately after the baseline slide. Course selections, duration and model assessments remain unchanged.
