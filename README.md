@@ -10,14 +10,14 @@ Cybersecurity workforce capability framework, assessed training catalogue, recom
 | Capability framework | [Model v2 revision 3](capability-framework/Agentic-Era_Workforce_Capability_Model.md) · [CSV crosswalk](capability-framework/Capability_Model_Crosswalk.csv) | [Framework guide](capability-framework/README.md) |
 | Recommended training pathways | [Pathways v0.1](recommended-pathways/Recommended-Training-Pathways.md) · [Planner scenario](recommended-pathways/Recommended-Training-Pathways.json) | [Pathway guide](recommended-pathways/README.md) |
 | Suggested-pathway builder | [Training Planner 2.2.0](training-planner/Training-Planner.html) | [Builder guide](training-planner/README.md) |
-| Staff learning and feedback app | [AI Cybersecurity Learning 1.5.0](learning-path/index.html) | [Staff-app guide](learning-path/README.md) |
+| Staff learning and feedback app | [AI Cybersecurity Learning 1.6.0](learning-path/index.html) | [Staff-app guide](learning-path/README.md) |
 | Presentations | [Model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx) · [Capability needs](presentations/AI-era-cyber-capability-needs.pptx) | [Presentation guide](presentations/README.md) |
 
 Download and open either app's HTML file in a desktop browser; no server is needed for normal use. Export JSON backups to preserve personal or planning data. Feedback collection through Microsoft Forms is configurable but currently unconnected.
 
 ## Current project status
 
-Recommended Training Pathways v0.1 is a separate maintained deliverable. Foundation/L1 uses TR-281, TR-145 and the one-hour internal **AI use cases** brief and is **Reviewed**. L2, L3, specialist and coached paths are **AI recommendation - to be reviewed**. TR-229 Reasoning with o1 is excluded from these recommendations. The full scenario remains Draft and is published in learner 1.5.0. Import it into the planner to work with the maintained choices.
+Recommended Training Pathways v0.1 is a separate maintained deliverable. Foundation/L1 uses TR-281, TR-145 and the one-hour internal **AI use cases** brief and is **Reviewed**. L2, L3, specialist and coached paths are **AI recommendation - to be reviewed**. TR-229 Reasoning with o1 is excluded from these recommendations. The full scenario remains Draft and is published in learner 1.6.0. Each scrolling learning section now separates **Central recommendations** from optional **Suggested for you** matches, while retaining the four progress cards. Import the pathway into the planner to work with the maintained choices.
 
 The catalogue and both apps use v15 evidence, including the reviewed Udemy SecAI+ courses and the saved AI use cases internal brief in its own worksheet. The builder's component workspace starts blank. By subsequent user request, the staff app now publishes Recommended Training Pathways v0.1. The legacy planner retains its earlier bundled pathway. Saved personal plans and feedback remain preserved.
 

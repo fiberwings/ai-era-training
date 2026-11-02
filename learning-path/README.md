@@ -2,7 +2,7 @@
 
 A learner-facing companion to the training builder. **Open `index.html`** in a current desktop browser, or host that single file on GitHub Pages. No installation, external scripts, fonts, API keys, or server are needed for the application itself. Course websites and Microsoft Forms require internet access.
 
-Release **1.5.0 — 1 November 2026**. Publishes [Recommended Training Pathways v0.1](../recommended-pathways/README.md), using catalogue v15 (534 offerings) and model v2 revision 3. The native schema-3 components and audience variants remain the decision source. Foundation and L1 are **Reviewed**; L2, L3, specialist and coached recommendations are **AI recommendation - to be reviewed**. The overall pathway remains **Draft**. Proposed internal learning is visible as upcoming; it cannot be committed or completed until marked Ready in a new central plan.
+Release **1.6.0 — 2 November 2026**. Publishes [Recommended Training Pathways v0.1](../recommended-pathways/README.md), using catalogue v15 (534 offerings) and model v2 revision 3. The native schema-3 components and audience variants remain the decision source. Foundation and L1 are **Reviewed**; L2, L3, specialist and coached recommendations are **AI recommendation - to be reviewed**. The overall pathway remains **Draft**. Each scrolling layer now separates **Central recommendations** from optional **Suggested for you** matches. Proposed internal learning is visible in its central lane; it cannot be committed or completed until marked Ready in a new central plan.
 
 Foundation assigns TR-281, TR-145 and the saved one-hour **AI use cases** internal brief once; L1 and higher paths inherit them. Review status and delivery readiness are separate: AI use cases remains Proposed. TR-229 Reasoning with o1 and TR-127 are excluded from new recommendations and tailored suggestions; existing personal learning records are preserved. L2/L3 learners can explicitly select the standard or coached route. Responsibility combinations use their specific published variants, avoiding duplicate alternative practice.
 
@@ -20,6 +20,15 @@ Previous catalogue update: v12 (31 October 2026) reassessed two Anthropic course
 - **Learning coverage:** a collapsed side panel showing Foundation, L1/L2/L3, selected roles, and tooling. Shared outcomes count once overall. Switch between central, selected, and completed-course coverage. Need tiles show supporting evidence and link to relevant offerings.
 
 Recommendation source and personal status are independent. Other-level specialist selections are labelled “Central role option,” name their original plan and level, and prompt a prerequisite check. They are unchecked by default in bulk review. A centrally recommended course stays labelled “Centrally recommended” after it is added to a learner's plan. Unselected offerings say “From the catalog”; personal additions say “Added by you.” Saved-for-later and deferred courses do not count as committed coverage. Existing learning remains when the profile or published pathway changes. A course may support more than one layer, but its commitment and learning time are counted once.
+
+### Central recommendations and Suggested for you
+
+The four overview cards retain their completion counts and progress bars. The scrolling Foundation, selected level, specialisation and tool sections each have two stacked lanes:
+
+- **Central recommendations:** selections from the active published or locally imported plan, with its source name, review label and separate available/upcoming counts. The lane remains visible when nothing is selected. Shared Foundation learning links back to Foundation; additional level-specific selections still appear. Proposed internal sessions and unavailable catalogue resources are visible here with save-for-later actions.
+- **Suggested for you:** optional catalogue matches produced by the existing recommendation ranking, with their own count and expansion control. These are not central selections and do not enter the personal plan until chosen.
+
+Publication does not imply selection review. A central AI proposal keeps its pending-review label; missing review metadata is shown as “Review status not recorded.” Delivery status and personal progress are independent. Source names, inheritance and review labels are read from the active plan rather than assumed from the bundled v0.1 example. Both schema-2 and schema-3 imports retain this distinction.
 
 ## Save and transfer progress
 
@@ -174,6 +183,8 @@ My profile has a collapsible **Central learning profile (optional)** section. Se
 Importing or publishing a revised central plan does not silently change a saved snapshot. **Review outcome changes** shows the saved and current choices and lets the learner keep the saved scope or use the latest. Missing sources retain their saved choices. Scope changes are recorded in local history; courses, completion and feedback context remain intact. Choosing Standard model outcomes removes the assigned-profile overrides.
 
 ## Release verification
+
+Release 1.6.0 passes **87 learner JavaScript checks, 3 feedback-converter checks and 10 browser regressions**. The browser checks cover both source lanes, unchanged overview/layer order, empty tool selections, shared Foundation learning, central and personalised add-to-plan actions, saved completion/feedback, pending AI review, proposed delivery, coached routes, revised schema-3 plans and legacy schema-2 role options. Desktop and 768/390/320px layouts were checked. The rebuilt standalone is deterministic, and the ZIP member matches it. See [qa/recommendation-lanes-1.6.0.json](qa/recommendation-lanes-1.6.0.json). With Playwright installed, run `node --test learning-path/tests/quick-setup.browser.cjs learning-path/tests/published-pathways.browser.cjs learning-path/tests/recommendation-lanes.browser.cjs`.
 
 Release 1.5.0 passes 77 learner JavaScript checks, 3 feedback-converter checks and 5 browser regressions on the rebuilt standalone file. Tests compare all 25 L1–L3 audience paths with the planner for selections, internal items, scope and assessed coverage. Browser checks cover quick setup, responsive layout, Reviewed Foundation/L1 labels, Proposed internal learning, pending specialist reviews, explicit coached-route selection, reload persistence and retained completion/feedback history. With Playwright installed, run `node --test learning-path/tests/quick-setup.browser.cjs learning-path/tests/published-pathways.browser.cjs`. Release evidence is in [qa/publication-1.5.0.json](qa/publication-1.5.0.json).
 

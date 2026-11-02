@@ -1,5 +1,5 @@
 {
-  "packagedOn": "2026-11-01",
+  "packagedOn": "2026-11-02",
   "catalogueVersion": "ff6d5a46d0450171",
   "catalogueWorkbook": "AI_Era_Cyber_Training_Catalogue_v15.xlsx",
   "modelVersion": 2,
@@ -17,14 +17,14 @@
       "memberSha256": "55ffbdd29c0a4c861ee4b15915c96ecab7e08f0d106864e4fc0c1e2547441616"
     },
     {
-      "app": "My AI Learning Path",
-      "version": "1.5.0",
-      "releaseDate": "2026-11-01",
-      "package": "learning-path/1.5.0/My-AI-Learning-Path.zip",
-      "sha256": "2348bb0852af3a5d81bb1370438f904181089c6b9d1f7ec53a180751e682252f",
+      "app": "AI Cybersecurity Learning",
+      "version": "1.6.0",
+      "releaseDate": "2026-11-02",
+      "package": "learning-path/1.6.0/My-AI-Learning-Path.zip",
+      "sha256": "f3f8ccc39d9de36f8ecfcbef9a8eb3ce183b76db8afb894a33fd6b2d59b58f66",
       "source": "learning-path/index.html",
       "member": "index.html",
-      "memberSha256": "f671e952ab137a1db60dbaa4a8a1daa70ab39c79a295b712dc46914fbc68e4e6",
+      "memberSha256": "bd34b4aef11566a740d0077f300ffebb9f533254084089b923a3f1e14975f293",
       "recommendationSource": "recommended-pathways/Recommended-Training-Pathways.json",
       "recommendationVersion": "0.1",
       "scenarioSchema": 3

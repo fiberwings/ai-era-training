@@ -72,5 +72,5 @@ test('distributed HTML embeds the maintained recommendation with review and deli
  const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');
  const data=JSON.parse(html.match(/id="learning-data">([\s\S]*?)<\/script>/)[1]);
  assert.equal(data.scenario.id,source.id);assert.deepEqual(data.scenario.components,source.components);assert.equal(data.scenario.schema,3);
- assert.equal(data.config.appVersion,'1.5.0');assert.ok(data.scenario.components.every(c=>!c.selected.includes('TR-229')));
+ assert.equal(data.config.appVersion,load('../config.json').appVersion);assert.ok(data.scenario.components.every(c=>!c.selected.includes('TR-229')));
 });

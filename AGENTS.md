@@ -25,7 +25,7 @@ The recommended-pathways JSON owns recommended selections, audience composition 
 
 The readable model and CSV/JSON crosswalks are generated from `training-planner/public/capability-model.js`, `model-explanation.js`, `presentation.js` and the imported catalogue. Preserve approved prose when changing these sources; do not overwrite manual model changes without reconciling them. Do not edit generated copies independently and leave the source inconsistent.
 
-Current identities: catalogue **v15**, snapshot `ff6d5a46d0450171`; model **2 revision 3**; planner **2.2.0**; learner app **1.5.0**. See `training-planner/public/release.js`, `learning-path/config.json`, and [project context](docs/PROJECT_CONTEXT.md) for release details. An app release, catalogue snapshot, model revision and scenario schema are separate identities.
+Current identities: catalogue **v15**, snapshot `ff6d5a46d0450171`; model **2 revision 3**; planner **2.2.0**; learner app **1.6.0**. See `training-planner/public/release.js`, `learning-path/config.json`, and [project context](docs/PROJECT_CONTEXT.md) for release details. An app release, catalogue snapshot, model revision and scenario schema are separate identities.
 
 ## Directory rules
 
@@ -47,7 +47,8 @@ Keep both app directory names and runnable HTML paths stable. Browser storage ca
 - Curriculum coverage is not measured competence or operational authorisation. Catalogue evidence and planned internal teaching must remain distinguishable.
 - Coverage uses each outcome's best course score (0–3), then equally weighted need percentages. Deduplicate shared outcomes, courses and internal learner time. Keep full-course duration rules and explicit unknowns.
 - Do not reintroduce TR-127, which the user excluded from this corporate programme. Preserve other existing selection/exclusion decisions unless the planning task explicitly changes them.
-- Planner schema 3 uses reusable components and starts blank. Learner 1.5.0 publishes Recommended Training Pathways v0.1 by user request and accepts schema-2/3 central plans. Native component variants and review labels are retained; derived compatibility groups support existing profiles. Coached routes require an explicit learner choice. Preserve personal learning and feedback when publishing.
+- Planner schema 3 uses reusable components and starts blank. Learner 1.6.0 publishes Recommended Training Pathways v0.1 by user request and accepts schema-2/3 central plans. Native component variants and review labels are retained; derived compatibility groups support existing profiles. Coached routes require an explicit learner choice. Preserve personal learning and feedback when publishing.
+- Learner For you retains the four overview/progress cards and scrolling layers. Each layer separates Central recommendations from optional Suggested for you matches. Always show the central lane, including empty and shared-Foundation states. Central publication, selection review, delivery readiness and personal progress remain distinct; imported plans supply their own names, selections and review labels.
 - Planner changed-input review gates were removed by user request; do not restore them accidentally. The learner app's central-scope review behaviour is separate.
 - Learner onboarding asks only level, broad responsibility areas, planned tools and optional Python/Git comfort. Detailed task/activity preferences and the starting-point assessment are optional after quick setup; never invent activity answers. Preserve saved refined responsibility choices.
 - Learner progress and feedback are browser-local. Microsoft Forms is configurable but unconnected. Do not invent central receipt, automatic syncing or learner competence.

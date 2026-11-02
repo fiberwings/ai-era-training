@@ -1,6 +1,6 @@
 # Project context
 
-Current as of 1 November 2026. This is the current handover; the [31 October handover](history/PROJECT_CONTEXT-2026-10-31.md) remains unchanged as historical evidence.
+Current as of 2 November 2026. This is the current handover; the [31 October handover](history/PROJECT_CONTEXT-2026-10-31.md) remains unchanged as historical evidence.
 
 ## Purpose
 
@@ -22,6 +22,10 @@ The six live deliverables and their entry points are in the [root README](../REA
 10. Add training completion counts and progress bars to the For you overview’s four pathway cards. Track available central training and personal commitments, with separate upcoming/optional counts. Reuse shared completion across relevant layers and deduplicate within each layer; completion remains self-reported.
 11. Add Specialisation and Tool dropdowns to Explore training’s Filters panel. Learners can explore all nine roles, specific responsibilities and catalogue tools independently of their saved profile; filters combine with search and existing controls.
 
+## Decision on 2 November 2026
+
+Implement the approved learning-app mock-up within the existing design: retain the four overview/progress cards and scrolling Foundation, selected level, specialisation and tool sections. Within each section, show Central recommendations first and Suggested for you separately below. Keep empty central states visible, explain shared Foundation learning, and distinguish pending AI selection review from proposed internal delivery. Catalogue matching remains optional; adding a course does not change its recommendation source.
+
 ## Current versions and authority
 
 | Item | Current identity | Authority |
@@ -30,7 +34,7 @@ The six live deliverables and their entry points are in the [root README](../REA
 | Framework | Version 2, revision 3 | [Model](../capability-framework/Agentic-Era_Workforce_Capability_Model.md) |
 | Recommended pathways | Version 0.1; 1 November 2026; partially reviewed Draft | [Decision source](../recommended-pathways/Recommended-Training-Pathways.json) and [generated guide](../recommended-pathways/Recommended-Training-Pathways.md) |
 | Builder | 2.2.0; 1 November 2026 | `training-planner/public/release.js` and source |
-| Staff app | 1.5.0; 1 November 2026 | `learning-path/config.json` and source |
+| Staff app | 1.6.0; 2 November 2026 | `learning-path/config.json` and source |
 | Bundled legacy pathway | 2027 v3, revision 2; Draft | `training-planner/public/data/default-scenario.json`, retained by explicit choice |
 | Component starter | Schema 3; blank curriculum | `training-planner/public/data/component-starter.json` |
 
@@ -141,3 +145,11 @@ Learning components now presents responsibility packages as pathway cards, using
 Create tool pathway records an approved product, intended tasks and optional budget. Find training for this tool opens a product-and-task filtered catalogue with preview/add actions and full-course budget fit, including explicit unresolved durations. All catalogue resources remain available for manual review. Product/task metadata is discovery evidence only and creates no assessed coverage. Tool pathways compose into audience paths using the existing schema-3 components.
 
 Catalogue v15, model 2 revision 3, maintained recommendation choices, both planner starters, storage keys and saved-plan formats are retained. This release changes only the planner and its distribution.
+
+## Learner 1.6.0 — separate recommendation sources
+
+The For you page preserves the existing four progress cards, navigation, course cards and scrolling layer order. Every configured layer or responsibility has a Central recommendations lane followed by Suggested for you. Central selections and optional catalogue matches have separate counts and expansion controls. Empty central lanes explicitly say that no recommendation is published. Shared Foundation learning links back to its original section and does not hide additional level-specific selections.
+
+The active plan supplies the source name and review labels, including for schema-2/3 imports. AI proposals published centrally remain marked as awaiting review. Unknown review status is explicit, and availability is separate: proposed internal sessions and catalogue resources awaiting validation can be saved but not committed. Ready learning uses the existing add-to-plan and completion flows.
+
+The catalogue, model, Recommended Training Pathways v0.1 selections, recommendation ranking, progress calculations, storage keys, backup format and personal records are unchanged. The live standalone file and 1.6.0 distribution are rebuilt. See [release verification](../learning-path/qa/recommendation-lanes-1.6.0.json).

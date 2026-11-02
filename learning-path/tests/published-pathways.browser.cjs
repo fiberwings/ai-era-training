@@ -30,7 +30,6 @@ test('published Foundation/L1 is reviewed and AI use cases stays upcoming on mob
   assert.match(await card.innerText(),/Reviewed/);
  }
  assert.match(await page.locator('#layer-level .pathway-review-label').innerText(),/Reviewed/);
- await foundation.locator('.layer-more').filter({hasText:'coming later'}).locator('summary').click();
  const upcoming=foundation.locator('.pending-row').filter({hasText:'AI use cases'});
  assert.match(await upcoming.innerText(),/Proposed/);assert.match(await upcoming.innerText(),/Reviewed/);
  assert.equal(await upcoming.locator('[data-action="add"]').count(),0);
@@ -51,7 +50,6 @@ test('existing completion and feedback survive publication and switching to coac
  assert.ok(await page.locator('#layer-level [data-action="course"][data-id="TR-198"]').count());
  await page.getByLabel('Learning route',{exact:true}).selectOption('coached');
  assert.equal(await page.locator('#layer-level [data-action="course"][data-id="TR-198"]').count(),0);
- await page.locator('#layer-level .layer-more').filter({hasText:'coming later'}).locator('summary').click();
  assert.match(await page.locator('#layer-level').innerText(),/Supported no-code agent build and evaluation/);
  const after=await stored(page);assert.equal(after.profile.learningRoute,'coached');
  assert.deepEqual(after.items,saved.items);assert.deepEqual(after.feedback,saved.feedback);
