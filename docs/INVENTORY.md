@@ -11,7 +11,7 @@
 | [recommended-pathways](../recommended-pathways/README.md) | New maintained v0.1 recommendations, editable schema-3 scenario, generated guide, internal briefs and coverage evidence. Foundation/L1 Reviewed; all other recommendations AI generated — to be reviewed. |
 | [training-planner](../training-planner/README.md) | Builder source, runnable HTML, tests, shared model/data, catalogue/scenario histories and QA evidence. Existing app path retained. |
 | [learning-path](../learning-path/README.md) | Staff-app source, runnable HTML, tests and feedback importer. Learner 1.6.0 publishes Recommended Training Pathways v0.1 with distinct central and personalised recommendation lanes. Existing app path retained. |
-| [presentations](../presentations/README.md) | Both live PowerPoint decks; historical authoring scripts, source inputs and validation records. |
+| [presentations](../presentations/README.md) | Three live PowerPoint decks, including the 2 November 2026 next-steps walkthrough; authoring scripts, source inputs and validation records. |
 
 ## Supporting directories
 
