@@ -71,6 +71,8 @@ export function displayTracks(bundle,learner,course) {
   if(course.track==='tool')return ['Tooling'];
   if(isLayered(learner)){
     const layers=pathLayers(bundle,learner),fits=r=>course.internal?course.requirements.includes(r.id):(course.scores[r.id]?.score||0)>=2;
+    const assigned=flattenLayers(layers).flatMap(l=>l.groups).filter(g=>course.internal?g.internal.some(i=>`internal:${i.id}`===course.id):g.selected.includes(course.id));
+    if(assigned.length)return [...new Set(assigned.map(g=>g.profile.specialisms.length?'Specialist':TRACK_NAMES[g.profile.level]))];
     const specialist=layers.some(l=>l.kind==='specialist'&&!l.reused&&l.requirements.some(fits));
     const shared=layers.filter(l=>['foundation','level'].includes(l.kind)).flatMap(l=>l.requirements).filter(fits);
     return [...(specialist?['Specialist']:[]),...TRACK_NAMES.slice(0,4).filter((_,level)=>shared.some(r=>sharedLevel(r)===level))];
@@ -93,9 +95,19 @@ export function sourceFor(bundle,learner,id,suggested=false) {
   const source=learner.items[id]?.source;
   return ['central','central-role','previous-central','personalised','personal'].includes(source)?source:(suggested?'personalised':'catalog');
 }
+function centralGroups(bundle,learner) {
+  if(isLayered(learner))return flattenLayers(pathLayers(bundle,learner)).flatMap(l=>l.groups);
+  const group=groupFor(bundle,learner);
+  return [...ancestors(bundle.scenario,group),group];
+}
 export function centralReviewStatus(bundle,learner,id) {
-  const groups=isLayered(learner)?flattenLayers(pathLayers(bundle,learner)).flatMap(l=>l.groups):bundle.scenario.cohorts;
-  return groupsReviewStatus(groups.filter(g=>g.selected.includes(id)||g.internal.some(i=>`internal:${i.id}`===id)));
+  return groupsReviewStatus(centralGroups(bundle,learner)
+    .filter(g=>g.selected.includes(id)||g.internal.some(i=>`internal:${i.id}`===id))
+    .map(g=>({reviewStatus:g.courseReviews?.[id]?.status||g.reviewStatus})));
+}
+export function centralReference(bundle,learner,id) {
+  if(!centralGroups(bundle,learner).some(g=>g.selected.includes(id)&&g.courseReviews?.[id]))return null;
+  return bundle.scenario.publication?.coreReferences?.find(r=>r.courseId===id)||null;
 }
 export function unavailable(course) {
   if(course.internal&&course.status!=='Ready')return 'In development — not available yet';

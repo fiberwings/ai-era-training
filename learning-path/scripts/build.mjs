@@ -8,10 +8,13 @@ import {prepareCentralScenario} from '../src/published-pathways.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const args=process.argv.slice(2);
 function arg(name,fallback){const i=args.indexOf(name);if(i<0)return fallback;if(!args[i+1]||args[i+1].startsWith('--'))throw Error(`Missing value for ${name}`);return path.resolve(args[i+1]);}
-const known=new Set(['--scenario','--config','--feedback','--output']);
+const known=new Set(['--scenario','--catalogue','--config','--feedback','--output']);
 for(let i=0;i<args.length;i+=2)if(!known.has(args[i]))throw Error(`Unknown argument ${args[i]}`);
-const source=JSON.parse(fs.readFileSync(path.join(root,'../training-planner/public/data/catalogue.json'),'utf8'));
-const scenario=prepareCentralScenario(JSON.parse(fs.readFileSync(arg('--scenario',path.join(root,'../recommended-pathways/Recommended-Training-Pathways.json')),'utf8')),source);
+const scenarioSource=JSON.parse(fs.readFileSync(arg('--scenario',path.join(root,'../recommended-pathways/Recommended-Training-Pathways.json')),'utf8'));
+// Publish against the scenario's recorded evidence, even during a separate catalogue refresh.
+const currentCatalogue=JSON.parse(fs.readFileSync(path.join(root,'../training-planner/public/data/catalogue.json'),'utf8'));
+const source=args.includes('--catalogue')?JSON.parse(fs.readFileSync(arg('--catalogue'),'utf8')):currentCatalogue.version===scenarioSource.catalogueVersion?currentCatalogue:JSON.parse(fs.readFileSync(path.join(root,'../training-planner/catalogue-history',`${scenarioSource.catalogueVersion}.json`),'utf8'));
+const scenario=prepareCentralScenario(scenarioSource,source);
 const config=JSON.parse(fs.readFileSync(arg('--config',path.join(root,'config.json')),'utf8'));
 if(config.formsTemplate)validateFormsTemplate(config.formsTemplate);
 let feedbackSummary=null;

@@ -2,7 +2,7 @@
 
 This directory is reserved for new active analyses. No earlier training recommendation is treated as current.
 
-For review: [Fundamental AI frameworks and original publisher material](fundamental-ai-frameworks-review/README.md), 2 November 2026. Proposed placements for OWASP, MITRE, NIST and related primary-source guidance, with pathway time/evidence impact and two additional catalogue candidates. Catalogue and recommended pathways remain unchanged.
+Core implemented; further proposals for review: [Fundamental AI frameworks and original publisher material](fundamental-ai-frameworks-review/README.md), 2 November 2026. Proposed placements for OWASP, MITRE, NIST and related primary-source guidance, with pathway time/evidence impact and two additional catalogue candidates. Core OWASP, NIST AI RMF and MITRE ATLAS placements are published in pathways v0.3, with Foundation unchanged. Other proposals remain unimplemented; catalogue evidence is unchanged.
 
 Current research: [SecAI+ and ISC2 Building AI Strategy framework review](secai-isc2-framework-review/README.md), 1 November 2026. Public-syllabus assessment against all 140 outcomes; decisions promoted into catalogue v13. Existing app selections remain unchanged.
 

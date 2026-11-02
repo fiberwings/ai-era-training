@@ -3,13 +3,13 @@
   "modelVersion": 2,
   "modelRevision": 3,
   "id": "recommended-training-pathways-v0.1",
-  "name": "Recommended Training Pathways v0.2",
+  "name": "Recommended Training Pathways v0.3",
   "status": "Draft",
-  "catalogueVersion": "9ed4551ae565417e",
+  "catalogueVersion": "8bffc898c371360e",
   "catalogueIdentity": {
-    "version": "9ed4551ae565417e",
-    "filename": "AI_Era_Cyber_Training_Catalogue_v16.xlsx",
-    "sourceSha256": "07a1829aeadffbe170d8aa1ebcf7d03e61b5248a9c8e53c990930fae22a1d6eb",
+    "version": "8bffc898c371360e",
+    "filename": "AI_Era_Cyber_Training_Catalogue_v17.xlsx",
+    "sourceSha256": "0e86b31203f54dd378a57f6dbb2e7981b9a0cb6d0dfa73c57938e8747e3661ac",
     "assessmentDate": "2026-11-01"
   },
   "created": "2026-11-01T00:00:00.000Z",
@@ -275,14 +275,21 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. Evaluating AI Agents develops tracing and evaluation; Agent Skills develops reusable instructions; OWASP guidance adds agent-security context. Complete the courses before the internal supervision, Skill, benchmark and observed-assessment exercises. TR-100 requires basic Python; use the coached alternative where unsuitable.",
+      "rationale": "AI recommendation - to be reviewed. Evaluating AI Agents develops tracing and evaluation; Agent Skills develops reusable instructions; OWASP guidance adds agent-security context. Complete the courses before the internal supervision, Skill, benchmark and observed-assessment exercises. TR-100 requires basic Python; use the coached alternative where unsuitable. Core reference selections TR-110 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "level": 2,
       "activities": [],
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "Evaluating AI Agents develops tracing and evaluation; Agent Skills develops reusable instructions; OWASP guidance adds agent-security context. Complete the courses before the internal supervision, Skill, benchmark and observed-assessment exercises. TR-100 requires basic Python; use the coached alternative where unsuitable.",
       "owner": "",
-      "nextReviewDate": null
+      "nextReviewDate": null,
+      "courseReviews": {
+        "TR-110": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "l3",
@@ -454,7 +461,10 @@
       ],
       "dependencies": [],
       "selected": [
-        "INT-194"
+        "INT-194",
+        "TR-109",
+        "TR-110",
+        "TR-117"
       ],
       "pinned": [],
       "excluded": [
@@ -492,13 +502,30 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. AI security teaching precedes a local design and remediation exercise; this specialism can accompany L2.",
+      "rationale": "AI recommendation - to be reviewed. AI security teaching precedes a local design and remediation exercise; this specialism can accompany L2. Core reference selections TR-109, TR-110, TR-117 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "ai-security",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "AI security teaching precedes a local design and remediation exercise; this specialism can accompany L2.",
       "owner": "",
-      "nextReviewDate": null
+      "nextReviewDate": null,
+      "courseReviews": {
+        "TR-109": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        },
+        "TR-110": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        },
+        "TR-117": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "specialism-ai-governance",
@@ -516,7 +543,8 @@
       "dependencies": [],
       "selected": [
         "INT-397",
-        "TR-133"
+        "TR-133",
+        "TR-118"
       ],
       "pinned": [],
       "excluded": [
@@ -552,13 +580,20 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. Governance teaching and autonomy guidance precede a local risk case and independent challenge. Apply only to actual governance and risk responsibilities.",
+      "rationale": "AI recommendation - to be reviewed. Governance teaching and autonomy guidance precede a local risk case and independent challenge. Apply only to actual governance and risk responsibilities. Core reference selections TR-118 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "ai-governance",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "Governance teaching and autonomy guidance precede a local risk case and independent challenge. Apply only to actual governance and risk responsibilities.",
       "owner": "",
-      "nextReviewDate": null
+      "nextReviewDate": null,
+      "courseReviews": {
+        "TR-118": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "specialism-workflow-transformation",
@@ -747,7 +782,8 @@
       ],
       "dependencies": [],
       "selected": [
-        "TR-063"
+        "TR-063",
+        "TR-117"
       ],
       "pinned": [],
       "excluded": [
@@ -778,13 +814,20 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. Threat research precedes a local threat-watch and detection-update exercise.",
+      "rationale": "AI recommendation - to be reviewed. Threat research precedes a local threat-watch and detection-update exercise. Core reference selections TR-117 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "threat-intelligence",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "Threat research precedes a local threat-watch and detection-update exercise.",
       "owner": "",
-      "nextReviewDate": null
+      "nextReviewDate": null,
+      "courseReviews": {
+        "TR-117": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "specialism-incident-response",
@@ -918,7 +961,10 @@
       ],
       "dependencies": [],
       "selected": [
-        "TR-114"
+        "TR-114",
+        "TR-109",
+        "TR-110",
+        "TR-117"
       ],
       "pinned": [],
       "excluded": [
@@ -955,13 +1001,30 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. Red-teaming guidance precedes a contained testing exercise.",
+      "rationale": "AI recommendation - to be reviewed. Red-teaming guidance precedes a contained testing exercise. Core reference selections TR-109, TR-110, TR-117 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "agent-testing",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "Red-teaming guidance precedes a contained testing exercise.",
       "owner": "",
-      "nextReviewDate": null
+      "nextReviewDate": null,
+      "courseReviews": {
+        "TR-109": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        },
+        "TR-110": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        },
+        "TR-117": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "specialism-advanced-redteam",
@@ -1039,7 +1102,8 @@
       "dependencies": [],
       "selected": [
         "INT-2269",
-        "TR-162"
+        "TR-162",
+        "TR-110"
       ],
       "pinned": [],
       "excluded": [
@@ -1075,13 +1139,20 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. MCP and governance teaching precede agent exposure inventory and prioritisation.",
+      "rationale": "AI recommendation - to be reviewed. MCP and governance teaching precede agent exposure inventory and prioritisation. Core reference selections TR-110 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "exposure-management",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "MCP and governance teaching precede agent exposure inventory and prioritisation.",
       "owner": "",
-      "nextReviewDate": null
+      "nextReviewDate": null,
+      "courseReviews": {
+        "TR-110": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "specialism-code-analysis",
@@ -1160,7 +1231,8 @@
       ],
       "dependencies": [],
       "selected": [
-        "TR-112"
+        "TR-112",
+        "TR-110"
       ],
       "pinned": [],
       "excluded": [
@@ -1205,13 +1277,20 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. The architecture branch combines AI security teaching with the Agent Control Standard and an architecture review.",
+      "rationale": "AI recommendation - to be reviewed. The architecture branch combines AI security teaching with the Agent Control Standard and an architecture review. Core reference selections TR-110 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "agent-architecture",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "The architecture branch combines AI security teaching with the Agent Control Standard and an architecture review.",
       "owner": "",
-      "nextReviewDate": null
+      "nextReviewDate": null,
+      "courseReviews": {
+        "TR-110": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "specialism-agent-assurance",
@@ -1286,7 +1365,8 @@
       "dependencies": [],
       "selected": [
         "TR-064",
-        "TR-122"
+        "TR-122",
+        "TR-110"
       ],
       "pinned": [],
       "excluded": [
@@ -1322,13 +1402,20 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. Identity and adoption guidance precede grants, reviews and revocation drills using local controls.",
+      "rationale": "AI recommendation - to be reviewed. Identity and adoption guidance precede grants, reviews and revocation drills using local controls. Core reference selections TR-110 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "identity-operations",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "Identity and adoption guidance precede grants, reviews and revocation drills using local controls.",
       "owner": "",
-      "nextReviewDate": null
+      "nextReviewDate": null,
+      "courseReviews": {
+        "TR-110": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "specialism-identity-integration",
@@ -1402,7 +1489,10 @@
       ],
       "dependencies": [],
       "selected": [
-        "INT-194"
+        "INT-194",
+        "TR-109",
+        "TR-110",
+        "TR-117"
       ],
       "pinned": [],
       "excluded": [
@@ -1419,14 +1509,31 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. Architecture variant: the combined architecture review supplies practice. The separate remediation lab is not also assigned.",
+      "rationale": "AI recommendation - to be reviewed. Architecture variant: the combined architecture review supplies practice. The separate remediation lab is not also assigned. Core reference selections TR-109, TR-110, TR-117 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "ai-security",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "Architecture variant: the combined architecture review supplies practice. The separate remediation lab is not also assigned.",
       "owner": "",
       "nextReviewDate": null,
-      "variantOf": "specialism-ai-security"
+      "variantOf": "specialism-ai-security",
+      "courseReviews": {
+        "TR-109": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        },
+        "TR-110": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        },
+        "TR-117": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "specialism-ai-governance-assurance",
@@ -1443,7 +1550,8 @@
       ],
       "dependencies": [],
       "selected": [
-        "INT-397"
+        "INT-397",
+        "TR-118"
       ],
       "pinned": [],
       "excluded": [
@@ -1460,14 +1568,21 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. Assurance variant: the assurance case supplies practice. The separate governance risk case and autonomy reading are not also assigned.",
+      "rationale": "AI recommendation - to be reviewed. Assurance variant: the assurance case supplies practice. The separate governance risk case and autonomy reading are not also assigned. Core reference selections TR-118 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "ai-governance",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "Assurance variant: the assurance case supplies practice. The separate governance risk case and autonomy reading are not also assigned.",
       "owner": "",
       "nextReviewDate": null,
-      "variantOf": "specialism-ai-governance"
+      "variantOf": "specialism-ai-governance",
+      "courseReviews": {
+        "TR-118": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "specialism-incident-response-forensics",
@@ -1523,7 +1638,11 @@
         "R3.2.5"
       ],
       "dependencies": [],
-      "selected": [],
+      "selected": [
+        "TR-109",
+        "TR-110",
+        "TR-117"
+      ],
       "pinned": [],
       "excluded": [
         "TR-125",
@@ -1539,14 +1658,31 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. Preserves testing and containment scope while the advanced guide and adversarial exercise supply the selected teaching. Review remaining gaps.",
+      "rationale": "AI recommendation - to be reviewed. Preserves testing and containment scope while the advanced guide and adversarial exercise supply the selected teaching. Review remaining gaps. Core reference selections TR-109, TR-110, TR-117 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "agent-testing",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "Preserves testing and containment scope while the advanced guide and adversarial exercise supply the selected teaching. Review remaining gaps.",
       "owner": "",
       "nextReviewDate": null,
-      "variantOf": "specialism-agent-testing"
+      "variantOf": "specialism-agent-testing",
+      "courseReviews": {
+        "TR-109": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        },
+        "TR-110": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        },
+        "TR-117": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "specialism-identity-operations-integration",
@@ -1563,7 +1699,8 @@
       ],
       "dependencies": [],
       "selected": [
-        "TR-064"
+        "TR-064",
+        "TR-110"
       ],
       "pinned": [],
       "excluded": [
@@ -1599,14 +1736,21 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. Integration variant retains the operations drill and uses TR-113 in the integration component instead of adding TR-122.",
+      "rationale": "AI recommendation - to be reviewed. Integration variant retains the operations drill and uses TR-113 in the integration component instead of adding TR-122. Core reference selections TR-110 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "specialism": "identity-operations",
       "reviewStatus": "AI recommendation - to be reviewed",
       "reviewDate": null,
       "reviewBasis": "Integration variant retains the operations drill and uses TR-113 in the integration component instead of adding TR-122.",
       "owner": "",
       "nextReviewDate": null,
-      "variantOf": "specialism-identity-operations"
+      "variantOf": "specialism-identity-operations",
+      "courseReviews": {
+        "TR-110": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "l2-coached",
@@ -1754,7 +1898,7 @@
         "audience": true,
         "types": []
       },
-      "rationale": "AI recommendation - to be reviewed. Use Skills and agent-security teaching with supported evaluation practice. Pilot Skills exercises for accessibility; retain full-course coverage only if learners complete the assessed content. The additional internal practice is proposed and unscored. Internal curriculum and platform scaffolds need development and assessment before rollout.",
+      "rationale": "AI recommendation - to be reviewed. Use Skills and agent-security teaching with supported evaluation practice. Pilot Skills exercises for accessibility; retain full-course coverage only if learners complete the assessed content. The additional internal practice is proposed and unscored. Internal curriculum and platform scaffolds need development and assessment before rollout. Core reference selections TR-110 were reviewed by the user on 2 November 2026; the remainder of this component still awaits review.",
       "level": 2,
       "activities": [],
       "reviewStatus": "AI recommendation - to be reviewed",
@@ -1762,7 +1906,14 @@
       "reviewBasis": "Use Skills and agent-security teaching with supported evaluation practice. Pilot Skills exercises for accessibility; retain full-course coverage only if learners complete the assessed content. The additional internal practice is proposed and unscored. Internal curriculum and platform scaffolds need development and assessment before rollout.",
       "owner": "",
       "nextReviewDate": null,
-      "variantOf": "l2"
+      "variantOf": "l2",
+      "courseReviews": {
+        "TR-110": {
+          "status": "Reviewed",
+          "date": "2026-11-02",
+          "basis": "User approved the core framework recommendations, after excluding OWASP from Foundation."
+        }
+      }
     },
     {
       "id": "l3-coached",
@@ -2492,7 +2643,7 @@
     }
   ],
   "publication": {
-    "version": "0.2",
+    "version": "0.3",
     "date": "2026-11-02",
     "status": "Partially reviewed draft",
     "owner": "",
@@ -2520,6 +2671,14 @@
       {
         "date": "2026-11-02",
         "decision": "Catalogue v16 compatibility reviewed after 18 user-approved retirements. None is selected or pinned here. All 516 retained records, outcome definitions, assessment evidence, shared internal teaching and catalogue-wide outcome maxima are unchanged. Preserve all component/audience IDs, selections, review labels and exclusions; TR-229 is now a recognised retired exclusion. Version 0.1 is archived. This is a maintenance publication, not approval of the remaining AI recommendations."
+      },
+      {
+        "date": "2026-11-02",
+        "decision": "Implement the user-approved core recommendations: OWASP LLM Top 10 in AI security and testing specialisms, OWASP Agentic Top 10 retained in L2 and extended to applicable specialisms, NIST AI RMF bundle in governance/assurance, and MITRE ATLAS in threat intelligence, testing and AI security. Foundation/L1 remains unchanged. Only these resource placements are Reviewed; broader components and audience paths remain pending. Preserve saved catalogue scores, explicit unknown ATLAS/NIST time, all existing selections, exclusions and internal briefs. No other framework proposal is implemented."
+      },
+      {
+        "date": "2026-11-02",
+        "decision": "Compatibility refresh to catalogue v17 after its separately approved workbook simplification. Courses, assessments, outcomes, thresholds, build items, proposed training and retirement records were verified exactly equal to v16. The only recommendation changes are the approved core placements above. Version 0.2 remains archived against v16."
       }
     ],
     "exclusions": [
@@ -2629,6 +2788,66 @@
           "leadership",
           "cio",
           "transformation"
+        ]
+      }
+    ],
+    "coreReferences": [
+      {
+        "courseId": "TR-109",
+        "componentIds": [
+          "specialism-ai-security",
+          "specialism-ai-security-architecture",
+          "specialism-agent-testing",
+          "specialism-agent-testing-redteam"
+        ],
+        "sourceEdition": "OWASP LLM Top 10 2026",
+        "sourceUrl": "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+        "guidance": "Read the ten LLM application risks, attack scenarios and mitigations before the design/remediation or testing exercise. Use the mappings to connect risks to controls and test cases. This is specialist reading, outside Foundation."
+      },
+      {
+        "courseId": "TR-110",
+        "componentIds": [
+          "l2",
+          "l2-coached",
+          "specialism-ai-security",
+          "specialism-ai-security-architecture",
+          "specialism-agent-testing",
+          "specialism-agent-testing-redteam",
+          "specialism-exposure-management",
+          "specialism-agent-architecture",
+          "specialism-identity-operations",
+          "specialism-identity-operations-integration"
+        ],
+        "sourceEdition": "OWASP Top 10 for Agentic Applications 2026",
+        "sourceUrl": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+        "guidance": "Use the agentic risks and mitigations when supervising agents or reviewing agent designs, tests, exposure and identity controls. Complete the full reference once; reuse it across level and role learning."
+      },
+      {
+        "courseId": "TR-118",
+        "componentIds": [
+          "specialism-ai-governance",
+          "specialism-ai-governance-assurance"
+        ],
+        "sourceEdition": "NIST AI RMF 1.0, Playbook and GenAI Profile (AI 600-1)",
+        "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "guidance": "Use Govern, Map, Measure and Manage, the Playbook and the GenAI Profile to structure the existing risk case or assurance case. The recommendation covers the full catalogue bundle; reading time is to confirm, not a fixed four-hour course."
+      },
+      {
+        "courseId": "TR-117",
+        "componentIds": [
+          "specialism-threat-intelligence",
+          "specialism-agent-testing",
+          "specialism-agent-testing-redteam",
+          "specialism-ai-security",
+          "specialism-ai-security-architecture"
+        ],
+        "sourceEdition": "MITRE ATLAS; catalogue title v2026.08",
+        "sourceUrl": "https://atlas.mitre.org/",
+        "guidance": "Use MITRE tactics, techniques, mitigations and case studies to inform threat analysis, security design and adversarial tests. This is a reference, with reading time to confirm. Catalogue scores remain based on saved evidence; new releases do not automatically receive assessment credit.",
+        "evidenceNote": "Catalogue title says v2026.08, while its saved description includes later material. MITRE v2026.10 is now available. This publication recommends the original MITRE reference without claiming edition reconciliation or revised assessment; reconcile the catalogue title and evidence in a subsequent catalogue review.",
+        "editionSources": [
+          "https://github.com/mitre-atlas/atlas-data/releases/tag/v2026.08",
+          "https://github.com/mitre-atlas/atlas-data/releases/tag/v2026.10"
         ]
       }
     ]

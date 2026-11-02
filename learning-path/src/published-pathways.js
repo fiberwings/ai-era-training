@@ -16,6 +16,7 @@ export function prepareCentralScenario(source,catalogue) {
     return {id,name,parent:null,rank:profile.level,profile,budget:null,
       needs:[...new Set(catalogue.requirements.filter(r=>rows.includes(r.id)).map(r=>r.need))],
       selected:[...new Set(components.flatMap(c=>c.selected))],pinned:[],excluded:[...new Set(components.flatMap(c=>c.excluded))],
+      courseReviews:Object.fromEntries([...new Set(components.flatMap(c=>Object.keys(c.courseReviews||{})))].map(id=>[id,{status:groupsReviewStatus(components.filter(c=>c.selected.includes(id)).map(c=>({reviewStatus:c.courseReviews?.[id]?.status||c.reviewStatus})))}])),
       internal:[...new Map(components.flatMap(c=>c.internal).map(i=>[i.id,i])).values()],
       addedRequirements:rows.filter(id=>!canonical.includes(id)),removedRequirements:canonical.filter(id=>!rows.includes(id)),
       filters:{audience:true,types:[]},rationale:'',...extra};
@@ -33,7 +34,7 @@ function componentGroup(c,level,audience=null) {
     profile:{level,specialisms:c.specialism?[c.specialism]:[],tools:c.tool?[c.tool]:[],activities:c.activities||[]},rank:level,
     selected:c.selected,internal:c.internal,excluded:c.excluded,filters:c.filters,addedRequirements:c.addedRequirements,removedRequirements:c.removedRequirements,
     requirementIds:[...new Set([...c.requirements,...c.addedRequirements])].filter(id=>!c.removedRequirements.includes(id)),
-    reviewStatus:c.reviewStatus,reviewDate:c.reviewDate,rationale:c.rationale,sourceComponentId:c.id,sourceAudienceId:audience?.id};
+    reviewStatus:c.reviewStatus,reviewDate:c.reviewDate,courseReviews:c.courseReviews,rationale:c.rationale,sourceComponentId:c.id,sourceAudienceId:audience?.id};
 }
 
 export function componentPathSources(scenario,profile,specialisms) {

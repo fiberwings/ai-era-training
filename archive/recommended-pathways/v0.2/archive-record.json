@@ -1,0 +1,13 @@
+{
+  "archivedOn": "2026-11-02",
+  "reason": "Superseded by v0.3 user-approved core framework recommendations; original bytes retained.",
+  "files": {
+    "README.md": "c5ea16b6b01f972376c0e37240b5d50943e2e990345411f2572f5fb6104ce6ae",
+    "Recommended-Training-Pathways.json": "54adf8093007c282363fdf78cd69dd68cd6976be60f65689ac1de7efcbbe73b7",
+    "Recommended-Training-Pathways.md": "6383ee64f1233113556b88c2d188b072ed9cacab973474c6a8712c7650b7f8a4",
+    "Internal-Training-Briefs.md": "bbe022f5e394fc1266c6df03c1d6d6ba1464b4bc1d8d2944f3ed4d3851520f2c",
+    "coverage.json": "bac40b62eb22b2e8ccf013c3111744478e85a1d05f790ab6dd8d1ac961463443",
+    "verification.json": "feb1f615a20cbdeb18c73b5453c9b90ff306fa2ebd7e9ddfbdc6ac4a8fac2d9a",
+    "scripts/build.mjs": "6fa67704a0da757ccafaa45a701605312c1c468aca87575e0e09b527aad4f99c"
+  }
+}

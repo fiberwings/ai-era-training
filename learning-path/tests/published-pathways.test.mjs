@@ -2,12 +2,12 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {prepareCentralScenario} from '../src/published-pathways.js';
-import {newLearner,centralIds,internalItems,centralReviewStatus,coverage,requirementsFor,setStatus,validateBackup,validateCentralScenario,updateDifference,recommendations} from '../src/core.js';
+import {newLearner,centralIds,internalItems,centralReviewStatus,centralReference,hoursFor,displayTracks,coverage,requirementsFor,setStatus,validateBackup,validateCentralScenario,updateDifference,recommendations} from '../src/core.js';
 import {pathLayers,migrateLearner,quickPathProfile} from '../src/layers.js';
 import {pathMetrics} from '../../training-planner/public/components.js';
 const load=p=>JSON.parse(fs.readFileSync(new URL(p,import.meta.url)));
-const catalogue=load('../../training-planner/public/data/catalogue.json');
 const source=load('../../recommended-pathways/Recommended-Training-Pathways.json');
+const catalogue=load(`../../training-planner/catalogue-history/${source.catalogueVersion}.json`);
 const bundle={catalogue,scenario:prepareCentralScenario(source,catalogue),scenarioVersion:'pathways-v'+source.publication.version,config:{}};
 const sorted=xs=>[...xs].sort();
 function audienceLearner(a){
@@ -73,4 +73,61 @@ test('distributed HTML embeds the maintained recommendation with review and deli
  const data=JSON.parse(html.match(/id="learning-data">([\s\S]*?)<\/script>/)[1]);
  assert.equal(data.scenario.id,source.id);assert.deepEqual(data.scenario.components,source.components);assert.equal(data.scenario.schema,3);
  assert.equal(data.config.appVersion,load('../config.json').appVersion);assert.ok(data.scenario.components.every(c=>!c.selected.includes('TR-229')));
+});
+
+test('core publication preserves the reviewed Foundation, existing choices and all internal learning',()=>{
+ const previous=load('../../archive/recommended-pathways/v0.2/Recommended-Training-Pathways.json');
+ assert.equal(source.id,previous.id);
+ const oldCatalogue=load(`../../training-planner/catalogue-history/${previous.catalogueVersion}.json`);
+ for(const key of ['courses','requirements','needs','thresholds','buildItems','proposedTraining','retiredCourses'])assert.deepEqual(catalogue[key],oldCatalogue[key],key);
+ assert.deepEqual(source.audiences,previous.audiences);assert.deepEqual(source.overrides,previous.overrides);
+ assert.deepEqual(source.components.filter(c=>['foundation','l1'].includes(c.id)),previous.components.filter(c=>['foundation','l1'].includes(c.id)));
+ assert.deepEqual(sorted(source.publication.coreReferences.map(r=>r.courseId)),['TR-109','TR-110','TR-117','TR-118']);
+ for(const c of source.components){
+  const old=previous.components.find(x=>x.id===c.id);
+  for(const key of ['internal','dependencies','requirements','addedRequirements','removedRequirements','excluded','pinned','reviewStatus'])assert.deepEqual(c[key],old[key],c.id+' '+key);
+  assert.ok(old.selected.every(id=>c.selected.includes(id)),c.id+' retains prior courses');
+  assert.ok(c.selected.filter(id=>!old.selected.includes(id)).every(id=>['TR-109','TR-110','TR-117','TR-118'].includes(id)),c.id+' core additions only');
+ }
+});
+test('approved core resources retain a separate review from the pending component',()=>{
+ const l=audienceLearner(source.audiences.find(a=>a.id==='security'));
+ for(const id of ['TR-109','TR-110','TR-117'])assert.equal(centralReviewStatus(bundle,l,id),'Reviewed',id);
+ assert.equal(centralReviewStatus(bundle,l,'INT-194'),'AI recommendation - to be reviewed');
+ assert.equal(centralReviewStatus(bundle,l,'TR-100'),'AI recommendation - to be reviewed');
+ assert.equal(pathLayers(bundle,l).find(l=>l.kind==='level').reviewStatus,'AI recommendation - to be reviewed');
+ assert.match(centralReference(bundle,l,'TR-117').evidenceNote,/v2026.10/);
+ for(const id of ['TR-109','TR-117'])assert.deepEqual(displayTracks(bundle,l,catalogue.courses.find(c=>c.id===id)),['Specialist'],'do not label specialist assignments as Foundation because of incidental evidence');
+ const imported=structuredClone(source);for(const c of imported.components)delete c.courseReviews;
+ const custom={...bundle,scenario:prepareCentralScenario(imported,catalogue)};
+ assert.equal(centralReviewStatus(custom,l,'TR-117'),'AI recommendation - to be reviewed');
+ assert.equal(centralReference(custom,l,'TR-117'),null);
+});
+test('core knowledge follows responsibilities at L1 and does not pull in L2 learning',()=>{
+ for(const [audience,expected] of [['threat-intelligence',['TR-117']],['testing',['TR-109','TR-110','TR-117']],['architecture',['TR-109','TR-110','TR-117']],['governance',['TR-118']],['idp',['TR-118']],['iam',['TR-110']]]){
+  const l=audienceLearner(source.audiences.find(a=>a.id===audience));l.profile.level=1;
+  const ids=centralIds(bundle,l);for(const id of expected){assert.ok(ids.includes(id),audience+' '+id);assert.equal(centralReviewStatus(bundle,l,id),'Reviewed');}
+  assert.ok(!ids.includes('TR-100'));assert.ok(!ids.includes('TR-198'));assert.equal(ids.length,new Set(ids).size);
+ }
+ const foundation=audienceLearner(source.audiences.find(a=>a.id==='l1-path'));
+ assert.equal(centralReference(bundle,foundation,'TR-109'),null);
+});
+test('ATLAS and NIST remain unknown time and shared resources are counted once',()=>{
+ for(const id of ['TR-117','TR-118'])assert.equal(hoursFor(bundle,catalogue.courses.find(c=>c.id===id)),null);
+ const a=source.audiences.find(a=>a.id==='architecture'),m=pathMetrics(catalogue,source,a);
+ assert.equal(m.ids.filter(id=>id==='TR-110').length,1);assert.equal(m.total.unknown,1);
+ assert.equal(catalogue.courses.find(c=>c.id==='TR-117').scores['N5.7'].score,0,'authoritative reading does not invent threat-intelligence assessment credit');
+ const guide=fs.readFileSync(new URL('../../recommended-pathways/Recommended-Training-Pathways.md',import.meta.url),'utf8');
+ assert.match(guide,/time to confirm \(1 resource\)/);
+});
+test('v0.3 adds central options without changing saved completions, notes, feedback or scope',()=>{
+ const previous=load('../../archive/recommended-pathways/v0.2/Recommended-Training-Pathways.json');
+ const priorCatalogue=load(`../../training-planner/catalogue-history/${previous.catalogueVersion}.json`);
+ const old={...bundle,catalogue:priorCatalogue,scenario:prepareCentralScenario(previous,priorCatalogue),scenarioVersion:'pathways-v0.2'};
+ const l=audienceLearner(source.audiences.find(a=>a.id==='security'));
+ l.acknowledged=`${old.catalogue.version}:${old.scenario.id}:${old.scenarioVersion}`;
+ setStatus(old,l,'INT-194','completed');l.items['INT-194'].notes='Retain notes';l.feedback=[{courseId:'INT-194',originalContext:'retained'}];
+ const before=structuredClone(l);migrateLearner(bundle,l);assert.deepEqual(l,before);
+ const delta=updateDifference(bundle,l);assert.ok(delta.changed);assert.ok(delta.added.includes('TR-109'));assert.ok(delta.added.includes('TR-117'));
+ assert.deepEqual(l.items,before.items);assert.deepEqual(l.feedback,before.feedback);
 });

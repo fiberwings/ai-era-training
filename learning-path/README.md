@@ -2,7 +2,9 @@
 
 A learner-facing companion to the training builder. **Open `index.html`** in a current desktop browser, or host that single file on GitHub Pages. No installation, external scripts, fonts, API keys, or server are needed for the application itself. Course websites and Microsoft Forms require internet access.
 
-Release **1.6.2 — 2 November 2026**. Publishes [Recommended Training Pathways v0.2](../recommended-pathways/README.md), using catalogue v16 (516 active offerings) and model v2 revision 3. The native schema-3 components and audience variants remain the decision source. Foundation and L1 are **Reviewed**; L2, L3, specialist and coached recommendations are **AI recommendation - to be reviewed**. The overall pathway remains **Draft**. Each scrolling layer now separates **Central recommendations** from optional **Suggested for you** matches. Proposed internal learning is visible in its central lane; it cannot be committed or completed until marked Ready in a new central plan.
+Release **1.6.3 — 2 November 2026**. Publishes [Recommended Training Pathways v0.3](../recommended-pathways/README.md), using catalogue v17 (516 active offerings) and model v2 revision 3. The native schema-3 components and audience variants remain the decision source. Foundation and L1 are **Reviewed**; L2, L3, specialist and coached recommendations are **AI recommendation - to be reviewed**. The core OWASP, NIST AI RMF and MITRE ATLAS resource placements are separately **Reviewed**. The overall pathway remains **Draft**. Each scrolling layer now separates **Central recommendations** from optional **Suggested for you** matches. Proposed internal learning is visible in its central lane; it cannot be committed or completed until marked Ready in a new central plan.
+
+Version 1.6.3 publishes the approved core reference placements against catalogue v17, whose assessed content is unchanged from v16, with resource-specific review badges and original-publisher reading guidance in course details. Foundation/L1 is unchanged; wider pathway reviews remain pending. ATLAS and NIST time is explicitly unknown, with the ATLAS edition discrepancy recorded. Saved selections, progress, feedback, scope and legacy route preferences remain compatible.
 
 Version 1.6.2 removes the Learning route selector and always uses standard level recommendations. Verification: 87 JavaScript checks and 10 browser regressions pass, including saved coached preferences, retained history and desktop/mobile layouts. The ZIP member matches the rebuilt standalone.
 
@@ -13,6 +15,8 @@ Foundation assigns TR-281, TR-145 and the saved one-hour **AI use cases** intern
 Catalogue v13 updated ISC2 evidence and added official SecAI+ training as TR-280, with exam-only TR-023 kept at zero teaching coverage. That catalogue update preserved the then-retained central pathway selections and budgets.
 
 Previous catalogue update: v12 (31 October 2026) reassessed two Anthropic courses using public lessons and exercises. TR-145 is a 3.5h Foundation AI-limitations course with L1 practice (N3 76%, N6 54%). TR-089 is a 4h L1 AI-fluency course with supporting Foundation content (N6 67%); its four core N6 outcomes have full teaching and practice. These aggregate bands remain Partial. Other courses and the 140-outcome rubric are unchanged. Previous static analyses retain their original catalogue snapshots. Learner release 1.3.1 embeds this update.
+
+Verification for 1.6.3: 92 learner JavaScript checks, 3 learner Python checks and 12 browser regressions passed; the final specialist-badge adjustment also passed the 9 affected browser checks. Generated pathway files, deterministic builds and the ZIP member were verified. See [qa/core-references-1.6.3.json](qa/core-references-1.6.3.json).
 
 ## Learner experience
 
@@ -92,7 +96,7 @@ Optionally include an administrator-reviewed feedback aggregate:
 node scripts/build.mjs --feedback /absolute/path/to/reviewed-learning-feedback.json
 ```
 
-`--output /absolute/path/to/index.html` selects another destination. Schema-2 and schema-3 current-model scenarios are supported. Legacy model scenarios, stale catalog versions and unresolved references are rejected rather than silently reinterpreted. Draft and component review labels remain visible. The user authorised publication of v0.1 with its pending reviews; publication does not approve those recommendations. Update `config.json` release version/date for a new distribution.
+`--output /absolute/path/to/index.html` selects another destination. The build uses the scenario’s exact catalogue identity: the current imported catalogue when it matches, otherwise the preserved catalogue-history snapshot. `--catalogue /absolute/path/to/catalogue.json` supplies an explicit matching snapshot; validation rejects mismatched evidence. Schema-2 and schema-3 current-model scenarios are supported. Legacy model scenarios, stale catalog versions and unresolved references are rejected rather than silently reinterpreted. Draft and component review labels remain visible. The user authorised publication of v0.1 with its pending reviews; publication does not approve those recommendations. Update `config.json` release version/date for a new distribution.
 
 The **Administration → Import central plan JSON** tool previews a validated scenario locally. It does not publish or edit the source file. A local override is clearly identified and can be replaced with the bundled plan. Publish the same scenario with the build command for other learners.
 

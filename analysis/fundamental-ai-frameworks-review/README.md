@@ -1,6 +1,8 @@
 # Fundamental AI frameworks review
 
-Status: **Proposal for user review, 2 November 2026. Not implemented.**
+Status: **Core changes implemented in pathways v0.3 and learner 1.6.3, 2 November 2026. Other proposals remain for review.**
+
+The user subsequently excluded OWASP from Foundation and approved the core OWASP, NIST AI RMF and MITRE ATLAS placements. See the [implementation record](implementation.md). The original report and its inputs below retain the earlier proposal, including the superseded Foundation addition; they are not the current decision source.
 
 Open the [review report](outputs/report.html) or its [Markdown version](outputs/report.md). It recommends where original publisher AI frameworks and reference material should appear in the capability components, identifies existing selections, and separates immediate candidates from material needing edition, access, duration or assessment work.
 

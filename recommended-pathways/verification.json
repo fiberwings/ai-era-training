@@ -1,45 +1,362 @@
 {
   "date": "2026-11-02",
-  "pathwayVersion": "0.2",
-  "catalogueVersion": "9ed4551ae565417e",
-  "modelVersion": 2,
-  "modelRevision": 3,
-  "components": 28,
-  "audiencePaths": 26,
-  "modelRoles": 9,
-  "priorVerification": "../archive/recommended-pathways/v0.1/verification.json",
-  "validation": {
-    "schema3Warnings": 0,
-    "jsonRoundTrip": "Passed",
-    "generatedArtifacts": "Passed --check",
-    "compatibility": "All components/audiences, selections, exclusions, review labels, internal briefs, time and coverage exactly match v0.1",
-    "retiredSelections": 0,
-    "retiredPinned": 0,
-    "retiredExclusion": "TR-229 retained as recognised retired exclusion",
-    "exactSavedAIUseCasesBrief": "Passed",
-    "foundationL1Minutes": 641,
-    "l3CumulativeMinutes": 2975,
-    "reviewedComponents": [
-      "foundation",
-      "l1"
-    ],
-    "reviewedAudiencePaths": [
-      "foundation-path",
-      "l1-path"
-    ]
+  "pathwayVersion": "0.3",
+  "appVersion": "1.6.3",
+  "catalogueIdentity": {
+    "version": "8bffc898c371360e",
+    "filename": "AI_Era_Cyber_Training_Catalogue_v17.xlsx",
+    "sourceSha256": "0e86b31203f54dd378a57f6dbb2e7981b9a0cb6d0dfa73c57938e8747e3661ac",
+    "assessmentDate": "2026-11-01"
   },
-  "learnerPublication": {
-    "appVersion": "1.6.1",
-    "date": "2026-11-02",
-    "sourceScenarioId": "recommended-training-pathways-v0.1",
-    "sourceScenarioIdPreserved": true,
-    "personalHistoryPreserved": true
+  "model": {
+    "version": 2,
+    "revision": 3
   },
-  "verificationRecord": "../catalogue/evidence/v16/release-verification.json",
-  "artifacts": {
-    "Recommended-Training-Pathways.json": "54adf8093007c282363fdf78cd69dd68cd6976be60f65689ac1de7efcbbe73b7",
-    "Recommended-Training-Pathways.md": "4714534da27e909f5111d52de782cea60ea3f3f68b24483ee5a1c7f93a05cba6",
-    "Internal-Training-Briefs.md": "bbe022f5e394fc1266c6df03c1d6d6ba1464b4bc1d8d2944f3ed4d3851520f2c",
-    "coverage.json": "bac40b62eb22b2e8ccf013c3111744478e85a1d05f790ab6dd8d1ac961463443"
-  }
+  "scenarioSha256": "f1c53890ceb9660ad3ea633f714354a584ab3f5b0e45d2927bd0edcfec20e2ea",
+  "standaloneSha256": "0fdc062e6351b6f3ab428f4cc480193bcfa797ab39487329487c25d044e51b05",
+  "package": {
+    "path": "releases/learning-path/1.6.3/My-AI-Learning-Path.zip",
+    "sha256": "70418550d05f923f9dae34414ee951ba766bd222b5f0e53bde5a9c84e39badd2",
+    "member": "index.html",
+    "memberMatchesStandalone": true
+  },
+  "tests": {
+    "learnerUnit": 92,
+    "plannerUnit": 81,
+    "learnerPython": 3,
+    "browser": 12,
+    "browserFinalAffectedRerun": 9
+  },
+  "checks": {
+    "generatedPathways": true,
+    "scenarioRoundTrip": true,
+    "deterministicStandalone": true,
+    "foundationL1Unchanged": true,
+    "existingSelectionsAndInternalBriefsPreserved": true,
+    "reviewedResourcesDoNotApproveWholePaths": true,
+    "unknownATLASAndNISTDurations": true,
+    "crossLevelSpecialistRecommendations": true,
+    "sharedCoursesDeduplicated": true,
+    "savedRecordsAndLegacyImportsPreserved": true,
+    "specialistBadgesRespectAssignments": true,
+    "v16AndV17AssessmentObjectsIdentical": true,
+    "v02ArchiveBytesVerified": true,
+    "learner162PackageUnchanged": true,
+    "desktopAndMobileVisuallyInspected": true,
+    "archivedScenarioUsesMatchingSnapshot": true,
+    "explicitMismatchedCatalogueRejected": true
+  },
+  "changes": [
+    {
+      "componentId": "l2",
+      "added": [],
+      "reviewed": [
+        "TR-110"
+      ]
+    },
+    {
+      "componentId": "specialism-ai-security",
+      "added": [
+        "TR-109",
+        "TR-110",
+        "TR-117"
+      ],
+      "reviewed": [
+        "TR-109",
+        "TR-110",
+        "TR-117"
+      ]
+    },
+    {
+      "componentId": "specialism-ai-governance",
+      "added": [
+        "TR-118"
+      ],
+      "reviewed": [
+        "TR-118"
+      ]
+    },
+    {
+      "componentId": "specialism-threat-intelligence",
+      "added": [
+        "TR-117"
+      ],
+      "reviewed": [
+        "TR-117"
+      ]
+    },
+    {
+      "componentId": "specialism-agent-testing",
+      "added": [
+        "TR-109",
+        "TR-110",
+        "TR-117"
+      ],
+      "reviewed": [
+        "TR-109",
+        "TR-110",
+        "TR-117"
+      ]
+    },
+    {
+      "componentId": "specialism-exposure-management",
+      "added": [
+        "TR-110"
+      ],
+      "reviewed": [
+        "TR-110"
+      ]
+    },
+    {
+      "componentId": "specialism-agent-architecture",
+      "added": [
+        "TR-110"
+      ],
+      "reviewed": [
+        "TR-110"
+      ]
+    },
+    {
+      "componentId": "specialism-identity-operations",
+      "added": [
+        "TR-110"
+      ],
+      "reviewed": [
+        "TR-110"
+      ]
+    },
+    {
+      "componentId": "specialism-ai-security-architecture",
+      "added": [
+        "TR-109",
+        "TR-110",
+        "TR-117"
+      ],
+      "reviewed": [
+        "TR-109",
+        "TR-110",
+        "TR-117"
+      ]
+    },
+    {
+      "componentId": "specialism-ai-governance-assurance",
+      "added": [
+        "TR-118"
+      ],
+      "reviewed": [
+        "TR-118"
+      ]
+    },
+    {
+      "componentId": "specialism-agent-testing-redteam",
+      "added": [
+        "TR-109",
+        "TR-110",
+        "TR-117"
+      ],
+      "reviewed": [
+        "TR-109",
+        "TR-110",
+        "TR-117"
+      ]
+    },
+    {
+      "componentId": "specialism-identity-operations-integration",
+      "added": [
+        "TR-110"
+      ],
+      "reviewed": [
+        "TR-110"
+      ]
+    },
+    {
+      "componentId": "l2-coached",
+      "added": [],
+      "reviewed": [
+        "TR-110"
+      ]
+    }
+  ],
+  "impacts": [
+    {
+      "audienceId": "governance",
+      "added": [
+        "TR-118"
+      ],
+      "before": {
+        "knownHours": 35.28333333333333,
+        "unknown": 0,
+        "assessedCoverage": 0.6303571428571428
+      },
+      "after": {
+        "knownHours": 35.28333333333333,
+        "unknown": 1,
+        "assessedCoverage": 0.6303571428571428
+      }
+    },
+    {
+      "audienceId": "grc-builder",
+      "added": [
+        "TR-118"
+      ],
+      "before": {
+        "knownHours": 59.266666666666666,
+        "unknown": 0,
+        "assessedCoverage": 0.6132605820105821
+      },
+      "after": {
+        "knownHours": 59.266666666666666,
+        "unknown": 1,
+        "assessedCoverage": 0.6132605820105821
+      }
+    },
+    {
+      "audienceId": "threat-intelligence",
+      "added": [
+        "TR-117"
+      ],
+      "before": {
+        "knownHours": 29.6,
+        "unknown": 0,
+        "assessedCoverage": 0.6254409171075838
+      },
+      "after": {
+        "knownHours": 29.6,
+        "unknown": 1,
+        "assessedCoverage": 0.6254409171075838
+      }
+    },
+    {
+      "audienceId": "idp",
+      "added": [
+        "TR-118"
+      ],
+      "before": {
+        "knownHours": 35.28333333333333,
+        "unknown": 0,
+        "assessedCoverage": 0.6303571428571428
+      },
+      "after": {
+        "knownHours": 35.28333333333333,
+        "unknown": 1,
+        "assessedCoverage": 0.6303571428571428
+      }
+    },
+    {
+      "audienceId": "biso",
+      "added": [
+        "TR-118"
+      ],
+      "before": {
+        "knownHours": 34.28333333333333,
+        "unknown": 0,
+        "assessedCoverage": 0.6134559884559885
+      },
+      "after": {
+        "knownHours": 34.28333333333333,
+        "unknown": 1,
+        "assessedCoverage": 0.6134559884559885
+      }
+    },
+    {
+      "audienceId": "testing",
+      "added": [
+        "TR-109",
+        "TR-117"
+      ],
+      "before": {
+        "knownHours": 32.6,
+        "unknown": 0,
+        "assessedCoverage": 0.573051948051948
+      },
+      "after": {
+        "knownHours": 34.6,
+        "unknown": 1,
+        "assessedCoverage": 0.5773809523809523
+      }
+    },
+    {
+      "audienceId": "redteam",
+      "added": [
+        "TR-109",
+        "TR-117"
+      ],
+      "before": {
+        "knownHours": 32.6,
+        "unknown": 0,
+        "assessedCoverage": 0.5669913419913419
+      },
+      "after": {
+        "knownHours": 34.6,
+        "unknown": 1,
+        "assessedCoverage": 0.5713203463203462
+      }
+    },
+    {
+      "audienceId": "architecture",
+      "added": [
+        "TR-109",
+        "TR-117"
+      ],
+      "before": {
+        "knownHours": 57.766666666666666,
+        "unknown": 0,
+        "assessedCoverage": 0.611060236060236
+      },
+      "after": {
+        "knownHours": 59.766666666666666,
+        "unknown": 1,
+        "assessedCoverage": 0.611060236060236
+      }
+    },
+    {
+      "audienceId": "security",
+      "added": [
+        "TR-109",
+        "TR-117"
+      ],
+      "before": {
+        "knownHours": 31.78333333333333,
+        "unknown": 0,
+        "assessedCoverage": 0.6309523809523808
+      },
+      "after": {
+        "knownHours": 33.78333333333333,
+        "unknown": 1,
+        "assessedCoverage": 0.6309523809523808
+      }
+    },
+    {
+      "audienceId": "iam",
+      "added": [
+        "TR-110"
+      ],
+      "before": {
+        "knownHours": 17.683333333333334,
+        "unknown": 0,
+        "assessedCoverage": 0.6057256235827665
+      },
+      "after": {
+        "knownHours": 19.683333333333334,
+        "unknown": 0,
+        "assessedCoverage": 0.6215986394557823
+      }
+    },
+    {
+      "audienceId": "iam-integration",
+      "added": [
+        "TR-110"
+      ],
+      "before": {
+        "knownHours": 19.683333333333334,
+        "unknown": 0,
+        "assessedCoverage": 0.5862244897959183
+      },
+      "after": {
+        "knownHours": 21.683333333333334,
+        "unknown": 0,
+        "assessedCoverage": 0.606859410430839
+      }
+    }
+  ]
 }

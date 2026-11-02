@@ -23,7 +23,7 @@ async function setup(t,level,role,viewport={width:1440,height:1050}){
 const stored=page=>page.evaluate(key=>JSON.parse(localStorage.getItem(key)),storage);
 test('published Foundation/L1 is reviewed and AI use cases stays upcoming on mobile',async t=>{
  const page=await setup(t,'1','7',{width:390,height:844});
- assert.match(await page.locator('.publication-status').innerText(),/Recommended Training Pathways v0.2/);
+ assert.match(await page.locator('.publication-status').innerText(),/Recommended Training Pathways v0.3/);
  const foundation=page.locator('#layer-foundation');
  for(const id of ['TR-281','TR-145']){
   const card=foundation.locator('.course-card').filter({has:page.locator(`[data-action="course"][data-id="${id}"]`)});
@@ -69,4 +69,32 @@ test('legacy coached profiles receive standard recommendations without losing co
  assert.equal(retired.length,18);
  for(const id of retired){await page.locator('#course-search').fill(id);assert.equal(await page.locator(`#explore-results [data-action="course"][data-id="${id}"]`).count(),0);}
  assert.deepEqual((await stored(page)).items,saved.items);assert.deepEqual((await stored(page)).feedback,saved.feedback);
+});
+test('core security references appear at L1 with individual review labels and explicit ATLAS time',async t=>{
+ const page=await setup(t,'1','5',{width:390,height:844});
+ const specialist=page.locator('#layer-specialist');
+ for(const summary of await specialist.locator('.central-lane details.layer-more > summary').all())await summary.click();
+ for(const id of ['TR-109','TR-110','TR-117']){
+  const card=specialist.locator('.central-lane .course-card').filter({has:page.locator(`[data-action="course"][data-id="${id}"]`)}).first();
+  assert.match(await card.innerText(),/Reviewed/);assert.doesNotMatch(await card.innerText(),/AI recommendation - to be reviewed/);
+ }
+ assert.match(await specialist.innerText(),/AI recommendation - to be reviewed/);
+ assert.equal(await page.locator('#layer-level .central-lane [data-action="course"][data-id="TR-100"]').count(),0);
+ assert.equal(await page.locator('#layer-foundation [data-action="course"][data-id="TR-109"]').count(),0);
+ await specialist.locator('.central-lane [data-action="course"][data-id="TR-117"]').first().click();
+ assert.match(await page.locator('#dialog').innerText(),/Core reference/);
+ assert.match(await page.locator('#dialog').innerText(),/Time to confirm/);
+ assert.match(await page.locator('#dialog').innerText(),/v2026.10/);
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+ await page.getByRole('heading',{name:'Core reference',exact:true}).scrollIntoViewIfNeeded();
+ if(process.env.LEARNER_QA_DIR)await page.screenshot({path:path.join(process.env.LEARNER_QA_DIR,'core-atlas-mobile.png')});
+});
+test('NIST is a reviewed governance reference with the full bundle and unknown duration',async t=>{
+ const page=await setup(t,'2','6');
+ const card=page.locator('#layer-specialist .central-lane .course-card').filter({has:page.locator('[data-action="course"][data-id="TR-118"]')}).first();
+ assert.match(await card.innerText(),/Reviewed/);assert.match(await card.innerText(),/Time to confirm/);
+ await card.locator('[data-action="course"][data-id="TR-118"]').click();
+ assert.match(await page.locator('#dialog').innerText(),/full catalogue bundle/);
+ assert.equal(await page.locator('#dialog a').filter({hasText:'NIST AI RMF 1.0, Playbook and GenAI Profile'}).getAttribute('href'),'https://www.nist.gov/itl/ai-risk-management-framework');
+ if(process.env.LEARNER_QA_DIR)await page.screenshot({path:path.join(process.env.LEARNER_QA_DIR,'core-nist-desktop.png')});
 });

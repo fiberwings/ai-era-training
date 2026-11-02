@@ -1,6 +1,6 @@
 # Internal Training Briefs
 
-**Recommended Training Pathways 0.2 · 2 November 2026**
+**Recommended Training Pathways 0.3 · 2 November 2026**
 
 The AI use cases selection is Reviewed. All other internal training selections are AI recommendation - to be reviewed. Every module below remains Proposed for delivery, with an unassigned accountable owner. Suggested facilitator roles are retained as planning candidates. Hours describe learner participation, not development effort.
 
