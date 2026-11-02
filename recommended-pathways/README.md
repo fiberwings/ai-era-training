@@ -32,7 +32,7 @@ Version 0.2 is a catalogue compatibility update following the 18 user-approved r
 
 Import creates a separate scenario with a new local ID and an “(imported)” name suffix. Re-importing creates another copy; it does not overwrite a saved plan. Review labels are stored as metadata and visible rationale text, not automatic workflow gates. A local edit does not automatically reset these descriptive labels: update the review decision explicitly when promoting revised content.
 
-The [learner app](../learning-path/index.html) now consumes this source directly. Run `node learning-path/scripts/build.mjs` from the repository root to rebuild it after an intentional source update. Publication preserves native component variants, displays review labels and offers an explicit standard/coached route choice at L2/L3. Proposed internal learning stays upcoming until its delivery status is Ready.
+The [learner app](../learning-path/index.html) now consumes this source directly. Run `node learning-path/scripts/build.mjs` from the repository root to rebuild it after an intentional source update. Publication preserves native component variants and displays review labels. Learner 1.6.2 uses standard level recommendations without a route selector. Proposed internal learning stays upcoming until its delivery status is Ready.
 
 ## Maintain and rebuild
 

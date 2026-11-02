@@ -10,7 +10,7 @@
 | [capability-framework](../capability-framework/README.md) | Authoritative readable model and generated CSV crosswalk. |
 | [recommended-pathways](../recommended-pathways/README.md) | Maintained v0.2 recommendations (v0.1 archived unchanged), editable schema-3 scenario, generated guide, internal briefs and coverage evidence. Foundation/L1 Reviewed; all other recommendations AI generated — to be reviewed. |
 | [training-planner](../training-planner/README.md) | Builder source, runnable HTML, tests, shared model/data, catalogue/scenario histories and QA evidence. Existing app path retained. |
-| [learning-path](../learning-path/README.md) | Staff-app source, runnable HTML, tests and feedback importer. Learner 1.6.1 publishes Recommended Training Pathways v0.2 with distinct central and personalised recommendation lanes. Existing app path retained. |
+| [learning-path](../learning-path/README.md) | Staff-app source, runnable HTML, tests and feedback importer. Learner 1.6.2 publishes Recommended Training Pathways v0.2 with distinct central and personalised recommendation lanes. Existing app path retained. |
 | [presentations](../presentations/README.md) | Three live PowerPoint decks, including the 2 November 2026 next-steps walkthrough; authoring scripts, source inputs and validation records. |
 
 ## Supporting directories

@@ -39,8 +39,8 @@ function componentGroup(c,level,audience=null) {
 export function componentPathSources(scenario,profile,specialisms) {
   if(scenario.schema!==3)return null;
   const level=profile.level||1;
-  const coached=profile.learningRoute==='coached';
-  const target=scenario.components.find(c=>c.level===level&&(coached?c.id===`l${level}-coached`:!c.variantOf))||scenario.components.find(c=>c.level===level&&!c.variantOf);
+  // Legacy learningRoute values remain backup-compatible but no longer change recommendations.
+  const target=scenario.components.find(c=>c.level===level&&!c.variantOf);
   const base=target?componentChain(scenario,target.id).map(c=>componentGroup(c,c.level)):[];
   const matches=new Map(specialisms.map(id=>[id,[]]));
   const assign=(ids,roleId)=>{

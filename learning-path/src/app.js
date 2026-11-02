@@ -123,7 +123,6 @@ function layerOfferings(layer){
   const suggestedBody=suggested.length?layerCourseChoices(suggested,layer,true):`<div class="source-empty"><strong>No additional suggestions right now</strong><p>You can explore all training for this layer in the catalogue.</p>${button('Search this layer','layer-search',`data-layer="${esc(layer.id)}"`,'small')}</div>`;
   const toolContext=layer.kind==='tool'?`<p class="tiny-note">${layer.uses.length?`For: ${layer.uses.map(id=>esc(TOOL_USES.find(u=>u.id===id).name)).join(' · ')}.`:learner.profile.quickSetup?`Matched to your selected tool and L${learner.profile.level} level. You can refine tool tasks in My profile.`:'Choose what you do with this tool in My profile to get tailored suggestions.'} Task fit uses catalogue descriptions; it does not add assessed coverage.</p>`:'';
   return `<div class="layer-offerings source-split">
-    ${layer.kind==='level'&&B.scenario.schema===3&&learner.profile.level>1&&B.scenario.components.some(c=>c.id===`l${learner.profile.level}-coached`)?`<label class="field pathway-route"><span>Learning route</span><select name="learning-route" aria-label="Learning route">${options([['standard','Standard course route'],['coached','Coached practice route']],learner.profile.learningRoute||'standard')}</select><small>The coached route uses proposed internal practice. Your existing commitments remain in My learning.</small></label>`:''}
     ${layer.kind==='specialist'||layer.kind==='tool'?`<div class="layer-topic"><h3>${esc(layer.reused?'Shared AI-risk learning':layer.name)}</h3>${button('Search this area','layer-search',`data-layer="${esc(layer.id)}"`,'text-link')}</div>`:''}
     <section class="source-lane central-lane" aria-label="Central recommendations for ${esc(layer.name)}">
       ${sourceLaneHeading('Central recommendations',`${B.scenario.name}${B.scenario.status==='Draft'?' · Draft':''}`,count,'layers')}${review}${centralBody}${upcomingCentralLearning(upcoming)}
@@ -312,7 +311,6 @@ document.addEventListener('click',async event=>{
   }catch(e){error(e.message);}
 });
 document.addEventListener('change',event=>{const el=event.target;try{
-  if(el.name==='learning-route'){if(!['standard','coached'].includes(el.value))throw Error('Choose a learning route.');learner.profile.learningRoute=el.value;refreshAfterChange();return;}
   if(el.closest('#quick-setup-form')){const message=$('#dialog-error');message.textContent='';message.className='';return;}
   if(el.name==='tools'){el.closest('.tool-choice').querySelector('.tool-purpose').hidden=!el.checked;}
   if(el.name==='central-profile'){const scope=applyScopeChoice(B,learner.profile,el.value).centralScope;el.closest('.central-scope-editor').querySelector('.scope-preview').innerHTML=scopeSummary(scope);const form=el.closest('form'),draft=readRoleChoices(new FormData(form),learner.profile);draft.level=Number(new FormData(form).get('level'));draft.centralScope=scope;form.querySelector('.activity-questions').innerHTML=activityQuestions(draft);}

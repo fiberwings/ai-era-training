@@ -34,7 +34,7 @@ Implement the approved learning-app mock-up within the existing design: retain t
 | Framework | Version 2, revision 3 | [Model](../capability-framework/Agentic-Era_Workforce_Capability_Model.md) |
 | Recommended pathways | Version 0.2; 2 November 2026; partially reviewed Draft | [Decision source](../recommended-pathways/Recommended-Training-Pathways.json) and [generated guide](../recommended-pathways/Recommended-Training-Pathways.md) |
 | Builder | 2.2.1; 2 November 2026 | `training-planner/public/release.js` and source |
-| Staff app | 1.6.1; 2 November 2026 | `learning-path/config.json` and source |
+| Staff app | 1.6.2; 2 November 2026 | `learning-path/config.json` and source |
 | Bundled legacy pathway | 2027 v3, revision 3; Draft | `training-planner/public/data/default-scenario.json`, retained by explicit choice |
 | Component starter | Schema 3; blank curriculum | `training-planner/public/data/component-starter.json` |
 
@@ -169,3 +169,10 @@ Planner 2.2.1 retains the blank component starter. Its current legacy L3 example
 Recommended Training Pathways v0.2 preserves all v0.1 components, audience paths, selections, exclusions, brief details, time, coverage and review labels after compatibility review. None of the retired courses was selected or pinned. The scenario ID remains stable for saved learner scopes. V0.1 is archived unchanged; publication is not approval of the outstanding AI recommendations. Learner 1.6.1 embeds the new catalogue and publication while preserving personal progress, notes, feedback, storage keys and backup formats. Retired items remain readable in history.
 
 Model 2 revision 3 is rebuilt only for the catalogue identity; its approved prose, outcomes and applicability are unchanged. All previous release ZIPs and archived evidence retain their bytes. The 13 retained courses flagged for content refresh remain an explicit follow-up, without new assessment credit. Implementation and checks: [v16 evidence](../catalogue/evidence/v16/README.md).
+
+
+## Learner 1.6.2 — remove learning route choice
+
+By user request, removed the Learning route selector. All learners now receive the standard level recommendations, including profiles previously saved with the coached choice. Legacy `learningRoute` fields remain accepted in backups but do not affect recommendations. Commitments, completion history, feedback and storage keys are preserved. The maintained pathway scenario still retains its planning variants; catalogue, model and recommendation identities are unchanged.
+
+Verification: 87 learner JavaScript checks and 10 browser regressions pass; the recommended-pathway generated files pass their consistency check. The 1.6.2 ZIP contains the exact rebuilt standalone; historical packages are unchanged.

@@ -29,8 +29,8 @@ test('publishing retains the component source and rebuilds compatibility views o
  const invalid=structuredClone(source);invalid.components[0].selected.push('missing');assert.throws(()=>validateCentralScenario(invalid,bundle),/unresolved/);
  assert.throws(()=>validateCentralScenario({...source,catalogueVersion:'stale'},bundle),/Review/);
 });
-test('all 25 L1-L3 audience paths match planner selections, internal activities, scope and assessed coverage',()=>{
- for(const a of source.audiences.filter(a=>a.level>0)){
+test('standard L1-L3 audience paths match planner selections, internal activities, scope and assessed coverage',()=>{
+ for(const a of source.audiences.filter(a=>a.level>0&&!a.id.includes('coached'))){
   const l=audienceLearner(a),expected=pathMetrics(catalogue,source,a);
   assert.deepEqual(sorted(centralIds(bundle,l)),sorted(expected.ids),a.id+' courses');
   assert.deepEqual(sorted(internalItems(bundle,l).map(i=>i.originalId)),sorted(expected.items.map(i=>i.id)),a.id+' practice');
@@ -50,10 +50,10 @@ test('broad roles select combined specialist branches without adding alternative
  const examples=[[5,['IH-ARCH','IH-INFRA'],['IH-SEC']],[6,['IH-BISO'],['IH-GRC']],[8,['IH-IAM','IH-IAM-D'],[]],[3,['IH-RED'],['IH-TEST']]];
  for(const [role,expected,absent] of examples){const l=newLearner(bundle);l.profile=quickPathProfile(l.profile,{level:3,roles:[role],tools:['OpenAI ChatGPT']});const ids=internalItems(bundle,l).map(i=>i.originalId);for(const id of expected)assert.ok(ids.includes(id));for(const id of absent)assert.ok(!ids.includes(id));assert.equal(ids.length,new Set(ids).size);}
 });
-test('coached route is explicit, survives backup, and preserves existing commitments',()=>{
+test('legacy coached preference remains backup-compatible without changing standard recommendations or commitments',()=>{
  const l=audienceLearner(source.audiences.find(a=>a.id==='l3-path'));
  setStatus(bundle,l,'TR-198','planned');const before=structuredClone(l.items);l.profile.learningRoute='coached';
- const ids=centralIds(bundle,l);assert.ok(!ids.includes('TR-198'));assert.ok(!ids.includes('TR-100'));assert.ok(internalItems(bundle,l).some(i=>i.originalId==='COACH-L3'));
+ const ids=centralIds(bundle,l);assert.ok(ids.includes('TR-198'));assert.ok(ids.includes('TR-100'));assert.ok(!internalItems(bundle,l).some(i=>i.originalId==='COACH-L3'));
  assert.deepEqual(l.items,before);assert.equal(validateBackup(l).profile.learningRoute,'coached');
  l.profile.learningRoute='invented';assert.throws(()=>validateBackup(l),/learning route/);
 });

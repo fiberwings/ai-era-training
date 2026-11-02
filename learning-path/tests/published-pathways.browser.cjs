@@ -36,8 +36,9 @@ test('published Foundation/L1 is reviewed and AI use cases stays upcoming on mob
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
  if(process.env.LEARNER_QA_DIR)await page.screenshot({path:path.join(process.env.LEARNER_QA_DIR,'published-foundation-mobile.png'),fullPage:true});
 });
-test('existing completion and feedback survive publication and switching to coached practice',async t=>{
+test('legacy coached profiles receive standard recommendations without losing completion or feedback',async t=>{
  const page=await setup(t,'3','5');const saved=await stored(page);
+ saved.profile.learningRoute='coached';
  saved.acknowledged='previous-catalogue:old-central-plan:old-version';
  saved.items['TR-229']={status:'completed',source:'central',title:'Reasoning with o1',order:0,notes:'Keep the completed history',dueDate:'2026-12-01',actualHours:2,completedOn:'2026-11-01',completionContext:{groupId:'technical',groupName:'Previous central plan',catalogueVersion:'old-version'}};
  saved.feedback=[{id:'response-old',courseId:'TR-229',courseTitle:'Reasoning with o1',groupId:'technical',groupName:'Previous central plan',catalogueVersion:'old-version',completedOn:'2026-11-01',usefulness:4,difficulty:'About right',actualHours:2,comment:'Retain this feedback'}];
@@ -48,13 +49,13 @@ test('existing completion and feedback survive publication and switching to coac
  assert.match(await page.locator('#layer-level .pathway-review-label').innerText(),/AI recommendation - to be reviewed/);
  assert.equal(await page.locator('#layer-level [data-action="course"][data-id="TR-229"]').count(),0);
  assert.ok(await page.locator('#layer-level [data-action="course"][data-id="TR-198"]').count());
- await page.getByLabel('Learning route',{exact:true}).selectOption('coached');
- assert.equal(await page.locator('#layer-level [data-action="course"][data-id="TR-198"]').count(),0);
- assert.match(await page.locator('#layer-level').innerText(),/Supported no-code agent build and evaluation/);
+ assert.equal(await page.getByLabel('Learning route',{exact:true}).count(),0);
+ assert.doesNotMatch(await page.locator('#layer-level').innerText(),/Supported no-code agent build and evaluation/);
  const after=await stored(page);assert.equal(after.profile.learningRoute,'coached');
  assert.deepEqual(after.items,saved.items);assert.deepEqual(after.feedback,saved.feedback);
- if(process.env.LEARNER_QA_DIR)await page.screenshot({path:path.join(process.env.LEARNER_QA_DIR,'published-l3-coached.png'),fullPage:true});
- await page.reload();assert.equal(await page.getByLabel('Learning route',{exact:true}).inputValue(),'coached');
+ if(process.env.LEARNER_QA_DIR)await page.screenshot({path:path.join(process.env.LEARNER_QA_DIR,'published-l3-standard.png'),fullPage:true});
+ await page.reload();assert.equal(await page.getByLabel('Learning route',{exact:true}).count(),0);
+ assert.ok(await page.locator('#layer-level [data-action="course"][data-id="TR-198"]').count());
  await page.locator('[data-action="nav"][data-view="plan"]').first().click();
  await page.getByRole('tab',{name:'Completed',exact:true}).click();
  await page.locator('[data-action="course"][data-id="TR-229"]').click();

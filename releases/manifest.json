@@ -4,7 +4,7 @@
   "catalogueWorkbook": "AI_Era_Cyber_Training_Catalogue_v16.xlsx",
   "modelVersion": 2,
   "modelRevision": 3,
-  "defaults": "Blank component starter retained; current legacy L3 example retires TR-229 without replacement; learner publishes Recommended Training Pathways v0.2 with unchanged selections; saved personal records preserved",
+  "defaults": "Blank component starter retained; current legacy L3 example retires TR-229 without replacement; learner publishes Recommended Training Pathways v0.2 using standard level recommendations without a route selector; saved personal records preserved",
   "packages": [
     {
       "app": "Training Planner",
@@ -18,13 +18,13 @@
     },
     {
       "app": "AI Cybersecurity Learning",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "releaseDate": "2026-11-02",
-      "package": "learning-path/1.6.1/My-AI-Learning-Path.zip",
-      "sha256": "ea4542c8b09c3e7d0e1eb3b9e32ab65dd9c01452accae236d8a120c496f1b2b0",
+      "package": "learning-path/1.6.2/My-AI-Learning-Path.zip",
+      "sha256": "5f0081375b328105e250c80cdf0a28c481a510ed922dc25d3870aac5173995b2",
       "source": "learning-path/index.html",
       "member": "index.html",
-      "memberSha256": "689183c44f169601334010c8aab2b23d2f1ff6c72373f01717d0479dc56b042c",
+      "memberSha256": "e711bdff08ecf04100b1c2900b6ecb575ebc782ac279acf6f4082257f7526137",
       "recommendationSource": "recommended-pathways/Recommended-Training-Pathways.json",
       "recommendationVersion": "0.2",
       "scenarioSchema": 3

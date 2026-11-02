@@ -89,13 +89,13 @@ test('unconfigured layers never appear complete and unrelated history earns no c
   assert.equal(p.foundation.completed,0);
 });
 
-test('route changes recompute training while retaining shared completion and all personal history',()=>{
+test('legacy route preferences do not change progress or personal history',()=>{
   const l=learner(3,[5]);setStatus(bundle,l,'TR-281','completed');
   const before=pathwayProgress(bundle,l).level,items=JSON.stringify(l.items);
   l.profile.learningRoute='coached';
   const after=pathwayProgress(bundle,l).level;
-  assert(before.trainingIds.includes('TR-198'));assert(!after.trainingIds.includes('TR-198'));
-  assert.equal(after.completed,1);assert(after.upcomingIds.length>before.upcomingIds.length);
+  assert(before.trainingIds.includes('TR-198'));assert.deepEqual(after,before);
+  assert.equal(after.completed,1);assert.equal(after.upcomingIds.length,before.upcomingIds.length);
   assert.equal(JSON.stringify(l.items),items);
 });
 

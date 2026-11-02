@@ -88,9 +88,8 @@ test('pending central AI selections and proposed delivery remain separate from o
   }
   assert.equal(await level.locator('.source-upcoming .pending-row').count(),4);
   assert.equal(await level.locator('.source-upcoming [data-action="add"]').count(),0);
-  await page.getByLabel('Learning route',{exact:true}).selectOption('coached');
-  assert.match(await level.locator('.source-upcoming').innerText(),/Supported evaluation practice/);
-  assert.equal(await level.locator('.central-lane [data-action="course"][data-id="TR-100"]').count(),0);
+  assert.equal(await page.getByLabel('Learning route',{exact:true}).count(),0);
+  assert.doesNotMatch(await level.locator('.source-upcoming').innerText(),/Supported evaluation practice/);
 });
 
 test('a revised component plan shows its own name, review, level selections and empty Foundation',async t=>{
