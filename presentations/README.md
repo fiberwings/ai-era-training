@@ -4,7 +4,7 @@ The following presentations are live project deliverables:
 
 | Deck | Purpose |
 | --- | --- |
-| [Framework and training decisions](AI-Era_Framework_Training-Decisions.pptx) | Seven-slide introduction to the framework, component-to-needs mappings, provisional domain alignment and training decisions. |
+| [Cyber workforce preparation pack](AI-Era_Cyber-Workforce_Preparation.pptx) | 21-slide pack, a first step on preparing the cyber workforce for the agentic era. Sections: the framework, the training catalogue, the learning app and the proposed Foundation + L1 baseline for all staff. |
 | [Agentic-Era Workforce Capability Model Briefing](Agentic-Era_Workforce_Capability_Model_Briefing.pptx) | Capability-model briefing with supporting detail and catalogue appendix. |
 | [2027 next steps — Group CISO walkthrough](AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | Nine-slide unofficial walkthrough: provisional ownership, proposed mandatory baseline and CISO Connect launch preparation. |
 | [AI-era cyber capability needs](AI-era-cyber-capability-needs.pptx) | Additional capability-needs presentation, explicitly retained as live on 1 November 2026. |
@@ -19,6 +19,6 @@ The briefing's historical build records refer to catalogue v10. Review and updat
 
 Created 2 November 2026, aligned visually with the model briefing. This is an initial unofficial discussion, with formal approval reserved for a separate session. Ownership and mandatory 2027 training remain proposals. Source and validation: [next-steps-20261102](source/next-steps-20261102/). Existing decks are unchanged.
 
-## Framework and training decisions
+## Cyber workforce preparation pack
 
-Created 4 November 2026 from the user-reviewed seven-slide skeleton, adapting the briefing's style and slide objects. Foundation, levels and specialisms each show their associated needs. The specialism table includes ENISA ECSF alignment and the provisional domain mapping, with the DOM7/R4.2 ownership boundary explicit. Content follows model 2 revision 3 and catalogue v17. Source and verification: [framework-training-decisions-20261104](source/framework-training-decisions-20261104/). The three earlier decks remain unchanged.
+Created on 4 November 2026 from user-reviewed skeletons, adapting slide objects and style from the briefing and the CISO walkthrough. After an opening and a "what has been prepared" slide, each of the four sections opens with a divider. 1 The framework: the concise eight-slide explanation, with provisional domain tags on the specialisms slide. 2 Training catalogue: the briefing's build slide updated to v17. 3 Learning app: what staff see (current screenshot) and how central recommendations improve over time. 4 Baseline for all staff: the Foundation + L1 proposal (10h 41m), SecAI+ content and the use-case session, adapted from the walkthrough. A next-steps slide closes the pack. The pathway-builder slide was removed at the user's request. It replaces the same-day Framework and training decisions deck, which remains in commit `d3769e1` with its [source record](source/framework-training-decisions-20261104/). Content follows model 2 revision 3, catalogue v17, pathways v0.3 and learner 1.6.3. Source and verification: [cyber-workforce-pack-20261104](source/cyber-workforce-pack-20261104/). The other three decks remain unchanged.
