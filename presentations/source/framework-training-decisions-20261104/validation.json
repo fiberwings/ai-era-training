@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "presentation-finalization.v1",
+  "finalSha256": "bda244a9d01c2e7c8baa5f79e8e48fcd45abfc0413eb618bc7d26ebb875c8125",
+  "byteCount": 57222,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 7,
+    "relationship_part_count": 24,
+    "slide_count": 7,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "font_policy": {
+      "checked_text_script_count": 178,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "IBM Plex Sans"
+      ],
+      "observed_font_use_counts": {
+        "IBM Plex Sans": 178
+      },
+      "passed": true,
+      "performed": true
+    },
+    "slide_count": 7,
+    "slide_size_in": [
+      13.3333,
+      7.5
+    ],
+    "warning_count": 0,
+    "warnings": [],
+    "exitCode": 0,
+    "findingCount": 0,
+    "fontPolicy": {
+      "checked_text_script_count": 178,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "IBM Plex Sans"
+      ],
+      "observed_font_use_counts": {
+        "IBM Plex Sans": 178
+      },
+      "passed": true,
+      "performed": true
+    }
+  },
+  "fontSelection": {
+    "basis": "reference",
+    "approvedFamilies": [
+      "IBM Plex Sans"
+    ],
+    "scriptFonts": {},
+    "referenceSha256": "1a56649f4a2a1311375710457a8b5d10d1d5a43b314b6b30a27c079b2901c4e9",
+    "referenceFontsVerifiedInEncodedText": true,
+    "checked_text_script_count": 178,
+    "native_font_rendering_verified": false,
+    "observed_font_families": [
+      "IBM Plex Sans"
+    ],
+    "observed_font_use_counts": {
+      "IBM Plex Sans": 178
+    },
+    "passed": true,
+    "performed": true
+  },
+  "firstPartyImport": {
+    "performed": true,
+    "passed": true,
+    "slideCount": 7,
+    "sha256": "bda244a9d01c2e7c8baa5f79e8e48fcd45abfc0413eb618bc7d26ebb875c8125",
+    "runtimeNodeModules": "/Users/cyberk/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "nodeExecutable": "/Users/cyberk/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+  },
+  "nativeTableArithmetic": {
+    "performed": true,
+    "checked_column_count": 0,
+    "checks": [],
+    "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+    "eligible_table_count": 0,
+    "finding_count": 0,
+    "findings": [],
+    "native_table_count": 1,
+    "passed": true,
+    "schema_version": "presentation-native-table-arithmetic.v1",
+    "skipped_tables": [
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 5,
+        "table": 1
+      }
+    ],
+    "slide_count": 7,
+    "warning_count": 0,
+    "warnings": []
+  },
+  "nativeChartTitles": {
+    "performed": true,
+    "checks": [],
+    "finding_count": 0,
+    "findings": [],
+    "native_chart_count": 0,
+    "native_powerpoint_verified": false,
+    "passed": true,
+    "presentation_sha256": "bda244a9d01c2e7c8baa5f79e8e48fcd45abfc0413eb618bc7d26ebb875c8125",
+    "schema_version": "presentation-native-chart-titles.v1",
+    "slide_count": 7,
+    "source_text_emitted": false,
+    "unresolved_linked_title_count": 0
+  },
+  "sourceDerivedPolicyFlags": [
+    "--expected-slide-size-emu",
+    "12192000,6858000",
+    "--validate-bullet-geometry",
+    "--validate-heading-fit",
+    "--require-native-table-slide",
+    "5",
+    "--cover-role",
+    "none",
+    "--expected-slide-count",
+    "7",
+    "--approved-font-family",
+    "IBM Plex Sans"
+  ],
+  "nativeChartValidation": {
+    "detectedOwnerSlides": [],
+    "detectedChartCount": 0,
+    "targetApplication": "portable",
+    "sourceChartOwnersExplicitlyDeclared": true,
+    "validatorRan": false,
+    "passed": true
+  }
+}

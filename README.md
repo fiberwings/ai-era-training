@@ -11,7 +11,7 @@ Cybersecurity workforce capability framework, assessed training catalogue, recom
 | Recommended training pathways | [Pathways v0.3](recommended-pathways/Recommended-Training-Pathways.md) · [Planner scenario](recommended-pathways/Recommended-Training-Pathways.json) | [Pathway guide](recommended-pathways/README.md) |
 | Suggested-pathway builder | [Training Planner 2.2.2](training-planner/Training-Planner.html) | [Builder guide](training-planner/README.md) |
 | Staff learning and feedback app | [AI Cybersecurity Learning 1.6.3](learning-path/index.html) | [Staff-app guide](learning-path/README.md) |
-| Presentations | [Model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx) · [Capability needs](presentations/AI-era-cyber-capability-needs.pptx) · [2027 next steps](presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | [Presentation guide](presentations/README.md) |
+| Presentations | [Framework and training decisions](presentations/AI-Era_Framework_Training-Decisions.pptx) · [Model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx) · [Capability needs](presentations/AI-era-cyber-capability-needs.pptx) · [2027 next steps](presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | [Presentation guide](presentations/README.md) |
 
 Download and open either app's HTML file in a desktop browser; no server is needed for normal use. Export JSON backups to preserve personal or planning data. Feedback collection through Microsoft Forms is configurable but currently unconnected.
 
@@ -21,7 +21,7 @@ Recommended Training Pathways v0.3 is a separate maintained deliverable. Foundat
 
 The catalogue and both apps use v17 evidence, including the reviewed Udemy SecAI+ courses and the saved AI use cases internal brief in its own worksheet. The builder's component workspace starts blank. By subsequent user request, the staff app now publishes Recommended Training Pathways v0.3. The current legacy planner bundle removes retired TR-229; no replacement is assigned. Catalogue v17 has 516 active resources after 18 approved retirements. V17 simplifies the workbook from 18 tabs to 12; obsolete planning views are preserved in archived v16. All imported course records and assessments are unchanged. Historical course evidence, workbooks and app distributions remain intact. Saved personal plans and feedback remain preserved.
 
-The outdated 2027 plan and the no-longer-needed Foundation/L1 review are [archived](archive/README.md). Future planning belongs in [analysis](analysis/README.md). The original PowerPoint decks and the additional 2027 next-steps walkthrough remain live; the briefing's historical catalogue appendix needs a freshness review before it is described as aligned with the current catalogue.
+The outdated 2027 plan and the no-longer-needed Foundation/L1 review are [archived](archive/README.md). Future planning belongs in [analysis](analysis/README.md). Four PowerPoint decks are live, including the seven-slide framework introduction added on 4 November 2026. The original briefing's historical catalogue appendix needs a freshness review before it is described as aligned with the current catalogue.
 
 ## Project navigation
 

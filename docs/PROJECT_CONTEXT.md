@@ -1,6 +1,6 @@
 # Project context
 
-Current as of 2 November 2026. This is the current handover; the [31 October handover](history/PROJECT_CONTEXT-2026-10-31.md) remains unchanged as historical evidence.
+Current as of 4 November 2026. This is the current handover; the [31 October handover](history/PROJECT_CONTEXT-2026-10-31.md) remains unchanged as historical evidence.
 
 ## Purpose
 
@@ -27,6 +27,8 @@ The six live deliverables and their entry points are in the [root README](../REA
 Implement the approved learning-app mock-up within the existing design: retain the four overview/progress cards and scrolling Foundation, selected level, specialisation and tool sections. Within each section, show Central recommendations first and Suggested for you separately below. Keep empty central states visible, explain shared Foundation learning, and distinguish pending AI selection review from proposed internal delivery. Catalogue matching remains optional; adding a course does not change its recommendation source.
 
 ## Current versions and authority
+
+On 4 November 2026, added a seven-slide [Framework and training decisions presentation](../presentations/AI-Era_Framework_Training-Decisions.pptx), following the user-reviewed skeleton and the existing briefing's style. It explains the reference model's decision-support purpose, visualises the needs linked to Foundation and each agentic level, maps specialisms to provisional domains and relevant needs, and explains tool training and pathway construction. The role groupings retain their ENISA ECSF alignment. The DOM7 secure-coding/R4.2 boundary remains explicit and unresolved. Model 2 revision 3, catalogue v17, pathways and both apps are unchanged, as are the three previous decks. [Source and verification](../presentations/source/framework-training-decisions-20261104/).
 
 | Item | Current identity | Authority |
 | --- | --- | --- |

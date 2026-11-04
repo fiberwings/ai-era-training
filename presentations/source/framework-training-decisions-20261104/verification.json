@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-04",
+  "file": "presentations/AI-Era_Framework_Training-Decisions.pptx",
+  "sha256": "bda244a9d01c2e7c8baa5f79e8e48fcd45abfc0413eb618bc7d26ebb875c8125",
+  "slide_count": 7,
+  "visible_word_counts": [
+    65,
+    82,
+    91,
+    89,
+    138,
+    75,
+    65
+  ],
+  "native_table": {
+    "slide": 5,
+    "rows": 10,
+    "columns": 3
+  },
+  "all_slide_text_editable": true,
+  "all_notes_have_model_sources": true,
+  "package_and_layout_findings": 0,
+  "layout_warnings": 0,
+  "visual_review": {
+    "slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "saved_PPTX_rendered": true,
+    "matched_reference_style": true,
+    "native_PowerPoint_execution": false
+  },
+  "preserved_sources": [
+    {
+      "path": "presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "presentations/AI-era-cyber-capability-needs.pptx",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "capability-framework/Agentic-Era_Workforce_Capability_Model.md",
+      "unchanged_from_HEAD": true
+    }
+  ]
+}
