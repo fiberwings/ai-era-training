@@ -22,6 +22,24 @@ V13 reassesses ISC2 TR-014/TR-015, corrects exam-only TR-023 and adds official S
 
 ## Maintenance
 
+### One-command rebuild (Windows, macOS, Linux)
+
+After saving and recalculating the workbook in Excel, run [scripts/rebuild.mjs](scripts/rebuild.mjs) from the project root. It needs Node.js 20+ and Python 3 with openpyxl. On Windows it finds Python through the `py` launcher or `python`, and it works in PowerShell or Command Prompt.
+
+```sh
+node catalogue/scripts/rebuild.mjs catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx --check
+node catalogue/scripts/rebuild.mjs catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx --preview
+node catalogue/scripts/rebuild.mjs catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx --app-version 1.6.4 --planner-version 2.2.3
+```
+
+- `--check` validates the workbook and prints the course change counts. Nothing is written.
+- `--preview` builds a throwaway learner app in `.work/catalogue-preview/` against the edited workbook. The live catalogue, pathways and apps are untouched.
+- Without either flag, it shows the snapshot change and asks for confirmation before writing anything (`--yes` skips the question). It then publishes the snapshot and regenerates the model, crosswalk and component starter. It also points the recommended pathways and the planner's retained 2027 default at the new snapshot, sets any requested app versions, and rebuilds the planner, pathways guide and learner app. Finally it runs all regression tests and lists what is still to do. `--skip-tests` omits the tests.
+
+Pointing the pathways at a new snapshot republishes the existing recommendations against it, so it does not approve them. If a selected course was removed, the pathways build stops with its ID. If any step fails, discard the changes with Git or rerun the script with the previous workbook. Release-record tests check frozen snapshots in `training-planner/catalogue-history/`, not the live catalogue, so ordinary course edits do not fail them. The planner's "source snapshot completeness" test still expects 516 resources and 56,140 scores in the live catalogue. Update those counts deliberately when you add courses or scores.
+
+### Individual steps
+
 From the project root, install `training-planner/requirements.txt` if the Python Excel reader is not available. Save and recalculate the workbook in Excel first; the importer reads cached formula results and does not calculate Excel formulas.
 
 ```sh

@@ -9,17 +9,19 @@ const current=read('../public/data/catalogue.json'),prior=read('../catalogue-his
 const approved=read('../../analysis/catalogue-freshness-review/inputs/review.json').retire.map(c=>c.id).sort();
 const retired=new Set(approved);
 test('approved retirements alone leave active records, evidence, outcomes and maximum coverage intact',()=>{
- assert.deepEqual(current.retiredCourses.map(c=>c.id).sort(),approved);
- assert.equal(current.courses.length,516);
+ // Pinned to the v16 retirement release, so later catalogue edits do not break this record.
+ const release=read('../catalogue-history/9ed4551ae565417e.json');
+ assert.deepEqual(release.retiredCourses.map(c=>c.id).sort(),approved);
+ assert.equal(release.courses.length,516);
  const kept=prior.courses.filter(c=>!retired.has(c.id));
- assert.deepEqual(current.courses.map(c=>c.id),kept.map(c=>c.id));
- for(const [i,c] of current.courses.entries())assert.deepEqual(c,kept[i],c.id);
- for(const key of ['requirements','needs','thresholds','buildItems','proposedTraining'])assert.deepEqual(current[key],prior[key]);
- for(const r of current.requirements){
+ assert.deepEqual(release.courses.map(c=>c.id),kept.map(c=>c.id));
+ for(const [i,c] of release.courses.entries())assert.deepEqual(c,kept[i],c.id);
+ for(const key of ['requirements','needs','thresholds','buildItems','proposedTraining'])assert.deepEqual(release[key],prior[key]);
+ for(const r of release.requirements){
   const max=d=>Math.max(...d.courses.map(c=>c.scores[r.id]?.score||0));
-  assert.equal(max(current),max(prior),r.id);
+  assert.equal(max(release),max(prior),r.id);
  }
- assert.ok(current.retiredCourses.every(c=>!c.scores&&!c.unassessed&&c.reason&&c.retiredOn==='2026-11-02'));
+ assert.ok(release.retiredCourses.every(c=>!c.scores&&!c.unassessed&&c.reason&&c.retiredOn==='2026-11-02'));
 });
 test('retired exclusions remain valid, but selected and pinned retirements warn without destroying saved plans',()=>{
  for(const file of ['../public/data/component-starter.json','../public/data/default-scenario.json']){

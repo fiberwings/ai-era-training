@@ -59,6 +59,8 @@ Keep both app directory names and runnable HTML paths stable. Browser storage ca
 
 Run from the repository root. Node.js 20+ supports the app builds; Python supports packaging and feedback import. The planner development dependency is installed with `npm ci --prefix training-planner`; workbook checks need `python3 -m pip install -r training-planner/requirements.txt`.
 
+For a workbook change, `node catalogue/scripts/rebuild.mjs <workbook.xlsx> [--check|--preview]` runs the whole sequence below on any OS, asking before it publishes (see the [catalogue guide](catalogue/README.md)).
+
 ```sh
 # Validate the saved/recalculated workbook without publishing a new snapshot.
 python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx --check
