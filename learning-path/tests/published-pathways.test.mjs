@@ -79,7 +79,9 @@ test('core publication preserves the reviewed Foundation, existing choices and a
  const previous=load('../../archive/recommended-pathways/v0.2/Recommended-Training-Pathways.json');
  assert.equal(source.id,previous.id);
  const oldCatalogue=load(`../../training-planner/catalogue-history/${previous.catalogueVersion}.json`);
- for(const key of ['courses','requirements','needs','thresholds','buildItems','proposedTraining','retiredCourses'])assert.deepEqual(catalogue[key],oldCatalogue[key],key);
+ // Pinned to the v0.3 release snapshot, so later catalogue edits do not break this record.
+ const releaseCatalogue=load('../../training-planner/catalogue-history/8bffc898c371360e.json');
+ for(const key of ['courses','requirements','needs','thresholds','buildItems','proposedTraining','retiredCourses'])assert.deepEqual(releaseCatalogue[key],oldCatalogue[key],key);
  assert.deepEqual(source.audiences,previous.audiences);assert.deepEqual(source.overrides,previous.overrides);
  assert.deepEqual(source.components.filter(c=>['foundation','l1'].includes(c.id)),previous.components.filter(c=>['foundation','l1'].includes(c.id)));
  assert.deepEqual(sorted(source.publication.coreReferences.map(r=>r.courseId)),['TR-109','TR-110','TR-117','TR-118']);
