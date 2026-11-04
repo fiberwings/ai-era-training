@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-04",
+  "file": "presentations/AI-Era_Cyber-Workforce_Preparation.pptx",
+  "sha256": "3a850dc1250e280ed6df46efcabbfa7abf283d9f221c6b3e35f3b17899e6dad0",
+  "slide_count": 21,
+  "sections": {
+    "opening": [
+      1,
+      2
+    ],
+    "1_framework": [
+      3,
+      11
+    ],
+    "2_catalogue": [
+      12,
+      13
+    ],
+    "3_learning_app": [
+      14,
+      16
+    ],
+    "4_baseline": [
+      17,
+      20
+    ],
+    "next_steps": [
+      21
+    ]
+  },
+  "visible_word_counts": [
+    57,
+    87,
+    32,
+    67,
+    92,
+    81,
+    83,
+    122,
+    75,
+    80,
+    73,
+    31,
+    121,
+    30,
+    72,
+    93,
+    32,
+    90,
+    89,
+    68,
+    72
+  ],
+  "all_slides_have_notes": true,
+  "page_numbers_match_position": true,
+  "embedded_images": {
+    "slide": 15,
+    "source": "presentations/source/cyber-workforce-pack-20261104/assets/learning-app-for-you.png"
+  },
+  "package_and_layout_findings": 0,
+  "layout_warnings": 0,
+  "visual_review": {
+    "slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "saved_PPTX_rendered": true,
+    "matched_reference_style": true,
+    "native_PowerPoint_execution": false
+  },
+  "catalogue_figures_source": "training-planner/public/data/catalogue.json (v17): 516 active = 403 Offers + 113 Tool track; 240 internal Udemy = 168 + 72; 401 scored learning entries; 160 providers; 18 retired",
+  "replaces": [
+    "presentations/AI-Era_Capability-Framework_Overview.pptx (uncommitted, same day; now section 1)",
+    "presentations/AI-Era_Framework_Training-Decisions.pptx (commit d3769e1)"
+  ],
+  "removed_at_user_request": [
+    "pathway-builder slide (briefing slide 12)"
+  ],
+  "preserved_sources": [
+    {
+      "path": "presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "presentations/AI-era-cyber-capability-needs.pptx",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "capability-framework/Agentic-Era_Workforce_Capability_Model.md",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "learning-path/index.html",
+      "unchanged_from_HEAD": true
+    }
+  ]
+}

@@ -6,7 +6,7 @@ Enable the company's cybersecurity workforce for a time when most of the work wi
 
 Read [README.md](README.md) for the current deliverables, [project context](docs/PROJECT_CONTEXT.md) for agreed decisions, and [inventory](docs/INVENTORY.md) for the directory map and archive decisions.
 
-On 1 November 2026 the user archived the outdated 2027 training plan and the no-longer-needed Foundation/L1 review. Both existing PowerPoint presentations remain live. An additional unofficial Group CISO next-steps walkthrough was added on 2 November 2026; formal approval remains a separate session. A seven-slide framework/training-decisions introduction was added on 4 November 2026, with component-to-needs links and provisional domain mapping; it does not change the model or approve ownership.
+On 1 November 2026 the user archived the outdated 2027 training plan and the no-longer-needed Foundation/L1 review. Both existing PowerPoint presentations remain live. An additional unofficial Group CISO next-steps walkthrough was added on 2 November 2026; formal approval remains a separate session. On 4 November 2026 a 21-slide cyber workforce preparation pack replaced the same-day framework/training-decisions deck at the user's request. Its four sections cover the framework, the training catalogue, the learning app and the proposed Foundation + L1 baseline. It changes no model, catalogue, pathway, app or ownership source.
 
 ## Deliverables and authority
 
@@ -17,7 +17,7 @@ On 1 November 2026 the user archived the outdated 2027 training plan and the no-
 | Recommended training pathways | [Pathways v0.3](recommended-pathways/Recommended-Training-Pathways.md) | [Editable planner scenario](recommended-pathways/Recommended-Training-Pathways.json); [maintenance guide](recommended-pathways/README.md) |
 | Suggested-pathway builder | [Standalone app](training-planner/Training-Planner.html) | [Guide](training-planner/README.md); `training-planner/public/`, `scripts/`, `tests/` |
 | Staff learning and feedback | [Standalone app](learning-path/index.html) | [Guide](learning-path/README.md); `learning-path/src/`, `scripts/`, `tests/` |
-| Presentations | [Framework and training decisions](presentations/AI-Era_Framework_Training-Decisions.pptx), [model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx), [capability needs](presentations/AI-era-cyber-capability-needs.pptx) and [2027 next steps](presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | [Presentation guide](presentations/README.md); `presentations/source/` |
+| Presentations | [Cyber workforce preparation pack](presentations/AI-Era_Cyber-Workforce_Preparation.pptx), [model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx), [capability needs](presentations/AI-era-cyber-capability-needs.pptx) and [2027 next steps](presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | [Presentation guide](presentations/README.md); `presentations/source/` |
 
 The model document is the authoritative description of the framework. The workbook owns course records, rubric assessments and evidence; obsolete Excel planning views are preserved in archived v16 and are not curriculum authority. Flag discrepancies between deliverables instead of silently choosing a different interpretation.
 

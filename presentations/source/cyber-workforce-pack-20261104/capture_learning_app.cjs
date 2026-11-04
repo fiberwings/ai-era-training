@@ -1,0 +1,21 @@
+const path=require('node:path');const {pathToFileURL}=require('node:url');
+const {chromium}=require('playwright');
+(async()=>{
+  const out=process.argv[2];
+  const browser=await chromium.launch({headless:true});
+  const ctx=await browser.newContext({viewport:{width:1440,height:900},deviceScaleFactor:2});
+  const page=await ctx.newPage();
+  await page.goto(pathToFileURL(path.resolve('learning-path/index.html')).href);
+  await page.locator('#quick-setup-form').waitFor();
+  await page.screenshot({path:path.join(out,'quick-setup.png')});
+  await page.locator('#quick-setup-form [name="level"][value="1"]').check();
+  await page.locator('#quick-setup-form [name="roles"][value="1"]').check();
+  await page.locator('#quick-setup-form [name="tools"][value="Microsoft 365 Copilot"]').check();
+  await page.getByRole('button',{name:'Show my learning path',exact:true}).click();
+  await page.locator('#dialog').waitFor({state:'hidden'});
+  await page.waitForTimeout(500);await page.addStyleTag({content:'#toast{display:none!important}'});
+  await page.screenshot({path:path.join(out,'for-you.png')});
+  await page.evaluate(()=>window.scrollBy(0,520));await page.waitForTimeout(300);
+  await page.screenshot({path:path.join(out,'for-you-lanes.png')});
+  await browser.close();
+})();

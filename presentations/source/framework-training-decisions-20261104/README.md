@@ -1,6 +1,6 @@
 # Framework and training decisions
 
-Seven-slide presentation created 4 November 2026 from the user-reviewed skeleton. Editable deliverable: [Framework and training decisions](../../AI-Era_Framework_Training-Decisions.pptx).
+Seven-slide presentation created 4 November 2026 from the user-reviewed skeleton. Replaced the same day at the user's request by the [cyber workforce preparation pack](../cyber-workforce-pack-20261104/); the deck is retained in commit `d3769e1` (`git show d3769e1:presentations/AI-Era_Framework_Training-Decisions.pptx`).
 
 | Slide | Purpose |
 | --- | --- |

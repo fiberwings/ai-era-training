@@ -11,7 +11,7 @@ Cybersecurity workforce capability framework, assessed training catalogue, recom
 | Recommended training pathways | [Pathways v0.3](recommended-pathways/Recommended-Training-Pathways.md) · [Planner scenario](recommended-pathways/Recommended-Training-Pathways.json) | [Pathway guide](recommended-pathways/README.md) |
 | Suggested-pathway builder | [Training Planner 2.2.2](training-planner/Training-Planner.html) | [Builder guide](training-planner/README.md) |
 | Staff learning and feedback app | [AI Cybersecurity Learning 1.6.3](learning-path/index.html) | [Staff-app guide](learning-path/README.md) |
-| Presentations | [Framework and training decisions](presentations/AI-Era_Framework_Training-Decisions.pptx) · [Model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx) · [Capability needs](presentations/AI-era-cyber-capability-needs.pptx) · [2027 next steps](presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | [Presentation guide](presentations/README.md) |
+| Presentations | [Cyber workforce preparation pack](presentations/AI-Era_Cyber-Workforce_Preparation.pptx) · [Model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx) · [Capability needs](presentations/AI-era-cyber-capability-needs.pptx) · [2027 next steps](presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | [Presentation guide](presentations/README.md) |
 
 Download and open either app's HTML file in a desktop browser; no server is needed for normal use. Export JSON backups to preserve personal or planning data. Feedback collection through Microsoft Forms is configurable but currently unconnected.
 
