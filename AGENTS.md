@@ -13,7 +13,7 @@ On 1 November 2026 the user archived the outdated 2027 training plan and the no-
 | Deliverable | Entry point | Supporting source |
 | --- | --- | --- |
 | Training catalogue | [Current workbook](catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx) | [Catalogue guide](catalogue/README.md); `catalogue/evidence/` |
-| Capability framework | [Model](capability-framework/Agentic-Era_Workforce_Capability_Model.md) | [CSV crosswalk](capability-framework/Capability_Model_Crosswalk.csv); [framework guide](capability-framework/README.md) |
+| Capability framework | [Model](capability-framework/Agentic-Era_Workforce_Capability_Model.md); [learning needs and outcomes (Word)](capability-framework/Learning_Needs_and_Outcomes.docx) | [CSV crosswalk](capability-framework/Capability_Model_Crosswalk.csv); [framework guide](capability-framework/README.md) |
 | Recommended training pathways | [Pathways v0.3](recommended-pathways/Recommended-Training-Pathways.md) | [Editable planner scenario](recommended-pathways/Recommended-Training-Pathways.json); [maintenance guide](recommended-pathways/README.md) |
 | Suggested-pathway builder | [Standalone app](training-planner/Training-Planner.html) | [Guide](training-planner/README.md); `training-planner/public/`, `scripts/`, `tests/` |
 | Staff learning and feedback | [Standalone app](learning-path/index.html) | [Guide](learning-path/README.md); `learning-path/src/`, `scripts/`, `tests/` |
