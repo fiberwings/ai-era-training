@@ -11,7 +11,7 @@ The following presentations are live project deliverables:
 
 These PowerPoint files are the editable presentation deliverables. The decks present at reorganisation were preserved byte-for-byte; subsequent additions have their own source records. The [capability model](../capability-framework/Agentic-Era_Workforce_Capability_Model.md) remains the authority for the framework.
 
-The briefing's historical build records refer to catalogue v10. Review and update dated catalogue/app details before presenting that deck as aligned with current v17; the reorganisation itself did not refresh slide content.
+The briefing's historical build records refer to catalogue v10. Review and update dated catalogue/app details before presenting that deck as aligned with current v18; the reorganisation itself did not refresh slide content.
 
 [Source history](source/README.md) contains the authoring scripts, input decks/assets and validation records. Local renders and intermediate candidates are under ignored `.work/presentations/`. Older intermediate decks are not additional live presentation deliverables.
 

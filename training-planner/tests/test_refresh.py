@@ -83,7 +83,7 @@ class RefreshTests(unittest.TestCase):
 
 class WorkbookTests(unittest.TestCase):
     def test_v17_simplification_preserves_imported_evidence(self):
-        data, checked = read_catalogue(ROOT.parent/'catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx')
+        data, checked = read_catalogue(ROOT.parent/'archive/catalogues/AI_Era_Cyber_Training_Catalogue_v17.xlsx')
         previous = json.loads((ROOT/'catalogue-history/9ed4551ae565417e.json').read_text())
         for key in ('version', 'filename', 'sourceSha256', 'scoringGuide'):
             data.pop(key); previous.pop(key)

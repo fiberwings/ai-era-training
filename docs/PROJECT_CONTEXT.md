@@ -34,15 +34,15 @@ Later on 4 November 2026, that deck was replaced at the user's request by a 21-s
 
 | Item | Current identity | Authority |
 | --- | --- | --- |
-| Catalogue | v17; 2 November 2026; `8bffc898c371360e` | [Workbook](../catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx) |
+| Catalogue | v18; 5 November 2026; `73d3456ec0e1d7ad` | [Workbook](../catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx) |
 | Framework | Version 2, revision 3 | [Model](../capability-framework/Agentic-Era_Workforce_Capability_Model.md) |
 | Recommended pathways | Version 0.3; 2 November 2026; partially reviewed Draft | [Decision source](../recommended-pathways/Recommended-Training-Pathways.json) and [generated guide](../recommended-pathways/Recommended-Training-Pathways.md) |
-| Builder | 2.2.2; 2 November 2026 | `training-planner/public/release.js` and source |
-| Staff app | 1.6.3; 2 November 2026 | `learning-path/config.json` and source |
+| Builder | 2.2.3; 5 November 2026 | `training-planner/public/release.js` and source |
+| Staff app | 1.6.4; 5 November 2026 | `learning-path/config.json` and source |
 | Bundled legacy pathway | 2027 v3, revision 3; Draft | `training-planner/public/data/default-scenario.json`, retained by explicit choice |
 | Component starter | Schema 3; blank curriculum | `training-planner/public/data/component-starter.json` |
 
-The active catalogue has 516 resources: 403 Offers and 113 Tool track entries; 140 active outcomes across 23 scoring groups; 56,140 numerical scores and 280 explicitly unassessed rows, plus one proposed internal brief. The workbook also preserves 18 retired records and their assessments. Workbook SHA-256: `0e86b31203f54dd378a57f6dbb2e7981b9a0cb6d0dfa73c57938e8747e3661ac`.
+The active catalogue has 516 resources: 403 Offers and 113 Tool track entries; 140 active outcomes across 23 scoring groups; 56,140 numerical scores and 280 explicitly unassessed rows, plus one proposed internal brief. The workbook also preserves 18 retired records and their assessments. Workbook SHA-256: `48f00bf87b004c0a89219e605c7ea958a0cffbe4bc1a42cb8c3ddf31b1dfa3a6`.
 
 The model document defines the agreed framework. The workbook supplies assessments and evidence. The generated app catalogue is a faithful imported snapshot. The model generator combines those outcomes with the versioned applicability and explanatory modules; its output includes the model document and CSV/JSON crosswalks. Source changes must preserve consistency with the agreed model.
 
@@ -54,7 +54,7 @@ The recommended-pathways scenario owns the maintained recommendation and its rev
 
 The saved, recalculated Excel workbook is validated/imported into `training-planner/public/data/catalogue.json`. Planner model modules supply role, level, tool and outcome applicability. The model/crosswalk builder creates the human-readable framework and mapping files. The planner packager embeds current data, both starter formats, application code and the solver into `Training-Planner.html`.
 
-The learner build uses the recommendation's recorded catalogue snapshot (currently the same v17 import), shared model/scoring modules and Recommended Training Pathways v0.3, then writes its standalone `index.html`. It preserves native schema-3 components and audience variants, deriving compatibility groups for existing profiles and saved central scopes. Schema-2 imports remain supported. Personal selections, progress and feedback stay separate from central recommendations.
+The learner build uses the recommendation's recorded catalogue snapshot (currently the same v18 import), shared model/scoring modules and Recommended Training Pathways v0.3, then writes its standalone `index.html`. It preserves native schema-3 components and audience variants, deriving compatibility groups for existing profiles and saved central scopes. Schema-2 imports remain supported. Personal selections, progress and feedback stay separate from central recommendations.
 
 The presentations are editable PowerPoint deliverables. Their historical authoring chain is retained in [presentations/source](../presentations/source/README.md). The model briefing's catalogue appendix was built from v10; review that dated content before presenting it as aligned with the current catalogue. No deck content was refreshed during this reorganisation.
 
@@ -188,6 +188,10 @@ On 2 November 2026 the user approved implementing the core priorities from the o
 These resource placements are Reviewed, recorded in each component's `courseReviews`; broader component and audience review labels remain pending. `publication.coreReferences` owns the reading guidance and source links. The learner app shows resource reviews separately and presents the guidance in course details. Foundation/L1, existing choices, internal briefs, exclusions, course scores, model identity, planner defaults, personal records and standard-level behaviour are preserved. The catalogue identity is aligned with the separately approved v17 simplification after verifying identical assessment objects.
 
 ATLAS and NIST durations remain unknown. Generated totals show known hours plus resources with time to confirm. ATLAS's v2026.08 title and later saved description are flagged alongside MITRE's newer v2026.10 release; this publication does not claim a catalogue reassessment. The remaining framework proposals are not implemented. Pathways v0.2 and learner 1.6.2 are preserved unchanged. See the [implementation record](../analysis/fundamental-ai-frameworks-review/implementation.md) and [verification](../learning-path/qa/core-references-1.6.3.json).
+
+## Catalogue v18 internal Udemy link / planner 2.2.3 / learner 1.6.4 — 5 November 2026
+
+The user reported that the learner app no longer showed Udemy training on the `societegenerale.udemy.com` subdomain. All 240 internal Udemy Business links were intact. The cause was the reviewed Foundation change on 1 November, from INT-437 (internal link, seen by every learner) to TR-281 (public `www.udemy.com` link, entitlement unverified). The user confirmed that TR-281 opens in the company tenant. V18 therefore changes only TR-281's URL, cost and fit-note access phrase. At the user's further request, the same change applies to TR-282 to TR-285, whose notes record that the link was switched at user request. All other workbook parts are byte-identical to v17. The public pages remain the assessment sources. Pathways v0.3 selections, review labels and coverage are unchanged; only the catalogue identity and a decision-log entry changed. Planner 2.2.3 and learner 1.6.4 embed v18. Previous packages and the archived v17 workbook are unchanged. See [v18 evidence](../catalogue/evidence/v18/README.md).
 
 ## Catalogue v17 simplification / planner 2.2.2 — 2 November 2026
 
