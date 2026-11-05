@@ -13,7 +13,7 @@ Cybersecurity workforce capability framework, assessed training catalogue, recom
 | Staff learning and feedback app | [AI Cybersecurity Learning 1.6.4](learning-path/index.html) | [Staff-app guide](learning-path/README.md) |
 | Presentations | [Cyber workforce preparation pack](presentations/AI-Era_Cyber-Workforce_Preparation.pptx) · [Model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx) · [Capability needs](presentations/AI-era-cyber-capability-needs.pptx) · [2027 next steps](presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | [Presentation guide](presentations/README.md) |
 
-Download and open either app's HTML file in a desktop browser; no server is needed for normal use. Export JSON backups to preserve personal or planning data. Feedback collection through Microsoft Forms is configurable but currently unconnected.
+Download and open either app's HTML file in a desktop browser; no server is needed for normal use. Export JSON backups to preserve personal or planning data. The learner app is connected to the company-tenant Microsoft Forms feedback form; learners submit each response themselves.
 
 ## Current project status
 

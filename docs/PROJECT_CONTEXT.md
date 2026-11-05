@@ -66,7 +66,7 @@ The presentations are editable PowerPoint deliverables. Their historical authori
 - Internal linked outcomes contribute to planned coverage; assessed catalogue coverage remains distinct. Recommendations optimise assessed coverage. Preserve deduplication and full-course time estimates.
 - Existing schema-1/2 plans retain their interpretation in the legacy workspace. Saved browser plans are never automatically cleared or converted.
 - The staff app provides Foundation, one level, chosen roles/responsibilities and tools, plus search, commitments, progress and feedback. Target work and suggested starting point remain separate.
-- Microsoft Forms has no configured destination. Feedback is locally saved/exportable; central collection requires connecting a real form. Submission confirmation is self-reported. There are no user accounts, automatic enrolments or background synchronisation.
+- Microsoft Forms is connected (5 November 2026): learner 1.6.4 ships a pre-filled link template for one company-tenant form in `learning-path/config.json`. The user confirmed the test link opens the form with values filled in; a submitted response and import round trip has not yet been verified. Feedback remains locally saved/exportable. Submission confirmation is self-reported. There are no user accounts, automatic enrolments or background synchronisation.
 
 ## Planner 2.0.9 correction — 1 November 2026
 
@@ -84,7 +84,7 @@ The catalogue importer retains this optional register separately as `proposedTra
 
 [Archive index](../archive/README.md) lists the frozen reports, workbooks, model versions and older distributions. Historical handovers and scripts can contain obsolete paths or decisions; they are provenance, not current operating instructions. The Git checkpoint `182e18c` preserves the pre-move layout.
 
-The active `analysis/` folder holds new work. Schema-3 learner publication is now implemented by explicit user request. Replacing the retained legacy planner default, connecting Forms and updating dated presentation content remain separate future tasks. None was silently performed during reorganisation.
+The active `analysis/` folder holds new work. Schema-3 learner publication is now implemented by explicit user request. Replacing the retained legacy planner default and updating dated presentation content remain separate future tasks; Forms was connected on 5 November 2026. None was silently performed during reorganisation.
 
 
 ## Catalogue v13 — ISC2 and SecAI+ review

@@ -53,7 +53,7 @@ Keep both app directory names and runnable HTML paths stable. Browser storage ca
 - Learner For you retains the four overview/progress cards and scrolling layers. Each layer separates Central recommendations from optional Suggested for you matches. Always show the central lane, including empty and shared-Foundation states. Central publication, selection review, delivery readiness and personal progress remain distinct; imported plans supply their own names, selections and review labels.
 - Planner changed-input review gates were removed by user request; do not restore them accidentally. The learner app's central-scope review behaviour is separate.
 - Learner onboarding asks only level, broad responsibility areas, planned tools and optional Python/Git comfort. Detailed task/activity preferences and the starting-point assessment are optional after quick setup; never invent activity answers. Preserve saved refined responsibility choices.
-- Learner progress and feedback are browser-local. Microsoft Forms is configurable but unconnected. Do not invent central receipt, automatic syncing or learner competence.
+- Learner progress and feedback are browser-local. Learner 1.6.4 is connected to one company-tenant Microsoft Forms form (template in `learning-path/config.json`, user-confirmed on 5 November 2026); submission is learner-initiated and self-reported. Do not invent central receipt, automatic syncing or learner competence.
 
 ## Build and verify
 
