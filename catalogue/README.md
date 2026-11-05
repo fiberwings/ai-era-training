@@ -1,12 +1,14 @@
 # Training catalogue
 
-[AI Era Cyber Training Catalogue v17](AI_Era_Cyber_Training_Catalogue_v17.xlsx) is the current assessed workbook, released 2 November 2026 (assessment evidence remains dated 1 November). [Previous workbooks](../archive/catalogues/) are historical. [Review evidence](evidence/README.md) preserves assessment provenance.
+[AI Era Cyber Training Catalogue v18](AI_Era_Cyber_Training_Catalogue_v18.xlsx) is the current assessed workbook, released 5 November 2026 (assessment evidence remains dated 1 November). [Previous workbooks](../archive/catalogues/) are historical. [Review evidence](evidence/README.md) preserves assessment provenance.
 
 The workbook owns courses, rubric assessments and evidence. The live JSON snapshot is [catalogue.json](../training-planner/public/data/catalogue.json); snapshot/version metadata and the source workbook hash are embedded there. The capability framework and Recommended Training Pathways own curriculum; obsolete Excel planning views are archived in v16.
 
 The current import contains 516 active resources (403 Offers and 113 Tool track entries), 140 active outcomes, 23 scored needs, 56,140 numerical scores and 280 explicitly unassessed rows. Preserve stable IDs, links, source rows and the distinction between zero and unassessed. Tool-track descriptions do not supply rubric assessment scores.
 
-V17 simplifies the workbook from **18 tabs to 12**, without changing any imported course, assessment, outcome, internal brief, build template or retirement record. The [unchanged v16 workbook](../archive/catalogues/AI_Era_Cyber_Training_Catalogue_v16.xlsx) preserves Matrix, empty Paths and Path detail, Tool adoption, Screening log, Codes and the historical release chronology. Necessary glossary definitions are retained in Scoring guide. See [v17 implementation and verification](evidence/v17/README.md).
+V18 changes only the five Udemy SecAI+ courses TR-281–TR-285. Their links now point to the internal Udemy Business tenant (`societegenerale.udemy.com`), and their cost and fit notes record the change. The user confirmed access for TR-281 (CertMike, the Foundation course) on 5 November 2026; TR-282–TR-285 were switched at the user's request. The public Udemy pages remain their source evidence. All other workbook parts are byte-identical to v17, which is [archived](../archive/catalogues/AI_Era_Cyber_Training_Catalogue_v17.xlsx). See [v18 evidence](evidence/v18/README.md).
+
+V17 simplified the workbook from **18 tabs to 12**, without changing any imported course, assessment, outcome, internal brief, build template or retirement record. The [unchanged v16 workbook](../archive/catalogues/AI_Era_Cyber_Training_Catalogue_v16.xlsx) preserves Matrix, empty Paths and Path detail, Tool adoption, Screening log, Codes and the historical release chronology. Necessary glossary definitions are retained in Scoring guide. See [v17 implementation and verification](evidence/v17/README.md).
 
 Offers and Tool track come first, followed by Proposed training. Legacy Matrix-reference columns and duplicate Offers summaries are removed. Older descriptive fields and proposal IDs are hidden but retained. Tool track and Build items now import by header rather than column position. Keep the named headers and source rows.
 
@@ -27,9 +29,9 @@ V13 reassesses ISC2 TR-014/TR-015, corrects exam-only TR-023 and adds official S
 After saving and recalculating the workbook in Excel, run [scripts/rebuild.mjs](scripts/rebuild.mjs) from the project root. It needs Node.js 20+ and Python 3 with openpyxl. On Windows it finds Python through the `py` launcher or `python`, and it works in PowerShell or Command Prompt.
 
 ```sh
-node catalogue/scripts/rebuild.mjs catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx --check
-node catalogue/scripts/rebuild.mjs catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx --preview
-node catalogue/scripts/rebuild.mjs catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx --app-version 1.6.4 --planner-version 2.2.3
+node catalogue/scripts/rebuild.mjs catalogue/AI_Era_Cyber_Training_Catalogue_v19.xlsx --check
+node catalogue/scripts/rebuild.mjs catalogue/AI_Era_Cyber_Training_Catalogue_v19.xlsx --preview
+node catalogue/scripts/rebuild.mjs catalogue/AI_Era_Cyber_Training_Catalogue_v19.xlsx --app-version 1.6.5 --planner-version 2.2.4
 ```
 
 - `--check` validates the workbook and prints the course change counts. Nothing is written.
@@ -43,8 +45,8 @@ Pointing the pathways at a new snapshot republishes the existing recommendations
 From the project root, install `training-planner/requirements.txt` if the Python Excel reader is not available. Save and recalculate the workbook in Excel first; the importer reads cached formula results and does not calculate Excel formulas.
 
 ```sh
-python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx --check
-python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx
+python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx --check
+python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx
 ```
 
 For an intentional new catalogue release, use a new workbook filename/version, document reassessments, then run the refresh without `--check`. The refresh archives snapshots in `training-planner/catalogue-history/`; it does not rewrite Excel or approve existing scenario selections. Review changes against the retained default pathway before updating its catalogue identity, and regenerate the model/crosswalk and component starter. Build and test both apps as described in [AGENTS.md](../AGENTS.md). Update current-document links and release identities when publishing a changed product.
