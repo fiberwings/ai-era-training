@@ -7,7 +7,7 @@ Cybersecurity workforce capability framework, assessed training catalogue, recom
 | Deliverable | Open or read | Source and maintenance |
 | --- | --- | --- |
 | Training catalogue | [Catalogue v18](catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx) | [Catalogue guide](catalogue/README.md) |
-| Capability framework | [Model v2 revision 3](capability-framework/Agentic-Era_Workforce_Capability_Model.md) · [CSV crosswalk](capability-framework/Capability_Model_Crosswalk.csv) | [Framework guide](capability-framework/README.md) |
+| Capability framework | [Model v2 revision 3](capability-framework/Agentic-Era_Workforce_Capability_Model.md) · [CSV crosswalk](capability-framework/Capability_Model_Crosswalk.csv) · [Learning needs and outcomes (Word)](capability-framework/Learning_Needs_and_Outcomes.docx) | [Framework guide](capability-framework/README.md) |
 | Recommended training pathways | [Pathways v0.3](recommended-pathways/Recommended-Training-Pathways.md) · [Planner scenario](recommended-pathways/Recommended-Training-Pathways.json) | [Pathway guide](recommended-pathways/README.md) |
 | Suggested-pathway builder | [Training Planner 2.2.3](training-planner/Training-Planner.html) | [Builder guide](training-planner/README.md) |
 | Staff learning and feedback app | [AI Cybersecurity Learning 1.6.4](learning-path/index.html) | [Staff-app guide](learning-path/README.md) |
