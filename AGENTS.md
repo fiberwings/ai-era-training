@@ -67,6 +67,7 @@ python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Tra
 
 # Rebuild the current framework and app artifacts from their existing inputs.
 node training-planner/scripts/build_capability_model.mjs
+node training-planner/scripts/build_learning_outcomes_docx.mjs
 node training-planner/scripts/build_component_starter.mjs
 python3 training-planner/scripts/build_standalone.py
 node learning-path/scripts/build.mjs

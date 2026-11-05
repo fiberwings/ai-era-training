@@ -1,1 +1,1 @@
-{"name":"cyber-training-planner","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test tests/*.test.mjs"},"dependencies":{"highs":"1.14.2"}}
+{"name":"cyber-training-planner","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test tests/*.test.mjs"},"dependencies":{"highs":"1.14.2"},"devDependencies":{"docx":"^9.15.2"}}
