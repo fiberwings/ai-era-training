@@ -12,7 +12,7 @@ On 1 November 2026 the user archived the outdated 2027 training plan and the no-
 
 | Deliverable | Entry point | Supporting source |
 | --- | --- | --- |
-| Training catalogue | [Current workbook](catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx) | [Catalogue guide](catalogue/README.md); `catalogue/evidence/` |
+| Training catalogue | [Current workbook](catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx) | [Catalogue guide](catalogue/README.md); `catalogue/evidence/` |
 | Capability framework | [Model](capability-framework/Agentic-Era_Workforce_Capability_Model.md) | [CSV crosswalk](capability-framework/Capability_Model_Crosswalk.csv); [framework guide](capability-framework/README.md) |
 | Recommended training pathways | [Pathways v0.3](recommended-pathways/Recommended-Training-Pathways.md) | [Editable planner scenario](recommended-pathways/Recommended-Training-Pathways.json); [maintenance guide](recommended-pathways/README.md) |
 | Suggested-pathway builder | [Standalone app](training-planner/Training-Planner.html) | [Guide](training-planner/README.md); `training-planner/public/`, `scripts/`, `tests/` |
@@ -23,11 +23,11 @@ The model document is the authoritative description of the framework. The workbo
 
 The recommended-pathways JSON owns recommended selections, audience composition and review decisions. Its guide, internal briefs and coverage record are generated together. Foundation/L1 is Reviewed: TR-281 + TR-145 + the saved one-hour AI use cases brief, counted once. Core reference placements for TR-109, TR-110, TR-117 and TR-118 are Reviewed in v0.3, recorded in component courseReviews; full L2/L3/specialist components and other recommendations remain AI recommendation - to be reviewed. Foundation has no OWASP addition. ATLAS and NIST durations stay unknown; saved scores are unchanged, and the ATLAS edition discrepancy remains explicit. Exclude TR-229 Reasoning with o1. On 2 November the user approved 18 catalogue retirements and current-app refreshes: v16 imports 516 active resources, and the current legacy planner bundle removes TR-229 without a replacement. Preserve retired IDs, assessment rows and saved personal plans; never refresh historical app packages. The Retirements sheet owns lifecycle, with cached Lifecycle values on Offers and Tool track validated at import. Selection review does not make proposed internal training delivery-ready or assessed. Pathway version 0.3 is independent of app/catalogue/model identities.
 
-Catalogue v17 simplifies 18 tabs to 12 without changing imported evidence. Keep Coverage for reconciliation, Build items for planner templates, V8 audit for course history and Retirements for lifecycle. The importer uses named headers for Tool track and Build items. Preserve hidden legacy metadata and Proposed training IDs. The unchanged v16 workbook retains removed planning tabs, screening decisions and chronology.
+Catalogue v17 simplified 18 tabs to 12 without changing imported evidence; v18 changes only the links of the five Udemy SecAI+ courses TR-281–TR-285 to the internal Udemy Business tenant (`societegenerale.udemy.com`), with their cost and access notes. TR-281 access was user-confirmed; TR-282–TR-285 were switched at user request. Use the internal Udemy link only where tenant access is confirmed; keep the public page as the assessment source. Keep Coverage for reconciliation, Build items for planner templates, V8 audit for course history and Retirements for lifecycle. The importer uses named headers for Tool track and Build items. Preserve hidden legacy metadata and Proposed training IDs. The unchanged v16 workbook retains removed planning tabs, screening decisions and chronology.
 
 The readable model and CSV/JSON crosswalks are generated from `training-planner/public/capability-model.js`, `model-explanation.js`, `presentation.js` and the imported catalogue. Preserve approved prose when changing these sources; do not overwrite manual model changes without reconciling them. Do not edit generated copies independently and leave the source inconsistent.
 
-Current identities: catalogue **v17**, snapshot `8bffc898c371360e`; model **2 revision 3**; planner **2.2.2**; learner app **1.6.3**. See `training-planner/public/release.js`, `learning-path/config.json`, and [project context](docs/PROJECT_CONTEXT.md) for release details. An app release, catalogue snapshot, model revision and scenario schema are separate identities.
+Current identities: catalogue **v18**, snapshot `73d3456ec0e1d7ad`; model **2 revision 3**; planner **2.2.3**; learner app **1.6.4**. See `training-planner/public/release.js`, `learning-path/config.json`, and [project context](docs/PROJECT_CONTEXT.md) for release details. An app release, catalogue snapshot, model revision and scenario schema are separate identities.
 
 ## Directory rules
 
@@ -49,11 +49,11 @@ Keep both app directory names and runnable HTML paths stable. Browser storage ca
 - Curriculum coverage is not measured competence or operational authorisation. Catalogue evidence and planned internal teaching must remain distinguishable.
 - Coverage uses each outcome's best course score (0–3), then equally weighted need percentages. Deduplicate shared outcomes, courses and internal learner time. Keep full-course duration rules and explicit unknowns.
 - Do not reintroduce TR-127, which the user excluded from this corporate programme. Preserve other existing selection/exclusion decisions unless the planning task explicitly changes them.
-- Planner schema 3 uses reusable components and starts blank. Learner 1.6.3 publishes Recommended Training Pathways v0.3 by user request and accepts schema-2/3 central plans. Native component variants and review labels are retained; derived compatibility groups support existing profiles. The learner app uses the standard level recommendations without a route selector; legacy route preferences are retained for backup compatibility but ignored. Preserve personal learning and feedback when publishing.
+- Planner schema 3 uses reusable components and starts blank. Learner 1.6.4 publishes Recommended Training Pathways v0.3 by user request and accepts schema-2/3 central plans. Native component variants and review labels are retained; derived compatibility groups support existing profiles. The learner app uses the standard level recommendations without a route selector; legacy route preferences are retained for backup compatibility but ignored. Preserve personal learning and feedback when publishing.
 - Learner For you retains the four overview/progress cards and scrolling layers. Each layer separates Central recommendations from optional Suggested for you matches. Always show the central lane, including empty and shared-Foundation states. Central publication, selection review, delivery readiness and personal progress remain distinct; imported plans supply their own names, selections and review labels.
 - Planner changed-input review gates were removed by user request; do not restore them accidentally. The learner app's central-scope review behaviour is separate.
 - Learner onboarding asks only level, broad responsibility areas, planned tools and optional Python/Git comfort. Detailed task/activity preferences and the starting-point assessment are optional after quick setup; never invent activity answers. Preserve saved refined responsibility choices.
-- Learner progress and feedback are browser-local. Microsoft Forms is configurable but unconnected. Do not invent central receipt, automatic syncing or learner competence.
+- Learner progress and feedback are browser-local. Learner 1.6.4 is connected to one company-tenant Microsoft Forms form (template in `learning-path/config.json`, user-confirmed on 5 November 2026); submission is learner-initiated and self-reported. Do not invent central receipt, automatic syncing or learner competence.
 
 ## Build and verify
 
@@ -63,7 +63,7 @@ For a workbook change, `node catalogue/scripts/rebuild.mjs <workbook.xlsx> [--ch
 
 ```sh
 # Validate the saved/recalculated workbook without publishing a new snapshot.
-python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx --check
+python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx --check
 
 # Rebuild the current framework and app artifacts from their existing inputs.
 node training-planner/scripts/build_capability_model.mjs

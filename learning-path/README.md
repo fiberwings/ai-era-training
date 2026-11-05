@@ -2,9 +2,11 @@
 
 A learner-facing companion to the training builder. **Open `index.html`** in a current desktop browser, or host that single file on GitHub Pages. No installation, external scripts, fonts, API keys, or server are needed for the application itself. Course websites and Microsoft Forms require internet access.
 
-Release **1.6.3 — 2 November 2026**. Publishes [Recommended Training Pathways v0.3](../recommended-pathways/README.md), using catalogue v17 (516 active offerings) and model v2 revision 3. The native schema-3 components and audience variants remain the decision source. Foundation and L1 are **Reviewed**; L2, L3, specialist and coached recommendations are **AI recommendation - to be reviewed**. The core OWASP, NIST AI RMF and MITRE ATLAS resource placements are separately **Reviewed**. The overall pathway remains **Draft**. Each scrolling layer now separates **Central recommendations** from optional **Suggested for you** matches. Proposed internal learning is visible in its central lane; it cannot be committed or completed until marked Ready in a new central plan.
+Release **1.6.4 — 5 November 2026**. Publishes [Recommended Training Pathways v0.3](../recommended-pathways/README.md), using catalogue v18 (516 active offerings) and model v2 revision 3. The native schema-3 components and audience variants remain the decision source. Foundation and L1 are **Reviewed**; L2, L3, specialist and coached recommendations are **AI recommendation - to be reviewed**. The core OWASP, NIST AI RMF and MITRE ATLAS resource placements are separately **Reviewed**. The overall pathway remains **Draft**. Each scrolling layer now separates **Central recommendations** from optional **Suggested for you** matches. Proposed internal learning is visible in its central lane; it cannot be committed or completed until marked Ready in a new central plan.
 
-Version 1.6.3 publishes the approved core reference placements against catalogue v17, whose assessed content is unchanged from v16, with resource-specific review badges and original-publisher reading guidance in course details. Foundation/L1 is unchanged; wider pathway reviews remain pending. ATLAS and NIST time is explicitly unknown, with the ATLAS edition discrepancy recorded. Saved selections, progress, feedback, scope and legacy route preferences remain compatible.
+Version 1.6.4 embeds catalogue v18. The Udemy SecAI+ courses TR-281–TR-285, including the Foundation course TR-281, now link to the internal Udemy Business tenant (`societegenerale.udemy.com`). Recommendations, saved records and behaviour are otherwise unchanged. See [v18 evidence](../catalogue/evidence/v18/README.md).
+
+Version 1.6.3 published the approved core reference placements against catalogue v17, whose assessed content is unchanged from v16, with resource-specific review badges and original-publisher reading guidance in course details. Foundation/L1 is unchanged; wider pathway reviews remain pending. ATLAS and NIST time is explicitly unknown, with the ATLAS edition discrepancy recorded. Saved selections, progress, feedback, scope and legacy route preferences remain compatible.
 
 Version 1.6.2 removes the Learning route selector and always uses standard level recommendations. Verification: 87 JavaScript checks and 10 browser regressions pass, including saved coached preferences, retained history and desktop/mobile layouts. The ZIP member matches the rebuilt standalone.
 
@@ -121,9 +123,9 @@ npm start
 
 Open `http://127.0.0.1:4174/`. Stop the server with Ctrl+C. Direct file opening remains supported.
 
-## Connect Microsoft Forms later
+## Microsoft Forms connection
 
-The shipped app has **no form configured**, as requested. Feedback can be saved locally and exported while the connection is being prepared.
+Since 5 November 2026 the shipped app is connected to one Microsoft Forms form on the company tenant; its pre-filled link template is `formsTemplate` in [config.json](config.json). The form only opens for signed-in tenant users. The user confirmed that a test link opens it with all values filled in; a submitted response and CSV/Excel import round trip still need checking. Feedback is still saved locally and can be exported. To replace the form, follow the steps below and rebuild.
 
 Create **one form for all courses**. Use Text questions with the exact question titles below; optional fields should not be required. The form is the final submission screen, not the primary feedback-entry UI.
 
@@ -149,7 +151,7 @@ For new completions, the group metadata identifies the confirmed level and selec
 
 The learner flow is **mark complete → rate in the app → open prefilled Forms → review and Submit**. All known metadata and entered feedback are prefilled. Fields remain visible and editable in Forms. The app cannot verify a cross-origin form submission and never treats opening the form as successful delivery. “I submitted the form” records the learner's confirmation. Long optional comments are limited to keep links manageable.
 
-Microsoft documents [prefilled Forms links](https://techcommunity.microsoft.com/blog/microsoftformsblog/pre-fill-responses-in-your-microsoft-forms/4144232). The template and encoding are tested locally; a real tenant integration still needs the actual form and sign-in policy to be validated.
+Microsoft documents [prefilled Forms links](https://techcommunity.microsoft.com/blog/microsoftformsblog/pre-fill-responses-in-your-microsoft-forms/4144232). The template and encoding are tested locally, and the configured link was opened successfully on the company tenant.
 
 ## Central feedback review
 

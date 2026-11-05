@@ -6,7 +6,7 @@ Foundation and L1 use the reviewed shared bundle of CertMike SecAI+, Anthropic A
 
 [Importable planner scenario](Recommended-Training-Pathways.json) · [Internal training briefs](Internal-Training-Briefs.md) · [Detailed coverage and time](coverage.json) · [Maintenance and import guide](README.md)
 
-Catalogue: **v17**, snapshot `8bffc898c371360e`. Capability model: **2 revision 3**. Pathway owner: **Unassigned**. Next review date: **Unscheduled**; review before assigning an AI-generated pathway and when relevant inputs change.
+Catalogue: **v18**, snapshot `73d3456ec0e1d7ad`. Capability model: **2 revision 3**. Pathway owner: **Unassigned**. Next review date: **Unscheduled**; review before assigning an AI-generated pathway and when relevant inputs change.
 
 ## How to use the pathways
 
@@ -35,7 +35,7 @@ Assessed coverage describes catalogue syllabus evidence. Planned coverage additi
 
 | Selected learning | Type | Learner time |
 | --- | --- | --- |
-| **TR-281** — [CompTIA SecAI+ (CY0-001) Complete Course from CertMike!](https://www.udemy.com/course/comptia-secai-certmike/) | Catalogue course | 6h 11m |
+| **TR-281** — [CompTIA SecAI+ (CY0-001) Complete Course from CertMike!](https://societegenerale.udemy.com/course/comptia-secai-certmike/) | Catalogue course | 6h 11m |
 | **TR-145** — [AI Capabilities and Limitations](https://academy.claude.com/courses/ai-capabilities-and-limitations) | Catalogue course | 3h 30m |
 | [AI use cases](Internal-Training-Briefs.md#brief-cf694d28-c0af-4b87-919d-4d282e175d3d) | Internal training — Proposed | 1h |
 
@@ -432,6 +432,7 @@ Before adopting the AI-generated pathways, confirm audience prerequisites and co
 - **2026-11-02:** Catalogue v16 compatibility reviewed after 18 user-approved retirements. None is selected or pinned here. All 516 retained records, outcome definitions, assessment evidence, shared internal teaching and catalogue-wide outcome maxima are unchanged. Preserve all component/audience IDs, selections, review labels and exclusions; TR-229 is now a recognised retired exclusion. Version 0.1 is archived. This is a maintenance publication, not approval of the remaining AI recommendations.
 - **2026-11-02:** Implement the user-approved core recommendations: OWASP LLM Top 10 in AI security and testing specialisms, OWASP Agentic Top 10 retained in L2 and extended to applicable specialisms, NIST AI RMF bundle in governance/assurance, and MITRE ATLAS in threat intelligence, testing and AI security. Foundation/L1 remains unchanged. Only these resource placements are Reviewed; broader components and audience paths remain pending. Preserve saved catalogue scores, explicit unknown ATLAS/NIST time, all existing selections, exclusions and internal briefs. No other framework proposal is implemented.
 - **2026-11-02:** Compatibility refresh to catalogue v17 after its separately approved workbook simplification. Courses, assessments, outcomes, thresholds, build items, proposed training and retirement records were verified exactly equal to v16. The only recommendation changes are the approved core placements above. Version 0.2 remains archived against v16.
+- **2026-11-05:** Compatibility refresh to catalogue v18. TR-281 CertMike SecAI+ (user-confirmed internal access) and the other Udemy SecAI+ courses TR-282 to TR-285 (switched at user request) now link to the internal Udemy Business tenant, societegenerale.udemy.com; their public Udemy pages remain the assessment sources. Only those five courses' link, cost and access note changed. Selections, review labels, assessments and coverage are unchanged.
 
 The excluded resources are **TR-229**, **TR-127**, **TR-125**, **TR-128**, **TR-129**, **TR-159**. TR-127 is already absent from the catalogue; its exclusion remains in the decision register. Foundation also retains the exclusion of the full INT-2787 social-engineering course.
 

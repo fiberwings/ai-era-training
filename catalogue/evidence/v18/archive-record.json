@@ -1,0 +1,6 @@
+{
+  "source": "catalogue/AI_Era_Cyber_Training_Catalogue_v17.xlsx",
+  "archive": "archive/catalogues/AI_Era_Cyber_Training_Catalogue_v17.xlsx",
+  "sha256": "0e86b31203f54dd378a57f6dbb2e7981b9a0cb6d0dfa73c57938e8747e3661ac",
+  "reason": "v18 changes only the links, cost and access notes of the Udemy SecAI+ courses TR-281–TR-285, moving them to the internal Udemy Business tenant at the user's request (TR-281 access user-confirmed); v17 preserved unchanged."
+}
