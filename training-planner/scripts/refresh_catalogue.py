@@ -1,11 +1,9 @@
-"""Validate, report, archive and atomically publish a local catalogue snapshot."""
+"""Validate, report and atomically publish the catalogue snapshot. Git keeps previous versions."""
 import argparse
 import json
 import os
-import re
 import sys
 import tempfile
-from datetime import datetime, timezone
 from pathlib import Path
 from catalogue_io import read_catalogue, validate_snapshot, require
 
@@ -55,50 +53,31 @@ def changes(old, new):
     return report
 
 
-def archive(history, data, raw=None):
-    version=data['version']
-    require(bool(re.fullmatch(r'[a-f0-9]{16,64}',version)), 'Unsafe catalogue version in archive')
-    path=history/(version+'.json')
-    if not path.exists(): atomic_write(path,raw if raw is not None else encode(data))
-    else: require(read_json(path)==data, f'Archive already contains different data for version {version}; nothing replaced')
-
-
-def refresh(source=None, root=ROOT, check=False, rollback=None):
-    root=Path(root);target=root/'public/data/catalogue.json';history=root/'catalogue-history'
+def refresh(source, root=ROOT, check=False):
+    root=Path(root);target=root/'public/data/catalogue.json'
     lock=root/'.catalogue-refresh.lock'
     root.mkdir(parents=True,exist_ok=True)
     try: fd=os.open(lock,os.O_CREAT|os.O_EXCL|os.O_WRONLY)
     except FileExistsError: raise ValueError(f'Another refresh may be running. If it has stopped, remove {lock} and retry.')
     try:
         os.close(fd)
-        old_raw=target.read_bytes() if target.exists() else None
-        old=json.loads(old_raw) if old_raw else None
-        if old: validate_snapshot(old)
-        if rollback:
-            require(bool(re.fullmatch(r'[a-f0-9]{16,64}',rollback)), 'Invalid rollback version')
-            data=read_json(history/(rollback+'.json'));validate_snapshot(data);checked=None
-        else:
-            data,checked=read_catalogue(source)
+        old=read_json(target) if target.exists() else None
+        data,checked=read_catalogue(source)
         report=changes(old,data)
         report.update(checkedCoverageRows=checked,assessedScores=sum(len(c['scores']) for c in data['courses']),
                       unassessedRows=sum(len(c.get('unassessed',{})) for c in data['courses']),courses=len(data['courses']))
         print(f"{data['filename']} · {data['version']} · assessment {data['assessmentDate']}")
         print(f"{len(data['courses'])} resources; {report['assessedScores']} numeric scores; {report['unassessedRows']} explicit unassessed rows")
         print(f"Changes: {len(report['addedCourses'])} added, {len(report['removedCourses'])} removed, {len(report['changedCourses'])} changed courses")
+        for c in report['changedCourses']:
+            print(f"  {c['id']}: {', '.join(c['fields']) or 'no field changes'}; {len(c['scoreChanges'])} score changes")
         if checked is not None: print(f'Validated {checked} course/need coverage rows against Excel.')
         if check:
-            print('Check only: active catalogue and history unchanged.');return report
+            print('Check only: active catalogue unchanged.');return report
         if old==data:
             print('Already up to date; no files changed.');return report
-        history.mkdir(parents=True,exist_ok=True)
-        if old: archive(history,old,old_raw)
-        archive(history,data)
-        stamp=datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
-        report_path=history/(stamp+'-changes.json')
-        atomic_write(report_path,encode(report))
         atomic_write(target,encode(data))
-        print(f'Published. Report: {report_path}')
-        print('Refresh the browser. Saved selections are retained; review version warnings before accepting updated coverage.')
+        print(f'Published {target}. Previous snapshots are in Git history.')
         return report
     finally:
         lock.unlink(missing_ok=True)
@@ -106,12 +85,10 @@ def refresh(source=None, root=ROOT, check=False, rollback=None):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('workbook',nargs='?',help='Saved .xlsx workbook (required unless rolling back)')
+    parser.add_argument('workbook',help='Saved .xlsx workbook')
     parser.add_argument('--check',action='store_true',help='Validate and summarise without publishing')
-    parser.add_argument('--rollback',metavar='VERSION',help='Restore a catalogue-history snapshot by its version hash')
     args=parser.parse_args()
-    if bool(args.workbook)==bool(args.rollback): parser.error('Choose a workbook or --rollback VERSION')
-    try: refresh(args.workbook,check=args.check,rollback=args.rollback)
+    try: refresh(args.workbook,check=args.check)
     except ModuleNotFoundError as e:
         print(f'Missing dependency: {e.name}. Run: python -m pip install -r requirements.txt',file=sys.stderr);sys.exit(1)
     except (ValueError,OSError,KeyError,TypeError) as e:

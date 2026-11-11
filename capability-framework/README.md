@@ -2,7 +2,7 @@
 
 The [Agentic-Era Workforce Capability Model](Agentic-Era_Workforce_Capability_Model.md) is the authoritative description of the framework: Foundation + agentic level + relevant role specialisms + tool training. Current version: **2, revision 3**.
 
-The [CSV crosswalk](Capability_Model_Crosswalk.csv) and [app JSON crosswalk](../training-planner/public/data/capability-crosswalk.json) map 140 active outcomes to the 23 existing scoring groups. [Prior model documents](../archive/capability-framework/) remain unchanged for traceability.
+The [CSV crosswalk](Capability_Model_Crosswalk.csv) and [app JSON crosswalk](../training-planner/public/data/capability-crosswalk.json) map 140 active outcomes to the 23 existing scoring groups. Prior model documents are in Git history.
 
 The [Word edition of the learning needs and outcomes](Learning_Needs_and_Outcomes.docx) presents all 23 needs and 140 outcomes by Foundation, agentic level, role specialism and tool training, with role learning packages and an outcome index. It is generated from the readable model by `training-planner/scripts/build_learning_outcomes_docx.mjs`; rebuild it after the model, and do not edit the Word file independently. It covers learning needs and outcomes only, not coverage scoring or planning rules.
 
