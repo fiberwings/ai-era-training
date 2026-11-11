@@ -12,12 +12,18 @@ import {MODEL_VERSION, MODEL_REVISION} from '../../training-planner/public/capab
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const read=path=>readFile(resolve(root,path),'utf8');
 const sourcePath='recommended-pathways/Recommended-Training-Pathways.json';
-const source=await read(sourcePath),scenario=JSON.parse(source),publication=scenario.publication;
-// Use the saved evidence, so a later catalogue refresh cannot silently rewrite this decision record.
-const cataloguePath=`training-planner/catalogue-history/${scenario.catalogueVersion}.json`;
-const catalogue=JSON.parse(await read(cataloguePath));
-assert.equal(catalogue.version,scenario.catalogueVersion);
-assert.equal(catalogue.sourceSha256,scenario.catalogueIdentity.sourceSha256);
+const checking=process.argv.includes('--check');
+let source=await read(sourcePath);
+const scenario=JSON.parse(source),publication=scenario.publication;
+// Always build against the live catalogue; record its identity in the scenario automatically.
+const catalogue=JSON.parse(await read('training-planner/public/data/catalogue.json'));
+if(scenario.catalogueVersion!==catalogue.version){
+ assert.ok(!checking,`Stale catalogue identity in ${sourcePath}: run this build without --check`);
+ scenario.catalogueVersion=catalogue.version;
+ scenario.catalogueIdentity={version:catalogue.version,filename:catalogue.filename,sourceSha256:catalogue.sourceSha256,assessmentDate:catalogue.assessmentDate};
+ source=JSON.stringify(scenario,null,2)+'\n';
+ await writeFile(resolve(root,sourcePath),source);
+}
 assert.equal(scenario.modelVersion,MODEL_VERSION,'Review model changes before regenerating pathways');
 assert.equal(scenario.modelRevision,MODEL_REVISION,'Review model changes before regenerating pathways');
 assert.deepEqual(validateScenario(scenario,catalogue),[]);
@@ -114,7 +120,7 @@ lines.push('## Tool training','',`**${publication.toolTraining.reviewStatus}**`,
  '## Decisions and provenance','',
  ...publication.decisions.map(d=>`- **${d.date}:** ${d.decision}`),'',
  'The excluded resources are '+publication.exclusions.map(e=>'**'+e.id+'**').join(', ')+'. TR-127 is already absent from the catalogue; its exclusion remains in the decision register. Foundation also retains the exclusion of the full INT-2787 social-engineering course.','',
- `Historical candidates: [curated plan](../${publication.sourcePlan}), [coached plan](../${publication.sourceCoachedPlan}) and [internal briefs](../${publication.sourceBriefs}). The archived annual report remains historical. The current recommendation uses its own choices, statuses and catalogue evidence.`, '',
+ 'Historical candidates came from the archived 2027 annual plan (curated, coached and internal-brief files), retained in Git history at tag `pre-simplification`. The current recommendation uses its own choices, statuses and catalogue evidence.', '',
  'The [JSON scenario](Recommended-Training-Pathways.json) is the editable decision source. The guide, internal brief register and coverage record are generated together. Import the JSON into the planner as a separate scenario. The blank starter and retained legacy planner default remain separate. The learner app publishes this scenario with resource and component review labels and specialist variants. By user request, learner 1.6.3 uses standard level recommendations without a route selector. Personal learning records remain browser-local.','');
 
 const internalMap=new Map();
@@ -128,7 +134,6 @@ for(const {item:i,components} of internalMap.values()){
  i.outcomes,'',`Linked outcomes: ${i.requirements.join(', ')}.`,'');
 }
 const outputs={'Recommended-Training-Pathways.md':lines.join('\n'),'Internal-Training-Briefs.md':briefLines.join('\n'),'coverage.json':JSON.stringify(report,null,2)+'\n'};
-const checking=process.argv.includes('--check');
 for(const [file,content] of Object.entries(outputs)){
  const path='recommended-pathways/'+file;
  if(checking)assert.equal(await read(path),content,`Stale generated artifact: ${path}`);

@@ -9,23 +9,13 @@ import {eligibility,measure,timeTotal} from '../public/scoring.js';
 import {prepareProblem,solveProblem} from '../public/optimisation.js';
 const raw=readFileSync(new URL('../public/data/catalogue.json',import.meta.url));
 const data=JSON.parse(raw),course=id=>data.courses.find(c=>c.id===id),ids=rs=>rs.map(r=>r.id),get=(s,id)=>s.cohorts.find(c=>c.id===id);
-const legacy=JSON.parse(readFileSync(new URL('../scenario-history/default-scenario-v1.json',import.meta.url)));
+const legacy=JSON.parse(readFileSync(new URL('./fixtures/default-scenario-v1.json',import.meta.url)));
 
-test('approved v11 revisions retain every unaffected score and a complete 140-outcome crosswalk',()=>{
- const prior=JSON.parse(readFileSync(new URL('../catalogue-history/d2604d12cdfe9509.json',import.meta.url)));
- const v11=JSON.parse(readFileSync(new URL('../catalogue-history/6f245643cc5bf083.json',import.meta.url)));
- assert.deepEqual(data.thresholds,prior.thresholds);
- const changed=new Set(['N5.1','N5.2','N5.8','R3.1.2','R4.1.3']);
- for(const old of prior.courses){const current=v11.courses.find(c=>c.id===old.id);assert.ok(current,old.id);
-  for(const [id,score] of Object.entries(old.scores))if(!changed.has(id))assert.deepEqual(current.scores[id],score,`${old.id}/${id}`);
-  for(const [id,score] of Object.entries(old.unassessed))if(!changed.has(id))assert.deepEqual(current.unassessed[id],score,`${old.id}/${id}`);
- }
+test('retired outcome stays retired and the published crosswalk covers every outcome',()=>{
  assert.ok(!data.requirements.some(r=>r.id==='N5.2'));
  assert.ok(data.requirements.find(r=>r.id==='N5.8').core);
- assert.equal(data.requirements.find(r=>r.id==='N6.4').title,'Accountability');
- for(const r of prior.requirements.filter(r=>r.need==='N8'||r.id==='N5.4'))assert.deepEqual(data.requirements.find(x=>x.id===r.id),r);
  const rows=crosswalk(data),published=JSON.parse(readFileSync(new URL('../public/data/capability-crosswalk.json',import.meta.url)));
- assert.equal(rows.length,140);assert.deepEqual(published.requirements,rows);
+ assert.equal(rows.length,data.requirements.length);assert.deepEqual(published.requirements,rows);
  const known=new Set(ids(data.requirements));
  for(const role of SPECIALISMS)for(const id of role.requirements)assert.ok(known.has(id),id);
  for(const r of rows){assert.ok(r.agenticLevel!==null||r.specialisms.length,r.id);const source=data.requirements.find(x=>x.id===r.id);assert.equal(r.need,source.need);assert.equal(r.description,source.description);assert.equal(r.core,source.core);assert.deepEqual(r.source,source.source);}
@@ -131,13 +121,9 @@ test('v2 roundtrips; v1 imports and duplicates retain all original scope and sel
  assert.ok(ids(scope(data,get(imported,'technical'),imported)).includes('N12.1'));
 });
 
-test('current legacy starter applies the approved retirement to the preserved annual v3 decisions',()=>{
+test('current legacy starter applies the approved retirement and remains valid',()=>{
  const s=JSON.parse(readFileSync(new URL('../public/data/default-scenario.json',import.meta.url)));
- const annual=JSON.parse(readFileSync(new URL('../../archive/analysis/2027-training-plan/2027-recommended-v3.json',import.meta.url)));
- const expected=structuredClone(annual);
- expected.planRevision=3;const l3=get(expected,'technical');l3.selected=l3.selected.filter(id=>id!=='TR-229');l3.excluded.push('TR-229');
- assert.deepEqual({...s,catalogueVersion:annual.catalogueVersion,assumptions:annual.assumptions},expected);
- assert.ok(s.assumptions.startsWith(annual.assumptions));
+ assert.ok(!get(s,'technical').selected.includes('TR-229'));assert.ok(get(s,'technical').excluded.includes('TR-229'));
  assert.equal(s.planVersion,3);assert.equal(s.modelVersion,2);assert.equal(s.catalogueVersion,data.version);
  assert.equal(s.cohorts.length,23);assert.deepEqual(validateScenario(s,data),[]);
  assert.deepEqual(deserialize(serialize(s),data).scenario,s);

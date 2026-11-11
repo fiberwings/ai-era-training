@@ -1,8 +1,8 @@
 # Cyber capability planner
 
-Current release: **2.2.3 — 5 November 2026**. Catalogue **v18**, snapshot `73d3456ec0e1d7ad`; capability model **2 revision 3**.
+Current versions are in the [changelog](../docs/CHANGELOG.md). The planner will not be delivered in its current form; it remains the editor for component scenarios and hosts the shared framework modules used by the learner app.
 
-Open [Training-Planner.html](Training-Planner.html) in a desktop browser. It embeds the full catalogue, model, application and solver, and works without installation or a server. [Project context](../docs/PROJECT_CONTEXT.md) records the agreed scope; [AGENTS.md](../AGENTS.md) identifies authoritative sources and working rules.
+Open [Training-Planner.html](Training-Planner.html) in a desktop browser. It embeds the full catalogue, model, application and solver, and works without installation or a server. [Decisions](../docs/DECISIONS.md) record the agreed scope; [AGENTS.md](../AGENTS.md) identifies authoritative sources and working rules.
 
 ## Current starting points
 
@@ -10,7 +10,7 @@ The maintained [Recommended Training Pathways v0.3](../recommended-pathways/READ
 
 The component workspace starts with **21 blank components and 19 audience templates**. Compose Foundation, L1 Entry, L2 Practitioner, L3 Expert, specialisms and tooling. Course budgets start at 2h, 2h, 8h and 24h for the shared layers, with 4h for each specialism; internal practice is additional. Tool budgets begin unset. Audience-specific copies let a local variant evolve without changing other audiences.
 
-The legacy workspace retains existing schema-1/2 plans. On 2 November 2026 the user authorised the catalogue retirements: the current bundled annual v3 example removes TR-229 from L3, without a replacement, and advances to revision 3. Other selections, budgets and overrides remain unchanged. Older defaults are retained in scenario-history and historical packages. The [old annual report](../archive/analysis/2027-training-plan/2027-Training-Plan-v3.html) is archived as outdated, not a current recommendation. Do not replace the bundled default during routine maintenance. By subsequent user request, learner 1.5.0 publishes the separate Recommended Training Pathways v0.1 schema-3 source. Saved browser plans are retained: retired selections display their name, retirement reason and a warning, with no current assessed credit. Current catalogue discovery and suggestions contain 516 active resources.
+The legacy workspace retains existing schema-1/2 plans. On 2 November 2026 the user authorised the catalogue retirements: the current bundled annual v3 example removes TR-229 from L3, without a replacement, and advances to revision 3. Other selections, budgets and overrides remain unchanged. The old annual report is archived as outdated (Git tag `pre-simplification`). Do not replace the bundled default during routine maintenance. By subsequent user request, learner 1.5.0 publishes the separate Recommended Training Pathways v0.1 schema-3 source. Saved browser plans are retained: retired selections display their name, retirement reason and a warning, with no current assessed credit. Current catalogue discovery and suggestions contain 516 active resources.
 
 Existing browser plans are never automatically cleared or converted. New schema-3 plans use `public/data/component-starter.json`; retained legacy defaults are in `public/data/default-scenario.json`.
 
@@ -76,11 +76,11 @@ python3 training-planner/scripts/build_standalone.py
 node learning-path/scripts/build.mjs
 ```
 
-The component starter and model generation use existing inputs; they do not replace `default-scenario.json`. **Do not run `seed.mjs` or archived annual-plan `--publish` commands during routine rebuilds.** Those commands can replace the retained default. Shared-module changes require rebuilding and testing both apps.
+The component starter and model generation use existing inputs; they do not replace `default-scenario.json`. **Do not run `seed.mjs` during routine rebuilds.** Those commands can replace the retained default. Shared-module changes require rebuilding and testing both apps.
 
 `build_standalone.py --output /path/to/Planner.html` selects another output. Packaging is deterministic, rejects mismatched catalogue/model identities and replaces the output atomically. If packaging fails, the previous standalone remains usable. The source workbook and saved browser plans are not rewritten.
 
-The planner version/date live in `public/release.js`. Change them for a changed distributed product, separately from catalogue/model/scenario versions. Rebuilding identical inputs retains the same release identity. [Release packages](../releases/README.md) contain the current standalone; older Windows update kits are archived.
+The planner version/date live in `public/release.js`. Change them for a changed distributed product, separately from catalogue/model/scenario versions. Rebuilding identical inputs retains the same release identity.
 
 ## Catalogue refresh
 
@@ -88,13 +88,13 @@ Read the [catalogue guide](../catalogue/README.md). Save and recalculate Excel f
 
 ```sh
 python3 -m pip install -r training-planner/requirements.txt
-python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx --check
-python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx
+python3 training-planner/scripts/refresh_catalogue.py catalogue/AI_Era_Cyber_Training_Catalogue.xlsx --check
+python3 training-planner/scripts/verify_workbook.py catalogue/AI_Era_Cyber_Training_Catalogue.xlsx
 ```
 
 For an intentional update, refresh without `--check`, review its change report and scenario compatibility, then rebuild current model/starter/app artifacts. Changing a snapshot does not approve old planning decisions. The packager requires compatible identities; never bypass that by blindly stamping a new version into a scenario.
 
-Catalogue v17 removes obsolete planning tabs, including Matrix. Importing uses named headers, preserves IDs and evidence, validates source references and scores, and reconciles workbook coverage rows. The six Build items templates and saved Proposed training register remain separate. `catalogue-history/` retains old/new snapshots and change reports. Repeating an unchanged refresh creates no new backup. A failed validation leaves the active snapshot intact. Rollback uses `refresh_catalogue.py --rollback VERSION_HASH` and affects the loaded catalogue for every plan, not an individual scenario.
+Importing uses named headers, preserves IDs and evidence, validates source references and scores, and reconciles workbook coverage rows. The six Build items templates and saved Proposed training register remain separate. A failed validation leaves the active snapshot intact. Previous snapshots are in Git; to roll back, restore the previous workbook and catalogue.json from Git.
 
 ## Development and verification
 
@@ -107,7 +107,7 @@ python3 -m unittest discover -s training-planner/tests -p 'test_*.py'
 
 Optional browser regression checks use Playwright (installed separately): `node --test training-planner/tests/component-ui.browser.cjs`. They exercise the standalone HTML, so rebuild it first. The Excel round-trip test also needs Python with `openpyxl`; set `PLANNER_TEST_PYTHON` to that Python executable if needed.
 
-Source: `public/`; import/build tools: `scripts/`; regression checks: `tests/`; previous scenario fixtures: `scenario-history/`; browser evidence: [qa](qa/README.md). Keep the bundled solver and its licence together. Excel ZIP handling uses the pinned JSZip 3.10.1 browser build in `workbook-zip.js`, with its MIT/pako licence embedded and retained in `public/vendor/JSZIP-LICENSE`.
+Source: `public/`; import/build tools: `scripts/`; regression checks: `tests/`; legacy scenario fixtures: `tests/fixtures/`. Keep the bundled solver and its licence together. Excel ZIP handling uses the pinned JSZip 3.10.1 browser build in `workbook-zip.js`, with its MIT/pako licence embedded and retained in `public/vendor/JSZIP-LICENSE`.
 
 For optional server mode, from the project root:
 
@@ -116,5 +116,3 @@ python3 training-planner/server.py
 ```
 
 Open http://127.0.0.1:4173. The full `public/` tree is required. Keep the same address, port, browser profile and standalone-file location when updating; browser storage depends on origin. Use JSON exports to transfer plans. Do not stop an unidentified process if the port is occupied.
-
-The [previous guide](../docs/history/training-planner-README-2026-10-31.md) preserves historical release notes and implementation details. It contains superseded instructions and former paths; use this guide for current maintenance.

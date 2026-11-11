@@ -1,35 +1,36 @@
 # AI era training
 
-Cybersecurity workforce capability framework, assessed training catalogue, recommended pathways, pathway builder, staff learning app and presentations for an agentic AI operating model.
+Cybersecurity workforce capability framework, assessed training catalogue, recommended pathways, staff learning app and presentations for an agentic AI operating model.
 
-## Live deliverables
+## Deliverables
 
-| Deliverable | Open or read | Source and maintenance |
+| Deliverable | Open | Guide |
 | --- | --- | --- |
-| Training catalogue | [Catalogue v18](catalogue/AI_Era_Cyber_Training_Catalogue_v18.xlsx) | [Catalogue guide](catalogue/README.md) |
-| Capability framework | [Model v2 revision 3](capability-framework/Agentic-Era_Workforce_Capability_Model.md) · [CSV crosswalk](capability-framework/Capability_Model_Crosswalk.csv) · [Learning needs and outcomes (Word)](capability-framework/Learning_Needs_and_Outcomes.docx) | [Framework guide](capability-framework/README.md) |
-| Recommended training pathways | [Pathways v0.3](recommended-pathways/Recommended-Training-Pathways.md) · [Planner scenario](recommended-pathways/Recommended-Training-Pathways.json) | [Pathway guide](recommended-pathways/README.md) |
-| Suggested-pathway builder | [Training Planner 2.2.3](training-planner/Training-Planner.html) | [Builder guide](training-planner/README.md) |
-| Staff learning and feedback app | [AI Cybersecurity Learning 1.6.4](learning-path/index.html) | [Staff-app guide](learning-path/README.md) |
-| Presentations | [Cyber workforce preparation pack](presentations/AI-Era_Cyber-Workforce_Preparation.pptx) · [Model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx) · [Capability needs](presentations/AI-era-cyber-capability-needs.pptx) · [2027 next steps](presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | [Presentation guide](presentations/README.md) |
+| Training catalogue | [Workbook](catalogue/AI_Era_Cyber_Training_Catalogue.xlsx) | [Catalogue guide](catalogue/README.md) |
+| Capability framework | [Model](capability-framework/Agentic-Era_Workforce_Capability_Model.md) · [CSV crosswalk](capability-framework/Capability_Model_Crosswalk.csv) · [Learning needs and outcomes (Word)](capability-framework/Learning_Needs_and_Outcomes.docx) | [Framework guide](capability-framework/README.md) |
+| Recommended training pathways | [Pathways guide](recommended-pathways/Recommended-Training-Pathways.md) · [Scenario JSON](recommended-pathways/Recommended-Training-Pathways.json) | [Pathway guide](recommended-pathways/README.md) |
+| Staff learning app | [AI Cybersecurity Learning](learning-path/index.html) | [App guide](learning-path/README.md) |
+| Pathway builder | [Training Planner](training-planner/Training-Planner.html) | [Builder guide](training-planner/README.md) |
+| Presentations | [Workforce preparation pack](presentations/AI-Era_Cyber-Workforce_Preparation.pptx) · [Model briefing](presentations/Agentic-Era_Workforce_Capability_Model_Briefing.pptx) · [Capability needs](presentations/AI-era-cyber-capability-needs.pptx) · [2027 next steps](presentations/AI-Era_2027_Next-Steps_Group-CISO_Walkthrough.pptx) | [Presentation guide](presentations/README.md) |
 
-Download and open either app's HTML file in a desktop browser; no server is needed for normal use. Export JSON backups to preserve personal or planning data. The learner app is connected to the company-tenant Microsoft Forms feedback form; learners submit each response themselves.
+Both apps are single HTML files that open in a desktop browser with no server. Current versions and status are at the top of [the changelog](docs/CHANGELOG.md).
 
-## Current project status
+## How it fits together
 
-Recommended Training Pathways v0.3 is a separate maintained deliverable. Foundation/L1 uses TR-281, TR-145 and the one-hour internal **AI use cases** brief and is **Reviewed**. L2, L3, specialist and coached paths are **AI recommendation - to be reviewed**. TR-229 Reasoning with o1 is excluded from these recommendations. The OWASP, NIST AI RMF and MITRE ATLAS core resource placements are Reviewed; their wider pathways remain pending. The full scenario remains Draft and is published in learner 1.6.4. Each scrolling learning section now separates **Central recommendations** from optional **Suggested for you** matches, while retaining the four progress cards. Import the pathway into the planner to work with the maintained choices.
+```
+Catalogue workbook ──► catalogue.json ──┬──► framework documents (model, CSV, Word)
+Framework modules (planner/public) ─────┤
+Recommended-Training-Pathways.json ─────┴──► pathways guide + coverage ──► learning-path/index.html
+```
 
-The catalogue and both apps use v18 evidence, including the reviewed Udemy SecAI+ courses and the saved AI use cases internal brief in its own worksheet. The builder's component workspace starts blank. By subsequent user request, the staff app now publishes Recommended Training Pathways v0.3. The current legacy planner bundle removes retired TR-229; no replacement is assigned. Catalogue v18 has 516 active resources after 18 approved retirements. V18 changes only the links of the five Udemy SecAI+ courses, including the Foundation course TR-281 (CertMike SecAI+). They now use the internal `societegenerale.udemy.com` Udemy Business tenant: the user confirmed TR-281 access on 5 November 2026 and asked for TR-282–TR-285 to be switched too. V17 simplified the workbook from 18 tabs to 12; obsolete planning views are preserved in archived v16. All imported assessments are unchanged. Historical course evidence, workbooks and app distributions remain intact. Saved personal plans and feedback remain preserved.
+After editing the workbook, one command validates it, rebuilds everything and runs the tests:
 
-The outdated 2027 plan and the no-longer-needed Foundation/L1 review are [archived](archive/README.md). Future planning belongs in [analysis](analysis/README.md). Four PowerPoint decks are live, including the seven-slide framework introduction added on 4 November 2026. The original briefing's historical catalogue appendix needs a freshness review before it is described as aligned with the current catalogue.
+```sh
+node catalogue/scripts/rebuild.mjs catalogue/AI_Era_Cyber_Training_Catalogue.xlsx
+```
 
-## Project navigation
+## More
 
-- [AGENTS.md](AGENTS.md): project context, authoritative sources, directories, working rules and build/test commands.
-- [Current project context](docs/PROJECT_CONTEXT.md): scope, decisions, dependencies and known limitations.
-- [Inventory](docs/INVENTORY.md): what moved, what is live, what is archived and retained evidence.
-- [Verification](docs/VERIFICATION.md): completed reorganisation checks.
-- [Release packages](releases/README.md): version-labelled standalone distributions.
-- [Archive](archive/README.md): older workbooks, models, reports and distribution packages.
-
-Git history is retained in the existing repository. Checkpoint `182e18c` preserves the substantive work before reorganisation. Current source and deliverables are versioned; temporary build files and duplicate working copies are kept in ignored `.work/`.
+- [AGENTS.md](AGENTS.md): sources of truth, rules and build/test commands.
+- [Decisions](docs/DECISIONS.md) and [changelog](docs/CHANGELOG.md).
+- Earlier workbooks, release ZIPs, snapshot history and archived reports are in Git at tag `pre-simplification`.

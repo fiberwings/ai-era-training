@@ -66,7 +66,7 @@ function run(cmd, args, what, capture = false) {
   if (r.error) fail(`${what}: could not start ${cmd} (${r.error.message})`);
   if (capture) process.stdout.write(r.stdout);
   if (r.status !== 0) {
-    if (published) console.error(`\nFiles were already updated. To put everything back, either discard the changes with Git, or run this script\nagain with the previous workbook (${previousWorkbook}).`);
+    if (published) console.error(`\nFiles were already updated. To put everything back, either discard the changes with Git, or restore the previous\nworkbook from Git and run this script again.`);
     fail(`${what} failed (exit code ${r.status}). Fix the problem above and run this again.`);
   }
   return r.stdout;
@@ -114,7 +114,6 @@ if (sample.includes('\r\n')) console.warn('! Files are checked out with Windows 
 const activeCatalogue = readJSON(CATALOGUE);
 const before = {catalogue: activeCatalogue.version, pathways: readJSON(PATHWAYS).catalogueVersion,
   legacy: readJSON(LEGACY_DEFAULT).catalogueVersion};
-const previousWorkbook = path.join('catalogue', activeCatalogue.filename);
 let published = false;
 const shown = path.relative(root, workbook);
 console.log(`Node ${process.version} · ${py.join(' ')} · workbook ${shown.startsWith('..') ? workbook : shown}`);
@@ -181,17 +180,10 @@ const catalogue = readJSON(CATALOGUE);
 if (catalogue.version !== next) fail(`The published snapshot ${catalogue.version} is not the one validated (${next}). Was the workbook changed meanwhile?`);
 
 // ---------- 4. framework and pinned plans ----------
-step('4. Rebuilding the capability framework and updating the pinned plans');
+step('4. Rebuilding the capability framework');
 node(['training-planner/scripts/build_capability_model.mjs'], 'Capability model build');
+node(['training-planner/scripts/build_learning_outcomes_docx.mjs'], 'Learning outcomes Word build');
 node(['training-planner/scripts/build_component_starter.mjs'], 'Component starter build');
-const scenario = readJSON(PATHWAYS);
-if (scenario.catalogueVersion !== catalogue.version) {
-  scenario.catalogueVersion = catalogue.version;
-  scenario.catalogueIdentity = {version: catalogue.version, filename: catalogue.filename,
-    sourceSha256: catalogue.sourceSha256, assessmentDate: catalogue.assessmentDate};
-  writeJSON(PATHWAYS, scenario);
-  console.log('Updated recommended-pathways/Recommended-Training-Pathways.json.');
-}
 const legacy = readJSON(LEGACY_DEFAULT);
 if (legacy.catalogueVersion !== catalogue.version) {
   legacy.catalogueVersion = catalogue.version;
@@ -217,7 +209,7 @@ if (opts['--planner-version']) {
 } else console.log('Planner version unchanged.');
 
 // ---------- 6. apps ----------
-step('6. Building the planner, pathways guide and learner app');
+step('6. Building the pathways guide (records the new catalogue identity), planner and learner app');
 python(['training-planner/scripts/build_standalone.py'], 'Planner build');
 node(['recommended-pathways/scripts/build.mjs'], 'Pathways build');
 node(['recommended-pathways/scripts/build.mjs', '--check'], 'Pathways check');
@@ -242,6 +234,6 @@ if (changing) {
   if (!opts['--app-version']) reminders.push('Raise the learner app version: rerun with --app-version X.Y.Z (or edit learning-path/config.json).');
   if (!opts['--planner-version']) reminders.push('Raise the planner version: rerun with --planner-version X.Y.Z (or edit training-planner/public/release.js).');
   reminders.push('Review the recommendations against the new catalogue; raise the pathways version in its JSON "publication" section if you republish them.');
-  reminders.push('Update the version references in README.md, AGENTS.md and docs/PROJECT_CONTEXT.md, then commit.');
+  reminders.push('Add a line to docs/CHANGELOG.md (and update its "Current" line), commit, and tag catalogue-vN.');
   console.log('\nStill to do:\n' + reminders.map(r => `  • ${r}`).join('\n'));
 }

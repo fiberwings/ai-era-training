@@ -6,7 +6,7 @@ Foundation and L1 use the reviewed shared bundle of CertMike SecAI+, Anthropic A
 
 [Importable planner scenario](Recommended-Training-Pathways.json) · [Internal training briefs](Internal-Training-Briefs.md) · [Detailed coverage and time](coverage.json) · [Maintenance and import guide](README.md)
 
-Catalogue: **v18**, snapshot `73d3456ec0e1d7ad`. Capability model: **2 revision 3**. Pathway owner: **Unassigned**. Next review date: **Unscheduled**; review before assigning an AI-generated pathway and when relevant inputs change.
+Catalogue: **AI_Era_Cyber_Training_Catalogue.xlsx**, snapshot `2afe74740e690f9b`. Capability model: **2 revision 3**. Pathway owner: **Unassigned**. Next review date: **Unscheduled**; review before assigning an AI-generated pathway and when relevant inputs change.
 
 ## How to use the pathways
 
@@ -436,6 +436,6 @@ Before adopting the AI-generated pathways, confirm audience prerequisites and co
 
 The excluded resources are **TR-229**, **TR-127**, **TR-125**, **TR-128**, **TR-129**, **TR-159**. TR-127 is already absent from the catalogue; its exclusion remains in the decision register. Foundation also retains the exclusion of the full INT-2787 social-engineering course.
 
-Historical candidates: [curated plan](../archive/analysis/2027-training-plan/2027-recommended-v3.json), [coached plan](../archive/analysis/2027-training-plan/2027-coached-v3.json) and [internal briefs](../archive/analysis/2027-training-plan/in-house-design-v3.json). The archived annual report remains historical. The current recommendation uses its own choices, statuses and catalogue evidence.
+Historical candidates came from the archived 2027 annual plan (curated, coached and internal-brief files), retained in Git history at tag `pre-simplification`. The current recommendation uses its own choices, statuses and catalogue evidence.
 
 The [JSON scenario](Recommended-Training-Pathways.json) is the editable decision source. The guide, internal brief register and coverage record are generated together. Import the JSON into the planner as a separate scenario. The blank starter and retained legacy planner default remain separate. The learner app publishes this scenario with resource and component review labels and specialist variants. By user request, learner 1.6.3 uses standard level recommendations without a route selector. Personal learning records remain browser-local.

@@ -30,19 +30,17 @@ class RefreshTests(unittest.TestCase):
         self.old=fixture();atomic_write(self.target,encode(self.old))
         self.new=fixture('b'*16);self.new['courses'][0]['scores']['N1.1']['score']=2
 
-    def test_check_publish_repeat_and_rollback(self):
+    def test_check_then_publish_and_repeat(self):
         with patch('refresh_catalogue.read_catalogue',return_value=(self.new,1)):
             before=self.target.read_bytes()
             refresh('input.xlsx',root=self.root,check=True)
             self.assertEqual(self.target.read_bytes(),before)
-            self.assertFalse((self.root/'catalogue-history').exists())
             refresh('input.xlsx',root=self.root)
             self.assertEqual(json.loads(self.target.read_bytes()),self.new)
-            paths=list((self.root/'catalogue-history').iterdir())
+            published=self.target.read_bytes()
             refresh('input.xlsx',root=self.root)
-            self.assertEqual(list((self.root/'catalogue-history').iterdir()),paths)
-            refresh(root=self.root,rollback=self.old['version'])
-            self.assertEqual(json.loads(self.target.read_bytes()),self.old)
+            self.assertEqual(self.target.read_bytes(),published)
+            self.assertEqual(sorted(p.name for p in self.root.iterdir()),['public'])
 
     def test_invalid_source_keeps_active_data_and_releases_lock(self):
         before=self.target.read_bytes()
@@ -82,26 +80,10 @@ class RefreshTests(unittest.TestCase):
 
 
 class WorkbookTests(unittest.TestCase):
-    def test_v17_simplification_preserves_imported_evidence(self):
-        data, checked = read_catalogue(ROOT.parent/'archive/catalogues/AI_Era_Cyber_Training_Catalogue_v17.xlsx')
-        previous = json.loads((ROOT/'catalogue-history/9ed4551ae565417e.json').read_text())
-        for key in ('version', 'filename', 'sourceSha256', 'scoringGuide'):
-            data.pop(key); previous.pop(key)
-        self.assertEqual(checked, 9591)
-        self.assertEqual(data, previous)
-
-    def test_v8_full_import(self):
-        file=ROOT.parent/'archive/catalogues/AI_Era_Cyber_Training_Catalogue_v8.xlsx'
-        if not file.exists():self.skipTest('archived v8 workbook unavailable')
-        data,checked=read_catalogue(file)
-        self.assertEqual(checked,7084)
-        self.assertEqual(data['assessmentDate'],'2026-10-15')
-        self.assertEqual(sum(len(c['scores']) for c in data['courses']),42840)
-        courses={c['id']:c for c in data['courses']}
-        self.assertEqual(courses['INT-154']['scores']['N3.5']['score'],2)
-        self.assertEqual(courses['TR-045']['scores'],{})
-        self.assertEqual(len(courses['TR-045']['unassessed']),140)
-        self.assertIn('audit',courses['INT-154'])
+    def test_live_snapshot_matches_current_workbook(self):
+        live=json.loads((ROOT/'public/data/catalogue.json').read_text())
+        data,_=read_catalogue(ROOT.parent/'catalogue'/live['filename'])
+        self.assertEqual(data['version'],live['version'],'Workbook edited but not published: run catalogue/scripts/rebuild.mjs')
 
     def test_stale_or_missing_formula_cache_rejected(self):
         class Sheet:

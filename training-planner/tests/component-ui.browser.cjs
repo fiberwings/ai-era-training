@@ -68,7 +68,7 @@ test('legacy saved plans retain retired selections and open their retirement det
  const context=await browser.newContext();t.after(()=>context.close());
  const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(app);await page.locator('#cp-target').waitFor();
- const scenario=JSON.parse(fs.readFileSync(path.join(root,'scenario-history/default-before-v16-retirements.json')));
+ const scenario=JSON.parse(fs.readFileSync(path.join(root,'tests/fixtures/default-before-v16-retirements.json')));
  const stored={scenarios:[scenario],activeId:scenario.id};
  await page.evaluate(({store,stored})=>localStorage.setItem(store,JSON.stringify(stored)),{store,stored});
  await page.reload();const details=page.locator('.overview-courses').filter({has:page.locator('[data-action="course"][data-id="TR-229"]')});

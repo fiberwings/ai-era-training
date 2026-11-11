@@ -7,7 +7,10 @@ import {pathLayers,migrateLearner,quickPathProfile} from '../src/layers.js';
 import {pathMetrics} from '../../training-planner/public/components.js';
 const load=p=>JSON.parse(fs.readFileSync(new URL(p,import.meta.url)));
 const source=load('../../recommended-pathways/Recommended-Training-Pathways.json');
-const catalogue=load(`../../training-planner/catalogue-history/${source.catalogueVersion}.json`);
+const catalogue=load('../../training-planner/public/data/catalogue.json');
+// A pre-retirement catalogue: the live one plus TR-229 restored as an active course.
+const retired229=catalogue.retiredCourses.find(c=>c.id==='TR-229');
+const preRetirement={...catalogue,version:'pre-retirement',courses:[...catalogue.courses,{...catalogue.courses[0],id:'TR-229',title:retired229.title}],retiredCourses:catalogue.retiredCourses.filter(c=>c.id!=='TR-229')};
 const bundle={catalogue,scenario:prepareCentralScenario(source,catalogue),scenarioVersion:'pathways-v'+source.publication.version,config:{}};
 const sorted=xs=>[...xs].sort();
 function audienceLearner(a){
@@ -58,7 +61,7 @@ test('legacy coached preference remains backup-compatible without changing stand
  l.profile.learningRoute='invented';assert.throws(()=>validateBackup(l),/learning route/);
 });
 test('new central publication preserves old completions, feedback, notes and saved scope',()=>{
- const old={...bundle,catalogue:load('../../training-planner/catalogue-history/ff6d5a46d0450171.json'),scenario:load('../../training-planner/scenario-history/default-before-v16-retirements.json'),scenarioVersion:'old'};
+ const old={...bundle,catalogue:preRetirement,scenario:load('../../training-planner/tests/fixtures/default-before-v16-retirements.json'),scenarioVersion:'old'};
  const l=newLearner(old);l.profile=quickPathProfile(l.profile,{level:3,roles:[5],tools:['OpenAI ChatGPT']});
  setStatus(old,l,'TR-229','completed');l.items['TR-229'].notes='Keep these notes';l.formsDisabled=true;
  l.profile.centralScope={scenarioId:old.scenario.id,groupId:'architecture',groupName:'Architecture',added:[],removed:['N12.1']};
@@ -75,23 +78,6 @@ test('distributed HTML embeds the maintained recommendation with review and deli
  assert.equal(data.config.appVersion,load('../config.json').appVersion);assert.ok(data.scenario.components.every(c=>!c.selected.includes('TR-229')));
 });
 
-test('core publication preserves the reviewed Foundation, existing choices and all internal learning',()=>{
- const previous=load('../../archive/recommended-pathways/v0.2/Recommended-Training-Pathways.json');
- assert.equal(source.id,previous.id);
- const oldCatalogue=load(`../../training-planner/catalogue-history/${previous.catalogueVersion}.json`);
- // Pinned to the v0.3 release snapshot, so later catalogue edits do not break this record.
- const releaseCatalogue=load('../../training-planner/catalogue-history/8bffc898c371360e.json');
- for(const key of ['courses','requirements','needs','thresholds','buildItems','proposedTraining','retiredCourses'])assert.deepEqual(releaseCatalogue[key],oldCatalogue[key],key);
- assert.deepEqual(source.audiences,previous.audiences);assert.deepEqual(source.overrides,previous.overrides);
- assert.deepEqual(source.components.filter(c=>['foundation','l1'].includes(c.id)),previous.components.filter(c=>['foundation','l1'].includes(c.id)));
- assert.deepEqual(sorted(source.publication.coreReferences.map(r=>r.courseId)),['TR-109','TR-110','TR-117','TR-118']);
- for(const c of source.components){
-  const old=previous.components.find(x=>x.id===c.id);
-  for(const key of ['internal','dependencies','requirements','addedRequirements','removedRequirements','excluded','pinned','reviewStatus'])assert.deepEqual(c[key],old[key],c.id+' '+key);
-  assert.ok(old.selected.every(id=>c.selected.includes(id)),c.id+' retains prior courses');
-  assert.ok(c.selected.filter(id=>!old.selected.includes(id)).every(id=>['TR-109','TR-110','TR-117','TR-118'].includes(id)),c.id+' core additions only');
- }
-});
 test('approved core resources retain a separate review from the pending component',()=>{
  const l=audienceLearner(source.audiences.find(a=>a.id==='security'));
  for(const id of ['TR-109','TR-110','TR-117'])assert.equal(centralReviewStatus(bundle,l,id),'Reviewed',id);
@@ -122,10 +108,12 @@ test('ATLAS and NIST remain unknown time and shared resources are counted once',
  const guide=fs.readFileSync(new URL('../../recommended-pathways/Recommended-Training-Pathways.md',import.meta.url),'utf8');
  assert.match(guide,/time to confirm \(1 resource\)/);
 });
-test('v0.3 adds central options without changing saved completions, notes, feedback or scope',()=>{
- const previous=load('../../archive/recommended-pathways/v0.2/Recommended-Training-Pathways.json');
- const priorCatalogue=load(`../../training-planner/catalogue-history/${previous.catalogueVersion}.json`);
- const old={...bundle,catalogue:priorCatalogue,scenario:prepareCentralScenario(previous,priorCatalogue),scenarioVersion:'pathways-v0.2'};
+test('a new central publication adds options without changing saved completions, notes, feedback or scope',()=>{
+ // The earlier publication: the current one without two core references.
+ const previous=structuredClone(source),dropped=['TR-109','TR-117'];
+ for(const c of previous.components){c.selected=c.selected.filter(id=>!dropped.includes(id));if(c.courseReviews)for(const id of dropped)delete c.courseReviews[id];}
+ previous.publication.coreReferences=previous.publication.coreReferences.filter(r=>!dropped.includes(r.courseId));
+ const old={...bundle,scenario:prepareCentralScenario(previous,catalogue),scenarioVersion:'previous'};
  const l=audienceLearner(source.audiences.find(a=>a.id==='security'));
  l.acknowledged=`${old.catalogue.version}:${old.scenario.id}:${old.scenarioVersion}`;
  setStatus(old,l,'INT-194','completed');l.items['INT-194'].notes='Retain notes';l.feedback=[{courseId:'INT-194',originalContext:'retained'}];

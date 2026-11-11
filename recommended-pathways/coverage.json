@@ -62,10 +62,10 @@
   "version": "0.3",
   "date": "2026-11-02",
   "scenarioId": "recommended-training-pathways-v0.1",
-  "scenarioSha256": "524a53f61a9e99746d3b06a29650f438a6d26599f8cf4f3d881753ab8160e107",
+  "scenarioSha256": "b3e8abe0310c1e40313a4e06280abc26355b026766251af0cdb436ad8c1bbeef",
   "catalogueIdentity": {
-    "version": "73d3456ec0e1d7ad",
-    "filename": "AI_Era_Cyber_Training_Catalogue_v18.xlsx",
+    "version": "2afe74740e690f9b",
+    "filename": "AI_Era_Cyber_Training_Catalogue.xlsx",
     "sourceSha256": "48f00bf87b004c0a89219e605c7ea958a0cffbe4bc1a42cb8c3ddf31b1dfa3a6",
     "assessmentDate": "2026-11-01"
   },

@@ -11,9 +11,8 @@ function arg(name,fallback){const i=args.indexOf(name);if(i<0)return fallback;if
 const known=new Set(['--scenario','--catalogue','--config','--feedback','--output']);
 for(let i=0;i<args.length;i+=2)if(!known.has(args[i]))throw Error(`Unknown argument ${args[i]}`);
 const scenarioSource=JSON.parse(fs.readFileSync(arg('--scenario',path.join(root,'../recommended-pathways/Recommended-Training-Pathways.json')),'utf8'));
-// Publish against the scenario's recorded evidence, even during a separate catalogue refresh.
-const currentCatalogue=JSON.parse(fs.readFileSync(path.join(root,'../training-planner/public/data/catalogue.json'),'utf8'));
-const source=args.includes('--catalogue')?JSON.parse(fs.readFileSync(arg('--catalogue'),'utf8')):currentCatalogue.version===scenarioSource.catalogueVersion?currentCatalogue:JSON.parse(fs.readFileSync(path.join(root,'../training-planner/catalogue-history',`${scenarioSource.catalogueVersion}.json`),'utf8'));
+// Always publish against the live catalogue (or an explicit preview snapshot).
+const source=JSON.parse(fs.readFileSync(arg('--catalogue',path.join(root,'../training-planner/public/data/catalogue.json')),'utf8'));
 const scenario=prepareCentralScenario(scenarioSource,source);
 const config=JSON.parse(fs.readFileSync(arg('--config',path.join(root,'config.json')),'utf8'));
 if(config.formsTemplate)validateFormsTemplate(config.formsTemplate);
